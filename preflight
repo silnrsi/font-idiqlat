@@ -1,0 +1,27 @@
+#!/bin/sh
+
+echo "-----Normalizing Regular UFO..."
+echo "-----Updating production names in Regular..."
+psfsetpsnames -q -p checkfix=none -i source/glyph_data.csv source/masters/SyriacProto-Regular.ufo
+
+echo "-----Updating glyph orders in Regular..."
+psfsetglyphorder -q --header sort_final -i source/glyph_data.csv source/masters/SyriacProto-Regular.ufo -p backup=False -x
+
+echo "-----Normalizing other UFOs..."
+psfnormalize -p checkfix=fix source/masters/SyriacProto-Regular.ufo       &
+psfnormalize -p checkfix=fix source/masters/SyriacProto-Light.ufo       &
+wait
+
+echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
+psfsyncmasters -q source/SyriacProto.designspace 
+
+echo "Updating woff metadata files..."
+psfmakewoffmetadata -q -n  SyriacProto        -i org.sil.fonts source/masters/*-Regular.ufo  -o "source/SyriacProto-WOFF-metadata.xml"
+
+echo "Building internal fea..."
+makefea -o source/masters/SyriacProto-Regular.ufo/features.fea -l source/logs/SyriacProto-Regular-psfmakefea.log -i source/opentype/main.feax --omitaps "R, O, L" source/masters/SyriacProto-Regular.ufo &
+makefea -o source/masters/SyriacProto-Light.ufo/features.fea    -l source/logs/SyriacProto-Light-psfmakefea.log    -i source/opentype/main.feax --omitaps "R, O, L" source/masters/SyriacProto-Light.ufo    &
+
+wait
+
+echo "-----Preflight completed!"
