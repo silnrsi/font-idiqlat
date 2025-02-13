@@ -19,8 +19,8 @@ echo "Updating woff metadata files..."
 psfmakewoffmetadata -q -n  SyriacProto        -i org.sil.fonts source/masters/*-Regular.ufo  -o "source/SyriacProto-WOFF-metadata.xml"
 
 echo "Building internal fea..."
-makefea -o source/masters/SyriacProto-Regular.ufo/features.fea -l source/logs/SyriacProto-Regular-psfmakefea.log -i source/opentype/main.feax --omitaps "R, O, L" source/masters/SyriacProto-Regular.ufo &
-makefea -o source/masters/SyriacProto-Light.ufo/features.fea    -l source/logs/SyriacProto-Light-psfmakefea.log    -i source/opentype/main.feax --omitaps "R, O, L" source/masters/SyriacProto-Light.ufo    &
+# makefea -o source/masters/SyriacProto-Regular.ufo/features.fea -l source/logs/SyriacProto-Regular-psfmakefea.log -i source/opentype/main.feax --omitaps "R, O, L" source/masters/SyriacProto-Regular.ufo &
+# makefea -o source/masters/SyriacProto-Light.ufo/features.fea    -l source/logs/SyriacProto-Light-psfmakefea.log    -i source/opentype/main.feax --omitaps "R, O, L" source/masters/SyriacProto-Light.ufo    &
 
 wait
 
