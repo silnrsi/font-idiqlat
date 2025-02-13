@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="space" format="2">
+  <advance width="520"/>
+  <unicode hex="0020"/>
+  <note>
+space
+</note>
+  <outline/>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-02-10 17:38:11 +0000</string>
+    </dict>
+  </lib>
+</glyph>

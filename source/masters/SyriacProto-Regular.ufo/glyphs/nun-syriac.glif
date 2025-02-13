@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nun-syriac" format="2">
+  <advance width="831"/>
+  <unicode hex="0722"/>
+  <note>
+U0722
+</note>
+  <anchor x="375" y="450" name="class0"/>
+  <anchor x="450" y="-210" name="class0_"/>
+  <anchor x="345" y="405" name="class1"/>
+  <anchor x="360" y="-150" name="class2"/>
+  <anchor x="375" y="-165" name="class3"/>
+  <outline>
+    <contour>
+      <point x="941" y="-525" type="curve" smooth="yes"/>
+      <point x="950" y="-525"/>
+      <point x="955" y="-521"/>
+      <point x="955" y="-514" type="curve" smooth="yes"/>
+      <point x="955" y="-510"/>
+      <point x="950" y="-501"/>
+      <point x="939" y="-488" type="curve" smooth="yes"/>
+      <point x="360" y="263" type="line" smooth="yes"/>
+      <point x="355" y="270"/>
+      <point x="346" y="274"/>
+      <point x="335" y="274" type="curve" smooth="yes"/>
+      <point x="325" y="274"/>
+      <point x="312" y="268"/>
+      <point x="296" y="257" type="curve" smooth="yes"/>
+      <point x="173" y="170" type="line"/>
+      <point x="320" y="-25" type="line"/>
+      <point x="423" y="51" type="line"/>
+      <point x="926" y="-515" type="line"/>
+      <point x="931" y="-522"/>
+      <point x="936" y="-525"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>NPUSHB[ ]	/* 36 values pushed */
+1 15 15 64 16 0 5 7 0 5 4 5 6 11 6 7 8 7 7 8 12 13 11 7 7 8 6 6 7 10 2 6 1 1 7 70
+SROUND[ ]	/* SuperRound */
+MDAP[1]	/* MoveDirectAbsPt */
+SHZ[1]	/* ShiftZoneByLastPoint */
+RTG[ ]	/* RoundToGrid */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SDPVTL[1]	/* SetDualPVectorToLine */
+MDAP[0]	/* MoveDirectAbsPt */
+SFVTL[0]	/* SetFVectorToLine */
+MDRP[00100]	/* MoveDirectRelPt */
+SFVTPV[ ]	/* SetFVectorToPVector */
+MIRP[11100]	/* MoveIndirectRelPt */
+SFVTPV[ ]	/* SetFVectorToPVector */
+MDRP[00100]	/* MoveDirectRelPt */
+SDPVTL[1]	/* SetDualPVectorToLine */
+MDAP[0]	/* MoveDirectAbsPt */
+SFVTPV[ ]	/* SetFVectorToPVector */
+MDRP[00100]	/* MoveDirectRelPt */
+SFVTL[0]	/* SetFVectorToLine */
+MIRP[11100]	/* MoveIndirectRelPt */
+SFVTL[0]	/* SetFVectorToLine */
+MDRP[00100]	/* MoveDirectRelPt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[0]	/* MoveDirectAbsPt */
+MDAP[0]	/* MoveDirectAbsPt */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[0]	/* MoveDirectAbsPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+MD[0]	/* MeasureDistance */
+ROUND[00]	/* Round */
+PUSHW[ ]	/* 2 values pushed */
+7 15
+MD[0]	/* MeasureDistance */
+ROUND[00]	/* Round */
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+64
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+SHPIX[ ]	/* ShiftZoneByPixel */
+SRP1[ ]	/* SetRefPoint1 */
+SHZ[1]	/* ShiftZoneByLastPoint */
+PUSHW[ ]	/* 2 values pushed */
+15 -64
+SHPIX[ ]	/* ShiftZoneByPixel */
+EIF[ ]	/* EndIf */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-02-10 17:38:38 +0000</string>
+    </dict>
+  </lib>
+</glyph>

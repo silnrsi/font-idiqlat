@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblleft" format="2">
+  <advance width="745"/>
+  <unicode hex="201C"/>
+  <note>
+quotedblleft
+</note>
+  <outline>
+    <contour>
+      <point x="473" y="764" type="curve" smooth="yes"/>
+      <point x="517" y="764"/>
+      <point x="552" y="801"/>
+      <point x="552" y="845" type="curve" smooth="yes"/>
+      <point x="552" y="889"/>
+      <point x="532" y="916"/>
+      <point x="492" y="927" type="curve"/>
+      <point x="492" y="965"/>
+      <point x="515" y="995"/>
+      <point x="560" y="1016" type="curve"/>
+      <point x="546" y="1025"/>
+      <point x="539" y="1062"/>
+      <point x="539" y="1125" type="curve"/>
+      <point x="440" y="1048"/>
+      <point x="390" y="960"/>
+      <point x="390" y="862" type="curve" smooth="yes"/>
+      <point x="390" y="836"/>
+      <point x="397" y="814"/>
+      <point x="412" y="795" type="curve" smooth="yes"/>
+      <point x="427" y="774"/>
+      <point x="448" y="764"/>
+    </contour>
+    <contour>
+      <point x="276" y="764" type="curve" smooth="yes"/>
+      <point x="320" y="764"/>
+      <point x="355" y="801"/>
+      <point x="355" y="845" type="curve" smooth="yes"/>
+      <point x="355" y="889"/>
+      <point x="335" y="916"/>
+      <point x="295" y="927" type="curve"/>
+      <point x="295" y="965"/>
+      <point x="318" y="995"/>
+      <point x="363" y="1016" type="curve"/>
+      <point x="348" y="1025"/>
+      <point x="341" y="1062"/>
+      <point x="341" y="1125" type="curve"/>
+      <point x="242" y="1048"/>
+      <point x="193" y="960"/>
+      <point x="193" y="862" type="curve" smooth="yes"/>
+      <point x="193" y="836"/>
+      <point x="200" y="814"/>
+      <point x="214" y="795" type="curve" smooth="yes"/>
+      <point x="229" y="774"/>
+      <point x="250" y="764"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>NPUSHB[ ]	/* 23 values pushed */
+1 30 30 64 31 0 17 15 2 0 11 5 4 19 5 26 28 13 22 7 1 26 70
+SROUND[ ]	/* SuperRound */
+MDAP[1]	/* MoveDirectAbsPt */
+SHZ[1]	/* ShiftZoneByLastPoint */
+RTG[ ]	/* RoundToGrid */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MDAP[1]	/* MoveDirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+MDAP[0]	/* MoveDirectAbsPt */
+MDAP[0]	/* MoveDirectAbsPt */
+MDAP[0]	/* MoveDirectAbsPt */
+MDAP[0]	/* MoveDirectAbsPt */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+MD[0]	/* MeasureDistance */
+ROUND[00]	/* Round */
+PUSHW[ ]	/* 2 values pushed */
+26 30
+MD[0]	/* MeasureDistance */
+ROUND[00]	/* Round */
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+64
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+SHPIX[ ]	/* ShiftZoneByPixel */
+SRP1[ ]	/* SetRefPoint1 */
+SHZ[1]	/* ShiftZoneByLastPoint */
+PUSHW[ ]	/* 2 values pushed */
+30 -64
+SHPIX[ ]	/* ShiftZoneByPixel */
+EIF[ ]	/* EndIf */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-02-10 17:38:38 +0000</string>
+    </dict>
+  </lib>
+</glyph>

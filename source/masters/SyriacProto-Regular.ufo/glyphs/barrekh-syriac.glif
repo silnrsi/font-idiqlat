@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="barrekh-syriac" format="2">
+  <unicode hex="074A"/>
+  <note>
+U074a
+</note>
+  <anchor x="195" y="195" name="_class0"/>
+  <outline>
+    <contour>
+      <point x="173" y="0" type="line"/>
+      <point x="217" y="0" type="line"/>
+      <point x="217" y="174" type="line"/>
+      <point x="391" y="174" type="line"/>
+      <point x="391" y="218" type="line"/>
+      <point x="217" y="218" type="line"/>
+      <point x="217" y="390" type="line"/>
+      <point x="173" y="390" type="line"/>
+      <point x="173" y="218" type="line"/>
+      <point x="1" y="218" type="line"/>
+      <point x="1" y="174" type="line"/>
+      <point x="173" y="174" type="line"/>
+    </contour>
+    <contour>
+      <point x="122" y="95" type="curve" smooth="yes"/>
+      <point x="139" y="95"/>
+      <point x="148" y="103"/>
+      <point x="148" y="120" type="curve" smooth="yes"/>
+      <point x="148" y="136"/>
+      <point x="139" y="144"/>
+      <point x="122" y="144" type="curve" smooth="yes"/>
+      <point x="106" y="144"/>
+      <point x="98" y="136"/>
+      <point x="98" y="120" type="curve" smooth="yes"/>
+      <point x="98" y="103"/>
+      <point x="106" y="95"/>
+    </contour>
+    <contour>
+      <point x="272" y="95" type="curve" smooth="yes"/>
+      <point x="288" y="95"/>
+      <point x="296" y="103"/>
+      <point x="296" y="120" type="curve" smooth="yes"/>
+      <point x="296" y="136"/>
+      <point x="288" y="144"/>
+      <point x="272" y="144" type="curve" smooth="yes"/>
+      <point x="257" y="144"/>
+      <point x="249" y="136"/>
+      <point x="249" y="120" type="curve" smooth="yes"/>
+      <point x="249" y="103"/>
+      <point x="257" y="95"/>
+    </contour>
+    <contour>
+      <point x="125" y="249" type="curve" smooth="yes"/>
+      <point x="140" y="249"/>
+      <point x="148" y="257"/>
+      <point x="148" y="272" type="curve" smooth="yes"/>
+      <point x="148" y="289"/>
+      <point x="140" y="297"/>
+      <point x="125" y="297" type="curve" smooth="yes"/>
+      <point x="108" y="297"/>
+      <point x="100" y="289"/>
+      <point x="100" y="272" type="curve" smooth="yes"/>
+      <point x="100" y="257"/>
+      <point x="108" y="249"/>
+    </contour>
+    <contour>
+      <point x="272" y="250" type="curve" smooth="yes"/>
+      <point x="288" y="250"/>
+      <point x="296" y="258"/>
+      <point x="296" y="275" type="curve" smooth="yes"/>
+      <point x="296" y="291"/>
+      <point x="288" y="299"/>
+      <point x="272" y="299" type="curve" smooth="yes"/>
+      <point x="257" y="299"/>
+      <point x="249" y="291"/>
+      <point x="249" y="275" type="curve" smooth="yes"/>
+      <point x="249" y="258"/>
+      <point x="257" y="250"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>NPUSHB[ ]	/* 64 values pushed */
+1 44 44 64 45 24 35 24 24 25 30 29 24 27 20 4 6 16 0 36 8 6 40 12 34 33 26 3 25 6 32 31 28 3 27 10 2 8 14 6 42 22 8 38 18 29 28 25 3 24 8 35 34 31 3 30 33 32 27 26 1 1 29 70
+SROUND[ ]	/* SuperRound */
+MDAP[1]	/* MoveDirectAbsPt */
+SHZ[1]	/* ShiftZoneByLastPoint */
+RTG[ ]	/* RoundToGrid */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MDAP[1]	/* MoveDirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MDAP[1]	/* MoveDirectAbsPt */
+SLOOP[ ]	/* SetLoopVariable */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+SLOOP[ ]	/* SetLoopVariable */
+ALIGNRP[ ]	/* AlignRelativePt */
+MDAP[1]	/* MoveDirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MDAP[1]	/* MoveDirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SLOOP[ ]	/* SetLoopVariable */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+SLOOP[ ]	/* SetLoopVariable */
+ALIGNRP[ ]	/* AlignRelativePt */
+MDAP[1]	/* MoveDirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MDAP[1]	/* MoveDirectAbsPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[11101]	/* MoveIndirectRelPt */
+ALIGNRP[ ]	/* AlignRelativePt */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+MD[0]	/* MeasureDistance */
+ROUND[00]	/* Round */
+PUSHW[ ]	/* 2 values pushed */
+29 44
+MD[0]	/* MeasureDistance */
+ROUND[00]	/* Round */
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+64
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+SHPIX[ ]	/* ShiftZoneByPixel */
+SRP1[ ]	/* SetRefPoint1 */
+SHZ[1]	/* ShiftZoneByLastPoint */
+PUSHW[ ]	/* 2 values pushed */
+44 -64
+SHPIX[ ]	/* ShiftZoneByPixel */
+EIF[ ]	/* EndIf */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-02-10 17:38:38 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ringhalfleftcentered" format="2">
+  <advance width="638"/>
+  <unicode hex="02D3"/>
+  <note>
+U02d3
+</note>
+  <outline>
+    <contour>
+      <point x="357" y="859" type="curve" smooth="yes"/>
+      <point x="366" y="859"/>
+      <point x="370" y="863"/>
+      <point x="370" y="872" type="curve" smooth="yes"/>
+      <point x="370" y="873"/>
+      <point x="369" y="875"/>
+      <point x="368" y="878" type="curve"/>
+      <point x="345" y="923"/>
+      <point x="329" y="959"/>
+      <point x="320" y="988" type="curve" smooth="yes"/>
+      <point x="311" y="1021"/>
+      <point x="306" y="1054"/>
+      <point x="306" y="1087" type="curve" smooth="yes"/>
+      <point x="306" y="1120"/>
+      <point x="311" y="1152"/>
+      <point x="320" y="1185" type="curve" smooth="yes"/>
+      <point x="329" y="1214"/>
+      <point x="345" y="1250"/>
+      <point x="368" y="1295" type="curve"/>
+      <point x="370" y="1301" type="line"/>
+      <point x="370" y="1310"/>
+      <point x="366" y="1314"/>
+      <point x="357" y="1314" type="curve" smooth="yes"/>
+      <point x="346" y="1314"/>
+      <point x="331" y="1292"/>
+      <point x="311" y="1247" type="curve" smooth="yes"/>
+      <point x="293" y="1208"/>
+      <point x="282" y="1179"/>
+      <point x="277" y="1160" type="curve" smooth="yes"/>
+      <point x="271" y="1134"/>
+      <point x="268" y="1110"/>
+      <point x="268" y="1087" type="curve" smooth="yes"/>
+      <point x="268" y="1035"/>
+      <point x="283" y="980"/>
+      <point x="313" y="922" type="curve" smooth="yes"/>
+      <point x="334" y="880"/>
+      <point x="349" y="859"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>NPUSHB[ ]	/* 16 values pushed */
+1 26 26 64 27 0 14 0 20 6 6 12 2 1 6 70
+SROUND[ ]	/* SuperRound */
+MDAP[1]	/* MoveDirectAbsPt */
+SHZ[1]	/* ShiftZoneByLastPoint */
+RTG[ ]	/* RoundToGrid */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[11101]	/* MoveIndirectRelPt */
+MDAP[0]	/* MoveDirectAbsPt */
+MDAP[0]	/* MoveDirectAbsPt */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+MD[0]	/* MeasureDistance */
+ROUND[00]	/* Round */
+PUSHW[ ]	/* 2 values pushed */
+6 26
+MD[0]	/* MeasureDistance */
+ROUND[00]	/* Round */
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+64
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+SHPIX[ ]	/* ShiftZoneByPixel */
+SRP1[ ]	/* SetRefPoint1 */
+SHZ[1]	/* ShiftZoneByLastPoint */
+PUSHW[ ]	/* 2 values pushed */
+26 -64
+SHPIX[ ]	/* ShiftZoneByPixel */
+EIF[ ]	/* EndIf */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025-02-10 17:38:38 +0000</string>
+    </dict>
+  </lib>
+</glyph>
