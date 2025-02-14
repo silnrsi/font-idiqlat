@@ -43,7 +43,7 @@
         <!-- stylemapfamilyname: use <familyname> for Regular and Light, else copy <name> -->
         <!-- stylemapstylename: use "regular" for all styles except B: use "bold" -->
 
-        <!-- Lateef Light -->
+        <!-- SyriacProto Light -->
         <instance       familyname="SyriacProto"
                           filename="instances/SyriacProto-Light.ufo"
                               name="SyriacProto Light"

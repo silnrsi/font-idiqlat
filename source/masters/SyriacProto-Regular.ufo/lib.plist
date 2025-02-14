@@ -30,7 +30,7 @@
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
   <integer>100</integer>
   <key>com.schriftgestaltung.fontMasterOrder</key>
-  <integer>0</integer>
+  <integer>1</integer>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
   <key>com.schriftgestaltung.weight</key>
@@ -41,23 +41,6 @@
   <string>Regular</string>
   <key>com.schriftgestaltung.widthValue</key>
   <integer>100</integer>
-  <key>org.sil.altLineMetrics</key>
-  <dict>
-    <key>loose</key>
-    <dict>
-      <key>ascender</key>
-      <integer>2900</integer>
-      <key>descender</key>
-      <integer>-1100</integer>
-    </dict>
-    <key>tight</key>
-    <dict>
-      <key>ascender</key>
-      <integer>2100</integer>
-      <key>descender</key>
-      <integer>-550</integer>
-    </dict>
-  </dict>
   <key>public.glyphOrder</key>
   <array>
     <string>space</string>
