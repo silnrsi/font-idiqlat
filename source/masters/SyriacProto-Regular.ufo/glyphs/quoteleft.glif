@@ -30,47 +30,4 @@ quoteleft
       <point x="227" y="764"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>assembly</key>
-      <string>NPUSHB[ ]	/* 16 values pushed */
-1 15 15 64 16 0 2 0 4 5 11 13 7 1 11 70
-SROUND[ ]	/* SuperRound */
-MDAP[1]	/* MoveDirectAbsPt */
-SHZ[1]	/* ShiftZoneByLastPoint */
-RTG[ ]	/* RoundToGrid */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-MDAP[1]	/* MoveDirectAbsPt */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-MIRP[11101]	/* MoveIndirectRelPt */
-MDAP[0]	/* MoveDirectAbsPt */
-MDAP[0]	/* MoveDirectAbsPt */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-MD[0]	/* MeasureDistance */
-ROUND[00]	/* Round */
-PUSHW[ ]	/* 2 values pushed */
-11 15
-MD[0]	/* MeasureDistance */
-ROUND[00]	/* Round */
-SUB[ ]	/* Subtract */
-PUSHB[ ]	/* 1 value pushed */
-64
-GT[ ]	/* GreaterThan */
-IF[ ]	/* If */
-SHPIX[ ]	/* ShiftZoneByPixel */
-SRP1[ ]	/* SetRefPoint1 */
-SHZ[1]	/* ShiftZoneByLastPoint */
-PUSHW[ ]	/* 2 values pushed */
-15 -64
-SHPIX[ ]	/* ShiftZoneByPixel */
-EIF[ ]	/* EndIf */</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2025-02-10 17:38:38 +0000</string>
-    </dict>
-  </lib>
 </glyph>

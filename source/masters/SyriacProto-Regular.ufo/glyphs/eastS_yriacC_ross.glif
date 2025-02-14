@@ -441,10 +441,4 @@ U2671
       <point x="962" y="725"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2025-02-10 17:38:38 +0000</string>
-    </dict>
-  </lib>
 </glyph>
