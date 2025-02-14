@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="e-syriac.init" format="2">
   <advance width="1097"/>
-  <note>
-U0725Init
-</note>
   <anchor x="300" y="960" name="class0"/>
   <anchor x="525" y="-150" name="class0_"/>
   <anchor x="360" y="1020" name="class1"/>

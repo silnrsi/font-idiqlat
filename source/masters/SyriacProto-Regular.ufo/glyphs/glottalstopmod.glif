@@ -2,9 +2,6 @@
 <glyph name="glottalstopmod" format="2">
   <advance width="395"/>
   <unicode hex="02C0"/>
-  <note>
-U02c0
-</note>
   <outline>
     <contour>
       <point x="181" y="965" type="line"/>

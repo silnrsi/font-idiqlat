@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taw-syriac.fina" format="2">
   <advance width="1046"/>
-  <note>
-U072cFina
-</note>
   <anchor x="405" y="915" name="class0"/>
   <anchor x="480" y="-150" name="class0_"/>
   <anchor x="360" y="960" name="class1"/>

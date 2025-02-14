@@ -2,9 +2,6 @@
 <glyph name="westSyriacCross" format="2">
   <advance width="1257"/>
   <unicode hex="2670"/>
-  <note>
-U2670
-</note>
   <outline>
     <contour>
       <point x="442" y="3" type="line"/>

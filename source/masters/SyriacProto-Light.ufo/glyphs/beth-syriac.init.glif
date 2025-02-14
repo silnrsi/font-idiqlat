@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="beth-syriac.init" format="2">
   <advance width="855"/>
-  <note>
-U0712Init
-</note>
   <anchor x="480" y="735" name="class0"/>
   <anchor x="525" y="-135" name="class0_"/>
   <anchor x="465" y="735" name="class1"/>

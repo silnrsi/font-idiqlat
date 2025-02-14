@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sadhe_nun-syriac" format="2">
   <advance width="1172"/>
-  <note>
-U0728U0722Isol
-</note>
   <anchor x="780" y="330" name="class0_1"/>
   <anchor x="240" y="240" name="class0_2"/>
   <anchor x="795" y="360" name="class1_1"/>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevebelowcomb" format="2">
   <unicode hex="032E"/>
-  <note>
-U032e
-</note>
   <anchor x="225" y="-90" name="_class2"/>
   <outline>
     <contour>

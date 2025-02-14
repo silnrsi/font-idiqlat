@@ -2,9 +2,6 @@
 <glyph name="eastSyriacCross" format="2">
   <advance width="1257"/>
   <unicode hex="2671"/>
-  <note>
-U2671
-</note>
   <outline>
     <contour>
       <point x="442" y="3" type="line"/>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rish_dieresiscomb-syriac" format="2">
   <advance width="770"/>
-  <note>
-U072aU0308Isol
-</note>
   <anchor x="330" y="1020" name="class0_1"/>
   <anchor x="330" y="1005" name="class0_2"/>
   <anchor x="315" y="1020" name="class1_1"/>

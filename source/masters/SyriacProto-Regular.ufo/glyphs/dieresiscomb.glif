@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresiscomb" format="2">
   <unicode hex="0308"/>
-  <note>
-U0308
-</note>
   <anchor x="240" y="15" name="_class0"/>
   <outline>
     <contour>

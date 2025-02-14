@@ -2,9 +2,6 @@
 <glyph name="semkath-syriac" format="2">
   <advance width="1123"/>
   <unicode hex="0723"/>
-  <note>
-U0723
-</note>
   <anchor x="720" y="780" name="class0"/>
   <anchor x="735" y="-150" name="class0_"/>
   <anchor x="750" y="765" name="class1"/>

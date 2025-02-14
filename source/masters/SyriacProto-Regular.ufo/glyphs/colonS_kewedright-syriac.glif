@@ -2,9 +2,6 @@
 <glyph name="colonSkewedright-syriac" format="2">
   <advance width="486"/>
   <unicode hex="0707"/>
-  <note>
-U0707
-</note>
   <outline>
     <contour>
       <point x="159" y="247" type="line"/>

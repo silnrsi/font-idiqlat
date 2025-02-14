@@ -2,9 +2,6 @@
 <glyph name="harkleanObelus-syriac" format="2">
   <advance width="1013"/>
   <unicode hex="070B"/>
-  <note>
-U070b
-</note>
   <outline>
     <contour>
       <point x="122" y="664" type="line"/>

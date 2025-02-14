@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaph-syriac.medi" format="2">
   <advance width="844"/>
-  <note>
-U071fMedi
-</note>
   <anchor x="435" y="750" name="class0"/>
   <anchor x="450" y="-150" name="class0_"/>
   <anchor x="450" y="735" name="class1"/>

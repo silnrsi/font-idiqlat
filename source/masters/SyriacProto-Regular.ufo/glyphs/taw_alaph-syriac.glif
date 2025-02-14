@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taw_alaph-syriac" format="2">
   <advance width="895"/>
-  <note>
-U072cU0710Isol
-</note>
   <anchor x="660" y="915" name="class0_1"/>
   <anchor x="330" y="1035" name="class0_2"/>
   <anchor x="705" y="705" name="class1_1"/>

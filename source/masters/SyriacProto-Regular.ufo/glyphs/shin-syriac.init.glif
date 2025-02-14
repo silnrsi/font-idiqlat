@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shin-syriac.init" format="2">
   <advance width="785"/>
-  <note>
-U072bInit
-</note>
   <anchor x="450" y="795" name="class0"/>
   <anchor x="465" y="-135" name="class0_"/>
   <anchor x="465" y="765" name="class1"/>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringcomb" format="2">
   <unicode hex="030A"/>
-  <note>
-U030a
-</note>
   <anchor x="135" y="15" name="_class1"/>
   <outline>
     <contour>

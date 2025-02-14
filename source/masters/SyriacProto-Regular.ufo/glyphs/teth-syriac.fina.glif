@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="teth-syriac.fina" format="2">
   <advance width="1524"/>
-  <note>
-U071bFina
-</note>
   <anchor x="960" y="720" name="class0"/>
   <anchor x="735" y="-135" name="class0_"/>
   <anchor x="930" y="795" name="class1"/>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shin-syriac.medi" format="2">
   <advance width="809"/>
-  <note>
-U072bMedi
-</note>
   <anchor x="450" y="750" name="class0"/>
   <anchor x="450" y="-135" name="class0_"/>
   <anchor x="450" y="735" name="class1"/>

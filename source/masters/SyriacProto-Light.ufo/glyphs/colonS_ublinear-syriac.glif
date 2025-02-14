@@ -2,9 +2,6 @@
 <glyph name="colonSublinear-syriac" format="2">
   <advance width="430"/>
   <unicode hex="0704"/>
-  <note>
-U0704
-</note>
   <outline>
     <contour>
       <point x="219" y="-185" type="curve" smooth="yes"/>

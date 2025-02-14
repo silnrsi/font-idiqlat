@@ -2,9 +2,6 @@
 <glyph name="shin-syriac" format="2">
   <advance width="1035"/>
   <unicode hex="072B"/>
-  <note>
-U072b
-</note>
   <anchor x="690" y="780" name="class0"/>
   <anchor x="675" y="-135" name="class0_"/>
   <anchor x="705" y="765" name="class1"/>

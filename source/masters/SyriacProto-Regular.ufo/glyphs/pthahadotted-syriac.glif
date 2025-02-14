@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pthahadotted-syriac" format="2">
   <unicode hex="0732"/>
-  <note>
-U0732
-</note>
   <outline>
     <contour>
       <point x="416" y="961" type="curve" smooth="yes"/>

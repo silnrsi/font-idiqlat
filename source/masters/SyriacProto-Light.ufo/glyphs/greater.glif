@@ -2,9 +2,6 @@
 <glyph name="greater" format="2">
   <advance width="941"/>
   <unicode hex="003E"/>
-  <note>
-greater
-</note>
   <outline>
     <contour>
       <point x="184" y="2" type="curve" smooth="yes"/>

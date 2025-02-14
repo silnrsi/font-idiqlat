@@ -2,9 +2,6 @@
 <glyph name="abbreviation-syriac" format="2">
   <advance width="33"/>
   <unicode hex="070F"/>
-  <note>
-U070f
-</note>
   <outline>
     <contour>
       <point x="0" y="-94" type="line"/>

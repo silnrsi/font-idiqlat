@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tethGarshuni-syriac.init" format="2">
   <advance width="1263"/>
-  <note>
-U071cInit
-</note>
   <anchor x="720" y="690" name="class0"/>
   <anchor x="420" y="-180" name="class0_"/>
   <anchor x="660" y="795" name="class1"/>

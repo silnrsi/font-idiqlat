@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gamal-syriac.medi" format="2">
   <advance width="963"/>
-  <note>
-U0713Medi
-</note>
   <anchor x="645" y="795" name="class0"/>
   <anchor x="330" y="-165" name="class0_"/>
   <anchor x="585" y="825" name="class1"/>

@@ -2,9 +2,6 @@
 <glyph name="slash" format="2">
   <advance width="845"/>
   <unicode hex="002F"/>
-  <note>
-slash
-</note>
   <outline>
     <contour>
       <point x="248" y="-76" type="curve" smooth="yes"/>

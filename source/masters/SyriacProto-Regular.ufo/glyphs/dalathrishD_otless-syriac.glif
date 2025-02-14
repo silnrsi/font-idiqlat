@@ -2,9 +2,6 @@
 <glyph name="dalathrishDotless-syriac" format="2">
   <advance width="686"/>
   <unicode hex="0716"/>
-  <note>
-U0716
-</note>
   <anchor x="375" y="720" name="class0"/>
   <anchor x="345" y="-150" name="class0_"/>
   <anchor x="330" y="720" name="class1"/>

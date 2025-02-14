@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pe_brevebelowcomb-syriac" format="2">
   <advance width="1146"/>
-  <note>
-U0726U032e
-</note>
   <outline>
     <contour>
       <point x="324" y="0" type="curve" smooth="yes"/>

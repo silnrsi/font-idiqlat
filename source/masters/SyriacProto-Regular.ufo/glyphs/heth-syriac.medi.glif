@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heth-syriac.medi" format="2">
   <advance width="948"/>
-  <note>
-U071aMedi
-</note>
   <anchor x="420" y="540" name="class0"/>
   <anchor x="570" y="-135" name="class0_"/>
   <anchor x="420" y="525" name="class1"/>

@@ -2,9 +2,6 @@
 <glyph name="glottalstopreversedmod" format="2">
   <advance width="395"/>
   <unicode hex="02C1"/>
-  <note>
-U02c1
-</note>
   <outline>
     <contour>
       <point x="183" y="965" type="curve"/>

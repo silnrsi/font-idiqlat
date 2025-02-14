@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamadh_alaph-syriac" format="2">
   <advance width="1511"/>
-  <note>
-U0720U0710Isol
-</note>
   <anchor x="1260" y="885" name="class0_1"/>
   <anchor x="345" y="990" name="class0_2"/>
   <anchor x="1215" y="945" name="class1_1"/>

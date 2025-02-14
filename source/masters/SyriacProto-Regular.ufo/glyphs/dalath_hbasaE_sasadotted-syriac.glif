@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalath_hbasaEsasadotted-syriac" format="2">
   <advance width="709"/>
-  <note>
-U0715U073C
-</note>
   <anchor x="360" y="720" name="class0"/>
   <anchor x="0" y="0" name="class0_"/>
   <anchor x="285" y="705" name="class1"/>

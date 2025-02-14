@@ -2,9 +2,6 @@
 <glyph name="kaph-syriac" format="2">
   <advance width="853"/>
   <unicode hex="071F"/>
-  <note>
-U071f
-</note>
   <anchor x="420" y="765" name="class0"/>
   <anchor x="420" y="-180" name="class0_"/>
   <anchor x="420" y="765" name="class1"/>

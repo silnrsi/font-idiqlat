@@ -2,9 +2,6 @@
 <glyph name="harkleanAsteriscus-syriac" format="2">
   <advance width="832"/>
   <unicode hex="070D"/>
-  <note>
-U070d
-</note>
   <outline>
     <contour>
       <point x="231" y="224" type="line"/>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macroncomb" format="2">
   <unicode hex="0304"/>
-  <note>
-U0304
-</note>
   <anchor x="255" y="0" name="_class0"/>
   <outline>
     <contour>

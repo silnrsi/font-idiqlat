@@ -2,9 +2,6 @@
 <glyph name="comma-ar" format="2">
   <advance width="446"/>
   <unicode hex="060C"/>
-  <note>
-U060c
-</note>
   <outline>
     <contour>
       <point x="200" y="-49" type="curve" smooth="yes"/>

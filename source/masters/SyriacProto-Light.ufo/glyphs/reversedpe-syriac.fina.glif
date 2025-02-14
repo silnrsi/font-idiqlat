@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reversedpe-syriac.fina" format="2">
   <advance width="757"/>
-  <note>
-U0727Fina
-</note>
   <anchor x="540" y="1035" name="class0"/>
   <anchor x="315" y="-150" name="class0_"/>
   <anchor x="990" y="885" name="class1"/>

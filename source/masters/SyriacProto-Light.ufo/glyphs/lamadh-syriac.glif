@@ -2,9 +2,6 @@
 <glyph name="lamadh-syriac" format="2">
   <advance width="1066"/>
   <unicode hex="0720"/>
-  <note>
-U0720
-</note>
   <anchor x="840" y="870" name="class0"/>
   <anchor x="720" y="-165" name="class0_"/>
   <anchor x="855" y="1005" name="class1"/>

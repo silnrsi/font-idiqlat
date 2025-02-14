@@ -2,9 +2,6 @@
 <glyph name="mim-syriac" format="2">
   <advance width="993"/>
   <unicode hex="0721"/>
-  <note>
-U0721
-</note>
   <anchor x="585" y="735" name="class0"/>
   <anchor x="600" y="-150" name="class0_"/>
   <anchor x="630" y="735" name="class1"/>

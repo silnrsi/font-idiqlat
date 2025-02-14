@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heth-syriac.fina" format="2">
   <advance width="1227"/>
-  <note>
-U071aFina
-</note>
   <anchor x="720" y="480" name="class0"/>
   <anchor x="915" y="-150" name="class0_"/>
   <anchor x="690" y="480" name="class1"/>

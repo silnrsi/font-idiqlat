@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mim-syriac.medi" format="2">
   <advance width="1088"/>
-  <note>
-U0721Medi
-</note>
   <anchor x="720" y="705" name="class0"/>
   <anchor x="720" y="-135" name="class0_"/>
   <anchor x="735" y="705" name="class1"/>

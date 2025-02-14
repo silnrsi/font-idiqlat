@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qaph-syriac.init" format="2">
   <advance width="872"/>
-  <note>
-U0729Init
-</note>
   <anchor x="465" y="765" name="class0"/>
   <anchor x="525" y="-150" name="class0_"/>
   <anchor x="525" y="750" name="class1"/>

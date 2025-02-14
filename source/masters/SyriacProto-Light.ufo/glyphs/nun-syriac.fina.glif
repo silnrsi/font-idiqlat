@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nun-syriac.fina" format="2">
   <advance width="494"/>
-  <note>
-U0722Fina
-</note>
   <anchor x="270" y="405" name="class0"/>
   <anchor x="225" y="-630" name="class0_"/>
   <anchor x="210" y="480" name="class1"/>

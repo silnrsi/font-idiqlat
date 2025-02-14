@@ -2,9 +2,6 @@
 <glyph name="waw-syriac" format="2">
   <advance width="761"/>
   <unicode hex="0718"/>
-  <note>
-U0718
-</note>
   <anchor x="390" y="720" name="class0"/>
   <anchor x="435" y="-150" name="class0_"/>
   <anchor x="435" y="720" name="class1"/>

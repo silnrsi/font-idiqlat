@@ -2,9 +2,6 @@
 <glyph name="rish-syriac" format="2">
   <advance width="752"/>
   <unicode hex="072A"/>
-  <note>
-U072a
-</note>
   <anchor x="300" y="1005" name="class0"/>
   <anchor x="360" y="-150" name="class0_"/>
   <anchor x="300" y="1020" name="class1"/>

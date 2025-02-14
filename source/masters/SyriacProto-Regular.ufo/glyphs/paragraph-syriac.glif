@@ -2,9 +2,6 @@
 <glyph name="paragraph-syriac" format="2">
   <advance width="920"/>
   <unicode hex="0700"/>
-  <note>
-U0700
-</note>
   <outline>
     <contour>
       <point x="654" y="105" type="line"/>

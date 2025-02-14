@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalathrishDotless-syriac.fina" format="2">
   <advance width="729"/>
-  <note>
-U0716Fina
-</note>
   <anchor x="375" y="720" name="class0"/>
   <anchor x="390" y="-150" name="class0_"/>
   <anchor x="345" y="720" name="class1"/>

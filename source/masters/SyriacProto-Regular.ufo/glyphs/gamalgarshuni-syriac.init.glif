@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gamalgarshuni-syriac.init" format="2">
   <advance width="1005"/>
-  <note>
-U0714Init
-</note>
   <anchor x="645" y="855" name="class0"/>
   <anchor x="465" y="-150" name="class0_"/>
   <anchor x="570" y="840" name="class1"/>

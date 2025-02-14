@@ -2,9 +2,6 @@
 <glyph name="sadhe-syriac" format="2">
   <advance width="780"/>
   <unicode hex="0728"/>
-  <note>
-U0728
-</note>
   <anchor x="360" y="420" name="class0"/>
   <anchor x="405" y="-645" name="class0_"/>
   <anchor x="345" y="390" name="class1"/>

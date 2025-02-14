@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pe-syriac.medi" format="2">
   <advance width="827"/>
-  <note>
-U0726Medi
-</note>
   <anchor x="465" y="990" name="class0"/>
   <anchor x="540" y="-150" name="class0_"/>
   <anchor x="495" y="1005" name="class1"/>

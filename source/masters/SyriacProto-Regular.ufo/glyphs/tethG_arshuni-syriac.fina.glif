@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tethGarshuni-syriac.fina" format="2">
   <advance width="1524"/>
-  <note>
-U071cFina
-</note>
   <anchor x="960" y="765" name="class0"/>
   <anchor x="735" y="-165" name="class0_"/>
   <anchor x="1065" y="660" name="class1"/>

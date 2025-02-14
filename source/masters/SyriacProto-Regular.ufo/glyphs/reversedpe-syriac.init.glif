@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reversedpe-syriac.init" format="2">
   <advance width="1146"/>
-  <note>
-U0727Init
-</note>
   <anchor x="525" y="1035" name="class0"/>
   <anchor x="555" y="-165" name="class0_"/>
   <anchor x="840" y="975" name="class1"/>

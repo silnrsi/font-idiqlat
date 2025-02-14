@@ -2,9 +2,6 @@
 <glyph name="contraction-syriac" format="2">
   <advance width="868"/>
   <unicode hex="070A"/>
-  <note>
-U070a
-</note>
   <outline>
     <contour>
       <point x="205" y="467" type="curve" smooth="yes"/>

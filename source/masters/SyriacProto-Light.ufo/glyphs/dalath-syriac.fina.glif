@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalath-syriac.fina" format="2">
   <advance width="736"/>
-  <note>
-U0715Fina
-</note>
   <anchor x="315" y="720" name="class0"/>
   <anchor x="375" y="-360" name="class0_"/>
   <anchor x="330" y="720" name="class1"/>

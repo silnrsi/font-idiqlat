@@ -2,9 +2,6 @@
 <glyph name="fullstopSublinear-syriac" format="2">
   <advance width="430"/>
   <unicode hex="0702"/>
-  <note>
-U0702
-</note>
   <outline>
     <contour>
       <point x="221" y="-187" type="curve" smooth="yes"/>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qaph-syriac.medi" format="2">
   <advance width="879"/>
-  <note>
-U0729Medi
-</note>
   <anchor x="480" y="750" name="class0"/>
   <anchor x="540" y="-150" name="class0_"/>
   <anchor x="480" y="750" name="class1"/>

@@ -2,9 +2,6 @@
 <glyph name="parenright" format="2">
   <advance width="506"/>
   <unicode hex="0029"/>
-  <note>
-parenright
-</note>
   <outline>
     <contour>
       <point x="180" y="-16" type="curve" smooth="yes"/>

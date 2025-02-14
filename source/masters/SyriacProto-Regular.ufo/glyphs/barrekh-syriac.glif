@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="barrekh-syriac" format="2">
   <unicode hex="074A"/>
-  <note>
-U074a
-</note>
   <anchor x="195" y="195" name="_class0"/>
   <outline>
     <contour>

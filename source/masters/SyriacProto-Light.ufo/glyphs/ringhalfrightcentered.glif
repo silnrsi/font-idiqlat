@@ -2,9 +2,6 @@
 <glyph name="ringhalfrightcentered" format="2">
   <advance width="638"/>
   <unicode hex="02D2"/>
-  <note>
-U02d2
-</note>
   <outline>
     <contour>
       <point x="281" y="859" type="curve" smooth="yes"/>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamadh-syriac.medi" format="2">
   <advance width="1042"/>
-  <note>
-U0720Medi
-</note>
   <anchor x="630" y="990" name="class0"/>
   <anchor x="510" y="-150" name="class0_"/>
   <anchor x="615" y="975" name="class1"/>

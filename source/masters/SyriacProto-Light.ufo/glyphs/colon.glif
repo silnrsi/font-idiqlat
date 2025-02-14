@@ -2,9 +2,6 @@
 <glyph name="colon" format="2">
   <advance width="266"/>
   <unicode hex="003A"/>
-  <note>
-colon
-</note>
   <outline>
     <contour>
       <point x="60" y="300" type="line"/>

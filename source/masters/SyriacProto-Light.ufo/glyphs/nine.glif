@@ -2,9 +2,6 @@
 <glyph name="nine" format="2">
   <advance width="827"/>
   <unicode hex="0039"/>
-  <note>
-nine
-</note>
   <outline>
     <contour>
       <point x="151" y="4" type="line"/>

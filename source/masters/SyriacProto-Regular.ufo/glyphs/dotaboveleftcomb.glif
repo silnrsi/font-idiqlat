@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotaboveleftcomb" format="2">
   <unicode hex="1DF8"/>
-  <note>
-PtakhaDotAbove
-</note>
   <outline>
     <contour>
       <point x="83" y="5" type="curve" smooth="yes"/>

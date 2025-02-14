@@ -2,9 +2,6 @@
 <glyph name="question-ar" format="2">
   <advance width="760"/>
   <unicode hex="061F"/>
-  <note>
-U061f
-</note>
   <outline>
     <contour>
       <point x="393" y="217" type="line"/>

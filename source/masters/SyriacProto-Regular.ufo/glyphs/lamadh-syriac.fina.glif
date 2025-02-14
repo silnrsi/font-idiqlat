@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamadh-syriac.fina" format="2">
   <advance width="1225"/>
-  <note>
-U0720Fina
-</note>
   <anchor x="915" y="945" name="class0"/>
   <anchor x="780" y="-150" name="class0_"/>
   <anchor x="900" y="945" name="class1"/>

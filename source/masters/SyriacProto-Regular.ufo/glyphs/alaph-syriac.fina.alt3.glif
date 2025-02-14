@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alaph-syriac.fina.alt3" format="2">
   <advance width="668"/>
-  <note>
-U0710Fina3
-</note>
   <anchor x="360" y="975" name="class0"/>
   <anchor x="405" y="-150" name="class0_"/>
   <anchor x="345" y="960" name="class1"/>

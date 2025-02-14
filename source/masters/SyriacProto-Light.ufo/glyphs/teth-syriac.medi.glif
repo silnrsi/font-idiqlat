@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="teth-syriac.medi" format="2">
   <advance width="1236"/>
-  <note>
-U071bMedi
-</note>
   <anchor x="660" y="705" name="class0"/>
   <anchor x="435" y="-180" name="class0_"/>
   <anchor x="780" y="585" name="class1"/>

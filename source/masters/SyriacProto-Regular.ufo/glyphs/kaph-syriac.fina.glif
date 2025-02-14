@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaph-syriac.fina" format="2">
   <advance width="981"/>
-  <note>
-U071fFina
-</note>
   <anchor x="360" y="705" name="class0"/>
   <anchor x="315" y="-330" name="class0_"/>
   <anchor x="375" y="705" name="class1"/>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yudh-syriac.medi" format="2">
   <advance width="642"/>
-  <note>
-U071dMedi
-</note>
   <anchor x="300" y="510" name="class0"/>
   <anchor x="285" y="-150" name="class0_"/>
   <anchor x="285" y="465" name="class1"/>

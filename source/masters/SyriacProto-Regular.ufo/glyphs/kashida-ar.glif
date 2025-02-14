@@ -2,9 +2,6 @@
 <glyph name="kashida-ar" format="2">
   <advance width="360"/>
   <unicode hex="0640"/>
-  <note>
-U0640
-</note>
   <anchor x="135" y="405" name="class0"/>
   <anchor x="165" y="-150" name="class0_"/>
   <anchor x="135" y="390" name="class1"/>

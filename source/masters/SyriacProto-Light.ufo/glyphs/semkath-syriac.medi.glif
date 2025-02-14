@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semkath-syriac.medi" format="2">
   <advance width="1062"/>
-  <note>
-U0723Medi
-</note>
   <anchor x="645" y="765" name="class0"/>
   <anchor x="555" y="-150" name="class0_"/>
   <anchor x="645" y="780" name="class1"/>

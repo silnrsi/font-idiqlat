@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taw_alaph-syriac.fina.alt" format="2">
   <advance width="1194"/>
-  <note>
-U072cU0710FinaAlt
-</note>
   <outline>
     <contour>
       <point x="318" y="-98" type="curve" smooth="yes"/>

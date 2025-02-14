@@ -2,9 +2,6 @@
 <glyph name="taw-syriac" format="2">
   <advance width="912"/>
   <unicode hex="072C"/>
-  <note>
-U072c
-</note>
   <anchor x="375" y="975" name="class0"/>
   <anchor x="435" y="-180" name="class0_"/>
   <anchor x="360" y="960" name="class1"/>

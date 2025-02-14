@@ -2,9 +2,6 @@
 <glyph name="semicolon-ar" format="2">
   <advance width="468"/>
   <unicode hex="061B"/>
-  <note>
-U061b
-</note>
   <outline>
     <contour>
       <point x="200" y="272" type="curve" smooth="yes"/>

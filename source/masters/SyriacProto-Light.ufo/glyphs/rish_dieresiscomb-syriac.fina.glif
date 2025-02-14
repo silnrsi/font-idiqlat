@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rish_dieresiscomb-syriac.fina" format="2">
   <advance width="736"/>
-  <note>
-U072aU0308Fina
-</note>
   <anchor x="360" y="1035" name="class0_1"/>
   <anchor x="360" y="1020" name="class0_2"/>
   <anchor x="330" y="1020" name="class1_1"/>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildebelowcomb" format="2">
   <unicode hex="0330"/>
-  <note>
-U0330
-</note>
   <anchor x="255" y="-45" name="_class2"/>
   <outline>
     <contour>

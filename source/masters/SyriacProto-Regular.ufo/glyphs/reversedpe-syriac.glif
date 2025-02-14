@@ -2,9 +2,6 @@
 <glyph name="reversedpe-syriac" format="2">
   <advance width="1146"/>
   <unicode hex="0727"/>
-  <note>
-U0727
-</note>
   <anchor x="540" y="1035" name="class0"/>
   <anchor x="525" y="-150" name="class0_"/>
   <anchor x="990" y="885" name="class1"/>

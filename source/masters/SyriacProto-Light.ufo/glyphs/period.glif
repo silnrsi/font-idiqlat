@@ -2,9 +2,6 @@
 <glyph name="period" format="2">
   <advance width="235"/>
   <unicode hex="002E"/>
-  <note>
-period
-</note>
   <outline>
     <contour>
       <point x="40" y="0" type="line"/>

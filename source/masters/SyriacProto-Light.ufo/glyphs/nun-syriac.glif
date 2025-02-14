@@ -2,9 +2,6 @@
 <glyph name="nun-syriac" format="2">
   <advance width="807"/>
   <unicode hex="0722"/>
-  <note>
-U0722
-</note>
   <anchor x="375" y="450" name="class0"/>
   <anchor x="450" y="-210" name="class0_"/>
   <anchor x="345" y="405" name="class1"/>

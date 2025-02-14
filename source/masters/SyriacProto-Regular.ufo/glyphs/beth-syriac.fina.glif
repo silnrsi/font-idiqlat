@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="beth-syriac.fina" format="2">
   <advance width="1046"/>
-  <note>
-U0712Fina
-</note>
   <anchor x="765" y="795" name="class0"/>
   <anchor x="735" y="-135" name="class0_"/>
   <anchor x="765" y="735" name="class1"/>

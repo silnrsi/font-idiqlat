@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="U0640Half" format="2">
   <advance width="180"/>
-  <note>
-U0640Half
-</note>
   <anchor x="60" y="-90" name="class0"/>
   <outline>
     <contour>

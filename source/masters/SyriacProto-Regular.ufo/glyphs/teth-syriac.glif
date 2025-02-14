@@ -2,9 +2,6 @@
 <glyph name="teth-syriac" format="2">
   <advance width="1524"/>
   <unicode hex="071B"/>
-  <note>
-U071b
-</note>
   <anchor x="975" y="750" name="class0"/>
   <anchor x="735" y="-195" name="class0_"/>
   <anchor x="945" y="795" name="class1"/>

@@ -2,9 +2,6 @@
 <glyph name="qaph-syriac" format="2">
   <advance width="1061"/>
   <unicode hex="0729"/>
-  <note>
-U0729
-</note>
   <anchor x="675" y="780" name="class0"/>
   <anchor x="750" y="-150" name="class0_"/>
   <anchor x="675" y="750" name="class1"/>

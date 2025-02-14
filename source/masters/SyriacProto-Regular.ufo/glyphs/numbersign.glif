@@ -2,9 +2,6 @@
 <glyph name="numbersign" format="2">
   <advance width="1090"/>
   <unicode hex="0023"/>
-  <note>
-numbersign
-</note>
   <outline>
     <contour>
       <point x="373" y="48" type="line"/>
