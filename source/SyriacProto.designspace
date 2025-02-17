@@ -20,14 +20,14 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="SyriacProto" filename="masters/SyriacProto-Light.ufo" name="SyriacProto-Light" stylename="Light">
+        <source familyname="Syriac Proto" filename="masters/SyriacProto-Light.ufo" name="Syriac Proto Light" stylename="Light">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="SyriacProto" filename="masters/SyriacProto-Regular.ufo" name="SyriacProto-Regular" stylename="Regular">
+        <source familyname="Syriac Proto" filename="masters/SyriacProto-Regular.ufo" name="Syriac Proto Regular" stylename="Regular">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -44,11 +44,11 @@
         <!-- stylemapstylename: use "regular" for all styles except B: use "bold" -->
 
         <!-- SyriacProto Light -->
-        <instance       familyname="SyriacProto"
+        <instance       familyname="Syriac Proto"
                           filename="instances/SyriacProto-Light.ufo"
-                              name="SyriacProto Light"
-                stylemapfamilyname="SyriacProto Light"
-                 stylemapstylename="regular"
+                              name="Syriac Proto Light"
+                stylemapfamilyname="Syriac Proto Light"
+                 stylemapstylename="light"
                          stylename="Light"
                 postscriptfontname="SyriacProto-Light">
             <location>
@@ -61,10 +61,10 @@
         </instance>
 
         <!-- SyriacProto Regular -->
-        <instance       familyname="SyriacProto"
+        <instance       familyname="Syriac Proto"
                           filename="instances/SyriacProto-Regular.ufo"
-                              name="SyriacProto Regular"
-                stylemapfamilyname="SyriacProto"
+                              name="Syriac Proto Regular"
+                stylemapfamilyname="Syriac Proto Regular"
                  stylemapstylename="regular"
                          stylename="Regular"
                 postscriptfontname="SyriacProto-Regular">
