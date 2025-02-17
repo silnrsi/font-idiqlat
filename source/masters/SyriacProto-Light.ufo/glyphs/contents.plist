@@ -76,10 +76,14 @@
   <string>dieresiscomb.glif</string>
   <key>dollar</key>
   <string>dollar.glif</string>
+  <key>dotaboveleftcomb</key>
+  <string>dotaboveleftcomb.glif</string>
   <key>dotaccentcomb</key>
   <string>dotaccentcomb.glif</string>
   <key>dotbelowcomb</key>
   <string>dotbelowcomb.glif</string>
+  <key>dotbelowleftcomb</key>
+  <string>dotbelowleftcomb.glif</string>
   <key>dottedCircle</key>
   <string>dottedC_ircle.glif</string>
   <key>e-syriac</key>
