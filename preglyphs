@@ -1,3 +1,3 @@
 #!/bin/sh
 
-psfufo2glyphs source/SyriacProto-Regular.designspace source/SyriacProto-Regular.glyphs -l source/logs/ufo2g.log
+psfufo2glyphs source/SyriacProto.designspace source/SyriacProto-Regular.glyphs -l source/logs/ufo2g.log
