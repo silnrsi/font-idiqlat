@@ -1,0 +1,10 @@
+\begin[class=fontproof]{document}
+\bidi-off
+
+\setTestFont[features="+clig,+kern"]
+
+\section{Range test}
+
+\unicharchart[type=range,start=0700,end=074F]
+
+\end{document}
