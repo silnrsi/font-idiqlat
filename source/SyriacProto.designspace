@@ -40,7 +40,7 @@
         </source>
     </sources>
     <instances>
-        <!-- stylemapfamilyname: use <familyname> for Regular and Light, else copy <name> -->
+        <!-- stylemapfamilyname: use <familyname> for Regular, else use <familyname>+" "+<stylename> -->
         <!-- stylemapstylename: use "regular" for all styles except B: use "bold" -->
 
         <!-- SyriacProto Light -->
