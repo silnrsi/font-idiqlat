@@ -48,7 +48,7 @@
                           filename="instances/SyriacProto-Light.ufo"
                               name="Syriac Proto Light"
                 stylemapfamilyname="Syriac Proto Light"
-                 stylemapstylename="light"
+                 stylemapstylename="regular"
                          stylename="Light"
                 postscriptfontname="SyriacProto-Light">
             <location>
@@ -64,7 +64,7 @@
         <instance       familyname="Syriac Proto"
                           filename="instances/SyriacProto-Regular.ufo"
                               name="Syriac Proto Regular"
-                stylemapfamilyname="Syriac Proto Regular"
+                stylemapfamilyname="Syriac Proto"
                  stylemapstylename="regular"
                          stylename="Regular"
                 postscriptfontname="SyriacProto-Regular">
