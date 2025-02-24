@@ -1,0 +1,242 @@
+#**********************************
+#
+# Copyright (c) 1994-2025 SIL Global (https://www.sil.org)
+# Released under the MIT License (https://opensource.org/licenses/MIT)
+#
+#**********************************
+
+
+#**********************************
+#  Language Systems
+#**********************************
+
+languagesystem DFLT dflt;
+languagesystem syrc dflt; # Syriac default
+languagesystem latn dflt ;
+
+
+@MarksAbove = [@_class0] ; # _diaA
+@MarksBelow = [@_class3] ; # _diaB
+@MarksBelow2 = [@_class2] ; # _diaB
+@MarksAny = [@_class0 @_class3 @_class2] ; # [@_diaA @_diaB]
+
+# Next 4 should have 18 glyphs
+# was called @DualJoiningXr
+@DualLinkFina = [beth-syriac.fina gamal-syriac.fina gamalgarshuni-syriac.fina heth-syriac.fina teth-syriac.fina tethGarshuni-syriac.fina yudh-syriac.fina kaph-syriac.fina lamadh-syriac.fina mim-syriac.fina nun-syriac.fina semkath-syriac.fina semkathFinal-syriac.fina e-syriac.fina pe-syriac.fina reversedpe-syriac.fina qaph-syriac.fina shin-syriac.fina];
+
+# was called @DualJoiningXl
+@DualLinkInit = [beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init reversedpe-syriac.init qaph-syriac.init shin-syriac.init];
+
+# was called @DualJoiningXn
+@DualLinkIsol = [beth-syriac gamal-syriac gamalgarshuni-syriac heth-syriac teth-syriac tethGarshuni-syriac yudh-syriac kaph-syriac lamadh-syriac mim-syriac nun-syriac semkath-syriac semkathFinal-syriac e-syriac pe-syriac reversedpe-syriac qaph-syriac shin-syriac];
+
+# was called @DualJoiningXm
+@DualLinkMedi = [beth-syriac.medi gamal-syriac.medi gamalgarshuni-syriac.medi heth-syriac.medi teth-syriac.medi tethGarshuni-syriac.medi yudh-syriac.medi kaph-syriac.medi lamadh-syriac.medi mim-syriac.medi nun-syriac.medi semkath-syriac.medi semkathFinal-syriac.medi e-syriac.medi pe-syriac.medi reversedpe-syriac.medi qaph-syriac.medi shin-syriac.medi];
+
+# was called @DualJoining
+@DualJoining = [@DualLinkIsol @DualLinkFina @DualLinkMedi @DualLinkInit];
+
+# Next two have 11 glyphs each
+@RightLinkFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina];
+@RightLinkIsol = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac];
+
+@RightJoining = [@RightLinkIsol @RightLinkFina];
+
+@AllBase = [@DualJoining @RightJoining];
+
+# Classes from old font:
+# all base letters from 0710..072C not sure why 072D..072F are not listed, two finals of alaph?
+@AllXn = [alaph-syriac alaph-syriac.fina.alt2 alaph-syriac.fina.alt3 dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac beth-syriac  gamal-syriac  gamalgarshuni-syriac  heth-syriac  teth-syriac  tethGarshuni-syriac  yudh-syriac  kaph-syriac  lamadh-syriac  mim-syriac  nun-syriac  semkath-syriac  semkathFinal-syriac  e-syriac  pe-syriac  reversedpe-syriac  qaph-syriac shin-syriac ];
+
+# all base letters from 0710..072C not sure why 072D..072F are not listed, two finals and some inits
+@AllXnXl = [alaph-syriac alaph-syriac.fina.alt2 alaph-syriac.fina.alt3 dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac beth-syriac  gamal-syriac  gamalgarshuni-syriac  heth-syriac  teth-syriac  tethGarshuni-syriac  yudh-syriac  kaph-syriac  lamadh-syriac  mim-syriac  nun-syriac  semkath-syriac  semkathFinal-syriac  e-syriac  pe-syriac  reversedpe-syriac  qaph-syriac shin-syriac beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init reversedpe-syriac.init qaph-syriac.init shin-syriac.init];
+
+# Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar sukun-ar madda-ar hamzaabove-ar alefbelow-ar
+@MarkAboveCanChain = [tildecomb macroncomb dotaccentcomb dieresiscomb shadda-ar  alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac rwaha-syriac twodotsverticalabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac];
+@MarkAboveNoChain = [ringcomb qushshaya-syriac];
+
+# Removed glyphs not in font: kasratan-ar kasra-ar hamzabelow-ar rukkakha-syriac.square circumflexbelowcomb 
+@MarkBelowCanChain = [tildebelowcomb macronbelowcomb dotbelowcomb dieresisbelowcomb brevebelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac];
+
+# Removed glyphs not in font:  rukkakha-syriac.square
+@MarkBelowNoChain = [ringbelowcomb rukkakha-syriac];
+@MarkFeminineDot = [femininedot-syriac];
+
+# Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar madda-ar alefbelow-ar 
+@MarkWideAbove = [tildecomb macroncomb dieresiscomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac];
+
+@RightJoining = [alaph-syriac alaph-syriac.fina.alt2 alaph-syriac.fina.alt3 dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac alaph-syriac.medi alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina];
+
+@RightJoiningXn = [alaph-syriac alaph-syriac.fina.alt2 alaph-syriac.fina.alt3 dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac];
+@RightJoiningXr = [alaph-syriac.medi alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina];
+
+@TakeSquareDot = [beth-syriac beth-syriac.init beth-syriac.medi beth-syriac.fina gamal-syriac  gamal-syriac.init gamal-syriac.medi gamal-syriac.fina taw-syriac taw-syriac.fina];
+@TypeLigature = [lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina];
+
+# Ligatures
+
+@TypeLigatureOptionalEast = [sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina he_yudh-syriac he_yudh-syriac.fina taw_yudh-syriac taw_yudh-syriac.fina taw_alaph-syriac.alt taw_alaph-syriac.fina.alt taw_alaph-syriac.alt3 taw_alaph-syriac.fina.alt3];
+
+# Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar sukun-ar madda-ar hamzaabove-ar alefbelow-ar kasratan-ar kasra-ar hamzabelow-ar rukkakha-syriac.square circumflexbelowcomb PtakhaDotAbove PtakhaDotBelow
+@TypeMark = [tildecomb macroncomb dotaccentcomb dieresiscomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac rwaha-syriac twodotsverticalabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac ringcomb qushshaya-syriac tildebelowcomb macronbelowcomb dotbelowcomb dieresisbelowcomb brevebelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac ringbelowcomb rukkakha-syriac femininedot-syriac ];
+
+# not in font: kashida-ar.threequarter kashida-ar.quarter kashida-ar.half hamza-ar 
+@TypeSimple = [alaph-syriac alaph-syriac.fina.alt2 alaph-syriac.fina.alt3 dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac alaph-syriac.medi alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath-syriac.fina hbasaEsasadotted-syriac beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init reversedpe-syriac.init qaph-syriac.init shin-syriac.init beth-syriac.medi gamal-syriac.medi gamalgarshuni-syriac.medi heth-syriac.medi teth-syriac.medi tethGarshuni-syriac.medi tethGarshuni-syriac.fina kaph-syriac.medi lamadh-syriac.medi mim-syriac.medi nun-syriac.medi semkath-syriac.medi semkathFinal-syriac.medi e-syriac.medi pe-syriac.medi reversedpe-syriac.medi qaph-syriac.medi shin-syriac.medi beth-syriac  gamal-syriac  gamalgarshuni-syriac  heth-syriac  teth-syriac  tethGarshuni-syriac  yudh-syriac  kaph-syriac  lamadh-syriac  mim-syriac  nun-syriac  semkath-syriac  semkathFinal-syriac  e-syriac  pe-syriac  reversedpe-syriac  qaph-syriac shin-syriac beth-syriac.fina gamal-syriac.fina gamalgarshuni-syriac.fina heth-syriac.fina teth-syriac.fina tethGarshuni-syriac.fina yudh-syriac.fina kaph-syriac.fina lamadh-syriac.fina mim-syriac.fina nun-syriac.fina semkath-syriac.fina semkathFinal-syriac.fina e-syriac.fina pe-syriac.fina reversedpe-syriac.fina qaph-syriac.fina shin-syriac.fina  kashida-ar dottedCircle];
+
+# Not in font: alefbelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar sukun-ar madda-ar hamzaabove-ar hamzabelow-ar circumflexbelowcomb PtakhaDotAbove PtakhaDotBelow SquareDot 
+@ccmp_zz02 = [tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac barrekh-syriac ];
+
+# Not in font: alefbelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar sukun-ar madda-ar hamzaabove-ar hamzabelow-ar circumflexbelowcomb PtakhaDotAbove PtakhaDotBelow SquareDot 
+@ccmp_zz03 = [tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb  shadda-ar alaphSuperscript-syriac waw-syriac yudh-syriac  pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac barrekh-syriac ];
+@ccmp_zz14 = [beth-syriac  gamal-syriac  taw-syriac beth-syriac.init beth-syriac.medi beth-syriac.fina gamal-syriac.init gamal-syriac.medi gamal-syriac.fina taw-syriac.fina];
+@dlig_zz13 = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac alaph-syriac.medi alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.fina.alt3 beth-syriac.init beth-syriac.medi gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac.init gamalgarshuni-syriac.medi dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina heth-syriac.init heth-syriac.medi teth-syriac.init teth-syriac.medi tethGarshuni-syriac.init tethGarshuni-syriac.medi yudh-syriac.init tethGarshuni-syriac.fina yudhhe-syriac.fina kaph-syriac.init kaph-syriac.medi lamadh-syriac.init lamadh-syriac.medi mim-syriac.init mim-syriac.medi nun-syriac.init nun-syriac.medi semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi e-syriac.init e-syriac.medi pe-syriac.init pe-syriac.medi reversedpe-syriac.init reversedpe-syriac.medi sadhe-syriac.fina qaph-syriac.init qaph-syriac.medi rish-syriac.fina shin-syriac.init shin-syriac.medi taw-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina];
+@fina_zz08 = [alaph-syriac beth-syriac  gamal-syriac  gamalgarshuni-syriac  dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac heth-syriac  teth-syriac  tethGarshuni-syriac  yudh-syriac  yudhhe-syriac kaph-syriac  lamadh-syriac  mim-syriac  nun-syriac  semkath-syriac  semkathFinal-syriac  e-syriac  pe-syriac  reversedpe-syriac  sadhe-syriac qaph-syriac rish-syriac shin-syriac taw-syriac];
+
+@fina_zz082 = [alaph-syriac.fina beth-syriac.fina gamal-syriac.fina gamalgarshuni-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina heth-syriac.fina teth-syriac.fina tethGarshuni-syriac.fina yudh-syriac.fina yudhhe-syriac.fina kaph-syriac.fina lamadh-syriac.fina mim-syriac.fina nun-syriac.fina semkath-syriac.fina semkathFinal-syriac.fina e-syriac.fina pe-syriac.fina reversedpe-syriac.fina sadhe-syriac.fina qaph-syriac.fina rish-syriac.fina shin-syriac.fina taw-syriac.fina];
+@init_medi_zz05_zz06 = [beth-syriac  gamal-syriac  gamalgarshuni-syriac  heth-syriac  teth-syriac  tethGarshuni-syriac  yudh-syriac  kaph-syriac  lamadh-syriac  mim-syriac  nun-syriac  semkath-syriac  semkathFinal-syriac  e-syriac  pe-syriac  reversedpe-syriac  qaph-syriac shin-syriac];
+@init_zz05 = [beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init reversedpe-syriac.init qaph-syriac.init shin-syriac.init];
+
+# Not in font:  SquareDot kasratan-ar kasra-ar hamzabelow-ar circumflexbelowcomb 
+@kern_zz04 = [macronbelowcomb dotbelowcomb dieresisbelowcomb brevebelowcomb tildebelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac];
+@medi_zz06 = [beth-syriac.medi gamal-syriac.medi gamalgarshuni-syriac.medi heth-syriac.medi teth-syriac.medi tethGarshuni-syriac.medi tethGarshuni-syriac.fina kaph-syriac.medi lamadh-syriac.medi mim-syriac.medi nun-syriac.medi semkath-syriac.medi semkathFinal-syriac.medi e-syriac.medi pe-syriac.medi reversedpe-syriac.medi qaph-syriac.medi shin-syriac.medi];
+
+
+
+# Notes:
+#   The lookups and then the features should be arranged and grouped into ordered passes
+#   as the rendering engines (esp Harfbuzz) will execute them.
+#   The boundaries between passes are indicated by the comment
+#       # HB PAUSE
+#   in the code.
+
+
+#**********************************
+# GSUB (Substitution) lookups
+#**********************************
+
+#---  rtlm feature  ---
+
+# lookup Mirror {
+#   lookupflag IgnoreMarks ;
+#     sub @cno_rtl by @c_rtl ;
+# } Mirror ;
+
+# HB PAUSE
+
+#---  ccmp feature  ---
+
+
+
+
+# Replace Syriac punctuation glyphs with Latin ones:
+
+# lookup LatinPunctuation {
+#  lookupflag 0 ;
+#    sub @PunctSyrc by @PunctLatn ;
+# } LatinPunctuation ;
+
+# HB PAUSE
+
+#---  fina feature  ---
+
+lookup ltrFina {
+  lookupflag IgnoreMarks ;
+    sub @DualLinkIsol  by  @DualLinkFina ;
+    sub @RightLinkIsol by  @RightLinkFina ;
+} ltrFina ;
+
+# HB PAUSE
+
+#---  medi feature  ---
+
+lookup ltrMedi {
+  lookupflag IgnoreMarks ;
+    sub @DualLinkIsol  by  @DualLinkMedi ;
+} ltrMedi ;
+
+# HB PAUSE
+
+#---  init  feature  ---
+
+lookup ltrInit {
+  lookupflag IgnoreMarks ;
+    sub @DualLinkIsol  by  @DualLinkInit ;
+} ltrInit ;
+
+# HB PAUSE
+
+
+# HB PAUSE
+
+
+#---  calt feature  ---
+
+# Language-independent shaping
+
+# HB PAUSE
+
+#--- remaining subs features (salt, cvxx, liga) ---
+
+# Lookups for user-selectable features
+
+#NB: Lookup names ending in "TT" are used only by TypeTuner
+
+
+
+#**********************************
+#  GSUB FEATURES
+#**********************************
+
+# These are intended to be arranged in the order MS & HB engines execute.
+
+
+# feature rtlm {  # Right-To-Left Mirrored Forms
+#     lookup Mirror;
+# } rtlm ;
+
+# HB PAUSE
+
+# feature ccmp {  # Glyph Composition/Decomposition
+#    script latn;
+#        lookup LatinPunctuation;
+# } ccmp ;
+
+# feature locl (not used; see calt)
+
+# HB PAUSE
+
+feature fina {  # Terminal Forms
+    script syrc;
+        lookup ltrFina;
+} fina ;
+
+# HB PAUSE
+
+feature medi {  # Medial Forms
+    script syrc;
+        lookup ltrMedi;
+} medi ;
+
+# HB PAUSE
+
+feature init {  # Initial Forms
+    script syrc;
+        lookup ltrInit;
+} init ;
+
+# HB PAUSE
+
+
+# HB PAUSE
+
+
+# feature rclt - nothing to do
+
+# HB PAUSE
+
+# HB puts everything else (clig, liga, cvXX, ssXX, salt) in one pass:
+
+
+#--- Character Variants ---
+
+

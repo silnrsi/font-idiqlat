@@ -1,0 +1,77 @@
+#**********************************
+#
+# Copyright (c) 1994-2025 SIL Global  (https://www.sil.org)
+# Released under the MIT License (https://opensource.org/licenses/MIT)
+#
+#**********************************
+
+# Three features are implemented: kern, mark, and mkmk. 
+#
+# As best we understand it, all shapers now work per the OT spec in regard to GPOS lookup order of 
+# execution, namely that lookups for all enabled features are executed in one pass in lookup order.
+#
+# Note that prior to around September 2024, HarfBuzz executed mark attachment in a separate
+# pass after all base adjustments, but this caused compatibility issues with CoreText and Uniscribe
+# (see https://github.com/harfbuzz/harfbuzz/issues/4596)
+
+# To make sure the newer Harfbuzz doesn't cause problems we now put all base-positioning lookups 
+# (kern and, if we had it, curs) before any mark positioning lookups (mark, mkmk).
+
+
+#**********************************
+# GPOS (Positioning) lookups
+#**********************************
+
+#********************
+# Base positioning (kerning) 
+
+
+#********************
+# Mark-to-base positioning
+
+lookup MarkToBase {
+  lookupflag 0;
+    pos  base @class0 mark @_class0; # above diaA 
+    pos  base @class3  mark @_class3; # below diaB
+    pos  base @class2  mark @_class2; # below
+#    pos  base          mark pthahadotted-syriac;
+} MarkToBase;
+
+#********************
+# Mark-to-mark attachment
+
+@MarkFilter_class0 = [@class0 @_class0];
+lookup MarkToMarkAbove {
+  lookupflag UseMarkFilteringSet @MarkFilter_class0;
+    pos mark @class0 mark @_class0;
+} MarkToMarkAbove;
+
+@MarkFilter_class2 = [@class2 @_class2];
+lookup MarkToMarkBelow2 {
+  lookupflag UseMarkFilteringSet @MarkFilter_class2;
+    pos mark @class2 mark @_class2;
+} MarkToMarkBelow2;
+
+@MarkFilter_class3 = [@class3 @_class3];
+lookup MarkToMarkBelow3 {
+  lookupflag UseMarkFilteringSet @MarkFilter_class3;
+    pos mark @class3 mark @_class3;
+} MarkToMarkBelow3;
+
+#**********************************
+#  GPOS FEATURES
+#**********************************
+
+feature mark {  # Mark to base Positioning
+    # Same for latin & syriac:
+      lookup MarkToBase;
+    script syrc;
+#      lookup MarkToLig;
+} mark ;
+
+feature mkmk {  # Mark to mark Positioning
+    # Same for latin & syriac:
+      lookup MarkToMarkAbove;
+      lookup MarkToMarkBelow2;
+      lookup MarkToMarkBelow3;
+} mkmk ;
