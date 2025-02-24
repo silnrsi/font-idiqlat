@@ -87,6 +87,7 @@
     <string>harkleanAsteriscus-syriac</string>
     <string>abbreviation-syriac</string>
     <string>alaph-syriac</string>
+    <string>alaph-syriac.ccmp</string>
     <string>alaph-syriac.medi</string>
     <string>alaph-syriac.fina</string>
     <string>alaph-syriac.fina.alt2</string>
@@ -317,6 +318,8 @@
     <string>uni206D</string>
     <key>alaph-syriac</key>
     <string>uni0710</string>
+    <key>alaph-syriac.ccmp</key>
+    <string>uni0710.ccmp</string>
     <key>alaph-syriac.fina</key>
     <string>uni0710.fina</string>
     <key>alaph-syriac.fina.alt2</key>

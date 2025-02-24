@@ -12,6 +12,8 @@
   <string>abbreviation-syriac.glif</string>
   <key>alaph-syriac</key>
   <string>alaph-syriac.glif</string>
+  <key>alaph-syriac.ccmp</key>
+  <string>alaph-syriac.ccmp.glif</string>
   <key>alaph-syriac.fina</key>
   <string>alaph-syriac.fina.glif</string>
   <key>alaph-syriac.fina.alt2</key>
