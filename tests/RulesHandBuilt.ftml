@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="1.1">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
+    <fontsrc label="Lt">url(../results/SyriacProto-Light.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/SyriacProto-Regular.ttf)</fontsrc>
+    <title>Special rules</title>
+    <widths string="25%"/>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="Test lookups">
+    <test label="U+0710">
+      <comment>lamadh-syriac alaph-syriac (r1) </comment>
+      <string>\u0720\u0710 \u0720\u0733\u0710 \u0720\u0734\u0710 \u0720\u0733\u0734\u0710</string>
+    </test>
+    <test label="U+0710">
+      <comment>lamadh-syriac alaph-syriac zqaphadotted-syriac (r2) </comment>
+      <string>\u0720\u0710\u0735 \u0720\u0733\u0710\u0735 \u0720\u0734\u0710\u0735 \u0720\u0733\u0734\u0710\u0735</string>
+    </test>
+    <test label="U+0710">
+      <comment>lamadh-syriac alaph-syriac waw-syriac (r2) </comment>
+      <string>\u0720\u0710\u0718 \u0720\u0733\u0710\u0718 \u0720\u0734\u0710\u0718 \u0720\u0733\u0734\u0710\u0718</string>
+    </test>
+    <test label="U+0710">
+      <comment>lamadh-syriac alaph-syriac yudh-syriac (r2) </comment>
+      <string>\u0720\u0710\u071D \u0720\u0733\u0710\u071D \u0720\u0734\u0710\u071D \u0720\u0733\u0734\u0710\u071D</string>
+    </test>
+    <test label="U+0710">
+      <comment>lamadh-syriac alaph-syriac hbasaEsasadotted-syriac (r2) </comment>
+      <string>\u0720\u0710\u073c \u0720\u0733\u0710\u073c \u0720\u0734\u0710\u073c \u0720\u0733\u0734\u0710\u073c</string>
+    </test>
+    <test label="U+0710">
+      <comment>lamadh-syriac alaph-syriac rwaha-syriac (r2) </comment>
+      <string>\u0720\u0710\u073f \u0720\u0733\u0710\u073f \u0720\u0734\u0710\u073f \u0720\u0733\u0734\u0710\u073f</string>
+    </test>
+    <test label="U+0715 U+0742">
+      <comment>dalath-syriac rukkakha-syriac (r3) </comment>
+      <string>\u0715\u0742 \u0729\u0715\u0742</string>
+    </test>
+    <test label="U+0710">
+      <comment>rish-syriac optional? (ltrMediOlaph) </comment>
+      <string>\u0710 \u0729\u0710</string>
+    </test>
+    <test label="U+0710">
+      <comment>rish-syriac optional? (ltrFinaSerOlaph) </comment>
+      <string>\u0710 \u0729\u0710</string>
+    </test>
+    <test label="U+0710">
+      <comment>rish-syriac optional? (ltrFinaEsyOlaph) </comment>
+      <string>\u0710 \u0729\u0710</string>
+    </test>
+    <test label="U+072a U+0308">
+      <comment>rish-syriac dieresiscomb (GRishSeyame) </comment>
+      <string>\u072a\u0308 \u0729\u072a\u0308</string>
+    </test>
+    <test label="U+072c U+0710 U+0031">
+      <comment>taw-syriac alaph-syriac one (LEastOptLega2) doesn't work </comment>
+      <string>\u072c\u0710\u0031 \u0729\u072c\u0710\u0031 \u072c\u0710\u0032 \u0729\u072c\u0710\u0032</string>
+    </test>
+    <test label="U+0728 U+0722">
+      <comment>sadhe-syriac nun-syriac (LEastOptLega) not sure what it's doing. If this is a ligature is kerning rule below used? </comment>
+      <string>\u0728\u0722 \u0729\u0728\u0722</string>
+    </test>
+    <test label="U+0715 U+0722">
+      <comment>dalath-syriac nun-syriac (kern_dalath_sadhe_nun) </comment>
+      <string>\u0715\u0722 \u0729\u0715\u0722</string>
+    </test>
+    <test label="U+0728 U+0722">
+      <comment>sadhe-syriac nun-syriac (kern_dalath_sadhe_nun) </comment>
+      <string>\u0728\u0722 \u0729\u0728\u0722</string>
+    </test>
+    <test label="U+0710 U+0722 ">
+      <comment>alaph-syriac nun-syriac  (kern_nun2) </comment>
+      <string>\u0710\u0323\u0722 \u0729\u0710\u0323\u0722 \u0710\u0738\u0722 \u0729\u0710\u0738\u0722</string>
+    </test>
+  </testgroup>
+  <testgroup label="Ligatures">
+    <test label="U+0717 U+071D">
+      <comment>he yudh</comment>
+      <string>\u0717\u071D \u0712\u0717\u071D</string>
+    </test>
+    <test label="U+0720 U+0710">
+      <comment>lamadh alaph</comment>
+      <string>\u0720\u0710 \u0712\u0720\u0710</string>
+    </test>
+    <test label="U+0728 U+0722">
+      <comment>sadhe nun</comment>
+      <string>\u0728\u0722 \u0712\u0728\u0722</string>
+    </test>
+    <test label="U+072A U+0308">
+      <comment>rish seyame</comment>
+      <string>\u072a \u072A\u0308 \u0712\u072A\u0308</string>
+    </test>
+    <test label="U+072C U+0710">
+      <comment>taw alaph</comment>
+      <string>\u072C\u0710 \u0712\u072C\u0710</string>
+    </test>
+    <test label="U+072C U+071D">
+      <comment>taw yudh</comment>
+      <string>\u072C\u071D \u0712\u072C\u071D</string>
+    </test>
+  </testgroup>
+</ftml>

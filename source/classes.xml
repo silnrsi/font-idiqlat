@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!--
+classes.xml
+
+This file is part of Syriac Proto font family (https://software.sil.org/scheherazade/)
+and is Copyright (c) 1994-2025 SIL Global (https://www.sil.org/),
+with Reserved Font Names "Scheherazade" and "SIL". This Font Software is licensed
+under the SIL Open Font License, Version 1.1. You should have received a copy
+of the license along with this Font Software. If this is not the case, go to
+(https://openfontlicense.org/) for all the details including a FAQ.
+-->
+
+<classes>
+
+    <!-- *NEXT 4 CLASSES MUST MATCH* -->
+    <class name="DualLinkIsol">    
+        beth-syriac gamal-syriac gamalgarshuni-syriac heth-syriac teth-syriac tethGarshuni-syriac yudh-syriac kaph-syriac 
+        lamadh-syriac mim-syriac nun-syriac semkath-syriac semkathFinal-syriac e-syriac pe-syriac reversedpe-syriac qaph-syriac shin-syriac
+    </class>
+
+    <class name="DualLinkFina">
+        beth-syriac.fina gamal-syriac.fina gamalgarshuni-syriac.fina heth-syriac.fina teth-syriac.fina tethGarshuni-syriac.fina yudh-syriac.fina kaph-syriac.fina 
+        lamadh-syriac.fina mim-syriac.fina nun-syriac.fina semkath-syriac.fina semkathFinal-syriac.fina e-syriac.fina pe-syriac.fina reversedpe-syriac.fina qaph-syriac.fina shin-syriac.fina
+    </class>
+
+    <class name="DualLinkMedi">
+        beth-syriac.medi gamal-syriac.medi gamalgarshuni-syriac.medi heth-syriac.medi teth-syriac.medi tethGarshuni-syriac.medi yudh-syriac.medi kaph-syriac.medi 
+        lamadh-syriac.medi mim-syriac.medi nun-syriac.medi semkath-syriac.medi semkathFinal-syriac.medi e-syriac.medi pe-syriac.medi reversedpe-syriac.medi qaph-syriac.medi shin-syriac.medi
+    </class>
+
+    <class name="DualLinkInit">
+        beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init 
+        lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init reversedpe-syriac.init qaph-syriac.init shin-syriac.init
+    </class>
+
+    <class name='DualJoining'>
+        @DualLinkIsol @DualLinkFina @DualLinkMedi @DualLinkInit 	
+    </class>
+
+<!-- *NEXT 2 CLASSES MUST MATCH* -->
+    <class name="RightLinkFina">    
+        alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina 
+        rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina
+    </class>
+
+    <class name="RightLinkIsol">    
+        alaph-syriac alaph-syriac.fina2 alaph-syriac.fina3 dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac 
+        rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac
+    </class>
+
+    <class name='RightJoining'>
+        @RightLinkFina @RightLinkIsol 	
+    </class>
+
+    <class name='AllBase'>
+        @DualJoining @RightJoining 	
+    </class>
+
+
+    <class name="_MarksAbove">
+        alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac rwaha-syriac
+        femininedot-syriac qushshaya-syriac twodotsverticalabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac tildecomb
+        macroncomb dotaccentcomb dieresiscomb ringcomb dotaboveleftcomb fathatan-ar dammatan-ar fatha-ar damma-ar shadda-ar sukun-ar madda-ar hamzaabove-ar
+        alefabove-ar 	
+    </class>
+
+    <class name="_MarksBelow">
+        pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac
+        esasabelow-syriac rukkakha-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac dotbelowcomb dotbelowleftcomb dieresisbelowcomb
+        ringbelowcomb circumflexbelowcomb brevebelowcomb tildebelowcomb macronbelowcomb kasratan-ar kasra-ar hamzabelow-ar alefbelow-ar 	
+    </class>
+
+    <class name="MarksAny">
+        @_MarksAbove @_MarksBelow pthahadotted-syriac
+    </class>
+
+<!-- *NEXT 2 CLASSES MUST MATCH* -->
+    <class name="PunctLatn">
+        exclam.latn numbersign.latn dollar.latn percent.latn parentleft.latn parenright.latn asterisk.latn plus.latn hyphen.latn period.latn slash.latn zero.latn 
+        one.latn two.latn three.latn four.latn five.latn six.latn seven.latn eight.latn nine.latn colon.latn less.latn equal.latn greater.latn quoteleft.latn
+        quoteright.latn quotedblleft.latn quotedblright.latn
+    </class>
+
+    <class name="PunctSyrc">
+        exclam numbersign dollar percent parentleft parenright asterisk plus hyphen period slash zero 
+        one two three four five six seven eight nine colon less equal greater quoteleft
+        quoteright quotedblleft quotedblright
+    </class>    
+</classes>

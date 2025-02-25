@@ -22,56 +22,87 @@
 # GPOS (Positioning) lookups
 #**********************************
 
+lookup kern_dalath_sadhe_nun { # FKern: {Dolath, Sodeh} {Nun}
+    # GPOS lookup 1, type 2 (Pair adjustment)
+    lookupflag RightToLeft IgnoreMarks;
+    pos dalath-syriac 0 nun-syriac 150;
+    pos sadhe-syriac 0 nun-syriac 250;
+    pos dalath-syriac.fina 0 nun-syriac 150;
+    pos sadhe-syriac.fina 0 nun-syriac 250;
+} kern_dalath_sadhe_nun;
+
+lookup  kern_nun_1 { # FKern: {Dolath, Sodeh} {Nun}
+    # GPOS lookup 8, type 1 (Single adjustment)
+    lookupflag RightToLeft;
+    pos nun-syriac 250;
+}  kern_nun_1;
+
+lookup kern_nun2 { # FKrern: Nun in VOLT
+    # GPOS lookup 4, type 8 (Chained Context positioning)
+    lookupflag RightToLeft;
+    pos [alaph-syriac alaph-syriac.medi alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.fina.alt3] @kern_below nun-syriac' lookup kern_nun_1;
+} kern_nun2;
+
 #********************
 # Base positioning (kerning) 
+#**********************************
+
+
+feature kern {  # Kerning
+    lookup kern_dalath_sadhe_nun;
+    lookup kern_nun2;
+} kern ;
 
 
 #********************
 # Mark-to-base positioning
 
-lookup MarkToBase {
-  lookupflag 0;
-    pos  base @class0 mark @_class0; # above diaA 
-    pos  base @class3  mark @_class3; # below diaB
-    pos  base @class2  mark @_class2; # below
-#    pos  base          mark pthahadotted-syriac;
-} MarkToBase;
+# Attach marks last, so they get positioned correctly on glyphs that have been shifted up.
 
-#********************
-# Mark-to-mark attachment
+lookup LMarkOnBase {
+	lookupflag 0;
+	pos base @class0    mark @_class0; # top
+	pos base @class1    mark @_class1; # top
+	pos base @class2    mark @_class2; # below
+	pos base @class3    mark @_class3; # below
+} LMarkOnBase;
 
-@MarkFilter_class0 = [@class0 @_class0];
-lookup MarkToMarkAbove {
-  lookupflag UseMarkFilteringSet @MarkFilter_class0;
-    pos mark @class0 mark @_class0;
-} MarkToMarkAbove;
+lookup LMarkFeminineDot {
+	lookupflag 0;
+	pos base @class0    mark @_class0; # below
+} LMarkFeminineDot;
 
-@MarkFilter_class2 = [@class2 @_class2];
-lookup MarkToMarkBelow2 {
-  lookupflag UseMarkFilteringSet @MarkFilter_class2;
-    pos mark @class2 mark @_class2;
-} MarkToMarkBelow2;
+lookup LMarkOnLigaEast { # needs work!
+	lookupflag 0;
+	pos base @class1_1    mark @_class1; # top right
+	pos base @class0_1    mark @_class1; # top right
+	pos base @class0_2    mark @_class1; # top left
+	pos base @class1_2    mark @_class1; # top left
+	pos base @class3_1    mark @_class3; # bottom right
+	pos base @class2_1    mark @_class2; # bottom right
+	pos base @class3_2    mark @_class3; # bottom left
+	pos base @class2_2    mark @_class2; # bottom left
+} LMarkOnLigaEast;
 
-@MarkFilter_class3 = [@class3 @_class3];
-lookup MarkToMarkBelow3 {
-  lookupflag UseMarkFilteringSet @MarkFilter_class3;
-    pos mark @class3 mark @_class3;
-} MarkToMarkBelow3;
+lookup LAboveMarkToMark { # needs work!
+	lookupflag 0;
+	pos base @class0    mark @_class0; # above
+	pos base @class1    mark @_class1; # above
+} LAboveMarkToMark;
 
-#**********************************
-#  GPOS FEATURES
-#**********************************
+lookup LBelowMarkToMark { # needs work!
+	lookupflag 0;
+	pos base @class2    mark @_class2; # below
+	pos base @class3    mark @_class3; # below
+} LBelowMarkToMark;
 
-feature mark {  # Mark to base Positioning
-    # Same for latin & syriac:
-      lookup MarkToBase;
-    script syrc;
-#      lookup MarkToLig;
-} mark ;
+feature mark {
+	lookup LMarkOnBase;
+	lookup LMarkFeminineDot;
+	lookup LMarkOnLigaEast;
+} mark;
 
-feature mkmk {  # Mark to mark Positioning
-    # Same for latin & syriac:
-      lookup MarkToMarkAbove;
-      lookup MarkToMarkBelow2;
-      lookup MarkToMarkBelow3;
-} mkmk ;
+feature mkmk {
+	lookup LAboveMarkToMark;
+	lookup LBelowMarkToMark;
+} mkmk;
