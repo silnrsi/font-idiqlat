@@ -281,9 +281,9 @@
     <string>semicolon-ar</string>
     <string>question-ar</string>
     <string>kashida-ar</string>
-    <string>U0640ThreeQuart</string>
-    <string>U0640Quart</string>
-    <string>U0640Half</string>
+    <string>kashida-ar.threequarter</string>
+    <string>kashida-ar.half</string>
+    <string>kashida-ar.quarter</string>
     <string>shadda-ar</string>
     <string>quoteleft</string>
     <string>quoteright</string>
@@ -304,12 +304,6 @@
     <string>uniF131</string>
     <key>Ohm</key>
     <string>Omega</string>
-    <key>U0640Half</key>
-    <string>uni0640.half</string>
-    <key>U0640Quart</key>
-    <string>uni0640.quarter</string>
-    <key>U0640ThreeQuart</key>
-    <string>uni0640.threequarter</string>
     <key>VS1</key>
     <string>uniFE00</string>
     <key>VS10</key>
@@ -540,6 +534,12 @@
     <string>uni071F.medi</string>
     <key>kashida-ar</key>
     <string>uni0640</string>
+    <key>kashida-ar.half</key>
+    <string>uni0640.half</string>
+    <key>kashida-ar.quarter</key>
+    <string>uni0640.quarter</string>
+    <key>kashida-ar.threequarter</key>
+    <string>uni0640.threequarter</string>
     <key>lamadh-syriac</key>
     <string>uni0720</string>
     <key>lamadh-syriac.fina</key>

@@ -181,4 +181,24 @@
       <string>\u0712\u0651</string>
     </test>
   </testgroup>
+  <testgroup label="Real life">
+    <test label="multiple">
+      <string>\u0710\u0739\u0308 \u0712\u0710\u0739\u0308 \u0710\u0739\u0308\u0712 \u0712\u0710\u0739\u0308\u0712</string>
+    </test>
+    <test label="multiple">
+      <string>\u071F\u0742\u0308 \u0712\u071f\u0742\u0308 \u071F\u0742\u0308\u0712 \u0712\u071f\u0742\u0308\u0712</string>
+    </test>
+    <test label="multiple">
+      <string>\u0710\u0739\u0308\u0722 \u0712\u0710\u0739\u0308\u0722</string>
+    </test>
+    <test label="multiple">
+      <comment>mkmk not working</comment>
+      <string>\u071A\u0330\u0738 \u0712\u071A\u0330\u0738</string>
+    </test>
+    <test label="multiple">
+      <comment>mkmk not working</comment>
+      <string>\u071A\u0303\u0308 \u0712\u071A\u0303\u0308</string>
+    </test>
+  </testgroup>
+
 </ftml>

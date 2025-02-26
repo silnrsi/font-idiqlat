@@ -81,8 +81,7 @@ languagesystem latn dflt ;
 @TypeMark = [@MarkAboveCanChain @MarkAboveNoChain @MarkBelowCanChain @MarkBelowNoChain femininedot-syriac dotaboveleftcomb 
 dotbelowleftcomb];
 
-# should rename: kashida-ar.threequarter kashida-ar.quarter kashida-ar.half 
-@TypeSimple = [@RightJoining @DualJoining U0640ThreeQuart U0640Quart U0640Half kashida-ar dottedCircle];
+@TypeSimple = [@RightJoining @DualJoining kashida-ar.threequarter kashida-ar.quarter kashida-ar.half kashida-ar dottedCircle];
 
 # not in font: circumflexbelowcomb
 @kern_below = [dotbelowcomb dieresisbelowcomb brevebelowcomb tildebelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac];

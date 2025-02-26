@@ -2,12 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>U0640Half</key>
-  <string>U_0640H_alf.glif</string>
-  <key>U0640Quart</key>
-  <string>U_0640Q_uart.glif</string>
-  <key>U0640ThreeQuart</key>
-  <string>U_0640T_hreeQ_uart.glif</string>
   <key>_LeftTail</key>
   <string>_L_eftT_ail.glif</string>
   <key>_beth</key>
@@ -188,6 +182,12 @@
   <string>kaph-syriac.medi.glif</string>
   <key>kashida-ar</key>
   <string>kashida-ar.glif</string>
+  <key>kashida-ar.half</key>
+  <string>kashida-ar.half.glif</string>
+  <key>kashida-ar.quarter</key>
+  <string>kashida-ar.quarter.glif</string>
+  <key>kashida-ar.threequarter</key>
+  <string>kashida-ar.threequarter.glif</string>
   <key>lamadh-syriac</key>
   <string>lamadh-syriac.glif</string>
   <key>lamadh-syriac.fina</key>
