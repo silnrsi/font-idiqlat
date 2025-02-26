@@ -40,6 +40,8 @@
   <string>beth-syriac.medi.glif</string>
   <key>brevebelowcomb</key>
   <string>brevebelowcomb.glif</string>
+  <key>circumflexbelowcomb</key>
+  <string>circumflexbelowcomb.glif</string>
   <key>colon</key>
   <string>colon.glif</string>
   <key>colonHorizontal-syriac</key>
@@ -324,6 +326,8 @@
   <string>rish_dieresiscomb-syriac.fina.glif</string>
   <key>rukkakha-syriac</key>
   <string>rukkakha-syriac.glif</string>
+  <key>rukkakha-syriac.square</key>
+  <string>rukkakha-syriac.square.glif</string>
   <key>rwaha-syriac</key>
   <string>rwaha-syriac.glif</string>
   <key>sadhe-syriac</key>

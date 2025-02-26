@@ -79,6 +79,11 @@
       <comment>alaph-syriac nun-syriac  (kern_nun2) </comment>
       <string>\u0710\u0323\u0722 \u0729\u0710\u0323\u0722 \u0710\u0738\u0722 \u0729\u0710\u0738\u0722</string>
     </test>
+    <test label="U+0712 U+0742 ">
+      <comment>beth-syriac rukkakha-syriac  (RukkakhaSquare) Not working </comment>
+      <string>\u0712\u0742 \u0729\u0712\u0742</string>
+    </test>
+
   </testgroup>
   <testgroup label="Ligatures">
     <test label="U+0717 U+071D">

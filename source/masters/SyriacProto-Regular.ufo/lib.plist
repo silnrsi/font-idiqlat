@@ -254,6 +254,7 @@
     <string>femininedot-syriac</string>
     <string>qushshaya-syriac</string>
     <string>rukkakha-syriac</string>
+    <string>rukkakha-syriac.square</string>
     <string>twodotsverticalabove-syriac</string>
     <string>twodotsverticalbelow-syriac</string>
     <string>threedotsabove-syriac</string>
@@ -274,6 +275,7 @@
     <string>dotbelowleftcomb</string>
     <string>dieresisbelowcomb</string>
     <string>ringbelowcomb</string>
+    <string>circumflexbelowcomb</string>
     <string>brevebelowcomb</string>
     <string>tildebelowcomb</string>
     <string>macronbelowcomb</string>
@@ -690,6 +692,8 @@
     <string>uni072A0308.fina</string>
     <key>rukkakha-syriac</key>
     <string>uni0742</string>
+    <key>rukkakha-syriac.square</key>
+    <string>uni0742.square</string>
     <key>rwaha-syriac</key>
     <string>uni073F</string>
     <key>sadhe-syriac</key>
