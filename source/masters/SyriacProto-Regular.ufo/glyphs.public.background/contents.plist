@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>_LeftTail</key>
+  <string>_L_eftT_ail.glif</string>
+  <key>_beth</key>
+  <string>_beth.glif</string>
+  <key>_qaph</key>
+  <string>_qaph.glif</string>
+  <key>_shin</key>
+  <string>_shin.glif</string>
+  <key>beth-syriac</key>
+  <string>beth-syriac.glif</string>
+  <key>qaph-syriac</key>
+  <string>qaph-syriac.glif</string>
+  <key>qaph-syriac.fina</key>
+  <string>qaph-syriac.fina.glif</string>
+  <key>qaph-syriac.init</key>
+  <string>qaph-syriac.init.glif</string>
+  <key>qaph-syriac.medi</key>
+  <string>qaph-syriac.medi.glif</string>
+  <key>shin-syriac</key>
+  <string>shin-syriac.glif</string>
+  <key>shin-syriac.init</key>
+  <string>shin-syriac.init.glif</string>
+  <key>shin-syriac.medi</key>
+  <string>shin-syriac.medi.glif</string>
+</dict>
+</plist>
