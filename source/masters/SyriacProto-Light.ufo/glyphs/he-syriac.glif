@@ -2,11 +2,11 @@
 <glyph name="he-syriac" format="2">
   <advance width="913"/>
   <unicode hex="0717"/>
-  <anchor x="465" y="765" name="class0"/>
-  <anchor x="510" y="-135" name="class0_"/>
-  <anchor x="495" y="735" name="class1"/>
-  <anchor x="510" y="-150" name="class2"/>
-  <anchor x="510" y="-150" name="class3"/>
+  <anchor x="510" y="-150" name="b.U0325_3"/>
+  <anchor x="510" y="-150" name="b.U0331_2"/>
+  <anchor x="510" y="-135" name="b.U0740"/>
+  <anchor x="495" y="735" name="m.U030a_1"/>
+  <anchor x="465" y="765" name="t.U0656"/>
   <outline>
     <contour>
       <point x="868" y="-148" type="curve" smooth="yes"/>
