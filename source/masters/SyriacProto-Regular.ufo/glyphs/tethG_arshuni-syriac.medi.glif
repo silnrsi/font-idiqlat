@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tethGarshuni-syriac.medi" format="2">
   <advance width="1209"/>
-  <anchor x="720" y="690" name="class0"/>
-  <anchor x="420" y="-180" name="class0_"/>
-  <anchor x="705" y="690" name="class1"/>
-  <anchor x="360" y="-225" name="class2"/>
-  <anchor x="495" y="-180" name="class3"/>
+  <anchor x="495" y="-180" name="b.U0325_3"/>
+  <anchor x="360" y="-225" name="b.U0331_2"/>
+  <anchor x="420" y="-180" name="b.U0740"/>
+  <anchor x="705" y="690" name="m.U030a_1"/>
+  <anchor x="720" y="690" name="t.U0656"/>
   <outline>
     <contour>
       <point x="911" y="-512" type="curve" smooth="yes"/>

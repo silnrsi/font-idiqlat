@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taw_alaph-syriac.alt" format="2">
   <advance width="1203"/>
-  <anchor x="975" y="720" name="class0_1"/>
-  <anchor x="540" y="1005" name="class0_2"/>
-  <anchor x="960" y="720" name="class1_1"/>
-  <anchor x="525" y="990" name="class1_2"/>
-  <anchor x="975" y="-135" name="class2_1"/>
-  <anchor x="585" y="-150" name="class2_2"/>
-  <anchor x="1020" y="-150" name="class3_1"/>
-  <anchor x="600" y="-150" name="class3_2"/>
+  <anchor x="1020" y="-150" name="b.U0325_3_2_ligComponent_1"/>
+  <anchor x="600" y="-150" name="b.U0325_3_2_ligComponent_2"/>
+  <anchor x="975" y="-135" name="b.U0331_2_2_ligComponent_1"/>
+  <anchor x="585" y="-150" name="b.U0331_2_2_ligComponent_2"/>
+  <anchor x="960" y="720" name="m.U030a_1_2_ligComponent_1"/>
+  <anchor x="525" y="990" name="m.U030a_1_2_ligComponent_2"/>
+  <anchor x="975" y="720" name="m.U0656_ligComponent_1"/>
+  <anchor x="540" y="1005" name="m.U0656_ligComponent_2"/>
   <outline>
     <contour>
       <point x="199" y="-162" type="curve" smooth="yes"/>

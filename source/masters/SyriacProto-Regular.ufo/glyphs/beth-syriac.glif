@@ -2,11 +2,11 @@
 <glyph name="beth-syriac" format="2">
   <advance width="1106"/>
   <unicode hex="0712"/>
-  <anchor x="750" y="780" name="class0"/>
-  <anchor x="720" y="-135" name="class0_"/>
-  <anchor x="765" y="735" name="class1"/>
-  <anchor x="690" y="-128" name="class2"/>
-  <anchor x="705" y="-150" name="class3"/>
+  <anchor x="705" y="-150" name="b.U0325_3"/>
+  <anchor x="690" y="-128" name="b.U0331_2"/>
+  <anchor x="720" y="-135" name="b.U0740"/>
+  <anchor x="765" y="735" name="m.U030a_1"/>
+  <anchor x="750" y="780" name="t.U0656"/>
   <outline>
     <component base="_beth" xOffset="253"/>
     <component base="_LeftTail" xOffset="22"/>

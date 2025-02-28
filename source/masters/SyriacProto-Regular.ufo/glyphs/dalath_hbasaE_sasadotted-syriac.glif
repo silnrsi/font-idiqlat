@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalath_hbasaEsasadotted-syriac" format="2">
   <advance width="709"/>
-  <anchor x="360" y="720" name="class0"/>
-  <anchor x="0" y="0" name="class0_"/>
-  <anchor x="285" y="705" name="class1"/>
-  <anchor x="315" y="-390" name="class2"/>
-  <anchor x="300" y="-390" name="class3"/>
+  <anchor x="300" y="-390" name="b.U0325_3"/>
+  <anchor x="315" y="-390" name="b.U0331_2"/>
+  <anchor x="0" y="0" name="b.U0740"/>
+  <anchor x="285" y="705" name="m.U030a_1"/>
+  <anchor x="360" y="720" name="t.U0656"/>
   <outline>
     <contour>
       <point x="149" y="0" type="line"/>

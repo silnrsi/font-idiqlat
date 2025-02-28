@@ -61,39 +61,41 @@ feature kern {  # Kerning
 
 lookup LMarkOnBase {
 	lookupflag 0;
-	pos base @class0    mark @_class0; # top
-	pos base @class1    mark @_class1; # top
-	pos base @class2    mark @_class2; # below
-	pos base @class3    mark @_class3; # below
+	pos base @t.U0656    mark @_t.U0656; # top
+	pos base @t.U0656_2    mark @_t.U0656_2; # top
+	pos base @m.U030a_1    mark @_m.U030a_1; # top
+	pos base @m.U0656    mark @_m.U0656; # top
+	pos base @b.U0331_2    mark @_b.U0331_2; # below
+	pos base @b.U0325_3    mark @_b.U0325_3; # below
 } LMarkOnBase;
 
 lookup LMarkFeminineDot {
 	lookupflag 0;
-	pos base @class0    mark @_class0; # below
+	pos base @b.U0740    mark @_b.U0740; # below
 } LMarkFeminineDot;
 
 lookup LMarkOnLigaEast { # needs work!
 	lookupflag 0;
-	pos base @class1_1    mark @_class1; # top right
-	pos base @class0_1    mark @_class1; # top right
-	pos base @class0_2    mark @_class1; # top left
-	pos base @class1_2    mark @_class1; # top left
-	pos base @class3_1    mark @_class3; # bottom right
-	pos base @class2_1    mark @_class2; # bottom right
-	pos base @class3_2    mark @_class3; # bottom left
-	pos base @class2_2    mark @_class2; # bottom left
+	pos base @m.U030a_1_2_ligComponent_1    mark @_m.U030a_1; # top right
+	pos base @m.U0656_ligComponent_1    mark @_m.U030a_1; # top right
+	pos base @m.U0656_ligComponent_2    mark @_m.U030a_1; # top left
+	pos base @m.U030a_1_2_ligComponent_2    mark @_m.U030a_1; # top left
+	pos base @b.U0325_3_2_ligComponent_1    mark @_b.U0325_3; # bottom right
+	pos base @b.U0331_2_2_ligComponent_1    mark @_b.U0331_2; # bottom right
+	pos base @b.U0325_3_2_ligComponent_2    mark @_b.U0325_3; # bottom left
+	pos base @b.U0331_2_2_ligComponent_2    mark @_b.U0331_2; # bottom left
 } LMarkOnLigaEast;
 
 lookup LAboveMarkToMark { # needs work!
 	lookupflag 0;
-	pos base @class0    mark @_class0; # above
-	pos base @class1    mark @_class1; # above
+	pos base @t.U0656    mark @_t.U0656; # above
+	pos base @m.U030a_1    mark @_m.U030a_1; # above
 } LAboveMarkToMark;
 
 lookup LBelowMarkToMark { # needs work!
 	lookupflag 0;
-	pos base @class2    mark @_class2; # below
-	pos base @class3    mark @_class3; # below
+	pos base @b.U0331_2    mark @_b.U0331_2; # below
+	pos base @b.U0325_3    mark @_b.U0325_3; # below
 } LBelowMarkToMark;
 
 feature mark {

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rukkakha-syriac" format="2">
   <unicode hex="0742"/>
-  <anchor x="60" y="-45" name="_class3"/>
+  <anchor x="60" y="-45" name="_b.U0325_3"/>
+  <anchor x="75" y="-30" name="_b.U0325_3_2"/>
   <outline>
     <contour>
       <point x="74" y="-230" type="curve" smooth="yes"/>

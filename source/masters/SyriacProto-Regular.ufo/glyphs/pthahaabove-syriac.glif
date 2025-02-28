@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pthahaabove-syriac" format="2">
   <unicode hex="0730"/>
-  <anchor x="195" y="60" name="_class0"/>
+  <anchor x="255" y="90" name="_m.U0656"/>
+  <anchor x="195" y="60" name="_t.U0656"/>
+  <anchor x="195" y="15" name="_t.U0656_2"/>
+  <anchor x="165" y="435" name="t.U0656_2"/>
   <outline>
     <contour>
       <point x="28" y="0" type="line"/>

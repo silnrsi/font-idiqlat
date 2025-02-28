@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zlamadottedangular-syriac" format="2">
   <unicode hex="0739"/>
-  <anchor x="495" y="-180" name="_class2"/>
+  <anchor x="480" y="-165" name="_b.U0331"/>
+  <anchor x="495" y="-180" name="_b.U0331_2"/>
+  <anchor x="480" y="-210" name="_b.U0331_2_2"/>
+  <anchor x="465" y="-465" name="b.U0331"/>
   <outline>
     <contour>
       <point x="551" y="-354" type="curve" smooth="yes"/>

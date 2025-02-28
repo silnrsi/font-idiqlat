@@ -2,11 +2,11 @@
 <glyph name="alaph-syriac" format="2">
   <advance width="676"/>
   <unicode hex="0710"/>
-  <anchor x="375" y="975" name="class0"/>
-  <anchor x="405" y="-150" name="class0_"/>
-  <anchor x="375" y="975" name="class1"/>
-  <anchor x="390" y="-165" name="class2"/>
-  <anchor x="375" y="-135" name="class3"/>
+  <anchor x="375" y="-135" name="b.U0325_3"/>
+  <anchor x="390" y="-165" name="b.U0331_2"/>
+  <anchor x="405" y="-150" name="b.U0740"/>
+  <anchor x="375" y="975" name="m.U030a_1"/>
+  <anchor x="375" y="975" name="t.U0656"/>
   <outline>
     <contour>
       <point x="153" y="0" type="line"/>

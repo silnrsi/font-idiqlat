@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qaph-syriac.fina" format="2">
   <advance width="1106"/>
-  <anchor x="735" y="780" name="class0"/>
-  <anchor x="765" y="-150" name="class0_"/>
-  <anchor x="750" y="765" name="class1"/>
-  <anchor x="765" y="-150" name="class2"/>
-  <anchor x="765" y="-150" name="class3"/>
+  <anchor x="765" y="-150" name="b.U0325_3"/>
+  <anchor x="765" y="-150" name="b.U0331_2"/>
+  <anchor x="765" y="-150" name="b.U0740"/>
+  <anchor x="750" y="765" name="m.U030a_1"/>
+  <anchor x="735" y="780" name="t.U0656"/>
   <outline>
     <component base="_qaph" xOffset="201"/>
     <contour>
