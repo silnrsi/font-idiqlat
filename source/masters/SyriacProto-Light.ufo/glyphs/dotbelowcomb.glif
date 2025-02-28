@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotbelowcomb" format="2">
   <unicode hex="0323"/>
-  <anchor x="120" y="-45" name="_class2"/>
+  <anchor x="120" y="-45" name="_b.U0331"/>
+  <anchor x="120" y="-45" name="_b.U0331_2"/>
+  <anchor x="150" y="-30" name="_b.U0331_2_2"/>
+  <anchor x="120" y="-330" name="b.U0331"/>
   <outline>
     <contour>
       <point x="38" y="-179" type="line"/>

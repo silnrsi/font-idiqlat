@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="barrekh-syriac" format="2">
   <unicode hex="074A"/>
-  <anchor x="195" y="195" name="_class0"/>
+  <anchor x="240" y="0" name="_m.U0656"/>
+  <anchor x="195" y="195" name="_t.U0656"/>
+  <anchor x="165" y="180" name="_t.U0656_2"/>
+  <anchor x="195" y="525" name="t.U0656_2"/>
   <outline>
     <contour>
       <point x="173" y="0" type="line"/>

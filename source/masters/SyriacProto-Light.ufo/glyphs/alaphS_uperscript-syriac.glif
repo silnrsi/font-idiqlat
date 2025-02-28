@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alaphSuperscript-syriac" format="2">
   <unicode hex="0711"/>
-  <anchor x="135" y="15" name="_class0"/>
+  <anchor x="255" y="0" name="_m.U0656"/>
+  <anchor x="135" y="15" name="_t.U0656"/>
+  <anchor x="135" y="0" name="_t.U0656_2"/>
+  <anchor x="120" y="600" name="t.U0656_2"/>
   <outline>
     <contour>
       <point x="0" y="0" type="line"/>

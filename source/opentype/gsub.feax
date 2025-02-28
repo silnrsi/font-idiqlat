@@ -15,10 +15,11 @@ languagesystem syrc dflt; # Syriac default
 languagesystem latn dflt ;
 
 
-@MarksAbove = [@_class0] ; # _diaA
-@MarksBelow = [@_class3] ; # _diaB
-@MarksBelow2 = [@_class2] ; # _diaB
-@MarksAny = [@_class0 @_class3 @_class2] ; # [@_diaA @_diaB]
+# @MarksAbove = [@_class0] ; # _diaA
+# @MarksBelow = [@_class3] ; # _diaB
+# @MarksBelow2 = [@_class2] ; # _diaB
+# @MarksAny = [@_class0 @_class3 @_class2] ; # [@_diaA @_diaB]
+
 
 #**********************************
 #  Classes

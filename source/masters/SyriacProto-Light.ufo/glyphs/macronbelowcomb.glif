@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macronbelowcomb" format="2">
   <unicode hex="0331"/>
-  <anchor x="240" y="0" name="_class2"/>
+  <anchor x="240" y="-15" name="_b.U0331"/>
+  <anchor x="240" y="0" name="_b.U0331_2"/>
+  <anchor x="270" y="-15" name="_b.U0331_2_2"/>
+  <anchor x="270" y="-255" name="b.U0331"/>
   <outline>
     <contour>
       <point x="47" y="-75" type="curve" smooth="yes"/>

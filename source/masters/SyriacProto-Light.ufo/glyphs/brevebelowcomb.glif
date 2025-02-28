@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevebelowcomb" format="2">
   <unicode hex="032E"/>
-  <anchor x="225" y="-90" name="_class2"/>
+  <anchor x="240" y="-105" name="_b.U0331"/>
+  <anchor x="225" y="-90" name="_b.U0331_2"/>
+  <anchor x="330" y="-30" name="_b.U0331_2_2"/>
+  <anchor x="225" y="-435" name="b.U0331"/>
   <outline>
     <contour>
       <point x="213" y="-307" type="curve" smooth="yes"/>

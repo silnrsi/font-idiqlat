@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zqaphadotted-syriac" format="2">
   <unicode hex="0735"/>
-  <anchor x="270" y="120" name="_class0"/>
+  <anchor x="270" y="105" name="_m.U0656"/>
+  <anchor x="270" y="120" name="_t.U0656"/>
+  <anchor x="270" y="150" name="_t.U0656_2"/>
+  <anchor x="270" y="510" name="t.U0656_2"/>
   <outline>
     <contour>
       <point x="316" y="88" type="curve" smooth="yes"/>
