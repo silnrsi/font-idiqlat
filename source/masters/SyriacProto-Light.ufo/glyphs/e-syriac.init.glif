@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="e-syriac.init" format="2">
   <advance width="1105"/>
-  <anchor x="300" y="-135" name="b.U0325_3"/>
-  <anchor x="315" y="-120" name="b.U0331_2"/>
-  <anchor x="525" y="-150" name="b.U0740"/>
-  <anchor x="270" y="1005" name="m.U030a_1"/>
-  <anchor x="270" y="960" name="t.U0656"/>
+  <anchor x="270" y="960" name="class0"/>
+  <anchor x="525" y="-150" name="class0_"/>
+  <anchor x="270" y="1005" name="class1"/>
+  <anchor x="315" y="-120" name="class2"/>
+  <anchor x="300" y="-135" name="class3"/>
   <outline>
     <contour>
       <point x="840" y="-8" type="curve" smooth="yes"/>

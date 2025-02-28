@@ -31,12 +31,13 @@
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/beth-syriac/he-syriac/kaph-syriac/mim-syriac/_qaph/qaph-syriac/shin-syriac 
-/shin-syriac/_shin/space/shin-syriac.init/space/shin-syriac.medi/space/shin-syriac.fina 
-/beth-syriac/_beth/_LeftTail/space/beth-syriac.init/space/beth-syriac.medi/space/beth-syriac.fina 
+/he-syriac/he-syriac.fina/he_yudh-syriac/he_yudh-syriac.fina/space/mim-syriac.init/mim-syriac.medi/mim-syriac.fina/mim-syriac/waw-syriac/waw-syriac.fina 
+/shin-syriac/_shin/shin-syriac.init/shin-syriac.medi/shin-syriac.fina/nun-syriac.init/nun-syriac.medi/beth-syriac/_beth/_LeftTail/beth-syriac.init/beth-syriac.medi/beth-syriac.fina 
 /qaph-syriac/_qaph/qaph-syriac.init/qaph-syriac.medi/qaph-syriac.fina</string>
     <string>/gamal-syriac/teth-syriac/lamadh-syriac/lamadh_alaph-syriac/e-syriac/taw-syriac</string>
     <string>/alaph-syriac/beth-syriac/kaph-syriac.fina/mim-syriac/pe-syriac/qaph-syriac/shin-syriac</string>
-    <string>/sadhe-syriac/sadhe-syriac.fina</string>
+    <string>/he-syriac/he_yudh-syriac/kaph-syriac/alaph-syriac.ccmp/nun-syriac/nun-syriac.fina/sadhe-syriac/sadhe_nun-syriac</string>
+    <string>/gamal-syriac</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

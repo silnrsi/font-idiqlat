@@ -12,6 +12,22 @@
   <string>_shin.glif</string>
   <key>beth-syriac</key>
   <string>beth-syriac.glif</string>
+  <key>he-syriac</key>
+  <string>he-syriac.glif</string>
+  <key>he-syriac.fina</key>
+  <string>he-syriac.fina.glif</string>
+  <key>he_yudh-syriac</key>
+  <string>he_yudh-syriac.glif</string>
+  <key>mim-syriac</key>
+  <string>mim-syriac.glif</string>
+  <key>mim-syriac.fina</key>
+  <string>mim-syriac.fina.glif</string>
+  <key>mim-syriac.init</key>
+  <string>mim-syriac.init.glif</string>
+  <key>nun-syriac.init</key>
+  <string>nun-syriac.init.glif</string>
+  <key>nun-syriac.medi</key>
+  <string>nun-syriac.medi.glif</string>
   <key>qaph-syriac</key>
   <string>qaph-syriac.glif</string>
   <key>qaph-syriac.fina</key>
@@ -26,5 +42,9 @@
   <string>shin-syriac.init.glif</string>
   <key>shin-syriac.medi</key>
   <string>shin-syriac.medi.glif</string>
+  <key>waw-syriac</key>
+  <string>waw-syriac.glif</string>
+  <key>waw-syriac.fina</key>
+  <string>waw-syriac.fina.glif</string>
 </dict>
 </plist>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nun-syriac.medi" format="2">
   <advance width="683"/>
-  <anchor x="390" y="-150" name="b.U0325_3"/>
-  <anchor x="390" y="-165" name="b.U0331_2"/>
-  <anchor x="345" y="-135" name="b.U0740"/>
-  <anchor x="390" y="720" name="m.U030a_1"/>
-  <anchor x="405" y="735" name="t.U0656"/>
+  <anchor x="405" y="735" name="class0"/>
+  <anchor x="345" y="-135" name="class0_"/>
+  <anchor x="390" y="720" name="class1"/>
+  <anchor x="390" y="-165" name="class2"/>
+  <anchor x="390" y="-150" name="class3"/>
   <outline>
     <contour>
       <point x="0" y="0" type="line"/>

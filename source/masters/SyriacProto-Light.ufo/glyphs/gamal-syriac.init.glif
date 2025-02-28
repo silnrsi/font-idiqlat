@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gamal-syriac.init" format="2">
   <advance width="1019"/>
-  <anchor x="375" y="-150" name="b.U0325_3"/>
-  <anchor x="420" y="-135" name="b.U0331_2"/>
-  <anchor x="510" y="-180" name="b.U0740"/>
-  <anchor x="570" y="795" name="m.U030a_1"/>
-  <anchor x="645" y="825" name="t.U0656"/>
+  <anchor x="645" y="825" name="class0"/>
+  <anchor x="510" y="-180" name="class0_"/>
+  <anchor x="570" y="795" name="class1"/>
+  <anchor x="420" y="-135" name="class2"/>
+  <anchor x="375" y="-150" name="class3"/>
   <outline>
     <contour>
       <point x="934" y="-470" type="line"/>

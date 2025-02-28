@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reversedpe-syriac.init" format="2">
   <advance width="1097"/>
-  <anchor x="930" y="-135" name="b.U0325_3"/>
-  <anchor x="555" y="-210" name="b.U0331_2"/>
-  <anchor x="555" y="-165" name="b.U0740"/>
-  <anchor x="840" y="975" name="m.U030a_1"/>
-  <anchor x="525" y="1035" name="t.U0656"/>
+  <anchor x="525" y="1035" name="class0"/>
+  <anchor x="555" y="-165" name="class0_"/>
+  <anchor x="840" y="975" name="class1"/>
+  <anchor x="555" y="-210" name="class2"/>
+  <anchor x="930" y="-135" name="class3"/>
   <outline>
     <contour>
       <point x="26" y="0" type="line"/>
