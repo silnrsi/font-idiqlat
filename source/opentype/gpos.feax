@@ -43,28 +43,12 @@ lookup kern_nun2 { # FKrern: Nun in VOLT
     pos [alaph-syriac alaph-syriac.medi alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.fina.alt3] @kern_below nun-syriac' lookup kern_nun_1;
 } kern_nun2;
 
-#********************
-# Base positioning (kerning) 
-#**********************************
-
-
-feature kern {  # Kerning
-    lookup kern_dalath_sadhe_nun;
-    lookup kern_nun2;
-} kern ;
-
-
-#********************
-# Mark-to-base positioning
-
-# Attach marks last, so they get positioned correctly on glyphs that have been shifted up.
-
 lookup LMarkOnBase {
 	lookupflag 0;
 	pos base @t.U0656    mark @_t.U0656; # top
-	pos base @t.U0656_2    mark @_t.U0656_2; # top
+#	pos base @t.U0656_2    mark @_t.U0656_2; # top
 	pos base @m.U030a_1    mark @_m.U030a_1; # top
-	pos base @m.U0656    mark @_m.U0656; # top
+#	pos base @m.U0656    mark @_m.U0656; # top
 	pos base @b.U0331_2    mark @_b.U0331_2; # below
 	pos base @b.U0325_3    mark @_b.U0325_3; # below
 } LMarkOnBase;
@@ -77,8 +61,8 @@ lookup LMarkFeminineDot {
 lookup LMarkOnLigaEast { # needs work!
 	lookupflag 0;
 	pos base @m.U030a_1_2_ligComponent_1    mark @_m.U030a_1; # top right
-	pos base @m.U0656_ligComponent_1    mark @_m.U030a_1; # top right
-	pos base @m.U0656_ligComponent_2    mark @_m.U030a_1; # top left
+	pos base @m.U0656_ligComponent_1    mark @_m.U0656; # top right
+#	pos base @m.U0656_ligComponent_2    mark @_t.U0656_2; # top left
 	pos base @m.U030a_1_2_ligComponent_2    mark @_m.U030a_1; # top left
 	pos base @b.U0325_3_2_ligComponent_1    mark @_b.U0325_3; # bottom right
 	pos base @b.U0331_2_2_ligComponent_1    mark @_b.U0331_2; # bottom right
@@ -88,15 +72,29 @@ lookup LMarkOnLigaEast { # needs work!
 
 lookup LAboveMarkToMark { # needs work!
 	lookupflag 0;
-	pos base @t.U0656    mark @_t.U0656; # above
-	pos base @m.U030a_1    mark @_m.U030a_1; # above
+	pos mark @t.U0656    mark @_t.U0656; # above @t.U0656_2
+#	pos base @m.U030a_1    mark @_m.U030a_1; # above
 } LAboveMarkToMark;
 
 lookup LBelowMarkToMark { # needs work!
 	lookupflag 0;
-	pos base @b.U0331_2    mark @_b.U0331_2; # below
-	pos base @b.U0325_3    mark @_b.U0325_3; # below
+	pos mark @b.U0331_2    mark @_b.U0331; # below
+#	pos base @b.U0325_3    mark @_b.U0325_3; # below
 } LBelowMarkToMark;
+
+#********************
+# Base positioning (kerning) 
+#**********************************
+
+feature kern {  # Kerning
+    lookup kern_dalath_sadhe_nun;
+    lookup kern_nun2;
+} kern ;
+
+#********************
+# Mark-to-base positioning
+
+# Attach marks last, so they get positioned correctly on glyphs that have been shifted up.
 
 feature mark {
 	lookup LMarkOnBase;

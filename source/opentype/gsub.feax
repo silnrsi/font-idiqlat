@@ -15,80 +15,11 @@ languagesystem syrc dflt; # Syriac default
 languagesystem latn dflt ;
 
 
-# @MarksAbove = [@_t.U0656] ; # _diaA
-# @MarksAbove2 = [@_t.U0656_2] ; # _diaA
-# @MarksBelow = [@_b.U0325_3] ; # _diaB
-# @MarksBelow2 = [@_b.U0331_2] ; # _diaB
-# @MarksAny = [@_t.U0656 @_b.U0325_3 @_b.U0331_2] ; # [@_diaA @_diaB]
+@MarksAbove = [@_t.U0656 @_m.U0656 @_m.U030a_1] ; # _diaA
+@MarksBelow = [@_b.U0325_3 @_b.U0331_2] ; # _diaB
+@MarksAny = [@MarksAbove @MarksBelow] ;
 
 
-#**********************************
-#  Classes
-#**********************************
-
-# Next 4 should have 18 glyphs
-# was called @DualJoiningXr
-@DualLinkFina = [beth-syriac.fina gamal-syriac.fina gamalgarshuni-syriac.fina heth-syriac.fina teth-syriac.fina tethGarshuni-syriac.fina yudh-syriac.fina kaph-syriac.fina lamadh-syriac.fina mim-syriac.fina nun-syriac.fina semkath-syriac.fina semkathFinal-syriac.fina e-syriac.fina pe-syriac.fina reversedpe-syriac.fina qaph-syriac.fina shin-syriac.fina];
-
-# was called @DualJoiningXl
-@DualLinkInit = [beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init reversedpe-syriac.init qaph-syriac.init shin-syriac.init];
-
-# was called @DualJoiningXn
-@DualLinkIsol = [beth-syriac gamal-syriac gamalgarshuni-syriac heth-syriac teth-syriac tethGarshuni-syriac yudh-syriac kaph-syriac lamadh-syriac mim-syriac nun-syriac semkath-syriac semkathFinal-syriac e-syriac pe-syriac reversedpe-syriac qaph-syriac shin-syriac];
-
-# was called @DualJoiningXm
-@DualLinkMedi = [beth-syriac.medi gamal-syriac.medi gamalgarshuni-syriac.medi heth-syriac.medi teth-syriac.medi tethGarshuni-syriac.medi yudh-syriac.medi kaph-syriac.medi lamadh-syriac.medi mim-syriac.medi nun-syriac.medi semkath-syriac.medi semkathFinal-syriac.medi e-syriac.medi pe-syriac.medi reversedpe-syriac.medi qaph-syriac.medi shin-syriac.medi];
-
-@DualJoining = [@DualLinkIsol @DualLinkFina @DualLinkMedi @DualLinkInit];
-
-#**********************************
-#  Need to revisit Right joining because original VOLT uses a mixture, see RightJoiningXn and RightJoiningXr
-#**********************************
-
-@RightJoiningIsol = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac];
-@RightJoiningFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina];
-@RightJoining = [@RightJoiningIsol @RightJoiningFina];
-
-@RightJoiningXn = [alaph-syriac alaph-syriac.fina.alt2 alaph-syriac.fina.alt3 dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac];
-@RightJoiningXr = [alaph-syriac.medi alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina];
-
-# @RightJoining = [@RightJoiningXn @RightJoiningXr];
-
-@AllXn = [@RightJoiningXn @DualLinkIsol];
-@AllXnXl = [@AllXn @DualLinkInit];
-@AllBase = [@DualJoining @RightJoining];
-
-# Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar sukun-ar madda-ar hamzaabove-ar alefbelow-ar
-@MarkAboveCanChain = [tildecomb macroncomb dotaccentcomb dieresiscomb shadda-ar  alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac rwaha-syriac twodotsverticalabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac];
-@MarkAboveNoChain = [ringcomb qushshaya-syriac];
-
-# Removed glyphs not in font: kasratan-ar kasra-ar hamzabelow-ar  
-@MarkBelowCanChain = [tildebelowcomb macronbelowcomb dotbelowcomb dieresisbelowcomb brevebelowcomb circumflexbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac rukkakha-syriac.square];
-
-# Does not make sense for this to be both in can chain and no chain:  rukkakha-syriac.square
-@MarkBelowNoChain = [ringbelowcomb rukkakha-syriac rukkakha-syriac.square];
-@MarkFeminineDot = [femininedot-syriac];
-
-# Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar madda-ar alefbelow-ar 
-@MarkWideAbove = [tildecomb macroncomb dieresiscomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac];
-
-@TakeRukkakhaSquare = [beth-syriac beth-syriac.init beth-syriac.medi beth-syriac.fina gamal-syriac gamal-syriac.init gamal-syriac.medi gamal-syriac.fina taw-syriac taw-syriac.fina];
-@TypeLigature = [lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina];
-
-# Ligatures
-
-@TypeLigatureOptionalEast = [sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina he_yudh-syriac he_yudh-syriac.fina taw_yudh-syriac taw_yudh-syriac.fina taw_alaph-syriac.alt taw_alaph-syriac.fina.alt taw_alaph-syriac.alt3 taw_alaph-syriac.fina.alt3];
-
-# Add in U0742Square
-@TypeMark = [@MarkAboveCanChain @MarkAboveNoChain @MarkBelowCanChain @MarkBelowNoChain femininedot-syriac dotaboveleftcomb 
-dotbelowleftcomb];
-
-@TypeSimple = [@RightJoining @DualJoining kashida-ar.threequarter kashida-ar.quarter kashida-ar.half kashida-ar dottedCircle];
-
-@kern_below = [dotbelowcomb dieresisbelowcomb brevebelowcomb tildebelowcomb circumflexbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac];
-
-# Not in font: alefbelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar sukun-ar madda-ar hamzaabove-ar hamzabelow-ar 
-@ccmp_zz02 = [tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac barrekh-syriac dotaboveleftcomb dotbelowleftcomb circumflexbelowcomb rukkakha-syriac.square];
 
 # Notes:
 #   The lookups and then the features should be arranged and grouped into ordered passes
@@ -151,6 +82,7 @@ lookup ltrInit {
     sub @DualLinkIsol  by  @DualLinkInit ;
 } ltrInit ;
 
+
 # HB PAUSE
 
 # This one answers my question on how to handle U+073C which is above and below
@@ -162,7 +94,7 @@ lookup GPreDecompose {
 lookup r1 {
     sub alaph-syriac lamadh-syriac' @TypeMark' @TypeMark' by alaph-syriac.ccmp ;
     sub alaph-syriac lamadh-syriac' @TypeMark' by alaph-syriac.ccmp ;
-    sub alaph-syriac lamadh-syriac' by alaph-syriac.ccmp ;
+    sub alaph-syriac lamadh-syriac'  by alaph-syriac.ccmp ;
 } r1 ;
 
 lookup r2 { # 073f not in font
@@ -174,7 +106,7 @@ lookup r2 { # 073f not in font
 } r2 ;
 
 # glyph for replacement seems poorly named except 073c and 0742 are similar
-lookup r3 {
+lookup r3 { # 0715 0742
     sub dalath-syriac rukkakha-syriac by dalath_hbasaEsasadotted-syriac ;
     sub dalath-syriac.fina rukkakha-syriac by dalath_hbasaEsasadotted-syriac.fina ;
 } r3 ;
@@ -224,20 +156,6 @@ lookup RukkakhaSquare { # 0742
      sub @TakeRukkakhaSquare' rukkakha-syriac by rukkakha-syriac.square ;
 } RukkakhaSquare ;
 
-
-
-# lookup LMarkFeminineDot { # sure doesn't look right!
-# @TypeSimple @MarkFeminineDot 
-# } LMarkFeminineDot;
-
-# LMarkOnBase
-
-
-# LMarkOnLigaEast
-# LAboveMarkToMark
-# LBelowMarkToMark
-
-
 #---  calt feature  ---
 
 # Language-independent shaping
@@ -250,20 +168,21 @@ lookup RukkakhaSquare { # 0742
 
 #NB: Lookup names ending in "TT" are used only by TypeTuner
 
-
-
 #**********************************
 #  GSUB FEATURES
 #**********************************
 
 # These are intended to be arranged in the order MS & HB engines execute.
 
+#---  rtlm feature (pass 2) ---
 
 # feature rtlm {  # Right-To-Left Mirrored Forms
 #     lookup Mirror;
 # } rtlm ;
 
 # HB PAUSE
+
+#---  ccmp feature (pass 3) ---
 
 feature ccmp {  # Glyph Composition/Decomposition
 #    script latn;
@@ -275,9 +194,13 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup RukkakhaSquare;
 } ccmp ;
 
-# feature locl (not used; see calt)
+# HB PAUSE
+
+#---  locl feature (pass 3) not used ---
 
 # HB PAUSE
+
+#---  fina feature (pass 5) ---
 
 feature fina {  # Terminal Forms
     script syrc;
@@ -286,12 +209,16 @@ feature fina {  # Terminal Forms
 
 # HB PAUSE
 
+#---  medi feature (pass 6) ---
+
 feature medi {  # Medial Forms
     script syrc;
         lookup ltrMedi;
 } medi ;
 
 # HB PAUSE
+
+#---  init feature (pass 7) ---
 
 feature init {  # Initial Forms
     script syrc;
@@ -318,25 +245,38 @@ feature med2 {  # Medial Forms
 
 # HB PAUSE
 
+#---  rlig feature (pass 8) ---
+
+
 
 # feature rclt - nothing to do
 
+
 # HB PAUSE
 
+#---  calt feature (pass 9) not used ---
+
+# HB PAUSE
+
+#********************
+# all remaining substitution features (dlig,salt, ssxx, liga, aalt):
+#********************
+
+#---  liga feature (pass 10) ---
+
+feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cvXX
+    script syrc;
+        lookup r3;
+        lookup GRishSeyame;
+} liga ;
+
+# HB PAUSE
+#---  dlig feature (pass 10) ---
 feature dlig {  # Discretionary Ligatures not sure how to test
     # Same for latin & syriac:
         lookup LEastOptLega2;
         lookup LEastOptLega;
 } dlig ;
-
-
-# HB puts everything else (clig, liga, cvXX, ssXX, salt) in one pass:
-
-feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cvXX
-    # Same for latin & syriac:
-        lookup r3;
-        lookup GRishSeyame;
-} liga ;
 
 #--- Character Variants ---
 
