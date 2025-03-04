@@ -1,47 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalath-syriac.fina" format="2">
-  <advance width="728"/>
-  <anchor x="375" y="-405" name="b.U0325_3"/>
-  <anchor x="360" y="-390" name="b.U0331_2"/>
-  <anchor x="375" y="-360" name="b.U0740"/>
-  <anchor x="330" y="720" name="m.U030a_1"/>
-  <anchor x="360" y="750" name="t.U0656"/>
+  <advance width="702"/>
+  <anchor x="328" y="-405" name="b.U0325_3"/>
+  <anchor x="313" y="-390" name="b.U0331_2"/>
+  <anchor x="328" y="-360" name="b.U0740"/>
+  <anchor x="283" y="720" name="m.U030a_1"/>
+  <anchor x="313" y="750" name="t.U0656"/>
   <outline>
-    <contour>
-      <point x="150" y="0" type="line"/>
-      <point x="626" y="0" type="line"/>
-      <point x="654" y="57" type="line"/>
-      <point x="668" y="0" type="line"/>
-      <point x="728" y="0" type="line"/>
-      <point x="728" y="195" type="line"/>
-      <point x="667" y="195" type="line"/>
-      <point x="671" y="484"/>
-      <point x="551" y="612"/>
-      <point x="294" y="612" type="curve" smooth="yes"/>
-      <point x="217" y="612"/>
-      <point x="150" y="580"/>
-      <point x="150" y="531" type="curve" smooth="yes"/>
-      <point x="150" y="347" type="line" smooth="yes"/>
-      <point x="150" y="330"/>
-      <point x="157" y="322"/>
-      <point x="172" y="322" type="curve" smooth="yes"/>
-      <point x="176" y="322"/>
-      <point x="190" y="337"/>
-      <point x="213" y="367" type="curve" smooth="yes"/>
-      <point x="236" y="397"/>
-      <point x="263" y="414"/>
-      <point x="294" y="418" type="curve"/>
-      <point x="324" y="419" type="line" smooth="yes"/>
-      <point x="435" y="419"/>
-      <point x="490" y="344"/>
-      <point x="490" y="195" type="curve"/>
-      <point x="150" y="195" type="line"/>
-    </contour>
-    <contour>
-      <point x="216" y="-276" type="line"/>
-      <point x="410" y="-276" type="line"/>
-      <point x="410" y="-81" type="line"/>
-      <point x="216" y="-81" type="line"/>
-    </contour>
+    <component base="dalathrishDotless-syriac.fina" xOffset="-47"/>
+    <component base="_LrgSquareDot" xOffset="-47"/>
   </outline>
 </glyph>

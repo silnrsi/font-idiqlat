@@ -1,7 +1,21 @@
 
 # Main Classes
-@GDEF_bases = [_LeftTail _beth _qaph _shin abbreviation-syriac alaph-syriac alaph-syriac.ccmp alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.fina.alt3 alaph-syriac.medi asterisk beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi colon colonHorizontal-syriac colonSkewedleft-syriac colonSkewedleftSupralinear-syriac colonSkewedright-syriac colonSkewedrightSublinear-syriac colonSublinear-syriac colonSupralinear-syriac comma comma-ar contraction-syriac dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina dollar dotaboveleftcomb dotbelowleftcomb dottedCircle e-syriac e-syriac.fina e-syriac.init e-syriac.medi eastSyriacCross eight equal exclam five four fullstopSublinear-syriac fullstopSupralinear-syriac gamal-syriac gamal-syriac.fina gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi glottalstopmod glottalstopreversedmod greater harkleanAsteriscus-syriac harkleanMetobelus-syriac harkleanObelus-syriac he-syriac he-syriac.fina he_yudh-syriac he_yudh-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi hyphen kaph-syriac kaph-syriac.fina kaph-syriac.init kaph-syriac.medi kashida-ar kashida-ar.half kashida-ar.quarter kashida-ar.threequarter lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi lamadh_alaph-syriac lamadh_alaph-syriac.fina less mim-syriac mim-syriac.fina mim-syriac.init mim-syriac.medi nbspace nine numbersign nun-syriac nun-syriac.fina nun-syriac.init nun-syriac.medi one overline paragraph-syriac parenleft parenright pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi pe_brevebelowcomb-syriac pe_brevebelowcomb-syriac.fina pe_brevebelowcomb-syriac.init pe_brevebelowcomb-syriac.medi percent period plus pthahadotted-syriac qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi question-ar quotedbl quotedblleft quotedblright quoteleft quoteright reversedpe-syriac reversedpe-syriac.fina reversedpe-syriac.init reversedpe-syriac.medi ringhalfleftcentered ringhalfrightcentered rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe-syriac sadhe-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina semicolon-ar semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac semkathFinal-syriac.fina semkathFinal-syriac.init semkathFinal-syriac.medi seven shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi six slash space taw-syriac taw-syriac.fina taw_alaph-syriac taw_alaph-syriac.alt taw_alaph-syriac.alt3 taw_alaph-syriac.fina taw_alaph-syriac.fina.alt taw_alaph-syriac.fina.alt3 taw_yudh-syriac taw_yudh-syriac.fina teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi three two waw-syriac waw-syriac.fina westSyriacCross yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina zain-syriac zain-syriac.fina zero];
+@DualLinkFina = [beth-syriac.fina gamal-syriac.fina gamalgarshuni-syriac.fina heth-syriac.fina teth-syriac.fina tethGarshuni-syriac.fina yudh-syriac.fina kaph-syriac.fina lamadh-syriac.fina mim-syriac.fina nun-syriac.fina semkath-syriac.fina semkathFinal-syriac.fina e-syriac.fina pe-syriac.fina reversedpe-syriac.fina qaph-syriac.fina shin-syriac.fina];
+@DualLinkInit = [beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init reversedpe-syriac.init qaph-syriac.init shin-syriac.init];
+@DualLinkIsol = [beth-syriac gamal-syriac gamalgarshuni-syriac heth-syriac teth-syriac tethGarshuni-syriac yudh-syriac kaph-syriac lamadh-syriac mim-syriac nun-syriac semkath-syriac semkathFinal-syriac e-syriac pe-syriac reversedpe-syriac qaph-syriac shin-syriac];
+@DualLinkMedi = [beth-syriac.medi gamal-syriac.medi gamalgarshuni-syriac.medi heth-syriac.medi teth-syriac.medi tethGarshuni-syriac.medi yudh-syriac.medi kaph-syriac.medi lamadh-syriac.medi mim-syriac.medi nun-syriac.medi semkath-syriac.medi semkathFinal-syriac.medi e-syriac.medi pe-syriac.medi reversedpe-syriac.medi qaph-syriac.medi shin-syriac.medi];
+@DualJoining = [@DualLinkIsol @DualLinkFina @DualLinkMedi @DualLinkInit];
+@GDEF_bases = [abbreviation-syriac alaph-syriac alaph-syriac.ccmp alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.fina.alt3 alaph-syriac.medi asterisk beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi colon colonHorizontal-syriac colonSkewedleft-syriac colonSkewedleftSupralinear-syriac colonSkewedright-syriac colonSkewedrightSublinear-syriac colonSublinear-syriac colonSupralinear-syriac comma comma-ar contraction-syriac dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina dollar dotaboveleftcomb dotbelowleftcomb dottedCircle e-syriac e-syriac.fina e-syriac.init e-syriac.medi eastSyriacCross eight equal exclam five four fullstopSublinear-syriac fullstopSupralinear-syriac gamal-syriac gamal-syriac.fina gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi glottalstopmod glottalstopreversedmod greater harkleanAsteriscus-syriac harkleanMetobelus-syriac harkleanObelus-syriac he-syriac he-syriac.fina he_yudh-syriac he_yudh-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi hyphen kaph-syriac kaph-syriac.fina kaph-syriac.init kaph-syriac.medi kashida-ar kashida-ar.half kashida-ar.quarter kashida-ar.threequarter lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi lamadh_alaph-syriac lamadh_alaph-syriac.fina less mim-syriac mim-syriac.fina mim-syriac.init mim-syriac.medi nbspace nine numbersign nun-syriac nun-syriac.fina nun-syriac.init nun-syriac.medi one overline paragraph-syriac parenleft parenright pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi pe_brevebelowcomb-syriac pe_brevebelowcomb-syriac.fina pe_brevebelowcomb-syriac.init pe_brevebelowcomb-syriac.medi percent period plus pthahadotted-syriac qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi question-ar quotedbl quotedblleft quotedblright quoteleft quoteright reversedpe-syriac reversedpe-syriac.fina reversedpe-syriac.init reversedpe-syriac.medi ringhalfleftcentered ringhalfrightcentered rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe-syriac sadhe-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina semicolon-ar semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac semkathFinal-syriac.fina semkathFinal-syriac.init semkathFinal-syriac.medi seven shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi six slash space taw-syriac taw-syriac.fina taw_alaph-syriac taw_alaph-syriac.alt taw_alaph-syriac.alt3 taw_alaph-syriac.fina taw_alaph-syriac.fina.alt taw_alaph-syriac.fina.alt3 taw_yudh-syriac taw_yudh-syriac.fina teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi three two waw-syriac waw-syriac.fina westSyriacCross yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina zain-syriac zain-syriac.fina zero];
 @GDEF_marks = [alaphSuperscript-syriac barrekh-syriac brevebelowcomb circumflexbelowcomb dieresisbelowcomb dieresiscomb dotaccentcomb dotbelowcomb esasaabove-syriac esasabelow-syriac femininedot-syriac hbasaEsasadotted-syriac hbasaabove-syriac hbasabelow-syriac macronbelowcomb macroncomb music-syriac obliquelineabove-syriac obliquelinebelow-syriac pthahaabove-syriac pthahabelow-syriac qushshaya-syriac rbasaabove-syriac rbasabelow-syriac ringbelowcomb ringcomb rukkakha-syriac rukkakha-syriac.square rwaha-syriac shadda-ar threedotsabove-syriac threedotsbelow-syriac tildebelowcomb tildecomb twodotsverticalabove-syriac twodotsverticalbelow-syriac zlamadottedangular-syriac zlamadottedhorizontal-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac];
+@PunctLatn = [];
+@PunctSyrc = [exclam numbersign dollar percent parenright asterisk plus hyphen period slash zero one two three four five six seven eight nine colon less equal greater quoteleft quoteright quotedblleft quotedblright];
+@RightLinkFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina];
+@RightLinkIsol = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac];
+@RightJoining = [@RightLinkFina @RightLinkIsol];
+@AllBase = [@DualJoining @RightJoining];
+@_MarksAbove = [alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac rwaha-syriac femininedot-syriac qushshaya-syriac twodotsverticalabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb dotaboveleftcomb shadda-ar];
+@_MarksBelow = [pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac rukkakha-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac dotbelowcomb dotbelowleftcomb dieresisbelowcomb ringbelowcomb circumflexbelowcomb brevebelowcomb tildebelowcomb macronbelowcomb];
+@MarksAny = [@_MarksAbove @_MarksBelow pthahadotted-syriac];
 @c_alt = [taw_alaph-syriac.alt taw_alaph-syriac.fina.alt];
 @cno_alt = [taw_alaph-syriac taw_alaph-syriac.fina];
 @c_alt2 = [alaph-syriac.fina.alt2];
@@ -28,7 +42,7 @@
 # Positioning classes and statements
 
 # AP: b.U0325_3
-@b.U0325_3 = [alaph-syriac alaph-syriac.fina.alt3 alaph-syriac.medi alaph-syriac.fina alaph-syriac.fina.alt2 zain-syriac zain-syriac.fina beth-syriac lamadh-syriac lamadh-syriac.fina beth-syriac.fina beth-syriac.init qaph-syriac.init qaph-syriac.medi beth-syriac.medi mim-syriac.medi dalath-syriac dalath_hbasaEsasadotted-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac gamalgarshuni-syriac.medi dalathrishDotless-syriac.fina dottedCircle e-syriac e-syriac.fina e-syriac.init gamal-syriac.init he-syriac he-syriac.fina heth-syriac.init e-syriac.medi taw-syriac.fina gamal-syriac gamal-syriac.fina gamal-syriac.medi rish-syriac gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init heth-syriac heth-syriac.fina heth-syriac.medi kaph-syriac kaph-syriac.fina kaph-syriac.init kaph-syriac.medi kashida-ar lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.fina mim-syriac.init nun-syriac nun-syriac.init nun-syriac.fina nun-syriac.medi pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi qaph-syriac qaph-syriac.fina reversedpe-syriac reversedpe-syriac.fina reversedpe-syriac.init reversedpe-syriac.medi rish-syriac.fina sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac semkathFinal-syriac.fina semkathFinal-syriac.init semkathFinal-syriac.medi yudh-syriac.fina shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi taw-syriac teth-syriac tethGarshuni-syriac.fina teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac waw-syriac.fina yudh-syriac yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina];
+@b.U0325_3 = [alaph-syriac alaph-syriac.fina.alt3 alaph-syriac.medi alaph-syriac.fina alaph-syriac.fina.alt2 zain-syriac zain-syriac.fina beth-syriac lamadh-syriac lamadh-syriac.fina beth-syriac.fina beth-syriac.init qaph-syriac.init qaph-syriac.medi beth-syriac.medi mim-syriac.medi dalath-syriac dalath_hbasaEsasadotted-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina dottedCircle e-syriac e-syriac.fina e-syriac.init gamal-syriac.init he-syriac he-syriac.fina heth-syriac.init e-syriac.medi taw-syriac.fina gamal-syriac gamal-syriac.fina gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi heth-syriac heth-syriac.fina heth-syriac.medi kaph-syriac kaph-syriac.fina kaph-syriac.init kaph-syriac.medi kashida-ar lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.fina mim-syriac.init nun-syriac nun-syriac.fina nun-syriac.init nun-syriac.medi pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi qaph-syriac qaph-syriac.fina reversedpe-syriac reversedpe-syriac.fina reversedpe-syriac.init reversedpe-syriac.medi rish-syriac rish-syriac.fina sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac semkathFinal-syriac.fina semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi taw-syriac teth-syriac tethGarshuni-syriac.fina teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac waw-syriac.fina yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina];
 # baseClass [alaph-syriac alaph-syriac.fina.alt3 alaph-syriac.medi] <anchor 375 -135> @b.U0325_3;
 # baseClass alaph-syriac.fina <anchor 375 -360> @b.U0325_3;
 # baseClass [alaph-syriac.fina.alt2 zain-syriac zain-syriac.fina] <anchor 360 -315> @b.U0325_3;
@@ -37,9 +51,9 @@
 # baseClass [beth-syriac.init qaph-syriac.init qaph-syriac.medi] <anchor 525 -150> @b.U0325_3;
 # baseClass [beth-syriac.medi mim-syriac.medi] <anchor 525 -135> @b.U0325_3;
 # baseClass [dalath-syriac dalath_hbasaEsasadotted-syriac] <anchor 300 -390> @b.U0325_3;
-# baseClass dalath-syriac.fina <anchor 375 -405> @b.U0325_3;
-# baseClass dalath_hbasaEsasadotted-syriac.fina <anchor 390 -405> @b.U0325_3;
-# baseClass [dalathrishDotless-syriac gamalgarshuni-syriac.medi] <anchor 315 -150> @b.U0325_3;
+# baseClass dalath-syriac.fina <anchor 328 -405> @b.U0325_3;
+# baseClass dalath_hbasaEsasadotted-syriac.fina <anchor 343 -405> @b.U0325_3;
+# baseClass dalathrishDotless-syriac <anchor 272 -150> @b.U0325_3;
 # baseClass dalathrishDotless-syriac.fina <anchor 360 -150> @b.U0325_3;
 # baseClass dottedCircle <anchor 525 -210> @b.U0325_3;
 # baseClass e-syriac <anchor 705 -165> @b.U0325_3;
@@ -48,23 +62,25 @@
 # baseClass [e-syriac.medi taw-syriac.fina] <anchor 420 -165> @b.U0325_3;
 # baseClass gamal-syriac <anchor 690 -165> @b.U0325_3;
 # baseClass gamal-syriac.fina <anchor 585 -150> @b.U0325_3;
-# baseClass [gamal-syriac.medi rish-syriac] <anchor 315 -165> @b.U0325_3;
+# baseClass gamal-syriac.medi <anchor 315 -165> @b.U0325_3;
 # baseClass gamalgarshuni-syriac <anchor 690 -180> @b.U0325_3;
 # baseClass gamalgarshuni-syriac.fina <anchor 585 -135> @b.U0325_3;
 # baseClass gamalgarshuni-syriac.init <anchor 330 -150> @b.U0325_3;
+# baseClass gamalgarshuni-syriac.medi <anchor 315 -150> @b.U0325_3;
 # baseClass heth-syriac <anchor 735 -150> @b.U0325_3;
-# baseClass heth-syriac.fina <anchor 750 -150> @b.U0325_3;
+# baseClass heth-syriac.fina <anchor 726 -150> @b.U0325_3;
 # baseClass heth-syriac.medi <anchor 450 -150> @b.U0325_3;
-# baseClass kaph-syriac <anchor 465 -210> @b.U0325_3;
+# baseClass kaph-syriac <anchor 452 -210> @b.U0325_3;
 # baseClass kaph-syriac.fina <anchor 375 -375> @b.U0325_3;
 # baseClass [kaph-syriac.init kaph-syriac.medi] <anchor 450 -135> @b.U0325_3;
 # baseClass kashida-ar <anchor 180 -165> @b.U0325_3;
 # baseClass [lamadh-syriac.init lamadh-syriac.medi] <anchor 495 -150> @b.U0325_3;
-# baseClass mim-syriac <anchor 570 -150> @b.U0325_3;
+# baseClass mim-syriac <anchor 572 -150> @b.U0325_3;
 # baseClass mim-syriac.fina <anchor 600 -165> @b.U0325_3;
 # baseClass mim-syriac.init <anchor 510 -120> @b.U0325_3;
-# baseClass [nun-syriac nun-syriac.init] <anchor 375 -165> @b.U0325_3;
-# baseClass nun-syriac.fina <anchor 210 -570> @b.U0325_3;
+# baseClass nun-syriac <anchor 278 -165> @b.U0325_3;
+# baseClass nun-syriac.fina <anchor 275 -570> @b.U0325_3;
+# baseClass nun-syriac.init <anchor 375 -165> @b.U0325_3;
 # baseClass nun-syriac.medi <anchor 390 -150> @b.U0325_3;
 # baseClass pe-syriac <anchor 780 -150> @b.U0325_3;
 # baseClass pe-syriac.fina <anchor 795 -135> @b.U0325_3;
@@ -73,16 +89,17 @@
 # baseClass [qaph-syriac qaph-syriac.fina] <anchor 765 -150> @b.U0325_3;
 # baseClass [reversedpe-syriac reversedpe-syriac.fina] <anchor 1185 -150> @b.U0325_3;
 # baseClass [reversedpe-syriac.init reversedpe-syriac.medi] <anchor 930 -135> @b.U0325_3;
-# baseClass rish-syriac.fina <anchor 315 -135> @b.U0325_3;
+# baseClass rish-syriac <anchor 265 -165> @b.U0325_3;
+# baseClass rish-syriac.fina <anchor 265 -135> @b.U0325_3;
 # baseClass sadhe-syriac <anchor 435 -615> @b.U0325_3;
 # baseClass sadhe-syriac.fina <anchor 525 -585> @b.U0325_3;
-# baseClass semkath-syriac <anchor 780 -180> @b.U0325_3;
-# baseClass semkath-syriac.fina <anchor 780 -195> @b.U0325_3;
+# baseClass semkath-syriac <anchor 756 -180> @b.U0325_3;
+# baseClass semkath-syriac.fina <anchor 758 -195> @b.U0325_3;
 # baseClass [semkath-syriac.init semkath-syriac.medi] <anchor 540 -150> @b.U0325_3;
-# baseClass semkathFinal-syriac <anchor 735 -210> @b.U0325_3;
+# baseClass semkathFinal-syriac <anchor 713 -210> @b.U0325_3;
 # baseClass semkathFinal-syriac.fina <anchor 750 -195> @b.U0325_3;
 # baseClass semkathFinal-syriac.init <anchor 570 -165> @b.U0325_3;
-# baseClass [semkathFinal-syriac.medi yudh-syriac.fina] <anchor 555 -150> @b.U0325_3;
+# baseClass semkathFinal-syriac.medi <anchor 555 -150> @b.U0325_3;
 # baseClass shin-syriac <anchor 675 -195> @b.U0325_3;
 # baseClass shin-syriac.fina <anchor 720 -165> @b.U0325_3;
 # baseClass shin-syriac.init <anchor 465 -150> @b.U0325_3;
@@ -97,26 +114,28 @@
 # baseClass tethGarshuni-syriac.medi <anchor 495 -180> @b.U0325_3;
 # baseClass waw-syriac <anchor 450 -120> @b.U0325_3;
 # baseClass waw-syriac.fina <anchor 435 -120> @b.U0325_3;
-# baseClass yudh-syriac <anchor 540 -135> @b.U0325_3;
+# baseClass yudh-syriac <anchor 516 -135> @b.U0325_3;
+# baseClass yudh-syriac.fina <anchor 531 -150> @b.U0325_3;
 # baseClass yudh-syriac.init <anchor 345 -165> @b.U0325_3;
 # baseClass yudh-syriac.medi <anchor 300 -165> @b.U0325_3;
 # baseClass [yudhhe-syriac yudhhe-syriac.fina] <anchor 1665 -135> @b.U0325_3;
 
 # AP: b.U0331_2
-@b.U0331_2 = [alaph-syriac nun-syriac.medi alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.fina.alt3 dalathrishDotless-syriac alaph-syriac.medi beth-syriac beth-syriac.fina beth-syriac.init yudh-syriac.fina beth-syriac.medi qaph-syriac.init dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac.fina dottedCircle e-syriac e-syriac.fina e-syriac.init e-syriac.medi gamal-syriac.init gamal-syriac gamal-syriac.fina gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina qaph-syriac.medi semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi gamalgarshuni-syriac.init rish-syriac.fina gamalgarshuni-syriac.medi he-syriac he-syriac.fina heth-syriac heth-syriac.fina lamadh-syriac.fina heth-syriac.init taw-syriac.fina heth-syriac.medi kaph-syriac kaph-syriac.fina kaph-syriac.init kaph-syriac.medi kashida-ar lamadh-syriac shin-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.fina mim-syriac.init mim-syriac.medi nun-syriac rish-syriac yudh-syriac.init nun-syriac.fina nun-syriac.init pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi qaph-syriac qaph-syriac.fina reversedpe-syriac reversedpe-syriac.fina reversedpe-syriac.init reversedpe-syriac.medi sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.fina semkathFinal-syriac semkathFinal-syriac.fina shin-syriac shin-syriac.init waw-syriac.fina shin-syriac.medi taw-syriac teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac yudh-syriac yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina zain-syriac zain-syriac.fina];
+@b.U0331_2 = [alaph-syriac nun-syriac.medi alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.fina.alt3 alaph-syriac.medi beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi qaph-syriac.init dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina dottedCircle e-syriac e-syriac.fina e-syriac.init e-syriac.medi gamal-syriac.init gamal-syriac gamal-syriac.fina gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina qaph-syriac.medi semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi gamalgarshuni-syriac.init gamalgarshuni-syriac.medi he-syriac he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init taw-syriac.fina heth-syriac.medi kaph-syriac kaph-syriac.fina kaph-syriac.init kaph-syriac.medi kashida-ar lamadh-syriac shin-syriac.fina lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.fina mim-syriac.init mim-syriac.medi nun-syriac nun-syriac.fina nun-syriac.init pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi qaph-syriac qaph-syriac.fina reversedpe-syriac reversedpe-syriac.fina reversedpe-syriac.init reversedpe-syriac.medi rish-syriac rish-syriac.fina sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.fina semkathFinal-syriac semkathFinal-syriac.fina shin-syriac shin-syriac.init waw-syriac.fina shin-syriac.medi taw-syriac teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina zain-syriac zain-syriac.fina];
 # baseClass [alaph-syriac nun-syriac.medi] <anchor 390 -165> @b.U0331_2;
 # baseClass alaph-syriac.fina <anchor 375 -360> @b.U0331_2;
 # baseClass alaph-syriac.fina.alt2 <anchor 360 -360> @b.U0331_2;
-# baseClass [alaph-syriac.fina.alt3 dalathrishDotless-syriac] <anchor 375 -135> @b.U0331_2;
+# baseClass alaph-syriac.fina.alt3 <anchor 375 -135> @b.U0331_2;
 # baseClass alaph-syriac.medi <anchor 375 -120> @b.U0331_2;
 # baseClass beth-syriac <anchor 690 -128> @b.U0331_2;
 # baseClass beth-syriac.fina <anchor 705 -158> @b.U0331_2;
-# baseClass [beth-syriac.init yudh-syriac.fina] <anchor 555 -150> @b.U0331_2;
+# baseClass beth-syriac.init <anchor 555 -150> @b.U0331_2;
 # baseClass [beth-syriac.medi qaph-syriac.init] <anchor 510 -150> @b.U0331_2;
 # baseClass dalath-syriac <anchor 330 -390> @b.U0331_2;
-# baseClass dalath-syriac.fina <anchor 360 -390> @b.U0331_2;
+# baseClass dalath-syriac.fina <anchor 313 -390> @b.U0331_2;
 # baseClass dalath_hbasaEsasadotted-syriac <anchor 315 -390> @b.U0331_2;
-# baseClass dalath_hbasaEsasadotted-syriac.fina <anchor 375 -405> @b.U0331_2;
+# baseClass dalath_hbasaEsasadotted-syriac.fina <anchor 328 -405> @b.U0331_2;
+# baseClass dalathrishDotless-syriac <anchor 332 -135> @b.U0331_2;
 # baseClass dalathrishDotless-syriac.fina <anchor 375 -180> @b.U0331_2;
 # baseClass dottedCircle <anchor 525 -195> @b.U0331_2;
 # baseClass [e-syriac e-syriac.fina] <anchor 735 -180> @b.U0331_2;
@@ -127,27 +146,28 @@
 # baseClass gamal-syriac.medi <anchor 300 -135> @b.U0331_2;
 # baseClass gamalgarshuni-syriac <anchor 645 -150> @b.U0331_2;
 # baseClass [gamalgarshuni-syriac.fina qaph-syriac.medi semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi] <anchor 540 -150> @b.U0331_2;
-# baseClass [gamalgarshuni-syriac.init rish-syriac.fina] <anchor 360 -135> @b.U0331_2;
+# baseClass gamalgarshuni-syriac.init <anchor 360 -135> @b.U0331_2;
 # baseClass gamalgarshuni-syriac.medi <anchor 270 -165> @b.U0331_2;
 # baseClass [he-syriac he-syriac.fina] <anchor 450 -150> @b.U0331_2;
 # baseClass heth-syriac <anchor 765 -165> @b.U0331_2;
-# baseClass [heth-syriac.fina lamadh-syriac.fina] <anchor 750 -165> @b.U0331_2;
+# baseClass heth-syriac.fina <anchor 726 -165> @b.U0331_2;
 # baseClass [heth-syriac.init taw-syriac.fina] <anchor 420 -150> @b.U0331_2;
 # baseClass heth-syriac.medi <anchor 420 -165> @b.U0331_2;
-# baseClass kaph-syriac <anchor 405 -210> @b.U0331_2;
+# baseClass kaph-syriac <anchor 392 -210> @b.U0331_2;
 # baseClass kaph-syriac.fina <anchor 285 -300> @b.U0331_2;
 # baseClass kaph-syriac.init <anchor 480 -165> @b.U0331_2;
 # baseClass kaph-syriac.medi <anchor 465 -180> @b.U0331_2;
 # baseClass kashida-ar <anchor 180 -195> @b.U0331_2;
 # baseClass [lamadh-syriac shin-syriac.fina] <anchor 735 -150> @b.U0331_2;
+# baseClass lamadh-syriac.fina <anchor 750 -165> @b.U0331_2;
 # baseClass lamadh-syriac.init <anchor 495 -135> @b.U0331_2;
 # baseClass lamadh-syriac.medi <anchor 480 -150> @b.U0331_2;
-# baseClass mim-syriac <anchor 600 -150> @b.U0331_2;
+# baseClass mim-syriac <anchor 602 -150> @b.U0331_2;
 # baseClass mim-syriac.fina <anchor 615 -150> @b.U0331_2;
 # baseClass mim-syriac.init <anchor 540 -135> @b.U0331_2;
 # baseClass mim-syriac.medi <anchor 585 -135> @b.U0331_2;
-# baseClass [nun-syriac rish-syriac yudh-syriac.init] <anchor 360 -150> @b.U0331_2;
-# baseClass nun-syriac.fina <anchor 225 -615> @b.U0331_2;
+# baseClass nun-syriac <anchor 263 -150> @b.U0331_2;
+# baseClass nun-syriac.fina <anchor 290 -615> @b.U0331_2;
 # baseClass nun-syriac.init <anchor 375 -150> @b.U0331_2;
 # baseClass pe-syriac <anchor 780 -135> @b.U0331_2;
 # baseClass pe-syriac.fina <anchor 765 -135> @b.U0331_2;
@@ -156,11 +176,13 @@
 # baseClass [qaph-syriac qaph-syriac.fina] <anchor 765 -150> @b.U0331_2;
 # baseClass [reversedpe-syriac reversedpe-syriac.fina] <anchor 720 -195> @b.U0331_2;
 # baseClass [reversedpe-syriac.init reversedpe-syriac.medi] <anchor 555 -210> @b.U0331_2;
+# baseClass rish-syriac <anchor 310 -150> @b.U0331_2;
+# baseClass rish-syriac.fina <anchor 310 -135> @b.U0331_2;
 # baseClass sadhe-syriac <anchor 435 -615> @b.U0331_2;
 # baseClass sadhe-syriac.fina <anchor 540 -585> @b.U0331_2;
-# baseClass semkath-syriac <anchor 750 -150> @b.U0331_2;
-# baseClass semkath-syriac.fina <anchor 780 -150> @b.U0331_2;
-# baseClass semkathFinal-syriac <anchor 750 -210> @b.U0331_2;
+# baseClass semkath-syriac <anchor 726 -150> @b.U0331_2;
+# baseClass semkath-syriac.fina <anchor 758 -150> @b.U0331_2;
+# baseClass semkathFinal-syriac <anchor 728 -210> @b.U0331_2;
 # baseClass semkathFinal-syriac.fina <anchor 765 -195> @b.U0331_2;
 # baseClass shin-syriac <anchor 720 -150> @b.U0331_2;
 # baseClass [shin-syriac.init waw-syriac.fina] <anchor 465 -135> @b.U0331_2;
@@ -175,14 +197,16 @@
 # baseClass tethGarshuni-syriac.init <anchor 420 -225> @b.U0331_2;
 # baseClass tethGarshuni-syriac.medi <anchor 360 -225> @b.U0331_2;
 # baseClass waw-syriac <anchor 450 -135> @b.U0331_2;
-# baseClass yudh-syriac <anchor 525 -165> @b.U0331_2;
+# baseClass yudh-syriac <anchor 501 -165> @b.U0331_2;
+# baseClass yudh-syriac.fina <anchor 531 -150> @b.U0331_2;
+# baseClass yudh-syriac.init <anchor 360 -150> @b.U0331_2;
 # baseClass yudh-syriac.medi <anchor 285 -150> @b.U0331_2;
 # baseClass [yudhhe-syriac yudhhe-syriac.fina] <anchor 1290 -195> @b.U0331_2;
 # baseClass zain-syriac <anchor 345 -345> @b.U0331_2;
 # baseClass zain-syriac.fina <anchor 345 -330> @b.U0331_2;
 
 # AP: b.U0740
-@b.U0740 = [alaph-syriac alaph-syriac.fina.alt3 alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.medi beth-syriac mim-syriac.medi beth-syriac.fina teth-syriac.fina beth-syriac.init e-syriac.medi pe-syriac.init beth-syriac.medi dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac nun-syriac.init dalathrishDotless-syriac.fina dottedCircle e-syriac pe-syriac e-syriac.fina e-syriac.init heth-syriac.init qaph-syriac.init reversedpe-syriac gamal-syriac gamal-syriac.fina semkathFinal-syriac.medi gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi he-syriac he-syriac.fina taw-syriac.fina yudh-syriac heth-syriac heth-syriac.fina heth-syriac.medi kaph-syriac tethGarshuni-syriac.init tethGarshuni-syriac.medi kaph-syriac.fina kaph-syriac.init kaph-syriac.medi waw-syriac.fina kashida-ar kashida-ar.threequarter kashida-ar.half kashida-ar.quarter lamadh-syriac lamadh-syriac.fina semkath-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.fina semkath-syriac.init mim-syriac.init nun-syriac nun-syriac.fina nun-syriac.medi pe-syriac.fina pe-syriac.medi qaph-syriac.medi yudh-syriac.fina qaph-syriac qaph-syriac.fina reversedpe-syriac.fina reversedpe-syriac.init reversedpe-syriac.medi rish-syriac rish-syriac.fina sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac semkathFinal-syriac.fina tethGarshuni-syriac shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi taw-syriac teth-syriac.init teth-syriac.medi teth-syriac tethGarshuni-syriac.fina waw-syriac yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina zain-syriac zain-syriac.fina];
+@b.U0740 = [alaph-syriac alaph-syriac.fina.alt3 alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.medi beth-syriac mim-syriac.medi beth-syriac.fina teth-syriac.fina beth-syriac.init e-syriac.medi pe-syriac.init beth-syriac.medi dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina dottedCircle e-syriac pe-syriac e-syriac.fina e-syriac.init heth-syriac.init qaph-syriac.init reversedpe-syriac gamal-syriac gamal-syriac.fina semkathFinal-syriac.medi gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi he-syriac he-syriac.fina taw-syriac.fina heth-syriac heth-syriac.fina heth-syriac.medi kaph-syriac kaph-syriac.fina kaph-syriac.init kaph-syriac.medi waw-syriac.fina kashida-ar kashida-ar.threequarter kashida-ar.half kashida-ar.quarter lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.fina semkath-syriac.init mim-syriac.init nun-syriac nun-syriac.fina nun-syriac.init nun-syriac.medi pe-syriac.fina pe-syriac.medi qaph-syriac.medi qaph-syriac qaph-syriac.fina reversedpe-syriac.fina reversedpe-syriac.init reversedpe-syriac.medi rish-syriac rish-syriac.fina sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac semkathFinal-syriac.fina tethGarshuni-syriac shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi taw-syriac teth-syriac.init teth-syriac.medi teth-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina zain-syriac zain-syriac.fina];
 # baseClass [alaph-syriac alaph-syriac.fina.alt3] <anchor 405 -150> @b.U0740;
 # baseClass alaph-syriac.fina <anchor 405 -285> @b.U0740;
 # baseClass alaph-syriac.fina.alt2 <anchor 375 -270> @b.U0740;
@@ -192,9 +216,10 @@
 # baseClass [beth-syriac.init e-syriac.medi pe-syriac.init] <anchor 525 -135> @b.U0740;
 # baseClass beth-syriac.medi <anchor 540 -165> @b.U0740;
 # baseClass dalath-syriac <anchor 345 -360> @b.U0740;
-# baseClass dalath-syriac.fina <anchor 375 -360> @b.U0740;
-# baseClass [dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina] <anchor 0 0> @b.U0740;
-# baseClass [dalathrishDotless-syriac nun-syriac.init] <anchor 345 -150> @b.U0740;
+# baseClass dalath-syriac.fina <anchor 328 -360> @b.U0740;
+# baseClass dalath_hbasaEsasadotted-syriac <anchor 0 0> @b.U0740;
+# baseClass dalath_hbasaEsasadotted-syriac.fina <anchor -47 0> @b.U0740;
+# baseClass dalathrishDotless-syriac <anchor 302 -150> @b.U0740;
 # baseClass dalathrishDotless-syriac.fina <anchor 390 -150> @b.U0740;
 # baseClass dottedCircle <anchor 510 -120> @b.U0740;
 # baseClass [e-syriac pe-syriac] <anchor 765 -135> @b.U0740;
@@ -209,39 +234,41 @@
 # baseClass gamalgarshuni-syriac.init <anchor 465 -150> @b.U0740;
 # baseClass gamalgarshuni-syriac.medi <anchor 300 -135> @b.U0740;
 # baseClass he-syriac <anchor 510 -135> @b.U0740;
-# baseClass [he-syriac.fina taw-syriac.fina yudh-syriac] <anchor 480 -150> @b.U0740;
+# baseClass [he-syriac.fina taw-syriac.fina] <anchor 480 -150> @b.U0740;
 # baseClass heth-syriac <anchor 870 -120> @b.U0740;
-# baseClass heth-syriac.fina <anchor 915 -150> @b.U0740;
+# baseClass heth-syriac.fina <anchor 891 -150> @b.U0740;
 # baseClass heth-syriac.medi <anchor 570 -135> @b.U0740;
-# baseClass [kaph-syriac tethGarshuni-syriac.init tethGarshuni-syriac.medi] <anchor 420 -180> @b.U0740;
+# baseClass kaph-syriac <anchor 407 -180> @b.U0740;
 # baseClass kaph-syriac.fina <anchor 315 -330> @b.U0740;
 # baseClass [kaph-syriac.init kaph-syriac.medi waw-syriac.fina] <anchor 450 -150> @b.U0740;
 # baseClass [kashida-ar kashida-ar.threequarter] <anchor 165 -150> @b.U0740;
 # baseClass [kashida-ar.half kashida-ar.quarter] <anchor 60 -150> @b.U0740;
 # baseClass lamadh-syriac <anchor 720 -165> @b.U0740;
-# baseClass [lamadh-syriac.fina semkath-syriac.fina] <anchor 780 -150> @b.U0740;
+# baseClass lamadh-syriac.fina <anchor 780 -150> @b.U0740;
 # baseClass lamadh-syriac.init <anchor 495 -150> @b.U0740;
 # baseClass lamadh-syriac.medi <anchor 510 -150> @b.U0740;
-# baseClass mim-syriac <anchor 600 -150> @b.U0740;
+# baseClass mim-syriac <anchor 602 -150> @b.U0740;
 # baseClass [mim-syriac.fina semkath-syriac.init] <anchor 555 -135> @b.U0740;
 # baseClass mim-syriac.init <anchor 690 -120> @b.U0740;
-# baseClass nun-syriac <anchor 450 -210> @b.U0740;
-# baseClass nun-syriac.fina <anchor 225 -630> @b.U0740;
+# baseClass nun-syriac <anchor 353 -210> @b.U0740;
+# baseClass nun-syriac.fina <anchor 290 -630> @b.U0740;
+# baseClass nun-syriac.init <anchor 345 -150> @b.U0740;
 # baseClass nun-syriac.medi <anchor 345 -135> @b.U0740;
 # baseClass pe-syriac.fina <anchor 840 -135> @b.U0740;
-# baseClass [pe-syriac.medi qaph-syriac.medi yudh-syriac.fina] <anchor 540 -150> @b.U0740;
+# baseClass [pe-syriac.medi qaph-syriac.medi] <anchor 540 -150> @b.U0740;
 # baseClass qaph-syriac <anchor 750 -150> @b.U0740;
 # baseClass qaph-syriac.fina <anchor 765 -150> @b.U0740;
 # baseClass reversedpe-syriac.fina <anchor 315 -150> @b.U0740;
 # baseClass reversedpe-syriac.init <anchor 555 -165> @b.U0740;
 # baseClass reversedpe-syriac.medi <anchor 300 -150> @b.U0740;
-# baseClass rish-syriac <anchor 360 -150> @b.U0740;
-# baseClass rish-syriac.fina <anchor 375 -150> @b.U0740;
+# baseClass rish-syriac <anchor 310 -150> @b.U0740;
+# baseClass rish-syriac.fina <anchor 325 -150> @b.U0740;
 # baseClass sadhe-syriac <anchor 405 -645> @b.U0740;
 # baseClass sadhe-syriac.fina <anchor 540 -630> @b.U0740;
-# baseClass semkath-syriac <anchor 735 -150> @b.U0740;
+# baseClass semkath-syriac <anchor 711 -150> @b.U0740;
+# baseClass semkath-syriac.fina <anchor 758 -150> @b.U0740;
 # baseClass [semkath-syriac.medi semkathFinal-syriac.init] <anchor 555 -150> @b.U0740;
-# baseClass semkathFinal-syriac <anchor 735 -225> @b.U0740;
+# baseClass semkathFinal-syriac <anchor 713 -225> @b.U0740;
 # baseClass [semkathFinal-syriac.fina tethGarshuni-syriac] <anchor 750 -195> @b.U0740;
 # baseClass shin-syriac <anchor 675 -135> @b.U0740;
 # baseClass shin-syriac.fina <anchor 705 -150> @b.U0740;
@@ -250,7 +277,10 @@
 # baseClass [taw-syriac teth-syriac.init teth-syriac.medi] <anchor 435 -180> @b.U0740;
 # baseClass teth-syriac <anchor 735 -195> @b.U0740;
 # baseClass tethGarshuni-syriac.fina <anchor 735 -165> @b.U0740;
+# baseClass [tethGarshuni-syriac.init tethGarshuni-syriac.medi] <anchor 420 -180> @b.U0740;
 # baseClass waw-syriac <anchor 435 -150> @b.U0740;
+# baseClass yudh-syriac <anchor 456 -150> @b.U0740;
+# baseClass yudh-syriac.fina <anchor 516 -150> @b.U0740;
 # baseClass yudh-syriac.init <anchor 330 -150> @b.U0740;
 # baseClass yudh-syriac.medi <anchor 285 -150> @b.U0740;
 # baseClass yudhhe-syriac <anchor 1470 -225> @b.U0740;
@@ -259,7 +289,7 @@
 # baseClass zain-syriac.fina <anchor 375 -315> @b.U0740;
 
 # AP: m.U030a_1
-@m.U030a_1 = [alaph-syriac alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.fina.alt3 alaph-syriac.medi beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi dalath-syriac dalath_hbasaEsasadotted-syriac dalath-syriac.fina dalathrishDotless-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac.fina dottedCircle e-syriac e-syriac.fina e-syriac.init e-syriac.medi gamal-syriac gamal-syriac.fina gamalgarshuni-syriac gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi he-syriac he-syriac.fina waw-syriac waw-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi kaph-syriac kaph-syriac.fina kaph-syriac.init kaph-syriac.medi kashida-ar lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.fina mim-syriac.init mim-syriac.medi nun-syriac nun-syriac.fina nun-syriac.init nun-syriac.medi pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi reversedpe-syriac reversedpe-syriac.fina reversedpe-syriac.init reversedpe-syriac.medi rish-syriac rish-syriac.fina sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac semkathFinal-syriac.fina semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi taw-syriac taw-syriac.fina teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina zain-syriac zain-syriac.fina];
+@m.U030a_1 = [alaph-syriac alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.fina.alt3 alaph-syriac.medi beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi dalath-syriac dalath_hbasaEsasadotted-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina dottedCircle e-syriac e-syriac.fina e-syriac.init e-syriac.medi gamal-syriac gamal-syriac.fina gamalgarshuni-syriac gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi he-syriac he-syriac.fina waw-syriac waw-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi kaph-syriac kaph-syriac.fina kaph-syriac.init kaph-syriac.medi kashida-ar lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.fina mim-syriac.init mim-syriac.medi nun-syriac nun-syriac.fina nun-syriac.init nun-syriac.medi pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi reversedpe-syriac reversedpe-syriac.fina reversedpe-syriac.init reversedpe-syriac.medi rish-syriac rish-syriac.fina sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac semkathFinal-syriac.fina semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi taw-syriac taw-syriac.fina teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina zain-syriac zain-syriac.fina];
 # baseClass alaph-syriac <anchor 375 975> @m.U030a_1;
 # baseClass [alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.fina.alt3] <anchor 345 960> @m.U030a_1;
 # baseClass alaph-syriac.medi <anchor 330 975> @m.U030a_1;
@@ -267,8 +297,9 @@
 # baseClass beth-syriac.init <anchor 555 765> @m.U030a_1;
 # baseClass beth-syriac.medi <anchor 540 750> @m.U030a_1;
 # baseClass [dalath-syriac dalath_hbasaEsasadotted-syriac] <anchor 285 705> @m.U030a_1;
-# baseClass [dalath-syriac.fina dalathrishDotless-syriac] <anchor 330 720> @m.U030a_1;
-# baseClass dalath_hbasaEsasadotted-syriac.fina <anchor 405 -555> @m.U030a_1;
+# baseClass dalath-syriac.fina <anchor 283 720> @m.U030a_1;
+# baseClass dalath_hbasaEsasadotted-syriac.fina <anchor 358 -555> @m.U030a_1;
+# baseClass dalathrishDotless-syriac <anchor 287 720> @m.U030a_1;
 # baseClass dalathrishDotless-syriac.fina <anchor 345 720> @m.U030a_1;
 # baseClass dottedCircle <anchor 510 885> @m.U030a_1;
 # baseClass e-syriac <anchor 630 975> @m.U030a_1;
@@ -285,10 +316,10 @@
 # baseClass he-syriac <anchor 495 735> @m.U030a_1;
 # baseClass [he-syriac.fina waw-syriac waw-syriac.fina] <anchor 435 720> @m.U030a_1;
 # baseClass heth-syriac <anchor 735 525> @m.U030a_1;
-# baseClass heth-syriac.fina <anchor 735 555> @m.U030a_1;
+# baseClass heth-syriac.fina <anchor 711 555> @m.U030a_1;
 # baseClass heth-syriac.init <anchor 435 525> @m.U030a_1;
 # baseClass heth-syriac.medi <anchor 420 525> @m.U030a_1;
-# baseClass kaph-syriac <anchor 420 765> @m.U030a_1;
+# baseClass kaph-syriac <anchor 407 765> @m.U030a_1;
 # baseClass kaph-syriac.fina <anchor 375 705> @m.U030a_1;
 # baseClass kaph-syriac.init <anchor 465 720> @m.U030a_1;
 # baseClass kaph-syriac.medi <anchor 450 735> @m.U030a_1;
@@ -297,11 +328,12 @@
 # baseClass lamadh-syriac.fina <anchor 900 945> @m.U030a_1;
 # baseClass lamadh-syriac.init <anchor 630 945> @m.U030a_1;
 # baseClass lamadh-syriac.medi <anchor 645 930> @m.U030a_1;
-# baseClass [mim-syriac mim-syriac.fina] <anchor 630 735> @m.U030a_1;
+# baseClass mim-syriac <anchor 632 735> @m.U030a_1;
+# baseClass mim-syriac.fina <anchor 630 735> @m.U030a_1;
 # baseClass mim-syriac.init <anchor 510 750> @m.U030a_1;
 # baseClass mim-syriac.medi <anchor 525 720> @m.U030a_1;
-# baseClass nun-syriac <anchor 345 405> @m.U030a_1;
-# baseClass nun-syriac.fina <anchor 210 480> @m.U030a_1;
+# baseClass nun-syriac <anchor 248 405> @m.U030a_1;
+# baseClass nun-syriac.fina <anchor 275 480> @m.U030a_1;
 # baseClass nun-syriac.init <anchor 360 765> @m.U030a_1;
 # baseClass nun-syriac.medi <anchor 375 765> @m.U030a_1;
 # baseClass pe-syriac <anchor 795 990> @m.U030a_1;
@@ -314,15 +346,15 @@
 # baseClass qaph-syriac.medi <anchor 525 765> @m.U030a_1;
 # baseClass [reversedpe-syriac reversedpe-syriac.fina] <anchor 990 885> @m.U030a_1;
 # baseClass [reversedpe-syriac.init reversedpe-syriac.medi] <anchor 840 975> @m.U030a_1;
-# baseClass rish-syriac <anchor 300 1020> @m.U030a_1;
-# baseClass rish-syriac.fina <anchor 315 1020> @m.U030a_1;
+# baseClass rish-syriac <anchor 250 1020> @m.U030a_1;
+# baseClass rish-syriac.fina <anchor 265 1020> @m.U030a_1;
 # baseClass sadhe-syriac <anchor 345 390> @m.U030a_1;
 # baseClass sadhe-syriac.fina <anchor 450 405> @m.U030a_1;
-# baseClass semkath-syriac <anchor 855 765> @m.U030a_1;
-# baseClass semkath-syriac.fina <anchor 855 735> @m.U030a_1;
+# baseClass semkath-syriac <anchor 831 765> @m.U030a_1;
+# baseClass semkath-syriac.fina <anchor 833 735> @m.U030a_1;
 # baseClass semkath-syriac.init <anchor 630 750> @m.U030a_1;
 # baseClass semkath-syriac.medi <anchor 660 780> @m.U030a_1;
-# baseClass semkathFinal-syriac <anchor 825 780> @m.U030a_1;
+# baseClass semkathFinal-syriac <anchor 803 780> @m.U030a_1;
 # baseClass semkathFinal-syriac.fina <anchor 840 765> @m.U030a_1;
 # baseClass semkathFinal-syriac.init <anchor 645 765> @m.U030a_1;
 # baseClass semkathFinal-syriac.medi <anchor 675 765> @m.U030a_1;
@@ -338,8 +370,8 @@
 # baseClass tethGarshuni-syriac.fina <anchor 1065 660> @m.U030a_1;
 # baseClass tethGarshuni-syriac.init <anchor 660 795> @m.U030a_1;
 # baseClass tethGarshuni-syriac.medi <anchor 705 690> @m.U030a_1;
-# baseClass yudh-syriac <anchor 510 540> @m.U030a_1;
-# baseClass yudh-syriac.fina <anchor 540 570> @m.U030a_1;
+# baseClass yudh-syriac <anchor 486 540> @m.U030a_1;
+# baseClass yudh-syriac.fina <anchor 516 570> @m.U030a_1;
 # baseClass yudh-syriac.init <anchor 345 540> @m.U030a_1;
 # baseClass yudh-syriac.medi <anchor 255 540> @m.U030a_1;
 # baseClass [yudhhe-syriac yudhhe-syriac.fina] <anchor 1890 555> @m.U030a_1;
@@ -357,10 +389,11 @@
 # baseClass beth-syriac.init <anchor 570 780> @t.U0656;
 # baseClass beth-syriac.medi <anchor 555 750> @t.U0656;
 # baseClass dalath-syriac <anchor 375 705> @t.U0656;
-# baseClass dalath-syriac.fina <anchor 360 750> @t.U0656;
+# baseClass dalath-syriac.fina <anchor 313 750> @t.U0656;
 # baseClass dalath_hbasaEsasadotted-syriac <anchor 360 720> @t.U0656;
-# baseClass dalath_hbasaEsasadotted-syriac.fina <anchor 375 735> @t.U0656;
-# baseClass [dalathrishDotless-syriac dalathrishDotless-syriac.fina] <anchor 375 720> @t.U0656;
+# baseClass dalath_hbasaEsasadotted-syriac.fina <anchor 328 735> @t.U0656;
+# baseClass dalathrishDotless-syriac <anchor 332 720> @t.U0656;
+# baseClass dalathrishDotless-syriac.fina <anchor 375 720> @t.U0656;
 # baseClass dottedCircle <anchor 510 915> @t.U0656;
 # baseClass e-syriac <anchor 645 975> @t.U0656;
 # baseClass e-syriac.fina <anchor 645 1005> @t.U0656;
@@ -376,10 +409,10 @@
 # baseClass [he-syriac qaph-syriac.init] <anchor 465 765> @t.U0656;
 # baseClass he-syriac.fina <anchor 450 765> @t.U0656;
 # baseClass heth-syriac <anchor 750 585> @t.U0656;
-# baseClass heth-syriac.fina <anchor 765 570> @t.U0656;
+# baseClass heth-syriac.fina <anchor 741 570> @t.U0656;
 # baseClass heth-syriac.init <anchor 405 540> @t.U0656;
 # baseClass heth-syriac.medi <anchor 420 540> @t.U0656;
-# baseClass kaph-syriac <anchor 420 765> @t.U0656;
+# baseClass kaph-syriac <anchor 407 765> @t.U0656;
 # baseClass kaph-syriac.fina <anchor 360 705> @t.U0656;
 # baseClass kaph-syriac.init <anchor 450 750> @t.U0656;
 # baseClass [kaph-syriac.medi waw-syriac] <anchor 435 750> @t.U0656;
@@ -388,12 +421,12 @@
 # baseClass lamadh-syriac.fina <anchor 915 945> @t.U0656;
 # baseClass lamadh-syriac.init <anchor 645 930> @t.U0656;
 # baseClass lamadh-syriac.medi <anchor 660 945> @t.U0656;
-# baseClass mim-syriac <anchor 585 735> @t.U0656;
+# baseClass mim-syriac <anchor 587 735> @t.U0656;
 # baseClass mim-syriac.fina <anchor 585 750> @t.U0656;
 # baseClass mim-syriac.init <anchor 510 765> @t.U0656;
 # baseClass mim-syriac.medi <anchor 525 765> @t.U0656;
-# baseClass nun-syriac <anchor 375 450> @t.U0656;
-# baseClass nun-syriac.fina <anchor 210 465> @t.U0656;
+# baseClass nun-syriac <anchor 278 450> @t.U0656;
+# baseClass nun-syriac.fina <anchor 275 465> @t.U0656;
 # baseClass nun-syriac.init <anchor 345 765> @t.U0656;
 # baseClass nun-syriac.medi <anchor 375 765> @t.U0656;
 # baseClass [pe-syriac pe-syriac.fina] <anchor 795 990> @t.U0656;
@@ -404,15 +437,15 @@
 # baseClass qaph-syriac.medi <anchor 480 750> @t.U0656;
 # baseClass [reversedpe-syriac reversedpe-syriac.fina] <anchor 540 1035> @t.U0656;
 # baseClass [reversedpe-syriac.init reversedpe-syriac.medi] <anchor 525 1035> @t.U0656;
-# baseClass rish-syriac <anchor 300 1005> @t.U0656;
-# baseClass rish-syriac.fina <anchor 300 1035> @t.U0656;
+# baseClass rish-syriac <anchor 250 1005> @t.U0656;
+# baseClass rish-syriac.fina <anchor 250 1035> @t.U0656;
 # baseClass sadhe-syriac <anchor 360 420> @t.U0656;
 # baseClass sadhe-syriac.fina <anchor 420 420> @t.U0656;
-# baseClass semkath-syriac <anchor 840 810> @t.U0656;
-# baseClass semkath-syriac.fina <anchor 840 780> @t.U0656;
+# baseClass semkath-syriac <anchor 816 810> @t.U0656;
+# baseClass semkath-syriac.fina <anchor 818 780> @t.U0656;
 # baseClass semkath-syriac.init <anchor 615 780> @t.U0656;
 # baseClass semkath-syriac.medi <anchor 645 780> @t.U0656;
-# baseClass semkathFinal-syriac <anchor 780 810> @t.U0656;
+# baseClass semkathFinal-syriac <anchor 758 810> @t.U0656;
 # baseClass semkathFinal-syriac.fina <anchor 750 795> @t.U0656;
 # baseClass [semkathFinal-syriac.init semkathFinal-syriac.medi] <anchor 630 780> @t.U0656;
 # baseClass shin-syriac <anchor 690 780> @t.U0656;
@@ -427,8 +460,8 @@
 # baseClass [tethGarshuni-syriac tethGarshuni-syriac.fina] <anchor 960 765> @t.U0656;
 # baseClass [tethGarshuni-syriac.init tethGarshuni-syriac.medi] <anchor 720 690> @t.U0656;
 # baseClass waw-syriac.fina <anchor 435 735> @t.U0656;
-# baseClass yudh-syriac <anchor 510 540> @t.U0656;
-# baseClass yudh-syriac.fina <anchor 510 525> @t.U0656;
+# baseClass yudh-syriac <anchor 486 540> @t.U0656;
+# baseClass yudh-syriac.fina <anchor 486 525> @t.U0656;
 # baseClass yudh-syriac.init <anchor 330 570> @t.U0656;
 # baseClass yudh-syriac.medi <anchor 300 600> @t.U0656;
 # baseClass [yudhhe-syriac yudhhe-syriac.fina] <anchor 1185 660> @t.U0656;
@@ -599,8 +632,8 @@ markClass femininedot-syriac <anchor 195 15> @_b.U0740;
 # baseClass he_yudh-syriac.fina <anchor 675 -135> @b.U0325_3_2_ligComponent_1;
 # baseClass lamadh_alaph-syriac <anchor 1125 -135> @b.U0325_3_2_ligComponent_1;
 # baseClass lamadh_alaph-syriac.fina <anchor 1035 -150> @b.U0325_3_2_ligComponent_1;
-# baseClass rish_dieresiscomb-syriac <anchor 405 -135> @b.U0325_3_2_ligComponent_1;
-# baseClass rish_dieresiscomb-syriac.fina <anchor 405 -120> @b.U0325_3_2_ligComponent_1;
+# baseClass rish_dieresiscomb-syriac <anchor 358 -135> @b.U0325_3_2_ligComponent_1;
+# baseClass rish_dieresiscomb-syriac.fina <anchor 355 -120> @b.U0325_3_2_ligComponent_1;
 # baseClass sadhe_nun-syriac <anchor 855 -675> @b.U0325_3_2_ligComponent_1;
 # baseClass sadhe_nun-syriac.fina <anchor 885 -645> @b.U0325_3_2_ligComponent_1;
 # baseClass taw_alaph-syriac <anchor 720 -210> @b.U0325_3_2_ligComponent_1;
@@ -614,8 +647,8 @@ markClass femininedot-syriac <anchor 195 15> @_b.U0740;
 # baseClass [he_yudh-syriac he_yudh-syriac.fina] <anchor 225 -180> @b.U0325_3_2_ligComponent_2;
 # baseClass lamadh_alaph-syriac <anchor 480 -135> @b.U0325_3_2_ligComponent_2;
 # baseClass lamadh_alaph-syriac.fina <anchor 450 -150> @b.U0325_3_2_ligComponent_2;
-# baseClass rish_dieresiscomb-syriac <anchor 375 -150> @b.U0325_3_2_ligComponent_2;
-# baseClass rish_dieresiscomb-syriac.fina <anchor 405 -135> @b.U0325_3_2_ligComponent_2;
+# baseClass rish_dieresiscomb-syriac <anchor 328 -150> @b.U0325_3_2_ligComponent_2;
+# baseClass rish_dieresiscomb-syriac.fina <anchor 355 -135> @b.U0325_3_2_ligComponent_2;
 # baseClass sadhe_nun-syriac <anchor 375 -675> @b.U0325_3_2_ligComponent_2;
 # baseClass sadhe_nun-syriac.fina <anchor 360 -240> @b.U0325_3_2_ligComponent_2;
 # baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 225 -210> @b.U0325_3_2_ligComponent_2;
@@ -629,7 +662,8 @@ markClass femininedot-syriac <anchor 195 15> @_b.U0740;
 # baseClass he_yudh-syriac.fina <anchor 720 -165> @b.U0331_2_2_ligComponent_1;
 # baseClass lamadh_alaph-syriac <anchor 1110 -120> @b.U0331_2_2_ligComponent_1;
 # baseClass lamadh_alaph-syriac.fina <anchor 1050 -165> @b.U0331_2_2_ligComponent_1;
-# baseClass [rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina] <anchor 390 -210> @b.U0331_2_2_ligComponent_1;
+# baseClass rish_dieresiscomb-syriac <anchor 343 -210> @b.U0331_2_2_ligComponent_1;
+# baseClass rish_dieresiscomb-syriac.fina <anchor 340 -210> @b.U0331_2_2_ligComponent_1;
 # baseClass sadhe_nun-syriac <anchor 885 -705> @b.U0331_2_2_ligComponent_1;
 # baseClass sadhe_nun-syriac.fina <anchor 915 -690> @b.U0331_2_2_ligComponent_1;
 # baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 840 -195> @b.U0331_2_2_ligComponent_1;
@@ -642,8 +676,8 @@ markClass femininedot-syriac <anchor 195 15> @_b.U0740;
 # baseClass [he_yudh-syriac he_yudh-syriac.fina] <anchor 210 -255> @b.U0331_2_2_ligComponent_2;
 # baseClass lamadh_alaph-syriac <anchor 420 -120> @b.U0331_2_2_ligComponent_2;
 # baseClass lamadh_alaph-syriac.fina <anchor 450 -165> @b.U0331_2_2_ligComponent_2;
-# baseClass rish_dieresiscomb-syriac <anchor 390 -180> @b.U0331_2_2_ligComponent_2;
-# baseClass rish_dieresiscomb-syriac.fina <anchor 390 -165> @b.U0331_2_2_ligComponent_2;
+# baseClass rish_dieresiscomb-syriac <anchor 343 -180> @b.U0331_2_2_ligComponent_2;
+# baseClass rish_dieresiscomb-syriac.fina <anchor 340 -165> @b.U0331_2_2_ligComponent_2;
 # baseClass sadhe_nun-syriac <anchor 375 -705> @b.U0331_2_2_ligComponent_2;
 # baseClass sadhe_nun-syriac.fina <anchor 420 -690> @b.U0331_2_2_ligComponent_2;
 # baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 315 -210> @b.U0331_2_2_ligComponent_2;
@@ -657,8 +691,8 @@ markClass femininedot-syriac <anchor 195 15> @_b.U0740;
 # baseClass he_yudh-syriac.fina <anchor 675 750> @m.U030a_1_2_ligComponent_1;
 # baseClass lamadh_alaph-syriac <anchor 1170 1050> @m.U030a_1_2_ligComponent_1;
 # baseClass lamadh_alaph-syriac.fina <anchor 1095 1005> @m.U030a_1_2_ligComponent_1;
-# baseClass rish_dieresiscomb-syriac <anchor 315 1020> @m.U030a_1_2_ligComponent_1;
-# baseClass rish_dieresiscomb-syriac.fina <anchor 330 1020> @m.U030a_1_2_ligComponent_1;
+# baseClass rish_dieresiscomb-syriac <anchor 268 1020> @m.U030a_1_2_ligComponent_1;
+# baseClass rish_dieresiscomb-syriac.fina <anchor 280 1020> @m.U030a_1_2_ligComponent_1;
 # baseClass sadhe_nun-syriac <anchor 765 420> @m.U030a_1_2_ligComponent_1;
 # baseClass sadhe_nun-syriac.fina <anchor 795 435> @m.U030a_1_2_ligComponent_1;
 # baseClass taw_alaph-syriac <anchor 705 705> @m.U030a_1_2_ligComponent_1;
@@ -672,7 +706,8 @@ markClass femininedot-syriac <anchor 195 15> @_b.U0740;
 # baseClass [he_yudh-syriac he_yudh-syriac.fina] <anchor 195 840> @m.U030a_1_2_ligComponent_2;
 # baseClass lamadh_alaph-syriac <anchor 360 945> @m.U030a_1_2_ligComponent_2;
 # baseClass lamadh_alaph-syriac.fina <anchor 360 960> @m.U030a_1_2_ligComponent_2;
-# baseClass [rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina] <anchor 345 975> @m.U030a_1_2_ligComponent_2;
+# baseClass rish_dieresiscomb-syriac <anchor 298 975> @m.U030a_1_2_ligComponent_2;
+# baseClass rish_dieresiscomb-syriac.fina <anchor 295 975> @m.U030a_1_2_ligComponent_2;
 # baseClass sadhe_nun-syriac <anchor 270 270> @m.U030a_1_2_ligComponent_2;
 # baseClass sadhe_nun-syriac.fina <anchor 225 330> @m.U030a_1_2_ligComponent_2;
 # baseClass taw_alaph-syriac <anchor 360 975> @m.U030a_1_2_ligComponent_2;
@@ -687,8 +722,8 @@ markClass femininedot-syriac <anchor 195 15> @_b.U0740;
 # baseClass he_yudh-syriac.fina <anchor 720 750> @m.U0656_ligComponent_1;
 # baseClass lamadh_alaph-syriac <anchor 1185 945> @m.U0656_ligComponent_1;
 # baseClass lamadh_alaph-syriac.fina <anchor 1155 990> @m.U0656_ligComponent_1;
-# baseClass rish_dieresiscomb-syriac <anchor 345 1035> @m.U0656_ligComponent_1;
-# baseClass rish_dieresiscomb-syriac.fina <anchor 360 1035> @m.U0656_ligComponent_1;
+# baseClass rish_dieresiscomb-syriac <anchor 298 1035> @m.U0656_ligComponent_1;
+# baseClass rish_dieresiscomb-syriac.fina <anchor 310 1035> @m.U0656_ligComponent_1;
 # baseClass sadhe_nun-syriac <anchor 765 420> @m.U0656_ligComponent_1;
 # baseClass sadhe_nun-syriac.fina <anchor 825 420> @m.U0656_ligComponent_1;
 # baseClass taw_alaph-syriac <anchor 660 915> @m.U0656_ligComponent_1;
@@ -702,8 +737,8 @@ markClass femininedot-syriac <anchor 195 15> @_b.U0740;
 # baseClass [he_yudh-syriac he_yudh-syriac.fina] <anchor 165 915> @m.U0656_ligComponent_2;
 # baseClass lamadh_alaph-syriac <anchor 345 990> @m.U0656_ligComponent_2;
 # baseClass lamadh_alaph-syriac.fina <anchor 315 1005> @m.U0656_ligComponent_2;
-# baseClass rish_dieresiscomb-syriac <anchor 360 990> @m.U0656_ligComponent_2;
-# baseClass rish_dieresiscomb-syriac.fina <anchor 360 1020> @m.U0656_ligComponent_2;
+# baseClass rish_dieresiscomb-syriac <anchor 313 990> @m.U0656_ligComponent_2;
+# baseClass rish_dieresiscomb-syriac.fina <anchor 310 1020> @m.U0656_ligComponent_2;
 # baseClass sadhe_nun-syriac <anchor 255 300> @m.U0656_ligComponent_2;
 # baseClass sadhe_nun-syriac.fina <anchor 270 375> @m.U0656_ligComponent_2;
 # baseClass taw_alaph-syriac <anchor 330 1035> @m.U0656_ligComponent_2;
@@ -740,22 +775,10 @@ markClass rukkakha-syriac <anchor 75 -30> @_b.U0325_3_2;
 #**********************************
 #**********************************
 #
-# Copyright (c) 1994-2025 SIL Global (https://www.sil.org)
+# Copyright (c) 1994-2025 SIL Global  (https://www.sil.org)
 # Released under the MIT License (https://opensource.org/licenses/MIT)
 #
 #**********************************
-#**********************************
-#  Language Systems
-#**********************************
-languagesystem DFLT dflt;
-languagesystem syrc dflt;
-# Syriac default
-languagesystem latn dflt;
-# @MarksAbove = [@_t.U0656] ; # _diaA
-# @MarksAbove2 = [@_t.U0656_2] ; # _diaA
-# @MarksBelow = [@_b.U0325_3] ; # _diaB
-# @MarksBelow2 = [@_b.U0331_2] ; # _diaB
-# @MarksAny = [@_t.U0656 @_b.U0325_3 @_b.U0331_2] ; # [@_diaA @_diaB]
 #**********************************
 #  Classes
 #**********************************
@@ -801,6 +824,37 @@ languagesystem latn dflt;
 @kern_below = [dotbelowcomb dieresisbelowcomb brevebelowcomb tildebelowcomb circumflexbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac];
 # Not in font: alefbelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar sukun-ar madda-ar hamzaabove-ar hamzabelow-ar 
 @ccmp_zz02 = [tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac barrekh-syriac dotaboveleftcomb dotbelowleftcomb circumflexbelowcomb rukkakha-syriac.square];
+#**********************************
+#
+# Copyright (c) 1994-2025 SIL Global  (https://www.sil.org)
+# Released under the MIT License (https://opensource.org/licenses/MIT)
+#
+#**********************************
+#**********************************
+# GDEF
+#**********************************
+table GDEF {
+    GlyphClassDef @AllBase, , @ccmp_zz02, ;
+} GDEF;
+
+#**********************************
+#
+# Copyright (c) 1994-2025 SIL Global (https://www.sil.org)
+# Released under the MIT License (https://opensource.org/licenses/MIT)
+#
+#**********************************
+#**********************************
+#  Language Systems
+#**********************************
+languagesystem DFLT dflt;
+languagesystem syrc dflt;
+# Syriac default
+languagesystem latn dflt;
+@MarksAbove = [@_t.U0656 @_m.U0656 @_m.U030a_1];
+# _diaA
+@MarksBelow = [@_b.U0325_3 @_b.U0331_2];
+# _diaB
+@MarksAny = [@MarksAbove @MarksBelow];
 # Notes:
 #   The lookups and then the features should be arranged and grouped into ordered passes
 #   as the rendering engines (esp Harfbuzz) will execute them.
@@ -850,6 +904,18 @@ lookup GPreDecompose {
     sub pthahadotted-syriac by hbasaEsasadotted-syriac rwaha-syriac;
 } GPreDecompose;
 
+lookup Seyame {
+    sub rish-syriac by dalathrishDotless-syriac;
+} Seyame;
+
+lookup ccmp_syrc_zz02_syrczz01_1 {
+    # GSUB lookup 2, type 16 (Chaining Context)
+    sub rish-syriac' lookup Seyame dieresiscomb zlamadottedhorizontal-syriac;
+    sub rish-syriac' lookup Seyame dieresiscomb zlamadottedangular-syriac;
+    sub rish-syriac' lookup Seyame zlamadottedhorizontal-syriac dieresiscomb;
+    sub rish-syriac' lookup Seyame zlamadottedangular-syriac dieresiscomb;
+} ccmp_syrc_zz02_syrczz01_1;
+
 # maybe rename alaph-syriac.ccmp
 lookup r1 {
     sub alaph-syriac lamadh-syriac' @TypeMark' @TypeMark' by alaph-syriac.ccmp;
@@ -868,6 +934,7 @@ lookup r2 {
 
 # glyph for replacement seems poorly named except 073c and 0742 are similar
 lookup r3 {
+    # 0715 0742
     sub dalath-syriac rukkakha-syriac by dalath_hbasaEsasadotted-syriac;
     sub dalath-syriac.fina rukkakha-syriac by dalath_hbasaEsasadotted-syriac.fina;
 } r3;
@@ -919,13 +986,6 @@ lookup RukkakhaSquare {
     sub @TakeRukkakhaSquare' rukkakha-syriac by rukkakha-syriac.square;
 } RukkakhaSquare;
 
-# lookup LMarkFeminineDot { # sure doesn't look right!
-# @TypeSimple @MarkFeminineDot 
-# } LMarkFeminineDot;
-# LMarkOnBase
-# LMarkOnLigaEast
-# LAboveMarkToMark
-# LBelowMarkToMark
 #---  calt feature  ---
 # Language-independent shaping
 # HB PAUSE
@@ -936,23 +996,28 @@ lookup RukkakhaSquare {
 #  GSUB FEATURES
 #**********************************
 # These are intended to be arranged in the order MS & HB engines execute.
+#---  rtlm feature (pass 2) ---
 # feature rtlm {  # Right-To-Left Mirrored Forms
 #     lookup Mirror;
 # } rtlm ;
 # HB PAUSE
+#---  ccmp feature (pass 3) ---
 feature ccmp {
     # Glyph Composition/Decomposition
     #    script latn;
     #        lookup LatinPunctuation;
     script syrc;
     lookup GPreDecompose;
+    lookup ccmp_syrc_zz02_syrczz01_1;
     lookup r1;
     lookup r2;
     lookup RukkakhaSquare;
 } ccmp;
 
-# feature locl (not used; see calt)
 # HB PAUSE
+#---  locl feature (pass 3) not used ---
+# HB PAUSE
+#---  fina feature (pass 5) ---
 feature fina {
     # Terminal Forms
     script syrc;
@@ -960,6 +1025,7 @@ feature fina {
 } fina;
 
 # HB PAUSE
+#---  medi feature (pass 6) ---
 feature medi {
     # Medial Forms
     script syrc;
@@ -967,6 +1033,7 @@ feature medi {
 } medi;
 
 # HB PAUSE
+#---  init feature (pass 7) ---
 feature init {
     # Initial Forms
     script syrc;
@@ -994,8 +1061,29 @@ feature med2 {
 } med2;
 
 # HB PAUSE
+#---  rlig feature (pass 8) ---
 # feature rclt - nothing to do
 # HB PAUSE
+#---  calt feature (pass 9)  ---
+# These don't seem to be in this font
+# feature calt {  
+#    script syrc;
+#        lookup AlternateFinals;
+# } calt ;
+# HB PAUSE
+#********************
+# all remaining substitution features (dlig,salt, ssxx, liga, aalt):
+#********************
+#---  liga feature (pass 10) ---
+feature liga {
+    # Ligatures  -- we use this because liga is done in the same pass as cvXX
+    script syrc;
+    lookup r3;
+    lookup GRishSeyame;
+} liga;
+
+# HB PAUSE
+#---  dlig feature (pass 10) ---
 feature dlig {
     # Discretionary Ligatures not sure how to test
     # Same for latin & syriac:
@@ -1003,13 +1091,777 @@ feature dlig {
     lookup LEastOptLega;
 } dlig;
 
-# HB puts everything else (clig, liga, cvXX, ssXX, salt) in one pass:
-feature liga {
-    # Ligatures  -- we use this because liga is done in the same pass as cvXX
-    # Same for latin & syriac:
-    lookup r3;
-    lookup GRishSeyame;
-} liga;
-
 #--- Character Variants ---
-# include(../../source/opentype/gpos.feax);
+#**********************************
+#
+# Copyright (c) 1994-2025 SIL Global  (https://www.sil.org)
+# Released under the MIT License (https://opensource.org/licenses/MIT)
+#
+#**********************************
+# Three features are implemented: kern, mark, and mkmk. 
+#
+# As best we understand it, all shapers now work per the OT spec in regard to GPOS lookup order of 
+# execution, namely that lookups for all enabled features are executed in one pass in lookup order.
+#
+# Note that prior to around September 2024, HarfBuzz executed mark attachment in a separate
+# pass after all base adjustments, but this caused compatibility issues with CoreText and Uniscribe
+# (see https://github.com/harfbuzz/harfbuzz/issues/4596)
+# To make sure the newer Harfbuzz doesn't cause problems we now put all base-positioning lookups 
+# (kern and, if we had it, curs) before any mark positioning lookups (mark, mkmk).
+#**********************************
+# GPOS (Positioning) lookups
+#**********************************
+lookup kern_dalath_sadhe_nun {
+    # FKern: {Dolath, Sodeh} {Nun}
+    # GPOS lookup 1, type 2 (Pair adjustment)
+    lookupflag RightToLeft IgnoreMarks;
+    pos dalath-syriac 0 nun-syriac 150;
+    pos sadhe-syriac 0 nun-syriac 250;
+    pos dalath-syriac.fina 0 nun-syriac 150;
+    pos sadhe-syriac.fina 0 nun-syriac 250;
+} kern_dalath_sadhe_nun;
+
+lookup kern_nun_1 {
+    # FKern: {Dolath, Sodeh} {Nun}
+    # GPOS lookup 8, type 1 (Single adjustment)
+    lookupflag RightToLeft;
+    pos nun-syriac 250;
+} kern_nun_1;
+
+lookup kern_nun2 {
+    # FKrern: Nun in VOLT
+    # GPOS lookup 4, type 8 (Chained Context positioning)
+    lookupflag RightToLeft;
+    pos [alaph-syriac alaph-syriac.medi alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.fina.alt3] @kern_below nun-syriac' lookup kern_nun_1;
+} kern_nun2;
+
+lookup LMarkOnBase {
+    lookupflag 0;
+    pos base [alaph-syriac taw-syriac] <anchor 375 975> mark @_t.U0656;
+    pos base [alaph-syriac.fina alaph-syriac.medi] <anchor 345 975> mark @_t.U0656;
+    pos base alaph-syriac.fina.alt2 <anchor 330 975> mark @_t.U0656;
+    pos base alaph-syriac.fina.alt3 <anchor 360 975> mark @_t.U0656;
+    pos base beth-syriac <anchor 750 780> mark @_t.U0656;
+    pos base beth-syriac.fina <anchor 765 795> mark @_t.U0656;
+    pos base beth-syriac.init <anchor 570 780> mark @_t.U0656;
+    pos base beth-syriac.medi <anchor 555 750> mark @_t.U0656;
+    pos base dalath-syriac <anchor 375 705> mark @_t.U0656;
+    pos base dalath-syriac.fina <anchor 313 750> mark @_t.U0656;
+    pos base dalath_hbasaEsasadotted-syriac <anchor 360 720> mark @_t.U0656;
+    pos base dalath_hbasaEsasadotted-syriac.fina <anchor 328 735> mark @_t.U0656;
+    pos base dalathrishDotless-syriac <anchor 332 720> mark @_t.U0656;
+    pos base dalathrishDotless-syriac.fina <anchor 375 720> mark @_t.U0656;
+    pos base dottedCircle <anchor 510 915> mark @_t.U0656;
+    pos base e-syriac <anchor 645 975> mark @_t.U0656;
+    pos base e-syriac.fina <anchor 645 1005> mark @_t.U0656;
+    pos base e-syriac.init <anchor 300 960> mark @_t.U0656;
+    pos base e-syriac.medi <anchor 315 1020> mark @_t.U0656;
+    pos base gamal-syriac <anchor 945 795> mark @_t.U0656;
+    pos base gamal-syriac.fina <anchor 855 900> mark @_t.U0656;
+    pos base gamal-syriac.init <anchor 570 885> mark @_t.U0656;
+    pos base gamal-syriac.medi <anchor 570 915> mark @_t.U0656;
+    pos base gamalgarshuni-syriac <anchor 885 870> mark @_t.U0656;
+    pos base gamalgarshuni-syriac.fina <anchor 960 885> mark @_t.U0656;
+    pos base [gamalgarshuni-syriac.init gamalgarshuni-syriac.medi] <anchor 645 855> mark @_t.U0656;
+    pos base [he-syriac qaph-syriac.init] <anchor 465 765> mark @_t.U0656;
+    pos base he-syriac.fina <anchor 450 765> mark @_t.U0656;
+    pos base heth-syriac <anchor 750 585> mark @_t.U0656;
+    pos base heth-syriac.fina <anchor 741 570> mark @_t.U0656;
+    pos base heth-syriac.init <anchor 405 540> mark @_t.U0656;
+    pos base heth-syriac.medi <anchor 420 540> mark @_t.U0656;
+    pos base kaph-syriac <anchor 407 765> mark @_t.U0656;
+    pos base kaph-syriac.fina <anchor 360 705> mark @_t.U0656;
+    pos base kaph-syriac.init <anchor 450 750> mark @_t.U0656;
+    pos base [kaph-syriac.medi waw-syriac] <anchor 435 750> mark @_t.U0656;
+    pos base kashida-ar <anchor 135 405> mark @_t.U0656;
+    pos base lamadh-syriac <anchor 900 945> mark @_t.U0656;
+    pos base lamadh-syriac.fina <anchor 915 945> mark @_t.U0656;
+    pos base lamadh-syriac.init <anchor 645 930> mark @_t.U0656;
+    pos base lamadh-syriac.medi <anchor 660 945> mark @_t.U0656;
+    pos base mim-syriac <anchor 587 735> mark @_t.U0656;
+    pos base mim-syriac.fina <anchor 585 750> mark @_t.U0656;
+    pos base mim-syriac.init <anchor 510 765> mark @_t.U0656;
+    pos base mim-syriac.medi <anchor 525 765> mark @_t.U0656;
+    pos base nun-syriac <anchor 278 450> mark @_t.U0656;
+    pos base nun-syriac.fina <anchor 275 465> mark @_t.U0656;
+    pos base nun-syriac.init <anchor 345 765> mark @_t.U0656;
+    pos base nun-syriac.medi <anchor 375 765> mark @_t.U0656;
+    pos base [pe-syriac pe-syriac.fina] <anchor 795 990> mark @_t.U0656;
+    pos base pe-syriac.init <anchor 480 975> mark @_t.U0656;
+    pos base pe-syriac.medi <anchor 465 990> mark @_t.U0656;
+    pos base qaph-syriac <anchor 705 795> mark @_t.U0656;
+    pos base qaph-syriac.fina <anchor 735 780> mark @_t.U0656;
+    pos base qaph-syriac.medi <anchor 480 750> mark @_t.U0656;
+    pos base [reversedpe-syriac reversedpe-syriac.fina] <anchor 540 1035> mark @_t.U0656;
+    pos base [reversedpe-syriac.init reversedpe-syriac.medi] <anchor 525 1035> mark @_t.U0656;
+    pos base rish-syriac <anchor 250 1005> mark @_t.U0656;
+    pos base rish-syriac.fina <anchor 250 1035> mark @_t.U0656;
+    pos base sadhe-syriac <anchor 360 420> mark @_t.U0656;
+    pos base sadhe-syriac.fina <anchor 420 420> mark @_t.U0656;
+    pos base semkath-syriac <anchor 816 810> mark @_t.U0656;
+    pos base semkath-syriac.fina <anchor 818 780> mark @_t.U0656;
+    pos base semkath-syriac.init <anchor 615 780> mark @_t.U0656;
+    pos base semkath-syriac.medi <anchor 645 780> mark @_t.U0656;
+    pos base semkathFinal-syriac <anchor 758 810> mark @_t.U0656;
+    pos base semkathFinal-syriac.fina <anchor 750 795> mark @_t.U0656;
+    pos base [semkathFinal-syriac.init semkathFinal-syriac.medi] <anchor 630 780> mark @_t.U0656;
+    pos base shin-syriac <anchor 690 780> mark @_t.U0656;
+    pos base shin-syriac.fina <anchor 690 795> mark @_t.U0656;
+    pos base shin-syriac.init <anchor 450 795> mark @_t.U0656;
+    pos base shin-syriac.medi <anchor 450 780> mark @_t.U0656;
+    pos base taw-syriac.fina <anchor 405 915> mark @_t.U0656;
+    pos base teth-syriac <anchor 975 750> mark @_t.U0656;
+    pos base teth-syriac.fina <anchor 960 720> mark @_t.U0656;
+    pos base teth-syriac.init <anchor 705 675> mark @_t.U0656;
+    pos base teth-syriac.medi <anchor 720 675> mark @_t.U0656;
+    pos base [tethGarshuni-syriac tethGarshuni-syriac.fina] <anchor 960 765> mark @_t.U0656;
+    pos base [tethGarshuni-syriac.init tethGarshuni-syriac.medi] <anchor 720 690> mark @_t.U0656;
+    pos base waw-syriac.fina <anchor 435 735> mark @_t.U0656;
+    pos base yudh-syriac <anchor 486 540> mark @_t.U0656;
+    pos base yudh-syriac.fina <anchor 486 525> mark @_t.U0656;
+    pos base yudh-syriac.init <anchor 330 570> mark @_t.U0656;
+    pos base yudh-syriac.medi <anchor 300 600> mark @_t.U0656;
+    pos base [yudhhe-syriac yudhhe-syriac.fina] <anchor 1185 660> mark @_t.U0656;
+    pos base zain-syriac <anchor 300 705> mark @_t.U0656;
+    pos base zain-syriac.fina <anchor 285 705> mark @_t.U0656;
+    # top
+    #	pos base @t.U0656_2    mark @_t.U0656_2; # top
+    pos base alaph-syriac <anchor 375 975> mark @_m.U030a_1;
+    pos base [alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.fina.alt3] <anchor 345 960> mark @_m.U030a_1;
+    pos base alaph-syriac.medi <anchor 330 975> mark @_m.U030a_1;
+    pos base [beth-syriac beth-syriac.fina] <anchor 765 735> mark @_m.U030a_1;
+    pos base beth-syriac.init <anchor 555 765> mark @_m.U030a_1;
+    pos base beth-syriac.medi <anchor 540 750> mark @_m.U030a_1;
+    pos base [dalath-syriac dalath_hbasaEsasadotted-syriac] <anchor 285 705> mark @_m.U030a_1;
+    pos base dalath-syriac.fina <anchor 283 720> mark @_m.U030a_1;
+    pos base dalath_hbasaEsasadotted-syriac.fina <anchor 358 -555> mark @_m.U030a_1;
+    pos base dalathrishDotless-syriac <anchor 287 720> mark @_m.U030a_1;
+    pos base dalathrishDotless-syriac.fina <anchor 345 720> mark @_m.U030a_1;
+    pos base dottedCircle <anchor 510 885> mark @_m.U030a_1;
+    pos base e-syriac <anchor 630 975> mark @_m.U030a_1;
+    pos base e-syriac.fina <anchor 630 1005> mark @_m.U030a_1;
+    pos base e-syriac.init <anchor 360 1020> mark @_m.U030a_1;
+    pos base e-syriac.medi <anchor 330 1020> mark @_m.U030a_1;
+    pos base gamal-syriac <anchor 915 825> mark @_m.U030a_1;
+    pos base [gamal-syriac.fina gamalgarshuni-syriac] <anchor 915 870> mark @_m.U030a_1;
+    pos base gamal-syriac.init <anchor 570 855> mark @_m.U030a_1;
+    pos base gamal-syriac.medi <anchor 570 900> mark @_m.U030a_1;
+    pos base gamalgarshuni-syriac.fina <anchor 930 885> mark @_m.U030a_1;
+    pos base gamalgarshuni-syriac.init <anchor 570 840> mark @_m.U030a_1;
+    pos base gamalgarshuni-syriac.medi <anchor 585 840> mark @_m.U030a_1;
+    pos base he-syriac <anchor 495 735> mark @_m.U030a_1;
+    pos base [he-syriac.fina waw-syriac waw-syriac.fina] <anchor 435 720> mark @_m.U030a_1;
+    pos base heth-syriac <anchor 735 525> mark @_m.U030a_1;
+    pos base heth-syriac.fina <anchor 711 555> mark @_m.U030a_1;
+    pos base heth-syriac.init <anchor 435 525> mark @_m.U030a_1;
+    pos base heth-syriac.medi <anchor 420 525> mark @_m.U030a_1;
+    pos base kaph-syriac <anchor 407 765> mark @_m.U030a_1;
+    pos base kaph-syriac.fina <anchor 375 705> mark @_m.U030a_1;
+    pos base kaph-syriac.init <anchor 465 720> mark @_m.U030a_1;
+    pos base kaph-syriac.medi <anchor 450 735> mark @_m.U030a_1;
+    pos base kashida-ar <anchor 135 390> mark @_m.U030a_1;
+    pos base lamadh-syriac <anchor 870 945> mark @_m.U030a_1;
+    pos base lamadh-syriac.fina <anchor 900 945> mark @_m.U030a_1;
+    pos base lamadh-syriac.init <anchor 630 945> mark @_m.U030a_1;
+    pos base lamadh-syriac.medi <anchor 645 930> mark @_m.U030a_1;
+    pos base mim-syriac <anchor 632 735> mark @_m.U030a_1;
+    pos base mim-syriac.fina <anchor 630 735> mark @_m.U030a_1;
+    pos base mim-syriac.init <anchor 510 750> mark @_m.U030a_1;
+    pos base mim-syriac.medi <anchor 525 720> mark @_m.U030a_1;
+    pos base nun-syriac <anchor 248 405> mark @_m.U030a_1;
+    pos base nun-syriac.fina <anchor 275 480> mark @_m.U030a_1;
+    pos base nun-syriac.init <anchor 360 765> mark @_m.U030a_1;
+    pos base nun-syriac.medi <anchor 375 765> mark @_m.U030a_1;
+    pos base pe-syriac <anchor 795 990> mark @_m.U030a_1;
+    pos base pe-syriac.fina <anchor 780 990> mark @_m.U030a_1;
+    pos base pe-syriac.init <anchor 495 990> mark @_m.U030a_1;
+    pos base pe-syriac.medi <anchor 495 1005> mark @_m.U030a_1;
+    pos base qaph-syriac <anchor 750 780> mark @_m.U030a_1;
+    pos base qaph-syriac.fina <anchor 750 765> mark @_m.U030a_1;
+    pos base qaph-syriac.init <anchor 525 750> mark @_m.U030a_1;
+    pos base qaph-syriac.medi <anchor 525 765> mark @_m.U030a_1;
+    pos base [reversedpe-syriac reversedpe-syriac.fina] <anchor 990 885> mark @_m.U030a_1;
+    pos base [reversedpe-syriac.init reversedpe-syriac.medi] <anchor 840 975> mark @_m.U030a_1;
+    pos base rish-syriac <anchor 250 1020> mark @_m.U030a_1;
+    pos base rish-syriac.fina <anchor 265 1020> mark @_m.U030a_1;
+    pos base sadhe-syriac <anchor 345 390> mark @_m.U030a_1;
+    pos base sadhe-syriac.fina <anchor 450 405> mark @_m.U030a_1;
+    pos base semkath-syriac <anchor 831 765> mark @_m.U030a_1;
+    pos base semkath-syriac.fina <anchor 833 735> mark @_m.U030a_1;
+    pos base semkath-syriac.init <anchor 630 750> mark @_m.U030a_1;
+    pos base semkath-syriac.medi <anchor 660 780> mark @_m.U030a_1;
+    pos base semkathFinal-syriac <anchor 803 780> mark @_m.U030a_1;
+    pos base semkathFinal-syriac.fina <anchor 840 765> mark @_m.U030a_1;
+    pos base semkathFinal-syriac.init <anchor 645 765> mark @_m.U030a_1;
+    pos base semkathFinal-syriac.medi <anchor 675 765> mark @_m.U030a_1;
+    pos base shin-syriac <anchor 705 765> mark @_m.U030a_1;
+    pos base shin-syriac.fina <anchor 720 765> mark @_m.U030a_1;
+    pos base [shin-syriac.init shin-syriac.medi] <anchor 465 765> mark @_m.U030a_1;
+    pos base [taw-syriac taw-syriac.fina] <anchor 360 960> mark @_m.U030a_1;
+    pos base teth-syriac <anchor 945 795> mark @_m.U030a_1;
+    pos base teth-syriac.fina <anchor 930 795> mark @_m.U030a_1;
+    pos base teth-syriac.init <anchor 675 660> mark @_m.U030a_1;
+    pos base teth-syriac.medi <anchor 735 675> mark @_m.U030a_1;
+    pos base tethGarshuni-syriac <anchor 930 840> mark @_m.U030a_1;
+    pos base tethGarshuni-syriac.fina <anchor 1065 660> mark @_m.U030a_1;
+    pos base tethGarshuni-syriac.init <anchor 660 795> mark @_m.U030a_1;
+    pos base tethGarshuni-syriac.medi <anchor 705 690> mark @_m.U030a_1;
+    pos base yudh-syriac <anchor 486 540> mark @_m.U030a_1;
+    pos base yudh-syriac.fina <anchor 516 570> mark @_m.U030a_1;
+    pos base yudh-syriac.init <anchor 345 540> mark @_m.U030a_1;
+    pos base yudh-syriac.medi <anchor 255 540> mark @_m.U030a_1;
+    pos base [yudhhe-syriac yudhhe-syriac.fina] <anchor 1890 555> mark @_m.U030a_1;
+    pos base zain-syriac <anchor 345 660> mark @_m.U030a_1;
+    pos base zain-syriac.fina <anchor 315 675> mark @_m.U030a_1;
+    # top
+    #	pos base @m.U0656    mark @_m.U0656; # top
+    pos base [alaph-syriac nun-syriac.medi] <anchor 390 -165> mark @_b.U0331_2;
+    pos base alaph-syriac.fina <anchor 375 -360> mark @_b.U0331_2;
+    pos base alaph-syriac.fina.alt2 <anchor 360 -360> mark @_b.U0331_2;
+    pos base alaph-syriac.fina.alt3 <anchor 375 -135> mark @_b.U0331_2;
+    pos base alaph-syriac.medi <anchor 375 -120> mark @_b.U0331_2;
+    pos base beth-syriac <anchor 690 -128> mark @_b.U0331_2;
+    pos base beth-syriac.fina <anchor 705 -158> mark @_b.U0331_2;
+    pos base beth-syriac.init <anchor 555 -150> mark @_b.U0331_2;
+    pos base [beth-syriac.medi qaph-syriac.init] <anchor 510 -150> mark @_b.U0331_2;
+    pos base dalath-syriac <anchor 330 -390> mark @_b.U0331_2;
+    pos base dalath-syriac.fina <anchor 313 -390> mark @_b.U0331_2;
+    pos base dalath_hbasaEsasadotted-syriac <anchor 315 -390> mark @_b.U0331_2;
+    pos base dalath_hbasaEsasadotted-syriac.fina <anchor 328 -405> mark @_b.U0331_2;
+    pos base dalathrishDotless-syriac <anchor 332 -135> mark @_b.U0331_2;
+    pos base dalathrishDotless-syriac.fina <anchor 375 -180> mark @_b.U0331_2;
+    pos base dottedCircle <anchor 525 -195> mark @_b.U0331_2;
+    pos base [e-syriac e-syriac.fina] <anchor 735 -180> mark @_b.U0331_2;
+    pos base e-syriac.init <anchor 405 -150> mark @_b.U0331_2;
+    pos base [e-syriac.medi gamal-syriac.init] <anchor 405 -165> mark @_b.U0331_2;
+    pos base gamal-syriac <anchor 765 -180> mark @_b.U0331_2;
+    pos base gamal-syriac.fina <anchor 585 -150> mark @_b.U0331_2;
+    pos base gamal-syriac.medi <anchor 300 -135> mark @_b.U0331_2;
+    pos base gamalgarshuni-syriac <anchor 645 -150> mark @_b.U0331_2;
+    pos base [gamalgarshuni-syriac.fina qaph-syriac.medi semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi] <anchor 540 -150> mark @_b.U0331_2;
+    pos base gamalgarshuni-syriac.init <anchor 360 -135> mark @_b.U0331_2;
+    pos base gamalgarshuni-syriac.medi <anchor 270 -165> mark @_b.U0331_2;
+    pos base [he-syriac he-syriac.fina] <anchor 450 -150> mark @_b.U0331_2;
+    pos base heth-syriac <anchor 765 -165> mark @_b.U0331_2;
+    pos base heth-syriac.fina <anchor 726 -165> mark @_b.U0331_2;
+    pos base [heth-syriac.init taw-syriac.fina] <anchor 420 -150> mark @_b.U0331_2;
+    pos base heth-syriac.medi <anchor 420 -165> mark @_b.U0331_2;
+    pos base kaph-syriac <anchor 392 -210> mark @_b.U0331_2;
+    pos base kaph-syriac.fina <anchor 285 -300> mark @_b.U0331_2;
+    pos base kaph-syriac.init <anchor 480 -165> mark @_b.U0331_2;
+    pos base kaph-syriac.medi <anchor 465 -180> mark @_b.U0331_2;
+    pos base kashida-ar <anchor 180 -195> mark @_b.U0331_2;
+    pos base [lamadh-syriac shin-syriac.fina] <anchor 735 -150> mark @_b.U0331_2;
+    pos base lamadh-syriac.fina <anchor 750 -165> mark @_b.U0331_2;
+    pos base lamadh-syriac.init <anchor 495 -135> mark @_b.U0331_2;
+    pos base lamadh-syriac.medi <anchor 480 -150> mark @_b.U0331_2;
+    pos base mim-syriac <anchor 602 -150> mark @_b.U0331_2;
+    pos base mim-syriac.fina <anchor 615 -150> mark @_b.U0331_2;
+    pos base mim-syriac.init <anchor 540 -135> mark @_b.U0331_2;
+    pos base mim-syriac.medi <anchor 585 -135> mark @_b.U0331_2;
+    pos base nun-syriac <anchor 263 -150> mark @_b.U0331_2;
+    pos base nun-syriac.fina <anchor 290 -615> mark @_b.U0331_2;
+    pos base nun-syriac.init <anchor 375 -150> mark @_b.U0331_2;
+    pos base pe-syriac <anchor 780 -135> mark @_b.U0331_2;
+    pos base pe-syriac.fina <anchor 765 -135> mark @_b.U0331_2;
+    pos base pe-syriac.init <anchor 510 -135> mark @_b.U0331_2;
+    pos base pe-syriac.medi <anchor 510 -165> mark @_b.U0331_2;
+    pos base [qaph-syriac qaph-syriac.fina] <anchor 765 -150> mark @_b.U0331_2;
+    pos base [reversedpe-syriac reversedpe-syriac.fina] <anchor 720 -195> mark @_b.U0331_2;
+    pos base [reversedpe-syriac.init reversedpe-syriac.medi] <anchor 555 -210> mark @_b.U0331_2;
+    pos base rish-syriac <anchor 310 -150> mark @_b.U0331_2;
+    pos base rish-syriac.fina <anchor 310 -135> mark @_b.U0331_2;
+    pos base sadhe-syriac <anchor 435 -615> mark @_b.U0331_2;
+    pos base sadhe-syriac.fina <anchor 540 -585> mark @_b.U0331_2;
+    pos base semkath-syriac <anchor 726 -150> mark @_b.U0331_2;
+    pos base semkath-syriac.fina <anchor 758 -150> mark @_b.U0331_2;
+    pos base semkathFinal-syriac <anchor 728 -210> mark @_b.U0331_2;
+    pos base semkathFinal-syriac.fina <anchor 765 -195> mark @_b.U0331_2;
+    pos base shin-syriac <anchor 720 -150> mark @_b.U0331_2;
+    pos base [shin-syriac.init waw-syriac.fina] <anchor 465 -135> mark @_b.U0331_2;
+    pos base shin-syriac.medi <anchor 465 -165> mark @_b.U0331_2;
+    pos base taw-syriac <anchor 435 -135> mark @_b.U0331_2;
+    pos base teth-syriac <anchor 690 -180> mark @_b.U0331_2;
+    pos base teth-syriac.fina <anchor 705 -180> mark @_b.U0331_2;
+    pos base teth-syriac.init <anchor 375 -225> mark @_b.U0331_2;
+    pos base teth-syriac.medi <anchor 420 -210> mark @_b.U0331_2;
+    pos base tethGarshuni-syriac <anchor 660 -210> mark @_b.U0331_2;
+    pos base tethGarshuni-syriac.fina <anchor 780 -210> mark @_b.U0331_2;
+    pos base tethGarshuni-syriac.init <anchor 420 -225> mark @_b.U0331_2;
+    pos base tethGarshuni-syriac.medi <anchor 360 -225> mark @_b.U0331_2;
+    pos base waw-syriac <anchor 450 -135> mark @_b.U0331_2;
+    pos base yudh-syriac <anchor 501 -165> mark @_b.U0331_2;
+    pos base yudh-syriac.fina <anchor 531 -150> mark @_b.U0331_2;
+    pos base yudh-syriac.init <anchor 360 -150> mark @_b.U0331_2;
+    pos base yudh-syriac.medi <anchor 285 -150> mark @_b.U0331_2;
+    pos base [yudhhe-syriac yudhhe-syriac.fina] <anchor 1290 -195> mark @_b.U0331_2;
+    pos base zain-syriac <anchor 345 -345> mark @_b.U0331_2;
+    pos base zain-syriac.fina <anchor 345 -330> mark @_b.U0331_2;
+    # below
+    pos base [alaph-syriac alaph-syriac.fina.alt3 alaph-syriac.medi] <anchor 375 -135> mark @_b.U0325_3;
+    pos base alaph-syriac.fina <anchor 375 -360> mark @_b.U0325_3;
+    pos base [alaph-syriac.fina.alt2 zain-syriac zain-syriac.fina] <anchor 360 -315> mark @_b.U0325_3;
+    pos base [beth-syriac lamadh-syriac lamadh-syriac.fina] <anchor 705 -150> mark @_b.U0325_3;
+    pos base beth-syriac.fina <anchor 690 -150> mark @_b.U0325_3;
+    pos base [beth-syriac.init qaph-syriac.init qaph-syriac.medi] <anchor 525 -150> mark @_b.U0325_3;
+    pos base [beth-syriac.medi mim-syriac.medi] <anchor 525 -135> mark @_b.U0325_3;
+    pos base [dalath-syriac dalath_hbasaEsasadotted-syriac] <anchor 300 -390> mark @_b.U0325_3;
+    pos base dalath-syriac.fina <anchor 328 -405> mark @_b.U0325_3;
+    pos base dalath_hbasaEsasadotted-syriac.fina <anchor 343 -405> mark @_b.U0325_3;
+    pos base dalathrishDotless-syriac <anchor 272 -150> mark @_b.U0325_3;
+    pos base dalathrishDotless-syriac.fina <anchor 360 -150> mark @_b.U0325_3;
+    pos base dottedCircle <anchor 525 -210> mark @_b.U0325_3;
+    pos base e-syriac <anchor 705 -165> mark @_b.U0325_3;
+    pos base e-syriac.fina <anchor 735 -165> mark @_b.U0325_3;
+    pos base [e-syriac.init gamal-syriac.init he-syriac he-syriac.fina heth-syriac.init] <anchor 405 -150> mark @_b.U0325_3;
+    pos base [e-syriac.medi taw-syriac.fina] <anchor 420 -165> mark @_b.U0325_3;
+    pos base gamal-syriac <anchor 690 -165> mark @_b.U0325_3;
+    pos base gamal-syriac.fina <anchor 585 -150> mark @_b.U0325_3;
+    pos base gamal-syriac.medi <anchor 315 -165> mark @_b.U0325_3;
+    pos base gamalgarshuni-syriac <anchor 690 -180> mark @_b.U0325_3;
+    pos base gamalgarshuni-syriac.fina <anchor 585 -135> mark @_b.U0325_3;
+    pos base gamalgarshuni-syriac.init <anchor 330 -150> mark @_b.U0325_3;
+    pos base gamalgarshuni-syriac.medi <anchor 315 -150> mark @_b.U0325_3;
+    pos base heth-syriac <anchor 735 -150> mark @_b.U0325_3;
+    pos base heth-syriac.fina <anchor 726 -150> mark @_b.U0325_3;
+    pos base heth-syriac.medi <anchor 450 -150> mark @_b.U0325_3;
+    pos base kaph-syriac <anchor 452 -210> mark @_b.U0325_3;
+    pos base kaph-syriac.fina <anchor 375 -375> mark @_b.U0325_3;
+    pos base [kaph-syriac.init kaph-syriac.medi] <anchor 450 -135> mark @_b.U0325_3;
+    pos base kashida-ar <anchor 180 -165> mark @_b.U0325_3;
+    pos base [lamadh-syriac.init lamadh-syriac.medi] <anchor 495 -150> mark @_b.U0325_3;
+    pos base mim-syriac <anchor 572 -150> mark @_b.U0325_3;
+    pos base mim-syriac.fina <anchor 600 -165> mark @_b.U0325_3;
+    pos base mim-syriac.init <anchor 510 -120> mark @_b.U0325_3;
+    pos base nun-syriac <anchor 278 -165> mark @_b.U0325_3;
+    pos base nun-syriac.fina <anchor 275 -570> mark @_b.U0325_3;
+    pos base nun-syriac.init <anchor 375 -165> mark @_b.U0325_3;
+    pos base nun-syriac.medi <anchor 390 -150> mark @_b.U0325_3;
+    pos base pe-syriac <anchor 780 -150> mark @_b.U0325_3;
+    pos base pe-syriac.fina <anchor 795 -135> mark @_b.U0325_3;
+    pos base pe-syriac.init <anchor 495 -120> mark @_b.U0325_3;
+    pos base pe-syriac.medi <anchor 495 -135> mark @_b.U0325_3;
+    pos base [qaph-syriac qaph-syriac.fina] <anchor 765 -150> mark @_b.U0325_3;
+    pos base [reversedpe-syriac reversedpe-syriac.fina] <anchor 1185 -150> mark @_b.U0325_3;
+    pos base [reversedpe-syriac.init reversedpe-syriac.medi] <anchor 930 -135> mark @_b.U0325_3;
+    pos base rish-syriac <anchor 265 -165> mark @_b.U0325_3;
+    pos base rish-syriac.fina <anchor 265 -135> mark @_b.U0325_3;
+    pos base sadhe-syriac <anchor 435 -615> mark @_b.U0325_3;
+    pos base sadhe-syriac.fina <anchor 525 -585> mark @_b.U0325_3;
+    pos base semkath-syriac <anchor 756 -180> mark @_b.U0325_3;
+    pos base semkath-syriac.fina <anchor 758 -195> mark @_b.U0325_3;
+    pos base [semkath-syriac.init semkath-syriac.medi] <anchor 540 -150> mark @_b.U0325_3;
+    pos base semkathFinal-syriac <anchor 713 -210> mark @_b.U0325_3;
+    pos base semkathFinal-syriac.fina <anchor 750 -195> mark @_b.U0325_3;
+    pos base semkathFinal-syriac.init <anchor 570 -165> mark @_b.U0325_3;
+    pos base semkathFinal-syriac.medi <anchor 555 -150> mark @_b.U0325_3;
+    pos base shin-syriac <anchor 675 -195> mark @_b.U0325_3;
+    pos base shin-syriac.fina <anchor 720 -165> mark @_b.U0325_3;
+    pos base shin-syriac.init <anchor 465 -150> mark @_b.U0325_3;
+    pos base shin-syriac.medi <anchor 480 -150> mark @_b.U0325_3;
+    pos base taw-syriac <anchor 435 -165> mark @_b.U0325_3;
+    pos base [teth-syriac tethGarshuni-syriac.fina] <anchor 765 -225> mark @_b.U0325_3;
+    pos base teth-syriac.fina <anchor 795 -225> mark @_b.U0325_3;
+    pos base teth-syriac.init <anchor 375 -180> mark @_b.U0325_3;
+    pos base teth-syriac.medi <anchor 375 -150> mark @_b.U0325_3;
+    pos base tethGarshuni-syriac <anchor 765 -210> mark @_b.U0325_3;
+    pos base tethGarshuni-syriac.init <anchor 540 -225> mark @_b.U0325_3;
+    pos base tethGarshuni-syriac.medi <anchor 495 -180> mark @_b.U0325_3;
+    pos base waw-syriac <anchor 450 -120> mark @_b.U0325_3;
+    pos base waw-syriac.fina <anchor 435 -120> mark @_b.U0325_3;
+    pos base yudh-syriac <anchor 516 -135> mark @_b.U0325_3;
+    pos base yudh-syriac.fina <anchor 531 -150> mark @_b.U0325_3;
+    pos base yudh-syriac.init <anchor 345 -165> mark @_b.U0325_3;
+    pos base yudh-syriac.medi <anchor 300 -165> mark @_b.U0325_3;
+    pos base [yudhhe-syriac yudhhe-syriac.fina] <anchor 1665 -135> mark @_b.U0325_3;
+    # below
+} LMarkOnBase;
+
+lookup LMarkFeminineDot {
+    lookupflag 0;
+    pos base [alaph-syriac alaph-syriac.fina.alt3] <anchor 405 -150> mark @_b.U0740;
+    pos base alaph-syriac.fina <anchor 405 -285> mark @_b.U0740;
+    pos base alaph-syriac.fina.alt2 <anchor 375 -270> mark @_b.U0740;
+    pos base alaph-syriac.medi <anchor 405 -165> mark @_b.U0740;
+    pos base [beth-syriac mim-syriac.medi] <anchor 720 -135> mark @_b.U0740;
+    pos base [beth-syriac.fina teth-syriac.fina] <anchor 735 -135> mark @_b.U0740;
+    pos base [beth-syriac.init e-syriac.medi pe-syriac.init] <anchor 525 -135> mark @_b.U0740;
+    pos base beth-syriac.medi <anchor 540 -165> mark @_b.U0740;
+    pos base dalath-syriac <anchor 345 -360> mark @_b.U0740;
+    pos base dalath-syriac.fina <anchor 328 -360> mark @_b.U0740;
+    pos base dalath_hbasaEsasadotted-syriac <anchor 0 0> mark @_b.U0740;
+    pos base dalath_hbasaEsasadotted-syriac.fina <anchor -47 0> mark @_b.U0740;
+    pos base dalathrishDotless-syriac <anchor 302 -150> mark @_b.U0740;
+    pos base dalathrishDotless-syriac.fina <anchor 390 -150> mark @_b.U0740;
+    pos base dottedCircle <anchor 510 -120> mark @_b.U0740;
+    pos base [e-syriac pe-syriac] <anchor 765 -135> mark @_b.U0740;
+    pos base e-syriac.fina <anchor 750 -135> mark @_b.U0740;
+    pos base [e-syriac.init heth-syriac.init qaph-syriac.init reversedpe-syriac] <anchor 525 -150> mark @_b.U0740;
+    pos base gamal-syriac <anchor 780 -165> mark @_b.U0740;
+    pos base [gamal-syriac.fina semkathFinal-syriac.medi] <anchor 585 -150> mark @_b.U0740;
+    pos base gamal-syriac.init <anchor 510 -180> mark @_b.U0740;
+    pos base gamal-syriac.medi <anchor 330 -165> mark @_b.U0740;
+    pos base gamalgarshuni-syriac <anchor 765 -165> mark @_b.U0740;
+    pos base gamalgarshuni-syriac.fina <anchor 615 -165> mark @_b.U0740;
+    pos base gamalgarshuni-syriac.init <anchor 465 -150> mark @_b.U0740;
+    pos base gamalgarshuni-syriac.medi <anchor 300 -135> mark @_b.U0740;
+    pos base he-syriac <anchor 510 -135> mark @_b.U0740;
+    pos base [he-syriac.fina taw-syriac.fina] <anchor 480 -150> mark @_b.U0740;
+    pos base heth-syriac <anchor 870 -120> mark @_b.U0740;
+    pos base heth-syriac.fina <anchor 891 -150> mark @_b.U0740;
+    pos base heth-syriac.medi <anchor 570 -135> mark @_b.U0740;
+    pos base kaph-syriac <anchor 407 -180> mark @_b.U0740;
+    pos base kaph-syriac.fina <anchor 315 -330> mark @_b.U0740;
+    pos base [kaph-syriac.init kaph-syriac.medi waw-syriac.fina] <anchor 450 -150> mark @_b.U0740;
+    pos base [kashida-ar kashida-ar.threequarter] <anchor 165 -150> mark @_b.U0740;
+    pos base [kashida-ar.half kashida-ar.quarter] <anchor 60 -150> mark @_b.U0740;
+    pos base lamadh-syriac <anchor 720 -165> mark @_b.U0740;
+    pos base lamadh-syriac.fina <anchor 780 -150> mark @_b.U0740;
+    pos base lamadh-syriac.init <anchor 495 -150> mark @_b.U0740;
+    pos base lamadh-syriac.medi <anchor 510 -150> mark @_b.U0740;
+    pos base mim-syriac <anchor 602 -150> mark @_b.U0740;
+    pos base [mim-syriac.fina semkath-syriac.init] <anchor 555 -135> mark @_b.U0740;
+    pos base mim-syriac.init <anchor 690 -120> mark @_b.U0740;
+    pos base nun-syriac <anchor 353 -210> mark @_b.U0740;
+    pos base nun-syriac.fina <anchor 290 -630> mark @_b.U0740;
+    pos base nun-syriac.init <anchor 345 -150> mark @_b.U0740;
+    pos base nun-syriac.medi <anchor 345 -135> mark @_b.U0740;
+    pos base pe-syriac.fina <anchor 840 -135> mark @_b.U0740;
+    pos base [pe-syriac.medi qaph-syriac.medi] <anchor 540 -150> mark @_b.U0740;
+    pos base qaph-syriac <anchor 750 -150> mark @_b.U0740;
+    pos base qaph-syriac.fina <anchor 765 -150> mark @_b.U0740;
+    pos base reversedpe-syriac.fina <anchor 315 -150> mark @_b.U0740;
+    pos base reversedpe-syriac.init <anchor 555 -165> mark @_b.U0740;
+    pos base reversedpe-syriac.medi <anchor 300 -150> mark @_b.U0740;
+    pos base rish-syriac <anchor 310 -150> mark @_b.U0740;
+    pos base rish-syriac.fina <anchor 325 -150> mark @_b.U0740;
+    pos base sadhe-syriac <anchor 405 -645> mark @_b.U0740;
+    pos base sadhe-syriac.fina <anchor 540 -630> mark @_b.U0740;
+    pos base semkath-syriac <anchor 711 -150> mark @_b.U0740;
+    pos base semkath-syriac.fina <anchor 758 -150> mark @_b.U0740;
+    pos base [semkath-syriac.medi semkathFinal-syriac.init] <anchor 555 -150> mark @_b.U0740;
+    pos base semkathFinal-syriac <anchor 713 -225> mark @_b.U0740;
+    pos base [semkathFinal-syriac.fina tethGarshuni-syriac] <anchor 750 -195> mark @_b.U0740;
+    pos base shin-syriac <anchor 675 -135> mark @_b.U0740;
+    pos base shin-syriac.fina <anchor 705 -150> mark @_b.U0740;
+    pos base shin-syriac.init <anchor 465 -135> mark @_b.U0740;
+    pos base shin-syriac.medi <anchor 450 -135> mark @_b.U0740;
+    pos base [taw-syriac teth-syriac.init teth-syriac.medi] <anchor 435 -180> mark @_b.U0740;
+    pos base teth-syriac <anchor 735 -195> mark @_b.U0740;
+    pos base tethGarshuni-syriac.fina <anchor 735 -165> mark @_b.U0740;
+    pos base [tethGarshuni-syriac.init tethGarshuni-syriac.medi] <anchor 420 -180> mark @_b.U0740;
+    pos base waw-syriac <anchor 435 -150> mark @_b.U0740;
+    pos base yudh-syriac <anchor 456 -150> mark @_b.U0740;
+    pos base yudh-syriac.fina <anchor 516 -150> mark @_b.U0740;
+    pos base yudh-syriac.init <anchor 330 -150> mark @_b.U0740;
+    pos base yudh-syriac.medi <anchor 285 -150> mark @_b.U0740;
+    pos base yudhhe-syriac <anchor 1470 -225> mark @_b.U0740;
+    pos base yudhhe-syriac.fina <anchor 1500 -210> mark @_b.U0740;
+    pos base zain-syriac <anchor 330 -315> mark @_b.U0740;
+    pos base zain-syriac.fina <anchor 375 -315> mark @_b.U0740;
+    # below
+} LMarkFeminineDot;
+
+lookup LMarkOnLigaEast {
+    # needs work!
+    lookupflag 0;
+    pos base he_yudh-syriac <anchor 720 720> mark @_m.U030a_1;
+    pos base he_yudh-syriac.fina <anchor 675 750> mark @_m.U030a_1;
+    pos base lamadh_alaph-syriac <anchor 1170 1050> mark @_m.U030a_1;
+    pos base lamadh_alaph-syriac.fina <anchor 1095 1005> mark @_m.U030a_1;
+    pos base rish_dieresiscomb-syriac <anchor 268 1020> mark @_m.U030a_1;
+    pos base rish_dieresiscomb-syriac.fina <anchor 280 1020> mark @_m.U030a_1;
+    pos base sadhe_nun-syriac <anchor 765 420> mark @_m.U030a_1;
+    pos base sadhe_nun-syriac.fina <anchor 795 435> mark @_m.U030a_1;
+    pos base taw_alaph-syriac <anchor 705 705> mark @_m.U030a_1;
+    pos base taw_alaph-syriac.alt <anchor 960 720> mark @_m.U030a_1;
+    pos base [taw_alaph-syriac.alt3 taw_alaph-syriac.fina.alt3] <anchor 0 0> mark @_m.U030a_1;
+    pos base taw_alaph-syriac.fina <anchor 750 660> mark @_m.U030a_1;
+    pos base taw_yudh-syriac.fina <anchor 945 930> mark @_m.U030a_1;
+    # top right
+    pos base he_yudh-syriac <anchor 720 765> mark @_m.U0656;
+    pos base he_yudh-syriac.fina <anchor 720 750> mark @_m.U0656;
+    pos base lamadh_alaph-syriac <anchor 1185 945> mark @_m.U0656;
+    pos base lamadh_alaph-syriac.fina <anchor 1155 990> mark @_m.U0656;
+    pos base rish_dieresiscomb-syriac <anchor 298 1035> mark @_m.U0656;
+    pos base rish_dieresiscomb-syriac.fina <anchor 310 1035> mark @_m.U0656;
+    pos base sadhe_nun-syriac <anchor 765 420> mark @_m.U0656;
+    pos base sadhe_nun-syriac.fina <anchor 825 420> mark @_m.U0656;
+    pos base taw_alaph-syriac <anchor 660 915> mark @_m.U0656;
+    pos base taw_alaph-syriac.alt <anchor 960 825> mark @_m.U0656;
+    pos base [taw_alaph-syriac.alt3 taw_alaph-syriac.fina.alt3] <anchor 0 0> mark @_m.U0656;
+    pos base taw_alaph-syriac.fina <anchor 705 825> mark @_m.U0656;
+    pos base taw_yudh-syriac.fina <anchor 945 975> mark @_m.U0656;
+    # top right
+    #	pos base @m.U0656_ligComponent_2    mark @_t.U0656_2; # top left
+    pos base [he_yudh-syriac he_yudh-syriac.fina] <anchor 195 840> mark @_m.U030a_1;
+    pos base lamadh_alaph-syriac <anchor 360 945> mark @_m.U030a_1;
+    pos base lamadh_alaph-syriac.fina <anchor 360 960> mark @_m.U030a_1;
+    pos base rish_dieresiscomb-syriac <anchor 298 975> mark @_m.U030a_1;
+    pos base rish_dieresiscomb-syriac.fina <anchor 295 975> mark @_m.U030a_1;
+    pos base sadhe_nun-syriac <anchor 270 270> mark @_m.U030a_1;
+    pos base sadhe_nun-syriac.fina <anchor 225 330> mark @_m.U030a_1;
+    pos base taw_alaph-syriac <anchor 360 975> mark @_m.U030a_1;
+    pos base taw_alaph-syriac.alt <anchor 525 990> mark @_m.U030a_1;
+    pos base [taw_alaph-syriac.alt3 taw_alaph-syriac.fina.alt3] <anchor 0 0> mark @_m.U030a_1;
+    pos base taw_alaph-syriac.fina <anchor 345 1020> mark @_m.U030a_1;
+    pos base taw_yudh-syriac.fina <anchor 390 570> mark @_m.U030a_1;
+    # top left
+    pos base he_yudh-syriac <anchor 705 -150> mark @_b.U0325_3;
+    pos base he_yudh-syriac.fina <anchor 675 -135> mark @_b.U0325_3;
+    pos base lamadh_alaph-syriac <anchor 1125 -135> mark @_b.U0325_3;
+    pos base lamadh_alaph-syriac.fina <anchor 1035 -150> mark @_b.U0325_3;
+    pos base rish_dieresiscomb-syriac <anchor 358 -135> mark @_b.U0325_3;
+    pos base rish_dieresiscomb-syriac.fina <anchor 355 -120> mark @_b.U0325_3;
+    pos base sadhe_nun-syriac <anchor 855 -675> mark @_b.U0325_3;
+    pos base sadhe_nun-syriac.fina <anchor 885 -645> mark @_b.U0325_3;
+    pos base taw_alaph-syriac <anchor 720 -210> mark @_b.U0325_3;
+    pos base taw_alaph-syriac.alt <anchor 1020 -150> mark @_b.U0325_3;
+    pos base [taw_alaph-syriac.alt3 taw_alaph-syriac.fina.alt3] <anchor 0 0> mark @_b.U0325_3;
+    pos base taw_alaph-syriac.fina <anchor 750 -195> mark @_b.U0325_3;
+    pos base taw_yudh-syriac.fina <anchor 975 -150> mark @_b.U0325_3;
+    # bottom right
+    pos base he_yudh-syriac <anchor 735 -165> mark @_b.U0331_2;
+    pos base he_yudh-syriac.fina <anchor 720 -165> mark @_b.U0331_2;
+    pos base lamadh_alaph-syriac <anchor 1110 -120> mark @_b.U0331_2;
+    pos base lamadh_alaph-syriac.fina <anchor 1050 -165> mark @_b.U0331_2;
+    pos base rish_dieresiscomb-syriac <anchor 343 -210> mark @_b.U0331_2;
+    pos base rish_dieresiscomb-syriac.fina <anchor 340 -210> mark @_b.U0331_2;
+    pos base sadhe_nun-syriac <anchor 885 -705> mark @_b.U0331_2;
+    pos base sadhe_nun-syriac.fina <anchor 915 -690> mark @_b.U0331_2;
+    pos base [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 840 -195> mark @_b.U0331_2;
+    pos base taw_alaph-syriac.alt <anchor 960 -165> mark @_b.U0331_2;
+    pos base [taw_alaph-syriac.alt3 taw_alaph-syriac.fina.alt3] <anchor 0 0> mark @_b.U0331_2;
+    pos base taw_yudh-syriac.fina <anchor 975 -195> mark @_b.U0331_2;
+    # bottom right
+    pos base [he_yudh-syriac he_yudh-syriac.fina] <anchor 225 -180> mark @_b.U0325_3;
+    pos base lamadh_alaph-syriac <anchor 480 -135> mark @_b.U0325_3;
+    pos base lamadh_alaph-syriac.fina <anchor 450 -150> mark @_b.U0325_3;
+    pos base rish_dieresiscomb-syriac <anchor 328 -150> mark @_b.U0325_3;
+    pos base rish_dieresiscomb-syriac.fina <anchor 355 -135> mark @_b.U0325_3;
+    pos base sadhe_nun-syriac <anchor 375 -675> mark @_b.U0325_3;
+    pos base sadhe_nun-syriac.fina <anchor 360 -240> mark @_b.U0325_3;
+    pos base [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 225 -210> mark @_b.U0325_3;
+    pos base taw_alaph-syriac.alt <anchor 600 -150> mark @_b.U0325_3;
+    pos base [taw_alaph-syriac.alt3 taw_alaph-syriac.fina.alt3] <anchor 0 0> mark @_b.U0325_3;
+    pos base taw_yudh-syriac.fina <anchor 420 -150> mark @_b.U0325_3;
+    # bottom left
+    pos base [he_yudh-syriac he_yudh-syriac.fina] <anchor 210 -255> mark @_b.U0331_2;
+    pos base lamadh_alaph-syriac <anchor 420 -120> mark @_b.U0331_2;
+    pos base lamadh_alaph-syriac.fina <anchor 450 -165> mark @_b.U0331_2;
+    pos base rish_dieresiscomb-syriac <anchor 343 -180> mark @_b.U0331_2;
+    pos base rish_dieresiscomb-syriac.fina <anchor 340 -165> mark @_b.U0331_2;
+    pos base sadhe_nun-syriac <anchor 375 -705> mark @_b.U0331_2;
+    pos base sadhe_nun-syriac.fina <anchor 420 -690> mark @_b.U0331_2;
+    pos base [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 315 -210> mark @_b.U0331_2;
+    pos base taw_alaph-syriac.alt <anchor 525 -180> mark @_b.U0331_2;
+    pos base [taw_alaph-syriac.alt3 taw_alaph-syriac.fina.alt3] <anchor 0 0> mark @_b.U0331_2;
+    pos base taw_yudh-syriac.fina <anchor 435 -150> mark @_b.U0331_2;
+    # bottom left
+} LMarkOnLigaEast;
+
+lookup LAboveMarkToMark {
+    # needs work!
+    lookupflag 0;
+    pos mark [alaph-syriac taw-syriac] <anchor 375 975> mark @_t.U0656;
+    pos mark [alaph-syriac.fina alaph-syriac.medi] <anchor 345 975> mark @_t.U0656;
+    pos mark alaph-syriac.fina.alt2 <anchor 330 975> mark @_t.U0656;
+    pos mark alaph-syriac.fina.alt3 <anchor 360 975> mark @_t.U0656;
+    pos mark beth-syriac <anchor 750 780> mark @_t.U0656;
+    pos mark beth-syriac.fina <anchor 765 795> mark @_t.U0656;
+    pos mark beth-syriac.init <anchor 570 780> mark @_t.U0656;
+    pos mark beth-syriac.medi <anchor 555 750> mark @_t.U0656;
+    pos mark dalath-syriac <anchor 375 705> mark @_t.U0656;
+    pos mark dalath-syriac.fina <anchor 313 750> mark @_t.U0656;
+    pos mark dalath_hbasaEsasadotted-syriac <anchor 360 720> mark @_t.U0656;
+    pos mark dalath_hbasaEsasadotted-syriac.fina <anchor 328 735> mark @_t.U0656;
+    pos mark dalathrishDotless-syriac <anchor 332 720> mark @_t.U0656;
+    pos mark dalathrishDotless-syriac.fina <anchor 375 720> mark @_t.U0656;
+    pos mark dottedCircle <anchor 510 915> mark @_t.U0656;
+    pos mark e-syriac <anchor 645 975> mark @_t.U0656;
+    pos mark e-syriac.fina <anchor 645 1005> mark @_t.U0656;
+    pos mark e-syriac.init <anchor 300 960> mark @_t.U0656;
+    pos mark e-syriac.medi <anchor 315 1020> mark @_t.U0656;
+    pos mark gamal-syriac <anchor 945 795> mark @_t.U0656;
+    pos mark gamal-syriac.fina <anchor 855 900> mark @_t.U0656;
+    pos mark gamal-syriac.init <anchor 570 885> mark @_t.U0656;
+    pos mark gamal-syriac.medi <anchor 570 915> mark @_t.U0656;
+    pos mark gamalgarshuni-syriac <anchor 885 870> mark @_t.U0656;
+    pos mark gamalgarshuni-syriac.fina <anchor 960 885> mark @_t.U0656;
+    pos mark [gamalgarshuni-syriac.init gamalgarshuni-syriac.medi] <anchor 645 855> mark @_t.U0656;
+    pos mark [he-syriac qaph-syriac.init] <anchor 465 765> mark @_t.U0656;
+    pos mark he-syriac.fina <anchor 450 765> mark @_t.U0656;
+    pos mark heth-syriac <anchor 750 585> mark @_t.U0656;
+    pos mark heth-syriac.fina <anchor 741 570> mark @_t.U0656;
+    pos mark heth-syriac.init <anchor 405 540> mark @_t.U0656;
+    pos mark heth-syriac.medi <anchor 420 540> mark @_t.U0656;
+    pos mark kaph-syriac <anchor 407 765> mark @_t.U0656;
+    pos mark kaph-syriac.fina <anchor 360 705> mark @_t.U0656;
+    pos mark kaph-syriac.init <anchor 450 750> mark @_t.U0656;
+    pos mark [kaph-syriac.medi waw-syriac] <anchor 435 750> mark @_t.U0656;
+    pos mark kashida-ar <anchor 135 405> mark @_t.U0656;
+    pos mark lamadh-syriac <anchor 900 945> mark @_t.U0656;
+    pos mark lamadh-syriac.fina <anchor 915 945> mark @_t.U0656;
+    pos mark lamadh-syriac.init <anchor 645 930> mark @_t.U0656;
+    pos mark lamadh-syriac.medi <anchor 660 945> mark @_t.U0656;
+    pos mark mim-syriac <anchor 587 735> mark @_t.U0656;
+    pos mark mim-syriac.fina <anchor 585 750> mark @_t.U0656;
+    pos mark mim-syriac.init <anchor 510 765> mark @_t.U0656;
+    pos mark mim-syriac.medi <anchor 525 765> mark @_t.U0656;
+    pos mark nun-syriac <anchor 278 450> mark @_t.U0656;
+    pos mark nun-syriac.fina <anchor 275 465> mark @_t.U0656;
+    pos mark nun-syriac.init <anchor 345 765> mark @_t.U0656;
+    pos mark nun-syriac.medi <anchor 375 765> mark @_t.U0656;
+    pos mark [pe-syriac pe-syriac.fina] <anchor 795 990> mark @_t.U0656;
+    pos mark pe-syriac.init <anchor 480 975> mark @_t.U0656;
+    pos mark pe-syriac.medi <anchor 465 990> mark @_t.U0656;
+    pos mark qaph-syriac <anchor 705 795> mark @_t.U0656;
+    pos mark qaph-syriac.fina <anchor 735 780> mark @_t.U0656;
+    pos mark qaph-syriac.medi <anchor 480 750> mark @_t.U0656;
+    pos mark [reversedpe-syriac reversedpe-syriac.fina] <anchor 540 1035> mark @_t.U0656;
+    pos mark [reversedpe-syriac.init reversedpe-syriac.medi] <anchor 525 1035> mark @_t.U0656;
+    pos mark rish-syriac <anchor 250 1005> mark @_t.U0656;
+    pos mark rish-syriac.fina <anchor 250 1035> mark @_t.U0656;
+    pos mark sadhe-syriac <anchor 360 420> mark @_t.U0656;
+    pos mark sadhe-syriac.fina <anchor 420 420> mark @_t.U0656;
+    pos mark semkath-syriac <anchor 816 810> mark @_t.U0656;
+    pos mark semkath-syriac.fina <anchor 818 780> mark @_t.U0656;
+    pos mark semkath-syriac.init <anchor 615 780> mark @_t.U0656;
+    pos mark semkath-syriac.medi <anchor 645 780> mark @_t.U0656;
+    pos mark semkathFinal-syriac <anchor 758 810> mark @_t.U0656;
+    pos mark semkathFinal-syriac.fina <anchor 750 795> mark @_t.U0656;
+    pos mark [semkathFinal-syriac.init semkathFinal-syriac.medi] <anchor 630 780> mark @_t.U0656;
+    pos mark shin-syriac <anchor 690 780> mark @_t.U0656;
+    pos mark shin-syriac.fina <anchor 690 795> mark @_t.U0656;
+    pos mark shin-syriac.init <anchor 450 795> mark @_t.U0656;
+    pos mark shin-syriac.medi <anchor 450 780> mark @_t.U0656;
+    pos mark taw-syriac.fina <anchor 405 915> mark @_t.U0656;
+    pos mark teth-syriac <anchor 975 750> mark @_t.U0656;
+    pos mark teth-syriac.fina <anchor 960 720> mark @_t.U0656;
+    pos mark teth-syriac.init <anchor 705 675> mark @_t.U0656;
+    pos mark teth-syriac.medi <anchor 720 675> mark @_t.U0656;
+    pos mark [tethGarshuni-syriac tethGarshuni-syriac.fina] <anchor 960 765> mark @_t.U0656;
+    pos mark [tethGarshuni-syriac.init tethGarshuni-syriac.medi] <anchor 720 690> mark @_t.U0656;
+    pos mark waw-syriac.fina <anchor 435 735> mark @_t.U0656;
+    pos mark yudh-syriac <anchor 486 540> mark @_t.U0656;
+    pos mark yudh-syriac.fina <anchor 486 525> mark @_t.U0656;
+    pos mark yudh-syriac.init <anchor 330 570> mark @_t.U0656;
+    pos mark yudh-syriac.medi <anchor 300 600> mark @_t.U0656;
+    pos mark [yudhhe-syriac yudhhe-syriac.fina] <anchor 1185 660> mark @_t.U0656;
+    pos mark zain-syriac <anchor 300 705> mark @_t.U0656;
+    pos mark zain-syriac.fina <anchor 285 705> mark @_t.U0656;
+    # above @t.U0656_2
+    #	pos base @m.U030a_1    mark @_m.U030a_1; # above
+} LAboveMarkToMark;
+
+lookup LBelowMarkToMark {
+    # needs work!
+    lookupflag 0;
+    pos mark [alaph-syriac nun-syriac.medi] <anchor 390 -165> mark @_b.U0331;
+    pos mark alaph-syriac.fina <anchor 375 -360> mark @_b.U0331;
+    pos mark alaph-syriac.fina.alt2 <anchor 360 -360> mark @_b.U0331;
+    pos mark alaph-syriac.fina.alt3 <anchor 375 -135> mark @_b.U0331;
+    pos mark alaph-syriac.medi <anchor 375 -120> mark @_b.U0331;
+    pos mark beth-syriac <anchor 690 -128> mark @_b.U0331;
+    pos mark beth-syriac.fina <anchor 705 -158> mark @_b.U0331;
+    pos mark beth-syriac.init <anchor 555 -150> mark @_b.U0331;
+    pos mark [beth-syriac.medi qaph-syriac.init] <anchor 510 -150> mark @_b.U0331;
+    pos mark dalath-syriac <anchor 330 -390> mark @_b.U0331;
+    pos mark dalath-syriac.fina <anchor 313 -390> mark @_b.U0331;
+    pos mark dalath_hbasaEsasadotted-syriac <anchor 315 -390> mark @_b.U0331;
+    pos mark dalath_hbasaEsasadotted-syriac.fina <anchor 328 -405> mark @_b.U0331;
+    pos mark dalathrishDotless-syriac <anchor 332 -135> mark @_b.U0331;
+    pos mark dalathrishDotless-syriac.fina <anchor 375 -180> mark @_b.U0331;
+    pos mark dottedCircle <anchor 525 -195> mark @_b.U0331;
+    pos mark [e-syriac e-syriac.fina] <anchor 735 -180> mark @_b.U0331;
+    pos mark e-syriac.init <anchor 405 -150> mark @_b.U0331;
+    pos mark [e-syriac.medi gamal-syriac.init] <anchor 405 -165> mark @_b.U0331;
+    pos mark gamal-syriac <anchor 765 -180> mark @_b.U0331;
+    pos mark gamal-syriac.fina <anchor 585 -150> mark @_b.U0331;
+    pos mark gamal-syriac.medi <anchor 300 -135> mark @_b.U0331;
+    pos mark gamalgarshuni-syriac <anchor 645 -150> mark @_b.U0331;
+    pos mark [gamalgarshuni-syriac.fina qaph-syriac.medi semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi] <anchor 540 -150> mark @_b.U0331;
+    pos mark gamalgarshuni-syriac.init <anchor 360 -135> mark @_b.U0331;
+    pos mark gamalgarshuni-syriac.medi <anchor 270 -165> mark @_b.U0331;
+    pos mark [he-syriac he-syriac.fina] <anchor 450 -150> mark @_b.U0331;
+    pos mark heth-syriac <anchor 765 -165> mark @_b.U0331;
+    pos mark heth-syriac.fina <anchor 726 -165> mark @_b.U0331;
+    pos mark [heth-syriac.init taw-syriac.fina] <anchor 420 -150> mark @_b.U0331;
+    pos mark heth-syriac.medi <anchor 420 -165> mark @_b.U0331;
+    pos mark kaph-syriac <anchor 392 -210> mark @_b.U0331;
+    pos mark kaph-syriac.fina <anchor 285 -300> mark @_b.U0331;
+    pos mark kaph-syriac.init <anchor 480 -165> mark @_b.U0331;
+    pos mark kaph-syriac.medi <anchor 465 -180> mark @_b.U0331;
+    pos mark kashida-ar <anchor 180 -195> mark @_b.U0331;
+    pos mark [lamadh-syriac shin-syriac.fina] <anchor 735 -150> mark @_b.U0331;
+    pos mark lamadh-syriac.fina <anchor 750 -165> mark @_b.U0331;
+    pos mark lamadh-syriac.init <anchor 495 -135> mark @_b.U0331;
+    pos mark lamadh-syriac.medi <anchor 480 -150> mark @_b.U0331;
+    pos mark mim-syriac <anchor 602 -150> mark @_b.U0331;
+    pos mark mim-syriac.fina <anchor 615 -150> mark @_b.U0331;
+    pos mark mim-syriac.init <anchor 540 -135> mark @_b.U0331;
+    pos mark mim-syriac.medi <anchor 585 -135> mark @_b.U0331;
+    pos mark nun-syriac <anchor 263 -150> mark @_b.U0331;
+    pos mark nun-syriac.fina <anchor 290 -615> mark @_b.U0331;
+    pos mark nun-syriac.init <anchor 375 -150> mark @_b.U0331;
+    pos mark pe-syriac <anchor 780 -135> mark @_b.U0331;
+    pos mark pe-syriac.fina <anchor 765 -135> mark @_b.U0331;
+    pos mark pe-syriac.init <anchor 510 -135> mark @_b.U0331;
+    pos mark pe-syriac.medi <anchor 510 -165> mark @_b.U0331;
+    pos mark [qaph-syriac qaph-syriac.fina] <anchor 765 -150> mark @_b.U0331;
+    pos mark [reversedpe-syriac reversedpe-syriac.fina] <anchor 720 -195> mark @_b.U0331;
+    pos mark [reversedpe-syriac.init reversedpe-syriac.medi] <anchor 555 -210> mark @_b.U0331;
+    pos mark rish-syriac <anchor 310 -150> mark @_b.U0331;
+    pos mark rish-syriac.fina <anchor 310 -135> mark @_b.U0331;
+    pos mark sadhe-syriac <anchor 435 -615> mark @_b.U0331;
+    pos mark sadhe-syriac.fina <anchor 540 -585> mark @_b.U0331;
+    pos mark semkath-syriac <anchor 726 -150> mark @_b.U0331;
+    pos mark semkath-syriac.fina <anchor 758 -150> mark @_b.U0331;
+    pos mark semkathFinal-syriac <anchor 728 -210> mark @_b.U0331;
+    pos mark semkathFinal-syriac.fina <anchor 765 -195> mark @_b.U0331;
+    pos mark shin-syriac <anchor 720 -150> mark @_b.U0331;
+    pos mark [shin-syriac.init waw-syriac.fina] <anchor 465 -135> mark @_b.U0331;
+    pos mark shin-syriac.medi <anchor 465 -165> mark @_b.U0331;
+    pos mark taw-syriac <anchor 435 -135> mark @_b.U0331;
+    pos mark teth-syriac <anchor 690 -180> mark @_b.U0331;
+    pos mark teth-syriac.fina <anchor 705 -180> mark @_b.U0331;
+    pos mark teth-syriac.init <anchor 375 -225> mark @_b.U0331;
+    pos mark teth-syriac.medi <anchor 420 -210> mark @_b.U0331;
+    pos mark tethGarshuni-syriac <anchor 660 -210> mark @_b.U0331;
+    pos mark tethGarshuni-syriac.fina <anchor 780 -210> mark @_b.U0331;
+    pos mark tethGarshuni-syriac.init <anchor 420 -225> mark @_b.U0331;
+    pos mark tethGarshuni-syriac.medi <anchor 360 -225> mark @_b.U0331;
+    pos mark waw-syriac <anchor 450 -135> mark @_b.U0331;
+    pos mark yudh-syriac <anchor 501 -165> mark @_b.U0331;
+    pos mark yudh-syriac.fina <anchor 531 -150> mark @_b.U0331;
+    pos mark yudh-syriac.init <anchor 360 -150> mark @_b.U0331;
+    pos mark yudh-syriac.medi <anchor 285 -150> mark @_b.U0331;
+    pos mark [yudhhe-syriac yudhhe-syriac.fina] <anchor 1290 -195> mark @_b.U0331;
+    pos mark zain-syriac <anchor 345 -345> mark @_b.U0331;
+    pos mark zain-syriac.fina <anchor 345 -330> mark @_b.U0331;
+    # below
+    #	pos base @b.U0325_3    mark @_b.U0325_3; # below
+} LBelowMarkToMark;
+
+#********************
+# Base positioning (kerning) 
+#**********************************
+feature kern {
+    # Kerning
+    lookup kern_dalath_sadhe_nun;
+    lookup kern_nun2;
+} kern;
+
+#********************
+# Mark-to-base positioning
+# Attach marks last, so they get positioned correctly on glyphs that have been shifted up.
+feature mark {
+    lookup LMarkOnBase;
+    lookup LMarkFeminineDot;
+    lookup LMarkOnLigaEast;
+} mark;
+
+feature mkmk {
+    lookup LAboveMarkToMark;
+    lookup LBelowMarkToMark;
+} mkmk;

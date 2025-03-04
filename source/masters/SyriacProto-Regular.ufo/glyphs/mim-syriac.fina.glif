@@ -9,8 +9,8 @@
   <outline>
     <component base="mim-syriac" xOffset="30"/>
     <contour>
-      <point x="900" y="195" type="line"/>
-      <point x="903" y="0" type="line"/>
+      <point x="870" y="195" type="line"/>
+      <point x="873" y="0" type="line"/>
       <point x="1043" y="0" type="line"/>
       <point x="1043" y="195" type="line"/>
     </contour>

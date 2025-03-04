@@ -4,12 +4,22 @@
 <dict>
   <key>_LeftTail</key>
   <string>_L_eftT_ail.glif</string>
+  <key>_LrgSquareDot</key>
+  <string>_L_rgS_quareD_ot.glif</string>
   <key>_beth</key>
   <string>_beth.glif</string>
+  <key>_heth-init</key>
+  <string>_heth-init.glif</string>
+  <key>_heth-med</key>
+  <string>_heth-med.glif</string>
   <key>_qaph</key>
   <string>_qaph.glif</string>
+  <key>_semkath</key>
+  <string>_semkath.glif</string>
   <key>_shin</key>
   <string>_shin.glif</string>
+  <key>_yudh-med</key>
+  <string>_yudh-med.glif</string>
   <key>abbreviation-syriac</key>
   <string>abbreviation-syriac.glif</string>
   <key>alaph-syriac</key>

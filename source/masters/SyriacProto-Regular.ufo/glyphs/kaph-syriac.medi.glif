@@ -1,52 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaph-syriac.medi" format="2">
-  <advance width="844"/>
+  <advance width="889"/>
   <anchor x="450" y="-135" name="b.U0325_3"/>
   <anchor x="465" y="-180" name="b.U0331_2"/>
   <anchor x="450" y="-150" name="b.U0740"/>
   <anchor x="450" y="735" name="m.U030a_1"/>
   <anchor x="435" y="750" name="t.U0656"/>
   <outline>
+    <component base="kaph-syriac.init"/>
     <contour>
-      <point x="0" y="0" type="line"/>
-      <point x="767" y="0" type="line"/>
-      <point x="796" y="46" type="line"/>
-      <point x="810" y="0" type="line"/>
-      <point x="844" y="0" type="line"/>
-      <point x="844" y="195" type="line"/>
-      <point x="818" y="195" type="line"/>
-      <point x="806" y="301"/>
-      <point x="758" y="394"/>
-      <point x="674" y="475" type="curve" smooth="yes"/>
-      <point x="579" y="566"/>
-      <point x="495" y="612"/>
-      <point x="420" y="612" type="curve" smooth="yes"/>
-      <point x="357" y="612"/>
-      <point x="306" y="564"/>
-      <point x="267" y="468" type="curve" smooth="yes"/>
-      <point x="237" y="395"/>
-      <point x="222" y="347"/>
-      <point x="222" y="324" type="curve" smooth="yes"/>
-      <point x="222" y="309"/>
-      <point x="229" y="301"/>
-      <point x="243" y="301" type="curve" smooth="yes"/>
-      <point x="246" y="301"/>
-      <point x="256" y="309"/>
-      <point x="273" y="326" type="curve" smooth="yes"/>
-      <point x="321" y="374" type="line"/>
-      <point x="342" y="392"/>
-      <point x="366" y="401"/>
-      <point x="393" y="401" type="curve" smooth="yes"/>
-      <point x="441" y="401"/>
-      <point x="491" y="373"/>
-      <point x="542" y="318" type="curve" smooth="yes"/>
-      <point x="589" y="267"/>
-      <point x="612" y="232"/>
-      <point x="611" y="214" type="curve" smooth="yes"/>
-      <point x="610" y="201"/>
-      <point x="602" y="195"/>
-      <point x="587" y="195" type="curve" smooth="yes"/>
-      <point x="0" y="195" type="line"/>
+      <point x="769" y="195" type="line"/>
+      <point x="769" y="65"/>
+      <point x="803" y="0"/>
+      <point x="888" y="0" type="curve" smooth="yes"/>
+      <point x="909" y="0" type="line"/>
+      <point x="909" y="195" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
 </glyph>

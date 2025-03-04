@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hbasaEsasadotted-syriac" format="2">
+  <outline>
+    <contour>
+      <point x="74" y="-243" type="curve" smooth="yes"/>
+      <point x="93" y="-243"/>
+      <point x="108" y="-229"/>
+      <point x="119" y="-201" type="curve" smooth="yes"/>
+      <point x="128" y="-179"/>
+      <point x="133" y="-157"/>
+      <point x="133" y="-135" type="curve" smooth="yes"/>
+      <point x="133" y="-117"/>
+      <point x="129" y="-96"/>
+      <point x="120" y="-72" type="curve" smooth="yes"/>
+      <point x="109" y="-43"/>
+      <point x="96" y="-29"/>
+      <point x="81" y="-29" type="curve" smooth="yes"/>
+      <point x="62" y="-29"/>
+      <point x="46" y="-44"/>
+      <point x="34" y="-73" type="curve" smooth="yes"/>
+      <point x="25" y="-96"/>
+      <point x="20" y="-118"/>
+      <point x="20" y="-141" type="curve" smooth="yes"/>
+      <point x="20" y="-160"/>
+      <point x="24" y="-181"/>
+      <point x="33" y="-202" type="curve" smooth="yes"/>
+      <point x="44" y="-229"/>
+      <point x="58" y="-243"/>
+    </contour>
+  </outline>
+</glyph>

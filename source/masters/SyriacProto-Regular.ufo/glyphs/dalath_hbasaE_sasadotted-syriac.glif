@@ -1,76 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalath_hbasaEsasadotted-syriac" format="2">
-  <advance width="709"/>
+  <advance width="723"/>
   <anchor x="300" y="-390" name="b.U0325_3"/>
   <anchor x="315" y="-390" name="b.U0331_2"/>
   <anchor x="0" y="0" name="b.U0740"/>
   <anchor x="285" y="705" name="m.U030a_1"/>
   <anchor x="360" y="720" name="t.U0656"/>
   <outline>
-    <contour>
-      <point x="149" y="0" type="line"/>
-      <point x="635" y="0" type="line"/>
-      <point x="665" y="47"/>
-      <point x="680" y="103"/>
-      <point x="680" y="169" type="curve" smooth="yes"/>
-      <point x="680" y="293"/>
-      <point x="649" y="395"/>
-      <point x="586" y="476" type="curve" smooth="yes"/>
-      <point x="516" y="567"/>
-      <point x="418" y="612"/>
-      <point x="293" y="612" type="curve" smooth="yes"/>
-      <point x="216" y="612"/>
-      <point x="149" y="580"/>
-      <point x="149" y="531" type="curve" smooth="yes"/>
-      <point x="149" y="347" type="line" smooth="yes"/>
-      <point x="149" y="330"/>
-      <point x="156" y="322"/>
-      <point x="171" y="322" type="curve" smooth="yes"/>
-      <point x="174" y="322"/>
-      <point x="188" y="338"/>
-      <point x="211" y="370" type="curve" smooth="yes"/>
-      <point x="234" y="402"/>
-      <point x="261" y="418"/>
-      <point x="293" y="418" type="curve" smooth="yes"/>
-      <point x="357" y="418"/>
-      <point x="407" y="394"/>
-      <point x="442" y="346" type="curve" smooth="yes"/>
-      <point x="473" y="305"/>
-      <point x="489" y="254"/>
-      <point x="489" y="195" type="curve"/>
-      <point x="149" y="195" type="line"/>
-    </contour>
-    <contour>
-      <point x="214" y="-276" type="line"/>
-      <point x="409" y="-276" type="line"/>
-      <point x="409" y="-81" type="line"/>
-      <point x="214" y="-81" type="line"/>
-    </contour>
-    <contour>
-      <point x="553" y="-327" type="curve" smooth="yes"/>
-      <point x="572" y="-327"/>
-      <point x="587" y="-313"/>
-      <point x="598" y="-285" type="curve" smooth="yes"/>
-      <point x="607" y="-263"/>
-      <point x="612" y="-241"/>
-      <point x="612" y="-219" type="curve" smooth="yes"/>
-      <point x="612" y="-201"/>
-      <point x="608" y="-180"/>
-      <point x="599" y="-156" type="curve" smooth="yes"/>
-      <point x="588" y="-127"/>
-      <point x="575" y="-113"/>
-      <point x="560" y="-113" type="curve" smooth="yes"/>
-      <point x="541" y="-113"/>
-      <point x="525" y="-128"/>
-      <point x="513" y="-157" type="curve" smooth="yes"/>
-      <point x="504" y="-180"/>
-      <point x="499" y="-202"/>
-      <point x="499" y="-225" type="curve" smooth="yes"/>
-      <point x="499" y="-244"/>
-      <point x="504" y="-265"/>
-      <point x="513" y="-286" type="curve" smooth="yes"/>
-      <point x="524" y="-313"/>
-      <point x="537" y="-327"/>
-    </contour>
+    <component base="_LrgSquareDot"/>
+    <component base="dalathrishDotless-syriac"/>
+    <component base="rwaha-syriac" xOffset="467" yOffset="-335"/>
   </outline>
 </glyph>

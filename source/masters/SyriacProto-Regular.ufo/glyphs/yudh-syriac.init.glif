@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yudh-syriac.init" format="2">
-  <advance width="660"/>
+  <advance width="745"/>
   <anchor x="345" y="-165" name="b.U0325_3"/>
   <anchor x="360" y="-150" name="b.U0331_2"/>
   <anchor x="330" y="-150" name="b.U0740"/>
   <anchor x="345" y="540" name="m.U030a_1"/>
   <anchor x="330" y="570" name="t.U0656"/>
   <outline>
+    <component base="_heth-init" xOffset="161"/>
     <contour>
-      <point x="616" y="-12" type="curve"/>
-      <point x="618" y="5"/>
-      <point x="619" y="29"/>
-      <point x="619" y="60" type="curve" smooth="yes"/>
-      <point x="619" y="130"/>
-      <point x="600" y="180"/>
-      <point x="563" y="210" type="curve" smooth="yes"/>
-      <point x="424" y="320" type="line" smooth="yes"/>
-      <point x="357" y="376"/>
-      <point x="320" y="415"/>
-      <point x="313" y="436" type="curve"/>
-      <point x="287" y="195" type="line"/>
-      <point x="0" y="195" type="line"/>
-      <point x="0" y="0" type="line"/>
-      <point x="334" y="0" type="line" smooth="yes"/>
-      <point x="369" y="0"/>
-      <point x="386" y="21"/>
-      <point x="386" y="64" type="curve" smooth="yes"/>
-      <point x="386" y="91"/>
-      <point x="385" y="113"/>
-      <point x="383" y="131" type="curve"/>
-      <point x="473" y="46"/>
-      <point x="551" y="-1"/>
+      <point x="397" y="195" type="curve"/>
+      <point x="-20" y="195" type="line"/>
+      <point x="-20" y="0" type="line"/>
+      <point x="278" y="0" type="line" smooth="yes"/>
+      <point x="363" y="0"/>
+      <point x="397" y="65"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
 </glyph>

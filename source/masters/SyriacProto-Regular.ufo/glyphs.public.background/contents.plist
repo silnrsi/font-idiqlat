@@ -4,30 +4,80 @@
 <dict>
   <key>_LeftTail</key>
   <string>_L_eftT_ail.glif</string>
+  <key>_LrgSquareDot</key>
+  <string>_L_rgS_quareD_ot.glif</string>
   <key>_beth</key>
   <string>_beth.glif</string>
+  <key>_heth-init</key>
+  <string>_heth-init.glif</string>
+  <key>_heth-med</key>
+  <string>_heth-med.glif</string>
   <key>_qaph</key>
   <string>_qaph.glif</string>
+  <key>_semkath</key>
+  <string>_semkath.glif</string>
   <key>_shin</key>
   <string>_shin.glif</string>
+  <key>_yudh-med</key>
+  <string>_yudh-med.glif</string>
+  <key>alaph-syriac.ccmp</key>
+  <string>alaph-syriac.ccmp.glif</string>
   <key>beth-syriac</key>
   <string>beth-syriac.glif</string>
+  <key>dalath-syriac.fina</key>
+  <string>dalath-syriac.fina.glif</string>
+  <key>dalath_hbasaEsasadotted-syriac</key>
+  <string>dalath_hbasaE_sasadotted-syriac.glif</string>
+  <key>dalath_hbasaEsasadotted-syriac.fina</key>
+  <string>dalath_hbasaE_sasadotted-syriac.fina.glif</string>
+  <key>dalathrishDotless-syriac</key>
+  <string>dalathrishD_otless-syriac.glif</string>
+  <key>dalathrishDotless-syriac.fina</key>
+  <string>dalathrishD_otless-syriac.fina.glif</string>
+  <key>dotaboveleftcomb</key>
+  <string>dotaboveleftcomb.glif</string>
+  <key>dotbelowleftcomb</key>
+  <string>dotbelowleftcomb.glif</string>
+  <key>hbasaEsasadotted-syriac</key>
+  <string>hbasaE_sasadotted-syriac.glif</string>
   <key>he-syriac</key>
   <string>he-syriac.glif</string>
   <key>he-syriac.fina</key>
   <string>he-syriac.fina.glif</string>
   <key>he_yudh-syriac</key>
   <string>he_yudh-syriac.glif</string>
+  <key>heth-syriac</key>
+  <string>heth-syriac.glif</string>
+  <key>heth-syriac.fina</key>
+  <string>heth-syriac.fina.glif</string>
+  <key>heth-syriac.init</key>
+  <string>heth-syriac.init.glif</string>
+  <key>heth-syriac.medi</key>
+  <string>heth-syriac.medi.glif</string>
+  <key>kaph-syriac</key>
+  <string>kaph-syriac.glif</string>
+  <key>kaph-syriac.fina</key>
+  <string>kaph-syriac.fina.glif</string>
+  <key>kaph-syriac.init</key>
+  <string>kaph-syriac.init.glif</string>
+  <key>kaph-syriac.medi</key>
+  <string>kaph-syriac.medi.glif</string>
   <key>mim-syriac</key>
   <string>mim-syriac.glif</string>
   <key>mim-syriac.fina</key>
   <string>mim-syriac.fina.glif</string>
   <key>mim-syriac.init</key>
   <string>mim-syriac.init.glif</string>
+  <key>nun-syriac</key>
+  <string>nun-syriac.glif</string>
+  <key>nun-syriac.fina</key>
+  <string>nun-syriac.fina.glif</string>
   <key>nun-syriac.init</key>
   <string>nun-syriac.init.glif</string>
   <key>nun-syriac.medi</key>
   <string>nun-syriac.medi.glif</string>
+  <key>pthahadotted-syriac</key>
+  <string>pthahadotted-syriac.glif</string>
   <key>qaph-syriac</key>
   <string>qaph-syriac.glif</string>
   <key>qaph-syriac.fina</key>
@@ -36,6 +86,28 @@
   <string>qaph-syriac.init.glif</string>
   <key>qaph-syriac.medi</key>
   <string>qaph-syriac.medi.glif</string>
+  <key>rish-syriac</key>
+  <string>rish-syriac.glif</string>
+  <key>rish-syriac.fina</key>
+  <string>rish-syriac.fina.glif</string>
+  <key>rish_dieresiscomb-syriac</key>
+  <string>rish_dieresiscomb-syriac.glif</string>
+  <key>rish_dieresiscomb-syriac.fina</key>
+  <string>rish_dieresiscomb-syriac.fina.glif</string>
+  <key>rukkakha-syriac</key>
+  <string>rukkakha-syriac.glif</string>
+  <key>rwaha-syriac</key>
+  <string>rwaha-syriac.glif</string>
+  <key>semkath-syriac</key>
+  <string>semkath-syriac.glif</string>
+  <key>semkath-syriac.fina</key>
+  <string>semkath-syriac.fina.glif</string>
+  <key>semkath-syriac.init</key>
+  <string>semkath-syriac.init.glif</string>
+  <key>semkath-syriac.medi</key>
+  <string>semkath-syriac.medi.glif</string>
+  <key>semkathFinal-syriac</key>
+  <string>semkathF_inal-syriac.glif</string>
   <key>shin-syriac</key>
   <string>shin-syriac.glif</string>
   <key>shin-syriac.init</key>
@@ -46,5 +118,21 @@
   <string>waw-syriac.glif</string>
   <key>waw-syriac.fina</key>
   <string>waw-syriac.fina.glif</string>
+  <key>yudh-syriac</key>
+  <string>yudh-syriac.glif</string>
+  <key>yudh-syriac.fina</key>
+  <string>yudh-syriac.fina.glif</string>
+  <key>yudh-syriac.init</key>
+  <string>yudh-syriac.init.glif</string>
+  <key>yudh-syriac.medi</key>
+  <string>yudh-syriac.medi.glif</string>
+  <key>yudhhe-syriac</key>
+  <string>yudhhe-syriac.glif</string>
+  <key>yudhhe-syriac.fina</key>
+  <string>yudhhe-syriac.fina.glif</string>
+  <key>zain-syriac</key>
+  <string>zain-syriac.glif</string>
+  <key>zain-syriac.fina</key>
+  <string>zain-syriac.fina.glif</string>
 </dict>
 </plist>

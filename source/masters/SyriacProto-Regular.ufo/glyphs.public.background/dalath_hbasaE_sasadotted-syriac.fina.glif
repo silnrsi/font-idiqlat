@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dalath_hbasaEsasadotted-syriac.fina" format="2">
+  <outline>
+    <contour>
+      <point x="170" y="-276" type="line"/>
+      <point x="364" y="-276" type="line"/>
+      <point x="364" y="-81" type="line"/>
+      <point x="170" y="-81" type="line"/>
+    </contour>
+    <contour>
+      <point x="513" y="-327" type="curve" smooth="yes"/>
+      <point x="532" y="-327"/>
+      <point x="547" y="-313"/>
+      <point x="558" y="-285" type="curve" smooth="yes"/>
+      <point x="567" y="-263"/>
+      <point x="572" y="-241"/>
+      <point x="572" y="-219" type="curve" smooth="yes"/>
+      <point x="572" y="-201"/>
+      <point x="568" y="-180"/>
+      <point x="559" y="-156" type="curve" smooth="yes"/>
+      <point x="548" y="-127"/>
+      <point x="536" y="-113"/>
+      <point x="521" y="-113" type="curve" smooth="yes"/>
+      <point x="501" y="-113"/>
+      <point x="485" y="-128"/>
+      <point x="474" y="-157" type="curve" smooth="yes"/>
+      <point x="465" y="-180"/>
+      <point x="460" y="-202"/>
+      <point x="460" y="-225" type="curve" smooth="yes"/>
+      <point x="460" y="-244"/>
+      <point x="464" y="-265"/>
+      <point x="473" y="-286" type="curve" smooth="yes"/>
+      <point x="484" y="-313"/>
+      <point x="497" y="-327"/>
+    </contour>
+  </outline>
+</glyph>

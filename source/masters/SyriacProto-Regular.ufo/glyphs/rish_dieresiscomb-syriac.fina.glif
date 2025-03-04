@@ -1,56 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rish_dieresiscomb-syriac.fina" format="2">
-  <advance width="729"/>
-  <anchor x="405" y="-120" name="b.U0325_3_2_ligComponent_1"/>
-  <anchor x="405" y="-135" name="b.U0325_3_2_ligComponent_2"/>
-  <anchor x="390" y="-210" name="b.U0331_2_2_ligComponent_1"/>
-  <anchor x="390" y="-165" name="b.U0331_2_2_ligComponent_2"/>
-  <anchor x="330" y="1020" name="m.U030a_1_2_ligComponent_1"/>
-  <anchor x="345" y="975" name="m.U030a_1_2_ligComponent_2"/>
-  <anchor x="360" y="1035" name="m.U0656_ligComponent_1"/>
-  <anchor x="360" y="1020" name="m.U0656_ligComponent_2"/>
+  <advance width="699"/>
+  <anchor x="355" y="-120" name="b.U0325_3_2_ligComponent_1"/>
+  <anchor x="355" y="-135" name="b.U0325_3_2_ligComponent_2"/>
+  <anchor x="340" y="-210" name="b.U0331_2_2_ligComponent_1"/>
+  <anchor x="340" y="-165" name="b.U0331_2_2_ligComponent_2"/>
+  <anchor x="280" y="1020" name="m.U030a_1_2_ligComponent_1"/>
+  <anchor x="295" y="975" name="m.U030a_1_2_ligComponent_2"/>
+  <anchor x="310" y="1035" name="m.U0656_ligComponent_1"/>
+  <anchor x="310" y="1020" name="m.U0656_ligComponent_2"/>
   <outline>
+    <component base="dalathrishDotless-syriac"/>
+    <component base="_LrgSquareDot" xOffset="-116" yOffset="990"/>
+    <component base="_LrgSquareDot" xOffset="175" yOffset="990"/>
     <contour>
-      <point x="151" y="0" type="line"/>
-      <point x="627" y="0" type="line"/>
-      <point x="655" y="57" type="line"/>
-      <point x="669" y="0" type="line"/>
-      <point x="729" y="0" type="line"/>
-      <point x="729" y="195" type="line"/>
-      <point x="668" y="195" type="line"/>
-      <point x="672" y="484"/>
-      <point x="552" y="612"/>
-      <point x="295" y="612" type="curve" smooth="yes"/>
-      <point x="218" y="612"/>
-      <point x="151" y="580"/>
-      <point x="151" y="531" type="curve" smooth="yes"/>
-      <point x="151" y="347" type="line" smooth="yes"/>
-      <point x="151" y="330"/>
-      <point x="158" y="322"/>
-      <point x="173" y="322" type="curve" smooth="yes"/>
-      <point x="177" y="322"/>
-      <point x="191" y="337"/>
-      <point x="214" y="367" type="curve" smooth="yes"/>
-      <point x="237" y="397"/>
-      <point x="264" y="414"/>
-      <point x="295" y="418" type="curve"/>
-      <point x="325" y="419" type="line" smooth="yes"/>
-      <point x="436" y="419"/>
-      <point x="491" y="344"/>
-      <point x="491" y="195" type="curve"/>
-      <point x="151" y="195" type="line"/>
-    </contour>
-    <contour>
-      <point x="151" y="714" type="line"/>
-      <point x="345" y="714" type="line"/>
-      <point x="345" y="909" type="line"/>
-      <point x="151" y="909" type="line"/>
-    </contour>
-    <contour>
-      <point x="441" y="714" type="line"/>
-      <point x="636" y="714" type="line"/>
-      <point x="636" y="909" type="line"/>
-      <point x="441" y="909" type="line"/>
+      <point x="579" y="195" type="line"/>
+      <point x="579" y="65"/>
+      <point x="613" y="0"/>
+      <point x="698" y="0" type="curve" smooth="yes"/>
+      <point x="719" y="0" type="line"/>
+      <point x="719" y="195" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCCP</string>
+    </dict>
+  </lib>
 </glyph>

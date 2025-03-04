@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yudh-syriac.fina" format="2">
+  <outline>
+    <contour>
+      <point x="300" y="0" type="curve" smooth="yes"/>
+      <point x="492" y="0" type="line" smooth="yes"/>
+      <point x="527" y="0"/>
+      <point x="544" y="21"/>
+      <point x="544" y="64" type="curve" smooth="yes"/>
+      <point x="544" y="91"/>
+      <point x="543" y="113"/>
+      <point x="541" y="131" type="curve"/>
+      <point x="634" y="44"/>
+      <point x="719" y="0"/>
+      <point x="795" y="0" type="curve" smooth="yes"/>
+      <point x="860" y="0" type="line"/>
+      <point x="860" y="195" type="line"/>
+      <point x="835" y="195" type="line" smooth="yes"/>
+      <point x="794" y="195"/>
+      <point x="764" y="199"/>
+      <point x="744" y="207" type="curve" smooth="yes"/>
+      <point x="717" y="218"/>
+      <point x="675" y="246"/>
+      <point x="617" y="292" type="curve" smooth="yes"/>
+      <point x="527" y="363"/>
+      <point x="478" y="411"/>
+      <point x="471" y="436" type="curve"/>
+      <point x="445" y="195" type="line"/>
+      <point x="300" y="195" type="line" smooth="yes"/>
+      <point x="262" y="195"/>
+      <point x="226" y="211"/>
+      <point x="191" y="242" type="curve" smooth="yes"/>
+      <point x="175" y="256"/>
+      <point x="163" y="279"/>
+      <point x="154" y="312" type="curve" smooth="yes"/>
+      <point x="147" y="339"/>
+      <point x="140" y="352"/>
+      <point x="133" y="352" type="curve" smooth="yes"/>
+      <point x="122" y="352"/>
+      <point x="113" y="332"/>
+      <point x="106" y="291" type="curve" smooth="yes"/>
+      <point x="101" y="262"/>
+      <point x="98" y="237"/>
+      <point x="98" y="217" type="curve" smooth="yes"/>
+      <point x="98" y="139"/>
+      <point x="112" y="84"/>
+      <point x="140" y="52" type="curve" smooth="yes"/>
+      <point x="170" y="17"/>
+      <point x="223" y="0"/>
+    </contour>
+  </outline>
+</glyph>
