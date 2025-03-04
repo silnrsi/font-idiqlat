@@ -90,6 +90,18 @@ lookup GPreDecompose {
     sub pthahadotted-syriac by hbasaEsasadotted-syriac rwaha-syriac;
 } GPreDecompose ;
 
+lookup Seyame {
+    sub rish-syriac by dalathrishDotless-syriac ;
+} Seyame ;
+
+lookup ccmp_syrc_zz02_syrczz01_1 {
+# GSUB lookup 2, type 16 (Chaining Context)
+  sub rish-syriac' lookup Seyame dieresiscomb zlamadottedhorizontal-syriac;
+  sub rish-syriac' lookup Seyame dieresiscomb zlamadottedangular-syriac;
+  sub rish-syriac' lookup Seyame zlamadottedhorizontal-syriac dieresiscomb;
+  sub rish-syriac' lookup Seyame zlamadottedangular-syriac dieresiscomb;
+} ccmp_syrc_zz02_syrczz01_1;
+
 # maybe rename alaph-syriac.ccmp
 lookup r1 {
     sub alaph-syriac lamadh-syriac' @TypeMark' @TypeMark' by alaph-syriac.ccmp ;
@@ -189,6 +201,7 @@ feature ccmp {  # Glyph Composition/Decomposition
 #        lookup LatinPunctuation;
     script syrc;
         lookup GPreDecompose;
+        lookup ccmp_syrc_zz02_syrczz01_1;
         lookup r1;
         lookup r2;
         lookup RukkakhaSquare;
@@ -254,7 +267,13 @@ feature med2 {  # Medial Forms
 
 # HB PAUSE
 
-#---  calt feature (pass 9) not used ---
+#---  calt feature (pass 9)  ---
+
+# These don't seem to be in this font
+# feature calt {  
+#    script syrc;
+#        lookup AlternateFinals;
+# } calt ;
 
 # HB PAUSE
 

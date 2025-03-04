@@ -86,6 +86,10 @@
 
   </testgroup>
   <testgroup label="Ligatures">
+    <test label="U+0715 U+0742">
+      <comment>dalath rukkakha</comment>
+      <string>\u0715\u0742 \u0712\u0715\u0742</string>
+    </test>
     <test label="U+0717 U+071D">
       <comment>he yudh</comment>
       <string>\u0717\u071D \u0712\u0717\u071D</string>
@@ -93,6 +97,10 @@
     <test label="U+0720 U+0710">
       <comment>lamadh alaph</comment>
       <string>\u0720\u0710 \u0712\u0720\u0710</string>
+    </test>
+    <test label="U+0726 U+032E">
+      <comment>pe breve below</comment>
+      <string>\u0726\u032E \u0726\u032E\u0722 \u0722\u0726\u032E\u0722 \u0712\u0726\u032E</string>
     </test>
     <test label="U+0728 U+0722">
       <comment>sadhe nun</comment>
@@ -110,5 +118,11 @@
       <comment>taw yudh</comment>
       <string>\u072C\u071D \u0712\u072C\u071D</string>
     </test>
+    <test label="U+072a U+0739 U+0308 U+072A U+0738 U+0308">
+      <comment>taw yudh</comment>
+      <string>\u072a\u0739\u0308\u072A\u0738\u0308</string>
+    </test>
+
+
   </testgroup>
 </ftml>
