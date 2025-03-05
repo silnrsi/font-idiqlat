@@ -45,18 +45,24 @@ lookup kern_nun2 { # FKrern: Nun in VOLT
 
 lookup LMarkOnBase {
 	lookupflag 0;
-	pos base @t.U0656    mark @_t.U0656; # top
+	pos base @t.U0656      mark @_t.U0656; # top diaA beth
+	pos base @m.U030a_1    mark @_m.U030a_1; # top beth 030a 0741
+	pos base @b.U0325_3    mark @_b.U0325_3; # below 0325 0742
+	pos base @b.U0331_2    mark @_b.U0331_2; # below diaB
+	pos base @b.U0740      mark @_b.U0740; # below
 #	pos base @t.U0656_2    mark @_t.U0656_2; # top
-	pos base @m.U030a_1    mark @_m.U030a_1; # top
-#	pos base @m.U0656    mark @_m.U0656; # top
-	pos base @b.U0331_2    mark @_b.U0331_2; # below
-	pos base @b.U0325_3    mark @_b.U0325_3; # below
+#	pos base @m.U030a_1_2  mark @_m.U030a_1_2; # top
+#	pos base @m.U0656      mark @_m.U0656; # top
+#	pos base @b.U0325_3_2  mark @_b.U0325_3_2; # below
+#	pos base @b.U0331      mark @_b.U0331; # below
+#	pos base @b.U0331_2_2  mark @_b.U0331_2_2; # below
 } LMarkOnBase;
 
-lookup LMarkFeminineDot {
-	lookupflag 0;
-	pos base @b.U0740    mark @_b.U0740; # below
-} LMarkFeminineDot;
+
+# lookup LMarkFeminineDot {
+#	lookupflag 0;
+#	pos base @b.U0740    mark @_b.U0740; # below
+# } LMarkFeminineDot;
 
 lookup LMarkOnLigaEast { # needs work!
 	lookupflag 0;
@@ -98,7 +104,7 @@ feature kern {  # Kerning
 
 feature mark {
 	lookup LMarkOnBase;
-	lookup LMarkFeminineDot;
+#	lookup LMarkFeminineDot;
 	lookup LMarkOnLigaEast;
 } mark;
 

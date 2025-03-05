@@ -112,7 +112,7 @@
     </test>
     <test label="U+072C U+0710">
       <comment>taw alaph</comment>
-      <string>\u072C\u0710 \u0712\u072C\u0710</string>
+      <string>\u072C\u0710 \u0712\u072C\u0710 \u072C\u0710\u0031 \u0712\u072C\u0710\u0031</string>
     </test>
     <test label="U+072C U+071D">
       <comment>taw yudh</comment>

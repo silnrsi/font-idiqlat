@@ -94,28 +94,41 @@ lookup Seyame {
     sub rish-syriac by dalathrishDotless-syriac ;
 } Seyame ;
 
-lookup ccmp_syrc_zz02_syrczz01_1 {
+lookup SeyameChain {
 # GSUB lookup 2, type 16 (Chaining Context)
   sub rish-syriac' lookup Seyame dieresiscomb zlamadottedhorizontal-syriac;
   sub rish-syriac' lookup Seyame dieresiscomb zlamadottedangular-syriac;
   sub rish-syriac' lookup Seyame zlamadottedhorizontal-syriac dieresiscomb;
   sub rish-syriac' lookup Seyame zlamadottedangular-syriac dieresiscomb;
-} ccmp_syrc_zz02_syrczz01_1;
+} SeyameChain;
 
-# maybe rename alaph-syriac.ccmp
+lookup r1_1 {
+# GSUB lookup 18, type 11 (Single)
+  lookupflag 0;
+  sub alaph-syriac by alaph-syriac.ccmp;
+} r1_1;
+
 lookup r1 {
-    sub alaph-syriac lamadh-syriac' @TypeMark' @TypeMark' by alaph-syriac.ccmp ;
-    sub alaph-syriac lamadh-syriac' @TypeMark' by alaph-syriac.ccmp ;
-    sub alaph-syriac lamadh-syriac'  by alaph-syriac.ccmp ;
-} r1 ;
+# GSUB lookup 3, type 16 (Chaining Context)
+  lookupflag 0;
+  sub lamadh-syriac @TypeMark alaph-syriac' lookup r1_1;
+  sub lamadh-syriac @TypeMark @TypeMark alaph-syriac' lookup r1_1;
+  sub lamadh-syriac alaph-syriac' lookup r1_1;
+} r1;
 
-lookup r2 { # 073f not in font
-    sub alaph-syriac.ccmp @TypeMark' by alaph-syriac ;
-    sub alaph-syriac.ccmp yudh-syriac' by alaph-syriac ;
-    sub alaph-syriac.ccmp hbasaEsasadotted-syriac' by alaph-syriac ;
-    sub alaph-syriac.ccmp waw-syriac' by alaph-syriac ;
-#    sub alaph-syriac.ccmp yrwaha-syriac' by alaph-syriac ;
-} r2 ;
+lookup r2_1 {
+# GSUB lookup 19, type 11 (Single)
+  lookupflag 0;
+  sub alaph-syriac.ccmp by alaph-syriac;
+} r2_1;
+
+
+lookup r2 {
+# GSUB lookup 4, type 16 (Chaining Context)
+  lookupflag 0;
+  sub alaph-syriac.ccmp' lookup r2_1 @TypeMark;
+} r2;
+
 
 # glyph for replacement seems poorly named except 073c and 0742 are similar
 lookup r3 { # 0715 0742
@@ -145,17 +158,18 @@ lookup ltrFinaESyOlaph {
     sub alaph-syriac  by  alaph-syriac.fina.alt3 ;
 } ltrFinaESyOlaph ;
 
-
+# does not seem to work
 lookup LEastOptLega2 { # 072C 0710 0031
-  lookupflag IgnoreMarks ;
-    sub taw-syriac.fina alaph-syriac.fina.alt2 one by taw_alaph-syriac.fina ;
-    sub taw-syriac.fina alaph-syriac one by taw_alaph-syriac.fina ;
-    sub taw-syriac alaph-syriac one by taw_alaph-syriac ;
-    sub taw-syriac alaph-syriac.fina.alt2 one by taw_alaph-syriac ;
-    sub taw-syriac.fina alaph-syriac.fina.alt2 two by taw_alaph-syriac.fina.alt ;
-    sub taw-syriac.fina alaph-syriac two by taw_alaph-syriac.fina.alt ;
-    sub taw-syriac alaph-syriac two by taw_alaph-syriac.alt ;
-} LEastOptLega2 ;
+# GSUB lookup 14, type 14 (Ligature)
+  lookupflag IgnoreMarks RightToLeft;
+    sub taw-syriac alaph-syriac one by taw_alaph-syriac;
+    sub taw-syriac alaph-syriac.fina.alt2 one by taw_alaph-syriac;
+    sub taw-syriac alaph-syriac two by taw_alaph-syriac.alt;
+    sub taw-syriac.fina alaph-syriac.fina.alt2 one by taw_alaph-syriac.fina;
+    sub taw-syriac.fina alaph-syriac one by taw_alaph-syriac.fina;
+    sub taw-syriac.fina alaph-syriac.fina.alt2 two by taw_alaph-syriac.fina.alt;
+    sub taw-syriac.fina alaph-syriac two by taw_alaph-syriac.fina.alt;
+} LEastOptLega2;
 
 lookup LEastOptLega { # 0728 0722
   lookupflag IgnoreMarks ;
@@ -201,7 +215,7 @@ feature ccmp {  # Glyph Composition/Decomposition
 #        lookup LatinPunctuation;
     script syrc;
         lookup GPreDecompose;
-        lookup ccmp_syrc_zz02_syrczz01_1;
+        lookup SeyameChain;
         lookup r1;
         lookup r2;
         lookup RukkakhaSquare;
@@ -291,8 +305,8 @@ feature liga {  # Ligatures  -- we use this because liga is done in the same pas
 
 # HB PAUSE
 #---  dlig feature (pass 10) ---
-feature dlig {  # Discretionary Ligatures not sure how to test
-    # Same for latin & syriac:
+feature dlig {  # Discretionary Ligatures LEastOptLega works, other doesn't
+    script syrc;
         lookup LEastOptLega2;
         lookup LEastOptLega;
 } dlig ;
