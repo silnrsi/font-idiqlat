@@ -76,17 +76,21 @@ lookup LMarkOnLigaEast { # needs work!
 	pos base @b.U0331_2_2_ligComponent_2    mark @_b.U0331_2; # bottom left
 } LMarkOnLigaEast;
 
-lookup LAboveMarkToMark { # needs work!
-	lookupflag 0;
-	pos mark @t.U0656    mark @_t.U0656; # above @t.U0656_2
-#	pos base @m.U030a_1    mark @_m.U030a_1; # above
-} LAboveMarkToMark;
+@allBottomMarks = [ @_b.U0331_2  @b.U0331_MarkBase ];
+@allTopMarks    = [ @_t.U0656      @t.U0656_2_MarkBase ];
 
-lookup LBelowMarkToMark { # needs work!
-	lookupflag 0;
-	pos mark @b.U0331_2    mark @_b.U0331; # below
-#	pos base @b.U0325_3    mark @_b.U0325_3; # below
-} LBelowMarkToMark;
+lookup attachTopMarkMark {
+	lookupflag UseMarkFilteringSet @allTopMarks;
+	pos mark @t.U0656_2_MarkBase    mark @_t.U0656;
+} attachTopMarkMark;
+
+lookup attachBottomMarkMark {
+	lookupflag UseMarkFilteringSet @allBottomMarks;
+	pos mark @b.U0331_MarkBase mark @_b.U0331_2;
+} attachBottomMarkMark;
+
+
+
 
 #********************
 # Base positioning (kerning) 
@@ -109,6 +113,6 @@ feature mark {
 } mark;
 
 feature mkmk {
-	lookup LAboveMarkToMark;
-	lookup LBelowMarkToMark;
+	lookup attachTopMarkMark;
+	lookup attachBottomMarkMark;
 } mkmk;
