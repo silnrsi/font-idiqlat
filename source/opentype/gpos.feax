@@ -43,20 +43,14 @@ lookup kern_nun2 { # FKrern: Nun in VOLT
     pos [alaph-syriac alaph-syriac.medi alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.fina.alt3] @kern_below nun-syriac' lookup kern_nun_1;
 } kern_nun2;
 
-lookup LMarkOnBase {
+lookup MarkToBase {
 	lookupflag 0;
 	pos base @t.U0656      mark @_t.U0656; # top diaA beth
 	pos base @m.U030a_1    mark @_m.U030a_1; # top beth 030a 0741
 	pos base @b.U0325_3    mark @_b.U0325_3; # below 0325 0742
 	pos base @b.U0331_2    mark @_b.U0331_2; # below diaB
 	pos base @b.U0740      mark @_b.U0740; # below
-#	pos base @t.U0656_2    mark @_t.U0656_2; # top
-#	pos base @m.U030a_1_2  mark @_m.U030a_1_2; # top
-#	pos base @m.U0656      mark @_m.U0656; # top
-#	pos base @b.U0325_3_2  mark @_b.U0325_3_2; # below
-#	pos base @b.U0331      mark @_b.U0331; # below
-#	pos base @b.U0331_2_2  mark @_b.U0331_2_2; # below
-} LMarkOnBase;
+} MarkToBase;
 
 
 # lookup LMarkFeminineDot {
@@ -76,18 +70,20 @@ lookup LMarkOnLigaEast { # needs work!
 	pos base @b.U0331_2_2_ligComponent_2    mark @_b.U0331_2; # bottom left
 } LMarkOnLigaEast;
 
-@allBottomMarks = [ @_b.U0331_2  @b.U0331_MarkBase ];
-@allTopMarks    = [ @_t.U0656      @t.U0656_2_MarkBase ];
+#********************
+# Mark-to-mark attachment
 
-lookup attachTopMarkMark {
-	lookupflag UseMarkFilteringSet @allTopMarks;
+@MarkFilter_top = [@t.U0656_2_MarkBase @_t.U0656];
+lookup MarkToMarkAbove {
+	lookupflag UseMarkFilteringSet @MarkFilter_top;
 	pos mark @t.U0656_2_MarkBase    mark @_t.U0656;
-} attachTopMarkMark;
+} MarkToMarkAbove;
 
-lookup attachBottomMarkMark {
-	lookupflag UseMarkFilteringSet @allBottomMarks;
+@MarkFilter_bottom = [@_b.U0331_2  @b.U0331_MarkBase];
+lookup MarkToMarkBelow {
+	lookupflag UseMarkFilteringSet @MarkFilter_bottom;
 	pos mark @b.U0331_MarkBase mark @_b.U0331_2;
-} attachBottomMarkMark;
+} MarkToMarkBelow;
 
 
 
@@ -106,13 +102,14 @@ feature kern {  # Kerning
 
 # Attach marks last, so they get positioned correctly on glyphs that have been shifted up.
 
-feature mark {
-	lookup LMarkOnBase;
-#	lookup LMarkFeminineDot;
-	lookup LMarkOnLigaEast;
-} mark;
+feature mark {  # Mark to base Positioning
+    # Same for latin & syriac:
+      lookup MarkToBase;
+      lookup LMarkOnLigaEast;
+} mark ;
 
-feature mkmk {
-	lookup attachTopMarkMark;
-	lookup attachBottomMarkMark;
-} mkmk;
+feature mkmk {  # Mark to mark Positioning
+    # Same for latin & syriac:
+      lookup MarkToMarkAbove;
+      lookup MarkToMarkBelow;
+} mkmk ;

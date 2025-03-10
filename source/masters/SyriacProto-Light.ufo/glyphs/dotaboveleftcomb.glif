@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotaboveleftcomb" format="2">
   <unicode hex="1DF8"/>
+  <anchor x="120" y="15" name="_m.U030a_1"/>
+  <anchor x="120" y="0" name="_m.U030a_1_2"/>
   <outline>
     <contour>
       <point x="83" y="5" type="curve" smooth="yes"/>

@@ -15,8 +15,8 @@ languagesystem syrc dflt; # Syriac default
 languagesystem latn dflt ;
 
 
-@MarksAbove = [@_t.U0656 @_m.U0656 @_m.U030a_1] ; # _diaA
-@MarksBelow = [@_b.U0325_3 @_b.U0331_2] ; # _diaB
+@MarksAbove = [@_t.U0656 @_t.U0656_2 @_m.U0656 @_m.U030a_1] ; # _diaA
+@MarksBelow = [@_b.U0325_3 @_b.U0331_2 @_b.U0740] ; # _diaB
 @MarksAny = [@MarksAbove @MarksBelow] ;
 
 

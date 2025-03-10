@@ -3,7 +3,7 @@
 <ftml version="1.0">
   <head>
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 17.0 or later; else light green: a character is new in this version of the font</comment>
-    <fontscale>200</fontscale>
+    <fontscale>300</fontscale>
     <fontsrc label="1.1">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
     <fontsrc label="Lt">url(../results/SyriacProto-Light.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/SyriacProto-Regular.ttf)</fontsrc>
@@ -15,7 +15,7 @@
       <string>RenderingUnknown</string>
     </test>
   </testgroup>
-  <testgroup label="Encoded characters">
+  <testgroup label="Diacritics on one base">
     <test label="U+0711">
       <comment>alaphSuperscript-syriac</comment>
       <string>\u0712\u0711</string>
@@ -90,10 +90,10 @@
     </test>
     <test label="U+0741">
       <comment>qushshaya-syriac on beth, gamal, dalath, kaph, pe, taw only</comment>
-      <string>\u0712\u0741 \u0713\u0741 \u0714\u0741 \u0715\u0741 \u0716\u0741 \u071F\u0741 \u0726\u0741 \u072C\u0741\u002e</string>
+      <string>\u0712\u0741 \u0713\u0741 \u0714\u0741 \u0715\u0741 \u0716\u0741 \u071F\u0741 \u0726\u0741 \u072C\u0741</string>
     </test>
     <test label="U+0742">
-      <comment>rukkakha-syriac on beth, gamal, dalath, kaph, pe, taw only</comment>
+      <comment>rukkakha-syriac on beth, gamal, dalath, kaph, pe, taw only - not subing</comment>
       <string>\u0712\u0742 \u0713\u0742 \u0714\u0742 \u0715\u0742 \u0716\u0742 \u071F\u0742 \u0726\u0742 \u072C\u0742</string>
     </test>
     <test label="U+0743">
@@ -180,23 +180,35 @@
       <comment>shadda-ar</comment>
       <string>\u0712\u0651</string>
     </test>
+    <test label="U+1DF8">
+      <comment>dotaboveleftcomb</comment>
+      <string>\u0712\u1DF8</string>
+    </test>
+    <test label="U+1DFA">
+      <comment>dotbelowleftcomb - too close</comment>
+      <string>\u0712\u1DFA</string>
+    </test>
+
   </testgroup>
   <testgroup label="Real life">
-    <test label="multiple">
+    <test label="0739 0308">
+      <comment>above and below</comment>
       <string>\u0710\u0739\u0308 \u0712\u0710\u0739\u0308 \u0710\u0739\u0308\u0712 \u0712\u0710\u0739\u0308\u0712</string>
     </test>
-    <test label="multiple">
+    <test label="0742 0308">
+      <comment>above and below</comment>
       <string>\u071F\u0742\u0308 \u0712\u071f\u0742\u0308 \u071F\u0742\u0308\u0712 \u0712\u071f\u0742\u0308\u0712</string>
     </test>
-    <test label="multiple">
+    <test label="0739 0308 0722">
+      <comment>above, below, kerning</comment>
       <string>\u0710\u0739\u0308\u0722 \u0712\u0710\u0739\u0308\u0722</string>
     </test>
-    <test label="multiple">
-      <comment>mkmk not working</comment>
+    <test label="0330 0738">
+      <comment>both below</comment>
       <string>\u071A\u0330\u0738 \u0712\u071A\u0330\u0738</string>
     </test>
-    <test label="multiple">
-      <comment>mkmk not working</comment>
+    <test label="0303 0308">
+      <comment>both above</comment>
       <string>\u071A\u0303\u0308 \u0712\u071A\u0303\u0308</string>
     </test>
   </testgroup>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotbelowleftcomb" format="2">
   <unicode hex="1DFA"/>
+  <anchor x="120" y="240" name="_b.U0325_3"/>
+  <anchor x="135" y="240" name="_b.U0325_3_2"/>
   <outline>
     <contour>
       <point x="83" y="5" type="curve" smooth="yes"/>
