@@ -35,8 +35,11 @@
 /shin-syriac/_shin/shin-syriac.init/shin-syriac.medi/shin-syriac.fina/yudh-syriac/yudh-syriac.init/yudh-syriac.medi/_yudh-med/yudh-syriac.fina/heth-syriac/_heth-init/_heth-med/heth-syriac.init/heth-syriac.medi/heth-syriac.fina 
 /semkath-syriac/semkath-syriac.init/_semkath/semkath-syriac.medi/semkath-syriac.fina/semkathFinal-syriac/semkathFinal-syriac.init/semkathFinal-syriac.medi/semkathFinal-syriac.fina/zain-syriac/zain-syriac.fina 
 /nun-syriac.init/nun-syriac.medi/nun-syriac.fina/nun-syriac/beth-syriac/_beth/_LeftTail/beth-syriac.init/beth-syriac.medi/beth-syriac.fina/qaph-syriac/_qaph/qaph-syriac.init/qaph-syriac.medi/qaph-syriac.fina 
-/threedotsabove-syriac/space/_LrgSquareDot/dalath-syriac.fina/dalath_hbasaEsasadotted-syriac/dalath_hbasaEsasadotted-syriac.fina/dalathrishDotless-syriac.fina/dalathrishDotless-syriac/rish-syriac/rish-syriac.fina/rish_dieresiscomb-syriac/rish_dieresiscomb-syriac.fina/kaph-syriac/kaph-syriac.init/kaph-syriac.medi/kaph-syriac.fina</string>
-    <string>/kaph-syriac.fina/gamal-syriac/teth-syriac/lamadh-syriac/lamadh_alaph-syriac/e-syriac/taw-syriac</string>
+/threedotsabove-syriac/space/_LrgSquareDot/dalath-syriac.fina/dalath_hbasaEsasadotted-syriac/dalath_hbasaEsasadotted-syriac.fina/dalathrishDotless-syriac.fina/dalathrishDotless-syriac/rish-syriac/rish-syriac.fina/rish_dieresiscomb-syriac/rish_dieresiscomb-syriac.fina/kaph-syriac/kaph-syriac.init/kaph-syriac.medi/kaph-syriac.fina 
+/pe-syriac/mim-syriac/_shin/_beth/pe-syriac.init/pe-syriac.medi/pe-syriac.fina/pe_brevebelowcomb-syriac/pe_brevebelowcomb-syriac.init/pe_brevebelowcomb-syriac.medi/pe_brevebelowcomb-syriac.fina/space/brevebelowcomb 
+/reversedpe-syriac/reversedpe-syriac.init/reversedpe-syriac.medi/reversedpe-syriac.fina 
+</string>
+    <string>/kaph-syriac.fina/pe-syriac/gamal-syriac/teth-syriac/lamadh-syriac/lamadh_alaph-syriac/e-syriac/taw-syriac</string>
     <string>/he-syriac/he_yudh-syriac/kaph-syriac/alaph-syriac.ccmp/nun-syriac/nun-syriac.fina/sadhe-syriac/sadhe_nun-syriac</string>
     <string>/lamadh_alaph-syriac/lamadh_alaph-syriac.fina/alaph-syriac.ccmp/taw_alaph-syriac/taw_alaph-syriac.fina/taw_alaph-syriac.alt/taw_alaph-syriac.fina.alt</string>
     <string>/gamal-syriac/gamal-syriac.init/gamal-syriac.medi/gamal-syriac.fina/gamalgarshuni-syriac/gamalgarshuni-syriac.init/gamalgarshuni-syriac.medi/gamalgarshuni-syriac.fina/teth-syriac/teth-syriac.init/teth-syriac.medi/teth-syriac.fina/tethGarshuni-syriac/tethGarshuni-syriac.init/tethGarshuni-syriac.medi/tethGarshuni-syriac.fina 
@@ -275,6 +278,7 @@
     <string>dotaccentcomb</string>
     <string>dieresiscomb</string>
     <string>ringcomb</string>
+    <string>minusbelowcomb</string>
     <string>dotbelowcomb</string>
     <string>dotaboveleftcomb</string>
     <string>dotbelowleftcomb</string>

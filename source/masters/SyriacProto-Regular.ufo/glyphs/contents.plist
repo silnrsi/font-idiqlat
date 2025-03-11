@@ -226,6 +226,8 @@
   <string>mim-syriac.init.glif</string>
   <key>mim-syriac.medi</key>
   <string>mim-syriac.medi.glif</string>
+  <key>minusbelowcomb</key>
+  <string>minusbelowcomb.glif</string>
   <key>music-syriac</key>
   <string>music-syriac.glif</string>
   <key>nbspace</key>

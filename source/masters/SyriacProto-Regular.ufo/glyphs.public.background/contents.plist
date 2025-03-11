@@ -24,6 +24,8 @@
   <string>alaph-syriac.ccmp.glif</string>
   <key>beth-syriac</key>
   <string>beth-syriac.glif</string>
+  <key>brevebelowcomb</key>
+  <string>brevebelowcomb.glif</string>
   <key>dalath-syriac.fina</key>
   <string>dalath-syriac.fina.glif</string>
   <key>dalath_hbasaEsasadotted-syriac</key>
@@ -76,6 +78,22 @@
   <string>nun-syriac.init.glif</string>
   <key>nun-syriac.medi</key>
   <string>nun-syriac.medi.glif</string>
+  <key>pe-syriac</key>
+  <string>pe-syriac.glif</string>
+  <key>pe-syriac.fina</key>
+  <string>pe-syriac.fina.glif</string>
+  <key>pe-syriac.init</key>
+  <string>pe-syriac.init.glif</string>
+  <key>pe-syriac.medi</key>
+  <string>pe-syriac.medi.glif</string>
+  <key>pe_brevebelowcomb-syriac</key>
+  <string>pe_brevebelowcomb-syriac.glif</string>
+  <key>pe_brevebelowcomb-syriac.fina</key>
+  <string>pe_brevebelowcomb-syriac.fina.glif</string>
+  <key>pe_brevebelowcomb-syriac.init</key>
+  <string>pe_brevebelowcomb-syriac.init.glif</string>
+  <key>pe_brevebelowcomb-syriac.medi</key>
+  <string>pe_brevebelowcomb-syriac.medi.glif</string>
   <key>pthahadotted-syriac</key>
   <string>pthahadotted-syriac.glif</string>
   <key>qaph-syriac</key>
@@ -86,6 +104,14 @@
   <string>qaph-syriac.init.glif</string>
   <key>qaph-syriac.medi</key>
   <string>qaph-syriac.medi.glif</string>
+  <key>reversedpe-syriac</key>
+  <string>reversedpe-syriac.glif</string>
+  <key>reversedpe-syriac.fina</key>
+  <string>reversedpe-syriac.fina.glif</string>
+  <key>reversedpe-syriac.init</key>
+  <string>reversedpe-syriac.init.glif</string>
+  <key>reversedpe-syriac.medi</key>
+  <string>reversedpe-syriac.medi.glif</string>
   <key>rish-syriac</key>
   <string>rish-syriac.glif</string>
   <key>rish-syriac.fina</key>
