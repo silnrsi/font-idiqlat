@@ -96,9 +96,13 @@
       <comment>asciitilde</comment>
       <string>~</string>
     </test>
-    <test background="#ffe0e0" label="U+00A0">
+    <test background="#f0fff0" label="U+00A0">
       <comment>nbspace</comment>
-      <string>\u00F130\u0000A0\u00F131 \u0000A1 \u0000A2 \u0000A3 \u0000A4 \u0000A5 \u0000A6 \u0000A7 \u0000A8 \u0000A9 \u0000AA</string>
+      <string>\u00F130\u0000A0\u00F131</string>
+    </test>
+    <test background="#ffe0e0" label="U+00A1">
+      <comment>exclamdown</comment>
+      <string>\u0000A1 \u0000A2 \u0000A3 \u0000A4 \u0000A5 \u0000A6 \u0000A7 \u0000A8 \u0000A9 \u0000AA</string>
     </test>
     <test background="#ffe0e0" label="U+00AB">
       <comment>guillemetleft</comment>
@@ -180,13 +184,9 @@
       <comment>dotbelowcomb</comment>
       <string>\u0025CC\u000323 \u0025CC\u000324 \u0025CC\u000325</string>
     </test>
-    <test background="#ffe0e0" label="U+032D">
+    <test label="U+032D">
       <comment>circumflexbelowcomb</comment>
-      <string>\u0025CC\u00032D</string>
-    </test>
-    <test label="U+032E">
-      <comment>brevebelowcomb</comment>
-      <string>\u0025CC\u00032E</string>
+      <string>\u0025CC\u00032D \u0025CC\u00032E</string>
     </test>
     <test label="U+0330">
       <comment>tildebelowcomb</comment>

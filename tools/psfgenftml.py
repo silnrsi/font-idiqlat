@@ -297,13 +297,13 @@ def doit(args):
 
         # Representative base and diac chars:
         if doLongTest:
-            repDiac = list(filter(lambda x: x in builder.uids(), (0x064E, 0x0650, 0x065E, 0x0670, 0x0616, 0x06E3, 0x08F0, 0x08F2)))
-            repBase = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0628, 0x062B, 0x0647, 0x064A, 0x77F, 0x08AC)))
-            kasralist = list(filter(lambda x: x in builder.uids(), (0x0650, 0x064D)))
+            repDiac = list(filter(lambda x: x in builder.uids(), (0x0738, 0x073A, 0x073B, 0x073C, 0x0740, 0x0741, 0x0743, 0x0744)))
+            repBase = list(filter(lambda x: x in builder.uids(), (0x0712, 0x0715, 0x0717, 0x0718, 0x0723, 0x0723, 0x072A)))
+            kasralist = list(filter(lambda x: x in builder.uids(), (0x0739, 0x0742)))
         else:
-            repDiac = list(filter(lambda x: x in builder.uids(), (0x064E, 0x0650, 0x0654, 0x0670)))
-            repBase = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0628)))
-            kasralist = list(filter(lambda x: x in builder.uids(), (0x0650,)))
+            repDiac = list(filter(lambda x: x in builder.uids(), (0x0739, 0x0742, 0x0743, 0x0744)))
+            repBase = list(filter(lambda x: x in builder.uids(), (0x0712, 0x0715)))
+            kasralist = list(filter(lambda x: x in builder.uids(), (0x0739,)))
 
         ftml.startTestGroup('Representative diacritics on all bases that take diacritics')
         for uid in sorted(builder.uids(), key=joinGoupSortKey):
@@ -317,21 +317,21 @@ def doit(args):
                         ftml.setFeatures(featlist)
                         builder.render((uid,diac), ftml, addBreaks=False, dualJoinMode=2)
                         if doLongTest:
-                            if diac != 0x0651:  # If not shadda
+                            if diac != 0x0739:  # If not shadda
                                 # include shadda, in either order:
-                                builder.render((uid, diac, 0x0651), ftml, addBreaks=False, dualJoinMode=2)
-                                builder.render((uid, 0x0651, diac), ftml, addBreaks=False, dualJoinMode=2)
-                            if diac != 0x0654:  # If not hamza above
+                                builder.render((uid, diac, 0x0739), ftml, addBreaks=False, dualJoinMode=2)
+                                builder.render((uid, 0x0739, diac), ftml, addBreaks=False, dualJoinMode=2)
+                            if diac != 0x0742:  # If not hamza above
                                 # include hamza above, in either order:
-                                builder.render((uid, diac, 0x0654), ftml, addBreaks=False, dualJoinMode=2)
-                                builder.render((uid, 0x0654, diac), ftml, addBreaks=False, dualJoinMode=2)
+                                builder.render((uid, diac, 0x0742), ftml, addBreaks=False, dualJoinMode=2)
+                                builder.render((uid, 0x0742, diac), ftml, addBreaks=False, dualJoinMode=2)
                     ftml.clearFeatures()
                 ftml.closeTest()
 
         ftml.startTestGroup('All Arabic diacritics on representative bases')
         for uid in sorted(builder.uids()):
             # ignore non-ABS marks
-            if uid < 0x600 or uid in range(0xFE00, 0xFE10): continue
+            if uid < 0x300 or uid in range(0xFE00, 0xFE10): continue
             c = builder.char(uid)
             if c.general == 'Mn' and uid != 0x10EFC:  # all combining marks except alefoverlay (which isn't general purpose)
                 for base in repBase:
@@ -340,57 +340,57 @@ def doit(args):
                         ftml.setFeatures(featlist)
                         builder.render((base,uid), ftml, keyUID=uid, addBreaks=False, dualJoinMode=2)
                         if doLongTest:
-                            if uid != 0x0651: # if not shadda
+                            if uid != 0x0739: # if not shadda
                                 # include shadda, in either order:
-                                builder.render((base, uid, 0x0651), ftml, keyUID=uid, addBreaks=False, dualJoinMode=2)
-                                builder.render((base, 0x0651, uid), ftml, keyUID=uid, addBreaks=False, dualJoinMode=2)
-                            if diac != 0x0670:  # If not superscript alef
+                                builder.render((base, uid, 0x0739), ftml, keyUID=uid, addBreaks=False, dualJoinMode=2)
+                                builder.render((base, 0x0739, uid), ftml, keyUID=uid, addBreaks=False, dualJoinMode=2)
+                            if diac != 0x0742:  # If not superscript alef
                                 # include superscript alef, in either order:
-                                builder.render((uid, diac, 0x0670), ftml, addBreaks=False, dualJoinMode=2)
-                                builder.render((uid, 0x0670, diac), ftml, addBreaks=False, dualJoinMode=2)
+                                builder.render((uid, diac, 0x0742), ftml, addBreaks=False, dualJoinMode=2)
+                                builder.render((uid, 0x0742, diac), ftml, addBreaks=False, dualJoinMode=2)
                     ftml.clearFeatures()
                 ftml.closeTest()
 
-        ftml.startTestGroup('Special cases')
-        builder.render((0x064A, 0x064E), ftml)   # Yeh + Fatha should keep dots
-        builder.render((0x064A, 0x0654), ftml)   # Yeh + Hamza should lose dots
-        setBackgroundColor((0x10EFC,))
-        builder.render((0x0644, 0x10EFC), ftml)  # Lam + alefoverlay
-        for featlist in builder.permuteFeatures(uids=(0x0653,)):  # include madda variants if in the font
-            ftml.setFeatures(featlist)
-            builder.render((0x0644, shadda, 0x10EFC, 0x0653, kasratan), ftml)  # same with some marks!
-        ftml.clearFeatures()
-        ftml.closeTest()
+#        ftml.startTestGroup('Special cases')
+#        builder.render((0x064A, 0x064E), ftml)   # Yeh + Fatha should keep dots
+#        builder.render((0x064A, 0x0654), ftml)   # Yeh + Hamza should lose dots
+#        setBackgroundColor((0x10EFC,))
+#        builder.render((0x0644, 0x10EFC), ftml)  # Lam + alefoverlay
+#        for featlist in builder.permuteFeatures(uids=(0x0653,)):  # include madda variants if in the font
+#            ftml.setFeatures(featlist)
+#            builder.render((0x0644, shadda, 0x10EFC, 0x0653, kasratan), ftml)  # same with some marks!
+#        ftml.clearFeatures()
+#        ftml.closeTest()
 
-        ftml.startTestGroup('Lam-Alef ligatures')
-        for lam in lamlist:
-            for alef in aleflist:
-                if lam != 0x0644 and 0x0870 <= alef <= 0x0882:
-                    # ligatures with "alef with attached ..." chars are implemented only for 0644 lam
-                    continue
-                setBackgroundColor((lam,alef))
-                for featlist in builder.permuteFeatures(uids=(lam,alef)):
-                    ftml.setFeatures(featlist)
-                    builder.render((lam, alef),                     ftml, addBreaks=False)
-                    builder.render((lam, shadda, alef, fathatan),   ftml, addBreaks=False)
-                    builder.render((lam, kasratan, alef),           ftml, addBreaks=False)
-                    builder.render((lam, alef, kasratan),           ftml, addBreaks=False)
-                    builder.render((lam, kasratan, alef, kasratan), ftml, addBreaks=False)
-                ftml.clearFeatures()
-                ftml.closeTest()
+#        ftml.startTestGroup('Lam-Alef ligatures')
+#        for lam in lamlist:
+#            for alef in aleflist:
+#                if lam != 0x0644 and 0x0870 <= alef <= 0x0882:
+#                    # ligatures with "alef with attached ..." chars are implemented only for 0644 lam
+#                    continue
+#                setBackgroundColor((lam,alef))
+#                for featlist in builder.permuteFeatures(uids=(lam,alef)):
+#                    ftml.setFeatures(featlist)
+#                    builder.render((lam, alef),                     ftml, addBreaks=False)
+#                    builder.render((lam, shadda, alef, fathatan),   ftml, addBreaks=False)
+#                    builder.render((lam, kasratan, alef),           ftml, addBreaks=False)
+#                    builder.render((lam, alef, kasratan),           ftml, addBreaks=False)
+#                    builder.render((lam, kasratan, alef, kasratan), ftml, addBreaks=False)
+#                ftml.clearFeatures()
+#                ftml.closeTest()
 
-        ftml.startTestGroup('alefMadda lam collisions')
-        alefMadda = 0x0622
-        for lam in lamlist:
-            setBackgroundColor((alefMadda, lam))
-            comment = 'alefMadda ' +builder._charFromUID[lam].basename
-            for featList in builder.permuteFeatures(uids=(alefMadda, lam)):
-                label = f'U+0622 U+{lam:04X}'
-                ftml.setFeatures(featlist)
-                builder.render((alefMadda, lam, 0x0631),         ftml, addBreaks=False, comment=comment, label=label)
-                builder.render((alefMadda, lam, 0x064E, 0x0631), ftml, addBreaks=False)
-            ftml.clearFeatures()
-            ftml.closeTest()
+        # ftml.startTestGroup('alefMadda lam collisions')
+        # alefMadda = 0x0622
+        # for lam in lamlist:
+        #     setBackgroundColor((alefMadda, lam))
+        #     comment = 'alefMadda ' +builder._charFromUID[lam].basename
+        #     for featList in builder.permuteFeatures(uids=(alefMadda, lam)):
+        #         label = f'U+0622 U+{lam:04X}'
+        #         ftml.setFeatures(featlist)
+        #         builder.render((alefMadda, lam, 0x0631),         ftml, addBreaks=False, comment=comment, label=label)
+        #         builder.render((alefMadda, lam, 0x064E, 0x0631), ftml, addBreaks=False)
+        #     ftml.clearFeatures()
+        #     ftml.closeTest()
 
 
 
@@ -527,7 +527,6 @@ def doit(args):
 
 
     ftml.writeFile(args.output)
-
 
 def cmd() : execute("UFO",doit,argspec)
 if __name__ == "__main__": cmd()
