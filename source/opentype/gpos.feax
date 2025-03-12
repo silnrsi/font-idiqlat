@@ -40,7 +40,7 @@ lookup  kern_nun_1 { # FKern: {Dolath, Sodeh} {Nun}
 lookup kern_nun2 { # FKrern: Nun in VOLT
     # GPOS lookup 4, type 8 (Chained Context positioning)
     lookupflag RightToLeft;
-    pos [alaph-syriac alaph-syriac.medi alaph-syriac.fina alaph-syriac.fina.alt2 alaph-syriac.fina.alt3] @kern_below nun-syriac' lookup kern_nun_1;
+    pos [alaph-syriac alaph-syriac.med2 alaph-syriac.fina alaph-syriac.fin2 alaph-syriac.fin3] @kern_below nun-syriac' lookup kern_nun_1;
 } kern_nun2;
 
 lookup MarkToBase {

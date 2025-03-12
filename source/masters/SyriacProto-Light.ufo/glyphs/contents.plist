@@ -26,14 +26,14 @@
   <string>alaph-syriac.glif</string>
   <key>alaph-syriac.ccmp</key>
   <string>alaph-syriac.ccmp.glif</string>
+  <key>alaph-syriac.fin2</key>
+  <string>alaph-syriac.fin2.glif</string>
+  <key>alaph-syriac.fin3</key>
+  <string>alaph-syriac.fin3.glif</string>
   <key>alaph-syriac.fina</key>
   <string>alaph-syriac.fina.glif</string>
-  <key>alaph-syriac.fina.alt2</key>
-  <string>alaph-syriac.fina.alt2.glif</string>
-  <key>alaph-syriac.fina.alt3</key>
-  <string>alaph-syriac.fina.alt3.glif</string>
-  <key>alaph-syriac.medi</key>
-  <string>alaph-syriac.medi.glif</string>
+  <key>alaph-syriac.med2</key>
+  <string>alaph-syriac.med2.glif</string>
   <key>alaphSuperscript-syriac</key>
   <string>alaphS_uperscript-syriac.glif</string>
   <key>asterisk</key>

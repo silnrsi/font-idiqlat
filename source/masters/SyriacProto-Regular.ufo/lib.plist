@@ -125,10 +125,10 @@
     <string>harkleanAsteriscus-syriac</string>
     <string>abbreviation-syriac</string>
     <string>alaph-syriac</string>
-    <string>alaph-syriac.medi</string>
+    <string>alaph-syriac.med2</string>
     <string>alaph-syriac.fina</string>
-    <string>alaph-syriac.fina.alt2</string>
-    <string>alaph-syriac.fina.alt3</string>
+    <string>alaph-syriac.fin2</string>
+    <string>alaph-syriac.fin3</string>
     <string>alaphSuperscript-syriac</string>
     <string>beth-syriac</string>
     <string>beth-syriac.init</string>
@@ -355,14 +355,14 @@
     <string>uni0710</string>
     <key>alaph-syriac.ccmp</key>
     <string>uni0710.ccmp</string>
+    <key>alaph-syriac.fin2</key>
+    <string>uni0710.fin2</string>
+    <key>alaph-syriac.fin3</key>
+    <string>uni0710.fin3</string>
     <key>alaph-syriac.fina</key>
     <string>uni0710.fina</string>
-    <key>alaph-syriac.fina.alt2</key>
-    <string>uni0710.fina.alt2</string>
-    <key>alaph-syriac.fina.alt3</key>
-    <string>uni0710.fina.alt3</string>
-    <key>alaph-syriac.medi</key>
-    <string>uni0710.medi</string>
+    <key>alaph-syriac.med2</key>
+    <string>uni0710.med2</string>
     <key>alaphSuperscript-syriac</key>
     <string>uni0711</string>
     <key>barrekh-syriac</key>

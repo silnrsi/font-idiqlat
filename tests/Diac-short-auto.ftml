@@ -158,7 +158,7 @@ U+0739">
       <string>\u00072C\u000739 \u00200D\u00072C\u000739  \u00072C\u000742 \u00200D\u00072C\u000742  \u00072C\u000743 \u00200D\u00072C\u000743  \u00072C\u000744 \u00200D\u00072C\u000744 </string>
     </test>
   </testgroup>
-  <testgroup label="All Arabic diacritics on representative bases">
+  <testgroup label="All Syriac diacritics on representative bases">
     <test label="U+0712
 U+0303">
       <comment>beth-syriac tildecomb</comment>
@@ -184,7 +184,7 @@ U+030A">
       <comment>beth-syriac ringcomb</comment>
       <string>\u000712\u00030A \u000712\u00030A\u000712\u00030A\u000712\u00030A  \u000715\u00030A \u00200D\u000715\u00030A </string>
     </test>
-    <test background="#ffe0e0" label="U+0712
+    <test background="#f0fff0" label="U+0712
 U+0320">
       <comment>beth-syriac minusbelowcomb</comment>
       <string>\u000712\u000320 \u000712\u000320\u000712\u000320\u000712\u000320  \u000715\u000320 \u00200D\u000715\u000320 </string>

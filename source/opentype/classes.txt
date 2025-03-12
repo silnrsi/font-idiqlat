@@ -32,8 +32,8 @@
 @RightJoiningFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina];
 @RightJoining = [@RightJoiningIsol @RightJoiningFina];
 
-@RightJoiningXn = [alaph-syriac alaph-syriac.fina.alt2 alaph-syriac.fina.alt3 dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac];
-@RightJoiningXr = [alaph-syriac.medi alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina];
+@RightJoiningXn = [alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3 dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac];
+@RightJoiningXr = [alaph-syriac.med2 alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina];
 
 # @RightJoining = [@RightJoiningXn @RightJoiningXr];
 

@@ -6,6 +6,9 @@
     <fontsrc label="1.1">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
     <fontsrc label="Lt">url(../results/SyriacProto-Light.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/SyriacProto-Regular.ttf)</fontsrc>
+    <styles>
+      <style feats="'dlig' 1" name="dlig_1"/>
+    </styles>
     <title>Special rules</title>
     <widths string="25%"/>
   </head>
@@ -43,17 +46,17 @@
       <comment>dalath-syriac rukkakha-syriac (r3) </comment>
       <string>\u0715\u0742 \u0729\u0715\u0742</string>
     </test>
-    <test label="U+0710">
-      <comment>rish-syriac optional? (ltrMediOlaph) </comment>
-      <string>\u0710 \u0729\u0710</string>
+    <test label="U+071A + U+0710" >
+      <comment>heth-syriac alaph-syriac (ltrMediOlaph med2) </comment>
+      <string>\u0710 \u071A\u0710 </string>
     </test>
-    <test label="U+0710">
-      <comment>rish-syriac optional? (ltrFinaSerOlaph) </comment>
-      <string>\u0710 \u0729\u0710</string>
+    <test label="U+0717 + U+0710" >
+      <comment>he-syriac alaph-syriac (ltrFinaSerOlaph fin2) </comment>
+      <string>\u0710 \u0717\u0710 </string>
     </test>
-    <test label="U+0710">
-      <comment>rish-syriac optional? (ltrFinaEsyOlaph) </comment>
-      <string>\u0710 \u0729\u0710</string>
+    <test label="U+0715 + U+0710">
+      <comment>dalath-syriac alaph-syriac (ltrFinaEsyOlaph fin3) </comment>
+      <string>\u0710 \u0715\u0710</string>
     </test>
     <test label="U+072a U+0308">
       <comment>rish-syriac dieresiscomb (GRishSeyame) </comment>
@@ -64,7 +67,11 @@
       <string>\u072c\u0710\u0031 \u0729\u072c\u0710\u0031 \u072c\u0710\u0032 \u0729\u072c\u0710\u0032</string>
     </test>
     <test label="U+0728 U+0722">
-      <comment>sadhe-syriac nun-syriac (LEastOptLega) not sure what it's doing. If this is a ligature is kerning rule below used? </comment>
+      <comment>sadhe-syriac nun-syriac (LEastOptLega)</comment>
+      <string>\u0728\u0722 \u0729\u0728\u0722</string>
+    </test>
+    <test label="U+0728 U+0722" stylename="dlig_1">
+      <comment>sadhe-syriac nun-syriac (LEastOptLega)</comment>
       <string>\u0728\u0722 \u0729\u0728\u0722</string>
     </test>
     <test label="U+0715 U+0722">
@@ -106,9 +113,9 @@
       <comment>sadhe nun</comment>
       <string>\u0728\u0722 \u0712\u0728\u0722</string>
     </test>
-    <test label="U+072A U+0308">
-      <comment>rish seyame</comment>
-      <string>\u072a \u072A\u0308 \u0712\u072A\u0308</string>
+    <test label="U+0728 U+0722" stylename="dlig_1">
+      <comment>sadhe-syriac nun-syriac (LEastOptLega)</comment>
+      <string>\u0728\u0722 \u0729\u0728\u0722</string>
     </test>
     <test label="U+072C U+0710">
       <comment>taw alaph</comment>
@@ -118,9 +125,9 @@
       <comment>taw yudh</comment>
       <string>\u072C\u071D \u0712\u072C\u071D</string>
     </test>
-    <test label="U+072a U+0739 U+0308 U+072A U+0738 U+0308">
-      <comment>taw yudh</comment>
-      <string>\u072a\u0739\u0308\u072A\u0738\u0308</string>
+    <test label="U+072A U+0738 U+0308">
+      <comment>rish seyame</comment>
+      <string>\u072a \u072a\u0739\u0308 \u0712\u072A\u0738\u0308</string>
     </test>
 
 

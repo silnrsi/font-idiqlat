@@ -258,10 +258,10 @@ harkleanMetobelus-syriac,uni070C,070C,312,Import,
 harkleanAsteriscus-syriac,uni070D,070D,313,Import,
 abbreviation-syriac,uni070F,070F,314,Import,
 alaph-syriac,uni0710,0710,315,Import,
-alaph-syriac.medi,uni0710.medi,,316,Import,
+alaph-syriac.med2,uni0710.med2,,316,Import,
 alaph-syriac.fina,uni0710.fina,,317,Import,
-alaph-syriac.fina.alt2,uni0710.fina.alt2,,318,Import,alt2
-alaph-syriac.fina.alt3,uni0710.fina.alt3,,319,Import,alt3
+alaph-syriac.fin2,uni0710.fin2,,318,Import,
+alaph-syriac.fin3,uni0710.fin3,,319,Import,
 alaphSuperscript-syriac,uni0711,0711,320,Import,
 beth-syriac,uni0712,0712,321,Import,
 beth-syriac.init,uni0712.init,,322,Import,

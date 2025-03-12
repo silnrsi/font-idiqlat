@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="alaph-syriac.fina.alt3" format="2">
+<glyph name="alaph-syriac.med2" format="2">
   <advance width="591"/>
-  <anchor x="270" y="-120" name="b.U0325_3"/>
-  <anchor x="270" y="-120" name="b.U0331_2"/>
-  <anchor x="405" y="-150" name="b.U0740"/>
-  <anchor x="255" y="975" name="m.U030a_1"/>
-  <anchor x="255" y="990" name="t.U0656"/>
+  <anchor x="285" y="-120" name="b.U0325_3"/>
+  <anchor x="300" y="-120" name="b.U0331_2"/>
+  <anchor x="405" y="-165" name="b.U0740"/>
+  <anchor x="240" y="945" name="m.U030a_1"/>
+  <anchor x="255" y="975" name="t.U0656"/>
   <outline>
     <contour>
       <point x="77" y="0" type="line"/>

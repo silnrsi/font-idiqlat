@@ -145,30 +145,30 @@ lookup GRishSeyame { # 072A 0308
 
 lookup ltrMediOlaph {
   lookupflag IgnoreMarks ;
-    sub alaph-syriac  by  alaph-syriac.medi ;
+    sub alaph-syriac  by  alaph-syriac.med2 ;
 } ltrMediOlaph ;
 
 lookup ltrFinaSerOlaph {
   lookupflag IgnoreMarks ;
-    sub alaph-syriac  by  alaph-syriac.fina.alt2 ;
+    sub alaph-syriac  by  alaph-syriac.fin2 ;
 } ltrFinaSerOlaph ;
 
 lookup ltrFinaESyOlaph {
   lookupflag IgnoreMarks ;
-    sub alaph-syriac  by  alaph-syriac.fina.alt3 ;
+    sub alaph-syriac  by  alaph-syriac.fin3 ;
 } ltrFinaESyOlaph ;
 
 # does not seem to work
 lookup LEastOptLega2 { # 072C 0710 0031
 # GSUB lookup 14, type 14 (Ligature)
   lookupflag IgnoreMarks RightToLeft;
-    sub taw-syriac alaph-syriac one by taw_alaph-syriac;
-    sub taw-syriac alaph-syriac.fina.alt2 one by taw_alaph-syriac;
-    sub taw-syriac alaph-syriac two by taw_alaph-syriac.alt;
-    sub taw-syriac.fina alaph-syriac.fina.alt2 one by taw_alaph-syriac.fina;
+    sub taw-syriac.fina alaph-syriac.fin2 one by taw_alaph-syriac.fina;
     sub taw-syriac.fina alaph-syriac one by taw_alaph-syriac.fina;
-    sub taw-syriac.fina alaph-syriac.fina.alt2 two by taw_alaph-syriac.fina.alt;
+    sub taw-syriac alaph-syriac one by taw_alaph-syriac;
+    sub taw-syriac alaph-syriac.fin2 one by taw_alaph-syriac;
+    sub taw-syriac.fina alaph-syriac.fin2 two by taw_alaph-syriac.fina.alt;
     sub taw-syriac.fina alaph-syriac two by taw_alaph-syriac.fina.alt;
+    sub taw-syriac alaph-syriac two by taw_alaph-syriac.alt;
 } LEastOptLega2;
 
 lookup LEastOptLega { # 0728 0722
@@ -274,6 +274,10 @@ feature med2 {  # Medial Forms
 
 #---  rlig feature (pass 8) ---
 
+feature rlig {  # Ligatures  -- we use this because liga is done in the same pass as cvXX
+    script syrc;
+        lookup GRishSeyame;
+} rlig ;
 
 
 # feature rclt - nothing to do
@@ -300,7 +304,6 @@ feature med2 {  # Medial Forms
 feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cvXX
     script syrc;
         lookup r3;
-        lookup GRishSeyame;
 } liga ;
 
 # HB PAUSE

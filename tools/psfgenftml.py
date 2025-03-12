@@ -328,7 +328,7 @@ def doit(args):
                     ftml.clearFeatures()
                 ftml.closeTest()
 
-        ftml.startTestGroup('All Arabic diacritics on representative bases')
+        ftml.startTestGroup('All Syriac diacritics on representative bases')
         for uid in sorted(builder.uids()):
             # ignore non-ABS marks
             if uid < 0x300 or uid in range(0xFE00, 0xFE10): continue
