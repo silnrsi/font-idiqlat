@@ -30,7 +30,7 @@
   <string>3343</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/beth-syriac/he-syriac/kaph-syriac/mim-syriac/_qaph/qaph-syriac/shin-syriac/pe-syriac/semkath-syriac 
+    <string>/beth-syriac/he-syriac/kaph-syriac/alaph-syriac/mim-syriac/_qaph/qaph-syriac/shin-syriac/pe-syriac/semkath-syriac 
 /he-syriac/he-syriac.fina/he_yudh-syriac/he_yudh-syriac.fina/yudhhe-syriac/yudhhe-syriac.fina/space/mim-syriac.init/mim-syriac.medi/mim-syriac.fina/mim-syriac/waw-syriac/waw-syriac.fina 
 /shin-syriac/_shin/shin-syriac.init/shin-syriac.medi/shin-syriac.fina/yudh-syriac/yudh-syriac.init/yudh-syriac.medi/_yudh-med/yudh-syriac.fina/heth-syriac/_heth-init/_heth-med/heth-syriac.init/heth-syriac.medi/heth-syriac.fina 
 /semkath-syriac/semkath-syriac.init/_semkath/semkath-syriac.medi/semkath-syriac.fina/semkathFinal-syriac/semkathFinal-syriac.init/semkathFinal-syriac.medi/semkathFinal-syriac.fina/zain-syriac/zain-syriac.fina 
@@ -41,10 +41,11 @@
 </string>
     <string>/kaph-syriac.fina/pe-syriac/gamal-syriac/teth-syriac/lamadh-syriac/lamadh_alaph-syriac/e-syriac/taw-syriac</string>
     <string>/he-syriac/he_yudh-syriac/kaph-syriac/alaph-syriac.ccmp/nun-syriac/nun-syriac.fina/sadhe-syriac/sadhe_nun-syriac</string>
-    <string>/lamadh_alaph-syriac/lamadh_alaph-syriac.fina/alaph-syriac.ccmp/taw_alaph-syriac/taw_alaph-syriac.fina/taw_alaph-syriac.alt/taw_alaph-syriac.fina.alt</string>
-    <string>/gamal-syriac/gamal-syriac.init/gamal-syriac.medi/gamal-syriac.fina/gamalgarshuni-syriac/gamalgarshuni-syriac.init/gamalgarshuni-syriac.medi/gamalgarshuni-syriac.fina/teth-syriac/teth-syriac.init/teth-syriac.medi/teth-syriac.fina/tethGarshuni-syriac/tethGarshuni-syriac.init/tethGarshuni-syriac.medi/tethGarshuni-syriac.fina 
+    <string>/mim-syriac.init/mim-syriac.medi/mim-syriac/gamal-syriac/gamal-syriac.init/gamal-syriac.medi/gamal-syriac.fina/gamalgarshuni-syriac/gamalgarshuni-syriac.init/gamalgarshuni-syriac.medi/gamalgarshuni-syriac.fina/teth-syriac/teth-syriac.init/teth-syriac.medi/teth-syriac.fina/tethGarshuni-syriac/tethGarshuni-syriac.init/tethGarshuni-syriac.medi/tethGarshuni-syriac.fina 
 /lamadh-syriac/lamadh-syriac.init/lamadh-syriac.medi/lamadh-syriac.fina/lamadh_alaph-syriac/lamadh_alaph-syriac.fina/space/alaph-syriac.ccmp/e-syriac/e-syriac.init/e-syriac.medi/e-syriac.fina 
 /taw-syriac/space/taw-syriac.fina/space/taw_alaph-syriac.alt3/space/taw_alaph-syriac.fina.alt3/taw_yudh-syriac/taw_yudh-syriac.fina</string>
+    <string>/alaph-syriac/alaph-syriac.med2/alaph-syriac.fina/alaph-syriac.fin2/alaph-syriac.fin3/space/alaphSuperscript-syriac/space/lamadh_alaph-syriac/lamadh_alaph-syriac.fina/alaph-syriac.ccmp/taw_alaph-syriac/taw_alaph-syriac.fina/taw_alaph-syriac.alt/taw_alaph-syriac.fina.alt/space 
+/taw_alaph-syriac.alt3/space/taw_alaph-syriac.fina.alt3/space/taw-syriac/taw-syriac.fina/taw_yudh-syriac/taw_yudh-syriac.fina</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

@@ -20,8 +20,20 @@
   <string>_shin.glif</string>
   <key>_yudh-med</key>
   <string>_yudh-med.glif</string>
+  <key>alaph-syriac</key>
+  <string>alaph-syriac.glif</string>
   <key>alaph-syriac.ccmp</key>
   <string>alaph-syriac.ccmp.glif</string>
+  <key>alaph-syriac.fin2</key>
+  <string>alaph-syriac.fin2.glif</string>
+  <key>alaph-syriac.fin3</key>
+  <string>alaph-syriac.fin3.glif</string>
+  <key>alaph-syriac.fina</key>
+  <string>alaph-syriac.fina.glif</string>
+  <key>alaph-syriac.med2</key>
+  <string>alaph-syriac.med2.glif</string>
+  <key>alaphSuperscript-syriac</key>
+  <string>alaphS_uperscript-syriac.glif</string>
   <key>beth-syriac</key>
   <string>beth-syriac.glif</string>
   <key>brevebelowcomb</key>
@@ -40,6 +52,22 @@
   <string>dotaboveleftcomb.glif</string>
   <key>dotbelowleftcomb</key>
   <string>dotbelowleftcomb.glif</string>
+  <key>gamal-syriac</key>
+  <string>gamal-syriac.glif</string>
+  <key>gamal-syriac.fina</key>
+  <string>gamal-syriac.fina.glif</string>
+  <key>gamal-syriac.init</key>
+  <string>gamal-syriac.init.glif</string>
+  <key>gamal-syriac.medi</key>
+  <string>gamal-syriac.medi.glif</string>
+  <key>gamalgarshuni-syriac</key>
+  <string>gamalgarshuni-syriac.glif</string>
+  <key>gamalgarshuni-syriac.fina</key>
+  <string>gamalgarshuni-syriac.fina.glif</string>
+  <key>gamalgarshuni-syriac.init</key>
+  <string>gamalgarshuni-syriac.init.glif</string>
+  <key>gamalgarshuni-syriac.medi</key>
+  <string>gamalgarshuni-syriac.medi.glif</string>
   <key>hbasaEsasadotted-syriac</key>
   <string>hbasaE_sasadotted-syriac.glif</string>
   <key>he-syriac</key>
@@ -64,6 +92,10 @@
   <string>kaph-syriac.init.glif</string>
   <key>kaph-syriac.medi</key>
   <string>kaph-syriac.medi.glif</string>
+  <key>lamadh_alaph-syriac</key>
+  <string>lamadh_alaph-syriac.glif</string>
+  <key>lamadh_alaph-syriac.fina</key>
+  <string>lamadh_alaph-syriac.fina.glif</string>
   <key>mim-syriac</key>
   <string>mim-syriac.glif</string>
   <key>mim-syriac.fina</key>
@@ -140,6 +172,26 @@
   <string>shin-syriac.init.glif</string>
   <key>shin-syriac.medi</key>
   <string>shin-syriac.medi.glif</string>
+  <key>taw_alaph-syriac.alt3</key>
+  <string>taw_alaph-syriac.alt3.glif</string>
+  <key>taw_alaph-syriac.fina.alt3</key>
+  <string>taw_alaph-syriac.fina.alt3.glif</string>
+  <key>teth-syriac</key>
+  <string>teth-syriac.glif</string>
+  <key>teth-syriac.fina</key>
+  <string>teth-syriac.fina.glif</string>
+  <key>teth-syriac.init</key>
+  <string>teth-syriac.init.glif</string>
+  <key>teth-syriac.medi</key>
+  <string>teth-syriac.medi.glif</string>
+  <key>tethGarshuni-syriac</key>
+  <string>tethG_arshuni-syriac.glif</string>
+  <key>tethGarshuni-syriac.fina</key>
+  <string>tethG_arshuni-syriac.fina.glif</string>
+  <key>tethGarshuni-syriac.init</key>
+  <string>tethG_arshuni-syriac.init.glif</string>
+  <key>tethGarshuni-syriac.medi</key>
+  <string>tethG_arshuni-syriac.medi.glif</string>
   <key>waw-syriac</key>
   <string>waw-syriac.glif</string>
   <key>waw-syriac.fina</key>
