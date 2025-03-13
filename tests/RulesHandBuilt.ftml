@@ -87,7 +87,7 @@
       <string>\u0710\u0323\u0722 \u0729\u0710\u0323\u0722 \u0710\u0738\u0722 \u0729\u0710\u0738\u0722</string>
     </test>
     <test label="U+0712 U+0742 ">
-      <comment>beth-syriac rukkakha-syriac  (RukkakhaSquare) Not working </comment>
+      <comment>beth-syriac rukkakha-syriac  (RukkakhaSquare)</comment>
       <string>\u0712\u0742 \u0729\u0712\u0742</string>
     </test>
 
@@ -97,20 +97,35 @@
       <comment>dalath rukkakha</comment>
       <string>\u0715\u0742 \u0712\u0715\u0742</string>
     </test>
-    <test label="U+0717 U+071D">
-      <comment>he yudh</comment>
-      <string>\u0717\u071D \u0712\u0717\u071D</string>
-    </test>
     <test label="U+0720 U+0710">
-      <comment>lamadh alaph</comment>
+      <comment>lamadh_alaph-syriac</comment>
       <string>\u0720\u0710 \u0712\u0720\u0710</string>
     </test>
     <test label="U+0726 U+032E">
       <comment>pe breve below</comment>
       <string>\u0726\u032E \u0726\u032E\u0722 \u0722\u0726\u032E\u0722 \u0712\u0726\u032E</string>
     </test>
+    <test label="U+072A U+0738 U+0308">
+      <comment>rish seyame</comment>
+      <string>\u072a \u072a\u0739\u0308 \u0712\u072A\u0738\u0308</string>
+    </test>
+    <test label="U+072A U+0739 U+0308">
+      <comment>rish_dieresiscomb-syriac</comment>
+      <string>\u072a\u0308 \u0712\u072A\u0308</string>
+    </test>
+  </testgroup>
+
+  <testgroup label="Optional Ligatures">
+    <test label="U+0717 U+071D">
+      <comment>he_yudh-syriac</comment>
+      <string>\u0717\u071D \u0712\u0717\u071D</string>
+    </test>
+    <test label="U+0717 U+071D" stylename="dlig_1">
+      <comment>he_yudh-syriac</comment>
+      <string>\u0717\u071D \u0712\u0717\u071D</string>
+    </test>
     <test label="U+0728 U+0722">
-      <comment>sadhe nun</comment>
+      <comment>sadhe_nun-syriac</comment>
       <string>\u0728\u0722 \u0712\u0728\u0722</string>
     </test>
     <test label="U+0728 U+0722" stylename="dlig_1">
@@ -118,18 +133,25 @@
       <string>\u0728\u0722 \u0729\u0728\u0722</string>
     </test>
     <test label="U+072C U+0710">
-      <comment>taw alaph</comment>
-      <string>\u072C\u0710 \u0712\u072C\u0710 \u072C\u0710\u0031 \u0712\u072C\u0710\u0031</string>
+      <comment>taw_alaph-syriac</comment>
+      <string>\u072C\u0710 \u0712\u072C\u0710</string>
+    </test>
+    <test label="U+072C U+0710 - alt?" stylename="dlig_1">
+      <comment>taw_alaph-syriac</comment>
+      <string>\u072C\u0710 \u0712\u072C\u0710</string>
+    </test>
+    <test label="U+072C U+0710 - alt3?">
+      <comment>taw_alaph-syriac</comment>
+      <string>\u072C\u0710 \u0712\u072C\u0710</string>
     </test>
     <test label="U+072C U+071D">
-      <comment>taw yudh</comment>
+      <comment>taw_yudh-syriac</comment>
       <string>\u072C\u071D \u0712\u072C\u071D</string>
     </test>
-    <test label="U+072A U+0738 U+0308">
-      <comment>rish seyame</comment>
-      <string>\u072a \u072a\u0739\u0308 \u0712\u072A\u0738\u0308</string>
+    <test label="U+072C U+071D" stylename="dlig_1">
+      <comment>taw_yudh-syriac</comment>
+      <string>\u072C\u071D \u0712\u072C\u071D</string>
     </test>
-
-
   </testgroup>
+
 </ftml>

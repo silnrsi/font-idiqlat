@@ -162,25 +162,39 @@ lookup ltrFinaESyOlaph {
 lookup LEastOptLega2 { # 072C 0710 0031
 # GSUB lookup 14, type 14 (Ligature)
   lookupflag IgnoreMarks RightToLeft;
-    sub taw-syriac.fina alaph-syriac.fin2 one by taw_alaph-syriac.fina;
-    sub taw-syriac.fina alaph-syriac one by taw_alaph-syriac.fina;
-    sub taw-syriac alaph-syriac one by taw_alaph-syriac;
-    sub taw-syriac alaph-syriac.fin2 one by taw_alaph-syriac;
-    sub taw-syriac.fina alaph-syriac.fin2 two by taw_alaph-syriac.fina.alt;
-    sub taw-syriac.fina alaph-syriac two by taw_alaph-syriac.fina.alt;
-    sub taw-syriac alaph-syriac two by taw_alaph-syriac.alt;
+    sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
+    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
+    sub taw-syriac alaph-syriac by taw_alaph-syriac;
+    sub taw-syriac alaph-syriac.fin2 by taw_alaph-syriac;
+    sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina.alt;
+    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina.alt;
+    sub taw-syriac alaph-syriac by taw_alaph-syriac.alt;
 } LEastOptLega2;
 
+# This needs review because I added more ligatures than sadhe_nun
 lookup LEastOptLega { # 0728 0722
   lookupflag IgnoreMarks ;
     sub sadhe-syriac nun-syriac by sadhe_nun-syriac ;
     sub sadhe-syriac.fina nun-syriac by sadhe_nun-syriac.fina ;
+    sub he-syriac yudh-syriac by he_yudh-syriac ;
+    sub he-syriac.fina yudh-syriac by he_yudh-syriac.fina ;
+    sub taw-syriac alaph-syriac by taw_alaph-syriac ;
+    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina ;
+    sub taw-syriac yudh-syriac by taw_yudh-syriac ;
+    sub taw-syriac.fina yudh-syriac by taw_yudh-syriac.fina ;
 } LEastOptLega ;
 
-lookup RukkakhaSquare { # 0742
-   lookupflag IgnoreMarks ;
-     sub @TakeRukkakhaSquare' rukkakha-syriac by rukkakha-syriac.square ;
-} RukkakhaSquare ;
+lookup square1 {
+# GSUB lookup 18, type 11 (Single)
+  lookupflag RightToLeft;
+  sub rukkakha-syriac by rukkakha-syriac.square;
+} square1;
+
+lookup RukkakhaSquare {
+# GSUB lookup 14, type 16 (Chaining Context)
+  lookupflag RightToLeft;
+  sub @TakeRukkakhaSquare rukkakha-syriac' lookup square1;
+} RukkakhaSquare;
 
 #---  calt feature  ---
 

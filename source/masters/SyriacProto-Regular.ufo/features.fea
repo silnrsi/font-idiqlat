@@ -308,7 +308,7 @@
 # baseClass dalath_hbasaEsasadotted-syriac.fina <anchor 358 -555> @m.U030a_1;
 # baseClass dalathrishDotless-syriac <anchor 287 720> @m.U030a_1;
 # baseClass dalathrishDotless-syriac.fina <anchor 345 720> @m.U030a_1;
-# baseClass dottedCircle <anchor 510 935> @m.U030a_1;
+# baseClass dottedCircle <anchor 510 965> @m.U030a_1;
 # baseClass e-syriac <anchor 630 975> @m.U030a_1;
 # baseClass e-syriac.fina <anchor 630 1005> @m.U030a_1;
 # baseClass e-syriac.init <anchor 360 1020> @m.U030a_1;
@@ -405,7 +405,7 @@
 # baseClass dalath_hbasaEsasadotted-syriac.fina <anchor 328 735> @t.U0656;
 # baseClass dalathrishDotless-syriac <anchor 332 720> @t.U0656;
 # baseClass dalathrishDotless-syriac.fina <anchor 375 720> @t.U0656;
-# baseClass dottedCircle <anchor 510 965> @t.U0656;
+# baseClass dottedCircle <anchor 510 995> @t.U0656;
 # baseClass e-syriac <anchor 645 975> @t.U0656;
 # baseClass e-syriac.fina <anchor 645 1005> @t.U0656;
 # baseClass e-syriac.init <anchor 300 960> @t.U0656;
@@ -990,26 +990,39 @@ lookup LEastOptLega2 {
     # 072C 0710 0031
     # GSUB lookup 14, type 14 (Ligature)
     lookupflag RightToLeft IgnoreMarks;
-    sub taw-syriac.fina alaph-syriac.fin2 one by taw_alaph-syriac.fina;
-    sub taw-syriac.fina alaph-syriac one by taw_alaph-syriac.fina;
-    sub taw-syriac alaph-syriac one by taw_alaph-syriac;
-    sub taw-syriac alaph-syriac.fin2 one by taw_alaph-syriac;
-    sub taw-syriac.fina alaph-syriac.fin2 two by taw_alaph-syriac.fina.alt;
-    sub taw-syriac.fina alaph-syriac two by taw_alaph-syriac.fina.alt;
-    sub taw-syriac alaph-syriac two by taw_alaph-syriac.alt;
+    sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
+    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
+    sub taw-syriac alaph-syriac by taw_alaph-syriac;
+    sub taw-syriac alaph-syriac.fin2 by taw_alaph-syriac;
+    sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina.alt;
+    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina.alt;
+    sub taw-syriac alaph-syriac by taw_alaph-syriac.alt;
 } LEastOptLega2;
 
+# This needs review because I added more ligatures than sadhe_nun
 lookup LEastOptLega {
     # 0728 0722
     lookupflag IgnoreMarks;
     sub sadhe-syriac nun-syriac by sadhe_nun-syriac;
     sub sadhe-syriac.fina nun-syriac by sadhe_nun-syriac.fina;
+    sub he-syriac yudh-syriac by he_yudh-syriac;
+    sub he-syriac.fina yudh-syriac by he_yudh-syriac.fina;
+    sub taw-syriac alaph-syriac by taw_alaph-syriac;
+    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
+    sub taw-syriac yudh-syriac by taw_yudh-syriac;
+    sub taw-syriac.fina yudh-syriac by taw_yudh-syriac.fina;
 } LEastOptLega;
 
+lookup square1 {
+    # GSUB lookup 18, type 11 (Single)
+    lookupflag RightToLeft;
+    sub rukkakha-syriac by rukkakha-syriac.square;
+} square1;
+
 lookup RukkakhaSquare {
-    # 0742
-    lookupflag IgnoreMarks;
-    sub @TakeRukkakhaSquare' rukkakha-syriac by rukkakha-syriac.square;
+    # GSUB lookup 14, type 16 (Chaining Context)
+    lookupflag RightToLeft;
+    sub @TakeRukkakhaSquare rukkakha-syriac' lookup square1;
 } RukkakhaSquare;
 
 #---  calt feature  ---
@@ -1185,7 +1198,7 @@ lookup MarkToBase {
     pos base dalath_hbasaEsasadotted-syriac.fina <anchor 328 735> mark @_t.U0656;
     pos base dalathrishDotless-syriac <anchor 332 720> mark @_t.U0656;
     pos base dalathrishDotless-syriac.fina <anchor 375 720> mark @_t.U0656;
-    pos base dottedCircle <anchor 510 965> mark @_t.U0656;
+    pos base dottedCircle <anchor 510 995> mark @_t.U0656;
     pos base e-syriac <anchor 645 975> mark @_t.U0656;
     pos base e-syriac.fina <anchor 645 1005> mark @_t.U0656;
     pos base e-syriac.init <anchor 300 960> mark @_t.U0656;
@@ -1274,7 +1287,7 @@ lookup MarkToBase {
     pos base dalath_hbasaEsasadotted-syriac.fina <anchor 358 -555> mark @_m.U030a_1;
     pos base dalathrishDotless-syriac <anchor 287 720> mark @_m.U030a_1;
     pos base dalathrishDotless-syriac.fina <anchor 345 720> mark @_m.U030a_1;
-    pos base dottedCircle <anchor 510 935> mark @_m.U030a_1;
+    pos base dottedCircle <anchor 510 965> mark @_m.U030a_1;
     pos base e-syriac <anchor 630 975> mark @_m.U030a_1;
     pos base e-syriac.fina <anchor 630 1005> mark @_m.U030a_1;
     pos base e-syriac.init <anchor 360 1020> mark @_m.U030a_1;
