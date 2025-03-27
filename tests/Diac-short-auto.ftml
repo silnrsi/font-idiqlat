@@ -5,11 +5,10 @@
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 17.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
     <fontsrc label="1.1">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-    <fontsrc label="Reg">url(../results/SyriacProto-Regular.ttf)</fontsrc>
     <fontsrc label="Lt">url(../results/SyriacProto-Light.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/SyriacProto-Regular.ttf)</fontsrc>
     <title>Diac Short (auto)</title>
-    <widths string="19%"/>
+    <widths string="25%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
@@ -17,6 +16,16 @@
     </test>
   </testgroup>
   <testgroup label="Representative diacritics on all bases that take diacritics">
+    <test label="U+0020
+U+0739">
+      <comment>space zlamadottedangular-syriac</comment>
+      <string>\u00F130 \u000739\u00F131 \u00F130 \u000742\u00F131 \u00F130 \u000743\u00F131 \u00F130 \u000744\u00F131</string>
+    </test>
+    <test background="#f0fff0" label="U+00A0
+U+0739">
+      <comment>nbspace zlamadottedangular-syriac</comment>
+      <string>\u00F130\u0000A0\u000739\u00F131 \u00F130\u0000A0\u000742\u00F131 \u00F130\u0000A0\u000743\u00F131 \u00F130\u0000A0\u000744\u00F131</string>
+    </test>
     <test label="U+0710
 U+0739">
       <comment>alaph-syriac zlamadottedangular-syriac</comment>
@@ -157,6 +166,16 @@ U+0739">
       <comment>taw-syriac zlamadottedangular-syriac</comment>
       <string>\u00072C\u000739 \u00200D\u00072C\u000739  \u00072C\u000742 \u00200D\u00072C\u000742  \u00072C\u000743 \u00200D\u00072C\u000743  \u00072C\u000744 \u00200D\u00072C\u000744 </string>
     </test>
+    <test background="#f0fff0" label="U+202F
+U+0739">
+      <comment>narrownbspace zlamadottedangular-syriac</comment>
+      <string>\u00F130\u00202F\u000739\u00F131 \u00F130\u00202F\u000742\u00F131 \u00F130\u00202F\u000743\u00F131 \u00F130\u00202F\u000744\u00F131</string>
+    </test>
+    <test label="U+25CC
+U+0739">
+      <comment>dottedCircle zlamadottedangular-syriac</comment>
+      <string>\u0025CC\u000739 \u0025CC\u000742 \u0025CC\u000743 \u0025CC\u000744</string>
+    </test>
   </testgroup>
   <testgroup label="All Syriac diacritics on representative bases">
     <test label="U+0712
@@ -224,7 +243,7 @@ U+0331">
       <comment>beth-syriac macronbelowcomb</comment>
       <string>\u000712\u000331 \u000712\u000331\u000712\u000331\u000712\u000331  \u000715\u000331 \u00200D\u000715\u000331 </string>
     </test>
-    <test background="#ffe0e0" label="U+0712
+    <test background="#f0fff0" label="U+0712
 U+034F">
       <comment>beth-syriac graphemejoinercomb</comment>
       <string>\u000712\u00034F \u000712\u00034F\u000712\u00034F\u000712\u00034F  \u000715\u00034F \u00200D\u000715\u00034F </string>
