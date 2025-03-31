@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nbspace" format="2">
-  <advance width="1024"/>
+  <advance width="520"/>
   <unicode hex="00A0"/>
-  <outline>
-    <contour>
-      <point x="457" y="0" type="line"/>
-      <point x="546" y="0" type="line"/>
-      <point x="880" y="567" type="line"/>
-      <point x="546" y="1138" type="line"/>
-      <point x="457" y="1138" type="line"/>
-      <point x="144" y="567" type="line"/>
-    </contour>
-    <contour>
-      <point x="502" y="75" type="line"/>
-      <point x="230" y="567" type="line"/>
-      <point x="502" y="1060" type="line"/>
-      <point x="790" y="567" type="line"/>
-    </contour>
-  </outline>
+  <outline/>
 </glyph>

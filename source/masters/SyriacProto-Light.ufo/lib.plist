@@ -310,10 +310,6 @@
   </array>
   <key>public.postscriptNames</key>
   <dict>
-    <key>FontBslnSideBrngMrkrLft</key>
-    <string>uniF130</string>
-    <key>FontBslnSideBrngMrkrRt</key>
-    <string>uniF131</string>
     <key>Ohm</key>
     <string>Omega</string>
     <key>VS1</key>
@@ -398,8 +394,6 @@
     <string>uni0704</string>
     <key>colonSupralinear-syriac</key>
     <string>uni0703</string>
-    <key>colontriangularmod</key>
-    <string>uni02D0</string>
     <key>comma-ar</key>
     <string>uni060C</string>
     <key>contraction-syriac</key>
@@ -534,6 +528,8 @@
     <string>uni2010</string>
     <key>idotless</key>
     <string>dotlessi</string>
+    <key>increment</key>
+    <string>Delta</string>
     <key>inhibitformshaping-ar</key>
     <string>uni206C</string>
     <key>kaph-syriac</key>
@@ -596,6 +592,8 @@
     <string>uni202F</string>
     <key>nbspace</key>
     <string>uni00A0</string>
+    <key>nbspace.latn</key>
+    <string>uni00A0.latn</string>
     <key>nonbreakinghyphen</key>
     <string>uni2011</string>
     <key>nun-syriac</key>
@@ -742,6 +740,10 @@
     <string>uni072B.init</string>
     <key>shin-syriac.medi</key>
     <string>uni072B.medi</string>
+    <key>sidebearingleft</key>
+    <string>uniF130</string>
+    <key>sidebearingright</key>
+    <string>uniF131</string>
     <key>sixperemspace</key>
     <string>uni2006</string>
     <key>softhyphen</key>

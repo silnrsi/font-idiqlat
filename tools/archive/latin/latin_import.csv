@@ -3,8 +3,7 @@ glyph_name,new_name,usv
 .null,,
 nonmarkingreturn,,
 space,space.latn,
-tab,,
-exclam,exclam.latn,
+exclam.latn,,
 quotedbl,,0022
 numbersign,numbersign.latn,
 dollar,dollar.latn,
@@ -97,7 +96,7 @@ braceleft,,007B
 braceright,,007D
 bar,,007C
 asciitilde,,007E
-nbspace,,00A0
+nbspace,nbspace.latn,
 exclamdown,,00A1
 cent,,00A2
 sterling,,00A3
@@ -200,7 +199,6 @@ Ydieresis,,0178
 Zcaron,,017D
 zcaron,,017E
 florin,,0192
-colontriangularmod,,02D0
 grave,,0060
 macron,,00AF
 dieresis,,00A8
@@ -244,8 +242,8 @@ quotesinglbase.latn,quotesinglbase,201A
 quotereversed.latn,quotereversed,201B
 quotedblleft.latn,quotedblleft,201C
 quotedblright.latn,quotedblright,201D
-quotedblbase,,201E
-quotedblrightreversed,,201F
+quotedblbase.latn,quotedblbase,201E
+quotedblrightreversed.latn,quotedblrightreversed,201F
 dagger,,2020
 daggerdbl,,2021
 bullet,,2022
@@ -275,7 +273,7 @@ trademark,,2122
 Ohm,,2126
 partialdiff,,2202
 partialdiff.rtl,,
-Delta,,2206
+Delta,increment,2206
 product,,220F
 summation,,2211
 summation.rtl,,
@@ -297,8 +295,8 @@ greaterequal,,2265
 blank,,2423
 lozenge,,25CA
 dottedCircle,,25CC
-FontBslnSideBrngMrkrLft,,F130
-FontBslnSideBrngMrkrRt,,F131
+FontBslnSideBrngMrkrLft,sidebearingleft,F130
+FontBslnSideBrngMrkrRt,sidebearingright,F131
 fi,,FB01
 fl,,FB02
 VS1,,FE00
