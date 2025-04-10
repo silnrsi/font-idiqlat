@@ -230,6 +230,14 @@
   <string>rukkakha-syriac.square.glif</string>
   <key>rwaha-syriac</key>
   <string>rwaha-syriac.glif</string>
+  <key>sadhe-syriac</key>
+  <string>sadhe-syriac.glif</string>
+  <key>sadhe-syriac.fina</key>
+  <string>sadhe-syriac.fina.glif</string>
+  <key>sadhe_nun-syriac</key>
+  <string>sadhe_nun-syriac.glif</string>
+  <key>sadhe_nun-syriac.fina</key>
+  <string>sadhe_nun-syriac.fina.glif</string>
   <key>semicolon-ar</key>
   <string>semicolon-ar.glif</string>
   <key>semkath-syriac</key>
