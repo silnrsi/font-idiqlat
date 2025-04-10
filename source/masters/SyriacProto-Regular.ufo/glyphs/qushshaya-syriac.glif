@@ -4,11 +4,6 @@
   <anchor x="120" y="-15" name="_m.U030a_1"/>
   <anchor x="75" y="0" name="_m.U030a_1_2"/>
   <outline>
-    <contour>
-      <point x="23" y="5" type="line"/>
-      <point x="188" y="5" type="line"/>
-      <point x="188" y="170" type="line"/>
-      <point x="23" y="170" type="line"/>
-    </contour>
+    <component base="dotaccentcomb" xOffset="3" yOffset="3"/>
   </outline>
 </glyph>

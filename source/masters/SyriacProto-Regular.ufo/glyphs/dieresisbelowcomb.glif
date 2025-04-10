@@ -6,17 +6,6 @@
   <anchor x="225" y="0" name="_b.U0331_2_2"/>
   <anchor x="255" y="-360" name="b.U0331"/>
   <outline>
-    <contour>
-      <point x="42" y="-195" type="line"/>
-      <point x="207" y="-195" type="line"/>
-      <point x="207" y="-29" type="line"/>
-      <point x="42" y="-29" type="line"/>
-    </contour>
-    <contour>
-      <point x="281" y="-195" type="line"/>
-      <point x="446" y="-195" type="line"/>
-      <point x="446" y="-30" type="line"/>
-      <point x="281" y="-30" type="line"/>
-    </contour>
+    <component base="dieresiscomb" xOffset="5" yOffset="-196"/>
   </outline>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rish-syriac" format="2">
-  <advance width="731"/>
+  <advance width="723"/>
   <unicode hex="072A"/>
   <anchor x="265" y="-165" name="b.U0325_3"/>
   <anchor x="310" y="-150" name="b.U0331_2"/>

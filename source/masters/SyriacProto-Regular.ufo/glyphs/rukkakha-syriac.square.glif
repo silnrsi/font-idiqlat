@@ -5,11 +5,6 @@
   <anchor x="0" y="0" name="_b.U0331_2_2"/>
   <anchor x="90" y="-330" name="b.U0331"/>
   <outline>
-    <contour>
-      <point x="13" y="-183" type="line"/>
-      <point x="184" y="-183" type="line"/>
-      <point x="184" y="-14" type="line"/>
-      <point x="13" y="-14" type="line"/>
-    </contour>
+    <component base="_LrgSquareDot" xScale="0.9025" yScale="0.9025" xOffset="-183" yOffset="62"/>
   </outline>
 </glyph>

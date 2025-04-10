@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qaph-syriac.init" format="2">
-  <advance width="872"/>
+  <advance width="925"/>
   <anchor x="525" y="-150" name="b.U0325_3"/>
   <anchor x="510" y="-150" name="b.U0331_2"/>
   <anchor x="525" y="-150" name="b.U0740"/>
   <anchor x="525" y="750" name="m.U030a_1"/>
   <anchor x="465" y="765" name="t.U0656"/>
   <outline>
-    <component base="_qaph" xOffset="-36"/>
+    <component base="_qaph" xOffset="100"/>
     <contour>
       <point x="265" y="195" type="curve"/>
       <point x="-20" y="195" type="line"/>

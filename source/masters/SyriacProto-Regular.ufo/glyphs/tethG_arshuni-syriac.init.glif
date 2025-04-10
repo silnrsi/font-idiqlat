@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tethGarshuni-syriac.init" format="2">
-  <advance width="1274"/>
+  <advance width="1281"/>
   <anchor x="540" y="-225" name="b.U0325_3"/>
   <anchor x="420" y="-225" name="b.U0331_2"/>
   <anchor x="420" y="-180" name="b.U0740"/>
@@ -9,18 +9,18 @@
   <outline>
     <component base="teth-syriac.init"/>
     <contour>
-      <point x="930" y="-147" type="curve" smooth="yes"/>
-      <point x="973" y="-147"/>
-      <point x="995" y="-126"/>
-      <point x="995" y="-83" type="curve" smooth="yes"/>
-      <point x="995" y="-40"/>
-      <point x="973" y="-19"/>
-      <point x="930" y="-19" type="curve" smooth="yes"/>
-      <point x="887" y="-19"/>
-      <point x="866" y="-40"/>
-      <point x="866" y="-83" type="curve" smooth="yes"/>
-      <point x="866" y="-126"/>
-      <point x="887" y="-147"/>
+      <point x="910" y="-147" type="curve" smooth="yes"/>
+      <point x="953" y="-147"/>
+      <point x="975" y="-126"/>
+      <point x="975" y="-83" type="curve" smooth="yes"/>
+      <point x="975" y="-40"/>
+      <point x="953" y="-19"/>
+      <point x="910" y="-19" type="curve" smooth="yes"/>
+      <point x="867" y="-19"/>
+      <point x="846" y="-40"/>
+      <point x="846" y="-83" type="curve" smooth="yes"/>
+      <point x="846" y="-126"/>
+      <point x="867" y="-147"/>
     </contour>
   </outline>
   <lib>

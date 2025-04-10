@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gamalgarshuni-syriac.medi" format="2">
-  <advance width="1007"/>
+  <advance width="907"/>
   <anchor x="315" y="-150" name="b.U0325_3"/>
   <anchor x="270" y="-165" name="b.U0331_2"/>
   <anchor x="300" y="-135" name="b.U0740"/>
@@ -9,10 +9,10 @@
   <outline>
     <component base="gamal-syriac.medi"/>
     <contour>
-      <point x="420" y="382" type="line"/>
-      <point x="375" y="464" type="line"/>
-      <point x="159" y="182" type="line"/>
-      <point x="264" y="182" type="line"/>
+      <point x="439" y="429" type="line"/>
+      <point x="394" y="511" type="line"/>
+      <point x="143" y="182" type="line"/>
+      <point x="248" y="182" type="line"/>
     </contour>
   </outline>
   <lib>

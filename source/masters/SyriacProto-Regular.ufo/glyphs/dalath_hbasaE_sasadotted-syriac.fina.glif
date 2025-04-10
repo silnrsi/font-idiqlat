@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalath_hbasaEsasadotted-syriac.fina" format="2">
   <advance width="702"/>
-  <anchor x="343" y="-405" name="b.U0325_3"/>
-  <anchor x="328" y="-405" name="b.U0331_2"/>
-  <anchor x="-47" y="0" name="b.U0740"/>
-  <anchor x="358" y="-555" name="m.U030a_1"/>
-  <anchor x="328" y="735" name="t.U0656"/>
+  <anchor x="390" y="-405" name="b.U0325_3"/>
+  <anchor x="375" y="-405" name="b.U0331_2"/>
+  <anchor x="0" y="0" name="b.U0740"/>
+  <anchor x="405" y="-555" name="m.U030a_1"/>
+  <anchor x="375" y="735" name="t.U0656"/>
   <outline>
-    <component base="dalathrishDotless-syriac.fina" xOffset="-47"/>
-    <component base="_LrgSquareDot" xOffset="-47"/>
-    <component base="rwaha-syriac" xOffset="420" yOffset="-335"/>
+    <component base="dalathrishDotless-syriac.fina"/>
+    <component base="_LrgSquareDot"/>
+    <component base="rwaha-syriac" xOffset="467" yOffset="-335"/>
   </outline>
 </glyph>

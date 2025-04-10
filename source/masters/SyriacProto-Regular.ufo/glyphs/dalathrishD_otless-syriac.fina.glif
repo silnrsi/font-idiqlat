@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalathrishDotless-syriac.fina" format="2">
-  <advance width="749"/>
-  <anchor x="360" y="-150" name="b.U0325_3"/>
-  <anchor x="375" y="-180" name="b.U0331_2"/>
-  <anchor x="390" y="-150" name="b.U0740"/>
-  <anchor x="345" y="720" name="m.U030a_1"/>
-  <anchor x="375" y="720" name="t.U0656"/>
+  <advance width="702"/>
+  <anchor x="313" y="-150" name="b.U0325_3"/>
+  <anchor x="328" y="-180" name="b.U0331_2"/>
+  <anchor x="343" y="-150" name="b.U0740"/>
+  <anchor x="298" y="720" name="m.U030a_1"/>
+  <anchor x="328" y="720" name="t.U0656"/>
   <outline>
-    <component base="dalathrishDotless-syriac" xOffset="47"/>
+    <component base="dalathrishDotless-syriac"/>
     <contour>
-      <point x="629" y="195" type="line"/>
-      <point x="629" y="65"/>
-      <point x="663" y="0"/>
-      <point x="748" y="0" type="curve" smooth="yes"/>
-      <point x="769" y="0" type="line"/>
-      <point x="769" y="195" type="line"/>
+      <point x="582" y="195" type="line"/>
+      <point x="582" y="65"/>
+      <point x="616" y="0"/>
+      <point x="701" y="0" type="curve" smooth="yes"/>
+      <point x="722" y="0" type="line"/>
+      <point x="722" y="195" type="line"/>
     </contour>
   </outline>
   <lib>

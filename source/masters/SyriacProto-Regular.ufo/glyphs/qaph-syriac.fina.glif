@@ -1,42 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qaph-syriac.fina" format="2">
-  <advance width="1106"/>
-  <anchor x="765" y="-150" name="b.U0325_3"/>
-  <anchor x="765" y="-150" name="b.U0331_2"/>
-  <anchor x="765" y="-150" name="b.U0740"/>
-  <anchor x="750" y="765" name="m.U030a_1"/>
-  <anchor x="735" y="780" name="t.U0656"/>
+  <advance width="1076"/>
+  <anchor x="735" y="-150" name="b.U0325_3"/>
+  <anchor x="735" y="-150" name="b.U0331_2"/>
+  <anchor x="735" y="-150" name="b.U0740"/>
+  <anchor x="720" y="765" name="m.U030a_1"/>
+  <anchor x="705" y="780" name="t.U0656"/>
   <outline>
-    <component base="_qaph" xOffset="201"/>
+    <component base="_qaph" xOffset="302"/>
+    <component base="_LeftTail"/>
     <contour>
-      <point x="986" y="195" type="line"/>
-      <point x="986" y="65"/>
-      <point x="1020" y="0"/>
-      <point x="1105" y="0" type="curve" smooth="yes"/>
-      <point x="1126" y="0" type="line"/>
-      <point x="1126" y="195" type="line"/>
-    </contour>
-    <contour>
-      <point x="525" y="195" type="curve"/>
-      <point x="314" y="195" type="line" smooth="yes"/>
-      <point x="164" y="195"/>
-      <point x="172" y="352"/>
-      <point x="157" y="352" type="curve" smooth="yes"/>
-      <point x="148" y="352"/>
-      <point x="122" y="294"/>
-      <point x="122" y="224" type="curve" smooth="yes"/>
-      <point x="122" y="124"/>
-      <point x="157" y="0"/>
-      <point x="274" y="0" type="curve" smooth="yes"/>
-      <point x="384" y="0" type="line" smooth="yes"/>
-      <point x="467" y="0"/>
-      <point x="531" y="65"/>
+      <point x="956" y="195" type="line"/>
+      <point x="956" y="65"/>
+      <point x="990" y="0"/>
+      <point x="1075" y="0" type="curve" smooth="yes"/>
+      <point x="1096" y="0" type="line"/>
+      <point x="1096" y="195" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CPP</string>
+      <string>CCP</string>
     </dict>
   </lib>
 </glyph>
