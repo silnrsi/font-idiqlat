@@ -35,24 +35,50 @@ languagesystem latn dflt ;
 
 #---  rtlm feature  ---
 
-# lookup Mirror {
-#   lookupflag IgnoreMarks ;
-#     sub @cno_rtl by @c_rtl ;
-# } Mirror ;
+lookup Mirror {
+  lookupflag IgnoreMarks ;
+    sub @cno_rtl by @c_rtl ;
+} Mirror ;
 
 # HB PAUSE
 
 #---  ccmp feature  ---
+
+# Font rendering check
+#
+# The following three lookups change "RenderingUnknown" to "RenderingOpenType"
+
+lookup _FontCheck_Unknow {
+  lookupflag IgnoreMarks;
+    sub [U n k o w ] by [O p e T y];
+} _FontCheck_Unknow ;
+
+lookup _FontCheck_n {
+  lookupflag IgnoreMarks;
+    sub n by p e;
+} _FontCheck_n ;
+
+lookup FontCheck {
+  lookupflag IgnoreMarks ;
+    sub [R] e n d e r i n g
+      U' lookup _FontCheck_Unknow
+      n' lookup _FontCheck_Unknow
+      k' lookup _FontCheck_Unknow
+      n'
+      o' lookup _FontCheck_Unknow
+      w' lookup _FontCheck_Unknow
+      n' lookup _FontCheck_n;
+} FontCheck ;
 
 
 
 
 # Replace Syriac punctuation glyphs with Latin ones:
 
-# lookup LatinPunctuation {
-#  lookupflag 0 ;
-#    sub @PunctSyrc by @PunctLatn ;
-# } LatinPunctuation ;
+lookup LatinPunctuation {
+  lookupflag 0 ;
+    sub @cno_latn by @c_latn ;
+} LatinPunctuation ;
 
 # HB PAUSE
 
@@ -225,8 +251,10 @@ lookup RukkakhaSquare {
 #---  ccmp feature (pass 3) ---
 
 feature ccmp {  # Glyph Composition/Decomposition
-#    script latn;
-#        lookup LatinPunctuation;
+    # Same for latin & syriac:
+        lookup FontCheck;
+    script latn;
+        lookup LatinPunctuation;
     script syrc;
         lookup GPreDecompose;
         lookup SeyameChain;

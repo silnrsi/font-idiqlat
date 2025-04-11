@@ -171,11 +171,6 @@ U+0739">
       <comment>narrownbspace zlamadottedangular-syriac</comment>
       <string>\u00F130\u00202F\u000739\u00F131 \u00F130\u00202F\u000742\u00F131 \u00F130\u00202F\u000743\u00F131 \u00F130\u00202F\u000744\u00F131</string>
     </test>
-    <test label="U+25CC
-U+0739">
-      <comment>dottedCircle zlamadottedangular-syriac</comment>
-      <string>\u0025CC\u000739 \u0025CC\u000742 \u0025CC\u000743 \u0025CC\u000744</string>
-    </test>
   </testgroup>
   <testgroup label="All Syriac diacritics on representative bases">
     <test label="U+0712

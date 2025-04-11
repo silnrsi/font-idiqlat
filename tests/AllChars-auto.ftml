@@ -38,11 +38,7 @@
     </test>
     <test label="U+002E">
       <comment>period</comment>
-      <string>. / 0 1 2 3 4 5 6 7 8 9 :</string>
-    </test>
-    <test background="#ffe0e0" label="U+003B">
-      <comment>semicolon</comment>
-      <string>;</string>
+      <string>. / 0 1 2 3 4 5 6 7 8 9 : ;</string>
     </test>
     <test label="U+003C">
       <comment>less</comment>
@@ -100,7 +96,7 @@
       <comment>exclamdown</comment>
       <string>\u0000A1 \u0000A2 \u0000A3 \u0000A4 \u0000A5 \u0000A6 \u0000A7 \u0000A8 \u0000A9 \u0000AA</string>
     </test>
-    <test background="#ffe0e0" label="U+00AB">
+    <test label="U+00AB">
       <comment>guillemetleft</comment>
       <string>\u0000AB LTR: \u00202A\u0000AB\u00202C RTL: \u00202B\u0000AB\u00202C</string>
     </test>
@@ -140,7 +136,7 @@
       <comment>cedilla</comment>
       <string>\u0000B8 \u0000B9 \u0000BA</string>
     </test>
-    <test background="#ffe0e0" label="U+00BB">
+    <test label="U+00BB">
       <comment>guillemetright</comment>
       <string>\u0000BB LTR: \u00202A\u0000BB\u00202C RTL: \u00202B\u0000BB\u00202C</string>
     </test>
@@ -179,10 +175,6 @@
     <test background="#f0fff0" label="U+02C6">
       <comment>circumflex</comment>
       <string>\u0002C6 \u0002C7</string>
-    </test>
-    <test background="#f0fff0" label="U+02D0">
-      <comment>colontriangularmod</comment>
-      <string>\u0002D0</string>
     </test>
     <test label="U+02D2">
       <comment>ringhalfrightcentered</comment>
@@ -390,11 +382,7 @@
     </test>
     <test label="U+200C">
       <comment>zerowidthnonjoiner</comment>
-      <string>\u00200C \u00200D \u00200E \u00200F</string>
-    </test>
-    <test background="#ffe0e0" label="U+2010">
-      <comment>hyphentwo</comment>
-      <string>\u002010</string>
+      <string>\u00200C \u00200D \u00200E \u00200F \u002010</string>
     </test>
     <test background="#f0fff0" label="U+2011">
       <comment>nonbreakinghyphen</comment>
@@ -473,7 +461,7 @@
       <string>\u002202 LTR: \u00202A\u002202\u00202C RTL: \u00202B\u002202\u00202C</string>
     </test>
     <test background="#f0fff0" label="U+2206">
-      <comment>Delta</comment>
+      <comment>increment</comment>
       <string>\u002206</string>
     </test>
     <test background="#f0fff0" label="U+220F">
@@ -545,7 +533,7 @@
       <string>\u0029F5 LTR: \u00202A\u0029F5\u00202C RTL: \u00202B\u0029F5\u00202C</string>
     </test>
     <test background="#f0fff0" label="U+F130">
-      <comment>FontBslnSideBrngMrkrLft</comment>
+      <comment>sidebearingleft</comment>
       <string>\u00F130 \u00F131</string>
     </test>
     <test background="#f0fff0" label="U+FB01">
