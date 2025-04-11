@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="integral.rtl" format="2">
+  <advance width="506"/>
+  <outline>
+    <contour>
+      <point x="400" y="-322" type="curve" smooth="yes"/>
+      <point x="496" y="-322"/>
+      <point x="565" y="-278"/>
+      <point x="565" y="-216" type="curve" smooth="yes"/>
+      <point x="565" y="-175"/>
+      <point x="539" y="-153"/>
+      <point x="500" y="-153" type="curve" smooth="yes"/>
+      <point x="466" y="-153"/>
+      <point x="442" y="-166"/>
+      <point x="416" y="-191" type="curve" smooth="yes"/>
+      <point x="359" y="-243" type="line"/>
+      <point x="333" y="-218"/>
+      <point x="327" y="-168"/>
+      <point x="336" y="-8" type="curve" smooth="yes"/>
+      <point x="378" y="796" type="line" smooth="yes"/>
+      <point x="388" y="991"/>
+      <point x="269" y="1120"/>
+      <point x="105" y="1120" type="curve" smooth="yes"/>
+      <point x="9" y="1120"/>
+      <point x="-59" y="1076"/>
+      <point x="-59" y="1014" type="curve" smooth="yes"/>
+      <point x="-59" y="973"/>
+      <point x="-32" y="950"/>
+      <point x="7" y="950" type="curve" smooth="yes"/>
+      <point x="39" y="950"/>
+      <point x="63" y="962"/>
+      <point x="90" y="988" type="curve" smooth="yes"/>
+      <point x="147" y="1040" type="line"/>
+      <point x="186" y="1017"/>
+      <point x="195" y="965"/>
+      <point x="188" y="861" type="curve" smooth="yes"/>
+      <point x="146" y="98" type="line" smooth="yes"/>
+      <point x="131" y="-192"/>
+      <point x="249" y="-322"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|f+30</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=f+30</string>
+    </dict>
+  </lib>
+</glyph>

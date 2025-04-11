@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="j" format="2">
+  <advance width="376"/>
+  <unicode hex="006A"/>
+  <note>
+j
+</note>
+  <outline>
+    <component base="_jdotless"/>
+    <component base="_dotaccent.i" xOffset="-224"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

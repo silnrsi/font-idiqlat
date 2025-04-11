@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_acute" format="2">
+  <note>
+acutecomb
+</note>
+  <anchor x="420" y="609" name="_above"/>
+  <anchor x="420" y="964" name="above"/>
+  <outline>
+    <contour>
+      <point x="455" y="676" type="line"/>
+      <point x="662" y="917" type="line"/>
+      <point x="525" y="950" type="line"/>
+      <point x="386" y="699" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

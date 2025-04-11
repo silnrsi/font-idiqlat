@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_slashlong.case" format="2">
+  <anchor x="420" y="412" name="_center"/>
+  <outline>
+    <contour>
+      <point x="155" y="-96" type="line"/>
+      <point x="761" y="877" type="line"/>
+      <point x="686" y="921" type="line"/>
+      <point x="80" y="-52" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

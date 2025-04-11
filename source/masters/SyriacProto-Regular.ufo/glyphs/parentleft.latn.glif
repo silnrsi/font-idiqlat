@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parentleft.latn" format="2">
+  <advance width="518"/>
+  <outline>
+    <contour>
+      <point x="448" y="-22" type="line"/>
+      <point x="168" y="297"/>
+      <point x="189" y="666"/>
+      <point x="399" y="951" type="curve"/>
+      <point x="369" y="976" type="line"/>
+      <point x="81" y="693"/>
+      <point x="42" y="208"/>
+      <point x="322" y="-113" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>
