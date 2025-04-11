@@ -620,6 +620,47 @@
     <string>VS16</string>
     <string>objectReplacementCharacter</string>
     <string>replacementCharacter</string>
+    <string>_beth</string>
+    <string>_heth-init</string>
+    <string>_heth-med</string>
+    <string>_LeftTail</string>
+    <string>_LrgSquareDot</string>
+    <string>_qaph</string>
+    <string>_semkath</string>
+    <string>_shin</string>
+    <string>_yudh-med</string>
+    <string>_acute</string>
+    <string>_acute.case</string>
+    <string>_breve</string>
+    <string>_caron</string>
+    <string>_caron.case</string>
+    <string>_cedilla</string>
+    <string>_cedilla.case</string>
+    <string>_circumflex</string>
+    <string>_circumflex.case</string>
+    <string>_dieresis</string>
+    <string>_dieresis.case</string>
+    <string>_dot1</string>
+    <string>_dot_punct</string>
+    <string>_dotaccent</string>
+    <string>_dotaccent.i</string>
+    <string>_grave</string>
+    <string>_grave.case</string>
+    <string>_hungarumlaut</string>
+    <string>_jdotless</string>
+    <string>_macron</string>
+    <string>_ogonek</string>
+    <string>_ringabv</string>
+    <string>_ringabv.case</string>
+    <string>_slashlong</string>
+    <string>_slashlong.case</string>
+    <string>_strokeshortcomb.case</string>
+    <string>_tilde</string>
+    <string>_tilde.case</string>
+    <string>four.dnom</string>
+    <string>one.numr</string>
+    <string>three.numr</string>
+    <string>two.dnom</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
@@ -765,10 +806,14 @@
     <string>Euro</string>
     <key>femininedot-syriac</key>
     <string>uni0740</string>
+    <key>fi</key>
+    <string>uniFB01</string>
     <key>figurespace</key>
     <string>uni2007</string>
     <key>firststrongisolate</key>
     <string>uni2068</string>
+    <key>fl</key>
+    <string>uniFB02</string>
     <key>fourperemspace</key>
     <string>uni2005</string>
     <key>foursuperior</key>
@@ -888,7 +933,7 @@
     <key>macroncomb</key>
     <string>uni0304</string>
     <key>micro</key>
-    <string>uni00B5</string>
+    <string>mu</string>
     <key>mim-syriac</key>
     <string>uni0721</string>
     <key>mim-syriac.fina</key>
@@ -925,6 +970,8 @@
     <string>uni0747</string>
     <key>obliquelinebelow-syriac</key>
     <string>uni0748</string>
+    <key>onesuperior</key>
+    <string>uni00B9</string>
     <key>overline</key>
     <string>uni203E</string>
     <key>paragraph-syriac</key>
@@ -1105,14 +1152,16 @@
     <string>uni0746</string>
     <key>threeperemspace</key>
     <string>uni2004</string>
+    <key>threesuperior</key>
+    <string>uni00B3</string>
     <key>tildebelowcomb</key>
     <string>uni0330</string>
-    <key>tildecomb</key>
-    <string>uni0303</string>
     <key>twodotsverticalabove-syriac</key>
     <string>uni0743</string>
     <key>twodotsverticalbelow-syriac</key>
     <string>uni0744</string>
+    <key>twosuperior</key>
+    <string>uni00B2</string>
     <key>waw-syriac</key>
     <string>uni0718</string>
     <key>waw-syriac.fina</key>
