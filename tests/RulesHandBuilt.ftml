@@ -7,7 +7,11 @@
     <fontsrc label="Lt">url(../results/SyriacProto-Light.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/SyriacProto-Regular.ttf)</fontsrc>
     <styles>
-      <style feats="'dlig' 1" name="dlig_1"/>
+      <style feats="'cv38' 1" name="cv38_1"/>
+      <style feats="'cv55' 1" name="cv55_1"/>
+      <style feats="'cv59' 1" name="cv59_1"/>
+      <style feats="'cv59' 2" name="cv59_2"/>
+      <style feats="'cv60' 1" name="cv60_1"/>
     </styles>
     <title>Special rules</title>
     <widths string="25%"/>
@@ -115,12 +119,12 @@
     </test>
   </testgroup>
 
-  <testgroup label="Optional Ligatures">
+<testgroup label="Character Variants for ligatures">
     <test label="U+0717 U+071D">
       <comment>he_yudh-syriac</comment>
       <string>\u0717\u071D \u0712\u0717\u071D</string>
     </test>
-    <test label="U+0717 U+071D" stylename="dlig_1">
+    <test label="U+0717 U+071D" stylename="cv38_1">
       <comment>he_yudh-syriac</comment>
       <string>\u0717\u071D \u0712\u0717\u071D</string>
     </test>
@@ -128,19 +132,19 @@
       <comment>sadhe_nun-syriac</comment>
       <string>\u0728\u0722 \u0712\u0728\u0722</string>
     </test>
-    <test label="U+0728 U+0722" stylename="dlig_1">
-      <comment>sadhe-syriac nun-syriac (LEastOptLega)</comment>
+    <test label="U+0728 U+0722" stylename="cv55_1">
+      <comment>sadhe-syriac nun-syriac</comment>
       <string>\u0728\u0722 \u0729\u0728\u0722</string>
     </test>
     <test label="U+072C U+0710">
       <comment>taw_alaph-syriac</comment>
       <string>\u072C\u0710 \u0712\u072C\u0710</string>
     </test>
-    <test label="U+072C U+0710 - alt?" stylename="dlig_1">
+    <test label="U+072C U+0710" stylename="cv59_1">
       <comment>taw_alaph-syriac</comment>
       <string>\u072C\u0710 \u0712\u072C\u0710</string>
     </test>
-    <test label="U+072C U+0710 - alt3?">
+    <test label="U+072C U+0710" stylename="cv59_2">
       <comment>taw_alaph-syriac</comment>
       <string>\u072C\u0710 \u0712\u072C\u0710</string>
     </test>
@@ -148,11 +152,12 @@
       <comment>taw_yudh-syriac</comment>
       <string>\u072C\u071D \u0712\u072C\u071D</string>
     </test>
-    <test label="U+072C U+071D" stylename="dlig_1">
+    <test label="U+072C U+071D" stylename="cv60_1">
       <comment>taw_yudh-syriac</comment>
       <string>\u072C\u071D \u0712\u072C\u071D</string>
     </test>
-  </testgroup>
+</testgroup>
+
 <testgroup label="UDHR #26 (aii)">
    <test>
       <string>&#x0721;&#x0720;&#x0718;&#x0710;&#x0710; 26</string>

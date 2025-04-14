@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Syriac Proto</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/04/11 13:18:18</string>
+  <string>2025/04/14 13:25:15</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>
@@ -138,8 +138,10 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>38</integer>
     <integer>40</integer>
     <integer>45</integer>
+    <integer>46</integer>
     <integer>60</integer>
     <integer>62</integer>
+    <integer>67</integer>
     <integer>69</integer>
     <integer>71</integer>
     <integer>91</integer>

@@ -7,6 +7,12 @@
     <fontsrc label="1.1">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
     <fontsrc label="Lt">url(../results/SyriacProto-Light.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/SyriacProto-Regular.ttf)</fontsrc>
+    <styles>
+      <style feats="'cv15' 1" name="cv15_1"/>
+      <style feats="'cv17' 1" name="cv17_1"/>
+      <style feats="'cv18' 1" name="cv18_1"/>
+      <style feats="'latn' 1" name="latn_1"/>
+    </styles>
     <title>AllChars (auto)</title>
     <widths string="25%"/>
   </head>
@@ -18,7 +24,47 @@
   <testgroup label="Encoded characters">
     <test label="U+0020">
       <comment>space</comment>
-      <string>\u00F130 \u00F131 ! " # $ % &amp; '</string>
+      <string>\u00F130 \u00F131</string>
+    </test>
+    <test label="U+0020" stylename="latn_1">
+      <comment>space</comment>
+      <string>\u00F130 \u00F131</string>
+    </test>
+    <test label="U+0021">
+      <comment>exclam</comment>
+      <string>!</string>
+    </test>
+    <test label="U+0021" stylename="latn_1">
+      <comment>exclam</comment>
+      <string>!</string>
+    </test>
+    <test label="U+0022">
+      <comment>quotedbl</comment>
+      <string>" #</string>
+    </test>
+    <test label="U+0023" stylename="latn_1">
+      <comment>numbersign</comment>
+      <string>#</string>
+    </test>
+    <test label="U+0024">
+      <comment>dollar</comment>
+      <string>$</string>
+    </test>
+    <test label="U+0024" stylename="latn_1">
+      <comment>dollar</comment>
+      <string>$</string>
+    </test>
+    <test label="U+0025">
+      <comment>percent</comment>
+      <string>%</string>
+    </test>
+    <test label="U+0025" stylename="latn_1">
+      <comment>percent</comment>
+      <string>%</string>
+    </test>
+    <test label="U+0026">
+      <comment>ampersand</comment>
+      <string>&amp; '</string>
     </test>
     <test label="U+0028">
       <comment>parenleft</comment>
@@ -28,19 +74,151 @@
       <comment>parenright</comment>
       <string>) LTR: \u00202A)\u00202C RTL: \u00202B)\u00202C</string>
     </test>
+    <test label="U+0029" stylename="latn_1">
+      <comment>parenright</comment>
+      <string>) LTR: \u00202A)\u00202C RTL: \u00202B)\u00202C</string>
+    </test>
     <test label="U+002A">
       <comment>asterisk</comment>
-      <string>* + ,</string>
+      <string>*</string>
+    </test>
+    <test label="U+002A" stylename="latn_1">
+      <comment>asterisk</comment>
+      <string>*</string>
+    </test>
+    <test label="U+002B">
+      <comment>plus</comment>
+      <string>+</string>
+    </test>
+    <test label="U+002B" stylename="latn_1">
+      <comment>plus</comment>
+      <string>+</string>
+    </test>
+    <test label="U+002C">
+      <comment>comma</comment>
+      <string>,</string>
     </test>
     <test background="#f0fff0" label="U+002D">
       <comment>hyphen</comment>
       <string>-</string>
     </test>
+    <test background="#f0fff0" label="U+002D" stylename="latn_1">
+      <comment>hyphen</comment>
+      <string>-</string>
+    </test>
     <test label="U+002E">
       <comment>period</comment>
-      <string>. / 0 1 2 3 4 5 6 7 8 9 : ;</string>
+      <string>.</string>
+    </test>
+    <test label="U+002E" stylename="latn_1">
+      <comment>period</comment>
+      <string>.</string>
+    </test>
+    <test label="U+002F">
+      <comment>slash</comment>
+      <string>/</string>
+    </test>
+    <test label="U+002F" stylename="latn_1">
+      <comment>slash</comment>
+      <string>/</string>
+    </test>
+    <test label="U+0030">
+      <comment>zero</comment>
+      <string>0</string>
+    </test>
+    <test label="U+0030" stylename="latn_1">
+      <comment>zero</comment>
+      <string>0</string>
+    </test>
+    <test label="U+0031">
+      <comment>one</comment>
+      <string>1</string>
+    </test>
+    <test label="U+0031" stylename="latn_1">
+      <comment>one</comment>
+      <string>1</string>
+    </test>
+    <test label="U+0032">
+      <comment>two</comment>
+      <string>2</string>
+    </test>
+    <test label="U+0032" stylename="latn_1">
+      <comment>two</comment>
+      <string>2</string>
+    </test>
+    <test label="U+0033">
+      <comment>three</comment>
+      <string>3</string>
+    </test>
+    <test label="U+0033" stylename="latn_1">
+      <comment>three</comment>
+      <string>3</string>
+    </test>
+    <test label="U+0034">
+      <comment>four</comment>
+      <string>4</string>
+    </test>
+    <test label="U+0034" stylename="latn_1">
+      <comment>four</comment>
+      <string>4</string>
+    </test>
+    <test label="U+0035">
+      <comment>five</comment>
+      <string>5</string>
+    </test>
+    <test label="U+0035" stylename="latn_1">
+      <comment>five</comment>
+      <string>5</string>
+    </test>
+    <test label="U+0036">
+      <comment>six</comment>
+      <string>6</string>
+    </test>
+    <test label="U+0036" stylename="latn_1">
+      <comment>six</comment>
+      <string>6</string>
+    </test>
+    <test label="U+0037">
+      <comment>seven</comment>
+      <string>7</string>
+    </test>
+    <test label="U+0037" stylename="latn_1">
+      <comment>seven</comment>
+      <string>7</string>
+    </test>
+    <test label="U+0038">
+      <comment>eight</comment>
+      <string>8</string>
+    </test>
+    <test label="U+0038" stylename="latn_1">
+      <comment>eight</comment>
+      <string>8</string>
+    </test>
+    <test label="U+0039">
+      <comment>nine</comment>
+      <string>9</string>
+    </test>
+    <test label="U+0039" stylename="latn_1">
+      <comment>nine</comment>
+      <string>9</string>
+    </test>
+    <test label="U+003A">
+      <comment>colon</comment>
+      <string>:</string>
+    </test>
+    <test label="U+003A" stylename="latn_1">
+      <comment>colon</comment>
+      <string>:</string>
+    </test>
+    <test label="U+003B">
+      <comment>semicolon</comment>
+      <string>;</string>
     </test>
     <test label="U+003C">
+      <comment>less</comment>
+      <string>&lt; LTR: \u00202A&lt;\u00202C RTL: \u00202B&lt;\u00202C</string>
+    </test>
+    <test label="U+003C" stylename="latn_1">
       <comment>less</comment>
       <string>&lt; LTR: \u00202A&lt;\u00202C RTL: \u00202B&lt;\u00202C</string>
     </test>
@@ -48,7 +226,15 @@
       <comment>equal</comment>
       <string>=</string>
     </test>
+    <test label="U+003D" stylename="latn_1">
+      <comment>equal</comment>
+      <string>=</string>
+    </test>
     <test label="U+003E">
+      <comment>greater</comment>
+      <string>&gt; LTR: \u00202A&gt;\u00202C RTL: \u00202B&gt;\u00202C</string>
+    </test>
+    <test label="U+003E" stylename="latn_1">
       <comment>greater</comment>
       <string>&gt; LTR: \u00202A&gt;\u00202C RTL: \u00202B&gt;\u00202C</string>
     </test>
@@ -312,6 +498,10 @@
       <comment>kaph-syriac</comment>
       <string>\u00071F \u00071F\u00200D \u00200D\u00071F\u00200D \u00200D\u00071F \u00071F\u00071F\u00071F </string>
     </test>
+    <test label="U+071F" stylename="cv15_1">
+      <comment>kaph-syriac</comment>
+      <string>\u00071F \u00071F\u00200D \u00200D\u00071F\u00200D \u00200D\u00071F \u00071F\u00071F\u00071F </string>
+    </test>
     <test label="U+0720">
       <comment>lamadh-syriac</comment>
       <string>\u000720 \u000720\u00200D \u00200D\u000720\u00200D \u00200D\u000720 \u000720\u000720\u000720 </string>
@@ -320,7 +510,15 @@
       <comment>mim-syriac</comment>
       <string>\u000721 \u000721\u00200D \u00200D\u000721\u00200D \u00200D\u000721 \u000721\u000721\u000721 </string>
     </test>
+    <test label="U+0721" stylename="cv17_1">
+      <comment>mim-syriac</comment>
+      <string>\u000721 \u000721\u00200D \u00200D\u000721\u00200D \u00200D\u000721 \u000721\u000721\u000721 </string>
+    </test>
     <test label="U+0722">
+      <comment>nun-syriac</comment>
+      <string>\u000722 \u000722\u00200D \u00200D\u000722\u00200D \u00200D\u000722 \u000722\u000722\u000722 </string>
+    </test>
+    <test label="U+0722" stylename="cv18_1">
       <comment>nun-syriac</comment>
       <string>\u000722 \u000722\u00200D \u00200D\u000722\u00200D \u00200D\u000722 \u000722\u000722\u000722 </string>
     </test>

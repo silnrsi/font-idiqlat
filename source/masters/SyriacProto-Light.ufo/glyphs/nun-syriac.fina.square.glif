@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nun-syriac.fina.square" format="2">
+  <advance width="683"/>
+  <anchor x="390" y="-150" name="b.U0325_3"/>
+  <anchor x="390" y="-165" name="b.U0331_2"/>
+  <anchor x="345" y="-135" name="b.U0740"/>
+  <anchor x="390" y="720" name="m.U030a_1"/>
+  <anchor x="405" y="735" name="t.U0656"/>
+  <outline>
+    <component base="nun-syriac.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

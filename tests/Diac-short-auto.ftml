@@ -7,6 +7,11 @@
     <fontsrc label="1.1">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
     <fontsrc label="Lt">url(../results/SyriacProto-Light.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/SyriacProto-Regular.ttf)</fontsrc>
+    <styles>
+      <style feats="'cv15' 1" name="cv15_1"/>
+      <style feats="'cv17' 1" name="cv17_1"/>
+      <style feats="'cv18' 1" name="cv18_1"/>
+    </styles>
     <title>Diac Short (auto)</title>
     <widths string="25%"/>
   </head>
@@ -16,16 +21,6 @@
     </test>
   </testgroup>
   <testgroup label="Representative diacritics on all bases that take diacritics">
-    <test label="U+0020
-U+0739">
-      <comment>space zlamadottedangular-syriac</comment>
-      <string>\u00F130 \u000739\u00F131 \u00F130 \u000742\u00F131 \u00F130 \u000743\u00F131 \u00F130 \u000744\u00F131</string>
-    </test>
-    <test background="#f0fff0" label="U+00A0
-U+0739">
-      <comment>nbspace zlamadottedangular-syriac</comment>
-      <string>\u00F130\u0000A0\u000739\u00F131 \u00F130\u0000A0\u000742\u00F131 \u00F130\u0000A0\u000743\u00F131 \u00F130\u0000A0\u000744\u00F131</string>
-    </test>
     <test label="U+0710
 U+0739">
       <comment>alaph-syriac zlamadottedangular-syriac</comment>
@@ -99,7 +94,42 @@ U+0739">
     <test label="U+071F
 U+0739">
       <comment>kaph-syriac zlamadottedangular-syriac</comment>
-      <string>\u00071F\u000739 \u00071F\u000739\u00071F\u000739\u00071F\u000739  \u00071F\u000742 \u00071F\u000742\u00071F\u000742\u00071F\u000742  \u00071F\u000743 \u00071F\u000743\u00071F\u000743\u00071F\u000743  \u00071F\u000744 \u00071F\u000744\u00071F\u000744\u00071F\u000744 </string>
+      <string>\u00071F\u000739 \u00071F\u000739\u00071F\u000739\u00071F\u000739 </string>
+    </test>
+    <test label="U+071F
+U+0739" stylename="cv15_1">
+      <comment>kaph-syriac zlamadottedangular-syriac</comment>
+      <string>\u00071F\u000739 \u00071F\u000739\u00071F\u000739\u00071F\u000739 </string>
+    </test>
+    <test label="U+071F
+U+0742">
+      <comment>kaph-syriac rukkakha-syriac</comment>
+      <string>\u00071F\u000742 \u00071F\u000742\u00071F\u000742\u00071F\u000742 </string>
+    </test>
+    <test label="U+071F
+U+0742" stylename="cv15_1">
+      <comment>kaph-syriac rukkakha-syriac</comment>
+      <string>\u00071F\u000742 \u00071F\u000742\u00071F\u000742\u00071F\u000742 </string>
+    </test>
+    <test label="U+071F
+U+0743">
+      <comment>kaph-syriac twodotsverticalabove-syriac</comment>
+      <string>\u00071F\u000743 \u00071F\u000743\u00071F\u000743\u00071F\u000743 </string>
+    </test>
+    <test label="U+071F
+U+0743" stylename="cv15_1">
+      <comment>kaph-syriac twodotsverticalabove-syriac</comment>
+      <string>\u00071F\u000743 \u00071F\u000743\u00071F\u000743\u00071F\u000743 </string>
+    </test>
+    <test label="U+071F
+U+0744">
+      <comment>kaph-syriac twodotsverticalbelow-syriac</comment>
+      <string>\u00071F\u000744 \u00071F\u000744\u00071F\u000744\u00071F\u000744 </string>
+    </test>
+    <test label="U+071F
+U+0744" stylename="cv15_1">
+      <comment>kaph-syriac twodotsverticalbelow-syriac</comment>
+      <string>\u00071F\u000744 \u00071F\u000744\u00071F\u000744\u00071F\u000744 </string>
     </test>
     <test label="U+0720
 U+0739">
@@ -109,12 +139,82 @@ U+0739">
     <test label="U+0721
 U+0739">
       <comment>mim-syriac zlamadottedangular-syriac</comment>
-      <string>\u000721\u000739 \u000721\u000739\u000721\u000739\u000721\u000739  \u000721\u000742 \u000721\u000742\u000721\u000742\u000721\u000742  \u000721\u000743 \u000721\u000743\u000721\u000743\u000721\u000743  \u000721\u000744 \u000721\u000744\u000721\u000744\u000721\u000744 </string>
+      <string>\u000721\u000739 \u000721\u000739\u000721\u000739\u000721\u000739 </string>
+    </test>
+    <test label="U+0721
+U+0739" stylename="cv17_1">
+      <comment>mim-syriac zlamadottedangular-syriac</comment>
+      <string>\u000721\u000739 \u000721\u000739\u000721\u000739\u000721\u000739 </string>
+    </test>
+    <test label="U+0721
+U+0742">
+      <comment>mim-syriac rukkakha-syriac</comment>
+      <string>\u000721\u000742 \u000721\u000742\u000721\u000742\u000721\u000742 </string>
+    </test>
+    <test label="U+0721
+U+0742" stylename="cv17_1">
+      <comment>mim-syriac rukkakha-syriac</comment>
+      <string>\u000721\u000742 \u000721\u000742\u000721\u000742\u000721\u000742 </string>
+    </test>
+    <test label="U+0721
+U+0743">
+      <comment>mim-syriac twodotsverticalabove-syriac</comment>
+      <string>\u000721\u000743 \u000721\u000743\u000721\u000743\u000721\u000743 </string>
+    </test>
+    <test label="U+0721
+U+0743" stylename="cv17_1">
+      <comment>mim-syriac twodotsverticalabove-syriac</comment>
+      <string>\u000721\u000743 \u000721\u000743\u000721\u000743\u000721\u000743 </string>
+    </test>
+    <test label="U+0721
+U+0744">
+      <comment>mim-syriac twodotsverticalbelow-syriac</comment>
+      <string>\u000721\u000744 \u000721\u000744\u000721\u000744\u000721\u000744 </string>
+    </test>
+    <test label="U+0721
+U+0744" stylename="cv17_1">
+      <comment>mim-syriac twodotsverticalbelow-syriac</comment>
+      <string>\u000721\u000744 \u000721\u000744\u000721\u000744\u000721\u000744 </string>
     </test>
     <test label="U+0722
 U+0739">
       <comment>nun-syriac zlamadottedangular-syriac</comment>
-      <string>\u000722\u000739 \u000722\u000739\u000722\u000739\u000722\u000739  \u000722\u000742 \u000722\u000742\u000722\u000742\u000722\u000742  \u000722\u000743 \u000722\u000743\u000722\u000743\u000722\u000743  \u000722\u000744 \u000722\u000744\u000722\u000744\u000722\u000744 </string>
+      <string>\u000722\u000739 \u000722\u000739\u000722\u000739\u000722\u000739 </string>
+    </test>
+    <test label="U+0722
+U+0739" stylename="cv18_1">
+      <comment>nun-syriac zlamadottedangular-syriac</comment>
+      <string>\u000722\u000739 \u000722\u000739\u000722\u000739\u000722\u000739 </string>
+    </test>
+    <test label="U+0722
+U+0742">
+      <comment>nun-syriac rukkakha-syriac</comment>
+      <string>\u000722\u000742 \u000722\u000742\u000722\u000742\u000722\u000742 </string>
+    </test>
+    <test label="U+0722
+U+0742" stylename="cv18_1">
+      <comment>nun-syriac rukkakha-syriac</comment>
+      <string>\u000722\u000742 \u000722\u000742\u000722\u000742\u000722\u000742 </string>
+    </test>
+    <test label="U+0722
+U+0743">
+      <comment>nun-syriac twodotsverticalabove-syriac</comment>
+      <string>\u000722\u000743 \u000722\u000743\u000722\u000743\u000722\u000743 </string>
+    </test>
+    <test label="U+0722
+U+0743" stylename="cv18_1">
+      <comment>nun-syriac twodotsverticalabove-syriac</comment>
+      <string>\u000722\u000743 \u000722\u000743\u000722\u000743\u000722\u000743 </string>
+    </test>
+    <test label="U+0722
+U+0744">
+      <comment>nun-syriac twodotsverticalbelow-syriac</comment>
+      <string>\u000722\u000744 \u000722\u000744\u000722\u000744\u000722\u000744 </string>
+    </test>
+    <test label="U+0722
+U+0744" stylename="cv18_1">
+      <comment>nun-syriac twodotsverticalbelow-syriac</comment>
+      <string>\u000722\u000744 \u000722\u000744\u000722\u000744\u000722\u000744 </string>
     </test>
     <test label="U+0723
 U+0739">
@@ -165,11 +265,6 @@ U+0739">
 U+0739">
       <comment>taw-syriac zlamadottedangular-syriac</comment>
       <string>\u00072C\u000739 \u00200D\u00072C\u000739  \u00072C\u000742 \u00200D\u00072C\u000742  \u00072C\u000743 \u00200D\u00072C\u000743  \u00072C\u000744 \u00200D\u00072C\u000744 </string>
-    </test>
-    <test background="#f0fff0" label="U+202F
-U+0739">
-      <comment>narrownbspace zlamadottedangular-syriac</comment>
-      <string>\u00F130\u00202F\u000739\u00F131 \u00F130\u00202F\u000742\u00F131 \u00F130\u00202F\u000743\u00F131 \u00F130\u00202F\u000744\u00F131</string>
     </test>
   </testgroup>
   <testgroup label="All Syriac diacritics on representative bases">

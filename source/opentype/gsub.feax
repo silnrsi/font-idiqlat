@@ -184,6 +184,8 @@ lookup ltrFinaESyOlaph {
     sub alaph-syriac  by  alaph-syriac.fin3 ;
 } ltrFinaESyOlaph ;
 
+
+
 # does not seem to work
 lookup LEastOptLega2 { # 072C 0710 0031
 # GSUB lookup 14, type 14 (Ligature)
@@ -192,9 +194,9 @@ lookup LEastOptLega2 { # 072C 0710 0031
     sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
     sub taw-syriac alaph-syriac by taw_alaph-syriac;
     sub taw-syriac alaph-syriac.fin2 by taw_alaph-syriac;
-    sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina.alt;
-    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina.alt;
-    sub taw-syriac alaph-syriac by taw_alaph-syriac.alt;
+    sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina.triangle;
+    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina.triangle;
+    sub taw-syriac alaph-syriac by taw_alaph-syriac.triangle;
 } LEastOptLega2;
 
 # This needs review because I added more ligatures than sadhe_nun
@@ -230,7 +232,58 @@ lookup RukkakhaSquare {
 
 #--- remaining subs features (salt, cvxx, liga) ---
 
+
+
 # Lookups for user-selectable features
+
+# Kaph U+071F cv15
+lookup KaphAlternate { # cv15 Apparently only used in outlines so no final is needed
+  lookupflag IgnoreMarks ;
+    sub kaph-syriac by kaph-syriac.round ;
+#    sub kaph-syriac.fina by kaph-syriac.fina.round ;
+} KaphAlternate ;
+
+# Mim U+0721 cv17
+lookup MimAlternate { # cv17 Apparently only used in outlines so no final is needed
+  lookupflag IgnoreMarks ;
+    sub mim-syriac by mim-syriac.round ;
+#    sub mim-syriac.fina by mim-syriac.fina.round ;
+} MimAlternate ;
+
+# Nun U+0722 cv18
+lookup NunAlternate { # cv18 Apparently only used in outlines so no final is needed
+  lookupflag IgnoreMarks ;
+    sub nun-syriac by nun-syriac.square ;
+#    sub nun-syriac.fina by nun-syriac.fina.square ;
+} NunAlternate ;
+
+# He Yudh U+0717 U+071D cv38
+lookup HeYudhLigature {
+  lookupflag IgnoreMarks ;
+    sub he-syriac yudh-syriac by he_yudh-syriac ;
+    sub he-syriac.fina yudh-syriac by he_yudh-syriac.fina ;
+} HeYudhLigature ;
+
+# Sadhe Nun U+0728 U+0722 cv55
+lookup SadheNunLigature {
+  lookupflag IgnoreMarks ;
+    sub sadhe-syriac nun-syriac by sadhe_nun-syriac ;
+    sub sadhe-syriac.fina nun-syriac by sadhe_nun-syriac.fina ;
+} SadheNunLigature ;
+
+# Taw Alaph U+072C U+0710 cv59=2
+lookup TawAlaphLigatures {
+  lookupflag IgnoreMarks ;
+    sub taw_alaph-syriac      from [ taw_alaph-syriac.triangle      taw_alaph-syriac.twined];
+#    sub taw_alaph-syriac.fina from [ taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined];
+} TawAlaphLigatures ;
+
+# Taw Yudh U+072C U+071D cv60=1
+lookup TawYudhLigature {
+  lookupflag IgnoreMarks ;
+    sub taw-syriac yudh-syriac by taw_yudh-syriac;
+    sub taw-syriac.fina yudh-syriac by taw_yudh-syriac.fina;
+} TawYudhLigature ;
 
 #NB: Lookup names ending in "TT" are used only by TypeTuner
 
@@ -330,10 +383,6 @@ feature rlig {  # Ligatures  -- we use this because liga is done in the same pas
 #---  calt feature (pass 9)  ---
 
 # These don't seem to be in this font
-# feature calt {  
-#    script syrc;
-#        lookup AlternateFinals;
-# } calt ;
 
 # HB PAUSE
 
@@ -350,13 +399,145 @@ feature liga {  # Ligatures  -- we use this because liga is done in the same pas
 
 # HB PAUSE
 #---  dlig feature (pass 10) ---
-feature dlig {  # Discretionary Ligatures LEastOptLega works, other doesn't
-    script syrc;
-        lookup LEastOptLega2;
-        lookup LEastOptLega;
-} dlig ;
+# feature dlig {  # Discretionary Ligatures LEastOptLega works, other doesn't
+#    script syrc;
+#        lookup LEastOptLega2;
+#        lookup LEastOptLega;
+# } dlig ;
 
 #--- Character Variants ---
 
+feature cv15 {  # Character Variant 15
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Kaph"    ; };
 
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "Kaph alternate";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "ܟ";  # English US
+        };
+
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Rounded" ; };
+    } ;
+    script syrc;  # Syriac
+        lookup KaphAlternate;
+} cv15 ;
+
+feature cv17 {  # Character Variant 17
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Mim"    ; };
+
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "Mim alternate";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "ܡ";  # English US
+        };
+
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Rounded" ; };
+    } ;
+    script syrc;  # Syriac
+        lookup MimAlternate;
+} cv17 ;
+
+feature cv18 {  # Character Variant 18
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Nun"    ; };
+
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "Nun alternate";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "ܢ";  # English US
+        };
+
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Squared" ; };
+    } ;
+    script syrc;  # Syriac
+        lookup NunAlternate;
+} cv18 ;
+
+feature cv38 {  # Character Variant 38
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "He Yudh"    ; };
+
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "He Yudh ligature";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "ܗܝ";  # English US
+        };
+
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Ligature" ; };
+    } ;
+    script syrc;  # Syriac
+        lookup HeYudhLigature;
+} cv38 ;
+
+feature cv55 {  # Character Variant 55
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Sadhe Nun"    ; };
+
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "Sadhe Nun ligature";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "ܨܢ";  # English US
+        };
+
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Ligature" ; };
+    } ;
+    script syrc;  # Syriac
+        lookup SadheNunLigature;
+} cv55 ;
+
+feature cv59 {  # Character Variant 59
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Taw Alaph"    ; };
+
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "Taw Alaph ligatures";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "ܬܐ";  # English US
+        };
+
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Triangle" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Twined"   ; };
+    } ;
+    script syrc;  # Syriac
+        lookup TawAlaphLigatures;
+} cv59 ;
+
+feature cv60 {  # Character Variant 60
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Taw Yudh"    ; };
+
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "Taw Yudh ligature";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "ܬܝ";  # English US
+        };
+
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Ligature" ; };
+    } ;
+    script syrc;  # Syriac
+        lookup TawYudhLigature;
+} cv60 ;
 

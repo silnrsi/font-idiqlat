@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="mim-syriac.fina.round" format="2">
+  <advance width="1088"/>
+  <anchor x="735" y="-105" name="b.U0325_3"/>
+  <anchor x="750" y="-120" name="b.U0331_2"/>
+  <anchor x="720" y="-135" name="b.U0740"/>
+  <anchor x="735" y="705" name="m.U030a_1"/>
+  <anchor x="720" y="705" name="t.U0656"/>
+  <outline>
+    <component base="mim-syriac.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -264,16 +264,16 @@
   <string>taw-syriac.fina.glif</string>
   <key>taw_alaph-syriac</key>
   <string>taw_alaph-syriac.glif</string>
-  <key>taw_alaph-syriac.alt</key>
-  <string>taw_alaph-syriac.alt.glif</string>
-  <key>taw_alaph-syriac.alt3</key>
-  <string>taw_alaph-syriac.alt3.glif</string>
   <key>taw_alaph-syriac.fina</key>
   <string>taw_alaph-syriac.fina.glif</string>
-  <key>taw_alaph-syriac.fina.alt</key>
-  <string>taw_alaph-syriac.fina.alt.glif</string>
-  <key>taw_alaph-syriac.fina.alt3</key>
-  <string>taw_alaph-syriac.fina.alt3.glif</string>
+  <key>taw_alaph-syriac.fina.triangle</key>
+  <string>taw_alaph-syriac.fina.triangle.glif</string>
+  <key>taw_alaph-syriac.fina.twined</key>
+  <string>taw_alaph-syriac.fina.twined.glif</string>
+  <key>taw_alaph-syriac.triangle</key>
+  <string>taw_alaph-syriac.triangle.glif</string>
+  <key>taw_alaph-syriac.twined</key>
+  <string>taw_alaph-syriac.twined.glif</string>
   <key>taw_yudh-syriac</key>
   <string>taw_yudh-syriac.glif</string>
   <key>taw_yudh-syriac.fina</key>

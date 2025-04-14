@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="taw_alaph-syriac.fina.alt" format="2">
+<glyph name="taw_alaph-syriac.fina.twined" format="2">
   <advance width="1214"/>
   <outline>
-    <component base="taw_alaph-syriac.alt"/>
+    <component base="taw_alaph-syriac.twined"/>
     <contour>
       <point x="1118" y="195" type="line"/>
       <point x="1118" y="0" type="line"/>

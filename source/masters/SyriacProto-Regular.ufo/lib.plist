@@ -43,9 +43,9 @@
     <string>/he-syriac/he_yudh-syriac/kaph-syriac/alaph-syriac.ccmp/nun-syriac/nun-syriac.fina/sadhe-syriac/sadhe_nun-syriac</string>
     <string>/mim-syriac.init/mim-syriac.medi/mim-syriac/gamal-syriac.init/gamal-syriac/gamal-syriac.init/gamal-syriac.medi/gamal-syriac.fina/gamalgarshuni-syriac/gamalgarshuni-syriac.init/gamalgarshuni-syriac.medi/gamalgarshuni-syriac.fina/teth-syriac/teth-syriac.init/teth-syriac.medi/teth-syriac.fina/tethGarshuni-syriac/tethGarshuni-syriac.init/tethGarshuni-syriac.medi/tethGarshuni-syriac.fina 
 /lamadh-syriac/lamadh-syriac.init/lamadh-syriac.medi/lamadh-syriac.fina/lamadh_alaph-syriac/lamadh_alaph-syriac.fina/space/alaph-syriac.ccmp/e-syriac/e-syriac.init/e-syriac.medi/e-syriac.fina 
-/taw-syriac/space/taw-syriac.fina/space/taw_alaph-syriac.alt3/space/taw_alaph-syriac.fina.alt3/taw_yudh-syriac/taw_yudh-syriac.fina</string>
-    <string>/alaph-syriac/alaph-syriac.med2/alaph-syriac.fina/alaph-syriac.fin2/alaph-syriac.fin3/space/alaphSuperscript-syriac/space/lamadh-syriac.init/lamadh_alaph-syriac/lamadh_alaph-syriac.fina/alaph-syriac.ccmp/taw_alaph-syriac/taw_alaph-syriac.fina/taw_alaph-syriac.alt/taw_alaph-syriac.fina.alt/space 
-/taw_alaph-syriac.alt3/alaph-syriac.fina/taw_alaph-syriac.fina.alt3/space/e-syriac.init/e-syriac/e-syriac.medi/e-syriac.fina/taw-syriac/taw-syriac.fina/_LeftTail/taw_yudh-syriac/yudh-syriac/taw_yudh-syriac.fina</string>
+/taw-syriac/space/taw-syriac.fina/space/taw_alaph-syriac/space/taw_alaph-syriac.fina/taw_yudh-syriac/taw_yudh-syriac.fina</string>
+    <string>/alaph-syriac/alaph-syriac.med2/alaph-syriac.fina/alaph-syriac.fin2/alaph-syriac.fin3/space/alaphSuperscript-syriac/space/lamadh-syriac.init/lamadh_alaph-syriac/lamadh_alaph-syriac.fina/alaph-syriac.ccmp/taw_alaph-syriac.triangle/taw_alaph-syriac.fina.triangle/taw_alaph-syriac.twined/taw_alaph-syriac.fina.twined/space 
+/taw_alaph-syriac/alaph-syriac.fina/taw_alaph-syriac.fina/space/e-syriac.init/e-syriac/e-syriac.medi/e-syriac.fina/taw-syriac/taw-syriac.fina/_LeftTail/taw_yudh-syriac/yudh-syriac/taw_yudh-syriac.fina</string>
     <string>/pthahaabove-syriac/space/pthahabelow-syriac/space/pthahadotted-syriac/space/zqaphaabove-syriac/space/zqaphabelow-syriac/space/zqaphadotted-syriac/space/rbasaabove-syriac/space/rbasabelow-syriac/space/zlamadottedhorizontal-syriac/space/zlamadottedangular-syriac/space/hbasaabove-syriac/space/hbasabelow-syriac/space/hbasaEsasadotted-syriac/space/esasaabove-syriac/space/esasabelow-syriac/space/rwaha-syriac/space/femininedot-syriac/space/qushshaya-syriac/space/rukkakha-syriac/space/rukkakha-syriac.square/space/_LrgSquareDot/_smDotsquare/twodotsverticalabove-syriac/space/twodotsverticalbelow-syriac/space/threedotsabove-syriac/space/threedotsbelow-syriac/space/obliquelineabove-syriac/space/obliquelinebelow-syriac/space/music-syriac/space/barrekh-syriac/harkleanAsteriscus-syriac/space/westSyriacCross/space/eastSyriacCross/space/tildecomb/space/macroncomb/space/dotaccentcomb/space/dieresiscomb/space/ringcomb/space/minusbelowcomb/space/dotbelowcomb/space/dotaboveleftcomb/space/dotbelowleftcomb/space/dieresisbelowcomb/space/ringbelowcomb/space/circumflexbelowcomb/space/brevebelowcomb/space/tildebelowcomb/space/macronbelowcomb/space/comma-ar/space/semicolon-ar/space/question-ar/space/kashida-ar/space/kashida-ar.threequarter/space/kashida-ar.half/space/kashida-ar.quarter/space/shadda-ar/space/quoteleft/space/quoteright/space/quotedblleft/space/quotedblright/space/dottedCircle/space/glottalstopmod/space/glottalstopreversedmod/space/overline/space/ringhalfrightcentered/ringhalfleftcentered</string>
     <string>/he-syriac/_qaph/qaph-syriac/taw-syriac/nun-syriac.fina/sadhe-syriac/sadhe-syriac.fina/sadhe_nun-syriac/sadhe_nun-syriac.fina</string>
   </array>
@@ -366,8 +366,6 @@
     <string>dalathrishDotless-syriac.fina</string>
     <string>he-syriac</string>
     <string>he-syriac.fina</string>
-    <string>he_yudh-syriac</string>
-    <string>he_yudh-syriac.fina</string>
     <string>waw-syriac</string>
     <string>waw-syriac.fina</string>
     <string>zain-syriac</string>
@@ -394,6 +392,8 @@
     <string>kaph-syriac.init</string>
     <string>kaph-syriac.medi</string>
     <string>kaph-syriac.fina</string>
+    <string>kaph-syriac.round</string>
+    <string>kaph-syriac.fina.round</string>
     <string>lamadh-syriac</string>
     <string>lamadh-syriac.init</string>
     <string>lamadh-syriac.medi</string>
@@ -405,10 +405,14 @@
     <string>mim-syriac.init</string>
     <string>mim-syriac.medi</string>
     <string>mim-syriac.fina</string>
+    <string>mim-syriac.round</string>
+    <string>mim-syriac.fina.round</string>
     <string>nun-syriac</string>
     <string>nun-syriac.init</string>
     <string>nun-syriac.medi</string>
     <string>nun-syriac.fina</string>
+    <string>nun-syriac.square</string>
+    <string>nun-syriac.fina.square</string>
     <string>semkath-syriac</string>
     <string>semkath-syriac.init</string>
     <string>semkath-syriac.medi</string>
@@ -435,8 +439,6 @@
     <string>reversedpe-syriac.fina</string>
     <string>sadhe-syriac</string>
     <string>sadhe-syriac.fina</string>
-    <string>sadhe_nun-syriac</string>
-    <string>sadhe_nun-syriac.fina</string>
     <string>qaph-syriac</string>
     <string>qaph-syriac.init</string>
     <string>qaph-syriac.medi</string>
@@ -451,12 +453,16 @@
     <string>shin-syriac.fina</string>
     <string>taw-syriac</string>
     <string>taw-syriac.fina</string>
+    <string>he_yudh-syriac</string>
+    <string>he_yudh-syriac.fina</string>
+    <string>sadhe_nun-syriac</string>
+    <string>sadhe_nun-syriac.fina</string>
     <string>taw_alaph-syriac</string>
     <string>taw_alaph-syriac.fina</string>
-    <string>taw_alaph-syriac.alt</string>
-    <string>taw_alaph-syriac.fina.alt</string>
-    <string>taw_alaph-syriac.alt3</string>
-    <string>taw_alaph-syriac.fina.alt3</string>
+    <string>taw_alaph-syriac.triangle</string>
+    <string>taw_alaph-syriac.fina.triangle</string>
+    <string>taw_alaph-syriac.twined</string>
+    <string>taw_alaph-syriac.fina.twined</string>
     <string>taw_yudh-syriac</string>
     <string>taw_yudh-syriac.fina</string>
     <string>pthahaabove-syriac</string>
@@ -894,10 +900,14 @@
     <string>uni071F</string>
     <key>kaph-syriac.fina</key>
     <string>uni071F.fina</string>
+    <key>kaph-syriac.fina.round</key>
+    <string>uni071F.fina.round</string>
     <key>kaph-syriac.init</key>
     <string>uni071F.init</string>
     <key>kaph-syriac.medi</key>
     <string>uni071F.medi</string>
+    <key>kaph-syriac.round</key>
+    <string>uni071F.round</string>
     <key>kashida-ar</key>
     <string>uni0640</string>
     <key>kashida-ar.half</key>
@@ -938,10 +948,14 @@
     <string>uni0721</string>
     <key>mim-syriac.fina</key>
     <string>uni0721.fina</string>
+    <key>mim-syriac.fina.round</key>
+    <string>uni0721.fina.round</string>
     <key>mim-syriac.init</key>
     <string>uni0721.init</string>
     <key>mim-syriac.medi</key>
     <string>uni0721.medi</string>
+    <key>mim-syriac.round</key>
+    <string>uni0721.round</string>
     <key>minusbelowcomb</key>
     <string>uni0320</string>
     <key>music-syriac</key>
@@ -960,10 +974,14 @@
     <string>uni0722.alt</string>
     <key>nun-syriac.fina</key>
     <string>uni0722.fina</string>
+    <key>nun-syriac.fina.square</key>
+    <string>uni0722.fina.square</string>
     <key>nun-syriac.init</key>
     <string>uni0722.init</string>
     <key>nun-syriac.medi</key>
     <string>uni0722.medi</string>
+    <key>nun-syriac.square</key>
+    <string>uni0722.square</string>
     <key>objectReplacementCharacter</key>
     <string>uniFFFC</string>
     <key>obliquelineabove-syriac</key>
@@ -1114,16 +1132,16 @@
     <string>uni072C.fina</string>
     <key>taw_alaph-syriac</key>
     <string>uni072C0710</string>
-    <key>taw_alaph-syriac.alt</key>
-    <string>uni072C0710.alt</string>
-    <key>taw_alaph-syriac.alt3</key>
-    <string>uni072C0710.alt3</string>
     <key>taw_alaph-syriac.fina</key>
     <string>uni072C0710.fina</string>
-    <key>taw_alaph-syriac.fina.alt</key>
-    <string>uni072C0710.fina.alt</string>
-    <key>taw_alaph-syriac.fina.alt3</key>
-    <string>uni072C0710.fina.alt3</string>
+    <key>taw_alaph-syriac.fina.triangle</key>
+    <string>uni072C0710.fina.triangle</string>
+    <key>taw_alaph-syriac.fina.twined</key>
+    <string>uni072C0710.fina.twined</string>
+    <key>taw_alaph-syriac.triangle</key>
+    <string>uni072C0710.triangle</string>
+    <key>taw_alaph-syriac.twined</key>
+    <string>uni072C0710.twined</string>
     <key>taw_yudh-syriac</key>
     <string>uni072C071D</string>
     <key>taw_yudh-syriac.fina</key>

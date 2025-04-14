@@ -620,10 +620,14 @@
   <string>kaph-syriac.glif</string>
   <key>kaph-syriac.fina</key>
   <string>kaph-syriac.fina.glif</string>
+  <key>kaph-syriac.fina.round</key>
+  <string>kaph-syriac.fina.round.glif</string>
   <key>kaph-syriac.init</key>
   <string>kaph-syriac.init.glif</string>
   <key>kaph-syriac.medi</key>
   <string>kaph-syriac.medi.glif</string>
+  <key>kaph-syriac.round</key>
+  <string>kaph-syriac.round.glif</string>
   <key>kashida-ar</key>
   <string>kashida-ar.glif</string>
   <key>kashida-ar.half</key>
@@ -680,10 +684,14 @@
   <string>mim-syriac.glif</string>
   <key>mim-syriac.fina</key>
   <string>mim-syriac.fina.glif</string>
+  <key>mim-syriac.fina.round</key>
+  <string>mim-syriac.fina.round.glif</string>
   <key>mim-syriac.init</key>
   <string>mim-syriac.init.glif</string>
   <key>mim-syriac.medi</key>
   <string>mim-syriac.medi.glif</string>
+  <key>mim-syriac.round</key>
+  <string>mim-syriac.round.glif</string>
   <key>minus</key>
   <string>minus.glif</string>
   <key>minusbelowcomb</key>
@@ -722,10 +730,14 @@
   <string>nun-syriac.glif</string>
   <key>nun-syriac.fina</key>
   <string>nun-syriac.fina.glif</string>
+  <key>nun-syriac.fina.square</key>
+  <string>nun-syriac.fina.square.glif</string>
   <key>nun-syriac.init</key>
   <string>nun-syriac.init.glif</string>
   <key>nun-syriac.medi</key>
   <string>nun-syriac.medi.glif</string>
+  <key>nun-syriac.square</key>
+  <string>nun-syriac.square.glif</string>
   <key>o</key>
   <string>o.glif</string>
   <key>oacute</key>
@@ -1014,16 +1026,16 @@
   <string>taw-syriac.fina.glif</string>
   <key>taw_alaph-syriac</key>
   <string>taw_alaph-syriac.glif</string>
-  <key>taw_alaph-syriac.alt</key>
-  <string>taw_alaph-syriac.alt.glif</string>
-  <key>taw_alaph-syriac.alt3</key>
-  <string>taw_alaph-syriac.alt3.glif</string>
   <key>taw_alaph-syriac.fina</key>
   <string>taw_alaph-syriac.fina.glif</string>
-  <key>taw_alaph-syriac.fina.alt</key>
-  <string>taw_alaph-syriac.fina.alt.glif</string>
-  <key>taw_alaph-syriac.fina.alt3</key>
-  <string>taw_alaph-syriac.fina.alt3.glif</string>
+  <key>taw_alaph-syriac.fina.triangle</key>
+  <string>taw_alaph-syriac.fina.triangle.glif</string>
+  <key>taw_alaph-syriac.fina.twined</key>
+  <string>taw_alaph-syriac.fina.twined.glif</string>
+  <key>taw_alaph-syriac.triangle</key>
+  <string>taw_alaph-syriac.triangle.glif</string>
+  <key>taw_alaph-syriac.twined</key>
+  <string>taw_alaph-syriac.twined.glif</string>
   <key>taw_yudh-syriac</key>
   <string>taw_yudh-syriac.glif</string>
   <key>taw_yudh-syriac.fina</key>
