@@ -66,18 +66,6 @@
       <comment>rish-syriac dieresiscomb (GRishSeyame) </comment>
       <string>\u072a\u0308 \u0729\u072a\u0308</string>
     </test>
-    <test label="U+072c U+0710 U+0031">
-      <comment>taw-syriac alaph-syriac one (LEastOptLega2) doesn't work </comment>
-      <string>\u072c\u0710\u0031 \u0729\u072c\u0710\u0031 \u072c\u0710\u0032 \u0729\u072c\u0710\u0032</string>
-    </test>
-    <test label="U+0728 U+0722">
-      <comment>sadhe-syriac nun-syriac (LEastOptLega)</comment>
-      <string>\u0728\u0722 \u0729\u0728\u0722</string>
-    </test>
-    <test label="U+0728 U+0722" stylename="dlig_1">
-      <comment>sadhe-syriac nun-syriac (LEastOptLega)</comment>
-      <string>\u0728\u0722 \u0729\u0728\u0722</string>
-    </test>
     <test label="U+0715 U+0722">
       <comment>dalath-syriac nun-syriac (kern_dalath_sadhe_nun) </comment>
       <string>\u0715\u0722 \u0729\u0715\u0722</string>

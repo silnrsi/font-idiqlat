@@ -1172,6 +1172,15 @@ lookup GRishSeyame {
     sub rish-syriac.fina dieresiscomb by rish_dieresiscomb-syriac.fina;
 } GRishSeyame;
 
+# Added this because we need a ligature before doing character variant
+lookup taw_alaph {
+    # 072C 0710
+    sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
+    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
+    sub taw-syriac alaph-syriac by taw_alaph-syriac;
+    sub taw-syriac alaph-syriac.fin2 by taw_alaph-syriac;
+} taw_alaph;
+
 # HB PAUSE
 lookup ltrMediOlaph {
     lookupflag IgnoreMarks;
@@ -1188,7 +1197,7 @@ lookup ltrFinaESyOlaph {
     sub alaph-syriac by alaph-syriac.fin3;
 } ltrFinaESyOlaph;
 
-# does not seem to work
+# Can probably be deleted
 lookup LEastOptLega2 {
     # 072C 0710 0031
     # GSUB lookup 14, type 14 (Ligature)
@@ -1202,7 +1211,7 @@ lookup LEastOptLega2 {
     sub taw-syriac alaph-syriac by taw_alaph-syriac.triangle;
 } LEastOptLega2;
 
-# This needs review because I added more ligatures than sadhe_nun
+# Can probably be deleted
 lookup LEastOptLega {
     # 0728 0722
     lookupflag IgnoreMarks;
@@ -1275,7 +1284,7 @@ lookup SadheNunLigature {
 lookup TawAlaphLigatures {
     lookupflag IgnoreMarks;
     sub taw_alaph-syriac from [taw_alaph-syriac.triangle taw_alaph-syriac.twined];
-    #    sub taw_alaph-syriac.fina from [ taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined];
+    sub taw_alaph-syriac.fina from [taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined];
 } TawAlaphLigatures;
 
 # Taw Yudh U+072C U+071D cv60=1
@@ -1362,6 +1371,7 @@ feature rlig {
     # Ligatures  -- we use this because liga is done in the same pass as cvXX
     script syrc;
     lookup GRishSeyame;
+    lookup taw_alaph;
 } rlig;
 
 # feature rclt - nothing to do
@@ -1381,11 +1391,6 @@ feature liga {
 
 # HB PAUSE
 #---  dlig feature (pass 10) ---
-# feature dlig {  # Discretionary Ligatures LEastOptLega works, other doesn't
-#    script syrc;
-#        lookup LEastOptLega2;
-#        lookup LEastOptLega;
-# } dlig ;
 #--- Character Variants ---
 feature cv15 {
     # Character Variant 15
