@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>2500</integer>
+  <integer>1560</integer>
   <key>capHeight</key>
-  <integer>1485</integer>
+  <integer>1433</integer>
   <key>copyright</key>
-  <string>Original fonts copyright (c) 1997-2025, Sparksoft Systems, with Reserved Font Names "Marcus" and "Nohadra". Additions and modifications copyright (c) 2025, SIL Global (https://www.sil.org/), with Reserved Font Name "SIL".</string>
+  <string>Original fonts copyright (c) 1997-2025, Sparksoft Systems, with Reserved Font Names "Marcus" and "Nohadra". Additions and modifications copyright (c) 2025, SIL Global (https://www.sil.org/), with Reserved Font Names "Idiqlat" and "SIL".</string>
   <key>descender</key>
-  <integer>-800</integer>
+  <integer>-689</integer>
   <key>familyName</key>
   <string>Syriac Proto</string>
   <key>openTypeHeadCreated</key>
   <string>2025/04/14 13:25:15</string>
   <key>openTypeHheaAscender</key>
-  <integer>2500</integer>
+  <integer>1560</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-800</integer>
+  <integer>-689</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -27,7 +27,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>https://software.sil.org/</string>
   <key>openTypeNameLicense</key>
-  <string>Original fonts copyright (c) 1997-2025, Sparksoft Systems, with Reserved Font Names "Marcus" and "Nohadra". Additions and modifications copyright (c) 2025, SIL Global (https://www.sil.org/), with Reserved Font Name "SIL".
+  <string>Original fonts copyright (c) 1997-2025, Sparksoft Systems, with Reserved Font Names "Marcus" and "Nohadra". Additions and modifications copyright (c) 2025, SIL Global (https://www.sil.org/), with Reserved Font Names "Idiqlat" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://openfontlicense.org/
 
@@ -94,31 +94,31 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>7</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
-  <integer>700</integer>
+  <integer>530</integer>
   <key>openTypeOS2StrikeoutSize</key>
-  <integer>100</integer>
+  <integer>102</integer>
   <key>openTypeOS2SubscriptXOffset</key>
   <integer>0</integer>
   <key>openTypeOS2SubscriptXSize</key>
-  <integer>1433</integer>
+  <integer>1434</integer>
   <key>openTypeOS2SubscriptYOffset</key>
-  <integer>286</integer>
+  <integer>293</integer>
   <key>openTypeOS2SubscriptYSize</key>
   <integer>1331</integer>
   <key>openTypeOS2SuperscriptXOffset</key>
   <integer>0</integer>
   <key>openTypeOS2SuperscriptXSize</key>
-  <integer>1433</integer>
+  <integer>1434</integer>
   <key>openTypeOS2SuperscriptYOffset</key>
-  <integer>976</integer>
+  <integer>928</integer>
   <key>openTypeOS2SuperscriptYSize</key>
   <integer>1331</integer>
   <key>openTypeOS2Type</key>
   <array/>
   <key>openTypeOS2TypoAscender</key>
-  <integer>2500</integer>
+  <integer>1560</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-800</integer>
+  <integer>-689</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -153,17 +153,17 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>2500</integer>
+  <integer>1560</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>800</integer>
+  <integer>689</integer>
   <key>postscriptFontName</key>
   <string>SyriacProto-Light</string>
   <key>postscriptFullName</key>
   <string>SyriacProto Light</string>
   <key>postscriptUnderlinePosition</key>
-  <integer>-110</integer>
+  <integer>-150</integer>
   <key>postscriptUnderlineThickness</key>
-  <integer>80</integer>
+  <integer>20</integer>
   <key>styleMapFamilyName</key>
   <string>Syriac Proto</string>
   <key>styleMapStyleName</key>
@@ -230,6 +230,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <string>https://software.sil.org/syriacproto/</string>
   </dict>
   <key>xHeight</key>
-  <integer>1040</integer>
+  <integer>1024</integer>
 </dict>
 </plist>
