@@ -1,11 +1,11 @@
 ---
-title: Syriac Proto - Documentation
+title: Idiqlat - Documentation
 fontversion: 1.101
 ---
 
-Thank you for your interest in the Syriac Proto fonts. This font family supports the broad variety of writing systems that use Latin and Cyrillic scripts. The design is optimized for high readability at a wide range of sizes and resolutions, making it ideal for new readers moving on from simple sans serif forms. 
+Thank you for your interest in the Idiqlat fonts. This font family supports the broad variety of writing systems that use Latin and Cyrillic scripts. The design is optimized for high readability at a wide range of sizes and resolutions, making it ideal for new readers moving on from simple sans serif forms. 
 
-This documentation is a set of HTML pages that can be viewed in any modern web browser. PDF versions of these pages are also provided. This content, plus download links and a contact form, are available from the [Syriac Proto site](https://software.sil.org/syrc/).
+This documentation is a set of HTML pages that can be viewed in any modern web browser. PDF versions of these pages are also provided. This content, plus download links and a contact form, are available from the [Idiqlat site](https://software.sil.org/syrc/).
 
 - [About](about.md) — Information about this project and SIL Global
 - [Resources](resources.md) — Help with installation and use

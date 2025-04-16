@@ -1,5 +1,5 @@
 ---
-title: Syriac Proto - Resources
+title: Idiqlat - Resources
 fontversion: 1.101
 ---
 

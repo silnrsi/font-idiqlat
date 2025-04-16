@@ -1,5 +1,5 @@
 ---
-title: Syriac Proto - Frequently Asked Questions
+title: Idiqlat - Frequently Asked Questions
 fontversion: 1.101
 ---
 
@@ -18,7 +18,7 @@ Many questions can be answered by consulting the following FAQ pages. Here are a
     - *If I use the font on a web page do I have to include an acknowledgement?*
     - The full OFL-FAQ.txt is also included in the font package.
 
-Here are a few of the most frequently asked questions specifically regarding Syriac Proto:
+Here are a few of the most frequently asked questions specifically regarding Idiqlat:
 
 #### *How is this font different from East Syriac Marcus?*
 

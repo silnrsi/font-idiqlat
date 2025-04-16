@@ -1,6 +1,6 @@
-# Syriac Proto
+# Idiqlat
 
-Syriac Proto is a font family for the East Syriac script. It is named after xxx.
+Idiqlat is a font family for the East Syriac script. The font name, Idiqlat, means Tigris River in ancient Akkadian/Assyrian.
 
 For more details about this project, including its design history and acknowledgements see [FONTLOG.txt](FONTLOG.txt).
 

@@ -4,14 +4,14 @@ Copyright (c) 2025 SIL Global (https://www.sil.org/). This Font Software is
 released under the MIT license (https://opensource.org/licenses/MIT).
 */
 @font-face {
-    font-family: SyriacProto-R;
+    font-family: idiqlat-R;
     src: url("../../../results/SyriacProto-Regular.ttf") format("truetype");
 }
 @font-face {
-    font-family: SyriacProto-L;
+    font-family: idiqlat-L;
     src: url("../../../results/SyriacProto-Light.ttf") format("truetype");
 }
 
-.syriacproto-R { font-family: SyriacProto-R; direction: rtl; text-align: right;}
-.syriacproto-L { font-family: SyriacProto-L; direction: rtl; text-align: right;}
+.idiqlat-R { font-family: idiqlat-R; direction: rtl; text-align: right;}
+.idiqlat-L { font-family: idiqlat-L; direction: rtl; text-align: right;}
 

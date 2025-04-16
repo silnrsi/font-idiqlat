@@ -117,7 +117,7 @@ Here is an example of a footnote[^1] that will appear at the very bottom[^anytex
 
 Images should be specified in markdown syntax with the local path used as the link. The class is required and needs to be defined in {}, usually {.fullsize}. Then the actual path to the image in the product site image library needs to be placed in a comment using a special syntax. If you want a caption it needs to be placed in a separate html *figcaption* element. Example:
 
-![Syriac Proto Sample - Precomposed Latin Diacritics](../assets/images/CharisSILTypePage.png){.fullsize}
+![Idiqlat Sample - Precomposed Latin Diacritics](../assets/images/CharisSILTypePage.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/syrc/wp-content/uploads/sites/14/2015/12/CharisSILTypePage.png -->
 <figcaption>This is the caption</figcaption>
 
@@ -136,7 +136,7 @@ In order for text marked up in the same way to display properly on the product s
 - Each page that uses the font needs to have a [font] shortcode definition that matches the css class id and font family names.
 - The classes listed in individual `<span>`s need to include 'normal' to remove any inherited styling. 
 
-Example: <span class='charis-R normal'>Syriac Proto regular,</span> <span class='charis-I normal'>italic,</span> <span class='charis-B normal'>bold,</span> and <span class='charis-BI normal'>bold italic.</span>
+Example: <span class='charis-R normal'>Idiqlat regular,</span> <span class='charis-I normal'>italic,</span> <span class='charis-B normal'>bold,</span> and <span class='charis-BI normal'>bold italic.</span>
 
 ## Font features
 

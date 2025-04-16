@@ -1,5 +1,5 @@
 ---
-title: Syriac Proto - Character Set Support
+title: Idiqlat - Character Set Support
 fontversion: 1.101
 ---
 
@@ -9,7 +9,7 @@ This font supports supports most of the characters in the Syriac block.
 
 The following character ranges are supported by this font:
 
-Unicode block | Syriac Proto support
+Unicode block | Idiqlat support
 ------------- | ---------------
 Arabic | 060C, 061B, 061F, 0640, 0651 
 Syriac 	| ✓ (does not include 072D..072F, 074D..074F)

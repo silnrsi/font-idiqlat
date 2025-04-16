@@ -1,23 +1,23 @@
 FONTLOG
-SyriacProto
+Idiqlat
 ===================
 
 
-This file provides detailed information on the SyriacProto fonts.
-This information should be distributed along with the Syriac Proto fonts and
+This file provides detailed information on the Idiqlat fonts.
+This information should be distributed along with the Idiqlat fonts and
 any derivative works.
 
 
 Basic Font Information
 ----------------------
 
-SyriacProto is a font family for the East Syriac script. It is named xxx.
+Idiqlat is a font family for the East Syriac script.
 
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-### xx xxx 2025 (WSTech team) SyriacProto Version 1.xxx
+### xx xxx 2025 (WSTech team) Idiqlat Version 1.xxx
 - List of changes
 
 Information for Contributors
@@ -51,6 +51,10 @@ N: Esho Marcus
 W: https://github.com/SparksoftSystems/Syriac-Fonts
 D: Type Designer
 
-The SyriacProto project is maintained by SIL Global.
+N: Becca Spalinger and Lorna Evans
+W: https://github.com/silnrsi/font-syriac-proto
+D: SIL Designers and Engineers
 
-For more information please visit SIL Global's website: https://software.sil.org/fonts/
+The Idiqlat project is maintained by SIL Global.
+
+For more information please visit SIL Global's website: https://software.sil.org/idiqlat/

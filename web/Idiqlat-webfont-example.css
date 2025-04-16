@@ -1,73 +1,73 @@
 /*
-SyriacProto-webfont-example.css
-This file is part of Syriac Proto font family (https://software.sil.org/syrc)
+Idiqlat-webfont-example.css
+This file is part of Idiqlat font family (https://software.sil.org/syrc)
 and is Copyright (c) 2025 SIL Global (https://www.sil.org/),
-with Reserved Font Names "SIL". This Font Software is licensed
+with Reserved Font Names "Idiqlat" and "SIL". This Font Software is licensed
 under the SIL Open Font License, Version 1.1. You should have received a copy
 of the license along with this Font Software. If this is not the case, go to
 (https://openfontlicense.org/) for all the details including a FAQ.
 */
 
-/* use Lateef - Regular in .woff format */
+/* use Idiqlat - Regular in .woff format */
 @font-face {
-  font-family: SyriacProtoR;
+  font-family: IdiqlatR;
   src: url(SyriacProto-Regular.woff2);
 }
 @font-face {
-  font-family: SyriacProtoL;
+  font-family: IdiqlatL;
   src: url(SyriacProto-Light.woff2);
 }
 
-/* set body to use SyriacProto in .woff format */
+/* set body to use Idiqlat in .woff format */
 body {
-  font-family: SyriacProtoR, sans-serif; text-align: left;
+  font-family: IdiqlatR, sans-serif; text-align: left;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }
 
 h1 {
-  font-family: SyriacProtoR, sans-serif; text-align: left; font-size: 230%;
+  font-family: IdiqlatR, sans-serif; text-align: left; font-size: 230%;
 }
 h2 {
-  font-family: SyriacProtoR, sans-serif; text-align: left;font-size: 220%;
+  font-family: IdiqlatR, sans-serif; text-align: left;font-size: 220%;
 }
 .rtl {
-  font-family: SyriacProtoR, sans-serif; font-size: 200%; direction: rtl; text-align: right;
+  font-family: IdiqlatR, sans-serif; font-size: 200%; direction: rtl; text-align: right;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }	
 .rtl_l {
-  font-family: SyriacProtoL, sans-serif; font-size: 200%; direction: rtl; text-align: right;
+  font-family: IdiqlatL, sans-serif; font-size: 200%; direction: rtl; text-align: right;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }	
 .cv38 {
-  font-family: SyriacProtoR;
+  font-family: IdiqlatR;
   font-feature-settings: "cv38" 1;
   -moz-font-feature-settings: "cv38" 1;
   -webkit-font-feature-settings: "cv38" 1;
   font-size: 200%; direction: rtl; text-align: right;
 }
 .cv55 {
-  font-family: SyriacProtoR; 
+  font-family: IdiqlatR; 
   font-feature-settings: "cv55" 1;
   -moz-font-feature-settings: "cv55" 1;
   -webkit-font-feature-settings: "cv55" 1;
   font-size: 200%; direction: rtl; text-align: right;
 }
 .cv591 {
-  font-family: SyriacProtoR; 
+  font-family: IdiqlatR; 
   font-feature-settings: "cv59" 1;
   -moz-font-feature-settings: "cv59" 1;
   -webkit-font-feature-settings: "cv59" 1;
   font-size: 200%; direction: rtl; text-align: right;
 }
 .cv592 {
-  font-family: SyriacProtoR; 
+  font-family: IdiqlatR; 
   font-feature-settings: "cv59" 2;
   -moz-font-feature-settings: "cv59" 2;
   -webkit-font-feature-settings: "cv59" 2;
   font-size: 200%; direction: rtl; text-align: right;
 }
 .cv60 {
-  font-family: SyriacProtoR; 
+  font-family: IdiqlatR; 
   font-feature-settings: "cv60" 1;
   -moz-font-feature-settings: "cv60" 1;
   -webkit-font-feature-settings: "cv60" 1;

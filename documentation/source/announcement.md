@@ -1,9 +1,9 @@
 ---
-title: Syriac Proto - Announcement
+title: Idiqlat - Announcement
 fontversion: 1.101
 ---
 
-We are very pleased to announce release of Syriac Proto, a new font for the East Syriac style of the Syriac script.
+We are very pleased to announce release of Idiqlat, a new font for the East Syriac style of the Syriac script.
 
 ### Changes
 
