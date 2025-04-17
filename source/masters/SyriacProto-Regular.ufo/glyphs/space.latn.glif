@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="space.latn" format="2">
-  <advance width="271"/>
+  <advance width="407"/>
   <anchor x="184" y="927" name="above"/>
   <anchor x="184" y="-42" name="below"/>
   <outline/>

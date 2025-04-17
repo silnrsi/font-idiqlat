@@ -1,6 +1,6 @@
 # font-syriac-proto
 
-## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_SyriacProto/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_SyriacProto&guest=1)  
+## Project status [![Build Status](https://build.palaso.org/app/rest/builds/buildType:Fonts_SyriacProto/statusIcon)](https://build.palaso.org/viewType.html?buildTypeId=Fonts_SyriacProto&guest=1)  
 
 Idiqlat is a font family for the East Syriac script.
 
