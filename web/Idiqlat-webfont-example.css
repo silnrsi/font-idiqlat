@@ -11,11 +11,11 @@ of the license along with this Font Software. If this is not the case, go to
 /* use Idiqlat - Regular in .woff format */
 @font-face {
   font-family: IdiqlatR;
-  src: url(SyriacProto-Regular.woff2);
+  src: url(Idiqlat-Regular.woff2);
 }
 @font-face {
   font-family: IdiqlatL;
-  src: url(SyriacProto-Light.woff2);
+  src: url(Idiqlat-Light.woff2);
 }
 
 /* set body to use Idiqlat in .woff format */

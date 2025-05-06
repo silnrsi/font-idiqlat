@@ -2,12 +2,12 @@
 
 ar=$PWD/tools/archive/latin
 glyphnames=$HOME/script/smithplus/etc/glyph_names/glyph_names.csv
-import=$HOME/script/syrc/fonts/syriac_proto-local/latin/Lateef
+import=$HOME/script/syrc/fonts/idiqlatsyriac_proto-local/latin/Lateef
 
 pushd source/masters
 for weight in Light Regular
 do
-    ufo=SyriacProto-${weight}.ufo
+    ufo=Idiqlat-${weight}.ufo
 
     # prepare
     psfdeleteglyphs -i $ar/delete.txt $ufo

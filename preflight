@@ -2,25 +2,25 @@
 
 echo "-----Normalizing Regular UFO..."
 echo "-----Updating production names in Regular..."
-psfsetpsnames -q -p checkfix=none -i source/glyph_data.csv source/masters/SyriacProto-Regular.ufo
+psfsetpsnames -q -p checkfix=none -i source/glyph_data.csv source/masters/Idiqlat-Regular.ufo
 
 echo "-----Updating glyph orders in Regular..."
-psfsetglyphorder -q --header sort_final -i source/glyph_data.csv source/masters/SyriacProto-Regular.ufo -p backup=False -x
+psfsetglyphorder -q --header sort_final -i source/glyph_data.csv source/masters/Idiqlat-Regular.ufo -p backup=False -x
 
 echo "-----Normalizing other UFOs..."
-psfnormalize -p checkfix=fix source/masters/SyriacProto-Regular.ufo       &
-psfnormalize -p checkfix=fix source/masters/SyriacProto-Light.ufo       &
+psfnormalize -p checkfix=fix source/masters/Idiqlat-Regular.ufo       &
+psfnormalize -p checkfix=fix source/masters/Idiqlat-Light.ufo       &
 wait
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters -q source/SyriacProto.designspace 
+psfsyncmasters -q source/Idiqlat.designspace 
 
 echo "Updating woff metadata files..."
-psfmakewoffmetadata -q -n  SyriacProto        -i org.sil.fonts source/masters/*-Regular.ufo  -o "source/SyriacProto-WOFF-metadata.xml"
+psfmakewoffmetadata -q -n  Idiqlat        -i org.sil.fonts source/masters/*-Regular.ufo  -o "source/Idiqlat-WOFF-metadata.xml"
 
 echo "Building internal fea..."
-makefea -o source/masters/SyriacProto-Regular.ufo/features.fea --ignoreglyphs -l source/logs/SyriacProto-Regular-psfmakefea.log -i source/opentype/main.feax --omitaps "R, O, L" -c source/classes.xml source/masters/SyriacProto-Regular.ufo &
-makefea -o source/masters/SyriacProto-Light.ufo/features.fea  --ignoreglyphs -l source/logs/SyriacProto-Regular-psfmakefea.log -i source/opentype/main.feax --omitaps "R, O, L" -c source/classes.xml source/masters/SyriacProto-Light.ufo    &
+makefea -o source/masters/Idiqlat-Regular.ufo/features.fea --ignoreglyphs -l source/logs/Idiqlat-Regular-psfmakefea.log -i source/opentype/main.feax --omitaps "R, O, L" -c source/classes.xml source/masters/Idiqlat-Regular.ufo &
+makefea -o source/masters/Idiqlat-Light.ufo/features.fea  --ignoreglyphs -l source/logs/Idiqlat-Regular-psfmakefea.log -i source/opentype/main.feax --omitaps "R, O, L" -c source/classes.xml source/masters/Idiqlat-Light.ufo    &
 
 
 wait

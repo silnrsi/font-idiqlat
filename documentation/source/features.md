@@ -78,5 +78,5 @@ Standard | <span dir="rtl" class='idiqlat-R normal'>&#x072C;&#x071D;</span> | `c
 Ligature | <span dir="rtl" class='idiqlat-R normal' style='font-feature-settings: "cv60" 1'>&#x072C;&#x071D;</span> | `cv60=1`
 
 <!-- PRODUCT SITE ONLY
-[font id='idiqlat' face='SyriacProto-Regular' size='150%' rtl=1]
+[font id='idiqlat' face='Idiqlat-Regular' size='150%' rtl=1]
 -->

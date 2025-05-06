@@ -3,10 +3,9 @@
 <ftml version="1.0">
   <head>
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 17.0 or later; else light green: a character is new in this version of the font</comment>
-    <fontscale>300</fontscale>
-    <fontsrc label="1.1">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-    <fontsrc label="Lt">url(../results/SyriacProto-Light.ttf)</fontsrc>
-    <fontsrc label="Reg">url(../results/SyriacProto-Regular.ttf)</fontsrc>
+    <fontscale>200</fontscale>
+    <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/Idiqlat-Regular.ttf)</fontsrc>
     <title>Diacritics</title>
     <widths string="25%"/>
   </head>

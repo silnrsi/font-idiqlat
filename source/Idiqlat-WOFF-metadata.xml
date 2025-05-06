@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.SyriacProto.1.101" />
+  <uniqueid id="org.sil.fonts.Idiqlat.1.101" />
   <vendor name="SIL Global" url="https://www.sil.org/" />
   <credits>
     <credit
       name="Becca Spalinger"
-      url="https://software.sil.org/syriacproto"
+      url="https://software.sil.org/idiqlat"
       role="Font design"
     />
     <credit
       name="Lorna Evans"
-      url="https://software.sil.org/syriacproto"
+      url="https://software.sil.org/idiqlat"
       role="Font production"
     />
     <credit
@@ -24,9 +24,9 @@
       role="Opentype design"
     />
   </credits>
-  <description url="https://software.sil.org/syriacproto/">
+  <description url="https://software.sil.org/idiqlat/">
     <text lang="en">
-      Syriac Proto is a font family for the East Syriac script.
+      Idiqlat is a font family for the East Syriac script.
     </text>
   </description>
   <license url="https://openfontlicense.org" id="org.openfontlicense.1.1">

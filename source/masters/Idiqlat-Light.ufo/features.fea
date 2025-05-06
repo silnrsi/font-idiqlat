@@ -960,9 +960,9 @@ markClass femininedot-syriac <anchor 165 0> @_b.U0740;
 @diaB = [space.latn];
 # baseClass space.latn <anchor 184 -42> @diaB;
 #**********************************
-# This file is part of East Syriac Marcus font family (https://software.sil.org/xxx/) 
+# This file is part of Idiqlat font family (https://software.sil.org/idiqlat/) 
 # and is Copyright (c) 2025 SIL Global (https://www.sil.org/),
-# with Reserved Font Names "SIL".
+# with Reserved Font Names "Idiqlat" and "SIL".
 #
 # This Font Software is licensed under the SIL Open Font License, Version 1.1.
 #

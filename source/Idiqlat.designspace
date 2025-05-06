@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!--
-    Axis-based designpsace for SIL's SyriacProto font family
+    Axis-based designpsace for SIL's Idiqlat font family
 
 -->
 <designspace format="3">
@@ -20,14 +20,14 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Syriac Proto" filename="masters/SyriacProto-Light.ufo" name="Syriac Proto Light" stylename="Light">
+        <source familyname="Idiqlat" filename="masters/Idiqlat-Light.ufo" name="Idiqlat Light" stylename="Light">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Syriac Proto" filename="masters/SyriacProto-Regular.ufo" name="Syriac Proto Regular" stylename="Regular">
+        <source familyname="Idiqlat" filename="masters/Idiqlat-Regular.ufo" name="Idiqlat Regular" stylename="Regular">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -43,14 +43,14 @@
         <!-- stylemapfamilyname: use <familyname> for Regular, else use <familyname>+" "+<stylename> -->
         <!-- stylemapstylename: use "regular" for all styles except B: use "bold" -->
 
-        <!-- SyriacProto Light -->
-        <instance       familyname="Syriac Proto"
-                          filename="instances/SyriacProto-Light.ufo"
-                              name="Syriac Proto Light"
-                stylemapfamilyname="Syriac Proto Light"
+        <!-- Idiqlat Light -->
+        <instance       familyname="Idiqlat"
+                          filename="instances/Idiqlat-Light.ufo"
+                              name="Idiqlat Light"
+                stylemapfamilyname="Idiqlat Light"
                  stylemapstylename="regular"
                          stylename="Light"
-                postscriptfontname="SyriacProto-Light">
+                postscriptfontname="Idiqlat-Light">
             <location>
                 <dimension name="weight" xvalue="350.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -60,14 +60,14 @@
             <kerning/>
         </instance>
 
-        <!-- SyriacProto Regular -->
-        <instance       familyname="Syriac Proto"
-                          filename="instances/SyriacProto-Regular.ufo"
-                              name="Syriac Proto Regular"
-                stylemapfamilyname="Syriac Proto"
+        <!-- Idiqlat Regular -->
+        <instance       familyname="Idiqlat"
+                          filename="instances/Idiqlat-Regular.ufo"
+                              name="Idiqlat Regular"
+                stylemapfamilyname="Idiqlat"
                  stylemapstylename="regular"
                          stylename="Regular"
-                postscriptfontname="SyriacProto-Regular">
+                postscriptfontname="Idiqlat-Regular">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
                 <dimension name="width" xvalue="100.000000" />

@@ -24,7 +24,7 @@ Information for Contributors
 ----------------------------
 We welcome contributions to this font project, such as new glyphs, enhanced 
 smart font code, or bug fixes. The best way to begin the process is to file 
-an issue in the Github project (https://github.com/silnrsi/font-syriac-proto) 
+an issue in the Github project (https://github.com/silnrsi/font-idiqlat) 
 or respond to an existing issue and express your interest. Then we can begin 
 to correspond with you regarding what all might be required and discuss how 
 to best submit your contributions.
@@ -52,7 +52,7 @@ W: https://github.com/SparksoftSystems/Syriac-Fonts
 D: Type Designer
 
 N: Becca Spalinger and Lorna Evans
-W: https://github.com/silnrsi/font-syriac-proto
+W: https://github.com/silnrsi/font-idiqlat
 D: SIL Designers and Engineers
 
 The Idiqlat project is maintained by SIL Global.

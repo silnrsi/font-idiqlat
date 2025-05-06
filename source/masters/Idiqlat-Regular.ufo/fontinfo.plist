@@ -11,9 +11,9 @@
   <key>descender</key>
   <integer>-898</integer>
   <key>familyName</key>
-  <string>Syriac Proto</string>
+  <string>Idiqlat</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/04/17 14:51:40</string>
+  <string>2025/05/06 12:00:27</string>
   <key>openTypeHheaAscender</key>
   <integer>1560</integer>
   <key>openTypeHheaDescender</key>
@@ -77,11 +77,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameManufacturerURL</key>
   <string>https://www.sil.org/</string>
   <key>openTypeNamePreferredFamilyName</key>
-  <string>Syriac Proto</string>
+  <string>Idiqlat</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL Global: Syriac Proto Regular: 2025</string>
+  <string>SIL Global: Idiqlat Regular: 2025</string>
   <key>openTypeNameVersion</key>
   <string>Version 1.101</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -157,15 +157,15 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WinDescent</key>
   <integer>997</integer>
   <key>postscriptFontName</key>
-  <string>SyriacProto-Regular</string>
+  <string>Idiqlat-Regular</string>
   <key>postscriptFullName</key>
-  <string>Syriac Proto Regular</string>
+  <string>Idiqlat Regular</string>
   <key>postscriptUnderlinePosition</key>
   <integer>-150</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>20</integer>
   <key>styleMapFamilyName</key>
-  <string>Syriac Proto</string>
+  <string>Idiqlat</string>
   <key>styleMapStyleName</key>
   <string>regular</string>
   <key>styleName</key>
@@ -188,7 +188,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         <key>role</key>
         <string>Font design</string>
         <key>url</key>
-        <string>https://software.sil.org/syriacproto</string>
+        <string>https://software.sil.org/idiqlat</string>
       </dict>
       <dict>
         <key>name</key>
@@ -196,7 +196,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         <key>role</key>
         <string>Font production</string>
         <key>url</key>
-        <string>https://software.sil.org/syriacproto</string>
+        <string>https://software.sil.org/idiqlat</string>
       </dict>
       <dict>
         <key>name</key>
@@ -222,12 +222,12 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <array>
       <dict>
         <key>text</key>
-        <string>Syriac Proto is a font family for the East Syriac script.
+        <string>Idiqlat is a font family for the East Syriac script.
 </string>
       </dict>
     </array>
     <key>url</key>
-    <string>https://software.sil.org/syriacproto/</string>
+    <string>https://software.sil.org/idiqlat/</string>
   </dict>
   <key>xHeight</key>
   <integer>1024</integer>

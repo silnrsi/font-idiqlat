@@ -80,7 +80,7 @@ Regular:<span class='idiqlat-R normal'>&#x060C; &#x061B; &#x061F; &#x0640; &#x06
 
 
 <!-- PRODUCT SITE ONLY
-[font id='idiqlat' face='SyriacProto-Regular'size='150%' rtl=1]
-[font id='idiqlatL' face='SyriacProto-Regular' size='150%' ltr=1]
+[font id='idiqlat' face='Idiqlat-Regular'size='150%' rtl=1]
+[font id='idiqlatL' face='Idiqlat-Regular' size='150%' ltr=1]
 -->
 

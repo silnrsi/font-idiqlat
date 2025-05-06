@@ -1,4 +1,4 @@
-# font-syriac-proto
+# font-idiqlat
 
 ## Project status [![Build Status](https://build.palaso.org/app/rest/builds/buildType:Fonts_SyriacProto/statusIcon)](https://build.palaso.org/viewType.html?buildTypeId=Fonts_SyriacProto&guest=1)  
 

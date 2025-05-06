@@ -1,14 +1,14 @@
 #!/usr/bin/python
 # encoding: utf8
 
-# Smith configuration file for Syriac Proto
+# Smith configuration file for Idiqlat
 
 # set the default output folders
 DOCDIR = ["documentation", "web"]
 genout = "generated/"
 
 # set the font name and description
-APPNAME = 'SyriacProto'
+APPNAME = 'Idiqlat'
 FAMILY = APPNAME
 DESC_SHORT = "Font for the East Syriac script"
 
@@ -21,7 +21,7 @@ ftmlTest('tools/ftml-smith.xsl')
 # APs to omit:
 omitaps = '--omitaps "L,O,R"'
 
-designspace('source/SyriacProto.designspace',
+designspace('source/Idiqlat.designspace',
     instanceparams='-l ' + genout + '${DS:FILENAME_BASE}_createinstances.log',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
