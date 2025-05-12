@@ -27,7 +27,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3343</string>
+  <string>3414</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/beth-syriac/he-syriac/kaph-syriac/alaph-syriac/mim-syriac/_qaph/qaph-syriac/qaph-syriac.medi/qaph-syriac.fina/shin-syriac/pe-syriac/semkath-syriac 
@@ -45,7 +45,7 @@
 /lamadh-syriac/lamadh-syriac.init/lamadh-syriac.medi/lamadh-syriac.fina/lamadh_alaph-syriac/lamadh_alaph-syriac.fina/space/alaph-syriac.ccmp/e-syriac/e-syriac.init/e-syriac.medi/e-syriac.fina 
 /taw-syriac/space/taw-syriac.fina/space/taw_alaph-syriac/space/taw_alaph-syriac.fina/taw_yudh-syriac/taw_yudh-syriac.fina</string>
     <string>/alaph-syriac/alaph-syriac.med2/alaph-syriac.fina/alaph-syriac.fin2/alaph-syriac.fin3/space/alaphSuperscript-syriac/space/lamadh-syriac.init/lamadh_alaph-syriac/lamadh_alaph-syriac.fina/alaph-syriac.ccmp/taw_alaph-syriac.triangle/taw_alaph-syriac.fina.triangle/taw_alaph-syriac.twined/taw_alaph-syriac.fina.twined/space 
-/taw_alaph-syriac/alaph-syriac.fina/taw_alaph-syriac.fina/space/e-syriac.init/e-syriac/e-syriac.medi/e-syriac.fina/taw-syriac/taw-syriac.fina/_LeftTail/taw_yudh-syriac/yudh-syriac/taw_yudh-syriac.fina</string>
+/taw_alaph-syriac/alaph-syriac.fina/taw_alaph-syriac.fina/space/e-syriac.init/e-syriac/e-syriac.medi/e-syriac.fina/taw-syriac/taw-syriac.fina/_LeftTail/taw_yudh-syriac/yudh-syriac.medi/yudh-syriac/taw_yudh-syriac.fina</string>
     <string>/pthahaabove-syriac/space/pthahabelow-syriac/space/pthahadotted-syriac/space/zqaphaabove-syriac/space/zqaphabelow-syriac/space/zqaphadotted-syriac/space/rbasaabove-syriac/space/rbasabelow-syriac/space/zlamadottedhorizontal-syriac/space/zlamadottedangular-syriac/space/hbasaabove-syriac/space/hbasabelow-syriac/space/hbasaEsasadotted-syriac/space/esasaabove-syriac/space/esasabelow-syriac/space/rwaha-syriac/space/femininedot-syriac/space/qushshaya-syriac/space/rukkakha-syriac/space/rukkakha-syriac.square/space/_LrgSquareDot/_smDotsquare/twodotsverticalabove-syriac/space/twodotsverticalbelow-syriac/space/threedotsabove-syriac/space/threedotsbelow-syriac/space/obliquelineabove-syriac/space/obliquelinebelow-syriac/space/music-syriac/space/barrekh-syriac/harkleanAsteriscus-syriac/space/westSyriacCross/space/eastSyriacCross/space/tildecomb/space/macroncomb/space/dotaccentcomb/space/dieresiscomb/space/ringcomb/space/minusbelowcomb/space/dotbelowcomb/space/dotaboveleftcomb/space/dotbelowleftcomb/space/dieresisbelowcomb/space/ringbelowcomb/space/circumflexbelowcomb/space/brevebelowcomb/space/tildebelowcomb/space/macronbelowcomb/space/comma-ar/space/semicolon-ar/space/question-ar/space/kashida-ar/space/kashida-ar.threequarter/space/kashida-ar.half/space/kashida-ar.quarter/space/shadda-ar/space/quoteleft/space/quoteright/space/quotedblleft/space/quotedblright/space/dottedCircle/space/glottalstopmod/space/glottalstopreversedmod/space/overline/space/ringhalfrightcentered/ringhalfleftcentered</string>
     <string>/he-syriac/_qaph/qaph-syriac/taw-syriac/nun-syriac.fina/sadhe-syriac/sadhe-syriac.fina/sadhe_nun-syriac/sadhe_nun-syriac.fina</string>
   </array>
