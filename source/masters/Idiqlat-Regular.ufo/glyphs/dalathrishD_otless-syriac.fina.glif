@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalathrishDotless-syriac.fina" format="2">
   <advance width="702"/>
+  <anchor x="328" y="720" name="above"/>
   <anchor x="313" y="-150" name="b.U0325_3"/>
-  <anchor x="328" y="-180" name="b.U0331_2"/>
   <anchor x="343" y="-150" name="b.U0740"/>
+  <anchor x="328" y="-180" name="below"/>
   <anchor x="298" y="720" name="m.U030a_1"/>
-  <anchor x="328" y="720" name="t.U0656"/>
   <outline>
     <component base="dalathrishDotless-syriac"/>
     <contour>

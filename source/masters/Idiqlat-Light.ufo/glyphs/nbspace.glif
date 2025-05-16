@@ -2,10 +2,10 @@
 <glyph name="nbspace" format="2">
   <advance width="285"/>
   <unicode hex="00A0"/>
+  <anchor x="510" y="995" name="above"/>
   <anchor x="525" y="-210" name="b.U0325_3"/>
-  <anchor x="525" y="-195" name="b.U0331_2"/>
   <anchor x="510" y="-120" name="b.U0740"/>
+  <anchor x="525" y="-195" name="below"/>
   <anchor x="510" y="965" name="m.U030a_1"/>
-  <anchor x="510" y="995" name="t.U0656"/>
   <outline/>
 </glyph>

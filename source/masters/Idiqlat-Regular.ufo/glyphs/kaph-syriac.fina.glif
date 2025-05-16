@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaph-syriac.fina" format="2">
   <advance width="984"/>
+  <anchor x="373" y="705" name="above"/>
   <anchor x="388" y="-375" name="b.U0325_3"/>
-  <anchor x="298" y="-300" name="b.U0331_2"/>
   <anchor x="328" y="-330" name="b.U0740"/>
+  <anchor x="298" y="-300" name="below"/>
   <anchor x="388" y="705" name="m.U030a_1"/>
-  <anchor x="373" y="705" name="t.U0656"/>
   <outline>
     <contour>
       <point x="629" y="195" type="line"/>

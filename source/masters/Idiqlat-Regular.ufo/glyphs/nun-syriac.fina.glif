@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nun-syriac.fina" format="2">
   <advance width="509"/>
+  <anchor x="275" y="465" name="above"/>
   <anchor x="275" y="-570" name="b.U0325_3"/>
-  <anchor x="290" y="-615" name="b.U0331_2"/>
   <anchor x="290" y="-630" name="b.U0740"/>
+  <anchor x="290" y="-615" name="below"/>
   <anchor x="275" y="480" name="m.U030a_1"/>
-  <anchor x="275" y="465" name="t.U0656"/>
   <outline>
     <contour>
       <point x="420" y="-522"/>

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hbasaEsasadotted-syriac" format="2">
   <unicode hex="073C"/>
-  <anchor x="75" y="-60" name="_b.U0331"/>
-  <anchor x="90" y="-45" name="_b.U0331_2"/>
   <anchor x="75" y="-90" name="_b.U0331_2_2"/>
-  <anchor x="90" y="-390" name="b.U0331"/>
+  <anchor x="90" y="-45" name="_below"/>
+  <anchor x="90" y="-390" name="below"/>
   <outline>
     <contour>
       <point x="77" y="-238" type="curve" smooth="yes"/>

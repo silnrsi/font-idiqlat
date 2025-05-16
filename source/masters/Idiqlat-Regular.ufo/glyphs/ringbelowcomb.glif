@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringbelowcomb" format="2">
   <unicode hex="0325"/>
-  <anchor x="120" y="-15" name="_b.U0325_3"/>
-  <anchor x="135" y="0" name="_b.U0325_3_2"/>
+  <anchor x="118" y="30" name="_below"/>
+  <anchor x="120" y="-325" name="below"/>
   <outline>
     <contour>
       <point x="118" y="-235" type="curve" smooth="yes"/>

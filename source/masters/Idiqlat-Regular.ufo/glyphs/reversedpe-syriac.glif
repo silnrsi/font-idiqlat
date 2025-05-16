@@ -2,11 +2,11 @@
 <glyph name="reversedpe-syriac" format="2">
   <advance width="1228"/>
   <unicode hex="0727"/>
+  <anchor x="526" y="1035" name="above"/>
   <anchor x="1171" y="-150" name="b.U0325_3"/>
-  <anchor x="706" y="-195" name="b.U0331_2"/>
   <anchor x="511" y="-150" name="b.U0740"/>
+  <anchor x="706" y="-195" name="below"/>
   <anchor x="976" y="885" name="m.U030a_1"/>
-  <anchor x="526" y="1035" name="t.U0656"/>
   <outline>
     <component base="pe-syriac" xScale="-1" xOffset="1228"/>
   </outline>

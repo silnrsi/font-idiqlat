@@ -2,11 +2,11 @@
 <glyph name="lamadh-syriac" format="2">
   <advance width="1177"/>
   <unicode hex="0720"/>
+  <anchor x="938" y="945" name="above"/>
   <anchor x="743" y="-150" name="b.U0325_3"/>
-  <anchor x="773" y="-150" name="b.U0331_2"/>
   <anchor x="758" y="-165" name="b.U0740"/>
+  <anchor x="773" y="-150" name="below"/>
   <anchor x="908" y="945" name="m.U030a_1"/>
-  <anchor x="938" y="945" name="t.U0656"/>
   <outline>
     <component base="lamadh-syriac.init" xOffset="269"/>
     <component base="_LeftTail"/>

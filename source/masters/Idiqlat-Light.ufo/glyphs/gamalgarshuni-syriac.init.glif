@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gamalgarshuni-syriac.init" format="2">
   <advance width="1048"/>
+  <anchor x="645" y="855" name="above"/>
   <anchor x="330" y="-150" name="b.U0325_3"/>
-  <anchor x="360" y="-135" name="b.U0331_2"/>
   <anchor x="465" y="-150" name="b.U0740"/>
+  <anchor x="360" y="-135" name="below"/>
   <anchor x="570" y="840" name="m.U030a_1"/>
-  <anchor x="645" y="855" name="t.U0656"/>
   <outline>
     <contour>
       <point x="948" y="-470" type="line"/>

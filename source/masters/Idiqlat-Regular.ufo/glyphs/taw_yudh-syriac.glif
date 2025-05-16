@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taw_yudh-syriac" format="2">
   <advance width="1600"/>
+  <anchor x="280" y="585" name="above"/>
   <anchor x="265" y="-150" name="b.U0325_3"/>
-  <anchor x="295" y="-165" name="b.U0331_2"/>
   <anchor x="400" y="-120" name="b.U0740"/>
+  <anchor x="295" y="-165" name="below"/>
   <anchor x="265" y="525" name="m.U030a_1"/>
-  <anchor x="280" y="585" name="t.U0656"/>
   <outline>
     <component base="taw-syriac" xOffset="510"/>
     <component base="_LeftTail"/>

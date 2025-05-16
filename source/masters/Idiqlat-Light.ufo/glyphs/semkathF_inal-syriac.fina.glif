@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semkathFinal-syriac.fina" format="2">
   <advance width="1146"/>
+  <anchor x="705" y="780" name="above"/>
   <anchor x="645" y="-180" name="b.U0325_3"/>
-  <anchor x="630" y="-195" name="b.U0331_2"/>
   <anchor x="750" y="-195" name="b.U0740"/>
+  <anchor x="630" y="-195" name="below"/>
   <anchor x="720" y="750" name="m.U030a_1"/>
-  <anchor x="705" y="780" name="t.U0656"/>
   <outline>
     <contour>
       <point x="767" y="-8" type="curve" smooth="yes"/>

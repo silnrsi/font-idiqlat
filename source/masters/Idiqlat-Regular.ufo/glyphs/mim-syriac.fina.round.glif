@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mim-syriac.fina.round" format="2">
   <advance width="1299"/>
+  <anchor x="544" y="765" name="above"/>
   <anchor x="544" y="-135" name="b.U0325_3"/>
-  <anchor x="604" y="-135" name="b.U0331_2"/>
   <anchor x="739" y="-135" name="b.U0740"/>
+  <anchor x="604" y="-135" name="below"/>
   <anchor x="544" y="720" name="m.U030a_1"/>
-  <anchor x="544" y="765" name="t.U0656"/>
   <outline>
     <component base="mim-syriac.medi" xOffset="272"/>
     <component base="_LeftTail"/>

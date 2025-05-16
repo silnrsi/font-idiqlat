@@ -2,11 +2,11 @@
 <glyph name="kaph-syriac" format="2">
   <advance width="945"/>
   <unicode hex="071F"/>
+  <anchor x="407" y="765" name="above"/>
   <anchor x="452" y="-210" name="b.U0325_3"/>
-  <anchor x="392" y="-210" name="b.U0331_2"/>
   <anchor x="407" y="-180" name="b.U0740"/>
+  <anchor x="372" y="-210" name="below"/>
   <anchor x="407" y="765" name="m.U030a_1"/>
-  <anchor x="407" y="765" name="t.U0656"/>
   <outline>
     <contour>
       <point x="223" y="405" type="line"/>

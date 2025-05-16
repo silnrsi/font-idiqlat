@@ -2,11 +2,11 @@
 <glyph name="lamadh-syriac" format="2">
   <advance width="1066"/>
   <unicode hex="0720"/>
+  <anchor x="840" y="870" name="above"/>
   <anchor x="630" y="-120" name="b.U0325_3"/>
-  <anchor x="630" y="-120" name="b.U0331_2"/>
   <anchor x="720" y="-165" name="b.U0740"/>
+  <anchor x="630" y="-120" name="below"/>
   <anchor x="855" y="1005" name="m.U030a_1"/>
-  <anchor x="840" y="870" name="t.U0656"/>
   <outline>
     <contour>
       <point x="242" y="0" type="curve" smooth="yes"/>

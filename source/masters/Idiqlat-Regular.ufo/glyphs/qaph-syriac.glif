@@ -2,11 +2,11 @@
 <glyph name="qaph-syriac" format="2">
   <advance width="1125"/>
   <unicode hex="0729"/>
+  <anchor x="680" y="795" name="above"/>
   <anchor x="740" y="-150" name="b.U0325_3"/>
-  <anchor x="740" y="-150" name="b.U0331_2"/>
   <anchor x="725" y="-150" name="b.U0740"/>
+  <anchor x="740" y="-150" name="below"/>
   <anchor x="725" y="780" name="m.U030a_1"/>
-  <anchor x="680" y="795" name="t.U0656"/>
   <outline>
     <component base="_qaph" xOffset="300"/>
     <component base="_LeftTail"/>

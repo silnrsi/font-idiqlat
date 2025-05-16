@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="e-syriac.medi" format="2">
   <advance width="900"/>
+  <anchor x="315" y="1020" name="above"/>
   <anchor x="420" y="-165" name="b.U0325_3"/>
-  <anchor x="405" y="-165" name="b.U0331_2"/>
   <anchor x="525" y="-135" name="b.U0740"/>
+  <anchor x="405" y="-165" name="below"/>
   <anchor x="330" y="1020" name="m.U030a_1"/>
-  <anchor x="315" y="1020" name="t.U0656"/>
   <outline>
     <contour>
       <point x="184" y="609" type="curve" smooth="yes"/>

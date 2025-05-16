@@ -2,11 +2,11 @@
 <glyph name="kashida-ar" format="2">
   <advance width="360"/>
   <unicode hex="0640"/>
+  <anchor x="135" y="405" name="above"/>
   <anchor x="180" y="-165" name="b.U0325_3"/>
-  <anchor x="180" y="-195" name="b.U0331_2"/>
   <anchor x="165" y="-150" name="b.U0740"/>
+  <anchor x="180" y="-195" name="below"/>
   <anchor x="135" y="390" name="m.U030a_1"/>
-  <anchor x="135" y="405" name="t.U0656"/>
   <outline>
     <contour>
       <point x="0" y="0" type="line"/>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heth-syriac.init" format="2">
   <advance width="1003"/>
+  <anchor x="465" y="480" name="above"/>
   <anchor x="465" y="-120" name="b.U0325_3"/>
-  <anchor x="495" y="-120" name="b.U0331_2"/>
   <anchor x="525" y="-150" name="b.U0740"/>
+  <anchor x="495" y="-120" name="below"/>
   <anchor x="450" y="480" name="m.U030a_1"/>
-  <anchor x="465" y="480" name="t.U0656"/>
   <outline>
     <contour>
       <point x="609" y="-12" type="curve"/>

@@ -45,11 +45,11 @@ lookup kern_nun2 { # FKrern: Nun in VOLT
 
 lookup MarkToBase {
 	lookupflag 0;
-	pos base @t.U0656      mark @_t.U0656; # top diaA beth
+	pos base @above      mark @_above; # top diaA beth t.U0656
 	pos base @m.U030a_1    mark @_m.U030a_1; # top beth 030a 0741
-	pos base @b.U0325_3    mark @_b.U0325_3; # below 0325 0742
-	pos base @b.U0331_2    mark @_b.U0331_2; # below diaB
-	pos base @b.U0740      mark @_b.U0740; # below
+#	pos base @b.U0325_3    mark @_b.U0325_3; # below 0325 0742
+	pos base @below    mark @_below; # below diaB b.U0331_2
+#	pos base @b.U0740      mark @_b.U0740; # below
 } MarkToBase;
 
 
@@ -64,25 +64,25 @@ lookup LMarkOnLigaEast { # needs work!
 	pos base @m.U0656_ligComponent_1    mark @_m.U0656; # top right
 #	pos base @m.U0656_ligComponent_2    mark @_t.U0656_2; # top left
 	pos base @m.U030a_1_2_ligComponent_2    mark @_m.U030a_1; # top left
-	pos base @b.U0325_3_2_ligComponent_1    mark @_b.U0325_3; # bottom right
-	pos base @b.U0331_2_2_ligComponent_1    mark @_b.U0331_2; # bottom right
-	pos base @b.U0325_3_2_ligComponent_2    mark @_b.U0325_3; # bottom left
-	pos base @b.U0331_2_2_ligComponent_2    mark @_b.U0331_2; # bottom left
+	pos base @b.U0325_3_2_ligComponent_1    mark @_below; # bottom right _b.U0325_3
+	pos base @b.U0331_2_2_ligComponent_1    mark @_below; # bottom right
+	pos base @b.U0325_3_2_ligComponent_2    mark @_below; # bottom left _b.U0325_3
+	pos base @b.U0331_2_2_ligComponent_2    mark @_below; # bottom left
 } LMarkOnLigaEast;
 
 #********************
 # Mark-to-mark attachment
 
-@MarkFilter_top = [@t.U0656_2_MarkBase @_t.U0656];
+@MarkFilter_top = [@t.U0656_2_MarkBase @_above];
 lookup MarkToMarkAbove {
 	lookupflag UseMarkFilteringSet @MarkFilter_top;
-	pos mark @t.U0656_2_MarkBase    mark @_t.U0656;
+	pos mark @t.U0656_2_MarkBase    mark @_above;
 } MarkToMarkAbove;
 
-@MarkFilter_bottom = [@_b.U0331_2  @b.U0331_MarkBase];
+@MarkFilter_bottom = [@_below  @below_MarkBase];
 lookup MarkToMarkBelow {
 	lookupflag UseMarkFilteringSet @MarkFilter_bottom;
-	pos mark @b.U0331_MarkBase mark @_b.U0331_2;
+	pos mark @below_MarkBase mark @_below;
 } MarkToMarkBelow;
 
 

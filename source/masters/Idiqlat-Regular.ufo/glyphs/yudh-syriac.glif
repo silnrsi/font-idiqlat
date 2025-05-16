@@ -2,11 +2,11 @@
 <glyph name="yudh-syriac" format="2">
   <advance width="921"/>
   <unicode hex="071D"/>
+  <anchor x="486" y="540" name="above"/>
   <anchor x="516" y="-135" name="b.U0325_3"/>
-  <anchor x="501" y="-165" name="b.U0331_2"/>
   <anchor x="456" y="-150" name="b.U0740"/>
+  <anchor x="501" y="-165" name="below"/>
   <anchor x="486" y="540" name="m.U030a_1"/>
-  <anchor x="486" y="540" name="t.U0656"/>
   <outline>
     <component base="_heth-init" xOffset="337"/>
     <component base="_LeftTail"/>

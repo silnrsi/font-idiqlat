@@ -2,7 +2,7 @@
 <glyph name="_dot_punct" format="2">
   <advance width="367"/>
   <anchor x="184" y="-157" name="_above"/>
-  <anchor x="184" y="157" name="_below"/>
+  <anchor x="184" y="157" name="_below_unused"/>
   <anchor x="184" y="0" name="_center"/>
   <outline>
     <component base="_dot1" xScale="1.22513" yScale="1.22513" xOffset="183"/>

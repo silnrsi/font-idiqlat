@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semkath-syriac.fina" format="2">
   <advance width="1206"/>
+  <anchor x="818" y="780" name="above"/>
   <anchor x="758" y="-195" name="b.U0325_3"/>
-  <anchor x="758" y="-150" name="b.U0331_2"/>
   <anchor x="758" y="-150" name="b.U0740"/>
+  <anchor x="758" y="-150" name="below"/>
   <anchor x="833" y="735" name="m.U030a_1"/>
-  <anchor x="818" y="780" name="t.U0656"/>
   <outline>
     <component base="semkath-syriac"/>
     <contour>

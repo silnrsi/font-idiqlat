@@ -2,11 +2,11 @@
 <glyph name="pe-syriac" format="2">
   <advance width="1228"/>
   <unicode hex="0726"/>
+  <anchor x="771" y="990" name="above"/>
   <anchor x="756" y="-150" name="b.U0325_3"/>
-  <anchor x="756" y="-135" name="b.U0331_2"/>
   <anchor x="741" y="-135" name="b.U0740"/>
+  <anchor x="756" y="-135" name="below"/>
   <anchor x="771" y="990" name="m.U030a_1"/>
-  <anchor x="771" y="990" name="t.U0656"/>
   <outline>
     <component base="_LeftTail"/>
     <component base="pe-syriac.init" xOffset="316"/>

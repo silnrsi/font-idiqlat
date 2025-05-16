@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pe-syriac.init" format="2">
   <advance width="912"/>
+  <anchor x="460" y="975" name="above"/>
   <anchor x="475" y="-120" name="b.U0325_3"/>
-  <anchor x="490" y="-135" name="b.U0331_2"/>
   <anchor x="505" y="-135" name="b.U0740"/>
+  <anchor x="490" y="-135" name="below"/>
   <anchor x="475" y="990" name="m.U030a_1"/>
-  <anchor x="460" y="975" name="t.U0656"/>
   <outline>
     <contour>
       <point x="808" y="185" type="curve"/>

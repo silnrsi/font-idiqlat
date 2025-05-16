@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rbasabelow-syriac" format="2">
   <unicode hex="0737"/>
-  <anchor x="120" y="-75" name="_b.U0331"/>
-  <anchor x="195" y="0" name="_b.U0331_2"/>
   <anchor x="180" y="-15" name="_b.U0331_2_2"/>
-  <anchor x="135" y="-420" name="b.U0331"/>
+  <anchor x="195" y="0" name="_below"/>
+  <anchor x="135" y="-420" name="below"/>
   <outline>
     <contour>
       <point x="151" y="-297" type="curve" smooth="yes"/>

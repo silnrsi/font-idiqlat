@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dot1" format="2">
   <anchor x="0" y="-157" name="_above"/>
-  <anchor x="0" y="157" name="_below"/>
+  <anchor x="0" y="157" name="_below_unused"/>
   <anchor x="0" y="0" name="_center"/>
   <outline>
     <contour>

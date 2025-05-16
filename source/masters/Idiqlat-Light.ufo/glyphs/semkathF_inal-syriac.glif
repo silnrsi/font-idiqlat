@@ -2,11 +2,11 @@
 <glyph name="semkathFinal-syriac" format="2">
   <advance width="1123"/>
   <unicode hex="0724"/>
+  <anchor x="705" y="780" name="above"/>
   <anchor x="630" y="-165" name="b.U0325_3"/>
-  <anchor x="660" y="-165" name="b.U0331_2"/>
   <anchor x="735" y="-225" name="b.U0740"/>
+  <anchor x="660" y="-165" name="below"/>
   <anchor x="720" y="765" name="m.U030a_1"/>
-  <anchor x="705" y="780" name="t.U0656"/>
   <outline>
     <contour>
       <point x="544" y="-114" type="curve" smooth="yes"/>

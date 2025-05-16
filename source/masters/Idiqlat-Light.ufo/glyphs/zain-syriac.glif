@@ -2,11 +2,11 @@
 <glyph name="zain-syriac" format="2">
   <advance width="507"/>
   <unicode hex="0719"/>
+  <anchor x="300" y="705" name="above"/>
   <anchor x="360" y="-315" name="b.U0325_3"/>
-  <anchor x="360" y="-300" name="b.U0331_2"/>
   <anchor x="330" y="-315" name="b.U0740"/>
+  <anchor x="360" y="-300" name="below"/>
   <anchor x="345" y="660" name="m.U030a_1"/>
-  <anchor x="300" y="705" name="t.U0656"/>
   <outline>
     <contour>
       <point x="218" y="-217" type="curve" smooth="yes"/>

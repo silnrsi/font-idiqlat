@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tethGarshuni-syriac.init" format="2">
   <advance width="1281"/>
+  <anchor x="720" y="690" name="above"/>
   <anchor x="540" y="-225" name="b.U0325_3"/>
-  <anchor x="420" y="-225" name="b.U0331_2"/>
   <anchor x="420" y="-180" name="b.U0740"/>
+  <anchor x="420" y="-225" name="below"/>
   <anchor x="660" y="795" name="m.U030a_1"/>
-  <anchor x="720" y="690" name="t.U0656"/>
   <outline>
     <component base="teth-syriac.init"/>
     <contour>

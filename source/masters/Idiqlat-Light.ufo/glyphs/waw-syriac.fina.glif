@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="waw-syriac.fina" format="2">
   <advance width="775"/>
+  <anchor x="405" y="705" name="above"/>
   <anchor x="435" y="-120" name="b.U0325_3"/>
-  <anchor x="465" y="-135" name="b.U0331_2"/>
   <anchor x="450" y="-150" name="b.U0740"/>
+  <anchor x="465" y="-135" name="below"/>
   <anchor x="435" y="720" name="m.U030a_1"/>
-  <anchor x="405" y="705" name="t.U0656"/>
   <outline>
     <contour>
       <point x="412" y="-8" type="curve" smooth="yes"/>
