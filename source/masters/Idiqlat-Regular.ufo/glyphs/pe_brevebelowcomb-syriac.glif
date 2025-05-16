@@ -3,6 +3,6 @@
   <advance width="1228"/>
   <outline>
     <component base="pe-syriac"/>
-    <component base="brevebelowcomb" xOffset="438"/>
+    <component base="brevebelowcomb" xOffset="438" yOffset="-40"/>
   </outline>
 </glyph>
