@@ -434,8 +434,6 @@
   <string>egrave.glif</string>
   <key>eight</key>
   <string>eight.glif</string>
-  <key>eight.latn</key>
-  <string>eight.latn.glif</string>
   <key>ellipsis</key>
   <string>ellipsis.glif</string>
   <key>emdash</key>
@@ -482,8 +480,6 @@
   <string>firststrongisolate.glif</string>
   <key>five</key>
   <string>five.glif</string>
-  <key>five.latn</key>
-  <string>five.latn.glif</string>
   <key>fl</key>
   <string>fl.glif</string>
   <key>florin</key>
@@ -492,8 +488,6 @@
   <string>four.glif</string>
   <key>four.dnom</key>
   <string>four.dnom.glif</string>
-  <key>four.latn</key>
-  <string>four.latn.glif</string>
   <key>fourperemspace</key>
   <string>fourperemspace.glif</string>
   <key>foursuperior</key>
@@ -710,8 +704,6 @@
   <string>nbspace.latn.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
-  <key>nine.latn</key>
-  <string>nine.latn.glif</string>
   <key>nonbreakinghyphen</key>
   <string>nonbreakinghyphen.glif</string>
   <key>nonmarkingreturn</key>
@@ -760,8 +752,6 @@
   <string>ograve.glif</string>
   <key>one</key>
   <string>one.glif</string>
-  <key>one.latn</key>
-  <string>one.latn.glif</string>
   <key>one.numr</key>
   <string>one.numr.glif</string>
   <key>onehalf</key>
@@ -964,8 +954,6 @@
   <string>semkathF_inal-syriac.medi.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
-  <key>seven.latn</key>
-  <string>seven.latn.glif</string>
   <key>shadda-ar</key>
   <string>shadda-ar.glif</string>
   <key>shin-syriac</key>
@@ -982,8 +970,6 @@
   <string>sidebearingright.glif</string>
   <key>six</key>
   <string>six.glif</string>
-  <key>six.latn</key>
-  <string>six.latn.glif</string>
   <key>sixperemspace</key>
   <string>sixperemspace.glif</string>
   <key>slash</key>
@@ -1046,8 +1032,6 @@
   <string>thorn.glif</string>
   <key>three</key>
   <string>three.glif</string>
-  <key>three.latn</key>
-  <string>three.latn.glif</string>
   <key>three.numr</key>
   <string>three.numr.glif</string>
   <key>threedotsabove-syriac</key>
@@ -1072,8 +1056,6 @@
   <string>two.glif</string>
   <key>two.dnom</key>
   <string>two.dnom.glif</string>
-  <key>two.latn</key>
-  <string>two.latn.glif</string>
   <key>twodotsverticalabove-syriac</key>
   <string>twodotsverticalabove-syriac.glif</string>
   <key>twodotsverticalbelow-syriac</key>
@@ -1136,8 +1118,6 @@
   <string>zcaron.glif</string>
   <key>zero</key>
   <string>zero.glif</string>
-  <key>zero.latn</key>
-  <string>zero.latn.glif</string>
   <key>zeroWidthNoBreakSpace</key>
   <string>zeroW_idthN_oB_reakS_pace.glif</string>
   <key>zerowidthjoiner</key>
