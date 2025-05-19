@@ -537,10 +537,6 @@
       <comment>pe-syriac</comment>
       <string>\u000726 \u000726\u00200D \u00200D\u000726\u00200D \u00200D\u000726 \u000726\u000726\u000726 </string>
     </test>
-    <test label="U+0727">
-      <comment>reversedpe-syriac</comment>
-      <string>\u000727 \u000727\u00200D \u00200D\u000727\u00200D \u00200D\u000727 \u000727\u000727\u000727 </string>
-    </test>
     <test label="U+0728">
       <comment>sadhe-syriac</comment>
       <string>\u000728 \u00200D\u000728 </string>

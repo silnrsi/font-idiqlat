@@ -435,10 +435,6 @@
     <string>pe_brevebelowcomb-syriac.init</string>
     <string>pe_brevebelowcomb-syriac.medi</string>
     <string>pe_brevebelowcomb-syriac.fina</string>
-    <string>reversedpe-syriac</string>
-    <string>reversedpe-syriac.init</string>
-    <string>reversedpe-syriac.medi</string>
-    <string>reversedpe-syriac.fina</string>
     <string>sadhe-syriac</string>
     <string>sadhe-syriac.fina</string>
     <string>qaph-syriac</string>
@@ -1046,14 +1042,6 @@
     <string>uniFFFD</string>
     <key>reverseSolidusOperator</key>
     <string>uni29F5</string>
-    <key>reversedpe-syriac</key>
-    <string>uni0727</string>
-    <key>reversedpe-syriac.fina</key>
-    <string>uni0727.fina</string>
-    <key>reversedpe-syriac.init</key>
-    <string>uni0727.init</string>
-    <key>reversedpe-syriac.medi</key>
-    <string>uni0727.medi</string>
     <key>righttoleftembedding</key>
     <string>uni202B</string>
     <key>righttoleftisolate</key>
