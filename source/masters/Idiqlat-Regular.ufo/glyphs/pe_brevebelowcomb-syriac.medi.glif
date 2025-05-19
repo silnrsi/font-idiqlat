@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="pe_brevebelowcomb-syriac.medi" format="2">
-  <advance width="889"/>
-  <outline>
-    <component base="pe-syriac.medi"/>
-    <component base="brevebelowcomb" xOffset="141" yOffset="-40"/>
-  </outline>
-</glyph>

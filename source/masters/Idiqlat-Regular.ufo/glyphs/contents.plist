@@ -808,14 +808,6 @@
   <string>pe-syriac.init.glif</string>
   <key>pe-syriac.medi</key>
   <string>pe-syriac.medi.glif</string>
-  <key>pe_brevebelowcomb-syriac</key>
-  <string>pe_brevebelowcomb-syriac.glif</string>
-  <key>pe_brevebelowcomb-syriac.fina</key>
-  <string>pe_brevebelowcomb-syriac.fina.glif</string>
-  <key>pe_brevebelowcomb-syriac.init</key>
-  <string>pe_brevebelowcomb-syriac.init.glif</string>
-  <key>pe_brevebelowcomb-syriac.medi</key>
-  <string>pe_brevebelowcomb-syriac.medi.glif</string>
   <key>percent</key>
   <string>percent.glif</string>
   <key>percent.latn</key>
