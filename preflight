@@ -19,9 +19,8 @@ echo "Updating woff metadata files..."
 psfmakewoffmetadata -q -n  Idiqlat        -i org.sil.fonts source/masters/*-Regular.ufo  -o "source/Idiqlat-WOFF-metadata.xml"
 
 echo "Building internal fea..."
-makefea -o source/masters/Idiqlat-Regular.ufo/features.fea --ignoreglyphs -l source/logs/Idiqlat-Regular-psfmakefea.log -i source/opentype/main.feax --omitaps "R, O, L" -c source/classes.xml source/masters/Idiqlat-Regular.ufo &
-makefea -o source/masters/Idiqlat-Light.ufo/features.fea  --ignoreglyphs -l source/logs/Idiqlat-Regular-psfmakefea.log -i source/opentype/main.feax --omitaps "R, O, L" -c source/classes.xml source/masters/Idiqlat-Light.ufo    &
-
+makefea -o source/masters/Idiqlat-Regular.ufo/features.fea --ignoreglyphs -l source/logs/Idiqlat-Regular-psfmakefea.log -i source/opentype/main.feax --omitaps "R, O, L" source/masters/Idiqlat-Regular.ufo &
+makefea -o source/masters/Idiqlat-Light.ufo/features.fea  --ignoreglyphs -l source/logs/Idiqlat-Regular-psfmakefea.log -i source/opentype/main.feax --omitaps "R, O, L" source/masters/Idiqlat-Light.ufo    &
 
 wait
 
