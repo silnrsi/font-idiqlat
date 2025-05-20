@@ -55,7 +55,8 @@
 # Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar madda-ar alefbelow-ar 
 @MarkWideAbove = [tildecomb macroncomb dieresiscomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac];
 
-@TakeRukkakhaSquare = [beth-syriac beth-syriac.init beth-syriac.medi beth-syriac.fina gamal-syriac gamal-syriac.init gamal-syriac.medi gamal-syriac.fina taw-syriac taw-syriac.fina];
+# Added gamalgarshuni-syriac kaph and pe be added to this group?
+@TakeRukkakhaSquare = [beth-syriac beth-syriac.init beth-syriac.medi beth-syriac.fina gamal-syriac gamal-syriac.init gamal-syriac.medi gamal-syriac.fina gamalgarshuni-syriac gamalgarshuni-syriac.init gamalgarshuni-syriac.medi gamalgarshuni-syriac.fina kaph-syriac kaph-syriac.init kaph-syriac.medi kaph-syriac.fina pe-syriac pe-syriac.init pe-syriac.medi pe-syriac.fina taw-syriac taw-syriac.fina];
 @TypeLigature = [lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina];
 
 # Ligatures

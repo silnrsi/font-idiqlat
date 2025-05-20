@@ -78,35 +78,12 @@
       <string>\u0710\u0323\u0722 \u0729\u0710\u0323\u0722 \u0710\u0738\u0722 \u0729\u0710\u0738\u0722</string>
     </test>
     <test label="U+0712 U+0742 ">
-      <comment>beth-syriac rukkakha-syriac  (RukkakhaSquare)</comment>
-      <string>\u0712\u0742 \u0729\u0712\u0742</string>
-    </test>
-
-  </testgroup>
-  <testgroup label="Ligatures">
-    <test label="U+0715 U+0742">
-      <comment>dalath rukkakha</comment>
-      <string>\u0715\u0742 \u0712\u0715\u0742</string>
-    </test>
-    <test label="U+0720 U+0710">
-      <comment>lamadh_alaph-syriac</comment>
-      <string>\u0720\u0710 \u0712\u0720\u0710</string>
-    </test>
-    <test label="U+0726 U+032E">
-      <comment>pe breve below</comment>
-      <string>\u0726\u032E \u0726\u032E\u0722 \u0722\u0726\u032E\u0722 \u0712\u0726\u032E</string>
-    </test>
-    <test label="U+072A U+0738 U+0308">
-      <comment>rish seyame</comment>
-      <string>\u072a \u072a\u0739\u0308 \u0712\u072A\u0738\u0308</string>
-    </test>
-    <test label="U+072A U+0739 U+0308">
-      <comment>rish_dieresiscomb-syriac</comment>
-      <string>\u072a\u0308 \u0712\u072A\u0308</string>
+      <comment>beth-syriac rukkakha-syriac (RukkakhaSquare) gamal, dalath, kaph, pe, taw</comment>
+      <string>\u0712\u0742 \u0729\u0712\u0742 \u0713\u0742 \u0729\u0713\u0742 \u0714\u0742 \u0729\u0714\u0742 \u0715\u0742 \u0729\u0715\u0742 \u071F\u0742 \u0729\u071F\u0742 \u0726\u0742 \u0729\u0726\u0742 \u072C\u0742 \u0729\u072C\u0742</string>
     </test>
   </testgroup>
 
-<testgroup label="Character Variants for ligatures">
+<testgroup label="Ligatures (documented on pages 19 &amp; 20 of Unicode proposal)">
     <test label="U+0717 U+071D">
       <comment>he_yudh-syriac</comment>
       <string>\u0717\u071D \u0712\u0717\u071D</string>
@@ -115,6 +92,10 @@
       <comment>he_yudh-syriac</comment>
       <string>\u0717\u071D \u0712\u0717\u071D</string>
     </test>
+    <test label="U+0720 U+0710">
+      <comment>lamadh_alaph-syriac</comment>
+      <string>\u0720\u0710 \u0712\u0720\u0710</string>
+    </test>
     <test label="U+0728 U+0722">
       <comment>sadhe_nun-syriac</comment>
       <string>\u0728\u0722 \u0712\u0728\u0722</string>
@@ -122,6 +103,18 @@
     <test label="U+0728 U+0722" stylename="cv55_1">
       <comment>sadhe-syriac nun-syriac</comment>
       <string>\u0728\u0722 \u0729\u0728\u0722</string>
+    </test>
+    <test label="U+072A U+0738 U+0308">
+      <comment>rish seyame (obligatory)</comment>
+      <string>\u072a \u072a\u0738\u0308 \u0712\u072A\u0738\u0308</string>
+    </test>
+    <test label="U+072A U+0739 U+0308">
+      <comment>rish seyame</comment>
+      <string>\u072a \u072a\u0739\u0308 \u0712\u072A\u0739\u0308</string>
+    </test>
+    <test label="U+072A U+0308">
+      <comment>rish_dieresiscomb-syriac</comment>
+      <string>\u072a \u072a\u0308 \u0712\u072A\u0308</string>
     </test>
     <test label="U+072C U+0710">
       <comment>taw_alaph-syriac</comment>
@@ -146,7 +139,7 @@
 </testgroup>
 
 <testgroup label="UDHR #26 (aii)">
-   <test>
+   <test label="article number 26">
       <string>&#x0721;&#x0720;&#x0718;&#x0710;&#x0710; 26</string>
     </test>
     <test>
@@ -154,7 +147,7 @@
             &#x071F;&#x0720; &#x071A;&#x0715; &#x0710;&#x071D;&#x072C;&#x0720;&#x0717; &#x0717;&#x0729;&#x0718;&#x072C;&#x0710; &#x0720;&#x071D;&#x0718;&#x0720;&#x0726;&#x0722;&#x0710; &#x0718;&#x071D;&#x0718;&#x0720;&#x0726;&#x0722;&#x0710; &#x0713;&#x072A;&#x0713; &#x0717;&#x0712;&#x0742;&#x0710; &#x0715;&#x0720;&#x0710; &#x0726;&#x0718;&#x072A;&#x0725;&#x0722;&#x0710; &#x0713;&#x0718; &#x0721;&#x0715;&#x072A;&#x072B;&#x072C;&#x0710; &#x072B;&#x072A;&#x0712;&#x071D;&#x072C;&#x0710; &#x0718;&#x072A;&#x0717;&#x071B;&#x0710; &#x072B;&#x072C;&#x0710;&#x0723;&#x0722;&#x0710;. &#x0718;&#x0713;&#x072A;&#x0713; &#x071F;&#x0720; &#x0710;&#x0722;&#x072B;&#x0710; &#x072B;&#x0729;&#x0720; &#x071D;&#x0718;&#x0720;&#x0726;&#x0722;&#x0710; &#x072B;&#x072A;&#x0712;&#x0742;&#x071D;&#x0710; &#x0718;&#x071D;&#x0718;&#x0720;&#x0726;&#x0722;&#x0710; &#x072C;&#x0729;&#x0722;&#x071D;&#x0729;&#x071D;&#x0710; &#x0718;&#x0725;&#x0720;&#x071D;&#x0710; &#x0713;&#x072A;&#x0713; &#x0717;&#x0712;&#x0742;&#x0710; &#x0726;&#x072C;&#x071D;&#x071A;&#x0710; &#x0729;&#x0710; &#x071F;&#x0720; &#x071A;&#x0715; &#x0715;&#x0720;&#x0710; &#x0726;&#x0718;&#x072A;&#x072B;&#x0718;&#x0722;&#x071D;&#x0710; &#x0712;&#x0722;&#x071D;&#x0710; &#x0725;&#x0720; &#x0721;&#x0728;&#x071D;&#x072C;&#x0710; &#x0715;&#x0710;&#x0722;&#x072B;&#x0710;.
          </string>
     </test>
-    <test label="article number 26">
+    <test>
          <string>
             &#x071D;&#x0718;&#x0720;&#x0726;&#x0722;&#x0710; &#x0713;&#x072A;&#x0713; &#x0717;&#x0712;&#x0742;&#x0710; &#x072A;&#x072B;&#x071D;&#x0721;&#x0710; &#x0720;&#x0721;&#x071B;&#x0718;&#x072A;&#x072C;&#x0710; &#x0710;&#x0722;&#x072B;&#x0710; &#x0718;&#x0721;&#x0729;&#x0718;&#x071D;&#x072C;&#x0710; &#x0721;&#x071D;&#x0729;&#x072A;&#x072C;&#x0710; &#x0719;&#x0715;&#x0729;&#x0710; &#x0710;&#x0722;&#x072B;&#x071D;&#x0710; &#x0718;&#x071D;&#x0710;&#x072A;&#x0718;&#x072C;&#x0710; &#x072B;&#x072A;&#x072B;&#x0710;&#x0722;&#x071D;&#x072C;&#x0710;. &#x0713;&#x072A;&#x0713; &#x0721;&#x072A;&#x0718;&#x071A;&#x0710; &#x0726;&#x072A;&#x0721;&#x071D;&#x072C;&#x0710; &#x0718;&#x0721;&#x072C;&#x0729;&#x0712;&#x0720;&#x0722;&#x0718;&#x072C;&#x0710; &#x0718;&#x072A;&#x071A;&#x0721;&#x0718;&#x072C;&#x0710; &#x0712;&#x071D;&#x0720; &#x071F;&#x0720;&#x071D; &#x0710;&#x072C;&#x072A;&#x0718;&#x072C;&#x0710; &#x0718;&#x0713;&#x0722;&#x0723;&#x0710; &#x0718;&#x0713;&#x0330;&#x0721;&#x0725;&#x072C;&#x0710; &#x072C;&#x0718;&#x0715;&#x072C;&#x0722;&#x071D;&#x0710; &#x0718;&#x0721;&#x0719;&#x071D;&#x0715; &#x0725;&#x0712;&#x0742;&#x0715;&#x0718;&#x071D;&#x072C;&#x0710; &#x0715;&#x0710;&#x0721;&#x0718;&#x072C;&#x0710; &#x0721;&#x071A;&#x071D;&#x0715;&#x0710; &#x0720;&#x071A;&#x0721;&#x071D;&#x072C;&#x0710; &#x0715;&#x072B;&#x0720;&#x0721;&#x0710;.
          </string>
