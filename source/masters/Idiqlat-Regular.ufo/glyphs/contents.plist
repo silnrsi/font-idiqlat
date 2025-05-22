@@ -1048,6 +1048,10 @@
   <string>tildebelowcomb.glif</string>
   <key>tildecomb</key>
   <string>tildecomb.glif</string>
+  <key>topleftHalfBracket</key>
+  <string>topleftH_alfB_racket.glif</string>
+  <key>toprightHalfBracket</key>
+  <string>toprightH_alfB_racket.glif</string>
   <key>trademark</key>
   <string>trademark.glif</string>
   <key>two</key>

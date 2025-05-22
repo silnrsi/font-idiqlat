@@ -650,6 +650,8 @@
     <string>one.numr</string>
     <string>three.numr</string>
     <string>two.dnom</string>
+    <string>topleftHalfBracket</string>
+    <string>toprightHalfBracket</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
@@ -1141,6 +1143,10 @@
     <string>uni00B3</string>
     <key>tildebelowcomb</key>
     <string>uni0330</string>
+    <key>topleftHalfBracket</key>
+    <string>uni2E22</string>
+    <key>toprightHalfBracket</key>
+    <string>uni2E23</string>
     <key>twodotsverticalabove-syriac</key>
     <string>uni0743</string>
     <key>twodotsverticalbelow-syriac</key>
