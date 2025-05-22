@@ -47,7 +47,7 @@ lookup MarkToBase {
 	lookupflag 0;
 	pos base @above      mark @_above; # top diaA beth t.U0656
 	pos base @m.U030a_1    mark @_m.U030a_1; # top beth 030a 0741
-#	pos base @b.U0325_3    mark @_b.U0325_3; # below 0325 0742
+	pos base @b.U0325_3    mark @_b.U0325_3; # below 0325 0742 dotbelowleftcomb
 	pos base @below    mark @_below; # below diaB b.U0331_2
 #	pos base @b.U0740      mark @_b.U0740; # below
 } MarkToBase;

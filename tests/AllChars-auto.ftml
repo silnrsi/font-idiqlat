@@ -39,41 +39,13 @@
     </test>
     <test label="U+0022">
       <comment>quotedbl</comment>
-      <string>" #</string>
-    </test>
-    <test label="U+0023" stylename="latn_1">
-      <comment>numbersign</comment>
-      <string>#</string>
-    </test>
-    <test label="U+0024">
-      <comment>dollar</comment>
-      <string>$</string>
-    </test>
-    <test label="U+0024" stylename="latn_1">
-      <comment>dollar</comment>
-      <string>$</string>
-    </test>
-    <test label="U+0025">
-      <comment>percent</comment>
-      <string>%</string>
-    </test>
-    <test label="U+0025" stylename="latn_1">
-      <comment>percent</comment>
-      <string>%</string>
-    </test>
-    <test label="U+0026">
-      <comment>ampersand</comment>
-      <string>&amp; '</string>
+      <string>" # $ % &amp; '</string>
     </test>
     <test label="U+0028">
       <comment>parenleft</comment>
       <string>( LTR: \u00202A(\u00202C RTL: \u00202B(\u00202C</string>
     </test>
     <test label="U+0029">
-      <comment>parenright</comment>
-      <string>) LTR: \u00202A)\u00202C RTL: \u00202B)\u00202C</string>
-    </test>
-    <test label="U+0029" stylename="latn_1">
       <comment>parenright</comment>
       <string>) LTR: \u00202A)\u00202C RTL: \u00202B)\u00202C</string>
     </test>
@@ -87,15 +59,7 @@
     </test>
     <test label="U+002B">
       <comment>plus</comment>
-      <string>+</string>
-    </test>
-    <test label="U+002B" stylename="latn_1">
-      <comment>plus</comment>
-      <string>+</string>
-    </test>
-    <test label="U+002C">
-      <comment>comma</comment>
-      <string>,</string>
+      <string>+ ,</string>
     </test>
     <test background="#f0fff0" label="U+002D">
       <comment>hyphen</comment>
@@ -107,37 +71,9 @@
     </test>
     <test label="U+002E">
       <comment>period</comment>
-      <string>.</string>
-    </test>
-    <test label="U+002E" stylename="latn_1">
-      <comment>period</comment>
-      <string>.</string>
-    </test>
-    <test label="U+002F">
-      <comment>slash</comment>
-      <string>/</string>
-    </test>
-    <test label="U+002F" stylename="latn_1">
-      <comment>slash</comment>
-      <string>/</string>
-    </test>
-    <test label="U+0030">
-      <comment>zero</comment>
-      <string>0 1 2 3 4 5 6 7 8 9 :</string>
-    </test>
-    <test label="U+003A" stylename="latn_1">
-      <comment>colon</comment>
-      <string>:</string>
-    </test>
-    <test label="U+003B">
-      <comment>semicolon</comment>
-      <string>;</string>
+      <string>. / 0 1 2 3 4 5 6 7 8 9 : ;</string>
     </test>
     <test label="U+003C">
-      <comment>less</comment>
-      <string>&lt; LTR: \u00202A&lt;\u00202C RTL: \u00202B&lt;\u00202C</string>
-    </test>
-    <test label="U+003C" stylename="latn_1">
       <comment>less</comment>
       <string>&lt; LTR: \u00202A&lt;\u00202C RTL: \u00202B&lt;\u00202C</string>
     </test>
@@ -145,15 +81,7 @@
       <comment>equal</comment>
       <string>=</string>
     </test>
-    <test label="U+003D" stylename="latn_1">
-      <comment>equal</comment>
-      <string>=</string>
-    </test>
     <test label="U+003E">
-      <comment>greater</comment>
-      <string>&gt; LTR: \u00202A&gt;\u00202C RTL: \u00202B&gt;\u00202C</string>
-    </test>
-    <test label="U+003E" stylename="latn_1">
       <comment>greater</comment>
       <string>&gt; LTR: \u00202A&gt;\u00202C RTL: \u00202B&gt;\u00202C</string>
     </test>
@@ -644,6 +572,14 @@
     <test background="#f0fff0" label="U+29F5">
       <comment>reverseSolidusOperator</comment>
       <string>\u0029F5 LTR: \u00202A\u0029F5\u00202C RTL: \u00202B\u0029F5\u00202C</string>
+    </test>
+    <test background="#f0fff0" label="U+2E22">
+      <comment>topleftHalfBracket</comment>
+      <string>\u002E22 LTR: \u00202A\u002E22\u00202C RTL: \u00202B\u002E22\u00202C</string>
+    </test>
+    <test background="#f0fff0" label="U+2E23">
+      <comment>toprightHalfBracket</comment>
+      <string>\u002E23 LTR: \u00202A\u002E23\u00202C RTL: \u00202B\u002E23\u00202C</string>
     </test>
     <test background="#f0fff0" label="U+F130">
       <comment>sidebearingleft</comment>

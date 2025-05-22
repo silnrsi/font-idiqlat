@@ -16,7 +16,7 @@ languagesystem latn dflt ;
 
 
 @MarksAbove = [@_above @_t.U0656_2 @_m.U0656 @_m.U030a_1] ; # _diaA
-@MarksBelow = [ @_below] ; # _diaB @_b.U0740 @_b.U0325_3
+@MarksBelow = [ @_below @_b.U0325_3] ; # _diaB @_b.U0740 @_b.U0325_3
 @MarksAny = [@MarksAbove @MarksBelow] ;
 
 
