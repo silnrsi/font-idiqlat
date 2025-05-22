@@ -94,29 +94,21 @@
     <string>exclam.latn</string>
     <string>quotedbl</string>
     <string>numbersign</string>
-    <string>numbersign.latn</string>
     <string>dollar</string>
-    <string>dollar.latn</string>
     <string>percent</string>
-    <string>percent.latn</string>
     <string>ampersand</string>
     <string>quotesingle</string>
     <string>parenleft</string>
-    <string>parentleft.latn</string>
     <string>parenright</string>
-    <string>parenright.latn</string>
     <string>asterisk</string>
     <string>asterisk.latn</string>
     <string>plus</string>
-    <string>plus.latn</string>
     <string>comma</string>
     <string>hyphentwo</string>
     <string>hyphen</string>
     <string>hyphen.latn</string>
     <string>period</string>
-    <string>period.latn</string>
     <string>slash</string>
-    <string>slash.latn</string>
     <string>zero</string>
     <string>one</string>
     <string>two</string>
@@ -130,11 +122,8 @@
     <string>colon</string>
     <string>semicolon</string>
     <string>less</string>
-    <string>less.latn</string>
     <string>equal</string>
-    <string>equal.latn</string>
     <string>greater</string>
-    <string>greater.latn</string>
     <string>question</string>
     <string>at</string>
     <string>A</string>

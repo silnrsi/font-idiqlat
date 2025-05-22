@@ -6,9 +6,9 @@
 ellipsis
 </note>
   <outline>
-    <component base="period.latn" xOffset="321"/>
-    <component base="period.latn" xOffset="644"/>
-    <component base="period.latn"/>
+    <component base="period" xOffset="321"/>
+    <component base="period" xOffset="644"/>
+    <component base="period"/>
   </outline>
   <lib>
     <dict>

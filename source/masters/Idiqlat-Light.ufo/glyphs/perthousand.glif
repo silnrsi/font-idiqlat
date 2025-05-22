@@ -6,7 +6,7 @@
 perthousand
 </note>
   <outline>
-    <component base="percent.latn"/>
+    <component base="percent"/>
     <contour>
       <point x="1314" y="-10" type="curve" smooth="yes"/>
       <point x="1438" y="-10"/>
