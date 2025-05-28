@@ -42,21 +42,26 @@
 @AllXnXl = [@AllXn @DualLinkInit];
 
 # Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar sukun-ar madda-ar hamzaabove-ar alefbelow-ar
-@MarkAboveCanChain = [tildecomb macroncomb dotaccentcomb dieresiscomb shadda-ar  alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac rwaha-syriac twodotsverticalabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac];
+@MarkAboveCanChain = [tildecomb macroncomb dotaccentcomb dieresiscomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac rwaha-syriac twodotsverticalabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac];
 @MarkAboveNoChain = [ringcomb qushshaya-syriac];
 
-# Removed glyphs not in font: kasratan-ar kasra-ar hamzabelow-ar  
-@MarkBelowCanChain = [tildebelowcomb macronbelowcomb dotbelowcomb dieresisbelowcomb brevebelowcomb circumflexbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac rukkakha-syriac.square minusbelowcomb dotbelowleftcomb];
+# Removed glyphs not in font: kasratan-ar kasra-ar hamzabelow-ar
+# why did I add minusbelowcomb dotbelowleftcomb?
+@MarkBelowCanChain = [dotbelowcomb dieresisbelowcomb circumflexbelowcomb brevebelowcomb tildebelowcomb macronbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac minusbelowcomb dotbelowleftcomb];
 
 # Does not make sense for this to be both in can chain and no chain:  rukkakha-syriac.square
 @MarkBelowNoChain = [ringbelowcomb rukkakha-syriac rukkakha-syriac.square];
+
+# feminine dot is East Syriac is actually 0324 dieresisbelowcomb / 0740 femininedot-syriac is used in West Syriac
 @MarkFeminineDot = [femininedot-syriac];
 
 # Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar madda-ar alefbelow-ar 
 @MarkWideAbove = [tildecomb macroncomb dieresiscomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac];
 
 # Added gamalgarshuni-syriac kaph and pe be added to this group?
-@TakeRukkakhaSquare = [beth-syriac beth-syriac.init beth-syriac.medi beth-syriac.fina gamal-syriac gamal-syriac.init gamal-syriac.medi gamal-syriac.fina gamalgarshuni-syriac gamalgarshuni-syriac.init gamalgarshuni-syriac.medi gamalgarshuni-syriac.fina kaph-syriac kaph-syriac.init kaph-syriac.medi kaph-syriac.fina pe-syriac pe-syriac.init pe-syriac.medi pe-syriac.fina taw-syriac taw-syriac.fina];
+# dalath, kaph, and pe are not in the group (intentionally?)
+@TakeRukkakhaSquare = [beth-syriac beth-syriac.init beth-syriac.medi beth-syriac.fina gamal-syriac gamal-syriac.init gamal-syriac.medi gamal-syriac.fina gamalgarshuni-syriac gamalgarshuni-syriac.init gamalgarshuni-syriac.medi gamalgarshuni-syriac.fina taw-syriac taw-syriac.fina];
+
 @TypeLigature = [lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina];
 
 # Ligatures

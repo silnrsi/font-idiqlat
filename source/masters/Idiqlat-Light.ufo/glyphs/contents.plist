@@ -770,8 +770,6 @@
   <string>parenleft.glif</string>
   <key>parenright</key>
   <string>parenright.glif</string>
-  <key>parentleft.latn</key>
-  <string>parentleft.latn.glif</string>
   <key>partialdiff</key>
   <string>partialdiff.glif</string>
   <key>partialdiff.rtl</key>
