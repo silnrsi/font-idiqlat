@@ -158,8 +158,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>997</integer>
   <key>postscriptFontName</key>
   <string>Idiqlat-Light</string>
-  <key>postscriptFullName</key>
-  <string>Idiqlat Light</string>
   <key>postscriptUnderlinePosition</key>
   <integer>-150</integer>
   <key>postscriptUnderlineThickness</key>
