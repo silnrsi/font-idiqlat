@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="he_yudh-syriac" format="2">
-  <advance width="1259"/>
-  <anchor x="695" y="-150" name="b.U0325_3_2_ligComponent_1"/>
-  <anchor x="215" y="-180" name="b.U0325_3_2_ligComponent_2"/>
-  <anchor x="725" y="-165" name="b.U0331_2_2_ligComponent_1"/>
-  <anchor x="200" y="-255" name="b.U0331_2_2_ligComponent_2"/>
-  <anchor x="710" y="720" name="m.U030a_1_2_ligComponent_1"/>
-  <anchor x="185" y="840" name="m.U030a_1_2_ligComponent_2"/>
-  <anchor x="710" y="765" name="m.U0656_ligComponent_1"/>
-  <anchor x="155" y="915" name="m.U0656_ligComponent_2"/>
+  <advance width="1109"/>
+  <anchor x="645" y="-150" name="b.U0325_3_2_ligComponent_1"/>
+  <anchor x="165" y="-180" name="b.U0325_3_2_ligComponent_2"/>
+  <anchor x="675" y="-165" name="b.U0331_2_2_ligComponent_1"/>
+  <anchor x="150" y="-255" name="b.U0331_2_2_ligComponent_2"/>
+  <anchor x="660" y="720" name="m.U030a_1_2_ligComponent_1"/>
+  <anchor x="135" y="840" name="m.U030a_1_2_ligComponent_2"/>
+  <anchor x="660" y="765" name="m.U0656_ligComponent_1"/>
+  <anchor x="105" y="915" name="m.U0656_ligComponent_2"/>
   <outline>
-    <component base="he-syriac" xOffset="294"/>
+    <component base="he-syriac" xOffset="244"/>
     <contour>
-      <point x="456" y="332" type="curve"/>
-      <point x="350" y="425"/>
-      <point x="227" y="570"/>
-      <point x="210" y="570" type="curve" smooth="yes"/>
-      <point x="187" y="570"/>
-      <point x="100" y="445"/>
-      <point x="100" y="419" type="curve" smooth="yes"/>
-      <point x="100" y="394"/>
-      <point x="261" y="256"/>
-      <point x="338" y="186" type="curve"/>
-      <point x="330" y="244" type="line"/>
-      <point x="261" y="144"/>
-      <point x="165" y="27"/>
-      <point x="118" y="-33" type="curve" smooth="yes"/>
-      <point x="111" y="-41"/>
-      <point x="108" y="-49"/>
-      <point x="108" y="-56" type="curve" smooth="yes"/>
-      <point x="108" y="-67"/>
-      <point x="116" y="-74"/>
-      <point x="126" y="-74" type="curve" smooth="yes"/>
-      <point x="133" y="-74"/>
-      <point x="141" y="-70"/>
-      <point x="148" y="-62" type="curve" smooth="yes"/>
-      <point x="362" y="174"/>
-      <point x="445" y="307"/>
+      <point x="406" y="332" type="curve"/>
+      <point x="300" y="425"/>
+      <point x="177" y="570"/>
+      <point x="160" y="570" type="curve" smooth="yes"/>
+      <point x="137" y="570"/>
+      <point x="50" y="445"/>
+      <point x="50" y="419" type="curve" smooth="yes"/>
+      <point x="50" y="394"/>
+      <point x="211" y="256"/>
+      <point x="288" y="186" type="curve"/>
+      <point x="280" y="244" type="line"/>
+      <point x="211" y="144"/>
+      <point x="115" y="27"/>
+      <point x="68" y="-33" type="curve" smooth="yes"/>
+      <point x="61" y="-41"/>
+      <point x="58" y="-49"/>
+      <point x="58" y="-56" type="curve" smooth="yes"/>
+      <point x="58" y="-67"/>
+      <point x="66" y="-74"/>
+      <point x="76" y="-74" type="curve" smooth="yes"/>
+      <point x="83" y="-74"/>
+      <point x="91" y="-70"/>
+      <point x="98" y="-62" type="curve" smooth="yes"/>
+      <point x="312" y="174"/>
+      <point x="395" y="307"/>
     </contour>
   </outline>
   <lib>

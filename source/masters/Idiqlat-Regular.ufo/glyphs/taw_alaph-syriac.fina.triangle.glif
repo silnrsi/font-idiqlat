@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taw_alaph-syriac.fina.triangle" format="2">
-  <advance width="904"/>
+  <advance width="854"/>
   <anchor x="750" y="-195" name="b.U0325_3_2_ligComponent_1"/>
   <anchor x="225" y="-210" name="b.U0325_3_2_ligComponent_2"/>
   <anchor x="840" y="-195" name="b.U0331_2_2_ligComponent_1"/>
@@ -12,13 +12,13 @@
   <outline>
     <component base="taw_alaph-syriac.triangle"/>
     <contour>
-      <point x="821" y="195" type="line"/>
-      <point x="695" y="101" type="line"/>
-      <point x="716" y="70"/>
-      <point x="769" y="0"/>
-      <point x="774" y="0" type="curve" smooth="yes"/>
-      <point x="924" y="0" type="line"/>
-      <point x="924" y="195" type="line"/>
+      <point x="771" y="195" type="line"/>
+      <point x="645" y="101" type="line"/>
+      <point x="666" y="70"/>
+      <point x="719" y="0"/>
+      <point x="724" y="0" type="curve" smooth="yes"/>
+      <point x="874" y="0" type="line"/>
+      <point x="874" y="195" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="he-syriac.fina" format="2">
-  <advance width="917"/>
+  <advance width="867"/>
   <anchor x="450" y="765" name="above"/>
   <anchor x="405" y="-150" name="b.U0325_3"/>
   <anchor x="480" y="-150" name="b.U0740"/>
@@ -9,10 +9,10 @@
   <outline>
     <component base="he-syriac"/>
     <contour>
-      <point x="834" y="195" type="line"/>
-      <point x="837" y="0" type="line"/>
-      <point x="937" y="0" type="line"/>
-      <point x="937" y="195" type="line"/>
+      <point x="784" y="195" type="line"/>
+      <point x="787" y="0" type="line"/>
+      <point x="887" y="0" type="line"/>
+      <point x="887" y="195" type="line"/>
     </contour>
   </outline>
   <lib>

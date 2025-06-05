@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gamal-syriac" format="2">
-  <advance width="1243"/>
+  <advance width="1143"/>
   <unicode hex="0713"/>
-  <anchor x="982" y="795" name="above"/>
-  <anchor x="667" y="-165" name="b.U0325_3"/>
-  <anchor x="757" y="-165" name="b.U0740"/>
-  <anchor x="742" y="-180" name="below"/>
-  <anchor x="922" y="825" name="m.U030a_1"/>
+  <anchor x="932" y="795" name="above"/>
+  <anchor x="617" y="-165" name="b.U0325_3"/>
+  <anchor x="707" y="-165" name="b.U0740"/>
+  <anchor x="692" y="-180" name="below"/>
+  <anchor x="872" y="825" name="m.U030a_1"/>
   <outline>
-    <component base="gamal-syriac.init" xOffset="297"/>
-    <component base="_LeftTail"/>
+    <component base="gamal-syriac.init" xOffset="247"/>
+    <component base="_LeftTail" xOffset="-50"/>
   </outline>
 </glyph>

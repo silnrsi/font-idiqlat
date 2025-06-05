@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yudhhe-syriac" format="2">
-  <advance width="1435"/>
+  <advance width="1335"/>
   <unicode hex="071E"/>
   <anchor x="1185" y="660" name="above"/>
   <anchor x="1665" y="-135" name="b.U0325_3"/>
@@ -9,7 +9,7 @@
   <anchor x="1890" y="555" name="m.U030a_1"/>
   <outline>
     <component base="he-syriac"/>
-    <component base="_heth-init" xOffset="851"/>
+    <component base="_heth-init" xOffset="801"/>
     <contour>
       <point x="399" y="-275" type="curve" smooth="yes"/>
       <point x="443" y="-275"/>
@@ -67,12 +67,12 @@
       <point x="355" y="942"/>
     </contour>
     <contour>
-      <point x="1087" y="195" type="curve"/>
-      <point x="820" y="195" type="line"/>
-      <point x="820" y="0" type="line"/>
-      <point x="968" y="0" type="line" smooth="yes"/>
-      <point x="1053" y="0"/>
-      <point x="1087" y="65"/>
+      <point x="1037" y="195" type="curve"/>
+      <point x="770" y="195" type="line"/>
+      <point x="770" y="0" type="line"/>
+      <point x="918" y="0" type="line" smooth="yes"/>
+      <point x="1003" y="0"/>
+      <point x="1037" y="65"/>
     </contour>
   </outline>
   <lib>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nun-syriac.fina.square" format="2">
-  <advance width="907"/>
-  <anchor x="373" y="765" name="above"/>
-  <anchor x="388" y="-150" name="b.U0325_3"/>
-  <anchor x="343" y="-135" name="b.U0740"/>
-  <anchor x="388" y="-165" name="below"/>
-  <anchor x="373" y="765" name="m.U030a_1"/>
+  <advance width="857"/>
+  <anchor x="323" y="765" name="above"/>
+  <anchor x="338" y="-150" name="b.U0325_3"/>
+  <anchor x="293" y="-135" name="b.U0740"/>
+  <anchor x="338" y="-165" name="below"/>
+  <anchor x="323" y="765" name="m.U030a_1"/>
   <outline>
-    <component base="nun-syriac.medi" xOffset="290"/>
-    <component base="_LeftTail"/>
+    <component base="nun-syriac.medi" xOffset="240"/>
+    <component base="_LeftTail" xOffset="-50"/>
   </outline>
   <lib>
     <dict>

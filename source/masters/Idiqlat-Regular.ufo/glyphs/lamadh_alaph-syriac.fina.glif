@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamadh_alaph-syriac.fina" format="2">
-  <advance width="1491"/>
-  <anchor x="1024" y="-150" name="b.U0325_3_2_ligComponent_1"/>
-  <anchor x="439" y="-150" name="b.U0325_3_2_ligComponent_2"/>
-  <anchor x="1039" y="-165" name="b.U0331_2_2_ligComponent_1"/>
-  <anchor x="439" y="-165" name="b.U0331_2_2_ligComponent_2"/>
-  <anchor x="1084" y="1005" name="m.U030a_1_2_ligComponent_1"/>
-  <anchor x="349" y="960" name="m.U030a_1_2_ligComponent_2"/>
-  <anchor x="1144" y="990" name="m.U0656_ligComponent_1"/>
-  <anchor x="304" y="1005" name="m.U0656_ligComponent_2"/>
+  <advance width="1502"/>
+  <anchor x="1035" y="-150" name="b.U0325_3_2_ligComponent_1"/>
+  <anchor x="450" y="-150" name="b.U0325_3_2_ligComponent_2"/>
+  <anchor x="1050" y="-165" name="b.U0331_2_2_ligComponent_1"/>
+  <anchor x="450" y="-165" name="b.U0331_2_2_ligComponent_2"/>
+  <anchor x="1095" y="1005" name="m.U030a_1_2_ligComponent_1"/>
+  <anchor x="360" y="960" name="m.U030a_1_2_ligComponent_2"/>
+  <anchor x="1155" y="990" name="m.U0656_ligComponent_1"/>
+  <anchor x="315" y="1005" name="m.U0656_ligComponent_2"/>
   <outline>
-    <component base="alaph-syriac.ccmp" xOffset="-11"/>
+    <component base="alaph-syriac.ccmp"/>
     <contour>
-      <point x="699" y="875" type="curve" smooth="yes"/>
-      <point x="700" y="852"/>
-      <point x="911" y="530"/>
-      <point x="1165" y="164" type="curve" smooth="yes"/>
-      <point x="1244" y="50"/>
-      <point x="1298" y="0"/>
-      <point x="1438" y="0" type="curve" smooth="yes"/>
-      <point x="1511" y="0" type="line"/>
-      <point x="1511" y="195" type="line"/>
-      <point x="1436" y="195" type="line" smooth="yes"/>
-      <point x="1347" y="195"/>
-      <point x="1283" y="298"/>
-      <point x="1023" y="751" type="curve" smooth="yes"/>
-      <point x="904" y="958"/>
-      <point x="882" y="1013"/>
-      <point x="868" y="1123" type="curve" smooth="yes"/>
-      <point x="867" y="1128"/>
-      <point x="866" y="1134"/>
-      <point x="863" y="1134" type="curve" smooth="yes"/>
-      <point x="845" y="1134"/>
-      <point x="695" y="949"/>
+      <point x="710" y="875" type="curve" smooth="yes"/>
+      <point x="711" y="852"/>
+      <point x="922" y="530"/>
+      <point x="1176" y="164" type="curve" smooth="yes"/>
+      <point x="1255" y="50"/>
+      <point x="1309" y="0"/>
+      <point x="1449" y="0" type="curve" smooth="yes"/>
+      <point x="1522" y="0" type="line"/>
+      <point x="1522" y="195" type="line"/>
+      <point x="1447" y="195" type="line" smooth="yes"/>
+      <point x="1358" y="195"/>
+      <point x="1294" y="298"/>
+      <point x="1034" y="751" type="curve" smooth="yes"/>
+      <point x="915" y="958"/>
+      <point x="893" y="1013"/>
+      <point x="879" y="1123" type="curve" smooth="yes"/>
+      <point x="878" y="1128"/>
+      <point x="877" y="1134"/>
+      <point x="874" y="1134" type="curve" smooth="yes"/>
+      <point x="856" y="1134"/>
+      <point x="706" y="949"/>
     </contour>
     <contour>
-      <point x="1238" y="195" type="curve"/>
-      <point x="539" y="195" type="line"/>
-      <point x="539" y="0" type="line"/>
-      <point x="1119" y="0" type="line" smooth="yes"/>
-      <point x="1204" y="0"/>
-      <point x="1238" y="65"/>
+      <point x="1249" y="195" type="curve"/>
+      <point x="550" y="195" type="line"/>
+      <point x="550" y="0" type="line"/>
+      <point x="1130" y="0" type="line" smooth="yes"/>
+      <point x="1215" y="0"/>
+      <point x="1249" y="65"/>
     </contour>
   </outline>
   <lib>

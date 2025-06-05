@@ -8,7 +8,7 @@
   <anchor x="1890" y="555" name="m.U030a_1"/>
   <outline>
     <component base="he-syriac"/>
-    <component base="_yudh-med" xOffset="981"/>
+    <component base="_yudh-med" xOffset="931"/>
     <contour>
       <point x="399" y="-275" type="curve" smooth="yes"/>
       <point x="443" y="-275"/>
@@ -66,12 +66,12 @@
       <point x="355" y="942"/>
     </contour>
     <contour>
-      <point x="1187" y="195" type="curve"/>
-      <point x="820" y="195" type="line"/>
-      <point x="820" y="0" type="line"/>
-      <point x="1068" y="0" type="line" smooth="yes"/>
-      <point x="1153" y="0"/>
-      <point x="1187" y="65"/>
+      <point x="1137" y="195" type="curve"/>
+      <point x="770" y="195" type="line"/>
+      <point x="770" y="0" type="line"/>
+      <point x="1018" y="0" type="line" smooth="yes"/>
+      <point x="1103" y="0"/>
+      <point x="1137" y="65"/>
     </contour>
   </outline>
   <lib>

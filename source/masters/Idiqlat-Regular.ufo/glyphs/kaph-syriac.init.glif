@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaph-syriac.init" format="2">
-  <advance width="925"/>
+  <advance width="875"/>
   <anchor x="450" y="750" name="above"/>
   <anchor x="450" y="-135" name="b.U0325_3"/>
   <anchor x="450" y="-150" name="b.U0740"/>

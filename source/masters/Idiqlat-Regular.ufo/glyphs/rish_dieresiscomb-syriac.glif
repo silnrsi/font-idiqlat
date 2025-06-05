@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rish_dieresiscomb-syriac" format="2">
-  <advance width="723"/>
+  <advance width="623"/>
   <anchor x="358" y="-135" name="b.U0325_3_2_ligComponent_1"/>
   <anchor x="328" y="-150" name="b.U0325_3_2_ligComponent_2"/>
   <anchor x="343" y="-210" name="b.U0331_2_2_ligComponent_1"/>
@@ -10,8 +10,8 @@
   <anchor x="298" y="1035" name="m.U0656_ligComponent_1"/>
   <anchor x="313" y="990" name="m.U0656_ligComponent_2"/>
   <outline>
-    <component base="_LrgSquareDot" xOffset="-116" yOffset="990"/>
+    <component base="_LrgSquareDot" xOffset="-166" yOffset="990"/>
     <component base="dalathrishDotless-syriac"/>
-    <component base="_LrgSquareDot" xOffset="175" yOffset="990"/>
+    <component base="_LrgSquareDot" xOffset="125" yOffset="990"/>
   </outline>
 </glyph>

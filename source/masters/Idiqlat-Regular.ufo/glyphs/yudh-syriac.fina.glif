@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yudh-syriac.fina" format="2">
-  <advance width="958"/>
-  <anchor x="546" y="525" name="above"/>
-  <anchor x="591" y="-150" name="b.U0325_3"/>
-  <anchor x="576" y="-150" name="b.U0740"/>
-  <anchor x="591" y="-150" name="below"/>
-  <anchor x="576" y="570" name="m.U030a_1"/>
+  <advance width="908"/>
+  <anchor x="496" y="525" name="above"/>
+  <anchor x="541" y="-150" name="b.U0325_3"/>
+  <anchor x="526" y="-150" name="b.U0740"/>
+  <anchor x="541" y="-150" name="below"/>
+  <anchor x="526" y="570" name="m.U030a_1"/>
   <outline>
-    <component base="_LeftTail"/>
-    <component base="_yudh-med" xOffset="406"/>
+    <component base="_LeftTail" xOffset="-50"/>
+    <component base="_yudh-med" xOffset="356"/>
     <contour>
-      <point x="603" y="195" type="curve"/>
-      <point x="303" y="195" type="line"/>
-      <point x="303" y="0" type="line"/>
-      <point x="484" y="0" type="line" smooth="yes"/>
-      <point x="569" y="0"/>
-      <point x="603" y="65"/>
+      <point x="553" y="195" type="curve"/>
+      <point x="253" y="195" type="line"/>
+      <point x="253" y="0" type="line"/>
+      <point x="434" y="0" type="line" smooth="yes"/>
+      <point x="519" y="0"/>
+      <point x="553" y="65"/>
     </contour>
   </outline>
   <lib>

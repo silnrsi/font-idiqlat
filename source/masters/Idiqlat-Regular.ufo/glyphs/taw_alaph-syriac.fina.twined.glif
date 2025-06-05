@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taw_alaph-syriac.fina.twined" format="2">
-  <advance width="1214"/>
+  <advance width="1164"/>
   <outline>
     <component base="taw_alaph-syriac.twined"/>
     <contour>
-      <point x="1118" y="195" type="line"/>
-      <point x="1118" y="0" type="line"/>
-      <point x="1234" y="0" type="line"/>
-      <point x="1234" y="195" type="line"/>
+      <point x="1068" y="195" type="line"/>
+      <point x="1068" y="0" type="line"/>
+      <point x="1184" y="0" type="line"/>
+      <point x="1184" y="195" type="line"/>
     </contour>
   </outline>
   <lib>

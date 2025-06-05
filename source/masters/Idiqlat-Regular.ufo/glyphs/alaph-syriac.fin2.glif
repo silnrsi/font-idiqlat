@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alaph-syriac.fin2" format="2">
-  <advance width="625"/>
+  <advance width="581"/>
   <anchor x="292" y="975" name="above"/>
   <anchor x="322" y="-315" name="b.U0325_3"/>
   <anchor x="337" y="-270" name="b.U0740"/>

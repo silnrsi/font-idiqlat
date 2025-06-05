@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalath-syriac" format="2">
-  <advance width="723"/>
+  <advance width="623"/>
   <unicode hex="0715"/>
   <anchor x="325" y="705" name="above"/>
   <anchor x="250" y="-390" name="b.U0325_3"/>

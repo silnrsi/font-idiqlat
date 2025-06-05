@@ -8,7 +8,7 @@
   <anchor x="420" y="525" name="m.U030a_1"/>
   <outline>
     <component base="_heth-med" xOffset="102"/>
-    <component base="_yudh-med" xOffset="446"/>
+    <component base="_heth-med.1" xOffset="446"/>
     <contour>
       <point x="326" y="195" type="curve"/>
       <point x="-20" y="195" type="line"/>
