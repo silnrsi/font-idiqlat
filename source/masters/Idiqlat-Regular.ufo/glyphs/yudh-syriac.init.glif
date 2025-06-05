@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yudh-syriac.init" format="2">
-  <advance width="745"/>
-  <anchor x="330" y="570" name="above"/>
-  <anchor x="345" y="-165" name="b.U0325_3"/>
-  <anchor x="330" y="-150" name="b.U0740"/>
-  <anchor x="360" y="-150" name="below"/>
-  <anchor x="345" y="540" name="m.U030a_1"/>
+  <advance width="805"/>
+  <anchor x="390" y="570" name="above"/>
+  <anchor x="405" y="-165" name="b.U0325_3"/>
+  <anchor x="390" y="-150" name="b.U0740"/>
+  <anchor x="420" y="-150" name="below"/>
+  <anchor x="405" y="540" name="m.U030a_1"/>
   <outline>
-    <component base="_heth-init" xOffset="161"/>
+    <component base="_heth-init" xOffset="221"/>
     <contour>
-      <point x="397" y="195" type="curve"/>
+      <point x="457" y="195" type="curve"/>
       <point x="-20" y="195" type="line"/>
       <point x="-20" y="0" type="line"/>
-      <point x="278" y="0" type="line" smooth="yes"/>
-      <point x="363" y="0"/>
-      <point x="397" y="65"/>
+      <point x="338" y="0" type="line" smooth="yes"/>
+      <point x="423" y="0"/>
+      <point x="457" y="65"/>
     </contour>
   </outline>
   <lib>
