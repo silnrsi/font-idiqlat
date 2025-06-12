@@ -3,9 +3,9 @@
   <advance width="1110"/>
   <anchor x="377" y="750" name="above"/>
   <anchor x="392" y="735" name="aboveleft"/>
-  <anchor x="392" y="-135" name="b.U0325_3"/>
   <anchor x="392" y="-150" name="b.U0740"/>
   <anchor x="407" y="-180" name="below"/>
+  <anchor x="392" y="-135" name="belowleft"/>
   <outline>
     <component base="kaph-syriac.medi" xOffset="221"/>
     <component base="_LeftTail" xOffset="-50"/>

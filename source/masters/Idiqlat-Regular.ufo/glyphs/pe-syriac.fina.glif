@@ -3,9 +3,9 @@
   <advance width="1155"/>
   <anchor x="721" y="990" name="above"/>
   <anchor x="706" y="990" name="aboveleft"/>
-  <anchor x="721" y="-135" name="b.U0325_3"/>
   <anchor x="766" y="-135" name="b.U0740"/>
   <anchor x="691" y="-135" name="below"/>
+  <anchor x="721" y="-135" name="belowleft"/>
   <outline>
     <component base="pe-syriac.init" xOffset="266"/>
     <component base="_LeftTail" xOffset="-50"/>

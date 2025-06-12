@@ -2,7 +2,6 @@
 <glyph name="dotaboveleftcomb" format="2">
   <unicode hex="1DF8"/>
   <anchor x="320" y="-65" name="_aboveleft"/>
-  <anchor x="240" y="0" name="_m.U030a_1_2"/>
   <outline>
     <component base="rwaha-syriac" xOffset="-2"/>
   </outline>

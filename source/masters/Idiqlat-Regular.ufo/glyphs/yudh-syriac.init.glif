@@ -3,9 +3,9 @@
   <advance width="755"/>
   <anchor x="390" y="570" name="above"/>
   <anchor x="405" y="540" name="aboveleft"/>
-  <anchor x="405" y="-165" name="b.U0325_3"/>
   <anchor x="390" y="-150" name="b.U0740"/>
   <anchor x="420" y="-150" name="below"/>
+  <anchor x="405" y="-165" name="belowleft"/>
   <outline>
     <component base="_heth-init" xOffset="221"/>
     <contour>

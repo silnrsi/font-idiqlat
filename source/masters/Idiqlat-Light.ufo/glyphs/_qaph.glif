@@ -2,9 +2,9 @@
 <glyph name="_qaph" format="2">
   <advance width="1061"/>
   <anchor x="675" y="750" name="aboveleft"/>
-  <anchor x="705" y="-120" name="b.U0325_3"/>
   <anchor x="705" y="-135" name="b.U0331_2"/>
   <anchor x="750" y="-150" name="b.U0740"/>
+  <anchor x="705" y="-120" name="belowleft"/>
   <anchor x="675" y="780" name="t.U0656"/>
   <outline>
     <contour>

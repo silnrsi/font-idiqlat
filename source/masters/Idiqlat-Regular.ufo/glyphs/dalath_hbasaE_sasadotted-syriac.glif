@@ -3,9 +3,9 @@
   <advance width="623"/>
   <anchor x="360" y="720" name="above"/>
   <anchor x="285" y="705" name="aboveleft"/>
-  <anchor x="300" y="-390" name="b.U0325_3"/>
   <anchor x="0" y="0" name="b.U0740"/>
   <anchor x="315" y="-390" name="below"/>
+  <anchor x="300" y="-390" name="belowleft"/>
   <outline>
     <component base="_LrgSquareDot"/>
     <component base="dalathrishDotless-syriac"/>

@@ -3,9 +3,9 @@
   <advance width="719"/>
   <anchor x="385" y="735" name="above"/>
   <anchor x="385" y="720" name="aboveleft"/>
-  <anchor x="385" y="-120" name="b.U0325_3"/>
   <anchor x="400" y="-150" name="b.U0740"/>
   <anchor x="415" y="-135" name="below"/>
+  <anchor x="385" y="-120" name="belowleft"/>
   <outline>
     <component base="waw-syriac"/>
     <contour>

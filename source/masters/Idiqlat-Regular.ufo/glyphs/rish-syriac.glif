@@ -4,9 +4,9 @@
   <unicode hex="072A"/>
   <anchor x="280" y="1005" name="above"/>
   <anchor x="280" y="1020" name="aboveleft"/>
-  <anchor x="265" y="-165" name="b.U0325_3"/>
   <anchor x="310" y="-150" name="b.U0740"/>
   <anchor x="310" y="-150" name="below"/>
+  <anchor x="265" y="-165" name="belowleft"/>
   <outline>
     <component base="_LrgSquareDot" xOffset="-23" yOffset="990"/>
     <component base="dalathrishDotless-syriac"/>

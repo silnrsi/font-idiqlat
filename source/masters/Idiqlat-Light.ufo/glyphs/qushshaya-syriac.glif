@@ -2,7 +2,6 @@
 <glyph name="qushshaya-syriac" format="2">
   <unicode hex="0741"/>
   <anchor x="105" y="0" name="_above"/>
-  <anchor x="90" y="-15" name="_m.U030a_1_2"/>
   <outline>
     <contour>
       <point x="34" y="0" type="line"/>

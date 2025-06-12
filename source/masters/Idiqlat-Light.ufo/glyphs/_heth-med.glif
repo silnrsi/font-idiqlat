@@ -2,9 +2,9 @@
 <glyph name="_heth-med" format="2">
   <advance width="1212"/>
   <anchor x="705" y="480" name="aboveleft"/>
-  <anchor x="720" y="-135" name="b.U0325_3"/>
   <anchor x="765" y="-165" name="b.U0331_2"/>
   <anchor x="870" y="-120" name="b.U0740"/>
+  <anchor x="720" y="-135" name="belowleft"/>
   <anchor x="705" y="480" name="t.U0656"/>
   <outline>
     <contour>

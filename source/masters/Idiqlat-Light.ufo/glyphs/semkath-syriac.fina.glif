@@ -3,9 +3,9 @@
   <advance width="1146"/>
   <anchor x="735" y="765" name="above"/>
   <anchor x="735" y="765" name="aboveleft"/>
-  <anchor x="690" y="-120" name="b.U0325_3"/>
   <anchor x="780" y="-150" name="b.U0740"/>
   <anchor x="705" y="-135" name="below"/>
+  <anchor x="690" y="-120" name="belowleft"/>
   <outline>
     <contour>
       <point x="767" y="-8" type="curve" smooth="yes"/>

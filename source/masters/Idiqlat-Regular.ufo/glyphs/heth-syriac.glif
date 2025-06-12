@@ -4,9 +4,9 @@
   <unicode hex="071A"/>
   <anchor x="676" y="585" name="above"/>
   <anchor x="661" y="525" name="aboveleft"/>
-  <anchor x="661" y="-150" name="b.U0325_3"/>
   <anchor x="796" y="-120" name="b.U0740"/>
   <anchor x="691" y="-165" name="below"/>
+  <anchor x="661" y="-150" name="belowleft"/>
   <outline>
     <component base="_heth-init" xOffset="722"/>
     <component base="_heth-med" xOffset="369"/>

@@ -16,7 +16,7 @@ languagesystem latn dflt ;
 
 
 @MarksAbove = [@_above @_t.U0656_2 @_m.U0656 @_aboveleft] ; # _diaA
-@MarksBelow = [ @_below @_b.U0325_3] ; # _diaB @_b.U0740 @_b.U0325_3
+@MarksBelow = [ @_below @_belowleft] ; # _diaB @_b.U0740 @_b.U0325_3
 @MarksAny = [@MarksAbove @MarksBelow] ;
 
 
@@ -191,32 +191,6 @@ lookup ltrFinaESyOlaph {
   lookupflag IgnoreMarks ;
     sub alaph-syriac  by  alaph-syriac.fin3 ;
 } ltrFinaESyOlaph ;
-
-# Can probably be deleted
-lookup LEastOptLega2 { # 072C 0710 0031
-# GSUB lookup 14, type 14 (Ligature)
-  lookupflag IgnoreMarks RightToLeft;
-    sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
-    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
-    sub taw-syriac alaph-syriac by taw_alaph-syriac;
-    sub taw-syriac alaph-syriac.fin2 by taw_alaph-syriac;
-    sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina.triangle;
-    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina.triangle;
-    sub taw-syriac alaph-syriac by taw_alaph-syriac.triangle;
-} LEastOptLega2;
-
-# Can probably be deleted
-lookup LEastOptLega { # 0728 0722
-  lookupflag IgnoreMarks ;
-    sub sadhe-syriac nun-syriac by sadhe_nun-syriac ;
-    sub sadhe-syriac.fina nun-syriac by sadhe_nun-syriac.fina ;
-    sub he-syriac yudh-syriac by he_yudh-syriac ;
-    sub he-syriac.fina yudh-syriac by he_yudh-syriac.fina ;
-    sub taw-syriac alaph-syriac by taw_alaph-syriac ;
-    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina ;
-    sub taw-syriac yudh-syriac by taw_yudh-syriac ;
-    sub taw-syriac.fina yudh-syriac by taw_yudh-syriac.fina ;
-} LEastOptLega ;
 
 lookup square1 {
 # GSUB lookup 18, type 11 (Single)

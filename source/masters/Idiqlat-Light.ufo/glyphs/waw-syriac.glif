@@ -4,9 +4,9 @@
   <unicode hex="0718"/>
   <anchor x="390" y="720" name="above"/>
   <anchor x="435" y="720" name="aboveleft"/>
-  <anchor x="450" y="-120" name="b.U0325_3"/>
   <anchor x="435" y="-150" name="b.U0740"/>
   <anchor x="450" y="-135" name="below"/>
+  <anchor x="450" y="-120" name="belowleft"/>
   <outline>
     <contour>
       <point x="427" y="-8" type="curve" smooth="yes"/>

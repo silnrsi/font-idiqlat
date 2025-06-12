@@ -128,6 +128,18 @@
       <comment>taw_alaph-syriac</comment>
       <string>\u072C\u0710 \u0712\u072C\u0710</string>
     </test>
+    <test label="U+072C U+0710">
+      <comment>taw_alaph-syriac</comment>
+      <string>ܝܵܡܵܬܹ̈ܐ</string>
+    </test>
+    <test label="U+072C U+0710" stylename="cv59_1">
+      <comment>taw_alaph-syriac does not work with diacritics</comment>
+      <string>ܝܵܡܵܬܹ̈ܐ</string>
+    </test>
+    <test label="U+072C U+0710" stylename="cv59_2">
+      <comment>taw_alaph-syriac does not work with diacritics</comment>
+      <string>ܝܵܡܵܬܹ̈ܐ</string>
+    </test>
     <test label="U+072C U+071D">
       <comment>taw_yudh-syriac</comment>
       <string>\u072C\u071D \u0712\u072C\u071D</string>
