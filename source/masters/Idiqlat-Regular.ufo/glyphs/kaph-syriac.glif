@@ -5,7 +5,7 @@
   <anchor x="357" y="765" name="above"/>
   <anchor x="402" y="-210" name="b.U0325_3"/>
   <anchor x="357" y="-180" name="b.U0740"/>
-  <anchor x="322" y="-210" name="below"/>
+  <anchor x="402" y="-210" name="below"/>
   <anchor x="357" y="765" name="m.U030a_1"/>
   <outline>
     <contour>

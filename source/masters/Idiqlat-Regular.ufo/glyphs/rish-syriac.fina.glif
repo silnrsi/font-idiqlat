@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rish-syriac.fina" format="2">
   <advance width="649"/>
-  <anchor x="250" y="1035" name="above"/>
+  <anchor x="285" y="1035" name="above"/>
   <anchor x="265" y="-135" name="b.U0325_3"/>
   <anchor x="325" y="-150" name="b.U0740"/>
   <anchor x="310" y="-135" name="below"/>
-  <anchor x="265" y="1020" name="m.U030a_1"/>
+  <anchor x="285" y="1020" name="m.U030a_1"/>
   <outline>
     <component base="rish-syriac"/>
     <contour>
