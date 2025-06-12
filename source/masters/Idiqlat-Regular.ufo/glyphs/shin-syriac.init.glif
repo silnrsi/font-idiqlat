@@ -2,10 +2,10 @@
 <glyph name="shin-syriac.init" format="2">
   <advance width="936"/>
   <anchor x="450" y="795" name="above"/>
+  <anchor x="465" y="765" name="aboveleft"/>
   <anchor x="465" y="-150" name="b.U0325_3"/>
   <anchor x="465" y="-135" name="b.U0740"/>
   <anchor x="465" y="-135" name="below"/>
-  <anchor x="465" y="765" name="m.U030a_1"/>
   <outline>
     <component base="_shin" xOffset="-19"/>
     <contour>

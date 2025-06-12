@@ -2,10 +2,10 @@
 <glyph name="gamal-syriac.init" format="2">
   <advance width="1019"/>
   <anchor x="645" y="825" name="above"/>
+  <anchor x="570" y="795" name="aboveleft"/>
   <anchor x="375" y="-150" name="b.U0325_3"/>
   <anchor x="510" y="-180" name="b.U0740"/>
   <anchor x="420" y="-135" name="below"/>
-  <anchor x="570" y="795" name="m.U030a_1"/>
   <outline>
     <contour>
       <point x="934" y="-470" type="line"/>

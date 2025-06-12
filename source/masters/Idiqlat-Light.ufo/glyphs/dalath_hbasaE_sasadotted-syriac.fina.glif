@@ -2,10 +2,10 @@
 <glyph name="dalath_hbasaEsasadotted-syriac.fina" format="2">
   <advance width="736"/>
   <anchor x="315" y="735" name="above"/>
+  <anchor x="405" y="-555" name="aboveleft"/>
   <anchor x="390" y="-405" name="b.U0325_3"/>
   <anchor x="0" y="0" name="b.U0740"/>
   <anchor x="375" y="-405" name="below"/>
-  <anchor x="405" y="-555" name="m.U030a_1"/>
   <outline>
     <contour>
       <point x="140" y="0" type="line"/>

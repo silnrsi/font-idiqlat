@@ -2,10 +2,10 @@
 <glyph name="alaph-syriac.fin3" format="2">
   <advance width="630"/>
   <anchor x="316" y="975" name="above"/>
+  <anchor x="301" y="960" name="aboveleft"/>
   <anchor x="331" y="-135" name="b.U0325_3"/>
   <anchor x="361" y="-150" name="b.U0740"/>
   <anchor x="331" y="-135" name="below"/>
-  <anchor x="301" y="960" name="m.U030a_1"/>
   <outline>
     <component base="alaph-syriac"/>
   </outline>

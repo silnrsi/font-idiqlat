@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_heth-med" format="2">
   <advance width="623"/>
+  <anchor x="287" y="525" name="aboveleft"/>
   <anchor x="287" y="-150" name="b.U0325_3"/>
   <anchor x="317" y="-165" name="b.U0331_2"/>
   <anchor x="422" y="-120" name="b.U0740"/>
-  <anchor x="287" y="525" name="m.U030a_1"/>
   <anchor x="302" y="585" name="t.U0656"/>
   <outline>
     <contour>

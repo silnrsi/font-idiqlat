@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="femininedot-syriac" format="2">
   <unicode hex="0740"/>
-  <anchor x="165" y="0" name="_b.U0740"/>
+  <anchor x="320" y="-65" name="_aboveleft"/>
   <outline>
     <contour>
       <point x="269" y="-110" type="curve" smooth="yes"/>

@@ -2,10 +2,10 @@
 <glyph name="yudh-syriac.medi" format="2">
   <advance width="722"/>
   <anchor x="360" y="600" name="above"/>
+  <anchor x="315" y="540" name="aboveleft"/>
   <anchor x="360" y="-165" name="b.U0325_3"/>
   <anchor x="345" y="-150" name="b.U0740"/>
   <anchor x="345" y="-150" name="below"/>
-  <anchor x="315" y="540" name="m.U030a_1"/>
   <outline>
     <component base="_yudh-med" xOffset="170"/>
     <contour>

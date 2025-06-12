@@ -2,10 +2,10 @@
 <glyph name="semkath-syriac.medi" format="2">
   <advance width="1062"/>
   <anchor x="645" y="765" name="above"/>
+  <anchor x="645" y="780" name="aboveleft"/>
   <anchor x="585" y="-135" name="b.U0325_3"/>
   <anchor x="555" y="-150" name="b.U0740"/>
   <anchor x="585" y="-120" name="below"/>
-  <anchor x="645" y="780" name="m.U030a_1"/>
   <outline>
     <contour>
       <point x="683" y="-8" type="curve" smooth="yes"/>

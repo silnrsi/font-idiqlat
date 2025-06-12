@@ -2,10 +2,10 @@
 <glyph name="beth-syriac.init" format="2">
   <advance width="855"/>
   <anchor x="480" y="735" name="above"/>
+  <anchor x="465" y="735" name="aboveleft"/>
   <anchor x="495" y="-120" name="b.U0325_3"/>
   <anchor x="525" y="-135" name="b.U0740"/>
   <anchor x="510" y="-120" name="below"/>
-  <anchor x="465" y="735" name="m.U030a_1"/>
   <outline>
     <contour>
       <point x="0" y="0" type="line"/>

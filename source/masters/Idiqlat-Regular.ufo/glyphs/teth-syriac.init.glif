@@ -2,10 +2,10 @@
 <glyph name="teth-syriac.init" format="2">
   <advance width="1231"/>
   <anchor x="685" y="675" name="above"/>
+  <anchor x="655" y="660" name="aboveleft"/>
   <anchor x="355" y="-180" name="b.U0325_3"/>
   <anchor x="415" y="-180" name="b.U0740"/>
   <anchor x="355" y="-225" name="below"/>
-  <anchor x="655" y="660" name="m.U030a_1"/>
   <outline>
     <contour>
       <point x="1158" y="0" type="curve"/>

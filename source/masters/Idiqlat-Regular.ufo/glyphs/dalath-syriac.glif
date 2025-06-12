@@ -3,10 +3,10 @@
   <advance width="623"/>
   <unicode hex="0715"/>
   <anchor x="325" y="705" name="above"/>
+  <anchor x="235" y="705" name="aboveleft"/>
   <anchor x="250" y="-390" name="b.U0325_3"/>
   <anchor x="295" y="-360" name="b.U0740"/>
   <anchor x="280" y="-390" name="below"/>
-  <anchor x="235" y="705" name="m.U030a_1"/>
   <outline>
     <component base="dalathrishDotless-syriac"/>
     <component base="_LrgSquareDot" xOffset="-51"/>

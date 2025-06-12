@@ -2,10 +2,10 @@
 <glyph name="kaph-syriac.fina" format="2">
   <advance width="934"/>
   <anchor x="323" y="705" name="above"/>
+  <anchor x="338" y="705" name="aboveleft"/>
   <anchor x="338" y="-375" name="b.U0325_3"/>
   <anchor x="278" y="-330" name="b.U0740"/>
   <anchor x="338" y="-375" name="below"/>
-  <anchor x="338" y="705" name="m.U030a_1"/>
   <outline>
     <contour>
       <point x="579" y="195" type="line"/>

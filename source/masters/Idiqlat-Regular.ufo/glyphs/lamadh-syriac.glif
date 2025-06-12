@@ -3,10 +3,10 @@
   <advance width="1077"/>
   <unicode hex="0720"/>
   <anchor x="888" y="945" name="above"/>
+  <anchor x="858" y="945" name="aboveleft"/>
   <anchor x="693" y="-150" name="b.U0325_3"/>
   <anchor x="708" y="-165" name="b.U0740"/>
   <anchor x="723" y="-150" name="below"/>
-  <anchor x="858" y="945" name="m.U030a_1"/>
   <outline>
     <component base="lamadh-syriac.init" xOffset="219"/>
     <component base="_LeftTail" xOffset="-50"/>

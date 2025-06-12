@@ -2,10 +2,10 @@
 <glyph name="nun-syriac.fina.square" format="2">
   <advance width="683"/>
   <anchor x="405" y="735" name="above"/>
+  <anchor x="390" y="720" name="aboveleft"/>
   <anchor x="390" y="-150" name="b.U0325_3"/>
   <anchor x="345" y="-135" name="b.U0740"/>
   <anchor x="390" y="-165" name="below"/>
-  <anchor x="390" y="720" name="m.U030a_1"/>
   <outline>
     <component base="nun-syriac.medi"/>
   </outline>

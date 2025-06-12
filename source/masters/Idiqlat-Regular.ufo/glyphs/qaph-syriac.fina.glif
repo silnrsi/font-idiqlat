@@ -2,10 +2,10 @@
 <glyph name="qaph-syriac.fina" format="2">
   <advance width="1026"/>
   <anchor x="655" y="780" name="above"/>
+  <anchor x="670" y="765" name="aboveleft"/>
   <anchor x="685" y="-150" name="b.U0325_3"/>
   <anchor x="685" y="-150" name="b.U0740"/>
   <anchor x="685" y="-150" name="below"/>
-  <anchor x="670" y="765" name="m.U030a_1"/>
   <outline>
     <component base="_qaph" xOffset="252"/>
     <component base="_LeftTail" xOffset="-50"/>
