@@ -92,9 +92,21 @@
       <comment>he_yudh-syriac</comment>
       <string>\u0717\u071D \u0712\u0717\u071D</string>
     </test>
+    <test label="U+0717 U+071D">
+      <comment>he_yudh-syriac</comment>
+      <string>\u0715\u0717\u0307\u071D</string>
+    </test>
+    <test label="U+0717 U+071D" stylename="cv38_1">
+      <comment>he_yudh-syriac (forms)</comment>
+      <string>\u0715\u0717\u0307\u071D</string>
+    </test>
     <test label="U+0720 U+0710">
       <comment>lamadh_alaph-syriac</comment>
       <string>\u0720\u0710 \u0712\u0720\u0710</string>
+    </test>
+    <test label="U+0720 U+0710">
+      <comment>lamadh_alaph-syriac</comment>
+      <string>\u0718\u0720\u0735\u0710</string>
     </test>
     <test label="U+0728 U+0722">
       <comment>sadhe_nun-syriac</comment>
@@ -104,7 +116,15 @@
       <comment>sadhe-syriac nun-syriac</comment>
       <string>\u0728\u0722 \u0729\u0728\u0722</string>
     </test>
-    <test label="U+072A U+0738 U+0308">
+    <test label="U+0728 U+0722">
+      <comment>sadhe-syriac nun-syriac</comment>
+      <string>\u0721\u0732\u0720\u071d\u0738\u0728\u0738\u0722 \u0710\u0718\u073c\u0720\u0728\u0735\u0722\u0739\u0717</string>
+    </test>
+    <test label="U+0728 U+0722" stylename="cv55_1">
+      <comment>sadhe-syriac nun-syriac (forms at end of word)</comment>
+      <string>\u0721\u0732\u0720\u071d\u0738\u0728\u0738\u0722 \u0710\u0718\u073c\u0720\u0728\u0735\u0722\u0739\u0717</string>
+    </test>
+   <test label="U+072A U+0738 U+0308">
       <comment>rish seyame (obligatory)</comment>
       <string>\u072a \u072a\u0738\u0308 \u0712\u072A\u0738\u0308</string>
     </test>
@@ -130,15 +150,15 @@
     </test>
     <test label="U+072C U+0710">
       <comment>taw_alaph-syriac</comment>
-      <string>ܝܵܡܵܬܹ̈ܐ</string>
+      <string>\u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710</string>
     </test>
     <test label="U+072C U+0710" stylename="cv59_1">
-      <comment>taw_alaph-syriac does not work with diacritics</comment>
-      <string>ܝܵܡܵܬܹ̈ܐ</string>
+      <comment>taw_alaph-syriac (does not form)</comment>
+      <string>\u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710</string>
     </test>
     <test label="U+072C U+0710" stylename="cv59_2">
-      <comment>taw_alaph-syriac does not work with diacritics</comment>
-      <string>ܝܵܡܵܬܹ̈ܐ</string>
+      <comment>taw_alaph-syriac (does not form)</comment>
+      <string>\u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710</string>
     </test>
     <test label="U+072C U+071D">
       <comment>taw_yudh-syriac</comment>
@@ -147,6 +167,14 @@
     <test label="U+072C U+071D" stylename="cv60_1">
       <comment>taw_yudh-syriac</comment>
       <string>\u072C\u071D \u0712\u072C\u071D</string>
+    </test>
+    <test label="U+072C U+071D">
+      <comment>taw_yudh-syriac</comment>
+      <string>\u072C\u0732\u072a\u072C\u0739\u071D</string>
+    </test>
+    <test label="U+072C U+071D" stylename="cv60_1">
+      <comment>taw_yudh-syriac (forms but using wrong anchor)</comment>
+      <string>\u072C\u0732\u072a\u072C\u0739\u071D</string>
     </test>
 </testgroup>
 
