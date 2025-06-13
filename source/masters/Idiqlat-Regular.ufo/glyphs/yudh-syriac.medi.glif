@@ -3,7 +3,6 @@
   <advance width="722"/>
   <anchor x="360" y="600" name="above"/>
   <anchor x="315" y="540" name="aboveleft"/>
-  <anchor x="345" y="-150" name="b.U0740"/>
   <anchor x="345" y="-150" name="below"/>
   <anchor x="360" y="-165" name="belowleft"/>
   <outline>

@@ -4,7 +4,6 @@
   <unicode hex="0712"/>
   <anchor x="678" y="780" name="above"/>
   <anchor x="693" y="735" name="aboveleft"/>
-  <anchor x="648" y="-135" name="b.U0740"/>
   <anchor x="618" y="-128" name="below"/>
   <anchor x="633" y="-150" name="belowleft"/>
   <outline>

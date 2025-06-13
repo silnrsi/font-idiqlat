@@ -1019,6 +1019,10 @@ languagesystem DFLT dflt;
 languagesystem syrc dflt;
 # Syriac default
 languagesystem latn dflt;
+# Anchors on diacritics: _aboveleft2 _b.U0331_2_2 _below_unused _center _none _ogonek _stroke
+# Anchors on bases: above aboveleft b.U0325_3_2_ligComponent_1 b.U0325_3_2_ligComponent_2 b.U0331_2
+# b.U0331_2_2_ligComponent_1 b.U0331_2_2_ligComponent_2 b.U0740 below belowleft center dotacc
+# m.U030a_1_2_ligComponent_1 m.U030a_1_2_ligComponent_2 m.U0656_ligComponent_1 m.U0656_ligComponent_2 ogonek stroke t.U0656 t.U0656_2 topleft topright
 @MarksAbove = [@_above @_t.U0656_2 @_m.U0656 @_aboveleft];
 # _diaA
 @MarksBelow = [@_below @_belowleft];
@@ -1210,28 +1214,28 @@ lookup NunAlternate {
     #    sub nun-syriac.fina by nun-syriac.fina.square ;
 } NunAlternate;
 
-# He Yudh U+0717 U+071D cv38
+# He Yudh U+0717 U+071D cv38 (marks position)
 lookup HeYudhLigature {
     lookupflag IgnoreMarks;
     sub he-syriac yudh-syriac by he_yudh-syriac;
     sub he-syriac.fina yudh-syriac by he_yudh-syriac.fina;
 } HeYudhLigature;
 
-# Sadhe Nun U+0728 U+0722 cv55
+# Sadhe Nun U+0728 U+0722 cv55 (marks position)
 lookup SadheNunLigature {
     lookupflag IgnoreMarks;
     sub sadhe-syriac nun-syriac by sadhe_nun-syriac;
     sub sadhe-syriac.fina nun-syriac by sadhe_nun-syriac.fina;
 } SadheNunLigature;
 
-# Taw Alaph U+072C U+0710 cv59=2
+# Taw Alaph U+072C U+0710 cv59=2 (ligature does not form in presense of marks)
 lookup TawAlaphLigatures {
     lookupflag IgnoreMarks;
     sub taw_alaph-syriac from [taw_alaph-syriac.triangle taw_alaph-syriac.twined];
     sub taw_alaph-syriac.fina from [taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined];
 } TawAlaphLigatures;
 
-# Taw Yudh U+072C U+071D cv60=1
+# Taw Yudh U+072C U+071D cv60=1 (ligature forms but mark is in wrong position)
 lookup TawYudhLigature {
     lookupflag IgnoreMarks;
     sub taw-syriac yudh-syriac by taw_yudh-syriac;
