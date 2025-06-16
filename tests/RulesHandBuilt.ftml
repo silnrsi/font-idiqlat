@@ -4,7 +4,7 @@
   <head>
     <fontscale>200</fontscale>
     <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-    <fontsrc label="Reg">url(../results/Idiqlat-Regular.ttf)</fontsrc>
+    <fontsrc label="Idiqlat">url(../results/Idiqlat-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'cv38' 1" name="cv38_1"/>
       <style feats="'cv55' 1" name="cv55_1"/>
@@ -177,6 +177,27 @@
       <string>\u072C\u0732\u072a\u072C\u0739\u071D</string>
     </test>
 </testgroup>
+
+<testgroup label="Ligature Words with diacritics from aii">
+    <test label="lam_alaph 0720 0710" rtl="True">
+      <comment>lam_alaph</comment>
+      <string>ܠܐܓܵܪܘܼܗ̇ ܕܠܐܝܼܕܝܼ ܐܘܼܟ݂ܠܵܐ ܒܛܝܼܠܵܐܝܼܬ ܠܹܐܒܵܐ ܒܠܹܐܒܵܐ ܐܲܝܠܹܐ ܐܵܙܵܠ݇ܐ ܒܡܲܠܲܐܟܹ̈ܐ ܠܐܵܒ݂ܵܠ ܚܸܠܐܵܐ ܠܐܲܒ݂ܕܵܢܵܐ ܒܲܠܐܲܕܵܢ ܠܐܹܠܝܼܦܵܙ ܕܝܲܚܠܐܹܝܠܵܝܹ̈ܐ ܕܡܬܠ̈ܐ ܠܐ݇ܢܵܫܹܗ ܕܠܐ݇ܢܵܫܵܐ ܠܐܸܠܥܵܣܵܐ ܘܠܐܸܡܘܵܬ̈ܐ ܠܸܐܡܵܪܵܐ ܟܵܠܸܐ</string>
+    </test>
+    <test label="taw_alaph 072c 0710" rtl="True">
+      <comment>taw_alaph</comment>
+      <string>ܐܘܠܝܬ̈ܐ ܐܘܼܟ݂ܠܬܵܐ ܐܘܼܪ̈ܚܵܬܹܐ ܐܵܬܘܼܬܵܐܝܼܬ ܒܡܸܫܬܲܐܠܵܢܘܼܝܵܬܲܝܗܝ ܒܪܝܬܐ ܒܬܹܐܢܵܐ ܕܛܝܼܡܵܬܹܐܘܿܣ ܕܫܘܼܬܐܸܣ ܕܫܹܠܲܬܐܹܝܠ ܕܬܹܐܘܿܛܝܼܪܵܐ ܘܐܸܫܬܵܐܘܿܠܵܝܹ̈ܐ ܡܸܫܬܲܐܠܵܢܵܐ ܠܛܝܼܡܵܬܹܐܘܿܣ ܠܡܸܫܬܲܐܠܵܢܘܼܬܘܼܟ݂ ܠܫܹܠܲܬܐܹܝܠ ܠܬܐܘܿܡܵܐ ܫܘܼܬܐܵܣܵܐ ܫܘܼܬܐܸܣܲܝ ܫܲܬܐܸܣ ܫܹܠܲܬܐܹܝܠ ܬܵܐ ܬܵܐܓ̰ ܬܹܐܘܿܛܝܼܪܵܐ </string>
+    </test>
+    <test label="taw_yudh 072c 071d" rtl="True">
+      <comment>taw_yudh</comment>
+      <string>ܬܝܼܪܟܲܫܹܗ ܒܐܸܣܬܝܼܪ ܐܘܼܡܬܝܼ ܐܲܩܠܵܬܲܝܗܝ ܒܵܬܲܝ ܘܢܵܬܝܵܬܲܝܗܝ ܘܫܬܝܵܬܝܼ ܫܲܗܘܲܬܝܵܬܲܝܗܝ ܬܝܵܒ݂ܘܼܟ݂ ܐܵܬܝܵܢܹ̈ܐ ܬܲܝܡܢܵܐ ܒܡܲܝܬܲܝܬܲܝ ܐܘܼܪ̈ܚܵܬܲܝܗܝ ܓܢܝܼܒ݂ܬܲܝ ܐܵܦܲܪ̈ܬܵܝܐ ܐܵܬܝܲܬܝ  ܐܣܬܝܪ ܐܲܢ݇ܬܝ ܬܵܝܡܝܼ ܐ݇ܬܵܝܬܘܼܟ݂ ܟܬܵܝܬܵܐ ܐܸܬܵܝ ܬܹܝܡܘܼܢ ܕܡܲܝܬܹܝܢ ܒܬܲܪܬܹܝ ܫܬܹܝܡܘܼܢ ܕܡܘܼܐܬܝܹܐ ܦܸܬܝܹܐ ܕܡܲܝܬܸܝܢ ܡܘܼܬܝܸܒܸܢܹܗ ܕܡܲܬܝܸܒ݂ܝܼ ܕܬܼܝܡ </string>
+    </test>
+    <test label="he_yudh 0717 071D" rtl="True">
+      <comment>he_yudh</comment>
+      <string>ܗܝܼܡܵܢ ܐܲܠܵܗܝܼ ܒܠܗܝܼܩܘܼܬܵܐ ܗܲܝܒܲܬ ܐܲܠܵܗܲܝܗܝ ܗܵܝܪܬܘܼܟ݂ ܐܲܠܵܗܵܝܬܵܐ ܐܲܠܵܗܝܵܐ ܓ̰ܸܗܝܹܐ ܗ̇ܝ ܗ̇ܝܓܵ ܕܗ̇ܝܓܵܗ ܕܒܗ̇ܝ ܕܡܲܓ̰ܗܹܝܬܘܿܢ ܕܨܵܗܝܲܬܝ ܥ݂ܲܲܝܗܝ</string>
+    </test>
+
+</testgroup>
+
 
 <testgroup label="UDHR #26 (aii)">
    <test label="article number 26" rtl="True">

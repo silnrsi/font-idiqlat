@@ -2,9 +2,9 @@
 <glyph name="beth-syriac.fina" format="2">
   <advance width="1049"/>
   <anchor x="765" y="795" name="above"/>
-  <anchor x="765" y="735" name="aboveleft"/>
+  <anchor x="50" y="795" name="aboveleft"/>
   <anchor x="705" y="-158" name="below"/>
-  <anchor x="690" y="-150" name="belowleft"/>
+  <anchor x="50" y="-158" name="belowleft"/>
   <outline>
     <component base="beth-syriac"/>
     <contour>

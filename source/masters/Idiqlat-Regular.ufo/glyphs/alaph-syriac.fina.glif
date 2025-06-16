@@ -2,9 +2,9 @@
 <glyph name="alaph-syriac.fina" format="2">
   <advance width="581"/>
   <anchor x="301" y="975" name="above"/>
-  <anchor x="301" y="960" name="aboveleft"/>
+  <anchor x="50" y="975" name="aboveleft"/>
   <anchor x="331" y="-360" name="below"/>
-  <anchor x="331" y="-360" name="belowleft"/>
+  <anchor x="50" y="-360" name="belowleft"/>
   <outline>
     <component base="alaph-syriac"/>
     <contour>

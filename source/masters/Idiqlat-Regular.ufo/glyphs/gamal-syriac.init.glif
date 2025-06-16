@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gamal-syriac.init" format="2">
-  <advance width="896"/>
+  <advance width="996"/>
   <anchor x="726" y="795" name="above"/>
   <anchor x="688" y="825" name="aboveleft"/>
   <anchor x="445" y="-165" name="below"/>
