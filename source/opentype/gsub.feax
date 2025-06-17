@@ -19,7 +19,7 @@ languagesystem latn dflt ;
 # b.U0331_2_2_ligComponent_1 b.U0331_2_2_ligComponent_2 b.U0740 below belowleft center dotacc
 # m.U030a_1_2_ligComponent_1 m.U030a_1_2_ligComponent_2 m.U0656_ligComponent_1 m.U0656_ligComponent_2 ogonek stroke t.U0656 t.U0656_2 topleft topright
 
-@MarksAbove = [@_above @_t.U0656_2 @_m.U0656 @_aboveleft] ; # _diaA
+@MarksAbove = [@_above @_t.U0656_2 @_above_1 @_aboveleft] ; # _diaA
 @MarksBelow = [ @_below @_belowleft] ; # _diaB @_b.U0740 @_b.U0325_3
 @MarksAny = [@MarksAbove @MarksBelow] ;
 

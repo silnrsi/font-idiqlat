@@ -2,7 +2,7 @@
 <glyph name="dotaccentcomb" format="2">
   <unicode hex="0307"/>
   <anchor x="135" y="0" name="_above"/>
-  <anchor x="75" y="0" name="_m.U0656"/>
+  <anchor x="75" y="0" name="_above_1"/>
   <anchor x="120" y="30" name="_t.U0656_2"/>
   <anchor x="120" y="270" name="t.U0656_2"/>
   <outline>

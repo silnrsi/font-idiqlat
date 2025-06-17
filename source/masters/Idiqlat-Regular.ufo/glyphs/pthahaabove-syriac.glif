@@ -2,7 +2,7 @@
 <glyph name="pthahaabove-syriac" format="2">
   <unicode hex="0730"/>
   <anchor x="195" y="60" name="_above"/>
-  <anchor x="255" y="90" name="_m.U0656"/>
+  <anchor x="255" y="90" name="_above_1"/>
   <anchor x="195" y="15" name="_t.U0656_2"/>
   <anchor x="165" y="435" name="t.U0656_2"/>
   <outline>
