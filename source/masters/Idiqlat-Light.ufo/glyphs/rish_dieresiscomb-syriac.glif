@@ -2,12 +2,12 @@
 <glyph name="rish_dieresiscomb-syriac" format="2">
   <advance width="770"/>
   <anchor x="330" y="1020" name="aboveLigComp_1"/>
-  <anchor x="375" y="-135" name="b.U0325_3_2_ligComponent_1"/>
-  <anchor x="375" y="-150" name="b.U0325_3_2_ligComponent_2"/>
+  <anchor x="345" y="975" name="aboveLigComp_2"/>
   <anchor x="405" y="-105" name="b.U0331_2_2_ligComponent_1"/>
   <anchor x="405" y="-120" name="b.U0331_2_2_ligComponent_2"/>
+  <anchor x="375" y="-135" name="belowLigComp_1"/>
+  <anchor x="375" y="-150" name="belowLigComp_2"/>
   <anchor x="315" y="1020" name="m.U030a_1_2_ligComponent_1"/>
-  <anchor x="345" y="975" name="m.U030a_1_2_ligComponent_2"/>
   <anchor x="330" y="1005" name="m.U0656_ligComponent_2"/>
   <outline>
     <contour>

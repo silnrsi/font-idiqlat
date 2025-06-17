@@ -61,13 +61,13 @@ lookup MarkToBase {
 lookup LMarkOnLigaEast { # needs work!
 	lookupflag 0;
 #	pos base @m.U030a_1_2_ligComponent_1    mark @_aboveleft; # top right
-	pos base @aboveLigComp_1    mark @_above_1; # top first component of ligature
+	pos base @aboveLigComp_1    mark @_above; # top first component of ligature
 #	pos base @m.U0656_ligComponent_2    mark @_above; # top left
-	pos base @m.U030a_1_2_ligComponent_2    mark @_aboveleft; # top left
-	pos base @b.U0325_3_2_ligComponent_1    mark @_below; # bottom right _b.U0325_3
-	pos base @b.U0331_2_2_ligComponent_1    mark @_below; # bottom right
-	pos base @b.U0325_3_2_ligComponent_2    mark @_below; # bottom left _b.U0325_3
-	pos base @b.U0331_2_2_ligComponent_2    mark @_below; # bottom left
+	pos base @aboveLigComp_2    mark @_above; # top left
+	pos base @belowLigComp_1    mark @_below; # bottom right _b.U0325_3
+#	pos base @b.U0331_2_2_ligComponent_1    mark @_below; # bottom right
+	pos base @belowLigComp_2    mark @_below; # bottom left _b.U0325_3
+#	pos base @b.U0331_2_2_ligComponent_2    mark @_below; # bottom left
 } LMarkOnLigaEast;
 
 #********************

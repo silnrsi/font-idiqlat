@@ -2,12 +2,12 @@
 <glyph name="sadhe_nun-syriac" format="2">
   <advance width="1172"/>
   <anchor x="780" y="330" name="aboveLigComp_1"/>
-  <anchor x="855" y="-675" name="b.U0325_3_2_ligComponent_1"/>
-  <anchor x="375" y="-675" name="b.U0325_3_2_ligComponent_2"/>
+  <anchor x="285" y="180" name="aboveLigComp_2"/>
   <anchor x="885" y="-630" name="b.U0331_2_2_ligComponent_1"/>
   <anchor x="375" y="-630" name="b.U0331_2_2_ligComponent_2"/>
+  <anchor x="855" y="-675" name="belowLigComp_1"/>
+  <anchor x="375" y="-675" name="belowLigComp_2"/>
   <anchor x="795" y="360" name="m.U030a_1_2_ligComponent_1"/>
-  <anchor x="285" y="180" name="m.U030a_1_2_ligComponent_2"/>
   <anchor x="240" y="240" name="m.U0656_ligComponent_2"/>
   <outline>
     <contour>

@@ -2,12 +2,12 @@
 <glyph name="taw_yudh-syriac.fina" format="2">
   <advance width="1530"/>
   <anchor x="875" y="975" name="aboveLigComp_1"/>
-  <anchor x="905" y="-150" name="b.U0325_3_2_ligComponent_1"/>
-  <anchor x="350" y="-150" name="b.U0325_3_2_ligComponent_2"/>
+  <anchor x="320" y="570" name="aboveLigComp_2"/>
   <anchor x="905" y="-195" name="b.U0331_2_2_ligComponent_1"/>
   <anchor x="365" y="-150" name="b.U0331_2_2_ligComponent_2"/>
+  <anchor x="905" y="-150" name="belowLigComp_1"/>
+  <anchor x="350" y="-150" name="belowLigComp_2"/>
   <anchor x="875" y="930" name="m.U030a_1_2_ligComponent_1"/>
-  <anchor x="320" y="570" name="m.U030a_1_2_ligComponent_2"/>
   <anchor x="320" y="660" name="m.U0656_ligComponent_2"/>
   <outline>
     <component base="taw-syriac.fina" xOffset="571"/>
