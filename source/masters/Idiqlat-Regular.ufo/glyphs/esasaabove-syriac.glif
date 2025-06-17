@@ -3,8 +3,8 @@
   <unicode hex="073D"/>
   <anchor x="240" y="60" name="_above"/>
   <anchor x="225" y="75" name="_above_1"/>
-  <anchor x="210" y="30" name="_t.U0656_2"/>
-  <anchor x="180" y="435" name="t.U0656_2"/>
+  <anchor x="210" y="30" name="_above_2"/>
+  <anchor x="180" y="435" name="above"/>
   <outline>
     <contour>
       <point x="293" y="40" type="line"/>

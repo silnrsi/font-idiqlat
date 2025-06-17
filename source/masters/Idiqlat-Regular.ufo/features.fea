@@ -49,7 +49,7 @@
 
 # AP: above
 @above = [A AE B C D E F G H I J L K M N O Q OE P R S T U V W X Y Z _jdotless idotless a ae alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3 alaph-syriac.fina alaph-syriac.med2 taw-syriac b beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi mim-syriac.fina c d dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina dottedCircle e g e-syriac e-syriac.fina e-syriac.init e-syriac.medi gamal-syriac gamal-syriac.fina gamal-syriac.init gamalgarshuni-syriac.init gamal-syriac.medi gamalgarshuni-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina h k he-syriac he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi kaph-syriac kaph-syriac.fina kaph-syriac.fina.round kaph-syriac.init kaph-syriac.medi kaph-syriac.round kashida-ar l lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi m mim-syriac mim-syriac.fina.round mim-syriac.init mim-syriac.medi mim-syriac.round n narrownbspace nbspace space nbspace.latn space.latn nun-syriac nun-syriac.fina nun-syriac.fina.square nun-syriac.init nun-syriac.medi nun-syriac.square o oe oslash p pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi q qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi r rish-syriac rish-syriac.fina s sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init shin-syriac semkath-syriac.medi semkathFinal-syriac semkathFinal-syriac.fina semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac.fina shin-syriac.init shin-syriac.medi t taw-syriac.fina teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi u v w waw-syriac waw-syriac.fina x y yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina z zain-syriac zain-syriac.fina];
-@above_MarkBase = [_acute _breve _caron _circumflex _grave _hungarumlaut _macron _tilde _acute.case _grave.case _tilde.case _caron.case _circumflex.case _dieresis _dotaccent _dotaccent.i _dieresis.case _ringabv _ringabv.case];
+@above_MarkBase = [_acute _breve _caron _circumflex _grave _hungarumlaut _macron _tilde _acute.case _grave.case _tilde.case _caron.case _circumflex.case _dieresis _dotaccent _dotaccent.i _dieresis.case _ringabv _ringabv.case barrekh-syriac dieresiscomb dotaccentcomb esasaabove-syriac hbasaabove-syriac macroncomb music-syriac obliquelineabove-syriac pthahaabove-syriac rbasaabove-syriac rwaha-syriac shadda-ar threedotsabove-syriac tildecomb twodotsverticalabove-syriac zqaphaabove-syriac zqaphadotted-syriac];
 # baseClass A <anchor 412 824> @above;
 # baseClass AE <anchor 613 824> @above;
 # baseClass B <anchor 433 824> @above;
@@ -200,6 +200,23 @@
 # baseClass _dieresis.case <anchor 420 1181> @above_MarkBase;
 # baseClass _ringabv <anchor 420 928> @above_MarkBase;
 # baseClass _ringabv.case <anchor 420 1238> @above_MarkBase;
+# baseClass barrekh-syriac <anchor 195 525> @above_MarkBase;
+# baseClass dieresiscomb <anchor 240 315> @above_MarkBase;
+# baseClass dotaccentcomb <anchor 75 345> @above_MarkBase;
+# baseClass esasaabove-syriac <anchor 180 435> @above_MarkBase;
+# baseClass hbasaabove-syriac <anchor 150 300> @above_MarkBase;
+# baseClass macroncomb <anchor 255 255> @above_MarkBase;
+# baseClass music-syriac <anchor 270 585> @above_MarkBase;
+# baseClass obliquelineabove-syriac <anchor 150 390> @above_MarkBase;
+# baseClass pthahaabove-syriac <anchor 165 435> @above_MarkBase;
+# baseClass rbasaabove-syriac <anchor 195 435> @above_MarkBase;
+# baseClass rwaha-syriac <anchor 75 375> @above_MarkBase;
+# baseClass shadda-ar <anchor 135 390> @above_MarkBase;
+# baseClass threedotsabove-syriac <anchor 165 405> @above_MarkBase;
+# baseClass tildecomb <anchor 240 330> @above_MarkBase;
+# baseClass twodotsverticalabove-syriac <anchor 60 420> @above_MarkBase;
+# baseClass zqaphaabove-syriac <anchor 120 480> @above_MarkBase;
+# baseClass zqaphadotted-syriac <anchor 270 510> @above_MarkBase;
 
 # AP: below
 @below = [A AE B T C D E F G H I K L d M N O OE P R S U V W X Y Z a ae alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3 alaph-syriac.fina alaph-syriac.med2 b beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi qaph-syriac.init c dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina dottedCircle e e-syriac e-syriac.fina e-syriac.init e-syriac.medi g gamal-syriac gamal-syriac.fina gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac shin-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi h n he-syriac he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init yudh-syriac.init heth-syriac.medi idotless l k u kaph-syriac kaph-syriac.fina kaph-syriac.fina.round kaph-syriac.init kaph-syriac.medi kaph-syriac.round kashida-ar kashida-ar.half kashida-ar.quarter kashida-ar.threequarter lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi m mim-syriac mim-syriac.fina mim-syriac.fina.round mim-syriac.init mim-syriac.medi mim-syriac.round narrownbspace nbspace space nbspace.latn space.latn nun-syriac nun-syriac.fina nun-syriac.fina.square nun-syriac.init nun-syriac.medi nun-syriac.square o oe pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi qaph-syriac qaph-syriac.fina qaph-syriac.medi semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi r rish-syriac rish-syriac.fina s sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.fina semkathFinal-syriac semkathFinal-syriac.fina shin-syriac.fina shin-syriac.init shin-syriac.medi t taw-syriac taw-syriac.fina teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi v w waw-syriac waw-syriac.fina x y yudh-syriac yudh-syriac.fina yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina z zain-syriac zain-syriac.fina];
@@ -696,42 +713,10 @@ markClass dieresiscomb <anchor 240 0> @_m.U0656;
 
 # AP: _t.U0656_2
 markClass alaphSuperscript-syriac <anchor 195 -15> @_t.U0656_2;
-markClass barrekh-syriac <anchor 165 180> @_t.U0656_2;
-markClass dieresiscomb <anchor 240 30> @_t.U0656_2;
-markClass [dotaccentcomb rwaha-syriac] <anchor 90 30> @_t.U0656_2;
-markClass esasaabove-syriac <anchor 210 30> @_t.U0656_2;
-markClass hbasaabove-syriac <anchor 135 45> @_t.U0656_2;
-markClass macroncomb <anchor 285 -15> @_t.U0656_2;
-markClass music-syriac <anchor 300 30> @_t.U0656_2;
-markClass obliquelineabove-syriac <anchor 150 15> @_t.U0656_2;
-markClass [pthahaabove-syriac shadda-ar] <anchor 195 15> @_t.U0656_2;
-markClass rbasaabove-syriac <anchor 225 45> @_t.U0656_2;
-markClass threedotsabove-syriac <anchor 180 0> @_t.U0656_2;
-markClass tildecomb <anchor 270 15> @_t.U0656_2;
-markClass twodotsverticalabove-syriac <anchor 75 -15> @_t.U0656_2;
-markClass zqaphaabove-syriac <anchor 135 15> @_t.U0656_2;
-markClass zqaphadotted-syriac <anchor 240 150> @_t.U0656_2;
 
 # AP: t.U0656_2
-@t.U0656_2_MarkBase = [alaphSuperscript-syriac barrekh-syriac dieresiscomb dotaccentcomb esasaabove-syriac hbasaabove-syriac macroncomb music-syriac obliquelineabove-syriac pthahaabove-syriac rbasaabove-syriac rwaha-syriac shadda-ar threedotsabove-syriac tildecomb twodotsverticalabove-syriac zqaphaabove-syriac zqaphadotted-syriac];
+@t.U0656_2_MarkBase = [alaphSuperscript-syriac];
 # baseClass alaphSuperscript-syriac <anchor 120 600> @t.U0656_2_MarkBase;
-# baseClass barrekh-syriac <anchor 195 525> @t.U0656_2_MarkBase;
-# baseClass dieresiscomb <anchor 240 315> @t.U0656_2_MarkBase;
-# baseClass dotaccentcomb <anchor 75 345> @t.U0656_2_MarkBase;
-# baseClass esasaabove-syriac <anchor 180 435> @t.U0656_2_MarkBase;
-# baseClass hbasaabove-syriac <anchor 150 300> @t.U0656_2_MarkBase;
-# baseClass macroncomb <anchor 255 255> @t.U0656_2_MarkBase;
-# baseClass music-syriac <anchor 270 585> @t.U0656_2_MarkBase;
-# baseClass obliquelineabove-syriac <anchor 150 390> @t.U0656_2_MarkBase;
-# baseClass pthahaabove-syriac <anchor 165 435> @t.U0656_2_MarkBase;
-# baseClass rbasaabove-syriac <anchor 195 435> @t.U0656_2_MarkBase;
-# baseClass rwaha-syriac <anchor 75 375> @t.U0656_2_MarkBase;
-# baseClass shadda-ar <anchor 135 390> @t.U0656_2_MarkBase;
-# baseClass threedotsabove-syriac <anchor 165 405> @t.U0656_2_MarkBase;
-# baseClass tildecomb <anchor 240 330> @t.U0656_2_MarkBase;
-# baseClass twodotsverticalabove-syriac <anchor 60 420> @t.U0656_2_MarkBase;
-# baseClass zqaphaabove-syriac <anchor 120 480> @t.U0656_2_MarkBase;
-# baseClass zqaphadotted-syriac <anchor 270 510> @t.U0656_2_MarkBase;
 
 # AP: _above_1
 markClass barrekh-syriac <anchor 240 0> @_above_1;
@@ -748,6 +733,23 @@ markClass threedotsabove-syriac <anchor 255 15> @_above_1;
 markClass tildecomb <anchor 270 -15> @_above_1;
 markClass zqaphaabove-syriac <anchor 165 90> @_above_1;
 markClass zqaphadotted-syriac <anchor 240 75> @_above_1;
+
+# AP: _above_2
+markClass barrekh-syriac <anchor 165 180> @_above_2;
+markClass dieresiscomb <anchor 240 30> @_above_2;
+markClass [dotaccentcomb rwaha-syriac] <anchor 90 30> @_above_2;
+markClass esasaabove-syriac <anchor 210 30> @_above_2;
+markClass hbasaabove-syriac <anchor 135 45> @_above_2;
+markClass macroncomb <anchor 285 -15> @_above_2;
+markClass music-syriac <anchor 300 30> @_above_2;
+markClass obliquelineabove-syriac <anchor 150 15> @_above_2;
+markClass [pthahaabove-syriac shadda-ar] <anchor 195 15> @_above_2;
+markClass rbasaabove-syriac <anchor 225 45> @_above_2;
+markClass threedotsabove-syriac <anchor 180 0> @_above_2;
+markClass tildecomb <anchor 270 15> @_above_2;
+markClass twodotsverticalabove-syriac <anchor 75 -15> @_above_2;
+markClass zqaphaabove-syriac <anchor 135 15> @_above_2;
+markClass zqaphadotted-syriac <anchor 240 150> @_above_2;
 
 # AP: _b.U0331_2_2
 markClass brevebelowcomb <anchor 330 -30> @_b.U0331_2_2;
@@ -999,8 +1001,8 @@ languagesystem latn dflt;
 # Anchors on diacritics: _aboveleft2 _b.U0331_2_2 _below_unused _center _none _ogonek _stroke
 # Anchors on bases: above aboveleft b.U0325_3_2_ligComponent_1 b.U0325_3_2_ligComponent_2 b.U0331_2
 # b.U0331_2_2_ligComponent_1 b.U0331_2_2_ligComponent_2 b.U0740 below belowleft center dotacc
-# m.U030a_1_2_ligComponent_1 m.U030a_1_2_ligComponent_2 m.U0656_ligComponent_1 m.U0656_ligComponent_2 ogonek stroke t.U0656 t.U0656_2 topleft topright
-@MarksAbove = [@_above @_t.U0656_2 @_above_1 @_aboveleft];
+# m.U030a_1_2_ligComponent_1 m.U030a_1_2_ligComponent_2 m.U0656_ligComponent_1 m.U0656_ligComponent_2 ogonek stroke t.U0656 above topleft topright
+@MarksAbove = [@_above @_above_2 @_above_1 @_aboveleft];
 # _diaA
 @MarksBelow = [@_below @_belowleft];
 # _diaB @_b.U0740 @_b.U0325_3
@@ -2068,7 +2070,7 @@ lookup LMarkOnLigaEast {
     pos base taw_alaph-syriac.triangle <anchor 605 915> mark @_above_1;
     pos base [taw_yudh-syriac taw_yudh-syriac.fina] <anchor 875 975> mark @_above_1;
     # top first component of ligature
-    #	pos base @m.U0656_ligComponent_2    mark @_t.U0656_2; # top left
+    #	pos base @m.U0656_ligComponent_2    mark @_above; # top left
     pos base he_yudh-syriac <anchor 135 840> mark @_aboveleft;
     pos base he_yudh-syriac.fina <anchor 195 840> mark @_aboveleft;
     pos base lamadh_alaph-syriac <anchor 310 945> mark @_aboveleft;
@@ -2141,10 +2143,16 @@ lookup LMarkOnLigaEast {
 
 #********************
 # Mark-to-mark attachment
-@MarkFilter_top = [@t.U0656_2_MarkBase @_above];
+@MarkFilter_top = [@above_MarkBase @_above];
 lookup MarkToMarkAbove {
     lookupflag UseMarkFilteringSet @MarkFilter_top;
-    pos mark alaphSuperscript-syriac <anchor 120 600> mark @_above;
+    pos mark [_acute _breve _caron _circumflex _grave _hungarumlaut _macron _tilde] <anchor 420 964> mark @_above;
+    pos mark [_acute.case _grave.case _tilde.case] <anchor 420 1216> mark @_above;
+    pos mark [_caron.case _circumflex.case] <anchor 420 1217> mark @_above;
+    pos mark [_dieresis _dotaccent _dotaccent.i] <anchor 420 929> mark @_above;
+    pos mark _dieresis.case <anchor 420 1181> mark @_above;
+    pos mark _ringabv <anchor 420 928> mark @_above;
+    pos mark _ringabv.case <anchor 420 1238> mark @_above;
     pos mark barrekh-syriac <anchor 195 525> mark @_above;
     pos mark dieresiscomb <anchor 240 315> mark @_above;
     pos mark dotaccentcomb <anchor 75 345> mark @_above;

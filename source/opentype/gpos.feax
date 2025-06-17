@@ -62,7 +62,7 @@ lookup LMarkOnLigaEast { # needs work!
 	lookupflag 0;
 #	pos base @m.U030a_1_2_ligComponent_1    mark @_aboveleft; # top right
 	pos base @aboveLigComp_1    mark @_above_1; # top first component of ligature
-#	pos base @m.U0656_ligComponent_2    mark @_t.U0656_2; # top left
+#	pos base @m.U0656_ligComponent_2    mark @_above; # top left
 	pos base @m.U030a_1_2_ligComponent_2    mark @_aboveleft; # top left
 	pos base @b.U0325_3_2_ligComponent_1    mark @_below; # bottom right _b.U0325_3
 	pos base @b.U0331_2_2_ligComponent_1    mark @_below; # bottom right
@@ -73,10 +73,10 @@ lookup LMarkOnLigaEast { # needs work!
 #********************
 # Mark-to-mark attachment
 
-@MarkFilter_top = [@t.U0656_2_MarkBase @_above];
+@MarkFilter_top = [@above_MarkBase @_above];
 lookup MarkToMarkAbove {
 	lookupflag UseMarkFilteringSet @MarkFilter_top;
-	pos mark @t.U0656_2_MarkBase    mark @_above;
+	pos mark @above_MarkBase    mark @_above;
 } MarkToMarkAbove;
 
 @MarkFilter_bottom = [@_below  @below_MarkBase];
