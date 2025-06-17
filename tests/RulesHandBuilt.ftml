@@ -149,16 +149,16 @@
       <string>\u072C\u0710 \u0712\u072C\u0710</string>
     </test>
     <test label="U+072C U+0710">
-      <comment>taw_alaph-syriac</comment>
-      <string>\u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710</string>
+      <comment>taw_alaph-syriac (using wrong anchor)</comment>
+      <string>\u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738\u0723</string>
     </test>
     <test label="U+072C U+0710" stylename="cv59_1">
-      <comment>taw_alaph-syriac (does not form)</comment>
-      <string>\u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710</string>
+      <comment>taw_alaph-syriac (using wrong anchor)</comment>
+      <string>\u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738\u0723</string>
     </test>
     <test label="U+072C U+0710" stylename="cv59_2">
-      <comment>taw_alaph-syriac (does not form)</comment>
-      <string>\u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710</string>
+      <comment>taw_alaph-syriac (using wrong anchor)</comment>
+      <string>\u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738\u0723</string>
     </test>
     <test label="U+072C U+071D">
       <comment>taw_yudh-syriac</comment>
@@ -173,12 +173,20 @@
       <string>\u072C\u0732\u072a\u072C\u0739\u071D</string>
     </test>
     <test label="U+072C U+071D" stylename="cv60_1">
-      <comment>taw_yudh-syriac (forms but using wrong anchor)</comment>
+      <comment>taw_yudh-syriac (using wrong anchor)</comment>
       <string>\u072C\u0732\u072a\u072C\u0739\u071D</string>
     </test>
 </testgroup>
 
 <testgroup label="Ligature Words with diacritics from aii">
+    <test label="he_yudh 0717 071D" rtl="True">
+      <comment>he_yudh</comment>
+      <string>ܗܝܼܡܵܢ ܐܲܠܵܗܝܼ ܒܠܗܝܼܩܘܼܬܵܐ ܗܲܝܒܲܬ ܐܲܠܵܗܲܝܗܝ ܗܵܝܪܬܘܼܟ݂ ܐܲܠܵܗܵܝܬܵܐ ܐܲܠܵܗܝܵܐ ܓ̰ܸܗܝܹܐ ܗ̇ܝ ܗ̇ܝܓܵ ܕܗ̇ܝܓܵܗ ܕܒܗ̇ܝ ܕܡܲܓ̰ܗܹܝܬܘܿܢ ܕܨܵܗܝܲܬܝ ܥ݂ܲܲܝܗܝ</string>
+    </test>
+    <test label="he_yudh 0717 071D" stylename="cv38_1" rtl="True">
+      <comment>he_yudh</comment>
+      <string>ܗܝܼܡܵܢ ܐܲܠܵܗܝܼ ܒܠܗܝܼܩܘܼܬܵܐ ܗܲܝܒܲܬ ܐܲܠܵܗܲܝܗܝ ܗܵܝܪܬܘܼܟ݂ ܐܲܠܵܗܵܝܬܵܐ ܐܲܠܵܗܝܵܐ ܓ̰ܸܗܝܹܐ ܗ̇ܝ ܗ̇ܝܓܵ ܕܗ̇ܝܓܵܗ ܕܒܗ̇ܝ ܕܡܲܓ̰ܗܹܝܬܘܿܢ ܕܨܵܗܝܲܬܝ ܥ݂ܲܲܝܗܝ</string>
+    </test>
     <test label="lam_alaph 0720 0710" rtl="True">
       <comment>lam_alaph</comment>
       <string>ܠܐܓܵܪܘܼܗ̇ ܕܠܐܝܼܕܝܼ ܐܘܼܟ݂ܠܵܐ ܒܛܝܼܠܵܐܝܼܬ ܠܹܐܒܵܐ ܒܠܹܐܒܵܐ ܐܲܝܠܹܐ ܐܵܙܵܠ݇ܐ ܒܡܲܠܲܐܟܹ̈ܐ ܠܐܵܒ݂ܵܠ ܚܸܠܐܵܐ ܠܐܲܒ݂ܕܵܢܵܐ ܒܲܠܐܲܕܵܢ ܠܐܹܠܝܼܦܵܙ ܕܝܲܚܠܐܹܝܠܵܝܹ̈ܐ ܕܡܬܠ̈ܐ ܠܐ݇ܢܵܫܹܗ ܕܠܐ݇ܢܵܫܵܐ ܠܐܸܠܥܵܣܵܐ ܘܠܐܸܡܘܵܬ̈ܐ ܠܸܐܡܵܪܵܐ ܟܵܠܸܐ</string>
@@ -187,15 +195,22 @@
       <comment>taw_alaph</comment>
       <string>ܐܘܠܝܬ̈ܐ ܐܘܼܟ݂ܠܬܵܐ ܐܘܼܪ̈ܚܵܬܹܐ ܐܵܬܘܼܬܵܐܝܼܬ ܒܡܸܫܬܲܐܠܵܢܘܼܝܵܬܲܝܗܝ ܒܪܝܬܐ ܒܬܹܐܢܵܐ ܕܛܝܼܡܵܬܹܐܘܿܣ ܕܫܘܼܬܐܸܣ ܕܫܹܠܲܬܐܹܝܠ ܕܬܹܐܘܿܛܝܼܪܵܐ ܘܐܸܫܬܵܐܘܿܠܵܝܹ̈ܐ ܡܸܫܬܲܐܠܵܢܵܐ ܠܛܝܼܡܵܬܹܐܘܿܣ ܠܡܸܫܬܲܐܠܵܢܘܼܬܘܼܟ݂ ܠܫܹܠܲܬܐܹܝܠ ܠܬܐܘܿܡܵܐ ܫܘܼܬܐܵܣܵܐ ܫܘܼܬܐܸܣܲܝ ܫܲܬܐܸܣ ܫܹܠܲܬܐܹܝܠ ܬܵܐ ܬܵܐܓ̰ ܬܹܐܘܿܛܝܼܪܵܐ </string>
     </test>
+    <test label="taw_alaph 072c 0710"  stylename="cv59_1" rtl="True">
+      <comment>taw_alaph</comment>
+      <string>ܐܘܠܝܬ̈ܐ ܐܘܼܟ݂ܠܬܵܐ ܐܘܼܪ̈ܚܵܬܹܐ ܐܵܬܘܼܬܵܐܝܼܬ ܒܡܸܫܬܲܐܠܵܢܘܼܝܵܬܲܝܗܝ ܒܪܝܬܐ ܒܬܹܐܢܵܐ ܕܛܝܼܡܵܬܹܐܘܿܣ ܕܫܘܼܬܐܸܣ ܕܫܹܠܲܬܐܹܝܠ ܕܬܹܐܘܿܛܝܼܪܵܐ ܘܐܸܫܬܵܐܘܿܠܵܝܹ̈ܐ ܡܸܫܬܲܐܠܵܢܵܐ ܠܛܝܼܡܵܬܹܐܘܿܣ ܠܡܸܫܬܲܐܠܵܢܘܼܬܘܼܟ݂ ܠܫܹܠܲܬܐܹܝܠ ܠܬܐܘܿܡܵܐ ܫܘܼܬܐܵܣܵܐ ܫܘܼܬܐܸܣܲܝ ܫܲܬܐܸܣ ܫܹܠܲܬܐܹܝܠ ܬܵܐ ܬܵܐܓ̰ ܬܹܐܘܿܛܝܼܪܵܐ </string>
+    </test>
+    <test label="taw_alaph 072c 0710"  stylename="cv59_2" rtl="True">
+      <comment>taw_alaph</comment>
+      <string>ܐܘܠܝܬ̈ܐ ܐܘܼܟ݂ܠܬܵܐ ܐܘܼܪ̈ܚܵܬܹܐ ܐܵܬܘܼܬܵܐܝܼܬ ܒܡܸܫܬܲܐܠܵܢܘܼܝܵܬܲܝܗܝ ܒܪܝܬܐ ܒܬܹܐܢܵܐ ܕܛܝܼܡܵܬܹܐܘܿܣ ܕܫܘܼܬܐܸܣ ܕܫܹܠܲܬܐܹܝܠ ܕܬܹܐܘܿܛܝܼܪܵܐ ܘܐܸܫܬܵܐܘܿܠܵܝܹ̈ܐ ܡܸܫܬܲܐܠܵܢܵܐ ܠܛܝܼܡܵܬܹܐܘܿܣ ܠܡܸܫܬܲܐܠܵܢܘܼܬܘܼܟ݂ ܠܫܹܠܲܬܐܹܝܠ ܠܬܐܘܿܡܵܐ ܫܘܼܬܐܵܣܵܐ ܫܘܼܬܐܸܣܲܝ ܫܲܬܐܸܣ ܫܹܠܲܬܐܹܝܠ ܬܵܐ ܬܵܐܓ̰ ܬܹܐܘܿܛܝܼܪܵܐ </string>
+    </test>
     <test label="taw_yudh 072c 071d" rtl="True">
       <comment>taw_yudh</comment>
       <string>ܬܝܼܪܟܲܫܹܗ ܒܐܸܣܬܝܼܪ ܐܘܼܡܬܝܼ ܐܲܩܠܵܬܲܝܗܝ ܒܵܬܲܝ ܘܢܵܬܝܵܬܲܝܗܝ ܘܫܬܝܵܬܝܼ ܫܲܗܘܲܬܝܵܬܲܝܗܝ ܬܝܵܒ݂ܘܼܟ݂ ܐܵܬܝܵܢܹ̈ܐ ܬܲܝܡܢܵܐ ܒܡܲܝܬܲܝܬܲܝ ܐܘܼܪ̈ܚܵܬܲܝܗܝ ܓܢܝܼܒ݂ܬܲܝ ܐܵܦܲܪ̈ܬܵܝܐ ܐܵܬܝܲܬܝ  ܐܣܬܝܪ ܐܲܢ݇ܬܝ ܬܵܝܡܝܼ ܐ݇ܬܵܝܬܘܼܟ݂ ܟܬܵܝܬܵܐ ܐܸܬܵܝ ܬܹܝܡܘܼܢ ܕܡܲܝܬܹܝܢ ܒܬܲܪܬܹܝ ܫܬܹܝܡܘܼܢ ܕܡܘܼܐܬܝܹܐ ܦܸܬܝܹܐ ܕܡܲܝܬܸܝܢ ܡܘܼܬܝܸܒܸܢܹܗ ܕܡܲܬܝܸܒ݂ܝܼ ܕܬܼܝܡ </string>
     </test>
-    <test label="he_yudh 0717 071D" rtl="True">
-      <comment>he_yudh</comment>
-      <string>ܗܝܼܡܵܢ ܐܲܠܵܗܝܼ ܒܠܗܝܼܩܘܼܬܵܐ ܗܲܝܒܲܬ ܐܲܠܵܗܲܝܗܝ ܗܵܝܪܬܘܼܟ݂ ܐܲܠܵܗܵܝܬܵܐ ܐܲܠܵܗܝܵܐ ܓ̰ܸܗܝܹܐ ܗ̇ܝ ܗ̇ܝܓܵ ܕܗ̇ܝܓܵܗ ܕܒܗ̇ܝ ܕܡܲܓ̰ܗܹܝܬܘܿܢ ܕܨܵܗܝܲܬܝ ܥ݂ܲܲܝܗܝ</string>
+    <test label="taw_yudh 072c 071d" stylename="cv60_1" rtl="True">
+      <comment>taw_yudh</comment>
+      <string>ܬܝܼܪܟܲܫܹܗ ܒܐܸܣܬܝܼܪ ܐܘܼܡܬܝܼ ܐܲܩܠܵܬܲܝܗܝ ܒܵܬܲܝ ܘܢܵܬܝܵܬܲܝܗܝ ܘܫܬܝܵܬܝܼ ܫܲܗܘܲܬܝܵܬܲܝܗܝ ܬܝܵܒ݂ܘܼܟ݂ ܐܵܬܝܵܢܹ̈ܐ ܬܲܝܡܢܵܐ ܒܡܲܝܬܲܝܬܲܝ ܐܘܼܪ̈ܚܵܬܲܝܗܝ ܓܢܝܼܒ݂ܬܲܝ ܐܵܦܲܪ̈ܬܵܝܐ ܐܵܬܝܲܬܝ  ܐܣܬܝܪ ܐܲܢ݇ܬܝ ܬܵܝܡܝܼ ܐ݇ܬܵܝܬܘܼܟ݂ ܟܬܵܝܬܵܐ ܐܸܬܵܝ ܬܹܝܡܘܼܢ ܕܡܲܝܬܹܝܢ ܒܬܲܪܬܹܝ ܫܬܹܝܡܘܼܢ ܕܡܘܼܐܬܝܹܐ ܦܸܬܝܹܐ ܕܡܲܝܬܸܝܢ ܡܘܼܬܝܸܒܸܢܹܗ ܕܡܲܬܝܸܒ݂ܝܼ ܕܬܼܝܡ </string>
     </test>
-
 </testgroup>
 
 

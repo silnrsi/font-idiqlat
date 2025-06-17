@@ -988,7 +988,7 @@ markClass ringcomb <anchor 120 0> @_aboveleft2;
 @TakeRukkakhaSquare = [beth-syriac beth-syriac.init beth-syriac.medi beth-syriac.fina gamal-syriac gamal-syriac.init gamal-syriac.medi gamal-syriac.fina gamalgarshuni-syriac gamalgarshuni-syriac.init gamalgarshuni-syriac.medi gamalgarshuni-syriac.fina taw-syriac taw-syriac.fina];
 @TypeLigature = [lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina];
 # Ligatures
-@TypeLigatureOptionalEast = [sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina he_yudh-syriac he_yudh-syriac.fina taw_yudh-syriac taw_yudh-syriac.fina taw_alaph-syriac.triangle taw_alaph-syriac.fina.triangle taw_alaph-syriac.twined taw_alaph-syriac.fina.twined];
+@LigatureOptional = [sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina he_yudh-syriac he_yudh-syriac.fina taw_yudh-syriac taw_yudh-syriac.fina taw_alaph-syriac.triangle taw_alaph-syriac.fina.triangle taw_alaph-syriac.twined taw_alaph-syriac.fina.twined];
 # Add in U0742Square
 @TypeMark = [@MarkAboveCanChain @MarkAboveNoChain @MarkBelowCanChain @MarkBelowNoChain femininedot-syriac dotaboveleftcomb dotbelowleftcomb];
 @TypeSimple = [@RightJoining @DualJoining kashida-ar.threequarter kashida-ar.quarter kashida-ar.half kashida-ar dottedCircle];
@@ -1155,6 +1155,7 @@ lookup GRishSeyame {
 # Added this because we need a ligature before doing character variant
 lookup taw_alaph {
     # 072C 0710
+    lookupflag IgnoreMarks;
     sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
     sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
     sub taw-syriac alaph-syriac by taw_alaph-syriac;
@@ -2018,66 +2019,33 @@ lookup MarkToBase {
 #	lookupflag 0;
 #	pos base @b.U0740    mark @_b.U0740; # below
 # } LMarkFeminineDot;
-lookup LMarkOnLigaEast {
-    # needs work!
+lookup MarkToLig {
     lookupflag 0;
-    #	pos base @m.U030a_1_2_ligComponent_1    mark @_aboveleft; # top right
-    pos base he_yudh-syriac <anchor 720 765> mark @_above;
-    pos base he_yudh-syriac.fina <anchor 795 705> mark @_above;
-    pos base lamadh_alaph-syriac <anchor 1260 885> mark @_above;
-    pos base lamadh_alaph-syriac.fina <anchor 1245 885> mark @_above;
-    pos base rish_dieresiscomb-syriac <anchor 330 1020> mark @_above;
-    pos base rish_dieresiscomb-syriac.fina <anchor 360 1035> mark @_above;
-    pos base sadhe_nun-syriac <anchor 780 330> mark @_above;
-    pos base sadhe_nun-syriac.fina <anchor 780 360> mark @_above;
-    pos base [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> mark @_above;
-    pos base taw_alaph-syriac.fina.triangle <anchor 705 825> mark @_above;
-    pos base taw_alaph-syriac.triangle <anchor 690 825> mark @_above;
-    pos base taw_alaph-syriac.twined <anchor 975 720> mark @_above;
-    pos base taw_yudh-syriac.fina <anchor 945 975> mark @_above;
-    # top first component of ligature
-    #	pos base @m.U0656_ligComponent_2    mark @_above; # top left
-    pos base he_yudh-syriac <anchor 210 705> mark @_above;
-    pos base he_yudh-syriac.fina <anchor 285 690> mark @_above;
-    pos base lamadh_alaph-syriac <anchor 360 945> mark @_above;
-    pos base lamadh_alaph-syriac.fina <anchor 360 960> mark @_above;
-    pos base [rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina] <anchor 345 975> mark @_above;
-    pos base sadhe_nun-syriac <anchor 285 180> mark @_above;
-    pos base sadhe_nun-syriac.fina <anchor 285 210> mark @_above;
-    pos base [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> mark @_above;
-    pos base taw_alaph-syriac.fina.triangle <anchor 345 1020> mark @_above;
-    pos base taw_alaph-syriac.triangle <anchor 360 975> mark @_above;
-    pos base taw_alaph-syriac.twined <anchor 525 990> mark @_above;
-    pos base taw_yudh-syriac.fina <anchor 390 570> mark @_above;
-    # top left
-    pos base he_yudh-syriac <anchor 705 -150> mark @_below;
-    pos base he_yudh-syriac.fina <anchor 675 -135> mark @_below;
-    pos base lamadh_alaph-syriac <anchor 1125 -135> mark @_below;
-    pos base lamadh_alaph-syriac.fina <anchor 1110 -135> mark @_below;
-    pos base rish_dieresiscomb-syriac <anchor 375 -135> mark @_below;
-    pos base rish_dieresiscomb-syriac.fina <anchor 405 -120> mark @_below;
-    pos base sadhe_nun-syriac <anchor 855 -675> mark @_below;
-    pos base sadhe_nun-syriac.fina <anchor 885 -645> mark @_below;
-    pos base [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> mark @_below;
-    pos base taw_alaph-syriac.fina.triangle <anchor 750 -195> mark @_below;
-    pos base taw_alaph-syriac.triangle <anchor 720 -210> mark @_below;
-    pos base taw_alaph-syriac.twined <anchor 1020 -150> mark @_below;
-    pos base taw_yudh-syriac.fina <anchor 1005 -90> mark @_below;
-    # bottom right _b.U0325_3
-    #	pos base @b.U0331_2_2_ligComponent_1    mark @_below; # bottom right
-    pos base [he_yudh-syriac he_yudh-syriac.fina] <anchor 225 -180> mark @_below;
-    pos base [lamadh_alaph-syriac lamadh_alaph-syriac.fina] <anchor 480 -135> mark @_below;
-    pos base rish_dieresiscomb-syriac <anchor 375 -150> mark @_below;
-    pos base rish_dieresiscomb-syriac.fina <anchor 405 -135> mark @_below;
-    pos base sadhe_nun-syriac <anchor 375 -675> mark @_below;
-    pos base sadhe_nun-syriac.fina <anchor 345 -630> mark @_below;
-    pos base [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> mark @_below;
-    pos base [taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle] <anchor 225 -210> mark @_below;
-    pos base taw_alaph-syriac.twined <anchor 600 -150> mark @_below;
-    pos base taw_yudh-syriac.fina <anchor 420 -150> mark @_below;
-    # bottom left _b.U0325_3
-    #	pos base @b.U0331_2_2_ligComponent_2    mark @_below; # bottom left
-} LMarkOnLigaEast;
+    pos ligature sadhe_nun-syriac <anchor 780 330> mark @_above <anchor 855 -675> mark @_below
+        ligComponent <anchor 285 180> mark @_above <anchor 375 -675> mark @_below;
+    pos ligature sadhe_nun-syriac.fina <anchor 780 360> mark @_above <anchor 885 -645> mark @_below
+        ligComponent <anchor 285 210> mark @_above <anchor 345 -630> mark @_below;
+    pos ligature taw_alaph-syriac <anchor 0 0> mark @_above <anchor 0 0> mark @_below
+        ligComponent <anchor 0 0> mark @_above <anchor 0 0> mark @_below;
+    pos ligature taw_alaph-syriac.fina <anchor 0 0> mark @_above <anchor 0 0> mark @_below
+        ligComponent <anchor 0 0> mark @_above <anchor 0 0> mark @_below;
+    pos ligature he_yudh-syriac <anchor 720 765> mark @_above <anchor 705 -150> mark @_below
+        ligComponent <anchor 210 705> mark @_above <anchor 225 -180> mark @_below;
+    pos ligature he_yudh-syriac.fina <anchor 795 705> mark @_above <anchor 675 -135> mark @_below
+        ligComponent <anchor 285 690> mark @_above <anchor 225 -180> mark @_below;
+    pos ligature taw_yudh-syriac <anchor NULL>
+        ligComponent <anchor NULL>;
+    pos ligature taw_yudh-syriac.fina <anchor 945 975> mark @_above <anchor 1005 -90> mark @_below
+        ligComponent <anchor 390 570> mark @_above <anchor 420 -150> mark @_below;
+    pos ligature taw_alaph-syriac.triangle <anchor 690 825> mark @_above <anchor 720 -210> mark @_below
+        ligComponent <anchor 360 975> mark @_above <anchor 225 -210> mark @_below;
+    pos ligature taw_alaph-syriac.fina.triangle <anchor 705 825> mark @_above <anchor 750 -195> mark @_below
+        ligComponent <anchor 345 1020> mark @_above <anchor 225 -210> mark @_below;
+    pos ligature taw_alaph-syriac.twined <anchor 975 720> mark @_above <anchor 1020 -150> mark @_below
+        ligComponent <anchor 525 990> mark @_above <anchor 600 -150> mark @_below;
+    pos ligature taw_alaph-syriac.fina.twined <anchor NULL>
+        ligComponent <anchor NULL>;
+} MarkToLig;
 
 #********************
 # Mark-to-mark attachment
@@ -2142,7 +2110,7 @@ feature mark {
     # Mark to base Positioning
     # Same for latin & syriac:
     lookup MarkToBase;
-    lookup LMarkOnLigaEast;
+    lookup MarkToLig;
 } mark;
 
 feature mkmk {

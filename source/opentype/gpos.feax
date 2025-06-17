@@ -58,17 +58,11 @@ lookup MarkToBase {
 #	pos base @b.U0740    mark @_b.U0740; # below
 # } LMarkFeminineDot;
 
-lookup LMarkOnLigaEast { # needs work!
-	lookupflag 0;
-#	pos base @m.U030a_1_2_ligComponent_1    mark @_aboveleft; # top right
-	pos base @aboveLigComp_1    mark @_above; # top first component of ligature
-#	pos base @m.U0656_ligComponent_2    mark @_above; # top left
-	pos base @aboveLigComp_2    mark @_above; # top left
-	pos base @belowLigComp_1    mark @_below; # bottom right _b.U0325_3
-#	pos base @b.U0331_2_2_ligComponent_1    mark @_below; # bottom right
-	pos base @belowLigComp_2    mark @_below; # bottom left _b.U0325_3
-#	pos base @b.U0331_2_2_ligComponent_2    mark @_below; # bottom left
-} LMarkOnLigaEast;
+lookup MarkToLig {
+  lookupflag 0;
+    pos ligature @LigatureOptional            @aboveLigComp_1 mark @_above    @belowLigComp_1 mark @_below
+              ligComponent              @aboveLigComp_2 mark @_above    @belowLigComp_2 mark @_below;
+} MarkToLig;
 
 #********************
 # Mark-to-mark attachment
@@ -105,7 +99,7 @@ feature kern {  # Kerning
 feature mark {  # Mark to base Positioning
     # Same for latin & syriac:
       lookup MarkToBase;
-      lookup LMarkOnLigaEast;
+      lookup MarkToLig;
 } mark ;
 
 feature mkmk {  # Mark to mark Positioning

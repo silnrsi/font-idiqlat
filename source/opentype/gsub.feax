@@ -175,6 +175,7 @@ lookup GRishSeyame { # 072A 0308
 
 # Added this because we need a ligature before doing character variant
 lookup taw_alaph { # 072C 0710
+  lookupflag IgnoreMarks ;
     sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
     sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
     sub taw-syriac alaph-syriac by taw_alaph-syriac;
