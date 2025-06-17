@@ -157,6 +157,8 @@ lookup r2 {
 # GSUB lookup 4, type 16 (Chaining Context)
   lookupflag 0;
   sub alaph-syriac.ccmp' lookup r2_1 @TypeMark;
+  sub alaph-syriac.ccmp' lookup r2_1 yudh-syriac ;
+  sub alaph-syriac.ccmp' lookup r2_1 waw-syriac ;
 } r2;
 
 
