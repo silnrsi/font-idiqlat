@@ -3,8 +3,8 @@
   <advance width="719"/>
   <anchor x="385" y="735" name="above"/>
   <anchor x="50" y="735" name="aboveleft"/>
-  <anchor x="415" y="-135" name="below"/>
-  <anchor x="50" y="-135" name="belowleft"/>
+  <anchor x="415" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="waw-syriac"/>
     <contour>

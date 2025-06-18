@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mim-syriac.fina.round" format="2">
   <advance width="1249"/>
-  <anchor x="494" y="765" name="above"/>
+  <anchor x="751" y="765" name="above"/>
   <anchor x="50" y="765" name="aboveleft"/>
-  <anchor x="554" y="-135" name="below"/>
-  <anchor x="50" y="-135" name="belowleft"/>
+  <anchor x="801" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="mim-syriac.medi" xOffset="222"/>
     <component base="_LeftTail" xOffset="-50"/>

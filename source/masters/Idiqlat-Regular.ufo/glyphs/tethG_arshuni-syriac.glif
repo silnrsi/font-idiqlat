@@ -2,10 +2,10 @@
 <glyph name="tethGarshuni-syriac" format="2">
   <advance width="1503"/>
   <unicode hex="071C"/>
-  <anchor x="960" y="765" name="above"/>
-  <anchor x="50" y="765" name="aboveleft"/>
-  <anchor x="660" y="-210" name="below"/>
-  <anchor x="50" y="-210" name="belowleft"/>
+  <anchor x="901" y="750" name="above"/>
+  <anchor x="50" y="750" name="aboveleft"/>
+  <anchor x="616" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="teth-syriac"/>
     <contour>

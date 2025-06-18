@@ -2,10 +2,10 @@
 <glyph name="alaph-syriac" format="2">
   <advance width="630"/>
   <unicode hex="0710"/>
-  <anchor x="276" y="975" name="above"/>
+  <anchor x="259" y="975" name="above"/>
   <anchor x="50" y="975" name="aboveleft"/>
-  <anchor x="291" y="-165" name="below"/>
-  <anchor x="50" y="-165" name="belowleft"/>
+  <anchor x="259" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <contour>
       <point x="518" y="0" type="line" smooth="yes"/>

@@ -2,7 +2,7 @@
 <glyph name="space.latn" format="2">
   <advance width="407"/>
   <anchor x="184" y="927" name="above"/>
-  <anchor x="184" y="-42" name="below"/>
+  <anchor x="184" y="-150" name="below"/>
   <outline/>
   <lib>
     <dict>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heth-syriac.fina" format="2">
   <advance width="1195"/>
-  <anchor x="691" y="570" name="above"/>
-  <anchor x="50" y="570" name="aboveleft"/>
-  <anchor x="676" y="-165" name="below"/>
-  <anchor x="50" y="-165" name="belowleft"/>
+  <anchor x="691" y="540" name="above"/>
+  <anchor x="50" y="540" name="aboveleft"/>
+  <anchor x="676" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="_heth-med" xOffset="369"/>
     <component base="_LeftTail" xOffset="-50"/>

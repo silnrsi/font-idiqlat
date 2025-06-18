@@ -4,7 +4,7 @@
   <unicode hex="0020"/>
   <anchor x="510" y="995" name="above"/>
   <anchor x="50" y="995" name="aboveleft"/>
-  <anchor x="525" y="-195" name="below"/>
-  <anchor x="50" y="-195" name="belowleft"/>
+  <anchor x="525" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline/>
 </glyph>

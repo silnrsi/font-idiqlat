@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alaph-syriac.fin3" format="2">
   <advance width="581"/>
-  <anchor x="316" y="975" name="above"/>
+  <anchor x="259" y="975" name="above"/>
   <anchor x="50" y="975" name="aboveleft"/>
-  <anchor x="331" y="-135" name="below"/>
-  <anchor x="50" y="-135" name="belowleft"/>
+  <anchor x="331" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="alaph-syriac"/>
     <contour>

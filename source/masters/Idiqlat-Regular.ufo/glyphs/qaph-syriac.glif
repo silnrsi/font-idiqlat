@@ -2,8 +2,8 @@
 <glyph name="qaph-syriac" format="2">
   <advance width="1025"/>
   <unicode hex="0729"/>
-  <anchor x="630" y="795" name="above"/>
-  <anchor x="50" y="795" name="aboveleft"/>
+  <anchor x="630" y="780" name="above"/>
+  <anchor x="50" y="780" name="aboveleft"/>
   <anchor x="690" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>

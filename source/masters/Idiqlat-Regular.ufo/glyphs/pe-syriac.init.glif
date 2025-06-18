@@ -3,8 +3,8 @@
   <advance width="862"/>
   <anchor x="460" y="975" name="above"/>
   <anchor x="50" y="975" name="aboveleft"/>
-  <anchor x="490" y="-135" name="below"/>
-  <anchor x="50" y="-135" name="belowleft"/>
+  <anchor x="490" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <contour>
       <point x="808" y="185" type="curve"/>

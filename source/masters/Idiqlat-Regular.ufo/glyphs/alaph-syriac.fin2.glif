@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alaph-syriac.fin2" format="2">
   <advance width="581"/>
-  <anchor x="292" y="975" name="above"/>
+  <anchor x="259" y="975" name="above"/>
   <anchor x="50" y="975" name="aboveleft"/>
   <anchor x="322" y="-360" name="below"/>
   <anchor x="50" y="-360" name="belowleft"/>

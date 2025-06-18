@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zlamadottedangular-syriac" format="2">
   <unicode hex="0739"/>
-  <anchor x="495" y="-180" name="_below"/>
+  <anchor x="465" y="-140" name="_below"/>
   <anchor x="465" y="-465" name="below"/>
   <outline>
     <component base="rwaha-syriac" xOffset="263" yOffset="-363"/>

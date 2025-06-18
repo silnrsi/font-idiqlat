@@ -3,8 +3,8 @@
   <advance width="1027"/>
   <anchor x="525" y="765" name="above"/>
   <anchor x="50" y="765" name="aboveleft"/>
-  <anchor x="585" y="-135" name="below"/>
-  <anchor x="50" y="-135" name="belowleft"/>
+  <anchor x="585" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="mim-syriac.init"/>
     <contour>

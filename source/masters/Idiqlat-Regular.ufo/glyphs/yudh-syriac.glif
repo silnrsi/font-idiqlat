@@ -4,8 +4,8 @@
   <unicode hex="071D"/>
   <anchor x="496" y="540" name="above"/>
   <anchor x="50" y="540" name="aboveleft"/>
-  <anchor x="511" y="-165" name="below"/>
-  <anchor x="50" y="-165" name="belowleft"/>
+  <anchor x="511" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="_heth-init" xOffset="347"/>
     <component base="_LeftTail" xOffset="-50"/>
