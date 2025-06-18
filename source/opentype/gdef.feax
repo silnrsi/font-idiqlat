@@ -10,6 +10,6 @@
 #**********************************
 
 table GDEF {
-  GlyphClassDef @AllBase, , @ccmp_zz02, ;
+  GlyphClassDef @AllBase, , @AllCombining, ;
 } GDEF;
 

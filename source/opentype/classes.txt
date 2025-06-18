@@ -35,12 +35,6 @@
 
 @AllBase = [@DualJoining @RightJoining];
 
-@RightJoiningXn = [alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3 dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac];
-@RightJoiningXr = [alaph-syriac.med2 alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina];
-
-@AllXn = [@RightJoiningXn @DualLinkIsol];
-@AllXnXl = [@AllXn @DualLinkInit];
-
 # Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar sukun-ar madda-ar hamzaabove-ar alefbelow-ar
 @MarkAboveCanChain = [tildecomb macroncomb dotaccentcomb dieresiscomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac rwaha-syriac twodotsverticalabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac];
 @MarkAboveNoChain = [ringcomb qushshaya-syriac];
@@ -49,14 +43,7 @@
 # why did I add minusbelowcomb dotbelowleftcomb?
 @MarkBelowCanChain = [dotbelowcomb dieresisbelowcomb circumflexbelowcomb brevebelowcomb tildebelowcomb macronbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac minusbelowcomb dotbelowleftcomb];
 
-# Does not make sense for this to be both in can chain and no chain:  rukkakha-syriac.square
 @MarkBelowNoChain = [ringbelowcomb rukkakha-syriac rukkakha-syriac.square];
-
-# feminine dot is East Syriac is actually 0324 dieresisbelowcomb / 0740 femininedot-syriac is used in West Syriac
-@MarkFeminineDot = [femininedot-syriac];
-
-# Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar madda-ar alefbelow-ar 
-@MarkWideAbove = [tildecomb macroncomb dieresiscomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac];
 
 # Added gamalgarshuni-syriac kaph and pe be added to this group?
 # dalath, kaph, and pe are not in the group (intentionally?)
@@ -72,9 +59,10 @@
 @TypeMark = [@MarkAboveCanChain @MarkAboveNoChain @MarkBelowCanChain @MarkBelowNoChain femininedot-syriac dotaboveleftcomb 
 dotbelowleftcomb];
 
+# Not sure this is necessary, but need to check if kashida is being tested.
 @TypeSimple = [@RightJoining @DualJoining kashida-ar.threequarter kashida-ar.quarter kashida-ar.half kashida-ar dottedCircle];
 
 @kern_below = [dotbelowcomb dieresisbelowcomb brevebelowcomb tildebelowcomb circumflexbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac minusbelowcomb dotbelowleftcomb];
 
 # Not in font: alefbelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar sukun-ar madda-ar hamzaabove-ar hamzabelow-ar 
-@ccmp_zz02 = [tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac barrekh-syriac dotaboveleftcomb circumflexbelowcomb rukkakha-syriac.square];
+@AllCombining = [tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac barrekh-syriac dotaboveleftcomb circumflexbelowcomb rukkakha-syriac.square];
