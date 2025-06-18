@@ -2,7 +2,7 @@
 <glyph name="threedotsbelow-syriac" format="2">
   <unicode hex="0746"/>
   <anchor x="165" y="0" name="_below"/>
-  <anchor x="180" y="-405" name="below"/>
+  <anchor x="180" y="-375" name="below"/>
   <outline>
     <component base="threedotsabove-syriac" yScale="-1"/>
   </outline>

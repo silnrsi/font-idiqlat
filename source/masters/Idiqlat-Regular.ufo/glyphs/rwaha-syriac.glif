@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rwaha-syriac" format="2">
   <unicode hex="073F"/>
-  <anchor x="75" y="0" name="_above"/>
-  <anchor x="75" y="375" name="above"/>
+  <anchor x="88" y="0" name="_above"/>
+  <anchor x="88" y="375" name="above"/>
   <outline>
     <contour>
       <point x="88" y="5" type="curve" smooth="yes"/>

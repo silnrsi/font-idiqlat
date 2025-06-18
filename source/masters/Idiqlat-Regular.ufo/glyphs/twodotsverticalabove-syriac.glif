@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="twodotsverticalabove-syriac" format="2">
   <unicode hex="0743"/>
-  <anchor x="60" y="15" name="_above"/>
-  <anchor x="60" y="420" name="above"/>
+  <anchor x="60" y="0" name="_above"/>
+  <anchor x="60" y="400" name="above"/>
   <outline>
     <component base="_smDotsquare" xOffset="-49" yOffset="2"/>
     <component base="_smDotsquare" xOffset="-49" yOffset="161"/>

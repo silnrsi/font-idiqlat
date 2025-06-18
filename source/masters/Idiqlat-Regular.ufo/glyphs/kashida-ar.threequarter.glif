@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kashida-ar.threequarter" format="2">
   <advance width="329"/>
-  <anchor x="165" y="-150" name="below"/>
+  <anchor x="174" y="405" name="above"/>
+  <anchor x="174" y="-150" name="below"/>
   <outline>
     <contour>
       <point x="0" y="0" type="line"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alaphSuperscript-syriac" format="2">
   <unicode hex="0711"/>
-  <anchor x="135" y="15" name="_above"/>
-  <anchor x="120" y="600" name="above"/>
+  <anchor x="135" y="0" name="_above"/>
+  <anchor x="90" y="600" name="above"/>
   <outline>
     <component base="alaph-syriac" xScale="0.5688" yScale="0.5688" xOffset="-61" yOffset="1"/>
   </outline>
