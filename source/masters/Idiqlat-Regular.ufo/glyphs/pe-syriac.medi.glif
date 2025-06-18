@@ -2,9 +2,9 @@
 <glyph name="pe-syriac.medi" format="2">
   <advance width="889"/>
   <anchor x="465" y="990" name="above"/>
-  <anchor x="495" y="1005" name="aboveleft"/>
+  <anchor x="50" y="990" name="aboveleft"/>
   <anchor x="510" y="-165" name="below"/>
-  <anchor x="495" y="-135" name="belowleft"/>
+  <anchor x="50" y="-165" name="belowleft"/>
   <outline>
     <component base="pe-syriac.init"/>
     <contour>

@@ -2,8 +2,6 @@
 <glyph name="music-syriac" format="2">
   <unicode hex="0749"/>
   <anchor x="330" y="180" name="_above"/>
-  <anchor x="375" y="15" name="_above_1"/>
-  <anchor x="300" y="30" name="_above_2"/>
   <anchor x="270" y="585" name="above"/>
   <outline>
     <contour>

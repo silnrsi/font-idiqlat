@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sadhe_nun-syriac.fina" format="2">
   <advance width="1148"/>
-  <anchor x="777" y="420" name="aboveLigComp_1"/>
-  <anchor x="177" y="330" name="aboveLigComp_2"/>
-  <anchor x="867" y="-690" name="b.U0331_2_2_ligComponent_1"/>
-  <anchor x="372" y="-690" name="b.U0331_2_2_ligComponent_2"/>
-  <anchor x="837" y="-645" name="belowLigComp_1"/>
-  <anchor x="312" y="-240" name="belowLigComp_2"/>
-  <anchor x="747" y="435" name="m.U030a_1_2_ligComponent_1"/>
-  <anchor x="222" y="375" name="m.U0656_ligComponent_2"/>
+  <anchor x="777" y="420" name="above_1"/>
+  <anchor x="177" y="330" name="above_2"/>
+  <anchor x="837" y="-645" name="below_1"/>
+  <anchor x="312" y="-240" name="below_2"/>
   <outline>
     <contour>
       <point x="835" y="-501" type="line" smooth="yes"/>

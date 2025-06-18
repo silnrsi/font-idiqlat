@@ -2,9 +2,9 @@
 <glyph name="dalathrishDotless-syriac.fina" format="2">
   <advance width="652"/>
   <anchor x="328" y="720" name="above"/>
-  <anchor x="298" y="720" name="aboveleft"/>
+  <anchor x="50" y="720" name="aboveleft"/>
   <anchor x="328" y="-180" name="below"/>
-  <anchor x="313" y="-150" name="belowleft"/>
+  <anchor x="50" y="-180" name="belowleft"/>
   <outline>
     <component base="dalathrishDotless-syriac"/>
     <contour>

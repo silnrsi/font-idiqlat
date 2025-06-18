@@ -2,9 +2,9 @@
 <glyph name="zain-syriac.fina" format="2">
   <advance width="541"/>
   <anchor x="296" y="705" name="above"/>
-  <anchor x="326" y="675" name="aboveleft"/>
+  <anchor x="50" y="705" name="aboveleft"/>
   <anchor x="356" y="-330" name="below"/>
-  <anchor x="371" y="-315" name="belowleft"/>
+  <anchor x="50" y="-330" name="belowleft"/>
   <outline>
     <component base="zain-syriac"/>
     <contour>

@@ -2,9 +2,9 @@
 <glyph name="lamadh-syriac.init" format="2">
   <advance width="858"/>
   <anchor x="625" y="930" name="above"/>
-  <anchor x="570" y="945" name="aboveleft"/>
+  <anchor x="50" y="930" name="aboveleft"/>
   <anchor x="435" y="-135" name="below"/>
-  <anchor x="435" y="-150" name="belowleft"/>
+  <anchor x="50" y="-135" name="belowleft"/>
   <outline>
     <contour>
       <point x="804" y="175" type="curve" smooth="yes"/>

@@ -2,9 +2,9 @@
 <glyph name="teth-syriac.init" format="2">
   <advance width="1231"/>
   <anchor x="685" y="675" name="above"/>
-  <anchor x="655" y="660" name="aboveleft"/>
+  <anchor x="50" y="675" name="aboveleft"/>
   <anchor x="355" y="-225" name="below"/>
-  <anchor x="355" y="-180" name="belowleft"/>
+  <anchor x="50" y="-225" name="belowleft"/>
   <outline>
     <contour>
       <point x="1158" y="0" type="curve"/>

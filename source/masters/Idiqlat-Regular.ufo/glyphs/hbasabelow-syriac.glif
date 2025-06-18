@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hbasabelow-syriac" format="2">
   <unicode hex="073B"/>
-  <anchor x="210" y="0" name="_b.U0331_2_2"/>
   <anchor x="150" y="0" name="_below"/>
   <anchor x="165" y="-300" name="below"/>
   <outline>

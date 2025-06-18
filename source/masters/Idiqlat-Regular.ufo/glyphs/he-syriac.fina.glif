@@ -2,9 +2,9 @@
 <glyph name="he-syriac.fina" format="2">
   <advance width="867"/>
   <anchor x="450" y="765" name="above"/>
-  <anchor x="435" y="720" name="aboveleft"/>
+  <anchor x="50" y="765" name="aboveleft"/>
   <anchor x="450" y="-150" name="below"/>
-  <anchor x="405" y="-150" name="belowleft"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="he-syriac"/>
     <contour>

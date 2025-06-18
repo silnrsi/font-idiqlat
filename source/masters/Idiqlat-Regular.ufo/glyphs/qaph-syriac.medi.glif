@@ -2,9 +2,9 @@
 <glyph name="qaph-syriac.medi" format="2">
   <advance width="869"/>
   <anchor x="480" y="750" name="above"/>
-  <anchor x="525" y="765" name="aboveleft"/>
+  <anchor x="50" y="750" name="aboveleft"/>
   <anchor x="540" y="-150" name="below"/>
-  <anchor x="525" y="-150" name="belowleft"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="_qaph" xOffset="100"/>
     <contour>

@@ -2,9 +2,9 @@
 <glyph name="tethGarshuni-syriac.fina" format="2">
   <advance width="1451"/>
   <anchor x="960" y="765" name="above"/>
-  <anchor x="1065" y="660" name="aboveleft"/>
+  <anchor x="50" y="765" name="aboveleft"/>
   <anchor x="780" y="-210" name="below"/>
-  <anchor x="765" y="-225" name="belowleft"/>
+  <anchor x="50" y="-210" name="belowleft"/>
   <outline>
     <component base="teth-syriac.fina"/>
     <contour>

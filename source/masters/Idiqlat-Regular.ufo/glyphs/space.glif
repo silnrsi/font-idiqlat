@@ -3,8 +3,8 @@
   <advance width="404"/>
   <unicode hex="0020"/>
   <anchor x="510" y="995" name="above"/>
-  <anchor x="510" y="965" name="aboveleft"/>
+  <anchor x="50" y="995" name="aboveleft"/>
   <anchor x="525" y="-195" name="below"/>
-  <anchor x="525" y="-210" name="belowleft"/>
+  <anchor x="50" y="-195" name="belowleft"/>
   <outline/>
 </glyph>

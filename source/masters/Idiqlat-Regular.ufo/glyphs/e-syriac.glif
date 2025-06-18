@@ -3,9 +3,9 @@
   <advance width="1324"/>
   <unicode hex="0725"/>
   <anchor x="573" y="975" name="above"/>
-  <anchor x="558" y="975" name="aboveleft"/>
+  <anchor x="50" y="975" name="aboveleft"/>
   <anchor x="663" y="-180" name="below"/>
-  <anchor x="633" y="-165" name="belowleft"/>
+  <anchor x="50" y="-180" name="belowleft"/>
   <outline>
     <component base="e-syriac.init" xOffset="229"/>
     <component base="_LeftTail" xOffset="-50"/>

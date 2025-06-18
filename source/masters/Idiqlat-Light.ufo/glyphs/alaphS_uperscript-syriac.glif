@@ -2,9 +2,7 @@
 <glyph name="alaphSuperscript-syriac" format="2">
   <unicode hex="0711"/>
   <anchor x="135" y="15" name="_above"/>
-  <anchor x="135" y="0" name="_above_2"/>
-  <anchor x="255" y="0" name="_m.U0656"/>
-  <anchor x="120" y="600" name="above_2"/>
+  <anchor x="120" y="600" name="above"/>
   <outline>
     <contour>
       <point x="0" y="0" type="line"/>

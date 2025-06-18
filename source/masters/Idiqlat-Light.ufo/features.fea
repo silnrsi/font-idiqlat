@@ -48,8 +48,8 @@
 # Positioning classes and statements
 
 # AP: above
-@above = [A AE B C D E F G H I J K L M N O Q OE P R S T U V W X Y Z _jdotless a ae alaph-syriac alaph-syriac.fin2 alaph-syriac.fina alaph-syriac.fin3 alaph-syriac.med2 b beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi c d dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalathrishDotless-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac.fina dottedCircle narrownbspace nbspace space e e-syriac e-syriac.fina e-syriac.init e-syriac.medi rish-syriac g gamal-syriac gamal-syriac.fina gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi h he-syriac he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi idotless k l kaph-syriac kaph-syriac.fina kaph-syriac.fina.round kaph-syriac.medi kaph-syriac.init kaph-syriac.round kashida-ar lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi m mim-syriac mim-syriac.fina mim-syriac.fina.round mim-syriac.medi mim-syriac.init mim-syriac.round n nbspace.latn nun-syriac nun-syriac.fina nun-syriac.fina.square nun-syriac.medi nun-syriac.init nun-syriac.square waw-syriac o oe oslash p pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi q qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi r rish-syriac.fina s sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac semkathFinal-syriac.fina semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi t taw-syriac taw-syriac.fina teth-syriac teth-syriac.fina tethGarshuni-syriac tethGarshuni-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac.init tethGarshuni-syriac.medi u v w waw-syriac.fina x y yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina z zain-syriac zain-syriac.fina];
-@above_MarkBase = [_acute _breve _caron _circumflex _grave _hungarumlaut _macron _tilde _acute.case _grave.case _tilde.case _caron.case _circumflex.case _dieresis _dotaccent _dotaccent.i _dieresis.case _ringabv _ringabv.case pthahaabove-syriac rbasaabove-syriac rwaha-syriac shadda-ar threedotsabove-syriac tildecomb twodotsverticalabove-syriac zqaphaabove-syriac zqaphadotted-syriac];
+@above = [A AE B C D E F G H I J K L M N O Q OE P R S T U V W X Y Z _beth beth-syriac _jdotless a ae alaph-syriac alaph-syriac.fin2 alaph-syriac.fina alaph-syriac.fin3 alaph-syriac.med2 b beth-syriac.fina beth-syriac.init beth-syriac.medi c d dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalathrishDotless-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac.fina dottedCircle narrownbspace nbspace space e e-syriac e-syriac.fina e-syriac.init e-syriac.medi rish-syriac g gamal-syriac gamal-syriac.fina gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi h he-syriac he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi idotless k l kaph-syriac kaph-syriac.fina kaph-syriac.fina.round kaph-syriac.medi kaph-syriac.init kaph-syriac.round kashida-ar lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi m mim-syriac mim-syriac.fina mim-syriac.fina.round mim-syriac.medi mim-syriac.init mim-syriac.round n nbspace.latn nun-syriac nun-syriac.fina nun-syriac.fina.square nun-syriac.medi nun-syriac.init nun-syriac.square waw-syriac o oe oslash p pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi q qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi r rish-syriac.fina s sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac semkathFinal-syriac.fina semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi t taw-syriac taw-syriac.fina teth-syriac teth-syriac.fina tethGarshuni-syriac tethGarshuni-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac.init tethGarshuni-syriac.medi u v w waw-syriac.fina x y yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina z zain-syriac zain-syriac.fina];
+@above_MarkBase = [_acute _breve _caron _circumflex _grave _hungarumlaut _macron _tilde _acute.case _grave.case _tilde.case _caron.case _circumflex.case _dieresis _dotaccent _dotaccent.i _dieresis.case _ringabv _ringabv.case alaphSuperscript-syriac barrekh-syriac obliquelineabove-syriac pthahaabove-syriac rbasaabove-syriac rwaha-syriac shadda-ar threedotsabove-syriac tildecomb twodotsverticalabove-syriac zqaphaabove-syriac zqaphadotted-syriac];
 # baseClass A <anchor 403 824> @above;
 # baseClass AE <anchor 592 824> @above;
 # baseClass B <anchor 406 824> @above;
@@ -76,6 +76,7 @@
 # baseClass X <anchor 409 824> @above;
 # baseClass Y <anchor 391 824> @above;
 # baseClass Z <anchor 378 824> @above;
+# baseClass [_beth beth-syriac] <anchor 690 735> @above;
 # baseClass _jdotless <anchor 196 609> @above;
 # baseClass a <anchor 331 609> @above;
 # baseClass ae <anchor 494 609> @above;
@@ -84,7 +85,6 @@
 # baseClass alaph-syriac.fin3 <anchor 255 990> @above;
 # baseClass alaph-syriac.med2 <anchor 255 975> @above;
 # baseClass b <anchor 378 926> @above;
-# baseClass beth-syriac <anchor 690 735> @above;
 # baseClass beth-syriac.fina <anchor 705 750> @above;
 # baseClass [beth-syriac.init beth-syriac.medi] <anchor 480 735> @above;
 # baseClass c <anchor 354 609> @above;
@@ -191,6 +191,9 @@
 # baseClass _dieresis.case <anchor 420 1195> @above_MarkBase;
 # baseClass _ringabv <anchor 420 951> @above_MarkBase;
 # baseClass _ringabv.case <anchor 420 1233> @above_MarkBase;
+# baseClass alaphSuperscript-syriac <anchor 120 600> @above_MarkBase;
+# baseClass barrekh-syriac <anchor 195 525> @above_MarkBase;
+# baseClass obliquelineabove-syriac <anchor 150 390> @above_MarkBase;
 # baseClass pthahaabove-syriac <anchor 165 435> @above_MarkBase;
 # baseClass rbasaabove-syriac <anchor 195 435> @above_MarkBase;
 # baseClass rwaha-syriac <anchor 75 375> @above_MarkBase;
@@ -202,7 +205,7 @@
 # baseClass zqaphadotted-syriac <anchor 270 510> @above_MarkBase;
 
 # AP: below
-@below = [A AE B d C D E F I G H K L h n M N O OE P R S T U V W X Y u Z b a ae alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3 alaph-syriac.fina alaph-syriac.med2 beth-syriac beth-syriac.fina beth-syriac.init lamadh-syriac.init qaph-syriac.medi beth-syriac.medi heth-syriac.init c dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina dottedCircle narrownbspace nbspace space e e-syriac e-syriac.fina e-syriac.init yudh-syriac.medi e-syriac.medi g gamal-syriac semkathFinal-syriac gamal-syriac.fina gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init rish-syriac.fina gamalgarshuni-syriac.medi he-syriac qaph-syriac.init he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.medi idotless l k kaph-syriac kaph-syriac.fina kaph-syriac.fina.round kaph-syriac.medi kaph-syriac.init kaph-syriac.round kashida-ar lamadh-syriac shin-syriac shin-syriac.fina lamadh-syriac.fina lamadh-syriac.medi pe-syriac.init m mim-syriac mim-syriac.fina mim-syriac.fina.round mim-syriac.medi mim-syriac.init mim-syriac.round nbspace.latn nun-syriac rish-syriac nun-syriac.fina nun-syriac.fina.square nun-syriac.medi nun-syriac.init nun-syriac.square o oe pe-syriac pe-syriac.fina pe-syriac.medi qaph-syriac semkath-syriac.fina qaph-syriac.fina r s sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.fina semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac.init shin-syriac.medi waw-syriac.fina t taw-syriac taw-syriac.fina teth-syriac teth-syriac.fina tethGarshuni-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.init tethGarshuni-syriac.medi v w waw-syriac x y yudh-syriac yudh-syriac.fina yudh-syriac.init yudhhe-syriac yudhhe-syriac.fina z zain-syriac zain-syriac.fina];
+@below = [A AE B d C D E F I G H K L h n M N O OE P R S T U V W X Y u Z b _beth a ae alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3 alaph-syriac.fina alaph-syriac.med2 beth-syriac beth-syriac.fina beth-syriac.init lamadh-syriac.init qaph-syriac.medi beth-syriac.medi heth-syriac.init c dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina dottedCircle narrownbspace nbspace space e e-syriac e-syriac.fina e-syriac.init yudh-syriac.medi e-syriac.medi g gamal-syriac semkathFinal-syriac gamal-syriac.fina gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init rish-syriac.fina gamalgarshuni-syriac.medi he-syriac qaph-syriac.init he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.medi idotless l k kaph-syriac kaph-syriac.fina kaph-syriac.fina.round kaph-syriac.medi kaph-syriac.init kaph-syriac.round kashida-ar lamadh-syriac shin-syriac shin-syriac.fina lamadh-syriac.fina lamadh-syriac.medi pe-syriac.init m mim-syriac mim-syriac.fina mim-syriac.fina.round mim-syriac.medi mim-syriac.init mim-syriac.round nbspace.latn nun-syriac rish-syriac nun-syriac.fina nun-syriac.fina.square nun-syriac.medi nun-syriac.init nun-syriac.square o oe pe-syriac pe-syriac.fina pe-syriac.medi qaph-syriac semkath-syriac.fina qaph-syriac.fina r s sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.fina semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac.init shin-syriac.medi waw-syriac.fina t taw-syriac taw-syriac.fina teth-syriac teth-syriac.fina tethGarshuni-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.init tethGarshuni-syriac.medi v w waw-syriac x y yudh-syriac yudh-syriac.fina yudh-syriac.init yudhhe-syriac yudhhe-syriac.fina z zain-syriac zain-syriac.fina];
 @below_MarkBase = [brevebelowcomb circumflexbelowcomb dieresisbelowcomb dotbelowcomb esasabelow-syriac hbasaEsasadotted-syriac hbasabelow-syriac macronbelowcomb minusbelowcomb obliquelinebelow-syriac pthahabelow-syriac rbasabelow-syriac ringbelowcomb rukkakha-syriac rukkakha-syriac.square threedotsbelow-syriac tildebelowcomb twodotsverticalbelow-syriac zlamadottedangular-syriac zlamadottedhorizontal-syriac zqaphabelow-syriac];
 # baseClass A <anchor 381 0> @below;
 # baseClass AE <anchor 592 0> @below;
@@ -229,6 +232,7 @@
 # baseClass X <anchor 409 0> @below;
 # baseClass [Y u] <anchor 391 0> @below;
 # baseClass [Z b] <anchor 378 0> @below;
+# baseClass _beth <anchor 720 -135> @below;
 # baseClass a <anchor 345 0> @below;
 # baseClass ae <anchor 494 0> @below;
 # baseClass alaph-syriac <anchor 315 -150> @below;
@@ -415,7 +419,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass [beth-syriac.init beth-syriac.medi] <anchor 465 735> @aboveleft;
 # baseClass [dalath-syriac dalath_hbasaEsasadotted-syriac] <anchor 285 705> @aboveleft;
 # baseClass [dalath-syriac.fina dalathrishDotless-syriac] <anchor 330 720> @aboveleft;
-# baseClass dalath_hbasaEsasadotted-syriac.fina <anchor 405 -555> @aboveleft;
+# baseClass dalath_hbasaEsasadotted-syriac.fina <anchor 237 720> @aboveleft;
 # baseClass dalathrishDotless-syriac.fina <anchor 345 720> @aboveleft;
 # baseClass [dottedCircle narrownbspace nbspace space] <anchor 510 965> @aboveleft;
 # baseClass e-syriac <anchor 510 975> @aboveleft;
@@ -489,16 +493,16 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass zain-syriac.fina <anchor 315 675> @aboveleft;
 
 # AP: b.U0331_2
-@b.U0331_2 = [_LeftTail _LrgSquareDot _beth _smDotsquare _heth-init _heth-med _heth-med.1 _yudh-med _qaph _semkath _shin];
-# baseClass [_LeftTail _LrgSquareDot _beth _smDotsquare] <anchor 675 -113> @b.U0331_2;
+@b.U0331_2 = [_LeftTail _LrgSquareDot _smDotsquare _heth-init _heth-med _heth-med.1 _yudh-med _qaph _semkath _shin];
+# baseClass [_LeftTail _LrgSquareDot _smDotsquare] <anchor 675 -113> @b.U0331_2;
 # baseClass [_heth-init _heth-med _heth-med.1 _yudh-med] <anchor 765 -165> @b.U0331_2;
 # baseClass _qaph <anchor 705 -135> @b.U0331_2;
 # baseClass _semkath <anchor 585 -120> @b.U0331_2;
 # baseClass _shin <anchor 630 -120> @b.U0331_2;
 
 # AP: b.U0740
-@b.U0740 = [_LeftTail _LrgSquareDot _beth _smDotsquare beth-syriac mim-syriac.fina.round mim-syriac.medi _heth-init _heth-med _heth-med.1 _yudh-med heth-syriac _qaph qaph-syriac _semkath mim-syriac.fina semkath-syriac.init _shin shin-syriac alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3 alaph-syriac.fina alaph-syriac.med2 beth-syriac.fina teth-syriac.fina beth-syriac.init e-syriac.medi pe-syriac.init beth-syriac.medi dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac nun-syriac.init nun-syriac.square dalathrishDotless-syriac.fina dottedCircle narrownbspace nbspace space e-syriac pe-syriac e-syriac.fina e-syriac.init heth-syriac.init qaph-syriac.init gamal-syriac gamal-syriac.fina semkathFinal-syriac.medi gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi he-syriac he-syriac.fina taw-syriac.fina yudh-syriac heth-syriac.fina heth-syriac.medi kaph-syriac tethGarshuni-syriac.init tethGarshuni-syriac.medi kaph-syriac.fina kaph-syriac.fina.round kaph-syriac.init kaph-syriac.medi kaph-syriac.round waw-syriac.fina kashida-ar kashida-ar.half kashida-ar.quarter kashida-ar.threequarter lamadh-syriac lamadh-syriac.fina semkath-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.init mim-syriac.round nun-syriac nun-syriac.fina nun-syriac.fina.square nun-syriac.medi pe-syriac.fina pe-syriac.medi qaph-syriac.medi yudh-syriac.fina qaph-syriac.fina rish-syriac rish-syriac.fina sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac semkathFinal-syriac.fina tethGarshuni-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi taw-syriac teth-syriac.init teth-syriac.medi teth-syriac tethGarshuni-syriac.fina waw-syriac yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina zain-syriac zain-syriac.fina];
-# baseClass [_LeftTail _LrgSquareDot _beth _smDotsquare beth-syriac mim-syriac.fina.round mim-syriac.medi] <anchor 720 -135> @b.U0740;
+@b.U0740 = [_LeftTail _LrgSquareDot _smDotsquare beth-syriac mim-syriac.fina.round mim-syriac.medi _heth-init _heth-med _heth-med.1 _yudh-med heth-syriac _qaph qaph-syriac _semkath mim-syriac.fina semkath-syriac.init _shin shin-syriac alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3 alaph-syriac.fina alaph-syriac.med2 beth-syriac.fina teth-syriac.fina beth-syriac.init e-syriac.medi pe-syriac.init beth-syriac.medi dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalathrishDotless-syriac nun-syriac.init nun-syriac.square dalathrishDotless-syriac.fina dottedCircle narrownbspace nbspace space e-syriac pe-syriac e-syriac.fina e-syriac.init heth-syriac.init qaph-syriac.init gamal-syriac gamal-syriac.fina semkathFinal-syriac.medi gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi he-syriac he-syriac.fina taw-syriac.fina yudh-syriac heth-syriac.fina heth-syriac.medi kaph-syriac tethGarshuni-syriac.init tethGarshuni-syriac.medi kaph-syriac.fina kaph-syriac.fina.round kaph-syriac.init kaph-syriac.medi kaph-syriac.round waw-syriac.fina kashida-ar kashida-ar.half kashida-ar.quarter kashida-ar.threequarter lamadh-syriac lamadh-syriac.fina semkath-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.init mim-syriac.round nun-syriac nun-syriac.fina nun-syriac.fina.square nun-syriac.medi pe-syriac.fina pe-syriac.medi qaph-syriac.medi yudh-syriac.fina qaph-syriac.fina rish-syriac rish-syriac.fina sadhe-syriac sadhe-syriac.fina semkath-syriac semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac semkathFinal-syriac.fina tethGarshuni-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi taw-syriac teth-syriac.init teth-syriac.medi teth-syriac tethGarshuni-syriac.fina waw-syriac yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina zain-syriac zain-syriac.fina];
+# baseClass [_LeftTail _LrgSquareDot _smDotsquare beth-syriac mim-syriac.fina.round mim-syriac.medi] <anchor 720 -135> @b.U0740;
 # baseClass [_heth-init _heth-med _heth-med.1 _yudh-med heth-syriac] <anchor 870 -120> @b.U0740;
 # baseClass [_qaph qaph-syriac] <anchor 750 -150> @b.U0740;
 # baseClass [_semkath mim-syriac.fina semkath-syriac.init] <anchor 555 -135> @b.U0740;
@@ -513,7 +517,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass beth-syriac.medi <anchor 540 -165> @b.U0740;
 # baseClass dalath-syriac <anchor 345 -360> @b.U0740;
 # baseClass dalath-syriac.fina <anchor 375 -360> @b.U0740;
-# baseClass [dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina] <anchor 0 0> @b.U0740;
+# baseClass dalath_hbasaEsasadotted-syriac <anchor 0 0> @b.U0740;
 # baseClass [dalathrishDotless-syriac nun-syriac.init nun-syriac.square] <anchor 345 -150> @b.U0740;
 # baseClass dalathrishDotless-syriac.fina <anchor 405 -405> @b.U0740;
 # baseClass [dottedCircle narrownbspace nbspace space] <anchor 510 -120> @b.U0740;
@@ -591,7 +595,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass dalath-syriac <anchor 300 -390> @belowleft;
 # baseClass dalath-syriac.fina <anchor 390 -360> @belowleft;
 # baseClass dalath_hbasaEsasadotted-syriac <anchor 345 -405> @belowleft;
-# baseClass dalath_hbasaEsasadotted-syriac.fina <anchor 390 -405> @belowleft;
+# baseClass dalath_hbasaEsasadotted-syriac.fina <anchor 222 -390> @belowleft;
 # baseClass dalathrishDotless-syriac.fina <anchor 360 -150> @belowleft;
 # baseClass [dottedCircle narrownbspace nbspace space] <anchor 525 -210> @belowleft;
 # baseClass [e-syriac e-syriac.fina shin-syriac.fina] <anchor 615 -135> @belowleft;
@@ -649,8 +653,8 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass [zain-syriac zain-syriac.fina] <anchor 360 -315> @belowleft;
 
 # AP: t.U0656
-@t.U0656 = [_LeftTail _LrgSquareDot _beth _smDotsquare _heth-init _heth-med _heth-med.1 _yudh-med _qaph _semkath _shin];
-# baseClass [_LeftTail _LrgSquareDot _beth _smDotsquare] <anchor 690 735> @t.U0656;
+@t.U0656 = [_LeftTail _LrgSquareDot _smDotsquare _heth-init _heth-med _heth-med.1 _yudh-med _qaph _semkath _shin];
+# baseClass [_LeftTail _LrgSquareDot _smDotsquare] <anchor 690 735> @t.U0656;
 # baseClass [_heth-init _heth-med _heth-med.1 _yudh-med] <anchor 705 480> @t.U0656;
 # baseClass _qaph <anchor 675 780> @t.U0656;
 # baseClass _semkath <anchor 615 780> @t.U0656;
@@ -719,57 +723,6 @@ markClass _ogonek <anchor 434 0> @_ogonek;
 # AP: _stroke
 markClass _strokeshortcomb.case <anchor 362 569> @_stroke;
 
-# AP: _above_2
-markClass alaphSuperscript-syriac <anchor 135 0> @_above_2;
-markClass barrekh-syriac <anchor 165 180> @_above_2;
-markClass dieresiscomb <anchor 270 45> @_above_2;
-markClass dotaccentcomb <anchor 120 30> @_above_2;
-markClass esasaabove-syriac <anchor 210 30> @_above_2;
-markClass hbasaabove-syriac <anchor 135 45> @_above_2;
-markClass macroncomb <anchor 285 -15> @_above_2;
-markClass music-syriac <anchor 255 120> @_above_2;
-markClass obliquelineabove-syriac <anchor 150 15> @_above_2;
-markClass pthahaabove-syriac <anchor 165 45> @_above_2;
-markClass rbasaabove-syriac <anchor 225 45> @_above_2;
-markClass rwaha-syriac <anchor 90 30> @_above_2;
-markClass shadda-ar <anchor 195 15> @_above_2;
-markClass threedotsabove-syriac <anchor 165 15> @_above_2;
-markClass tildecomb <anchor 240 15> @_above_2;
-markClass twodotsverticalabove-syriac <anchor 60 -15> @_above_2;
-markClass zqaphaabove-syriac <anchor 120 15> @_above_2;
-markClass zqaphadotted-syriac <anchor 270 150> @_above_2;
-
-# AP: _m.U0656
-markClass alaphSuperscript-syriac <anchor 255 0> @_m.U0656;
-
-# AP: above_2
-@above_2_MarkBase = [alaphSuperscript-syriac barrekh-syriac dieresiscomb dotaccentcomb esasaabove-syriac hbasaabove-syriac macroncomb music-syriac obliquelineabove-syriac];
-# baseClass alaphSuperscript-syriac <anchor 120 600> @above_2_MarkBase;
-# baseClass barrekh-syriac <anchor 195 525> @above_2_MarkBase;
-# baseClass dieresiscomb <anchor 270 360> @above_2_MarkBase;
-# baseClass dotaccentcomb <anchor 120 270> @above_2_MarkBase;
-# baseClass esasaabove-syriac <anchor 180 435> @above_2_MarkBase;
-# baseClass hbasaabove-syriac <anchor 150 300> @above_2_MarkBase;
-# baseClass macroncomb <anchor 240 210> @above_2_MarkBase;
-# baseClass music-syriac <anchor 270 585> @above_2_MarkBase;
-# baseClass obliquelineabove-syriac <anchor 150 390> @above_2_MarkBase;
-
-# AP: _above_1
-markClass [barrekh-syriac dieresiscomb] <anchor 240 0> @_above_1;
-markClass [dotaccentcomb twodotsverticalabove-syriac] <anchor 75 0> @_above_1;
-markClass esasaabove-syriac <anchor 225 75> @_above_1;
-markClass [hbasaabove-syriac obliquelineabove-syriac] <anchor 150 0> @_above_1;
-markClass macroncomb <anchor 285 0> @_above_1;
-markClass music-syriac <anchor 375 15> @_above_1;
-markClass pthahaabove-syriac <anchor 255 90> @_above_1;
-markClass rbasaabove-syriac <anchor 285 45> @_above_1;
-markClass rwaha-syriac <anchor 105 0> @_above_1;
-markClass shadda-ar <anchor 210 15> @_above_1;
-markClass threedotsabove-syriac <anchor 255 15> @_above_1;
-markClass tildecomb <anchor 270 -15> @_above_1;
-markClass zqaphaabove-syriac <anchor 165 90> @_above_1;
-markClass zqaphadotted-syriac <anchor 270 105> @_above_1;
-
 # AP: _b.U0331_2_2
 markClass brevebelowcomb <anchor 330 -30> @_b.U0331_2_2;
 markClass circumflexbelowcomb <anchor 285 -30> @_b.U0331_2_2;
@@ -789,135 +742,95 @@ markClass zlamadottedangular-syriac <anchor 480 -210> @_b.U0331_2_2;
 markClass zlamadottedhorizontal-syriac <anchor 450 -180> @_b.U0331_2_2;
 markClass zqaphabelow-syriac <anchor 135 -150> @_b.U0331_2_2;
 
+# AP: _above_1
+markClass dieresiscomb <anchor 240 0> @_above_1;
+markClass [dotaccentcomb twodotsverticalabove-syriac] <anchor 75 0> @_above_1;
+markClass esasaabove-syriac <anchor 225 75> @_above_1;
+markClass hbasaabove-syriac <anchor 150 0> @_above_1;
+markClass macroncomb <anchor 285 0> @_above_1;
+markClass music-syriac <anchor 375 15> @_above_1;
+
+# AP: _above_2
+markClass dieresiscomb <anchor 270 45> @_above_2;
+markClass dotaccentcomb <anchor 120 30> @_above_2;
+markClass esasaabove-syriac <anchor 210 30> @_above_2;
+markClass hbasaabove-syriac <anchor 135 45> @_above_2;
+markClass macroncomb <anchor 285 -15> @_above_2;
+markClass music-syriac <anchor 255 120> @_above_2;
+markClass twodotsverticalabove-syriac <anchor 60 -15> @_above_2;
+
+# AP: above_2
+@above_2 = [he_yudh-syriac he_yudh-syriac.fina lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle taw_alaph-syriac.twined taw_yudh-syriac.fina];
+@above_2_MarkBase = [dieresiscomb dotaccentcomb esasaabove-syriac hbasaabove-syriac macroncomb music-syriac];
+# baseClass he_yudh-syriac <anchor 210 705> @above_2;
+# baseClass he_yudh-syriac.fina <anchor 285 690> @above_2;
+# baseClass lamadh_alaph-syriac <anchor 360 945> @above_2;
+# baseClass lamadh_alaph-syriac.fina <anchor 360 960> @above_2;
+# baseClass [rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina] <anchor 345 975> @above_2;
+# baseClass sadhe_nun-syriac <anchor 285 180> @above_2;
+# baseClass sadhe_nun-syriac.fina <anchor 285 210> @above_2;
+# baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> @above_2;
+# baseClass taw_alaph-syriac.fina.triangle <anchor 345 1020> @above_2;
+# baseClass taw_alaph-syriac.triangle <anchor 360 975> @above_2;
+# baseClass taw_alaph-syriac.twined <anchor 525 990> @above_2;
+# baseClass taw_yudh-syriac.fina <anchor 390 570> @above_2;
+# baseClass dieresiscomb <anchor 270 360> @above_2_MarkBase;
+# baseClass dotaccentcomb <anchor 120 270> @above_2_MarkBase;
+# baseClass esasaabove-syriac <anchor 180 435> @above_2_MarkBase;
+# baseClass hbasaabove-syriac <anchor 150 300> @above_2_MarkBase;
+# baseClass macroncomb <anchor 240 210> @above_2_MarkBase;
+# baseClass music-syriac <anchor 270 585> @above_2_MarkBase;
+
 # AP: _aboveleft
 markClass [dotaboveleftcomb femininedot-syriac] <anchor 320 -65> @_aboveleft;
 
 # AP: _belowleft
 markClass dotbelowleftcomb <anchor 240 240> @_belowleft;
 
-# AP: aboveLigComp_1
-@aboveLigComp_1 = [he_yudh-syriac he_yudh-syriac.fina lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle taw_alaph-syriac.twined taw_yudh-syriac.fina];
-# baseClass he_yudh-syriac <anchor 720 765> @aboveLigComp_1;
-# baseClass he_yudh-syriac.fina <anchor 795 705> @aboveLigComp_1;
-# baseClass lamadh_alaph-syriac <anchor 1260 885> @aboveLigComp_1;
-# baseClass lamadh_alaph-syriac.fina <anchor 1245 885> @aboveLigComp_1;
-# baseClass rish_dieresiscomb-syriac <anchor 330 1020> @aboveLigComp_1;
-# baseClass rish_dieresiscomb-syriac.fina <anchor 360 1035> @aboveLigComp_1;
-# baseClass sadhe_nun-syriac <anchor 780 330> @aboveLigComp_1;
-# baseClass sadhe_nun-syriac.fina <anchor 780 360> @aboveLigComp_1;
-# baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> @aboveLigComp_1;
-# baseClass taw_alaph-syriac.fina.triangle <anchor 705 825> @aboveLigComp_1;
-# baseClass taw_alaph-syriac.triangle <anchor 690 825> @aboveLigComp_1;
-# baseClass taw_alaph-syriac.twined <anchor 975 720> @aboveLigComp_1;
-# baseClass taw_yudh-syriac.fina <anchor 945 975> @aboveLigComp_1;
+# AP: above_1
+@above_1 = [he_yudh-syriac he_yudh-syriac.fina lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle taw_alaph-syriac.twined taw_yudh-syriac.fina];
+# baseClass he_yudh-syriac <anchor 720 765> @above_1;
+# baseClass he_yudh-syriac.fina <anchor 795 705> @above_1;
+# baseClass lamadh_alaph-syriac <anchor 1260 885> @above_1;
+# baseClass lamadh_alaph-syriac.fina <anchor 1245 885> @above_1;
+# baseClass rish_dieresiscomb-syriac <anchor 330 1020> @above_1;
+# baseClass rish_dieresiscomb-syriac.fina <anchor 360 1035> @above_1;
+# baseClass sadhe_nun-syriac <anchor 780 330> @above_1;
+# baseClass sadhe_nun-syriac.fina <anchor 780 360> @above_1;
+# baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> @above_1;
+# baseClass taw_alaph-syriac.fina.triangle <anchor 705 825> @above_1;
+# baseClass taw_alaph-syriac.triangle <anchor 690 825> @above_1;
+# baseClass taw_alaph-syriac.twined <anchor 975 720> @above_1;
+# baseClass taw_yudh-syriac.fina <anchor 945 975> @above_1;
 
-# AP: aboveLigComp_2
-@aboveLigComp_2 = [he_yudh-syriac he_yudh-syriac.fina lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle taw_alaph-syriac.twined taw_yudh-syriac.fina];
-# baseClass he_yudh-syriac <anchor 210 705> @aboveLigComp_2;
-# baseClass he_yudh-syriac.fina <anchor 285 690> @aboveLigComp_2;
-# baseClass lamadh_alaph-syriac <anchor 360 945> @aboveLigComp_2;
-# baseClass lamadh_alaph-syriac.fina <anchor 360 960> @aboveLigComp_2;
-# baseClass [rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina] <anchor 345 975> @aboveLigComp_2;
-# baseClass sadhe_nun-syriac <anchor 285 180> @aboveLigComp_2;
-# baseClass sadhe_nun-syriac.fina <anchor 285 210> @aboveLigComp_2;
-# baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> @aboveLigComp_2;
-# baseClass taw_alaph-syriac.fina.triangle <anchor 345 1020> @aboveLigComp_2;
-# baseClass taw_alaph-syriac.triangle <anchor 360 975> @aboveLigComp_2;
-# baseClass taw_alaph-syriac.twined <anchor 525 990> @aboveLigComp_2;
-# baseClass taw_yudh-syriac.fina <anchor 390 570> @aboveLigComp_2;
+# AP: below_1
+@below_1 = [he_yudh-syriac he_yudh-syriac.fina lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle taw_alaph-syriac.twined taw_yudh-syriac.fina];
+# baseClass he_yudh-syriac <anchor 705 -150> @below_1;
+# baseClass he_yudh-syriac.fina <anchor 675 -135> @below_1;
+# baseClass lamadh_alaph-syriac <anchor 1125 -135> @below_1;
+# baseClass lamadh_alaph-syriac.fina <anchor 1110 -135> @below_1;
+# baseClass rish_dieresiscomb-syriac <anchor 375 -135> @below_1;
+# baseClass rish_dieresiscomb-syriac.fina <anchor 405 -120> @below_1;
+# baseClass sadhe_nun-syriac <anchor 855 -675> @below_1;
+# baseClass sadhe_nun-syriac.fina <anchor 885 -645> @below_1;
+# baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> @below_1;
+# baseClass taw_alaph-syriac.fina.triangle <anchor 750 -195> @below_1;
+# baseClass taw_alaph-syriac.triangle <anchor 720 -210> @below_1;
+# baseClass taw_alaph-syriac.twined <anchor 1020 -150> @below_1;
+# baseClass taw_yudh-syriac.fina <anchor 1005 -90> @below_1;
 
-# AP: b.U0331_2_2_ligComponent_1
-@b.U0331_2_2_ligComponent_1 = [he_yudh-syriac he_yudh-syriac.fina lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle taw_alaph-syriac.twined taw_yudh-syriac.fina];
-# baseClass he_yudh-syriac <anchor 750 -135> @b.U0331_2_2_ligComponent_1;
-# baseClass he_yudh-syriac.fina <anchor 780 -120> @b.U0331_2_2_ligComponent_1;
-# baseClass lamadh_alaph-syriac <anchor 1170 -120> @b.U0331_2_2_ligComponent_1;
-# baseClass lamadh_alaph-syriac.fina <anchor 1170 -105> @b.U0331_2_2_ligComponent_1;
-# baseClass rish_dieresiscomb-syriac <anchor 405 -105> @b.U0331_2_2_ligComponent_1;
-# baseClass rish_dieresiscomb-syriac.fina <anchor 405 -120> @b.U0331_2_2_ligComponent_1;
-# baseClass sadhe_nun-syriac <anchor 885 -630> @b.U0331_2_2_ligComponent_1;
-# baseClass sadhe_nun-syriac.fina <anchor 915 -645> @b.U0331_2_2_ligComponent_1;
-# baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> @b.U0331_2_2_ligComponent_1;
-# baseClass [taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle] <anchor 840 -195> @b.U0331_2_2_ligComponent_1;
-# baseClass taw_alaph-syriac.twined <anchor 975 -135> @b.U0331_2_2_ligComponent_1;
-# baseClass taw_yudh-syriac.fina <anchor 1035 -105> @b.U0331_2_2_ligComponent_1;
-
-# AP: b.U0331_2_2_ligComponent_2
-@b.U0331_2_2_ligComponent_2 = [he_yudh-syriac he_yudh-syriac.fina lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle taw_alaph-syriac.twined taw_yudh-syriac.fina];
-# baseClass he_yudh-syriac <anchor 240 -165> @b.U0331_2_2_ligComponent_2;
-# baseClass he_yudh-syriac.fina <anchor 255 -135> @b.U0331_2_2_ligComponent_2;
-# baseClass [lamadh_alaph-syriac lamadh_alaph-syriac.fina] <anchor 480 -105> @b.U0331_2_2_ligComponent_2;
-# baseClass rish_dieresiscomb-syriac <anchor 405 -120> @b.U0331_2_2_ligComponent_2;
-# baseClass rish_dieresiscomb-syriac.fina <anchor 405 -105> @b.U0331_2_2_ligComponent_2;
-# baseClass sadhe_nun-syriac <anchor 375 -630> @b.U0331_2_2_ligComponent_2;
-# baseClass sadhe_nun-syriac.fina <anchor 435 -645> @b.U0331_2_2_ligComponent_2;
-# baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> @b.U0331_2_2_ligComponent_2;
-# baseClass [taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle] <anchor 315 -210> @b.U0331_2_2_ligComponent_2;
-# baseClass taw_alaph-syriac.twined <anchor 585 -150> @b.U0331_2_2_ligComponent_2;
-# baseClass taw_yudh-syriac.fina <anchor 510 -120> @b.U0331_2_2_ligComponent_2;
-
-# AP: belowLigComp_1
-@belowLigComp_1 = [he_yudh-syriac he_yudh-syriac.fina lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle taw_alaph-syriac.twined taw_yudh-syriac.fina];
-# baseClass he_yudh-syriac <anchor 705 -150> @belowLigComp_1;
-# baseClass he_yudh-syriac.fina <anchor 675 -135> @belowLigComp_1;
-# baseClass lamadh_alaph-syriac <anchor 1125 -135> @belowLigComp_1;
-# baseClass lamadh_alaph-syriac.fina <anchor 1110 -135> @belowLigComp_1;
-# baseClass rish_dieresiscomb-syriac <anchor 375 -135> @belowLigComp_1;
-# baseClass rish_dieresiscomb-syriac.fina <anchor 405 -120> @belowLigComp_1;
-# baseClass sadhe_nun-syriac <anchor 855 -675> @belowLigComp_1;
-# baseClass sadhe_nun-syriac.fina <anchor 885 -645> @belowLigComp_1;
-# baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> @belowLigComp_1;
-# baseClass taw_alaph-syriac.fina.triangle <anchor 750 -195> @belowLigComp_1;
-# baseClass taw_alaph-syriac.triangle <anchor 720 -210> @belowLigComp_1;
-# baseClass taw_alaph-syriac.twined <anchor 1020 -150> @belowLigComp_1;
-# baseClass taw_yudh-syriac.fina <anchor 1005 -90> @belowLigComp_1;
-
-# AP: belowLigComp_2
-@belowLigComp_2 = [he_yudh-syriac he_yudh-syriac.fina lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle taw_alaph-syriac.twined taw_yudh-syriac.fina];
-# baseClass [he_yudh-syriac he_yudh-syriac.fina] <anchor 225 -180> @belowLigComp_2;
-# baseClass [lamadh_alaph-syriac lamadh_alaph-syriac.fina] <anchor 480 -135> @belowLigComp_2;
-# baseClass rish_dieresiscomb-syriac <anchor 375 -150> @belowLigComp_2;
-# baseClass rish_dieresiscomb-syriac.fina <anchor 405 -135> @belowLigComp_2;
-# baseClass sadhe_nun-syriac <anchor 375 -675> @belowLigComp_2;
-# baseClass sadhe_nun-syriac.fina <anchor 345 -630> @belowLigComp_2;
-# baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> @belowLigComp_2;
-# baseClass [taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle] <anchor 225 -210> @belowLigComp_2;
-# baseClass taw_alaph-syriac.twined <anchor 600 -150> @belowLigComp_2;
-# baseClass taw_yudh-syriac.fina <anchor 420 -150> @belowLigComp_2;
-
-# AP: m.U030a_1_2_ligComponent_1
-@m.U030a_1_2_ligComponent_1 = [he_yudh-syriac he_yudh-syriac.fina lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle taw_alaph-syriac.twined taw_yudh-syriac.fina];
-# baseClass he_yudh-syriac <anchor 735 705> @m.U030a_1_2_ligComponent_1;
-# baseClass he_yudh-syriac.fina <anchor 735 690> @m.U030a_1_2_ligComponent_1;
-# baseClass lamadh_alaph-syriac <anchor 1215 945> @m.U030a_1_2_ligComponent_1;
-# baseClass lamadh_alaph-syriac.fina <anchor 1200 930> @m.U030a_1_2_ligComponent_1;
-# baseClass rish_dieresiscomb-syriac <anchor 315 1020> @m.U030a_1_2_ligComponent_1;
-# baseClass rish_dieresiscomb-syriac.fina <anchor 330 1020> @m.U030a_1_2_ligComponent_1;
-# baseClass sadhe_nun-syriac <anchor 795 360> @m.U030a_1_2_ligComponent_1;
-# baseClass sadhe_nun-syriac.fina <anchor 765 375> @m.U030a_1_2_ligComponent_1;
-# baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> @m.U030a_1_2_ligComponent_1;
-# baseClass taw_alaph-syriac.fina.triangle <anchor 750 660> @m.U030a_1_2_ligComponent_1;
-# baseClass taw_alaph-syriac.triangle <anchor 705 705> @m.U030a_1_2_ligComponent_1;
-# baseClass taw_alaph-syriac.twined <anchor 960 720> @m.U030a_1_2_ligComponent_1;
-# baseClass taw_yudh-syriac.fina <anchor 945 930> @m.U030a_1_2_ligComponent_1;
-
-# AP: m.U0656_ligComponent_2
-@m.U0656_ligComponent_2 = [he_yudh-syriac he_yudh-syriac.fina lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle taw_alaph-syriac.twined taw_yudh-syriac.fina];
-# baseClass he_yudh-syriac <anchor 165 915> @m.U0656_ligComponent_2;
-# baseClass he_yudh-syriac.fina <anchor 225 690> @m.U0656_ligComponent_2;
-# baseClass lamadh_alaph-syriac <anchor 345 990> @m.U0656_ligComponent_2;
-# baseClass lamadh_alaph-syriac.fina <anchor 315 1005> @m.U0656_ligComponent_2;
-# baseClass rish_dieresiscomb-syriac <anchor 330 1005> @m.U0656_ligComponent_2;
-# baseClass rish_dieresiscomb-syriac.fina <anchor 360 1020> @m.U0656_ligComponent_2;
-# baseClass sadhe_nun-syriac <anchor 240 240> @m.U0656_ligComponent_2;
-# baseClass sadhe_nun-syriac.fina <anchor 270 255> @m.U0656_ligComponent_2;
-# baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> @m.U0656_ligComponent_2;
-# baseClass taw_alaph-syriac.fina.triangle <anchor 360 1065> @m.U0656_ligComponent_2;
-# baseClass taw_alaph-syriac.triangle <anchor 330 1035> @m.U0656_ligComponent_2;
-# baseClass taw_alaph-syriac.twined <anchor 540 1005> @m.U0656_ligComponent_2;
-# baseClass taw_yudh-syriac.fina <anchor 390 450> @m.U0656_ligComponent_2;
-
-# AP: _aboveleft2
-markClass ringcomb <anchor 120 0> @_aboveleft2;
+# AP: below_2
+@below_2 = [he_yudh-syriac he_yudh-syriac.fina lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle taw_alaph-syriac.twined taw_yudh-syriac.fina];
+# baseClass [he_yudh-syriac he_yudh-syriac.fina] <anchor 225 -180> @below_2;
+# baseClass [lamadh_alaph-syriac lamadh_alaph-syriac.fina] <anchor 480 -135> @below_2;
+# baseClass rish_dieresiscomb-syriac <anchor 375 -150> @below_2;
+# baseClass rish_dieresiscomb-syriac.fina <anchor 405 -135> @below_2;
+# baseClass sadhe_nun-syriac <anchor 375 -675> @below_2;
+# baseClass sadhe_nun-syriac.fina <anchor 345 -630> @below_2;
+# baseClass [taw_alaph-syriac taw_alaph-syriac.fina] <anchor 0 0> @below_2;
+# baseClass [taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle] <anchor 225 -210> @below_2;
+# baseClass taw_alaph-syriac.twined <anchor 600 -150> @below_2;
+# baseClass taw_yudh-syriac.fina <anchor 420 -150> @below_2;
 
 # AP: alef
 @alef = [space.latn];
@@ -1022,10 +935,10 @@ languagesystem syrc dflt;
 # Syriac default
 languagesystem latn dflt;
 # Anchors on diacritics: _aboveleft2 _b.U0331_2_2 _below_unused _center _none _ogonek _stroke
-# Anchors on bases: above aboveleft belowLigComp_1 belowLigComp_2 b.U0331_2
+# Anchors on bases: above aboveleft below_1 below_2 b.U0331_2
 # b.U0331_2_2_ligComponent_1 b.U0331_2_2_ligComponent_2 b.U0740 below belowleft center dotacc
-# m.U030a_1_2_ligComponent_1 aboveLigComp_2 m.U0656_ligComponent_1 m.U0656_ligComponent_2 ogonek stroke t.U0656 above topleft topright
-@MarksAbove = [@_above @_above_2 @_above_1 @_aboveleft];
+# m.U030a_1_2_ligComponent_1 above_2 m.U0656_ligComponent_1 m.U0656_ligComponent_2 ogonek stroke t.U0656 above topleft topright
+@MarksAbove = [@_above @_aboveleft];
 # _diaA
 @MarksBelow = [@_below @_belowleft];
 # _diaB @_b.U0740 @_b.U0325_3
@@ -1623,6 +1536,7 @@ lookup MarkToBase {
     pos base X <anchor 409 824> mark @_above;
     pos base Y <anchor 391 824> mark @_above;
     pos base Z <anchor 378 824> mark @_above;
+    pos base [_beth beth-syriac] <anchor 690 735> mark @_above;
     pos base _jdotless <anchor 196 609> mark @_above;
     pos base a <anchor 331 609> mark @_above;
     pos base ae <anchor 494 609> mark @_above;
@@ -1631,7 +1545,6 @@ lookup MarkToBase {
     pos base alaph-syriac.fin3 <anchor 255 990> mark @_above;
     pos base alaph-syriac.med2 <anchor 255 975> mark @_above;
     pos base b <anchor 378 926> mark @_above;
-    pos base beth-syriac <anchor 690 735> mark @_above;
     pos base beth-syriac.fina <anchor 705 750> mark @_above;
     pos base [beth-syriac.init beth-syriac.medi] <anchor 480 735> mark @_above;
     pos base c <anchor 354 609> mark @_above;
@@ -1731,7 +1644,6 @@ lookup MarkToBase {
     pos base z <anchor 321 609> mark @_above;
     pos base zain-syriac <anchor 300 705> mark @_above;
     pos base zain-syriac.fina <anchor 285 705> mark @_above;
-    # top diaA beth t.U0656
     pos base [_LeftTail _LrgSquareDot _beth _smDotsquare beth-syriac] <anchor 675 735> mark @_aboveleft;
     pos base [_heth-init _heth-med _heth-med.1 _yudh-med heth-syriac] <anchor 705 480> mark @_aboveleft;
     pos base [_qaph qaph-syriac] <anchor 675 750> mark @_aboveleft;
@@ -1745,7 +1657,7 @@ lookup MarkToBase {
     pos base [beth-syriac.init beth-syriac.medi] <anchor 465 735> mark @_aboveleft;
     pos base [dalath-syriac dalath_hbasaEsasadotted-syriac] <anchor 285 705> mark @_aboveleft;
     pos base [dalath-syriac.fina dalathrishDotless-syriac] <anchor 330 720> mark @_aboveleft;
-    pos base dalath_hbasaEsasadotted-syriac.fina <anchor 405 -555> mark @_aboveleft;
+    pos base dalath_hbasaEsasadotted-syriac.fina <anchor 237 720> mark @_aboveleft;
     pos base dalathrishDotless-syriac.fina <anchor 345 720> mark @_aboveleft;
     pos base [dottedCircle narrownbspace nbspace space] <anchor 510 965> mark @_aboveleft;
     pos base e-syriac <anchor 510 975> mark @_aboveleft;
@@ -1817,7 +1729,6 @@ lookup MarkToBase {
     pos base [yudhhe-syriac yudhhe-syriac.fina] <anchor 1890 555> mark @_aboveleft;
     pos base zain-syriac <anchor 345 660> mark @_aboveleft;
     pos base zain-syriac.fina <anchor 315 675> mark @_aboveleft;
-    # top beth 030a 0741
     pos base [_LeftTail _LrgSquareDot _beth _smDotsquare beth-syriac qaph-syriac.fina] <anchor 705 -135> mark @_belowleft;
     pos base [_heth-init _heth-med _heth-med.1 _yudh-med heth-syriac] <anchor 720 -135> mark @_belowleft;
     pos base [_qaph qaph-syriac] <anchor 705 -120> mark @_belowleft;
@@ -1834,7 +1745,7 @@ lookup MarkToBase {
     pos base dalath-syriac <anchor 300 -390> mark @_belowleft;
     pos base dalath-syriac.fina <anchor 390 -360> mark @_belowleft;
     pos base dalath_hbasaEsasadotted-syriac <anchor 345 -405> mark @_belowleft;
-    pos base dalath_hbasaEsasadotted-syriac.fina <anchor 390 -405> mark @_belowleft;
+    pos base dalath_hbasaEsasadotted-syriac.fina <anchor 222 -390> mark @_belowleft;
     pos base dalathrishDotless-syriac.fina <anchor 360 -150> mark @_belowleft;
     pos base [dottedCircle narrownbspace nbspace space] <anchor 525 -210> mark @_belowleft;
     pos base [e-syriac e-syriac.fina shin-syriac.fina] <anchor 615 -135> mark @_belowleft;
@@ -1890,7 +1801,6 @@ lookup MarkToBase {
     pos base yudh-syriac.init <anchor 300 -120> mark @_belowleft;
     pos base [yudhhe-syriac yudhhe-syriac.fina] <anchor 1665 -135> mark @_belowleft;
     pos base [zain-syriac zain-syriac.fina] <anchor 360 -315> mark @_belowleft;
-    # below 0325 0742 dotbelowleftcomb
     pos base A <anchor 381 0> mark @_below;
     pos base AE <anchor 592 0> mark @_below;
     pos base [B d] <anchor 406 0> mark @_below;
@@ -1916,6 +1826,7 @@ lookup MarkToBase {
     pos base X <anchor 409 0> mark @_below;
     pos base [Y u] <anchor 391 0> mark @_below;
     pos base [Z b] <anchor 378 0> mark @_below;
+    pos base _beth <anchor 720 -135> mark @_below;
     pos base a <anchor 345 0> mark @_below;
     pos base ae <anchor 494 0> mark @_below;
     pos base alaph-syriac <anchor 315 -150> mark @_below;
@@ -2011,14 +1922,8 @@ lookup MarkToBase {
     pos base z <anchor 321 0> mark @_below;
     pos base zain-syriac <anchor 360 -300> mark @_below;
     pos base zain-syriac.fina <anchor 375 -285> mark @_below;
-    # below diaB b.U0331_2
-    #	pos base @b.U0740      mark @_b.U0740; # below
 } MarkToBase;
 
-# lookup LMarkFeminineDot {
-#	lookupflag 0;
-#	pos base @b.U0740    mark @_b.U0740; # below
-# } LMarkFeminineDot;
 lookup MarkToLig {
     lookupflag 0;
     pos ligature sadhe_nun-syriac <anchor 780 330> mark @_above <anchor 855 -675> mark @_below
@@ -2059,6 +1964,9 @@ lookup MarkToMarkAbove {
     pos mark _dieresis.case <anchor 420 1195> mark @_above;
     pos mark _ringabv <anchor 420 951> mark @_above;
     pos mark _ringabv.case <anchor 420 1233> mark @_above;
+    pos mark alaphSuperscript-syriac <anchor 120 600> mark @_above;
+    pos mark barrekh-syriac <anchor 195 525> mark @_above;
+    pos mark obliquelineabove-syriac <anchor 150 390> mark @_above;
     pos mark pthahaabove-syriac <anchor 165 435> mark @_above;
     pos mark rbasaabove-syriac <anchor 195 435> mark @_above;
     pos mark rwaha-syriac <anchor 75 375> mark @_above;

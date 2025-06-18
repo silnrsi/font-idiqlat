@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="twodotsverticalbelow-syriac" format="2">
   <unicode hex="0744"/>
-  <anchor x="65" y="-15" name="_b.U0331_2_2"/>
   <anchor x="65" y="15" name="_below"/>
   <anchor x="65" y="-405" name="below"/>
   <outline>

@@ -2,9 +2,9 @@
 <glyph name="dalath_hbasaEsasadotted-syriac.fina" format="2">
   <advance width="652"/>
   <anchor x="375" y="735" name="above"/>
-  <anchor x="405" y="-555" name="aboveleft"/>
+  <anchor x="50" y="735" name="aboveleft"/>
   <anchor x="375" y="-405" name="below"/>
-  <anchor x="390" y="-405" name="belowleft"/>
+  <anchor x="50" y="-405" name="belowleft"/>
   <outline>
     <component base="dalathrishDotless-syriac.fina"/>
     <component base="_LrgSquareDot"/>

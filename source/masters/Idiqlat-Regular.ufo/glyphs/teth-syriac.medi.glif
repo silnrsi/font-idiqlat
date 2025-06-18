@@ -2,9 +2,9 @@
 <glyph name="teth-syriac.medi" format="2">
   <advance width="1207"/>
   <anchor x="720" y="675" name="above"/>
-  <anchor x="735" y="675" name="aboveleft"/>
+  <anchor x="50" y="675" name="aboveleft"/>
   <anchor x="420" y="-210" name="below"/>
-  <anchor x="375" y="-150" name="belowleft"/>
+  <anchor x="50" y="-210" name="belowleft"/>
   <outline>
     <component base="teth-syriac.init"/>
     <contour>

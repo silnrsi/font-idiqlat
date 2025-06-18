@@ -3,9 +3,9 @@
   <advance width="623"/>
   <unicode hex="0715"/>
   <anchor x="325" y="705" name="above"/>
-  <anchor x="235" y="705" name="aboveleft"/>
+  <anchor x="50" y="705" name="aboveleft"/>
   <anchor x="280" y="-390" name="below"/>
-  <anchor x="250" y="-390" name="belowleft"/>
+  <anchor x="50" y="-390" name="belowleft"/>
   <outline>
     <component base="dalathrishDotless-syriac"/>
     <component base="_LrgSquareDot" xOffset="-51"/>

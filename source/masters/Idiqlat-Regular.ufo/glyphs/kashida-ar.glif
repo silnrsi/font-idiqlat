@@ -3,9 +3,9 @@
   <advance width="360"/>
   <unicode hex="0640"/>
   <anchor x="135" y="405" name="above"/>
-  <anchor x="135" y="390" name="aboveleft"/>
+  <anchor x="50" y="405" name="aboveleft"/>
   <anchor x="180" y="-195" name="below"/>
-  <anchor x="180" y="-165" name="belowleft"/>
+  <anchor x="50" y="-195" name="belowleft"/>
   <outline>
     <contour>
       <point x="0" y="0" type="line"/>

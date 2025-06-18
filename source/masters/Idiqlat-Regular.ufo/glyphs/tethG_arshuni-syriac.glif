@@ -3,9 +3,9 @@
   <advance width="1503"/>
   <unicode hex="071C"/>
   <anchor x="960" y="765" name="above"/>
-  <anchor x="930" y="840" name="aboveleft"/>
+  <anchor x="50" y="765" name="aboveleft"/>
   <anchor x="660" y="-210" name="below"/>
-  <anchor x="765" y="-210" name="belowleft"/>
+  <anchor x="50" y="-210" name="belowleft"/>
   <outline>
     <component base="teth-syriac"/>
     <contour>

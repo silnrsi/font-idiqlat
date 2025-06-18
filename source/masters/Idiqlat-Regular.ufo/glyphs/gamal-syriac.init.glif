@@ -2,9 +2,9 @@
 <glyph name="gamal-syriac.init" format="2">
   <advance width="996"/>
   <anchor x="726" y="795" name="above"/>
-  <anchor x="688" y="825" name="aboveleft"/>
+  <anchor x="50" y="795" name="aboveleft"/>
   <anchor x="445" y="-165" name="below"/>
-  <anchor x="445" y="-150" name="belowleft"/>
+  <anchor x="50" y="-165" name="belowleft"/>
   <outline>
     <component base="_LrgSquareDot" xOffset="739" yOffset="-191"/>
     <contour>

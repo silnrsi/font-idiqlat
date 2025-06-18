@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexbelowcomb" format="2">
   <unicode hex="032D"/>
-  <anchor x="285" y="-30" name="_b.U0331_2_2"/>
   <anchor x="0" y="-105" name="_below"/>
   <anchor x="15" y="-480" name="below"/>
   <outline>

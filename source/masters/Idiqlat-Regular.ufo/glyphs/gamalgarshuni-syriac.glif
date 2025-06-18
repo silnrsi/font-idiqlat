@@ -3,9 +3,9 @@
   <advance width="1243"/>
   <unicode hex="0714"/>
   <anchor x="982" y="795" name="above"/>
-  <anchor x="922" y="825" name="aboveleft"/>
+  <anchor x="50" y="795" name="aboveleft"/>
   <anchor x="645" y="-150" name="below"/>
-  <anchor x="690" y="-180" name="belowleft"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="gamal-syriac"/>
     <contour>

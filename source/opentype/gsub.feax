@@ -15,11 +15,11 @@ languagesystem syrc dflt; # Syriac default
 languagesystem latn dflt ;
 
 # Anchors on diacritics: _aboveleft2 _b.U0331_2_2 _below_unused _center _none _ogonek _stroke
-# Anchors on bases: above aboveleft belowLigComp_1 belowLigComp_2 b.U0331_2
+# Anchors on bases: above aboveleft below_1 below_2 b.U0331_2
 # b.U0331_2_2_ligComponent_1 b.U0331_2_2_ligComponent_2 b.U0740 below belowleft center dotacc
-# m.U030a_1_2_ligComponent_1 aboveLigComp_2 m.U0656_ligComponent_1 m.U0656_ligComponent_2 ogonek stroke t.U0656 above topleft topright
+# m.U030a_1_2_ligComponent_1 above_2 m.U0656_ligComponent_1 m.U0656_ligComponent_2 ogonek stroke t.U0656 above topleft topright
 
-@MarksAbove = [@_above @_above_2 @_above_1 @_aboveleft] ; # _diaA
+@MarksAbove = [@_above @_aboveleft] ; # _diaA
 @MarksBelow = [ @_below @_belowleft] ; # _diaB @_b.U0740 @_b.U0325_3
 @MarksAny = [@MarksAbove @MarksBelow] ;
 

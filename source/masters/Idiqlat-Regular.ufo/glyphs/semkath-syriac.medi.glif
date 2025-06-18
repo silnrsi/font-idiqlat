@@ -2,9 +2,9 @@
 <glyph name="semkath-syriac.medi" format="2">
   <advance width="1052"/>
   <anchor x="645" y="780" name="above"/>
-  <anchor x="660" y="780" name="aboveleft"/>
+  <anchor x="50" y="780" name="aboveleft"/>
   <anchor x="540" y="-150" name="below"/>
-  <anchor x="540" y="-150" name="belowleft"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="semkath-syriac.init"/>
     <contour>

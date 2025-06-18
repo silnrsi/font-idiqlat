@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevebelowcomb" format="2">
   <unicode hex="032E"/>
-  <anchor x="330" y="-30" name="_b.U0331_2_2"/>
   <anchor x="287" y="-95" name="_below"/>
   <anchor x="287" y="-420" name="below"/>
   <outline>

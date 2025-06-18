@@ -2,9 +2,9 @@
 <glyph name="lamadh-syriac.fina" format="2">
   <advance width="1168"/>
   <anchor x="858" y="945" name="above"/>
-  <anchor x="843" y="945" name="aboveleft"/>
+  <anchor x="50" y="945" name="aboveleft"/>
   <anchor x="693" y="-165" name="below"/>
-  <anchor x="648" y="-150" name="belowleft"/>
+  <anchor x="50" y="-165" name="belowleft"/>
   <outline>
     <component base="lamadh-syriac.medi" xOffset="222"/>
     <component base="_LeftTail" xOffset="-50"/>

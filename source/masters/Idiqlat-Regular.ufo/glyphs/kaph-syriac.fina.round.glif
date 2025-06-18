@@ -2,9 +2,9 @@
 <glyph name="kaph-syriac.fina.round" format="2">
   <advance width="1110"/>
   <anchor x="377" y="750" name="above"/>
-  <anchor x="392" y="735" name="aboveleft"/>
+  <anchor x="50" y="750" name="aboveleft"/>
   <anchor x="407" y="-180" name="below"/>
-  <anchor x="392" y="-135" name="belowleft"/>
+  <anchor x="50" y="-180" name="belowleft"/>
   <outline>
     <component base="kaph-syriac.medi" xOffset="221"/>
     <component base="_LeftTail" xOffset="-50"/>

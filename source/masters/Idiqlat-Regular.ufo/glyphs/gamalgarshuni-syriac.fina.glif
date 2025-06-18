@@ -2,9 +2,9 @@
 <glyph name="gamalgarshuni-syriac.fina" format="2">
   <advance width="1137"/>
   <anchor x="929" y="795" name="above"/>
-  <anchor x="869" y="825" name="aboveleft"/>
+  <anchor x="50" y="795" name="aboveleft"/>
   <anchor x="518" y="-150" name="below"/>
-  <anchor x="563" y="-135" name="belowleft"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="gamal-syriac.fina"/>
     <contour>

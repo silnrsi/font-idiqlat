@@ -45,23 +45,17 @@ lookup kern_nun2 { # FKrern: Nun in VOLT
 
 lookup MarkToBase {
 	lookupflag 0;
-	pos base @above      mark @_above; # top diaA beth t.U0656
-	pos base @aboveleft    mark @_aboveleft; # top beth 030a 0741
-	pos base @belowleft    mark @_belowleft; # below 0325 0742 dotbelowleftcomb
-	pos base @below    mark @_below; # below diaB b.U0331_2
-#	pos base @b.U0740      mark @_b.U0740; # below
+	pos base @above      mark @_above; 
+	pos base @aboveleft    mark @_aboveleft; 
+	pos base @belowleft    mark @_belowleft; 
+	pos base @below    mark @_below; 
 } MarkToBase;
 
 
-# lookup LMarkFeminineDot {
-#	lookupflag 0;
-#	pos base @b.U0740    mark @_b.U0740; # below
-# } LMarkFeminineDot;
-
 lookup MarkToLig {
   lookupflag 0;
-    pos ligature @LigatureOptional            @aboveLigComp_1 mark @_above    @belowLigComp_1 mark @_below
-              ligComponent              @aboveLigComp_2 mark @_above    @belowLigComp_2 mark @_below;
+    pos ligature @LigatureOptional            @above_1 mark @_above    @below_1 mark @_below
+              ligComponent              @above_2 mark @_above    @below_2 mark @_below;
 } MarkToLig;
 
 #********************

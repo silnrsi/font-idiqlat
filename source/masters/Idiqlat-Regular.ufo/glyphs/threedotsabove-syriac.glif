@@ -2,8 +2,6 @@
 <glyph name="threedotsabove-syriac" format="2">
   <unicode hex="0745"/>
   <anchor x="180" y="30" name="_above"/>
-  <anchor x="255" y="15" name="_above_1"/>
-  <anchor x="180" y="0" name="_above_2"/>
   <anchor x="165" y="405" name="above"/>
   <outline>
     <component base="_smDotsquare" xOffset="177" yOffset="2"/>

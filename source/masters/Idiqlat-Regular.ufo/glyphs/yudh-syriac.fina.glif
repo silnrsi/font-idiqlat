@@ -2,9 +2,9 @@
 <glyph name="yudh-syriac.fina" format="2">
   <advance width="908"/>
   <anchor x="496" y="525" name="above"/>
-  <anchor x="526" y="570" name="aboveleft"/>
+  <anchor x="50" y="525" name="aboveleft"/>
   <anchor x="541" y="-150" name="below"/>
-  <anchor x="541" y="-150" name="belowleft"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="_LeftTail" xOffset="-50"/>
     <component base="_yudh-med" xOffset="356"/>

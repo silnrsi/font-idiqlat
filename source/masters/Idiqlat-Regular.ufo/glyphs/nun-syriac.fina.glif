@@ -2,9 +2,9 @@
 <glyph name="nun-syriac.fina" format="2">
   <advance width="459"/>
   <anchor x="225" y="465" name="above"/>
-  <anchor x="225" y="480" name="aboveleft"/>
+  <anchor x="50" y="465" name="aboveleft"/>
   <anchor x="240" y="-615" name="below"/>
-  <anchor x="225" y="-570" name="belowleft"/>
+  <anchor x="50" y="-615" name="belowleft"/>
   <outline>
     <contour>
       <point x="370" y="-522"/>

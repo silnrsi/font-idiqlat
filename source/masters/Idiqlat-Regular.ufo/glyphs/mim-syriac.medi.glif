@@ -2,9 +2,9 @@
 <glyph name="mim-syriac.medi" format="2">
   <advance width="1027"/>
   <anchor x="525" y="765" name="above"/>
-  <anchor x="525" y="720" name="aboveleft"/>
+  <anchor x="50" y="765" name="aboveleft"/>
   <anchor x="585" y="-135" name="below"/>
-  <anchor x="525" y="-135" name="belowleft"/>
+  <anchor x="50" y="-135" name="belowleft"/>
   <outline>
     <component base="mim-syriac.init"/>
     <contour>

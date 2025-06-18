@@ -2,9 +2,9 @@
 <glyph name="pe-syriac.init" format="2">
   <advance width="862"/>
   <anchor x="460" y="975" name="above"/>
-  <anchor x="475" y="990" name="aboveleft"/>
+  <anchor x="50" y="975" name="aboveleft"/>
   <anchor x="490" y="-135" name="below"/>
-  <anchor x="475" y="-120" name="belowleft"/>
+  <anchor x="50" y="-135" name="belowleft"/>
   <outline>
     <contour>
       <point x="808" y="185" type="curve"/>

@@ -2,8 +2,6 @@
 <glyph name="shadda-ar" format="2">
   <unicode hex="0651"/>
   <anchor x="150" y="0" name="_above"/>
-  <anchor x="210" y="15" name="_above_1"/>
-  <anchor x="195" y="15" name="_above_2"/>
   <anchor x="135" y="390" name="above"/>
   <outline>
     <contour>
