@@ -1,5 +1,5 @@
 
-We are very pleased to announce release of Idiqlat, a new font for the East Syriac style of the Syriac script.
+We are very pleased to announce the release of Idiqlat, a new font for the East Syriac style of the Syriac script.
 
 ### Changes
 

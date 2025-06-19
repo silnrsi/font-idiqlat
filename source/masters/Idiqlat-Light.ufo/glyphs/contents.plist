@@ -284,8 +284,6 @@
   <string>asciitilde.glif</string>
   <key>asterisk</key>
   <string>asterisk.glif</string>
-  <key>asterisk.latn</key>
-  <string>asterisk.latn.glif</string>
   <key>at</key>
   <string>at.glif</string>
   <key>atilde</key>
@@ -572,8 +570,6 @@
   <string>hungarumlaut.glif</string>
   <key>hyphen</key>
   <string>hyphen.glif</string>
-  <key>hyphen.latn</key>
-  <string>hyphen.latn.glif</string>
   <key>hyphenationpoint</key>
   <string>hyphenationpoint.glif</string>
   <key>hyphentwo</key>
@@ -692,8 +688,6 @@
   <string>narrownbspace.glif</string>
   <key>nbspace</key>
   <string>nbspace.glif</string>
-  <key>nbspace.latn</key>
-  <string>nbspace.latn.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
   <key>nonbreakinghyphen</key>
@@ -958,8 +952,6 @@
   <string>softhyphen.glif</string>
   <key>space</key>
   <string>space.glif</string>
-  <key>space.latn</key>
-  <string>space.latn.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
   <key>summation</key>

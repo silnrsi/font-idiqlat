@@ -3,7 +3,7 @@
   <advance width="536"/>
   <unicode hex="2010"/>
   <outline>
-    <component base="hyphen.latn"/>
+    <component base="hyphen"/>
   </outline>
   <lib>
     <dict>

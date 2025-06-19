@@ -10,7 +10,6 @@
       <style feats="'cv15' 1" name="cv15_1"/>
       <style feats="'cv17' 1" name="cv17_1"/>
       <style feats="'cv18' 1" name="cv18_1"/>
-      <style feats="'latn' 1" name="latn_1"/>
     </styles>
     <title>AllChars (auto)</title>
     <widths string="38%"/>
@@ -23,23 +22,7 @@
   <testgroup label="Encoded characters">
     <test label="U+0020">
       <comment>space</comment>
-      <string>\u00F130 \u00F131</string>
-    </test>
-    <test label="U+0020" stylename="latn_1">
-      <comment>space</comment>
-      <string>\u00F130 \u00F131</string>
-    </test>
-    <test label="U+0021">
-      <comment>exclam</comment>
-      <string>!</string>
-    </test>
-    <test label="U+0021" stylename="latn_1">
-      <comment>exclam</comment>
-      <string>!</string>
-    </test>
-    <test label="U+0022">
-      <comment>quotedbl</comment>
-      <string>" # $ % &amp; '</string>
+      <string>\u00F130 \u00F131 ! " # $ % &amp; '</string>
     </test>
     <test label="U+0028">
       <comment>parenleft</comment>
@@ -51,21 +34,9 @@
     </test>
     <test label="U+002A">
       <comment>asterisk</comment>
-      <string>*</string>
-    </test>
-    <test label="U+002A" stylename="latn_1">
-      <comment>asterisk</comment>
-      <string>*</string>
-    </test>
-    <test label="U+002B">
-      <comment>plus</comment>
-      <string>+ ,</string>
+      <string>* + ,</string>
     </test>
     <test background="#f0fff0" label="U+002D">
-      <comment>hyphen</comment>
-      <string>-</string>
-    </test>
-    <test background="#f0fff0" label="U+002D" stylename="latn_1">
       <comment>hyphen</comment>
       <string>-</string>
     </test>

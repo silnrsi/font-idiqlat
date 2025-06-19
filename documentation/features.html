@@ -14,10 +14,10 @@
     <header>
         <h1 class="title">Idiqlat - Font Features</h1>
     </header>
-    <p>Idiqlat is an OpenType-enabled font family that supports the
-    Eastern Syriac style of the Syriac script. It includes a number of
-    optional features that may be useful or required for particular uses
-    or languages. This document lists all the available features.</p>
+    <p>Idiqlat is an OpenType-enabled font family that supports the East
+    Syriac style of the Syriac script. It includes a number of optional
+    features that may be useful or required for particular uses or
+    languages. This document lists all the available features.</p>
     <p>These OpenType features are primarily specified using four-letter
     tags (e.g. 'cv38'). For more information on how to access OpenType
     features in specific environments and applications, see <a
@@ -35,7 +35,8 @@
     package.</em></p>
     <h2 id="character-variants">Character variants</h2>
     <h3 id="kaph-alternate">Kaph alternate</h3>
-    <p><span class="affects">Affects: U+071F</span></p>
+    <p><span class="affects">Affects: U+071F (this feature is primarily
+    for outlines and only affects the isolate form)</span></p>
     <table>
     <colgroup>
     <col style="width: 17%" />
@@ -64,7 +65,8 @@
     </tbody>
     </table>
     <h3 id="mim-alternate">Mim alternate</h3>
-    <p><span class="affects">Affects: U+0721</span></p>
+    <p><span class="affects">Affects: U+0721 (this feature is primarily
+    for outlines and only affects the isolate form)</span></p>
     <table>
     <colgroup>
     <col style="width: 17%" />
@@ -93,7 +95,8 @@
     </tbody>
     </table>
     <h3 id="nun-alternate">Nun alternate</h3>
-    <p><span class="affects">Affects: U+0722</span></p>
+    <p><span class="affects">Affects: U+0722 (this feature is primarily
+    for outlines and only affects the isolate form)</span></p>
     <table>
     <colgroup>
     <col style="width: 17%" />
@@ -121,7 +124,7 @@
     </tr>
     </tbody>
     </table>
-    <h3 id="he-yudh-alternate">He Yudh alternate</h3>
+    <h3 id="he-yudh-ligature">He Yudh ligature</h3>
     <p><span class="affects">Affects: U+0717 U+071D</span></p>
     <table>
     <colgroup>
@@ -139,18 +142,18 @@
     <tbody>
     <tr class="odd">
     <td>Standard</td>
-    <td><span class="idiqlat-R normal">ܗܝ</span></td>
+    <td><span class="idiqlat-R normal">ܗܝ ‍ܗܝ</span></td>
     <td><code>cv38=0</code></td>
     </tr>
     <tr class="even">
     <td>Ligature</td>
     <td><span class="idiqlat-R normal"
-    style="font-feature-settings: &quot;cv38&quot; 1">ܗܝ</span></td>
+    style="font-feature-settings: &quot;cv38&quot; 1">ܗܝ ‍ܗܝ</span></td>
     <td><code>cv38=1</code></td>
     </tr>
     </tbody>
     </table>
-    <h3 id="sadhe-nun-alternate">Sadhe Nun alternate</h3>
+    <h3 id="sadhe-nun-ligature">Sadhe Nun ligature</h3>
     <p><span class="affects">Affects: U+0728 U+0722</span></p>
     <table>
     <colgroup>
@@ -168,18 +171,18 @@
     <tbody>
     <tr class="odd">
     <td>Standard</td>
-    <td><span class="idiqlat-R normal">ܨܢ</span></td>
+    <td><span class="idiqlat-R normal">ܨܢ ‍ܨܢ</span></td>
     <td><code>cv55=0</code></td>
     </tr>
     <tr class="even">
     <td>Ligature</td>
     <td><span class="idiqlat-R normal"
-    style="font-feature-settings: &quot;cv55&quot; 1">ܨܢ</span></td>
+    style="font-feature-settings: &quot;cv55&quot; 1">ܨܢ ‍ܨܢ</span></td>
     <td><code>cv55=1</code></td>
     </tr>
     </tbody>
     </table>
-    <h3 id="taw-alaph-alternate">Taw Alaph alternate</h3>
+    <h3 id="taw-alaph-ligature">Taw Alaph ligature</h3>
     <p><span class="affects">Affects: U+072C U+0710</span></p>
     <table>
     <colgroup>
@@ -197,24 +200,24 @@
     <tbody>
     <tr class="odd">
     <td>Standard</td>
-    <td><span class="idiqlat-R normal">ܬܐ</span></td>
+    <td><span class="idiqlat-R normal">ܬܐ ‍ܬܐ</span></td>
     <td><code>cv59=0</code></td>
     </tr>
     <tr class="even">
     <td>Triangle</td>
     <td><span class="idiqlat-R normal"
-    style="font-feature-settings: &quot;cv59&quot; 1">ܬܐ</span></td>
+    style="font-feature-settings: &quot;cv59&quot; 1">ܬܐ ‍ܬܐ</span></td>
     <td><code>cv59=1</code></td>
     </tr>
     <tr class="odd">
     <td>Intertwined</td>
     <td><span class="idiqlat-R normal"
-    style="font-feature-settings: &quot;cv59&quot; 2">ܬܐ</span></td>
+    style="font-feature-settings: &quot;cv59&quot; 2">ܬܐ ‍ܬܐ</span></td>
     <td><code>cv59=2</code></td>
     </tr>
     </tbody>
     </table>
-    <h3 id="taw-yudh-alternate">Taw Yudh alternate</h3>
+    <h3 id="taw-yudh-ligature">Taw Yudh ligature</h3>
     <p><span class="affects">Affects: U+072C U+071D</span></p>
     <table>
     <colgroup>
@@ -232,13 +235,13 @@
     <tbody>
     <tr class="odd">
     <td>Standard</td>
-    <td><span class="idiqlat-R normal" dir="rtl">ܬܝ</span></td>
+    <td><span class="idiqlat-R normal" dir="rtl">ܬܝ ‍ܬܝ</span></td>
     <td><code>cv60=0</code></td>
     </tr>
     <tr class="even">
     <td>Ligature</td>
     <td><span class="idiqlat-R normal" dir="rtl"
-    style="font-feature-settings: &quot;cv60&quot; 1">ܬܝ</span></td>
+    style="font-feature-settings: &quot;cv60&quot; 1">ܬܝ ‍ܬܝ</span></td>
     <td><code>cv60=1</code></td>
     </tr>
     </tbody>

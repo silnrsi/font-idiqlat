@@ -95,7 +95,6 @@
     <string>.null</string>
     <string>nonmarkingreturn</string>
     <string>space</string>
-    <string>space.latn</string>
     <string>exclam</string>
     <string>quotedbl</string>
     <string>numbersign</string>
@@ -106,12 +105,10 @@
     <string>parenleft</string>
     <string>parenright</string>
     <string>asterisk</string>
-    <string>asterisk.latn</string>
     <string>plus</string>
     <string>comma</string>
     <string>hyphentwo</string>
     <string>hyphen</string>
-    <string>hyphen.latn</string>
     <string>period</string>
     <string>slash</string>
     <string>zero</string>
@@ -192,7 +189,6 @@
     <string>bar</string>
     <string>asciitilde</string>
     <string>nbspace</string>
-    <string>nbspace.latn</string>
     <string>exclamdown</string>
     <string>cent</string>
     <string>sterling</string>
@@ -943,8 +939,6 @@
     <string>uni202F</string>
     <key>nbspace</key>
     <string>uni00A0</string>
-    <key>nbspace.latn</key>
-    <string>uni00A0.latn</string>
     <key>nonbreakinghyphen</key>
     <string>uni2011</string>
     <key>nun-syriac</key>

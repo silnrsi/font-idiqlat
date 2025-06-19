@@ -79,10 +79,10 @@ lookup FontCheck {
 
 # Replace Syriac punctuation glyphs with Latin ones:
 
-lookup LatinPunctuation {
-  lookupflag 0 ;
-    sub @cno_latn by @c_latn ;
-} LatinPunctuation ;
+# lookup LatinPunctuation {
+#  lookupflag 0 ;
+#    sub @cno_latn by @c_latn ;
+# } LatinPunctuation ;
 
 # HB PAUSE
 
@@ -293,8 +293,8 @@ lookup TawYudhLigature {
 feature ccmp {  # Glyph Composition/Decomposition
     # Same for latin & syriac:
         lookup FontCheck;
-    script latn;
-        lookup LatinPunctuation;
+#    script latn;
+#        lookup LatinPunctuation;
     script syrc;
         lookup GPreDecompose;
         lookup SeyameChain;
