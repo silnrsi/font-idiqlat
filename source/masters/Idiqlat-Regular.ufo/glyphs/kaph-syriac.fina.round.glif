@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaph-syriac.fina.round" format="2">
   <advance width="1110"/>
-  <anchor x="377" y="750" name="above"/>
+  <anchor x="648" y="750" name="above"/>
   <anchor x="50" y="750" name="aboveleft"/>
-  <anchor x="407" y="-150" name="below"/>
+  <anchor x="648" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="kaph-syriac.medi" xOffset="221"/>

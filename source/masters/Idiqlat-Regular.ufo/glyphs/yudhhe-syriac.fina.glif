@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yudhhe-syriac.fina" format="2">
   <advance width="1483"/>
-  <anchor x="399" y="1181" name="above"/>
-  <anchor x="50" y="1181" name="aboveleft"/>
-  <anchor x="399" y="-342" name="below"/>
-  <anchor x="50" y="-342" name="belowleft"/>
   <outline>
     <component base="he-syriac"/>
     <component base="_yudh-med" xOffset="931"/>

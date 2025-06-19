@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="waw-syriac.fina" format="2">
   <advance width="719"/>
-  <anchor x="385" y="735" name="above"/>
+  <anchor x="359" y="735" name="above"/>
   <anchor x="50" y="735" name="aboveleft"/>
-  <anchor x="415" y="-150" name="below"/>
+  <anchor x="359" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="waw-syriac"/>

@@ -2,10 +2,6 @@
 <glyph name="yudhhe-syriac" format="2">
   <advance width="1335"/>
   <unicode hex="071E"/>
-  <anchor x="400" y="1222" name="above"/>
-  <anchor x="50" y="1222" name="aboveleft"/>
-  <anchor x="400" y="-342" name="below"/>
-  <anchor x="50" y="-342" name="belowleft"/>
   <outline>
     <component base="he-syriac"/>
     <component base="_heth-init" xOffset="801"/>
