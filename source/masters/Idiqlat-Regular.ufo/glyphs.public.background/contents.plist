@@ -44,6 +44,8 @@
   <string>beth-syriac.glif</string>
   <key>brevebelowcomb</key>
   <string>brevebelowcomb.glif</string>
+  <key>colon</key>
+  <string>colon.glif</string>
   <key>colonHorizontal-syriac</key>
   <string>colonH_orizontal-syriac.glif</string>
   <key>colonSkewedleft-syriac</key>
@@ -58,6 +60,8 @@
   <string>colonS_ublinear-syriac.glif</string>
   <key>colonSupralinear-syriac</key>
   <string>colonS_upralinear-syriac.glif</string>
+  <key>comma</key>
+  <string>comma.glif</string>
   <key>comma-ar</key>
   <string>comma-ar.glif</string>
   <key>contraction-syriac</key>
@@ -94,6 +98,10 @@
   <string>e-syriac.medi.glif</string>
   <key>eastSyriacCross</key>
   <string>eastS_yriacC_ross.glif</string>
+  <key>exclam</key>
+  <string>exclam.glif</string>
+  <key>exclamdown</key>
+  <string>exclamdown.glif</string>
   <key>fullstopSublinear-syriac</key>
   <string>fullstopS_ublinear-syriac.glif</string>
   <key>fullstopSupralinear-syriac</key>
@@ -192,6 +200,20 @@
   <string>qaph-syriac.init.glif</string>
   <key>qaph-syriac.medi</key>
   <string>qaph-syriac.medi.glif</string>
+  <key>question-ar</key>
+  <string>question-ar.glif</string>
+  <key>quotedblbase</key>
+  <string>quotedblbase.glif</string>
+  <key>quotedblrightreversed</key>
+  <string>quotedblrightreversed.glif</string>
+  <key>quotereversed</key>
+  <string>quotereversed.glif</string>
+  <key>quoteright</key>
+  <string>quoteright.glif</string>
+  <key>quotesinglbase</key>
+  <string>quotesinglbase.glif</string>
+  <key>quotesingle</key>
+  <string>quotesingle.glif</string>
   <key>qushshaya-syriac</key>
   <string>qushshaya-syriac.glif</string>
   <key>rbasaabove-syriac</key>
@@ -224,6 +246,8 @@
   <string>sadhe_nun-syriac.glif</string>
   <key>sadhe_nun-syriac.fina</key>
   <string>sadhe_nun-syriac.fina.glif</string>
+  <key>semicolon</key>
+  <string>semicolon.glif</string>
   <key>semicolon-ar</key>
   <string>semicolon-ar.glif</string>
   <key>semkath-syriac</key>

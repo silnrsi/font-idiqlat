@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblright" format="2">
-  <advance width="785"/>
+  <advance width="730"/>
   <unicode hex="201D"/>
   <note>
 quotedblright
 </note>
   <outline>
-    <component base="quoteright" xOffset="360"/>
-    <component base="quoteright" xOffset="21"/>
+    <component base="quoteright" xOffset="309"/>
+    <component base="quoteright"/>
   </outline>
   <lib>
     <dict>
