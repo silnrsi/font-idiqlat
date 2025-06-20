@@ -16,7 +16,7 @@ This page uses web fonts (WOFF2) to demonstrate font features and should display
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
 Standard | <span class='idiqlat-R normal'>&#x071F;</span> | `cv15=0`
-Rounded  | <span class='idiqlat-cv15-1-R normal'>&#x071F;</span> | `cv15=1`
+Historic  | <span class='idiqlat-cv15-1-R normal'>&#x071F;</span> | `cv15=1`
 
 ### Mim alternate
 
@@ -25,7 +25,7 @@ Rounded  | <span class='idiqlat-cv15-1-R normal'>&#x071F;</span> | `cv15=1`
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
 Standard | <span class='idiqlat-R normal'>&#x0721;</span> | `cv17=0`
-Rounded  | <span class='idiqlat-cv17-1-R normal'>&#x0721;</span> | `cv17=1`
+Historic  | <span class='idiqlat-cv17-1-R normal'>&#x0721;</span> | `cv17=1`
 
 ### Nun alternate
 
@@ -34,7 +34,7 @@ Rounded  | <span class='idiqlat-cv17-1-R normal'>&#x0721;</span> | `cv17=1`
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
 Standard | <span class='idiqlat-R normal'>&#x0722;</span> | `cv18=0`
-Squared  | <span class='idiqlat-cv18-1-R normal'>&#x0722;</span> | `cv18=1`
+Historic  | <span class='idiqlat-cv18-1-R normal'>&#x0722;</span> | `cv18=1`
 
 ### He Yudh ligature
 

@@ -401,7 +401,7 @@ feature cv15 {  # Character Variant 15
         };
 
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Rounded" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Historic" ; };
     } ;
     script syrc;  # Syriac
         lookup KaphAlternate;
@@ -420,7 +420,7 @@ feature cv17 {  # Character Variant 17
         };
 
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Rounded" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Historic" ; };
     } ;
     script syrc;  # Syriac
         lookup MimAlternate;
@@ -439,7 +439,7 @@ feature cv18 {  # Character Variant 18
         };
 
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Squared" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Historic" ; };
     } ;
     script syrc;  # Syriac
         lookup NunAlternate;

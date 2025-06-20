@@ -990,7 +990,7 @@ feature cv15 {
 
         ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
                 ParamUILabelNameID {
-            name "Rounded";
+            name "Historic";
         };
 
     };
@@ -1019,7 +1019,7 @@ feature cv17 {
 
         ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
                 ParamUILabelNameID {
-            name "Rounded";
+            name "Historic";
         };
 
     };
@@ -1048,7 +1048,7 @@ feature cv18 {
 
         ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
                 ParamUILabelNameID {
-            name "Squared";
+            name "Historic";
         };
 
     };
