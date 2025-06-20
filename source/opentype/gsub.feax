@@ -227,21 +227,18 @@ lookup RukkakhaSquare {
 lookup KaphAlternate { # cv15 Apparently only used in outlines so no final is needed
   lookupflag IgnoreMarks ;
     sub kaph-syriac by kaph-syriac.round ;
-#    sub kaph-syriac.fina by kaph-syriac.fina.round ;
 } KaphAlternate ;
 
 # Mim U+0721 cv17
 lookup MimAlternate { # cv17 Apparently only used in outlines so no final is needed
   lookupflag IgnoreMarks ;
     sub mim-syriac by mim-syriac.round ;
-#    sub mim-syriac.fina by mim-syriac.fina.round ;
 } MimAlternate ;
 
 # Nun U+0722 cv18
 lookup NunAlternate { # cv18 Apparently only used in outlines so no final is needed
   lookupflag IgnoreMarks ;
     sub nun-syriac by nun-syriac.square ;
-#    sub nun-syriac.fina by nun-syriac.fina.square ;
 } NunAlternate ;
 
 # He Yudh U+0717 U+071D cv38 (marks position)

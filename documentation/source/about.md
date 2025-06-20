@@ -5,7 +5,7 @@ fontversion: 1.101
 
 ## About this project
 
-This project is intended to provide a free and open font family for all current languages and writing systems that use the East Syriac script. It supports the complete range of Unicode characters required for the East Syriac style of the Syriac script. Smart font routines automatically adjust the position of diacritics to support and optimize arbitrary base+diacritic combinations.
+This project is intended to provide a free and open font family for all current languages and writing systems that use the East Syriac script. It supports the complete range of Unicode characters required for the East Syriac style of the Syriac script. The East Syriac style is used primarily by the Assyrians (Church of the East) and Chaldeans. It is also used by the Syrian Orthodox in headings of texts.
 
 The font name, Idiqlat, means “Tigris River” in ancient Akkadian/Assyrian. The emphasis is on the first syllable: EE-dee-klat.
 

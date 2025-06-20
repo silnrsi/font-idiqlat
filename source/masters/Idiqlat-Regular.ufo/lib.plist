@@ -374,7 +374,6 @@
     <string>kaph-syriac.medi</string>
     <string>kaph-syriac.fina</string>
     <string>kaph-syriac.round</string>
-    <string>kaph-syriac.fina.round</string>
     <string>lamadh-syriac</string>
     <string>lamadh-syriac.init</string>
     <string>lamadh-syriac.medi</string>
@@ -387,13 +386,11 @@
     <string>mim-syriac.medi</string>
     <string>mim-syriac.fina</string>
     <string>mim-syriac.round</string>
-    <string>mim-syriac.fina.round</string>
     <string>nun-syriac</string>
     <string>nun-syriac.init</string>
     <string>nun-syriac.medi</string>
     <string>nun-syriac.fina</string>
     <string>nun-syriac.square</string>
-    <string>nun-syriac.fina.square</string>
     <string>semkath-syriac</string>
     <string>semkath-syriac.init</string>
     <string>semkath-syriac.medi</string>
@@ -875,8 +872,6 @@
     <string>uni071F</string>
     <key>kaph-syriac.fina</key>
     <string>uni071F.fina</string>
-    <key>kaph-syriac.fina.round</key>
-    <string>uni071F.fina.round</string>
     <key>kaph-syriac.init</key>
     <string>uni071F.init</string>
     <key>kaph-syriac.medi</key>
@@ -923,8 +918,6 @@
     <string>uni0721</string>
     <key>mim-syriac.fina</key>
     <string>uni0721.fina</string>
-    <key>mim-syriac.fina.round</key>
-    <string>uni0721.fina.round</string>
     <key>mim-syriac.init</key>
     <string>uni0721.init</string>
     <key>mim-syriac.medi</key>
@@ -947,8 +940,6 @@
     <string>uni0722.alt</string>
     <key>nun-syriac.fina</key>
     <string>uni0722.fina</string>
-    <key>nun-syriac.fina.square</key>
-    <string>uni0722.fina.square</string>
     <key>nun-syriac.init</key>
     <string>uni0722.init</string>
     <key>nun-syriac.medi</key>

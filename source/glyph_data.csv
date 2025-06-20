@@ -283,7 +283,6 @@ kaph-syriac.init,uni071F.init,,366,Import,
 kaph-syriac.medi,uni071F.medi,,367,Import,
 kaph-syriac.fina,uni071F.fina,,368,Import,
 kaph-syriac.round,uni071F.round,,368.1,,cv15=1
-kaph-syriac.fina.round,uni071F.fina.round,,368.2,,cv15=1
 lamadh-syriac,uni0720,0720,369,Import,
 lamadh-syriac.init,uni0720.init,,370,Import,
 lamadh-syriac.medi,uni0720.medi,,371,Import,
@@ -296,14 +295,12 @@ mim-syriac.init,uni0721.init,,376,Import,
 mim-syriac.medi,uni0721.medi,,377,Import,
 mim-syriac.fina,uni0721.fina,,378,Import,
 mim-syriac.round,uni0721.round,,378.1,,cv17=1
-mim-syriac.fina.round,uni0721.fina.round,,378.2,cv17=1,
 nun-syriac,uni0722,0722,379.1,Import,
 nun-syriac.alt,uni0722.alt,,379.2,Import,alternate?
 nun-syriac.init,uni0722.init,,380,Import,
 nun-syriac.medi,uni0722.medi,,381,Import,
 nun-syriac.fina,uni0722.fina,,382,Import,
 nun-syriac.square,uni0722.square,,382.1,,cv18=1
-nun-syriac.fina.square,uni0722.fina.square,,382.1,,cv18=1
 semkath-syriac,uni0723,0723,383,Import,
 semkath-syriac.init,uni0723.init,,384,Import,
 semkath-syriac.medi,uni0723.medi,,385,Import,
