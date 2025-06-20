@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblrightreversed" format="2">
-  <advance width="730"/>
+  <advance width="781"/>
   <unicode hex="201F"/>
-  <note>
-quotedblleft
-</note>
   <outline>
     <component base="quotedblleft"/>
   </outline>

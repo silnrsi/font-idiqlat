@@ -2,9 +2,6 @@
 <glyph name="quotereversed" format="2">
   <advance width="374"/>
   <unicode hex="201B"/>
-  <note>
-quoteleft
-</note>
   <outline>
     <contour>
       <point x="303" y="514" type="curve"/>

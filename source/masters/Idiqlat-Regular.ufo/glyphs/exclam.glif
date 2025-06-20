@@ -2,9 +2,6 @@
 <glyph name="exclam" format="2">
   <advance width="392"/>
   <unicode hex="0021"/>
-  <note>
-exclam
-</note>
   <outline>
     <component base="period" xOffset="-6"/>
     <contour>

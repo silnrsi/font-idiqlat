@@ -2,9 +2,6 @@
 <glyph name="exclamdown" format="2">
   <advance width="391"/>
   <unicode hex="00A1"/>
-  <note>
-exclamdown
-</note>
   <outline>
     <contour>
       <point x="162" y="323" type="line"/>

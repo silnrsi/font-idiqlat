@@ -2,9 +2,6 @@
 <glyph name="quotesinglbase" format="2">
   <advance width="369"/>
   <unicode hex="201A"/>
-  <note>
-quotesinglbase
-</note>
   <outline>
     <contour>
       <point x="66" y="-268" type="line"/>
@@ -27,10 +24,6 @@ quotesinglbase
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>=comma+5</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>=comma+5</string>
       <key>public.markColor</key>
       <string>0.75,0.75,0.75,1</string>
     </dict>

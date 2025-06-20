@@ -2,9 +2,6 @@
 <glyph name="quotedblrightreversed" format="2">
   <advance width="680"/>
   <unicode hex="201F"/>
-  <note>
-quotedblleft
-</note>
   <outline>
     <component base="quotereversed" xOffset="-3"/>
     <component base="quotereversed" xOffset="284"/>
