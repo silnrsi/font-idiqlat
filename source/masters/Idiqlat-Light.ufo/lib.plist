@@ -530,6 +530,7 @@
     <string>popdirectionalformatting</string>
     <string>lefttorightoverride</string>
     <string>righttoleftoverride</string>
+    <string>mark-ar</string>
     <string>narrownbspace</string>
     <string>perthousand</string>
     <string>guilsinglleft</string>
@@ -912,6 +913,8 @@
     <string>uni0331</string>
     <key>macroncomb</key>
     <string>uni0304</string>
+    <key>mark-ar</key>
+    <string>uni061C</string>
     <key>micro</key>
     <string>mu</string>
     <key>mim-syriac</key>

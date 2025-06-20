@@ -658,6 +658,8 @@
   <string>macronbelowcomb.glif</string>
   <key>macroncomb</key>
   <string>macroncomb.glif</string>
+  <key>mark-ar</key>
+  <string>mark-ar.glif</string>
   <key>micro</key>
   <string>micro.glif</string>
   <key>mim-syriac</key>
