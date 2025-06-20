@@ -3,10 +3,9 @@
   <advance width="341"/>
   <unicode hex="202F"/>
   <anchor x="510" y="995" name="above"/>
-  <anchor x="510" y="965" name="aboveleft"/>
-  <anchor x="510" y="-120" name="b.U0740"/>
-  <anchor x="525" y="-195" name="below"/>
-  <anchor x="525" y="-210" name="belowleft"/>
+  <anchor x="50" y="995" name="aboveleft"/>
+  <anchor x="525" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline/>
   <lib>
     <dict>

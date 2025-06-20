@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qushshaya-syriac" format="2">
   <unicode hex="0741"/>
-  <anchor x="105" y="0" name="_above"/>
+  <anchor x="120" y="-15" name="_above"/>
   <outline>
-    <contour>
-      <point x="34" y="0" type="line"/>
-      <point x="192" y="0" type="line"/>
-      <point x="192" y="158" type="line"/>
-      <point x="34" y="158" type="line"/>
-    </contour>
+    <component base="dotaccentcomb" xOffset="3" yOffset="3"/>
   </outline>
 </glyph>

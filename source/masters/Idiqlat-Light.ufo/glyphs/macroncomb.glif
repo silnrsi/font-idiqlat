@@ -2,9 +2,7 @@
 <glyph name="macroncomb" format="2">
   <unicode hex="0304"/>
   <anchor x="255" y="0" name="_above"/>
-  <anchor x="285" y="0" name="_above_1"/>
-  <anchor x="285" y="-15" name="_above_2"/>
-  <anchor x="240" y="210" name="above_2"/>
+  <anchor x="255" y="225" name="above"/>
   <outline>
     <contour>
       <point x="47" y="0" type="curve" smooth="yes"/>

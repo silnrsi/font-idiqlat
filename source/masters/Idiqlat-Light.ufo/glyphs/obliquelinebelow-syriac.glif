@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="obliquelinebelow-syriac" format="2">
   <unicode hex="0748"/>
-  <anchor x="150" y="-15" name="_b.U0331_2_2"/>
   <anchor x="-15" y="-60" name="_below"/>
   <anchor x="0" y="-480" name="below"/>
   <outline>

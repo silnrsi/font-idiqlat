@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rukkakha-syriac.square" format="2">
   <anchor x="105" y="-15" name="_below"/>
-  <anchor x="90" y="-330" name="below"/>
+  <anchor x="105" y="-330" name="below"/>
   <outline>
-    <contour>
-      <point x="13" y="-183" type="line"/>
-      <point x="184" y="-183" type="line"/>
-      <point x="184" y="-14" type="line"/>
-      <point x="13" y="-14" type="line"/>
-    </contour>
+    <component base="_LrgSquareDot" xScale="0.9025" yScale="0.9025" xOffset="-183" yOffset="62"/>
   </outline>
 </glyph>

@@ -1,60 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qaph-syriac.init" format="2">
-  <advance width="870"/>
-  <anchor x="495" y="750" name="above"/>
-  <anchor x="525" y="750" name="aboveleft"/>
-  <anchor x="525" y="-150" name="b.U0740"/>
+  <advance width="875"/>
+  <anchor x="465" y="780" name="above"/>
+  <anchor x="50" y="780" name="aboveleft"/>
   <anchor x="510" y="-150" name="below"/>
-  <anchor x="510" y="-135" name="belowleft"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
+    <component base="_qaph" xOffset="100"/>
     <contour>
-      <point x="0" y="0" type="line"/>
-      <point x="132" y="0" type="line" smooth="yes"/>
-      <point x="168" y="0"/>
-      <point x="197" y="32"/>
-      <point x="220" y="97" type="curve"/>
-      <point x="259" y="32"/>
-      <point x="309" y="0"/>
-      <point x="372" y="0" type="curve" smooth="yes"/>
-      <point x="724" y="0" type="line" smooth="yes"/>
-      <point x="784" y="0"/>
-      <point x="814" y="127"/>
-      <point x="814" y="382" type="curve" smooth="yes"/>
-      <point x="814" y="447"/>
-      <point x="807" y="513"/>
-      <point x="793" y="578" type="curve" smooth="yes"/>
-      <point x="780" y="639"/>
-      <point x="768" y="669"/>
-      <point x="758" y="669" type="curve" smooth="yes"/>
-      <point x="751" y="669"/>
-      <point x="743" y="658"/>
-      <point x="735" y="635" type="curve" smooth="yes"/>
-      <point x="726" y="612"/>
-      <point x="700" y="600"/>
-      <point x="656" y="600" type="curve" smooth="yes"/>
-      <point x="350" y="600" type="line" smooth="yes"/>
-      <point x="306" y="600"/>
-      <point x="280" y="612"/>
-      <point x="272" y="635" type="curve" smooth="yes"/>
-      <point x="263" y="658"/>
-      <point x="255" y="669"/>
-      <point x="248" y="669" type="curve" smooth="yes"/>
-      <point x="238" y="669"/>
-      <point x="226" y="639"/>
-      <point x="213" y="578" type="curve" smooth="yes"/>
-      <point x="199" y="513"/>
-      <point x="192" y="447"/>
-      <point x="192" y="382" type="curve" smooth="yes"/>
-      <point x="192" y="272"/>
-      <point x="199" y="197"/>
-      <point x="214" y="158" type="curve"/>
-      <point x="0" y="158" type="line"/>
-    </contour>
-    <contour>
-      <point x="350" y="158" type="line"/>
-      <point x="350" y="442" type="line"/>
-      <point x="656" y="442" type="line"/>
-      <point x="656" y="158" type="line"/>
+      <point x="265" y="195" type="curve"/>
+      <point x="-20" y="195" type="line"/>
+      <point x="-20" y="0" type="line"/>
+      <point x="147" y="0" type="line" smooth="yes"/>
+      <point x="230" y="0"/>
+      <point x="271" y="65"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
 </glyph>

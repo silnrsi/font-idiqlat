@@ -3,17 +3,7 @@
   <advance width="486"/>
   <unicode hex="0709"/>
   <outline>
-    <contour>
-      <point x="40" y="0" type="line"/>
-      <point x="198" y="0" type="line"/>
-      <point x="198" y="158" type="line"/>
-      <point x="40" y="158" type="line"/>
-    </contour>
-    <contour>
-      <point x="241" y="-272" type="line"/>
-      <point x="399" y="-272" type="line"/>
-      <point x="399" y="-114" type="line"/>
-      <point x="241" y="-114" type="line"/>
-    </contour>
+    <component base="dotaccentcomb" xOffset="-16" yOffset="-2"/>
+    <component base="dotaccentcomb" xOffset="157" yOffset="-281"/>
   </outline>
 </glyph>

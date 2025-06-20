@@ -1,64 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamadh-syriac" format="2">
-  <advance width="1066"/>
+  <advance width="1077"/>
   <unicode hex="0720"/>
-  <anchor x="840" y="870" name="above"/>
-  <anchor x="855" y="1005" name="aboveleft"/>
-  <anchor x="720" y="-165" name="b.U0740"/>
-  <anchor x="630" y="-120" name="below"/>
-  <anchor x="630" y="-120" name="belowleft"/>
+  <anchor x="888" y="945" name="above"/>
+  <anchor x="50" y="945" name="aboveleft"/>
+  <anchor x="723" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
-    <contour>
-      <point x="242" y="0" type="curve" smooth="yes"/>
-      <point x="889" y="0" type="line" smooth="yes"/>
-      <point x="991" y="0"/>
-      <point x="1042" y="34"/>
-      <point x="1042" y="103" type="curve" smooth="yes"/>
-      <point x="1042" y="150"/>
-      <point x="1028" y="197"/>
-      <point x="1000" y="244" type="curve" smooth="yes"/>
-      <point x="548" y="988" type="line" smooth="yes"/>
-      <point x="537" y="1007"/>
-      <point x="531" y="1023"/>
-      <point x="531" y="1037" type="curve" smooth="yes"/>
-      <point x="531" y="1045"/>
-      <point x="536" y="1060"/>
-      <point x="547" y="1082" type="curve" smooth="yes"/>
-      <point x="558" y="1103"/>
-      <point x="563" y="1118"/>
-      <point x="563" y="1125" type="curve" smooth="yes"/>
-      <point x="563" y="1132"/>
-      <point x="560" y="1135"/>
-      <point x="555" y="1135" type="curve" smooth="yes"/>
-      <point x="548" y="1135"/>
-      <point x="518" y="1111"/>
-      <point x="466" y="1062" type="curve" smooth="yes"/>
-      <point x="405" y="1005" type="line"/>
-      <point x="385" y="983"/>
-      <point x="375" y="960"/>
-      <point x="375" y="936" type="curve" smooth="yes"/>
-      <point x="375" y="911"/>
-      <point x="386" y="883"/>
-      <point x="407" y="851" type="curve" smooth="yes"/>
-      <point x="883" y="158" type="line"/>
-      <point x="242" y="158" type="line" smooth="yes"/>
-      <point x="196" y="158"/>
-      <point x="159" y="169"/>
-      <point x="131" y="191" type="curve" smooth="yes"/>
-      <point x="112" y="205"/>
-      <point x="97" y="225"/>
-      <point x="86" y="251" type="curve" smooth="yes"/>
-      <point x="76" y="273"/>
-      <point x="70" y="284"/>
-      <point x="68" y="284" type="curve" smooth="yes"/>
-      <point x="50" y="284"/>
-      <point x="41" y="256"/>
-      <point x="41" y="199" type="curve" smooth="yes"/>
-      <point x="41" y="112"/>
-      <point x="64" y="54"/>
-      <point x="111" y="25" type="curve" smooth="yes"/>
-      <point x="138" y="8"/>
-      <point x="181" y="0"/>
-    </contour>
+    <component base="lamadh-syriac.init" xOffset="219"/>
+    <component base="_LeftTail" xOffset="-50"/>
   </outline>
 </glyph>

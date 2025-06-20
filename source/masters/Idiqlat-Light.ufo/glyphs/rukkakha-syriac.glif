@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rukkakha-syriac" format="2">
   <unicode hex="0742"/>
-  <anchor x="60" y="-45" name="_below"/>
-  <anchor x="90" y="-330" name="below"/>
+  <anchor x="75" y="-15" name="_below"/>
+  <anchor x="75" y="-330" name="below"/>
   <outline>
-    <contour>
-      <point x="78" y="-239" type="curve" smooth="yes"/>
-      <point x="97" y="-239"/>
-      <point x="112" y="-225"/>
-      <point x="124" y="-197" type="curve" smooth="yes"/>
-      <point x="133" y="-175"/>
-      <point x="137" y="-153"/>
-      <point x="137" y="-131" type="curve" smooth="yes"/>
-      <point x="137" y="-113"/>
-      <point x="133" y="-92"/>
-      <point x="124" y="-69" type="curve" smooth="yes"/>
-      <point x="113" y="-40"/>
-      <point x="101" y="-25"/>
-      <point x="86" y="-25" type="curve" smooth="yes"/>
-      <point x="67" y="-25"/>
-      <point x="51" y="-40"/>
-      <point x="39" y="-69" type="curve" smooth="yes"/>
-      <point x="30" y="-92"/>
-      <point x="25" y="-115"/>
-      <point x="25" y="-137" type="curve" smooth="yes"/>
-      <point x="25" y="-156"/>
-      <point x="29" y="-177"/>
-      <point x="38" y="-199" type="curve" smooth="yes"/>
-      <point x="49" y="-226"/>
-      <point x="62" y="-239"/>
-    </contour>
+    <component base="rwaha-syriac" xOffset="-11" yOffset="-236"/>
   </outline>
 </glyph>

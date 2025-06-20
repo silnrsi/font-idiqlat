@@ -1,93 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="he_yudh-syriac.fina" format="2">
-  <advance width="1250"/>
-  <anchor x="795" y="705" name="above_1"/>
-  <anchor x="285" y="690" name="above_2"/>
+  <advance width="1113"/>
+  <anchor x="720" y="750" name="above_1"/>
+  <anchor x="195" y="840" name="above_2"/>
   <anchor x="675" y="-135" name="below_1"/>
   <anchor x="225" y="-180" name="below_2"/>
   <outline>
+    <component base="he_yudh-syriac"/>
     <contour>
-      <point x="1152" y="-148" type="curve" smooth="yes"/>
-      <point x="1160" y="-148"/>
-      <point x="1164" y="-138"/>
-      <point x="1164" y="-117" type="curve" smooth="yes"/>
-      <point x="1162" y="0" type="line"/>
-      <point x="1250" y="0" type="line"/>
-      <point x="1250" y="158" type="line"/>
-      <point x="1161" y="158" type="line"/>
-      <point x="1156" y="616" type="line" smooth="yes"/>
-      <point x="1156" y="636"/>
-      <point x="1153" y="646"/>
-      <point x="1146" y="646" type="curve" smooth="yes"/>
-      <point x="1143" y="646"/>
-      <point x="1133" y="638"/>
-      <point x="1115" y="623" type="curve" smooth="yes"/>
-      <point x="1096" y="608"/>
-      <point x="1074" y="600"/>
-      <point x="1047" y="600" type="curve" smooth="yes"/>
-      <point x="610" y="600" type="line" smooth="yes"/>
-      <point x="557" y="600"/>
-      <point x="511" y="574"/>
-      <point x="471" y="522" type="curve" smooth="yes"/>
-      <point x="437" y="477"/>
-      <point x="414" y="424"/>
-      <point x="402" y="362" type="curve"/>
-      <point x="215" y="531" type="line" smooth="yes"/>
-      <point x="196" y="548"/>
-      <point x="182" y="557"/>
-      <point x="174" y="557" type="curve" smooth="yes"/>
-      <point x="149" y="557"/>
-      <point x="60" y="447"/>
-      <point x="60" y="431" type="curve" smooth="yes"/>
-      <point x="60" y="422"/>
-      <point x="72" y="407"/>
-      <point x="97" y="385" type="curve" smooth="yes"/>
-      <point x="306" y="197" type="line"/>
-      <point x="93" y="-35" type="line" smooth="yes"/>
-      <point x="76" y="-53"/>
-      <point x="68" y="-65"/>
-      <point x="68" y="-71" type="curve" smooth="yes"/>
-      <point x="68" y="-84"/>
-      <point x="75" y="-90"/>
-      <point x="88" y="-90" type="curve" smooth="yes"/>
-      <point x="93" y="-90"/>
-      <point x="108" y="-78"/>
-      <point x="131" y="-53" type="curve" smooth="yes"/>
-      <point x="400" y="234" type="line"/>
-      <point x="425" y="85"/>
-      <point x="538" y="-8"/>
-      <point x="690" y="-8" type="curve" smooth="yes"/>
-      <point x="810" y="-8"/>
-      <point x="889" y="40"/>
-      <point x="928" y="137" type="curve" smooth="yes"/>
-      <point x="951" y="195"/>
-      <point x="962" y="297"/>
-      <point x="962" y="442" type="curve"/>
-      <point x="1090" y="442" type="line"/>
-      <point x="1136" y="-118" type="line" smooth="yes"/>
-      <point x="1137" y="-138"/>
-      <point x="1143" y="-148"/>
-    </contour>
-    <contour>
-      <point x="690" y="150" type="curve" smooth="yes"/>
-      <point x="646" y="150"/>
-      <point x="608" y="170"/>
-      <point x="575" y="209" type="curve" smooth="yes"/>
-      <point x="544" y="246"/>
-      <point x="529" y="286"/>
-      <point x="529" y="329" type="curve" smooth="yes"/>
-      <point x="529" y="353"/>
-      <point x="536" y="377"/>
-      <point x="551" y="401" type="curve" smooth="yes"/>
-      <point x="569" y="428"/>
-      <point x="590" y="442"/>
-      <point x="615" y="442" type="curve" smooth="yes"/>
-      <point x="852" y="442" type="line"/>
-      <point x="858" y="410"/>
-      <point x="861" y="383"/>
-      <point x="861" y="360" type="curve" smooth="yes"/>
-      <point x="861" y="220"/>
-      <point x="804" y="150"/>
+      <point x="1030" y="195" type="line"/>
+      <point x="1033" y="0" type="line"/>
+      <point x="1133" y="0" type="line"/>
+      <point x="1133" y="195" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
 </glyph>

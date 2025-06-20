@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mim-syriac" format="2">
-  <advance width="1061"/>
+  <advance width="1245"/>
   <unicode hex="0721"/>
-  <anchor x="720" y="720" name="above"/>
-  <anchor x="720" y="690" name="aboveleft"/>
-  <anchor x="690" y="-120" name="b.U0740"/>
-  <anchor x="735" y="-105" name="below"/>
-  <anchor x="735" y="-120" name="belowleft"/>
+  <anchor x="801" y="765" name="above"/>
+  <anchor x="50" y="765" name="aboveleft"/>
+  <anchor x="801" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
-    <component base="mim-syriac.init"/>
+    <component base="mim-syriac.init" xOffset="222"/>
+    <component base="_LeftTail" xOffset="-50"/>
   </outline>
 </glyph>

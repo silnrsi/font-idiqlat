@@ -1,68 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tethGarshuni-syriac.init" format="2">
-  <advance width="1183"/>
-  <anchor x="720" y="690" name="above"/>
-  <anchor x="660" y="660" name="aboveleft"/>
-  <anchor x="420" y="-180" name="b.U0740"/>
-  <anchor x="420" y="-225" name="below"/>
-  <anchor x="540" y="-225" name="belowleft"/>
+  <advance width="1231"/>
+  <anchor x="720" y="750" name="above"/>
+  <anchor x="50" y="750" name="aboveleft"/>
+  <anchor x="355" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
   <outline>
+    <component base="teth-syriac.init"/>
     <contour>
-      <point x="852" y="-525" type="curve" smooth="yes"/>
-      <point x="857" y="-525"/>
-      <point x="864" y="-518"/>
-      <point x="872" y="-504" type="curve" smooth="yes"/>
-      <point x="1166" y="-18" type="line"/>
-      <point x="1166" y="158" type="line"/>
-      <point x="634" y="158" type="line"/>
-      <point x="297" y="824" type="line" smooth="yes"/>
-      <point x="286" y="845"/>
-      <point x="281" y="867"/>
-      <point x="281" y="892" type="curve" smooth="yes"/>
-      <point x="281" y="915"/>
-      <point x="287" y="941"/>
-      <point x="298" y="971" type="curve" smooth="yes"/>
-      <point x="309" y="1001"/>
-      <point x="314" y="1015"/>
-      <point x="314" y="1013" type="curve" smooth="yes"/>
-      <point x="314" y="1018"/>
-      <point x="311" y="1021"/>
-      <point x="306" y="1021" type="curve" smooth="yes"/>
-      <point x="301" y="1021"/>
-      <point x="276" y="995"/>
-      <point x="232" y="944" type="curve" smooth="yes"/>
-      <point x="159" y="859"/>
-      <point x="122" y="806"/>
-      <point x="122" y="787" type="curve" smooth="yes"/>
-      <point x="122" y="778"/>
-      <point x="128" y="763"/>
-      <point x="139" y="742" type="curve" smooth="yes"/>
-      <point x="455" y="158" type="line"/>
-      <point x="-70" y="158" type="line"/>
-      <point x="-70" y="0" type="line"/>
-      <point x="532" y="0" type="line"/>
-      <point x="829" y="-499" type="line" smooth="yes"/>
-      <point x="840" y="-516"/>
-      <point x="847" y="-525"/>
-    </contour>
-    <contour>
-      <point x="893" y="-346" type="line"/>
-      <point x="718" y="0" type="line"/>
-      <point x="1102" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="905" y="-185" type="curve" smooth="yes"/>
-      <point x="946" y="-185"/>
-      <point x="979" y="-151"/>
-      <point x="979" y="-111" type="curve" smooth="yes"/>
-      <point x="979" y="-70"/>
-      <point x="946" y="-36"/>
-      <point x="905" y="-36" type="curve" smooth="yes"/>
-      <point x="864" y="-36"/>
-      <point x="831" y="-70"/>
-      <point x="831" y="-111" type="curve" smooth="yes"/>
-      <point x="831" y="-151"/>
-      <point x="864" y="-185"/>
+      <point x="910" y="-147" type="curve" smooth="yes"/>
+      <point x="953" y="-147"/>
+      <point x="975" y="-126"/>
+      <point x="975" y="-83" type="curve" smooth="yes"/>
+      <point x="975" y="-40"/>
+      <point x="953" y="-19"/>
+      <point x="910" y="-19" type="curve" smooth="yes"/>
+      <point x="867" y="-19"/>
+      <point x="846" y="-40"/>
+      <point x="846" y="-83" type="curve" smooth="yes"/>
+      <point x="846" y="-126"/>
+      <point x="867" y="-147"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nonbreakinghyphen" format="2">
-  <advance width="536"/>
+  <advance width="551"/>
   <unicode hex="2011"/>
   <outline>
-    <contour>
-      <point x="109" y="231" type="line"/>
-      <point x="426" y="274" type="line"/>
-      <point x="426" y="392" type="line"/>
-      <point x="109" y="347" type="line"/>
-    </contour>
+    <component base="hyphen"/>
   </outline>
   <lib>
     <dict>
