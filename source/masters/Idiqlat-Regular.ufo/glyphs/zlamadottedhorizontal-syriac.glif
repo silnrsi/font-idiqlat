@@ -4,7 +4,7 @@
   <anchor x="450" y="-180" name="_below"/>
   <anchor x="450" y="-465" name="below"/>
   <outline>
-    <component base="rwaha-syriac" xScale="0.9563" xyScale="-0.29237" yxScale="0.29237" yScale="0.9563" xOffset="453" yOffset="-318"/>
-    <component base="rwaha-syriac" xScale="0.9563" xyScale="-0.29237" yxScale="0.29237" yScale="0.9563" xOffset="256" yOffset="-393"/>
+    <component base="rwaha-syriac" xOffset="263" yOffset="-363"/>
+    <component base="rwaha-syriac" xOffset="465" yOffset="-363"/>
   </outline>
 </glyph>
