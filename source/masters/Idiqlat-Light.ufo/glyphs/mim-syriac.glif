@@ -1,77 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mim-syriac" format="2">
-  <advance width="947"/>
+  <advance width="1061"/>
   <unicode hex="0721"/>
-  <anchor x="540" y="750" name="above"/>
-  <anchor x="495" y="750" name="aboveleft"/>
-  <anchor x="600" y="-150" name="b.U0740"/>
-  <anchor x="570" y="-135" name="below"/>
-  <anchor x="570" y="-150" name="belowleft"/>
+  <anchor x="720" y="720" name="above"/>
+  <anchor x="720" y="690" name="aboveleft"/>
+  <anchor x="690" y="-120" name="b.U0740"/>
+  <anchor x="735" y="-105" name="below"/>
+  <anchor x="735" y="-120" name="belowleft"/>
   <outline>
-    <contour>
-      <point x="54" y="-167" type="curve"/>
-      <point x="63" y="-167"/>
-      <point x="73" y="-159"/>
-      <point x="86" y="-142" type="curve" smooth="yes"/>
-      <point x="194" y="0" type="line"/>
-      <point x="916" y="0" type="line"/>
-      <point x="916" y="106" type="line" smooth="yes"/>
-      <point x="916" y="125"/>
-      <point x="909" y="166"/>
-      <point x="896" y="231" type="curve" smooth="yes"/>
-      <point x="883" y="295"/>
-      <point x="876" y="370"/>
-      <point x="876" y="456" type="curve" smooth="yes"/>
-      <point x="876" y="476"/>
-      <point x="878" y="504"/>
-      <point x="883" y="541" type="curve" smooth="yes"/>
-      <point x="888" y="577"/>
-      <point x="890" y="605"/>
-      <point x="890" y="624" type="curve" smooth="yes"/>
-      <point x="890" y="666"/>
-      <point x="884" y="687"/>
-      <point x="873" y="687" type="curve" smooth="yes"/>
-      <point x="872" y="687"/>
-      <point x="868" y="679"/>
-      <point x="863" y="664" type="curve" smooth="yes"/>
-      <point x="856" y="646"/>
-      <point x="845" y="632"/>
-      <point x="830" y="622" type="curve" smooth="yes"/>
-      <point x="807" y="607"/>
-      <point x="772" y="600"/>
-      <point x="726" y="600" type="curve" smooth="yes"/>
-      <point x="195" y="600" type="line" smooth="yes"/>
-      <point x="150" y="600"/>
-      <point x="115" y="607"/>
-      <point x="92" y="622" type="curve" smooth="yes"/>
-      <point x="76" y="632"/>
-      <point x="65" y="646"/>
-      <point x="59" y="664" type="curve" smooth="yes"/>
-      <point x="54" y="679"/>
-      <point x="50" y="687"/>
-      <point x="48" y="687" type="curve" smooth="yes"/>
-      <point x="33" y="687"/>
-      <point x="26" y="652"/>
-      <point x="26" y="583" type="curve" smooth="yes"/>
-      <point x="26" y="521"/>
-      <point x="37" y="480"/>
-      <point x="60" y="461" type="curve" smooth="yes"/>
-      <point x="76" y="448"/>
-      <point x="108" y="442"/>
-      <point x="155" y="442" type="curve" smooth="yes"/>
-      <point x="379" y="442" type="line"/>
-      <point x="56" y="-137" type="line" smooth="yes"/>
-      <point x="50" y="-148"/>
-      <point x="47" y="-155"/>
-      <point x="47" y="-159" type="curve" smooth="yes"/>
-      <point x="47" y="-162"/>
-      <point x="49" y="-165"/>
-    </contour>
-    <contour>
-      <point x="284" y="158" type="line"/>
-      <point x="458" y="442" type="line"/>
-      <point x="754" y="442" type="line"/>
-      <point x="754" y="158" type="line"/>
-    </contour>
+    <component base="mim-syriac.init"/>
   </outline>
 </glyph>

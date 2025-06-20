@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>400</fontscale>
+   <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
+   <fontsrc label="ESM-Atour">url(../references/EASTSM-Atourmodified.TTF)</fontsrc>
+    <fontsrc label="Reg">url(../results/Idiqlat-Regular.ttf)</fontsrc>
+    <styles>
+      <style feats="'cv15' 1" name="cv15_1"/>
+      <style feats="'cv17' 1" name="cv17_1"/>
+      <style feats="'cv18' 1" name="cv18_1"/>
+      <style feats="'cv38' 1" name="cv38_1"/>
+      <style feats="'cv55' 1" name="cv55_1"/>
+      <style feats="'cv59' 1" name="cv59_1"/>
+      <style feats="'cv59' 2" name="cv59_2"/>
+      <style feats="'cv60' 1" name="cv60_1"/>
+    </styles>
+    <title>Diacritics and Ligatures</title>
+    <widths string="25%"/>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="Valid diacritic combinations">
+     <test label="0710 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0710\u0308 - - \u0712\u0710\u0308</string>
+    </test>
+    <test label="0710 0308 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0710\u0308\u0739 - - \u0712\u0710\u0308\u0739</string>
+    </test>
+    <test label="0710 0732" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0710\u0732 - - \u0712\u0710\u0732</string>
+    </test>
+    <test label="0710 0735" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0710\u0735 - - \u0712\u0710\u0735</string>
+    </test>
+    <test label="0710 0738" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0710\u0738 - - \u0712\u0710\u0738</string>
+    </test>
+    <test label="0710 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0710\u0739 - - \u0712\u0710\u0739</string>
+    </test>
+    <test label="0710 0739 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0710\u0739\u0308 - - \u0712\u0710\u0739\u0308</string>
+    </test>
+    <test label="0710 0747" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0710\u0747 - - \u0712\u0710\u0747</string>
+    </test>
+    <test label="0712 0308" rtl="True">
+      <string>\u0712\u0308 \u0712\u0308\u0712\u0308\u0712\u0308</string>
+    </test>
+    <test label="0712 0308 0739" rtl="True">
+      <string>\u0712\u0308\u0739 \u0712\u0308\u0739\u0712\u0308\u0739\u0712\u0308\u0739</string>
+    </test>
+    <test label="0712 0732" rtl="True">
+      <string>\u0712\u0732 \u0712\u0732\u0712\u0732\u0712\u0732</string>
+    </test>
+    <test label="0712 0735" rtl="True">
+      <string>\u0712\u0735 \u0712\u0735\u0712\u0735\u0712\u0735</string>
+    </test>
+    <test label="0712 0738" rtl="True">
+      <string>\u0712\u0738 \u0712\u0738\u0712\u0738\u0712\u0738</string>
+    </test>
+    <test label="0712 0739" rtl="True">
+      <string>\u0712\u0739 \u0712\u0739\u0712\u0739\u0712\u0739</string>
+    </test>
+    <test label="0712 0739 0308" rtl="True">
+      <string>\u0712\u0739\u0308 \u0712\u0739\u0308\u0712\u0739\u0308\u0712\u0739\u0308</string>
+    </test>
+    <test label="0712 0742" rtl="True">
+      <string>\u0712\u0742 \u0712\u0742\u0712\u0742\u0712\u0742</string>
+    </test>
+    <test label="0712 0742 0308" rtl="True">
+      <string>\u0712\u0742\u0308 \u0712\u0742\u0308\u0712\u0742\u0308\u0712\u0742\u0308</string>
+    </test>
+    <test label="0712 0742 0732" rtl="True">
+      <string>\u0712\u0742\u0732 \u0712\u0742\u0732\u0712\u0742\u0732\u0712\u0742\u0732</string>
+    </test>
+    <test label="0712 0742 0735" rtl="True">
+      <string>\u0712\u0742\u0735 \u0712\u0742\u0735\u0712\u0742\u0735\u0712\u0742\u0735</string>
+    </test>
+    <test label="0712 0742 0738" rtl="True">
+      <string>\u0712\u0742\u0738 \u0712\u0742\u0738\u0712\u0742\u0738\u0712\u0742\u0738</string>
+    </test>
+    <test label="0712 0742 0739" rtl="True">
+      <string>\u0712\u0742\u0739 \u0712\u0742\u0739\u0712\u0742\u0739\u0712\u0742\u0739</string>
+    </test>
+    <test label="0712 0742 0739 0308" rtl="True">
+      <string>\u0712\u0742\u0739\u0308 \u0712\u0742\u0739\u0308\u0712\u0742\u0739\u0308\u0712\u0742\u0739\u0308</string>
+    </test>
+    <test label="0712 0742 0747" rtl="True">
+      <string>\u0712\u0742\u0747 \u0712\u0742\u0747\u0712\u0742\u0747\u0712\u0742\u0747</string>
+    </test>
+    <test label="0713 0308" rtl="True">
+      <string>\u0713\u0308 \u0713\u0308\u0713\u0308\u0713\u0308</string>
+    </test>
+    <test label="0713 0308 0330 0739" rtl="True">
+      <string>\u0713\u0308\u0330\u0739 \u0713\u0308\u0330\u0739\u0713\u0308\u0330\u0739\u0713\u0308\u0330\u0739</string>
+    </test>
+    <test label="0713 0308 0739" rtl="True">
+      <string>\u0713\u0308\u0739 \u0713\u0308\u0739\u0713\u0308\u0739\u0713\u0308\u0739</string>
+    </test>
+    <test label="0713 0330" rtl="True">
+      <string>\u0713\u0330 \u0713\u0330\u0713\u0330\u0713\u0330</string>
+    </test>
+    <test label="0713 0330 0308 0739" rtl="True">
+      <string>\u0713\u0330\u0308\u0739 \u0713\u0330\u0308\u0739\u0713\u0330\u0308\u0739\u0713\u0330\u0308\u0739</string>
+    </test>
+    <test label="0713 0330 0732" rtl="True">
+      <string>\u0713\u0330\u0732 \u0713\u0330\u0732\u0713\u0330\u0732\u0713\u0330\u0732</string>
+    </test>
+    <test label="0713 0330 0735" rtl="True">
+      <string>\u0713\u0330\u0735 \u0713\u0330\u0735\u0713\u0330\u0735\u0713\u0330\u0735</string>
+    </test>
+    <test label="0713 0330 0738" rtl="True">
+      <string>\u0713\u0330\u0738 \u0713\u0330\u0738\u0713\u0330\u0738\u0713\u0330\u0738</string>
+    </test>
+    <test label="0713 0330 0739" rtl="True">
+      <string>\u0713\u0330\u0739 \u0713\u0330\u0739\u0713\u0330\u0739\u0713\u0330\u0739</string>
+    </test>
+    <test label="0713 0330 0739 0308" rtl="True">
+      <string>\u0713\u0330\u0739\u0308 \u0713\u0330\u0739\u0308\u0713\u0330\u0739\u0308\u0713\u0330\u0739\u0308</string>
+    </test>
+    <test label="0713 0732" rtl="True">
+      <string>\u0713\u0732 \u0713\u0732\u0713\u0732\u0713\u0732</string>
+    </test>
+    <test label="0713 0735" rtl="True">
+      <string>\u0713\u0735 \u0713\u0735\u0713\u0735\u0713\u0735</string>
+    </test>
+    <test label="0713 0738" rtl="True">
+      <string>\u0713\u0738 \u0713\u0738\u0713\u0738\u0713\u0738</string>
+    </test>
+    <test label="0713 0739" rtl="True">
+      <string>\u0713\u0739 \u0713\u0739\u0713\u0739\u0713\u0739</string>
+    </test>
+    <test label="0713 0739 0308" rtl="True">
+      <string>\u0713\u0739\u0308 \u0713\u0739\u0308\u0713\u0739\u0308\u0713\u0739\u0308</string>
+    </test>
+    <test label="0713 0742" rtl="True">
+      <string>\u0713\u0742 \u0713\u0742\u0713\u0742\u0713\u0742</string>
+    </test>
+    <test label="0713 0742 0308" rtl="True">
+      <string>\u0713\u0742\u0308 \u0713\u0742\u0308\u0713\u0742\u0308\u0713\u0742\u0308</string>
+    </test>
+    <test label="0713 0742 0732" rtl="True">
+      <string>\u0713\u0742\u0732 \u0713\u0742\u0732\u0713\u0742\u0732\u0713\u0742\u0732</string>
+    </test>
+    <test label="0713 0742 0735" rtl="True">
+      <string>\u0713\u0742\u0735 \u0713\u0742\u0735\u0713\u0742\u0735\u0713\u0742\u0735</string>
+    </test>
+    <test label="0713 0742 0738" rtl="True">
+      <string>\u0713\u0742\u0738 \u0713\u0742\u0738\u0713\u0742\u0738\u0713\u0742\u0738</string>
+    </test>
+    <test label="0713 0742 0739" rtl="True">
+      <string>\u0713\u0742\u0739 \u0713\u0742\u0739\u0713\u0742\u0739\u0713\u0742\u0739</string>
+    </test>
+    <test label="0713 0742 0739 0308" rtl="True">
+      <string>\u0713\u0742\u0739\u0308 \u0713\u0742\u0739\u0308\u0713\u0742\u0739\u0308\u0713\u0742\u0739\u0308</string>
+    </test>
+    <test label="0713 0742 0747" rtl="True">
+      <string>\u0713\u0742\u0747 \u0713\u0742\u0747\u0713\u0742\u0747\u0713\u0742\u0747</string>
+    </test>
+    <test label="0713 0747 0742" rtl="True">
+      <string>\u0713\u0747\u0742 \u0713\u0747\u0742\u0713\u0747\u0742\u0713\u0747\u0742</string>
+    </test>
+    <test label="0715 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0715\u0308 - - \u0712\u0715\u0308</string>
+    </test>
+    <test label="0715 0308 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0715\u0308\u0739 - - \u0712\u0715\u0308\u0739</string>
+    </test>
+    <test label="0715 0732" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0715\u0732 - - \u0712\u0715\u0732</string>
+    </test>
+    <test label="0715 0735" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0715\u0735 - - \u0712\u0715\u0735</string>
+    </test>
+    <test label="0715 0738" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0715\u0738 - - \u0712\u0715\u0738</string>
+    </test>
+    <test label="0715 0738 0303" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0715\u0738\u0303 - - \u0712\u0715\u0738\u0303</string>
+    </test>
+    <test label="0715 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0715\u0739 - - \u0712\u0715\u0739</string>
+    </test>
+    <test label="0715 0739 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0715\u0739\u0308 - - \u0712\u0715\u0739\u0308</string>
+    </test>
+    <test label="0715 0742" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0715\u0742 - - \u0712\u0715\u0742</string>
+    </test>
+    <test label="0715 0747" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0715\u0747 - - \u0712\u0715\u0747</string>
+    </test>
+    <test label="0717 0307" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0717\u0307 - - \u0712\u0717\u0307</string>
+    </test>
+    <test label="0717 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0717\u0308 - - \u0712\u0717\u0308</string>
+    </test>
+    <test label="0717 0308 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0717\u0308\u0739 - - \u0712\u0717\u0308\u0739</string>
+    </test>
+    <test label="0717 0732" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0717\u0732 - - \u0712\u0717\u0732</string>
+    </test>
+    <test label="0717 0735" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0717\u0735 - - \u0712\u0717\u0735</string>
+    </test>
+    <test label="0717 0738" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0717\u0738 - - \u0712\u0717\u0738</string>
+    </test>
+    <test label="0717 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0717\u0739 - - \u0712\u0717\u0739</string>
+    </test>
+    <test label="0717 0739 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0717\u0739\u0308 - - \u0712\u0717\u0739\u0308</string>
+    </test>
+    <test label="0717 0747" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0717\u0747 - - \u0712\u0717\u0747</string>
+    </test>
+    <test label="0718 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0718\u0308 - - \u0712\u0718\u0308</string>
+    </test>
+    <test label="0718 0308 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0718\u0308\u0739 - - \u0712\u0718\u0308\u0739</string>
+    </test>
+    <test label="0718 0308 073C" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0718\u0308\u073C - - \u0712\u0718\u0308\u073C</string>
+    </test>
+    <test label="0718 0732" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0718\u0732 - - \u0712\u0718\u0732</string>
+    </test>
+    <test label="0718 0735" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0718\u0735 - - \u0712\u0718\u0735</string>
+    </test>
+    <test label="0718 0738" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0718\u0738 - - \u0712\u0718\u0738</string>
+    </test>
+    <test label="0718 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0718\u0739 - - \u0712\u0718\u0739</string>
+    </test>
+    <test label="0718 0739 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0718\u0739\u0308 - - \u0712\u0718\u0739\u0308</string>
+    </test>
+    <test label="0718 073C" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0718\u073C - - \u0712\u0718\u073C</string>
+    </test>
+    <test label="0718 073C 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0718\u073C\u0308 - - \u0712\u0718\u073C\u0308</string>
+    </test>
+    <test label="0718 073C 0735" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0718\u073C\u0735 - - \u0712\u0718\u073C\u0735</string>
+    </test>
+    <test label="0718 073C 0738" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0718\u073C\u0738 - - \u0712\u0718\u073C\u0738</string>
+    </test>
+    <test label="0718 073F" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0718\u073F - - \u0712\u0718\u073F</string>
+    </test>
+    <test label="0718 0742" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0718\u0742 - - \u0712\u0718\u0742</string>
+    </test>
+    <test label="0719 0303" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0719\u0303 - - \u0712\u0719\u0303</string>
+    </test>
+    <test label="0719 0303 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0719\u0303\u0308 - - \u0712\u0719\u0303\u0308</string>
+    </test>
+    <test label="0719 0303 0735" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0719\u0303\u0735 - - \u0712\u0719\u0303\u0735</string>
+    </test>
+    <test label="0719 0303 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0719\u0303\u0739 - - \u0712\u0719\u0303\u0739</string>
+    </test>
+    <test label="0719 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0719\u0308 - - \u0712\u0719\u0308</string>
+    </test>
+    <test label="0719 0308 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0719\u0308\u0739 - - \u0712\u0719\u0308\u0739</string>
+    </test>
+    <test label="0719 0732" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0719\u0732 - - \u0712\u0719\u0732</string>
+    </test>
+    <test label="0719 0735" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0719\u0735 - - \u0712\u0719\u0735</string>
+    </test>
+    <test label="0719 0738" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0719\u0738 - - \u0712\u0719\u0738</string>
+    </test>
+    <test label="0719 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0719\u0739 - - \u0712\u0719\u0739</string>
+    </test>
+    <test label="0719 0739 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0719\u0739\u0308 - - \u0712\u0719\u0739\u0308</string>
+    </test>
+    <test label="0719 073C 0303 073F" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0719\u073C\u0303\u073F - - \u0712\u0719\u073C\u0303\u073F</string>
+    </test>
+    <test label="071A 0308" rtl="True">
+      <string>\u071A\u0308 \u071A\u0308\u071A\u0308\u071A\u0308</string>
+    </test>
+    <test label="071A 0308 0739" rtl="True">
+      <string>\u071A\u0308\u0739 \u071A\u0308\u0739\u071A\u0308\u0739\u071A\u0308\u0739</string>
+    </test>
+    <test label="071A 0732" rtl="True">
+      <string>\u071A\u0732 \u071A\u0732\u071A\u0732\u071A\u0732</string>
+    </test>
+    <test label="071A 0735" rtl="True">
+      <string>\u071A\u0735 \u071A\u0735\u071A\u0735\u071A\u0735</string>
+    </test>
+    <test label="071A 0738" rtl="True">
+      <string>\u071A\u0738 \u071A\u0738\u071A\u0738\u071A\u0738</string>
+    </test>
+    <test label="071A 0739" rtl="True">
+      <string>\u071A\u0739 \u071A\u0739\u071A\u0739\u071A\u0739</string>
+    </test>
+    <test label="071A 0739 0308" rtl="True">
+      <string>\u071A\u0739\u0308 \u071A\u0739\u0308\u071A\u0739\u0308\u071A\u0739\u0308</string>
+    </test>
+    <test label="071B 0308" rtl="True">
+      <string>\u071B\u0308 \u071B\u0308\u071B\u0308\u071B\u0308</string>
+    </test>
+    <test label="071B 0308 0739" rtl="True">
+      <string>\u071B\u0308\u0739 \u071B\u0308\u0739\u071B\u0308\u0739\u071B\u0308\u0739</string>
+    </test>
+    <test label="071B 0732" rtl="True">
+      <string>\u071B\u0732 \u071B\u0732\u071B\u0732\u071B\u0732</string>
+    </test>
+    <test label="071B 0735" rtl="True">
+      <string>\u071B\u0735 \u071B\u0735\u071B\u0735\u071B\u0735</string>
+    </test>
+    <test label="071B 0738" rtl="True">
+      <string>\u071B\u0738 \u071B\u0738\u071B\u0738\u071B\u0738</string>
+    </test>
+    <test label="071B 0739" rtl="True">
+      <string>\u071B\u0739 \u071B\u0739\u071B\u0739\u071B\u0739</string>
+    </test>
+    <test label="071B 0739 0308" rtl="True">
+      <string>\u071B\u0739\u0308 \u071B\u0739\u0308\u071B\u0739\u0308\u071B\u0739\u0308</string>
+    </test>
+    <test label="071C 0308" rtl="True">
+      <string>\u071C\u0308 \u071C\u0308\u071C\u0308\u071C\u0308</string>
+    </test>
+    <test label="071C 0308 0739" rtl="True">
+      <string>\u071C\u0308\u0739 \u071C\u0308\u0739\u071C\u0308\u0739\u071C\u0308\u0739</string>
+    </test>
+    <test label="071C 0732" rtl="True">
+      <string>\u071C\u0732 \u071C\u0732\u071C\u0732\u071C\u0732</string>
+    </test>
+    <test label="071C 0735" rtl="True">
+      <string>\u071C\u0735 \u071C\u0735\u071C\u0735\u071C\u0735</string>
+    </test>
+    <test label="071C 0738" rtl="True">
+      <string>\u071C\u0738 \u071C\u0738\u071C\u0738\u071C\u0738</string>
+    </test>
+    <test label="071C 0739" rtl="True">
+      <string>\u071C\u0739 \u071C\u0739\u071C\u0739\u071C\u0739</string>
+    </test>
+    <test label="071C 0739 0308" rtl="True">
+      <string>\u071C\u0739\u0308 \u071C\u0739\u0308\u071C\u0739\u0308\u071C\u0739\u0308</string>
+    </test>
+    <test label="071D 0711" rtl="True">
+      <comment>What combinations can occur?</comment>
+      <string>\u071D\u0711 \u071D\u0711\u071D\u0711\u071D\u0711</string>
+    </test>
+    <test label="071D 0308" rtl="True">
+      <string>\u071D\u0308 \u071D\u0308\u071D\u0308\u071D\u0308</string>
+    </test>
+    <test label="071D 0308 0735" rtl="True">
+      <string>\u071D\u0308\u0735 \u071D\u0308\u0735\u071D\u0308\u0735\u071D\u0308\u0735</string>
+    </test>
+    <test label="071D 0308 0739" rtl="True">
+      <string>\u071D\u0308\u0739 \u071D\u0308\u0739\u071D\u0308\u0739\u071D\u0308\u0739</string>
+    </test>
+    <test label="071D 0732" rtl="True">
+      <string>\u071D\u0732 \u071D\u0732\u071D\u0732\u071D\u0732</string>
+    </test>
+    <test label="071D 0735" rtl="True">
+      <string>\u071D\u0735 \u071D\u0735\u071D\u0735\u071D\u0735</string>
+    </test>
+    <test label="071D 0738" rtl="True">
+      <string>\u071D\u0738 \u071D\u0738\u071D\u0738\u071D\u0738</string>
+    </test>
+    <test label="071D 0739" rtl="True">
+      <string>\u071D\u0739 \u071D\u0739\u071D\u0739\u071D\u0739</string>
+    </test>
+    <test label="071D 0739 0308" rtl="True">
+      <string>\u071D\u0739\u0308 \u071D\u0739\u0308\u071D\u0739\u0308\u071D\u0739\u0308</string>
+    </test>
+    <test label="071D 073C" rtl="True">
+      <string>\u071D\u073C \u071D\u073C\u071D\u073C\u071D\u073C</string>
+    </test>
+    <test label="071D 073C 0308" rtl="True">
+      <string>\u071D\u073C\u0308 \u071D\u073C\u0308\u071D\u073C\u0308\u071D\u073C\u0308</string>
+    </test>
+    <test label="071D 073C 0308 0739" rtl="True">
+      <string>\u071D\u073C\u0308\u0739 \u071D\u073C\u0308\u0739\u071D\u073C\u0308\u0739\u071D\u073C\u0308\u0739</string>
+    </test>
+    <test label="071D 073C 0732" rtl="True">
+      <string>\u071D\u073C\u0732 \u071D\u073C\u0732\u071D\u073C\u0732\u071D\u073C\u0732</string>
+    </test>
+    <test label="071D 073C 0735" rtl="True">
+      <string>\u071D\u073C\u0735 \u071D\u073C\u0735\u071D\u073C\u0735\u071D\u073C\u0735</string>
+    </test>
+    <test label="071D 073C 0738" rtl="True">
+      <string>\u071D\u073C\u0738 \u071D\u073C\u0738\u071D\u073C\u0738\u071D\u073C\u0738</string>
+    </test>
+    <test label="071D 073C 0739" rtl="True">
+      <string>\u071D\u073C\u0739 \u071D\u073C\u0739\u071D\u073C\u0739\u071D\u073C\u0739</string>
+    </test>
+    <test label="071D 073C 0739 0308" rtl="True">
+      <string>\u071D\u073C\u0739\u0308 \u071D\u073C\u0739\u0308\u071D\u073C\u0739\u0308\u071D\u073C\u0739\u0308</string>
+    </test>
+    <test label="071D 0747" rtl="True">
+      <string>\u071D\u0747 \u071D\u0747\u071D\u0747\u071D\u0747</string>
+    </test>
+    <test label="071F 0303" rtl="True">
+      <string>\u071F\u0303 \u071F\u0303\u071F\u0303\u071F\u0303</string>
+    </test>
+    <test label="071F 0308" rtl="True">
+      <string>\u071F\u0308 \u071F\u0308\u071F\u0308\u071F\u0308</string>
+    </test>
+    <test label="071F 0308 0739" rtl="True">
+      <string>\u071F\u0308\u0739 \u071F\u0308\u0739\u071F\u0308\u0739\u071F\u0308\u0739</string>
+    </test>
+    <test label="071F 0330" rtl="True">
+      <string>\u071F\u0330 \u071F\u0330\u071F\u0330\u071F\u0330</string>
+    </test>
+    <test label="071F 0330 0308" rtl="True">
+      <string>\u071F\u0330\u0308 \u071F\u0330\u0308\u071F\u0330\u0308\u071F\u0330\u0308</string>
+    </test>
+    <test label="071F 0330 0308 0739" rtl="True">
+      <string>\u071F\u0330\u0308\u0739 \u071F\u0330\u0308\u0739\u071F\u0330\u0308\u0739\u071F\u0330\u0308\u0739</string>
+    </test>
+    <test label="071F 0330 0732" rtl="True">
+      <string>\u071F\u0330\u0735 \u071F\u0330\u0735\u071F\u0330\u0735\u071F\u0330\u0735</string>
+    </test>
+    <test label="071F 0330 0735" rtl="True">
+      <string>\u071F\u0330\u0735 \u071F\u0330\u0735\u071F\u0330\u0735\u071F\u0330\u0735</string>
+    </test>
+    <test label="071F 0330 0738" rtl="True">
+      <string>\u071F\u0330\u0738 \u071F\u0330\u0738\u071F\u0330\u0738\u071F\u0330\u0738</string>
+    </test>
+    <test label="071F 0330 0739" rtl="True">
+      <string>\u071F\u0330\u0739 \u071F\u0330\u0739\u071F\u0330\u0739\u071F\u0330\u0739</string>
+    </test>
+    <test label="071F 0330 0739 0308" rtl="True">
+      <string>\u071F\u0330\u0739\u0308 \u071F\u0330\u0739\u0308\u071F\u0330\u0739\u0308\u071F\u0330\u0739\u0308</string>
+    </test>
+    <test label="071F 0732" rtl="True">
+      <string>\u071F\u0732 \u071F\u0732\u071F\u0732\u071F\u0732</string>
+    </test>
+    <test label="071F 0735" rtl="True">
+      <string>\u071F\u0735 \u071F\u0735\u071F\u0735\u071F\u0735</string>
+    </test>
+    <test label="071F 0735 0330" rtl="True">
+      <string>\u071F\u0735\u0330 \u071F\u0735\u0330\u071F\u0735\u0330\u071F\u0735\u0330</string>
+    </test>
+    <test label="071F 0735 0742" rtl="True">
+      <string>\u071F\u0735\u0742 \u071F\u0735\u0742\u071F\u0735\u0742\u071F\u0735\u0742</string>
+    </test>
+    <test label="071F 0738" rtl="True">
+      <string>\u071F\u0738 \u071F\u0738\u071F\u0738\u071F\u0738</string>
+    </test>
+    <test label="071F 0739" rtl="True">
+      <string>\u071F\u0739 \u071F\u0739\u071F\u0739\u071F\u0739</string>
+    </test>
+    <test label="071F 0739 0308" rtl="True">
+      <string>\u071F\u0739\u0308 \u071F\u0739\u0308\u071F\u0739\u0308\u071F\u0739\u0308</string>
+    </test>
+    <test label="071F 0742" rtl="True">
+      <string>\u071F\u0742 \u071F\u0742\u071F\u0742\u071F\u0742</string>
+    </test>
+    <test label="071F 0742 0308" rtl="True">
+      <string>\u071F\u0742\u0308 \u071F\u0742\u0308\u071F\u0742\u0308\u071F\u0742\u0308</string>
+    </test>
+    <test label="071F 0742 0732" rtl="True">
+      <string>\u071F\u0742\u0732 \u071F\u0742\u0732\u071F\u0742\u0732\u071F\u0742\u0732</string>
+    </test>
+    <test label="071F 0742 0735" rtl="True">
+      <string>\u071F\u0742\u0735 \u071F\u0742\u0735\u071F\u0742\u0735\u071F\u0742\u0735</string>
+    </test>
+    <test label="071F 0742 0738" rtl="True">
+      <string>\u071F\u0742\u0738 \u071F\u0742\u0738\u071F\u0742\u0738\u071F\u0742\u0738</string>
+    </test>
+    <test label="071F 0742 0739" rtl="True">
+      <string>\u071F\u0742\u0739 \u071F\u0742\u0739\u071F\u0742\u0739\u071F\u0742\u0739</string>
+    </test>
+    <test label="071F 0742 0739 0308" rtl="True">
+      <string>\u071F\u0742\u0739\u0308 \u071F\u0742\u0739\u0308\u071F\u0742\u0739\u0308\u071F\u0742\u0739\u0308</string>
+    </test>
+    <test label="0720 0308" rtl="True">
+      <string>\u0720\u0308 \u0720\u0308\u0720\u0308\u0720\u0308</string>
+    </test>
+    <test label="0720 0308 0739" rtl="True">
+      <string>\u0720\u0308\u0739 \u0720\u0308\u0739\u0720\u0308\u0739\u0720\u0308\u0739</string>
+    </test>
+    <test label="0720 0732" rtl="True">
+      <string>\u0720\u0732 \u0720\u0732\u0720\u0732\u0720\u0732</string>
+    </test>
+    <test label="0720 0735" rtl="True">
+      <string>\u0720\u0735 \u0720\u0735\u0720\u0735\u0720\u0735</string>
+    </test>
+    <test label="0720 0738" rtl="True">
+      <string>\u0720\u0738 \u0720\u0738\u0720\u0738\u0720\u0738</string>
+    </test>
+    <test label="0720 0739" rtl="True">
+      <string>\u0720\u0739 \u0720\u0739\u0720\u0739\u0720\u0739</string>
+    </test>
+    <test label="0720 0739 0308" rtl="True">
+      <string>\u0720\u0739\u0308 \u0720\u0739\u0308\u0720\u0739\u0308\u0720\u0739\u0308</string>
+    </test>
+    <test label="0720 073C" rtl="True">
+      <string>\u0720\u073C \u0720\u073C\u0720\u073C\u0720\u073C</string>
+    </test>
+    <test label="0720 0747" rtl="True">
+      <string>\u0720\u0747 \u0720\u0747\u0720\u0747\u0720\u0747</string>
+    </test>
+    <test label="0721 0307" rtl="True">
+      <string>\u0721\u0307 \u0721\u0307\u0721\u0307\u0721\u0307</string>
+    </test>
+    <test label="0721 0308" rtl="True">
+      <string>\u0721\u0308 \u0721\u0308\u0721\u0308\u0721\u0308</string>
+    </test>
+    <test label="0721 0308 0739" rtl="True">
+      <string>\u0721\u0308\u0739 \u0721\u0308\u0739\u0721\u0308\u0739\u0721\u0308\u0739</string>
+    </test>
+    <test label="0721 0323" rtl="True">
+      <string>\u0721\u0323 \u0721\u0323\u0721\u0323\u0721\u0323</string>
+    </test>
+    <test label="0721 0732" rtl="True">
+      <string>\u0721\u0732 \u0721\u0732\u0721\u0732\u0721\u0732</string>
+    </test>
+    <test label="0721 0735" rtl="True">
+      <string>\u0721\u0735 \u0721\u0735\u0721\u0735\u0721\u0735</string>
+    </test>
+    <test label="0721 0738" rtl="True">
+      <string>\u0721\u0738 \u0721\u0738\u0721\u0738\u0721\u0738</string>
+    </test>
+    <test label="0721 0739" rtl="True">
+      <string>\u0721\u0739 \u0721\u0739\u0721\u0739\u0721\u0739</string>
+    </test>
+    <test label="0721 0739 0308" rtl="True">
+      <string>\u0721\u0739\u0308 \u0721\u0739\u0308\u0721\u0739\u0308\u0721\u0739\u0308</string>
+    </test>
+    <test label="0722 0308" rtl="True">
+      <string>\u0722\u0308 \u0722\u0308\u0722\u0308\u0722\u0308</string>
+    </test>
+    <test label="0722 0308 0739" rtl="True">
+      <string>\u0722\u0308\u0739 \u0722\u0308\u0739\u0722\u0308\u0739\u0722\u0308\u0739</string>
+    </test>
+    <test label="0722 0732" rtl="True">
+      <string>\u0722\u0732 \u0722\u0732\u0722\u0732\u0722\u0732</string>
+    </test>
+    <test label="0722 0735" rtl="True">
+      <string>\u0722\u0735 \u0722\u0735\u0722\u0735\u0722\u0735</string>
+    </test>
+    <test label="0722 0738" rtl="True">
+      <string>\u0722\u0738 \u0722\u0738\u0722\u0738\u0722\u0738</string>
+    </test>
+    <test label="0722 0739" rtl="True">
+      <string>\u0722\u0739 \u0722\u0739\u0722\u0739\u0722\u0739</string>
+    </test>
+    <test label="0722 0739 0308" rtl="True">
+      <string>\u0722\u0739\u0308 \u0722\u0739\u0308\u0722\u0739\u0308\u0722\u0739\u0308</string>
+    </test>
+    <test label="0722 0747" rtl="True">
+      <string>\u0722\u0747 \u0722\u0747\u0722\u0747\u0722\u0747</string>
+    </test>
+    <test label="0723 0308" rtl="True">
+      <string>\u0723\u0308 \u0723\u0308\u0723\u0308\u0723\u0308</string>
+    </test>
+    <test label="0723 0308 0739" rtl="True">
+      <string>\u0723\u0308\u0739 \u0723\u0308\u0739\u0723\u0308\u0739\u0723\u0308\u0739</string>
+    </test>
+    <test label="0723 0732" rtl="True">
+      <string>\u0723\u0732 \u0723\u0732\u0723\u0732\u0723\u0732</string>
+    </test>
+    <test label="0723 0735" rtl="True">
+      <string>\u0723\u0735 \u0723\u0735\u0723\u0735\u0723\u0735</string>
+    </test>
+    <test label="0723 0738" rtl="True">
+      <string>\u0723\u0738 \u0723\u0738\u0723\u0738\u0723\u0738</string>
+    </test>
+    <test label="0723 0739" rtl="True">
+      <string>\u0723\u0739 \u0723\u0739\u0723\u0739\u0723\u0739</string>
+    </test>
+    <test label="0723 0739 0308" rtl="True">
+      <string>\u0723\u0739\u0308 \u0723\u0739\u0308\u0723\u0739\u0308\u0723\u0739\u0308</string>
+    </test>
+    <test label="0725 0308" rtl="True">
+      <string>\u0725\u0308 \u0725\u0308\u0725\u0308\u0725\u0308</string>
+    </test>
+    <test label="0725 0308 0739" rtl="True">
+      <string>\u0725\u0308\u0739 \u0725\u0308\u0739\u0725\u0308\u0739\u0725\u0308\u0739</string>
+    </test>
+    <test label="0725 0732" rtl="True">
+      <string>\u0725\u0732 \u0725\u0732\u0725\u0732\u0725\u0732</string>
+    </test>
+    <test label="0725 0735" rtl="True">
+      <string>\u0725\u0735 \u0725\u0735\u0725\u0735\u0725\u0735</string>
+    </test>
+    <test label="0725 0738" rtl="True">
+      <string>\u0725\u0738 \u0725\u0738\u0725\u0738\u0725\u0738</string>
+    </test>
+    <test label="0725 0739" rtl="True">
+      <string>\u0725\u0739 \u0725\u0739\u0725\u0739\u0725\u0739</string>
+    </test>
+    <test label="0725 0739 0308" rtl="True">
+      <string>\u0725\u0739\u0308 \u0725\u0739\u0308\u0725\u0739\u0308\u0725\u0739\u0308</string>
+    </test>
+    <test label="0725 0747" rtl="True">
+      <string>\u0725\u0747 \u0725\u0747\u0725\u0747\u0725\u0747</string>
+    </test>
+    <test label="0726 0308" rtl="True">
+      <string>\u0726\u0308 \u0726\u0308\u0726\u0308\u0726\u0308</string>
+    </test>
+    <test label="0726 0308 0739" rtl="True">
+      <string>\u0726\u0308\u0739 \u0726\u0308\u0739\u0726\u0308\u0739\u0726\u0308\u0739</string>
+    </test>
+    <test label="0726 032E" rtl="True">
+      <string>\u0726\u032E \u0726\u032E\u0726\u032E\u0726\u032E</string>
+    </test>
+    <test label="0726 032E 0308" rtl="True">
+      <string>\u0726\u032E\u0308 \u0726\u032E\u0308\u0726\u032E\u0308\u0726\u032E\u0308</string>
+    </test>
+    <test label="0726 032E 0732" rtl="True">
+      <string>\u0726\u032E\u0732 \u0726\u032E\u0732\u0726\u032E\u0732\u0726\u032E\u0732</string>
+    </test>
+    <test label="0726 032E 0735" rtl="True">
+      <string>\u0726\u032E\u0735 \u0726\u032E\u0735\u0726\u032E\u0735\u0726\u032E\u0735</string>
+    </test>
+    <test label="0726 032E 0738" rtl="True">
+      <string>\u0726\u032E\u0738 \u0726\u032E\u0738\u0726\u032E\u0738\u0726\u032E\u0738</string>
+    </test>
+    <test label="0726 032E 0739" rtl="True">
+      <string>\u0726\u032E\u0739 \u0726\u032E\u0739\u0726\u032E\u0739\u0726\u032E\u0739</string>
+    </test>
+    <test label="0726 032E 0739 0308" rtl="True">
+      <string>\u0726\u032E\u0739\u0308 \u0726\u032E\u0739\u0308\u0726\u032E\u0739\u0308\u0726\u032E\u0739\u0308</string>
+    </test>
+    <test label="0726 0732" rtl="True">
+      <string>\u0726\u0732 \u0726\u0732\u0726\u0732\u0726\u0732</string>
+    </test>
+    <test label="0726 0735" rtl="True">
+      <string>\u0726\u0735 \u0726\u0735\u0726\u0735\u0726\u0735</string>
+    </test>
+    <test label="0726 0738" rtl="True">
+      <string>\u0726\u0738 \u0726\u0738\u0726\u0738\u0726\u0738</string>
+    </test>
+    <test label="0726 0739" rtl="True">
+      <string>\u0726\u0739 \u0726\u0739\u0726\u0739\u0726\u0739</string>
+    </test>
+    <test label="0726 0739 0308" rtl="True">
+      <string>\u0726\u0739\u0308 \u0726\u0739\u0308\u0726\u0739\u0308\u0726\u0739\u0308</string>
+    </test>
+    <test label="0728 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0728\u0308 - - \u0712\u0728\u0308</string>
+    </test>
+    <test label="0728 0308 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0728\u0308\u0739 - - \u0712\u0728\u0308\u0739</string>
+    </test>
+    <test label="0728 0732" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0728\u0732 - - \u0712\u0728\u0732</string>
+    </test>
+    <test label="0728 0735" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0728\u0735 - - \u0712\u0728\u0735</string>
+    </test>
+    <test label="0728 0738" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0728\u0738 - - \u0712\u0728\u0738</string>
+    </test>
+    <test label="0728 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0728\u0739 - - \u0712\u0728\u0739</string>
+    </test>
+    <test label="0728 0739 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0728\u0739\u0308 - - \u0712\u0728\u0739\u0308</string>
+    </test>
+    <test label="0729 0308" rtl="True">
+      <string>\u0729\u0308 \u0729\u0308\u0729\u0308\u0729\u0308</string>
+    </test>
+    <test label="0729 0308 0739" rtl="True">
+      <string>\u0729\u0308\u0739 \u0729\u0308\u0739\u0729\u0308\u0739\u0729\u0308\u0739</string>
+    </test>
+    <test label="0729 0732" rtl="True">
+      <string>\u0729\u0732 \u0729\u0732\u0729\u0732\u0729\u0732</string>
+    </test>
+    <test label="0729 0735" rtl="True">
+      <string>\u0729\u0735 \u0729\u0735\u0729\u0735\u0729\u0735</string>
+    </test>
+    <test label="0729 0738" rtl="True">
+      <string>\u0729\u0738 \u0729\u0738\u0729\u0738\u0729\u0738</string>
+    </test>
+    <test label="0729 0739" rtl="True">
+      <string>\u0729\u0739 \u0729\u0739\u0729\u0739\u0729\u0739</string>
+    </test>
+    <test label="0729 0739 0308" rtl="True">
+      <string>\u0729\u0739\u0308 \u0729\u0739\u0308\u0729\u0739\u0308\u0729\u0739\u0308</string>
+    </test>
+    <test label="072A 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072A\u0308 - - \u0712\u072A\u0308</string>
+    </test>
+    <test label="072A 0308 0732" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072A\u0308\u0732 - - \u0712\u072A\u0308\u0732</string>
+    </test>
+    <test label="072A 0308 0735" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072A\u0308\u0735 - - \u0712\u072A\u0308\u0735</string>
+    </test>
+    <test label="072A 0308 0738" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072A\u0308\u0738 - - \u0712\u072A\u0308\u0738</string>
+    </test>
+    <test label="072A 0308 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072A\u0308\u0739 - - \u0712\u072A\u0308\u0739</string>
+    </test>
+    <test label="072A 0308 0747" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072A\u0308\u0747 - - \u0712\u072A\u0308\u0747</string>
+    </test>
+    <test label="072A 0732" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072A\u0732 - - \u0712\u072A\u0732</string>
+    </test>
+    <test label="072A 0735" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072A\u0735 - - \u0712\u072A\u0735</string>
+    </test>
+    <test label="072A 0738" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072A\u0738 - - \u0712\u072A\u0738</string>
+    </test>
+    <test label="072A 0738 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072A\u0738\u0308 - - \u0712\u072A\u0738\u0308</string>
+    </test>
+    <test label="072A 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072A\u0739 - - \u0712\u072A\u0739</string>
+    </test>
+    <test label="072A 0739 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072A\u0739\u0308 - - \u0712\u072A\u0739\u0308</string>
+    </test>
+    <test label="072A 0747" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072A\u0747 - - \u0712\u072A\u0747</string>
+    </test>
+    <test label="072B 0303" rtl="True">
+      <string>\u072B\u0303 \u072B\u0303\u072B\u0303\u072B\u0303</string>
+    </test>
+    <test label="072B 0303 0308" rtl="True">
+      <string>\u072B\u0303\u0308 \u072B\u0303\u0308\u072B\u0303\u0308\u072B\u0303\u0308</string>
+    </test>
+    <test label="072B 0303 0732" rtl="True">
+      <string>\u072B\u0303\u0732 \u072B\u0303\u0732\u072B\u0303\u0732\u072B\u0303\u0732</string>
+    </test>
+    <test label="072B 0303 0735" rtl="True">
+      <string>\u072B\u0303\u0735 \u072B\u0303\u0735\u072B\u0303\u0735\u072B\u0303\u0735</string>
+    </test>
+    <test label="072B 0303 0738" rtl="True">
+      <string>\u072B\u0303\u0738 \u072B\u0303\u0738\u072B\u0303\u0738\u072B\u0303\u0738</string>
+    </test>
+    <test label="072B 0303 0739" rtl="True">
+      <string>\u072B\u0303\u0739 \u072B\u0303\u0739\u072B\u0303\u0739\u072B\u0303\u0739</string>
+    </test>
+    <test label="072B 0303 0739 0308" rtl="True">
+      <string>\u072B\u0303\u0739\u0308 \u072B\u0303\u0739\u0308\u072B\u0303\u0739\u0308\u072B\u0303\u0739\u0308</string>
+    </test>
+    <test label="072B 0308" rtl="True">
+      <string>\u072B\u0308 \u072B\u0308\u072B\u0308\u072B\u0308</string>
+    </test>
+    <test label="072B 0308 0739" rtl="True">
+      <string>\u072B\u0308\u0739 \u072B\u0308\u0739\u072B\u0308\u0739\u072B\u0308\u0739</string>
+    </test>
+    <test label="072B 0732" rtl="True">
+      <string>\u072B\u0732 \u072B\u0732\u072B\u0732\u072B\u0732</string>
+    </test>
+    <test label="072B 0735" rtl="True">
+      <string>\u072B\u0735 \u072B\u0735\u072B\u0735\u072B\u0735</string>
+    </test>
+    <test label="072B 0738" rtl="True">
+      <string>\u072B\u0738 \u072B\u0738\u072B\u0738\u072B\u0738</string>
+    </test>
+    <test label="072B 0739" rtl="True">
+      <string>\u072B\u0739 \u072B\u0739\u072B\u0739\u072B\u0739</string>
+    </test>
+    <test label="072B 0739 0308" rtl="True">
+      <string>\u072B\u0739\u0308 \u072B\u0739\u0308\u072B\u0739\u0308\u072B\u0739\u0308</string>
+    </test>
+    <test label="072B 0747" rtl="True">
+      <string>\u072B\u0747 \u072B\u0747\u072B\u0747\u072B\u0747</string>
+    </test>
+    <test label="072C 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072C\u0308 - - \u0712\u072C\u0308</string>
+    </test>
+    <test label="072C 0308 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072C\u0308\u0739 - - \u0712\u072C\u0308\u0739</string>
+    </test>
+    <test label="072C 0732" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072C\u0732 - - \u0712\u072C\u0732</string>
+    </test>
+    <test label="072C 0735" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072C\u0735 - - \u0712\u072C\u0735</string>
+    </test>
+    <test label="072C 0738" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072C\u0738 - - \u0712\u072C\u0738</string>
+    </test>
+    <test label="072C 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072C\u0739 - - \u0712\u072C\u0739</string>
+    </test>
+    <test label="072C 0739 0308" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072C\u0739\u0308 - - \u0712\u072C\u0739\u0308</string>
+    </test>
+    <test label="072C 0742" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072C\u0742 - - \u0712\u072C\u0742</string>
+    </test>
+    <test label="072C 0742 0732" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072C\u0742\u0732 - - \u0712\u072C\u0742\u0732</string>
+    </test>
+    <test label="072C 0742 0735" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072C\u0742\u0735 - - \u0712\u072C\u0742\u0735</string>
+    </test>
+    <test label="072C 0747" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u072C\u0747 - - \u0712\u072C\u0747</string>
+    </test>
+  </testgroup>
+
+  <testgroup label="Valid combinations with character variants (currently only isolate is affected)">
+    <test label="071F 0303" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0303 \u071F\u0303\u071F\u0303\u071F\u0303</string>
+    </test>
+    <test label="071F 0308" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0308 \u071F\u0308\u071F\u0308\u071F\u0308</string>
+    </test>
+    <test label="071F 0308 0739" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0308\u0739 \u071F\u0308\u0739\u071F\u0308\u0739\u071F\u0308\u0739</string>
+    </test>
+    <test label="071F 0330" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0330 \u071F\u0330\u071F\u0330\u071F\u0330</string>
+    </test>
+    <test label="071F 0330 0308" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0330\u0308 \u071F\u0330\u0308\u071F\u0330\u0308\u071F\u0330\u0308</string>
+    </test>
+    <test label="071F 0330 0308 0739" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0330\u0308\u0739 \u071F\u0330\u0308\u0739\u071F\u0330\u0308\u0739\u071F\u0330\u0308\u0739</string>
+    </test>
+    <test label="071F 0330 0732" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0330\u0735 \u071F\u0330\u0735\u071F\u0330\u0735\u071F\u0330\u0735</string>
+    </test>
+    <test label="071F 0330 0735" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0330\u0735 \u071F\u0330\u0735\u071F\u0330\u0735\u071F\u0330\u0735</string>
+    </test>
+    <test label="071F 0330 0738" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0330\u0738 \u071F\u0330\u0738\u071F\u0330\u0738\u071F\u0330\u0738</string>
+    </test>
+    <test label="071F 0330 0739" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0330\u0739 \u071F\u0330\u0739\u071F\u0330\u0739\u071F\u0330\u0739</string>
+    </test>
+    <test label="071F 0330 0739 0308" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0330\u0739\u0308 \u071F\u0330\u0739\u0308\u071F\u0330\u0739\u0308\u071F\u0330\u0739\u0308</string>
+    </test>
+    <test label="071F 0732" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0732 \u071F\u0732\u071F\u0732\u071F\u0732</string>
+    </test>
+    <test label="071F 0735" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0735 \u071F\u0735\u071F\u0735\u071F\u0735</string>
+    </test>
+    <test label="071F 0735 0330" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0735\u0330 \u071F\u0735\u0330\u071F\u0735\u0330\u071F\u0735\u0330</string>
+    </test>
+    <test label="071F 0735 0742" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0735\u0742 \u071F\u0735\u0742\u071F\u0735\u0742\u071F\u0735\u0742</string>
+    </test>
+    <test label="071F 0738" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0738 \u071F\u0738\u071F\u0738\u071F\u0738</string>
+    </test>
+    <test label="071F 0739" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0739 \u071F\u0739\u071F\u0739\u071F\u0739</string>
+    </test>
+    <test label="071F 0739 0308" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0739\u0308 \u071F\u0739\u0308\u071F\u0739\u0308\u071F\u0739\u0308</string>
+    </test>
+    <test label="071F 0742" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0742 \u071F\u0742\u071F\u0742\u071F\u0742</string>
+    </test>
+    <test label="071F 0742 0308" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0742\u0308 \u071F\u0742\u0308\u071F\u0742\u0308\u071F\u0742\u0308</string>
+    </test>
+    <test label="071F 0742 0732" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0742\u0732 \u071F\u0742\u0732\u071F\u0742\u0732\u071F\u0742\u0732</string>
+    </test>
+    <test label="071F 0742 0735" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0742\u0735 \u071F\u0742\u0735\u071F\u0742\u0735\u071F\u0742\u0735</string>
+    </test>
+    <test label="071F 0742 0738" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0742\u0738 \u071F\u0742\u0738\u071F\u0742\u0738\u071F\u0742\u0738</string>
+    </test>
+    <test label="071F 0742 0739" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0742\u0739 \u071F\u0742\u0739\u071F\u0742\u0739\u071F\u0742\u0739</string>
+    </test>
+    <test label="071F 0742 0739 0308" stylename="cv15_1" rtl="True">
+      <string>\u071F\u0742\u0739\u0308 \u071F\u0742\u0739\u0308\u071F\u0742\u0739\u0308\u071F\u0742\u0739\u0308</string>
+    </test>
+    <test label="0721 0307" stylename="cv17_1" rtl="True">
+      <string>\u0721\u0307 \u0721\u0307\u0721\u0307\u0721\u0307</string>
+    </test>
+    <test label="0721 0308" stylename="cv17_1" rtl="True">
+      <string>\u0721\u0308 \u0721\u0308\u0721\u0308\u0721\u0308</string>
+    </test>
+    <test label="0721 0308 0739" stylename="cv17_1" rtl="True">
+      <string>\u0721\u0308\u0739 \u0721\u0308\u0739\u0721\u0308\u0739\u0721\u0308\u0739</string>
+    </test>
+    <test label="0721 0323" stylename="cv17_1" rtl="True">
+      <string>\u0721\u0323 \u0721\u0323\u0721\u0323\u0721\u0323</string>
+    </test>
+    <test label="0721 0732" stylename="cv17_1" rtl="True">
+      <string>\u0721\u0732 \u0721\u0732\u0721\u0732\u0721\u0732</string>
+    </test>
+    <test label="0721 0735" stylename="cv17_1" rtl="True">
+      <string>\u0721\u0735 \u0721\u0735\u0721\u0735\u0721\u0735</string>
+    </test>
+    <test label="0721 0738" stylename="cv17_1" rtl="True">
+      <string>\u0721\u0738 \u0721\u0738\u0721\u0738\u0721\u0738</string>
+    </test>
+    <test label="0721 0739" stylename="cv17_1" rtl="True">
+      <string>\u0721\u0739 \u0721\u0739\u0721\u0739\u0721\u0739</string>
+    </test>
+    <test label="0721 0739 0308" stylename="cv17_1" rtl="True">
+      <string>\u0721\u0739\u0308 \u0721\u0739\u0308\u0721\u0739\u0308\u0721\u0739\u0308</string>
+    </test>
+    <test label="0722 0308" stylename="cv18_1" rtl="True">
+      <string>\u0722\u0308 \u0722\u0308\u0722\u0308\u0722\u0308</string>
+    </test>
+    <test label="0722 0308 0739" stylename="cv18_1" rtl="True">
+      <string>\u0722\u0308\u0739 \u0722\u0308\u0739\u0722\u0308\u0739\u0722\u0308\u0739</string>
+    </test>
+    <test label="0722 0732" stylename="cv18_1" rtl="True">
+      <string>\u0722\u0732 \u0722\u0732\u0722\u0732\u0722\u0732</string>
+    </test>
+    <test label="0722 0735" stylename="cv18_1" rtl="True">
+      <string>\u0722\u0735 \u0722\u0735\u0722\u0735\u0722\u0735</string>
+    </test>
+    <test label="0722 0738" stylename="cv18_1" rtl="True">
+      <string>\u0722\u0738 \u0722\u0738\u0722\u0738\u0722\u0738</string>
+    </test>
+    <test label="0722 0739" stylename="cv18_1" rtl="True">
+      <string>\u0722\u0739 \u0722\u0739\u0722\u0739\u0722\u0739</string>
+    </test>
+    <test label="0722 0739 0308" stylename="cv18_1" rtl="True">
+      <string>\u0722\u0739\u0308 \u0722\u0739\u0308\u0722\u0739\u0308\u0722\u0739\u0308</string>
+    </test>
+    <test label="0722 0747" stylename="cv18_1" rtl="True">
+      <string>\u0722\u0747 \u0722\u0747\u0722\u0747\u0722\u0747</string>
+    </test>
+  </testgroup>
+
+  <testgroup label="Check position of 032D">
+     <test label="0712 032D" rtl="True">
+      <comment></comment>
+      <string>\u000712\u032d \u000712\u032d\u000712\u032d\u000712\u032d</string>
+    </test>
+  </testgroup>
+
+  <testgroup label="In what context is yudh too long? initial and medial?">
+    <test label="U+071D">
+      <comment>yudh-syriac</comment>
+      <string>\u00071D \u00071D\u00071D\u00071D </string>
+    </test>
+    <test label="U+071D">
+      <comment>yudh-syriac</comment>
+      <string>\u000715\u00071D\u00073c\u000720\u000739\u000717 \u0722\u071d\u0739\u0710 \u0726\u0735\u071d\u073c</string>
+    </test>
+  </testgroup>
+
+<testgroup label="Ligatures (documented on pages 19 &amp; 20 of Unicode proposal)">
+    <test label="U+0717 U+071D">
+      <comment>he_yudh-syriac</comment>
+      <string>\u0717\u071D \u0712\u0717\u071D</string>
+    </test>
+    <test label="U+0717 U+071D" stylename="cv38_1">
+      <comment>he_yudh-syriac</comment>
+      <string>\u0717\u071D \u0712\u0717\u071D</string>
+    </test>
+    <test label="U+0717 U+071D">
+      <comment>he_yudh-syriac</comment>
+      <string>\u0715\u0717\u0307\u071D\u073C\u0735</string>
+    </test>
+    <test label="U+0717 U+071D" stylename="cv38_1">
+      <comment>he_yudh-syriac (forms)</comment>
+      <string>\u0715\u0717\u0307\u071D\u073C\u0735</string>
+    </test>
+    <test label="0720 0710">
+      <comment>lamadh-syriac alaph-syriac</comment>
+      <string>\u0720\u0710 \u0720\u0733\u0710 \u0720\u0734\u0710 \u0720\u0733\u0734\u0710</string>
+    </test>
+    <test label="0720 0710">
+      <comment>lamadh-syriac alaph-syriac zqaphadotted-syriac</comment>
+      <string>\u0720\u0710\u0735 \u0720\u0733\u0710\u0735 \u0720\u0734\u0710\u0735 \u0720\u0733\u0734\u0710\u0735</string>
+    </test>
+    <test label="0720 0710">
+      <comment>lamadh-syriac alaph-syriac waw-syriac</comment>
+      <string>\u0720\u0710\u0718 \u0720\u0733\u0710\u0718 \u0720\u0734\u0710\u0718 \u0720\u0733\u0734\u0710\u0718</string>
+    </test>
+    <test label="0720 0710">
+      <comment>lamadh-syriac alaph-syriac yudh-syriac</comment>
+      <string>\u0720\u0710\u071D \u0720\u0733\u0710\u071D \u0720\u0734\u0710\u071D \u0720\u0733\u0734\u0710\u071D</string>
+    </test>
+    <test label="0720 0710">
+      <comment>lamadh-syriac alaph-syriac hbasaEsasadotted-syriac</comment>
+      <string>\u0720\u0710\u073c \u0720\u0733\u0710\u073c \u0720\u0734\u0710\u073c \u0720\u0733\u0734\u0710\u073c</string>
+    </test>
+    <test label="0720 0710">
+      <comment>lamadh-syriac alaph-syriac rwaha-syriac</comment>
+      <string>\u0720\u0710\u073f \u0720\u0733\u0710\u073f \u0720\u0734\u0710\u073f \u0720\u0733\u0734\u0710\u073f</string>
+    </test>
+    <test label="U+0728 U+0722">
+      <comment>sadhe_nun-syriac</comment>
+      <string>\u0728\u0722 \u0712\u0728\u0722</string>
+    </test>
+    <test label="U+0728 U+0722" stylename="cv55_1">
+      <comment>sadhe-syriac nun-syriac</comment>
+      <string>\u0728\u0722 \u0729\u0728\u0722</string>
+    </test>
+    <test label="U+0728 U+0722">
+      <comment>sadhe-syriac nun-syriac</comment>
+      <string>\u0721\u0732\u0720\u071d\u0738\u0728\u0738\u0722\u0735</string>
+    </test>
+    <test label="U+0728 U+0722" stylename="cv55_1">
+      <comment>sadhe-syriac nun-syriac</comment>
+      <string>\u0721\u0732\u0720\u071d\u0738\u0728\u0738\u0722\u0735</string>
+    </test>
+   <test label="U+072A U+0738 U+0308">
+      <comment>rish seyame (obligatory)</comment>
+      <string>\u072a \u072a\u0738\u0308 \u0712\u072A\u0738\u0308</string>
+    </test>
+    <test label="U+072A U+0739 U+0308">
+      <comment>rish seyame</comment>
+      <string>\u072a \u072a\u0739\u0308 \u0712\u072A\u0739\u0308</string>
+    </test>
+    <test label="U+072A U+0308">
+      <comment>rish_dieresiscomb-syriac</comment>
+      <string>\u072a \u072a\u0308 \u0712\u072A\u0308</string>
+    </test>
+    <test label="U+072C U+0710">
+      <comment>taw_alaph-syriac</comment>
+      <string>\u072C\u0710 \u0712\u072C\u0710</string>
+    </test>
+    <test label="U+072C U+0710" stylename="cv59_1">
+      <comment>taw_alaph-syriac</comment>
+      <string>\u072C\u0710 \u0712\u072C\u0710</string>
+    </test>
+    <test label="U+072C U+0710" stylename="cv59_2">
+      <comment>taw_alaph-syriac</comment>
+      <string>\u072C\u0710 \u0712\u072C\u0710</string>
+    </test>
+    <test label="U+072C U+0710">
+      <comment>taw_alaph-syriac</comment>
+      <string>\u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738\u0723</string>
+    </test>
+    <test label="U+072C U+0710" stylename="cv59_1">
+      <comment>taw_alaph-syriac</comment>
+      <string>\u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738\u0723</string>
+    </test>
+    <test label="U+072C U+0710" stylename="cv59_2">
+      <comment>taw_alaph-syriac</comment>
+      <string>\u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738\u0723</string>
+    </test>
+    <test label="U+072C U+071D">
+      <comment>taw_yudh-syriac</comment>
+      <string>\u072C\u071D \u0712\u072C\u071D</string>
+    </test>
+    <test label="U+072C U+071D" stylename="cv60_1">
+      <comment>taw_yudh-syriac</comment>
+      <string>\u072C\u071D \u0712\u072C\u071D</string>
+    </test>
+    <test label="U+072C U+071D">
+      <comment>taw_yudh-syriac</comment>
+      <string>\u072C\u0732\u072a\u072C\u0739\u071D\u0735</string>
+    </test>
+    <test label="U+072C U+071D" stylename="cv60_1">
+      <comment>taw_yudh-syriac</comment>
+      <string>\u072C\u0732\u072a\u072C\u0739\u071D\u0735</string>
+    </test>
+</testgroup>
+
+</ftml>
