@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rish_dieresiscomb-syriac" format="2">
+  <outline>
+    <contour>
+      <point x="100" y="0" type="line"/>
+      <point x="586" y="0" type="line"/>
+      <point x="616" y="47"/>
+      <point x="631" y="103"/>
+      <point x="631" y="169" type="curve" smooth="yes"/>
+      <point x="631" y="293"/>
+      <point x="600" y="395"/>
+      <point x="537" y="476" type="curve" smooth="yes"/>
+      <point x="467" y="567"/>
+      <point x="369" y="612"/>
+      <point x="244" y="612" type="curve" smooth="yes"/>
+      <point x="167" y="612"/>
+      <point x="100" y="580"/>
+      <point x="100" y="531" type="curve" smooth="yes"/>
+      <point x="100" y="347" type="line" smooth="yes"/>
+      <point x="100" y="330"/>
+      <point x="107" y="322"/>
+      <point x="122" y="322" type="curve" smooth="yes"/>
+      <point x="125" y="322"/>
+      <point x="139" y="338"/>
+      <point x="162" y="370" type="curve" smooth="yes"/>
+      <point x="185" y="402"/>
+      <point x="212" y="418"/>
+      <point x="244" y="418" type="curve" smooth="yes"/>
+      <point x="308" y="418"/>
+      <point x="358" y="394"/>
+      <point x="393" y="346" type="curve" smooth="yes"/>
+      <point x="424" y="305"/>
+      <point x="440" y="254"/>
+      <point x="440" y="195" type="curve"/>
+      <point x="100" y="195" type="line"/>
+    </contour>
+    <contour>
+      <point x="100" y="714" type="line"/>
+      <point x="294" y="714" type="line"/>
+      <point x="294" y="909" type="line"/>
+      <point x="100" y="909" type="line"/>
+    </contour>
+    <contour>
+      <point x="390" y="714" type="line"/>
+      <point x="585" y="714" type="line"/>
+      <point x="585" y="909" type="line"/>
+      <point x="390" y="909" type="line"/>
+    </contour>
+  </outline>
+</glyph>
