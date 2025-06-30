@@ -167,10 +167,9 @@
 # baseClass waw-syriac.fina <anchor 359 735> @above;
 # baseClass x <anchor 377 618> @above;
 # baseClass y <anchor 407 618> @above;
-# baseClass yudh-syriac <anchor 496 540> @above;
-# baseClass yudh-syriac.fina <anchor 496 525> @above;
-# baseClass yudh-syriac.init <anchor 390 570> @above;
-# baseClass yudh-syriac.medi <anchor 360 600> @above;
+# baseClass [yudh-syriac yudh-syriac.fina] <anchor 496 540> @above;
+# baseClass yudh-syriac.init <anchor 390 540> @above;
+# baseClass yudh-syriac.medi <anchor 360 540> @above;
 # baseClass z <anchor 334 618> @above;
 # baseClass [zain-syriac zain-syriac.fina] <anchor 221 705> @above;
 # baseClass alaphSuperscript-syriac <anchor 90 600> @above_MarkBase;
@@ -384,7 +383,7 @@
 markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 graphemejoinercomb] <anchor 0 0> @_none;
 
 # AP: aboveleft
-@aboveleft = [alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3 alaph-syriac.fina alaph-syriac.med2 e-syriac e-syriac.fina e-syriac.init e-syriac.medi pe-syriac.init taw-syriac taw-syriac.fina beth-syriac beth-syriac.init qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi beth-syriac.fina gamal-syriac gamal-syriac.fina gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi semkathFinal-syriac.fina beth-syriac.medi dalath-syriac.fina kaph-syriac kaph-syriac.init kaph-syriac.medi mim-syriac.fina teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac dalath-syriac dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina dottedCircle narrownbspace nbspace space he-syriac he-syriac.fina kaph-syriac.cv15 mim-syriac mim-syriac.init mim-syriac.medi nun-syriac nun-syriac.init nun-syriac.medi tethGarshuni-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi yudh-syriac kaph-syriac.fina zain-syriac zain-syriac.fina kashida-ar lamadh-syriac lamadh-syriac.fina lamadh-syriac.medi lamadh-syriac.init mim-syriac.cv17 waw-syriac.fina nun-syriac.cv18 nun-syriac.fina pe-syriac pe-syriac.fina pe-syriac.medi rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe-syriac sadhe-syriac.fina semkath-syriac semkathFinal-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi];
+@aboveleft = [alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3 alaph-syriac.fina alaph-syriac.med2 e-syriac e-syriac.fina e-syriac.init e-syriac.medi pe-syriac.init taw-syriac taw-syriac.fina beth-syriac beth-syriac.init qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi beth-syriac.fina gamal-syriac gamal-syriac.fina gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi semkathFinal-syriac.fina beth-syriac.medi dalath-syriac.fina kaph-syriac kaph-syriac.init kaph-syriac.medi mim-syriac.fina teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac dalath-syriac dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina dottedCircle narrownbspace nbspace space he-syriac he-syriac.fina kaph-syriac.cv15 mim-syriac mim-syriac.init mim-syriac.medi nun-syriac nun-syriac.init nun-syriac.medi tethGarshuni-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi kaph-syriac.fina zain-syriac zain-syriac.fina kashida-ar lamadh-syriac lamadh-syriac.fina lamadh-syriac.medi lamadh-syriac.init mim-syriac.cv17 waw-syriac.fina nun-syriac.cv18 nun-syriac.fina pe-syriac pe-syriac.fina pe-syriac.medi rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina sadhe-syriac sadhe-syriac.fina semkath-syriac semkathFinal-syriac];
 # baseClass [alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3 alaph-syriac.fina alaph-syriac.med2 e-syriac e-syriac.fina e-syriac.init e-syriac.medi pe-syriac.init taw-syriac taw-syriac.fina] <anchor 50 975> @aboveleft;
 # baseClass [beth-syriac beth-syriac.init qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi] <anchor 50 780> @aboveleft;
 # baseClass [beth-syriac.fina gamal-syriac gamal-syriac.fina gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi semkathFinal-syriac.fina] <anchor 50 795> @aboveleft;
@@ -392,7 +391,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass [dalath-syriac dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina] <anchor 50 720> @aboveleft;
 # baseClass [dottedCircle narrownbspace nbspace space] <anchor 50 995> @aboveleft;
 # baseClass [he-syriac he-syriac.fina kaph-syriac.cv15 mim-syriac mim-syriac.init mim-syriac.medi nun-syriac nun-syriac.init nun-syriac.medi tethGarshuni-syriac.fina] <anchor 50 765> @aboveleft;
-# baseClass [heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi yudh-syriac] <anchor 50 540> @aboveleft;
+# baseClass [heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi] <anchor 50 540> @aboveleft;
 # baseClass [kaph-syriac.fina zain-syriac zain-syriac.fina] <anchor 50 705> @aboveleft;
 # baseClass kashida-ar <anchor 50 405> @aboveleft;
 # baseClass [lamadh-syriac lamadh-syriac.fina lamadh-syriac.medi] <anchor 50 945> @aboveleft;
@@ -404,9 +403,6 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass [rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina] <anchor 50 1005> @aboveleft;
 # baseClass [sadhe-syriac sadhe-syriac.fina] <anchor 50 420> @aboveleft;
 # baseClass [semkath-syriac semkathFinal-syriac] <anchor 50 810> @aboveleft;
-# baseClass yudh-syriac.fina <anchor 50 525> @aboveleft;
-# baseClass yudh-syriac.init <anchor 50 570> @aboveleft;
-# baseClass yudh-syriac.medi <anchor 50 600> @aboveleft;
 
 # AP: belowleft
 @belowleft = [alaph-syriac alaph-syriac.fin3 alaph-syriac.med2 beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi dalathrishDotless-syriac.fina dottedCircle e-syriac e-syriac.fina e-syriac.init e-syriac.medi gamal-syriac gamal-syriac.fina gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi he-syriac he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi kaph-syriac kaph-syriac.init kaph-syriac.medi kashida-ar lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.cv17 mim-syriac.fina mim-syriac.init mim-syriac.medi narrownbspace nbspace nun-syriac nun-syriac.cv18 nun-syriac.init nun-syriac.medi pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi space taw-syriac taw-syriac.fina teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac waw-syriac.fina yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi alaph-syriac.fin2 alaph-syriac.fina dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac kaph-syriac.cv15 semkathFinal-syriac kaph-syriac.fina nun-syriac.fina sadhe-syriac sadhe-syriac.fina semkathFinal-syriac.fina zain-syriac zain-syriac.fina];
@@ -579,6 +575,44 @@ markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 @kern_below = [dotbelowcomb dieresisbelowcomb brevebelowcomb tildebelowcomb circumflexbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac minusbelowcomb dotbelowleftcomb];
 # Not in font: alefbelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar sukun-ar madda-ar hamzaabove-ar hamzabelow-ar 
 @AllCombining = [tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac barrekh-syriac dotaboveleftcomb circumflexbelowcomb rukkakha-syriac.square];
+# ====
+# These classes cannot have more than one diacritic from a class on the same base
+# ====
+# 0730 0733 0736 073A 073D - Syriac above Greek
+@diac1 = [pthahaabove-syriac zqaphaabove-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac];
+# 0731 0734 0737 073B 073E - Syriac below Greek
+@diac2 = [pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac hbasabelow-syriac esasabelow-syriac];
+# 0740 0749 074A - Syriac other
+@diac3 = [femininedot-syriac music-syriac barrekh-syriac];
+# 0732 0735 073F - Syriac dotted class above
+@diac4 = [pthahadotted-syriac zqaphadotted-syriac rwaha-syriac];
+# 0738 0739 073C - Syriac dotted class below
+@diac5 = [zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaEsasadotted-syriac];
+# 0741 030A - Syriac qushshaya
+@diac6 = [qushshaya-syriac ringcomb];
+# 0742 0325 - Syriac rukkakha
+@diac7 = [rukkakha-syriac rukkakha-syriac.square ringbelowcomb];
+# 0747 0303 0304 - Syriac line type above
+@diac8 = [obliquelineabove-syriac tildecomb macroncomb];
+# 0748 032D 032E 0330 0331 - Syriac line type below
+@diac9 = [obliquelinebelow-syriac circumflexbelowcomb brevebelowcomb tildebelowcomb macronbelowcomb];
+# 0308 - Syriac seyame above
+@diac10 = [dieresiscomb];
+# 0324 - OpenType is wrong, it says 0304  - Syriac seyame below
+@diac11 = [dieresisbelowcomb];
+# 0307 - Syriac dot above
+@diac12 = [dotaccentcomb];
+# 0323 - Syriac dot below
+@diac13 = [dotbelowcomb];
+# 0743 - Syriac two dots above
+@diac14 = [twodotsverticalabove-syriac];
+# 0744 - Syriac two dots below
+@diac15 = [twodotsverticalbelow-syriac];
+# 0745 - Syriac three dots above
+@diac16 = [threedotsabove-syriac];
+# 0746 - Syriac three dots below
+@diac17 = [threedotsbelow-syriac];
+# not listed minusbelowcomb dotaboveleftcomb dotbelowleftcomb
 #**********************************
 #
 # Copyright (c) 1994-2025 SIL Global  (https://www.sil.org)
@@ -604,6 +638,8 @@ table GDEF {
 languagesystem DFLT dflt;
 languagesystem syrc dflt;
 # Syriac default
+languagesystem syrc SYRN;
+# Eastern Syriac
 languagesystem latn dflt;
 # Anchors on diacritics: _aboveleft2 _b.U0331_2_2 _below_unused _center _none _ogonek _stroke
 # Anchors on bases: above aboveleft below_1 below_2 b.U0331_2
@@ -694,56 +730,69 @@ lookup SeyameChain {
     sub rish-syriac' lookup Seyame zlamadottedangular-syriac dieresiscomb;
 } SeyameChain;
 
-lookup r1_1 {
     # GSUB lookup 18, type 11 (Single)
-    lookupflag 0;
-    sub alaph-syriac by alaph-syriac.ccmp;
-} r1_1;
-
-lookup r1 {
+    # Used in East Syriac, West Syriac, Estrangela
     # GSUB lookup 3, type 16 (Chaining Context)
-    lookupflag 0;
-    sub lamadh-syriac @TypeMark alaph-syriac' lookup r1_1;
-    sub lamadh-syriac @TypeMark @TypeMark alaph-syriac' lookup r1_1;
-    sub lamadh-syriac alaph-syriac' lookup r1_1;
-} r1;
+    #end do - Idiqlat|Purattu
+    lookup LamAlaphLig_Alaph {
+        lookupflag 0;
+        sub alaph-syriac by alaph-syriac.ccmp;
+    } LamAlaphLig_Alaph;
 
-lookup r2_1 {
+    lookup LamAlaphLig {
+        lookupflag 0;
+        sub lamadh-syriac @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
+        sub lamadh-syriac @TypeMark @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
+        sub lamadh-syriac alaph-syriac' lookup LamAlaphLig_Alaph;
+    } LamAlaphLig;
+
+
+lookup AlaphChain {
     # GSUB lookup 19, type 11 (Single)
     lookupflag 0;
-    sub alaph-syriac.ccmp by alaph-syriac;
-} r2_1;
+            sub alaph-syriac.ccmp by alaph-syriac;
 
-lookup r2 {
+} AlaphChain;
+
+lookup AlaphLigs {
     # GSUB lookup 4, type 16 (Chaining Context)
     lookupflag 0;
-    sub alaph-syriac.ccmp' lookup r2_1 @TypeMark;
-    sub alaph-syriac.ccmp' lookup r2_1 yudh-syriac;
-    sub alaph-syriac.ccmp' lookup r2_1 waw-syriac;
-} r2;
+            sub alaph-syriac.ccmp' lookup AlaphChain @TypeMark;
+        sub alaph-syriac.ccmp' lookup AlaphChain yudh-syriac;
+        sub alaph-syriac.ccmp' lookup AlaphChain waw-syriac;
 
+} AlaphLigs;
+
+    
+
+# GSUB lookup 3, 
 # glyph for replacement seems poorly named except 073c and 0742 are similar
-lookup r3 {
+lookup DalathRukkakha {
     # 0715 0742
-    sub dalath-syriac rukkakha-syriac by dalath_hbasaEsasadotted-syriac;
-    sub dalath-syriac.fina rukkakha-syriac by dalath_hbasaEsasadotted-syriac.fina;
-} r3;
+    lookupflag 0;
+            sub dalath-syriac rukkakha-syriac by dalath_hbasaEsasadotted-syriac;
+        sub dalath-syriac.fina rukkakha-syriac by dalath_hbasaEsasadotted-syriac.fina;
 
-lookup GRishSeyame {
+} DalathRukkakha;
+
+# Used in East Syriac, West Syriac, Estrangela
+lookup RishSeyame {
     # 072A 0308
     sub rish-syriac dieresiscomb by rish_dieresiscomb-syriac;
     sub rish-syriac.fina dieresiscomb by rish_dieresiscomb-syriac.fina;
-} GRishSeyame;
+} RishSeyame;
 
 # Added this because we need a ligature before doing character variant
-lookup taw_alaph {
+# Used in East Syriac and Estrangela
+lookup TawAlaph {
     # 072C 0710
     lookupflag IgnoreMarks;
-    sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
-    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
+            sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
+        sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
+
     sub taw-syriac alaph-syriac by taw_alaph-syriac;
     sub taw-syriac alaph-syriac.fin2 by taw_alaph-syriac;
-} taw_alaph;
+} TawAlaph;
 
 # HB PAUSE
 lookup ltrMediOlaph {
@@ -778,35 +827,53 @@ lookup RukkakhaSquare {
 # HB PAUSE
 #--- remaining subs features (salt, cvxx, liga) ---
 # Lookups for user-selectable features
-# Kaph U+071F cv15
-lookup KaphAlternate {
+    # Kaph U+071F cv15
     # cv15 Apparently only used in outlines so no final is needed
-    lookupflag IgnoreMarks;
-    sub kaph-syriac by kaph-syriac.cv15;
-} KaphAlternate;
-
-# Mim U+0721 cv17
-lookup MimAlternate {
+    # Mim U+0721 cv17
     # cv17 Apparently only used in outlines so no final is needed
-    lookupflag IgnoreMarks;
-    sub mim-syriac by mim-syriac.cv17;
-} MimAlternate;
-
-# Nun U+0722 cv18
-lookup NunAlternate {
+    # Nun U+0722 cv18
     # cv18 Apparently only used in outlines so no final is needed
-    lookupflag IgnoreMarks;
-    sub nun-syriac by nun-syriac.cv18;
-} NunAlternate;
+    # He Yudh U+0717 U+071D cv38 (marks position)
+    # Used in East Syriac only
+    # Taw Yudh U+072C U+071D cv60=1 (ligature forms but mark is in wrong position)
+    # Used in East Syriac only
+    # End of Idiqlat|Purattu cv
+    # Sadhe Nun U+0728 U+0722 cv55 (marks position)
+    # Used in East Syriac, West Syriac, Estrangela
+    lookup KaphAlternate {
+        lookupflag IgnoreMarks;
+        sub kaph-syriac by kaph-syriac.cv15;
+    } KaphAlternate;
 
-# He Yudh U+0717 U+071D cv38 (marks position)
-lookup HeYudhLigature {
-    lookupflag IgnoreMarks;
-    sub he-syriac yudh-syriac by he_yudh-syriac;
-    sub he-syriac.fina yudh-syriac by he_yudh-syriac.fina;
-} HeYudhLigature;
+    lookup MimAlternate {
+        lookupflag IgnoreMarks;
+        sub mim-syriac by mim-syriac.cv17;
+    } MimAlternate;
 
-# Sadhe Nun U+0728 U+0722 cv55 (marks position)
+    lookup NunAlternate {
+        lookupflag IgnoreMarks;
+        sub nun-syriac by nun-syriac.cv18;
+    } NunAlternate;
+
+    lookup HeYudhLigature {
+        lookupflag IgnoreMarks;
+        sub he-syriac yudh-syriac by he_yudh-syriac;
+        sub he-syriac.fina yudh-syriac by he_yudh-syriac.fina;
+    } HeYudhLigature;
+
+    lookup TawYudhLigature {
+        lookupflag IgnoreMarks;
+        sub taw-syriac yudh-syriac by taw_yudh-syriac;
+        sub taw-syriac.fina yudh-syriac by taw_yudh-syriac.fina;
+    } TawYudhLigature;
+
+    lookup TawAlaphLigatures {
+        lookupflag IgnoreMarks;
+        sub taw_alaph-syriac from [taw_alaph-syriac.triangle taw_alaph-syriac.twined];
+        sub taw_alaph-syriac.fina from [taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined];
+    } TawAlaphLigatures;
+
+
 lookup SadheNunLigature {
     lookupflag IgnoreMarks;
     sub sadhe-syriac nun-syriac by sadhe_nun-syriac;
@@ -814,19 +881,7 @@ lookup SadheNunLigature {
 } SadheNunLigature;
 
 # Taw Alaph U+072C U+0710 cv59=2 (ligature does not form in presense of marks)
-lookup TawAlaphLigatures {
-    lookupflag IgnoreMarks;
-    sub taw_alaph-syriac from [taw_alaph-syriac.triangle taw_alaph-syriac.twined];
-    sub taw_alaph-syriac.fina from [taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined];
-} TawAlaphLigatures;
-
-# Taw Yudh U+072C U+071D cv60=1 (ligature forms but mark is in wrong position)
-lookup TawYudhLigature {
-    lookupflag IgnoreMarks;
-    sub taw-syriac yudh-syriac by taw_yudh-syriac;
-    sub taw-syriac.fina yudh-syriac by taw_yudh-syriac.fina;
-} TawYudhLigature;
-
+# Used in East Syriac and Estrangela
 #NB: Lookup names ending in "TT" are used only by TypeTuner
 #**********************************
 #  GSUB FEATURES
@@ -847,8 +902,8 @@ feature ccmp {
     script syrc;
     lookup GPreDecompose;
     lookup SeyameChain;
-    lookup r1;
-    lookup r2;
+    lookup LamAlaphLig;
+    lookup AlaphLigs;
     lookup RukkakhaSquare;
 } ccmp;
 
@@ -903,8 +958,8 @@ feature med2 {
 feature rlig {
     # Ligatures  -- we use this because liga is done in the same pass as cvXX
     script syrc;
-    lookup GRishSeyame;
-    lookup taw_alaph;
+    lookup RishSeyame;
+    lookup TawAlaph;
 } rlig;
 
 # feature rclt - nothing to do
@@ -919,127 +974,137 @@ feature rlig {
 feature liga {
     # Ligatures  -- we use this because liga is done in the same pass as cvXX
     script syrc;
-    lookup r3;
+    lookup DalathRukkakha;
 } liga;
 
 # HB PAUSE
 #---  dlig feature (pass 10) ---
 #--- Character Variants ---
-feature cv15 {
     # Character Variant 15
-        cvParameters {
-                FeatUILabelNameID {
-            name "Kaph";
-        };
-
-                FeatUITooltipTextNameID {
-            name "Kaph alternate";
-            # English US
-        };
-
-                SampleTextNameID {
-            name "ܟ";
-            # English US
-        };
-
-        ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-                ParamUILabelNameID {
-            name "Historic";
-        };
-
-    };
-
-    script syrc;
+    # English US
+    # English US
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
-    lookup KaphAlternate;
-} cv15;
-
-feature cv17 {
+    # Force other languages to include Syriac script lookups:
     # Character Variant 17
-        cvParameters {
-                FeatUILabelNameID {
-            name "Mim";
-        };
-
-                FeatUITooltipTextNameID {
-            name "Mim alternate";
-            # English US
-        };
-
-                SampleTextNameID {
-            name "ܡ";
-            # English US
-        };
-
-        ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-                ParamUILabelNameID {
-            name "Historic";
-        };
-
-    };
-
-    script syrc;
+    # English US
+    # English US
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
-    lookup MimAlternate;
-} cv17;
-
-feature cv18 {
+    # Force other languages to include Syriac script lookups:
     # Character Variant 18
-        cvParameters {
-                FeatUILabelNameID {
-            name "Nun";
-        };
-
-                FeatUITooltipTextNameID {
-            name "Nun alternate";
-            # English US
-        };
-
-                SampleTextNameID {
-            name "ܢ";
-            # English US
-        };
-
-        ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-                ParamUILabelNameID {
-            name "Historic";
-        };
-
-    };
-
-    script syrc;
+    # English US
+    # English US
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
-    lookup NunAlternate;
-} cv18;
-
-feature cv38 {
+    # Force other languages to include Syriac script lookups:
     # Character Variant 38
-        cvParameters {
-                FeatUILabelNameID {
-            name "He Yudh";
-        };
-
-                FeatUITooltipTextNameID {
-            name "He Yudh ligature";
-            # English US
-        };
-
-                SampleTextNameID {
-            name "ܗܝ";
-            # English US
-        };
-
-        ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-                ParamUILabelNameID {
-            name "Ligature";
-        };
-
-    };
-
-    script syrc;
+    # English US
+    # English US
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
-    lookup HeYudhLigature;
-} cv38;
+    # Force other languages to include Syriac script lookups:
+    #end do - Idiqlat|Purattu
+        feature cv15 {
+                cvParameters {
+                        FeatUILabelNameID {
+                name "Kaph";
+            };
+
+                        FeatUITooltipTextNameID {
+                name "Kaph alternate";
+            };
+
+                        SampleTextNameID {
+                name "ܟ";
+            };
+
+                        ParamUILabelNameID {
+                name "Historic";
+            };
+
+        };
+
+        script syrc;
+        lookup KaphAlternate;
+        language SYRN;
+    } cv15;
+
+        feature cv17 {
+                cvParameters {
+                        FeatUILabelNameID {
+                name "Mim";
+            };
+
+                        FeatUITooltipTextNameID {
+                name "Mim alternate";
+            };
+
+                        SampleTextNameID {
+                name "ܡ";
+            };
+
+                        ParamUILabelNameID {
+                name "Historic";
+            };
+
+        };
+
+        script syrc;
+        lookup MimAlternate;
+        language SYRN;
+    } cv17;
+
+        feature cv18 {
+                cvParameters {
+                        FeatUILabelNameID {
+                name "Nun";
+            };
+
+                        FeatUITooltipTextNameID {
+                name "Nun alternate";
+            };
+
+                        SampleTextNameID {
+                name "ܢ";
+            };
+
+                        ParamUILabelNameID {
+                name "Historic";
+            };
+
+        };
+
+        script syrc;
+        lookup NunAlternate;
+        language SYRN;
+    } cv18;
+
+        feature cv38 {
+                cvParameters {
+                        FeatUILabelNameID {
+                name "He Yudh";
+            };
+
+                        FeatUITooltipTextNameID {
+                name "He Yudh ligature";
+            };
+
+                        SampleTextNameID {
+                name "ܗܝ";
+            };
+
+                        ParamUILabelNameID {
+                name "Ligature";
+            };
+
+        };
+
+        script syrc;
+        lookup HeYudhLigature;
+        language SYRN;
+    } cv38;
+
 
 feature cv55 {
     # Character Variant 55
@@ -1070,67 +1135,94 @@ feature cv55 {
     lookup SadheNunLigature;
 } cv55;
 
-feature cv59 {
     # Character Variant 59
-        cvParameters {
-                FeatUILabelNameID {
-            name "Taw Alaph";
-        };
-
-                FeatUITooltipTextNameID {
-            name "Taw Alaph ligatures";
-            # English US
-        };
-
-                SampleTextNameID {
-            name "ܬܐ";
-            # English US
-        };
-
-        ### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
-                ParamUILabelNameID {
-            name "Triangle";
-        };
-
-                ParamUILabelNameID {
-            name "Twined";
-        };
-
-    };
-
-    script syrc;
+    # English US
+    # English US
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
     # Syriac
-    lookup TawAlaphLigatures;
-} cv59;
+    # Force other languages to include Syriac script lookups:
+    #end do - Idiqlat|Purattu
+        feature cv59 {
+                cvParameters {
+                        FeatUILabelNameID {
+                name "Taw Alaph";
+            };
 
-feature cv60 {
+                        FeatUITooltipTextNameID {
+                name "Taw Alaph ligatures";
+            };
+
+                        SampleTextNameID {
+                name "ܬܐ";
+            };
+
+                        ParamUILabelNameID {
+                name "Triangle";
+            };
+
+                        ParamUILabelNameID {
+                name "Twined";
+            };
+
+        };
+
+        script syrc;
+        lookup TawAlaphLigatures;
+        language SYRN;
+    } cv59;
+
+
     # Character Variant 60
-        cvParameters {
-                FeatUILabelNameID {
-            name "Taw Yudh";
-        };
-
-                FeatUITooltipTextNameID {
-            name "Taw Yudh ligature";
-            # English US
-        };
-
-                SampleTextNameID {
-            name "ܬܝ";
-            # English US
-        };
-
-        ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-                ParamUILabelNameID {
-            name "Ligature";
-        };
-
-    };
-
-    script syrc;
+    # English US
+    # English US
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
-    lookup TawYudhLigature;
-} cv60;
+    # Force other languages to include Syriac script lookups:
+    #end do - Idiqlat|Purattu
+    #---  aalt feature (pass 10) ---
+        feature cv60 {
+                cvParameters {
+                        FeatUILabelNameID {
+                name "Taw Yudh";
+            };
+
+                        FeatUITooltipTextNameID {
+                name "Taw Yudh ligature";
+            };
+
+                        SampleTextNameID {
+                name "ܬܝ";
+            };
+
+                        ParamUILabelNameID {
+                name "Ligature";
+            };
+
+        };
+
+        script syrc;
+        lookup TawYudhLigature;
+        language SYRN;
+    } cv60;
+
+
+feature aalt {
+    # automatic
+    feature ccmp;
+    feature cv15;
+    # Idiqlat|Purattu
+    feature cv17;
+    # Idiqlat|Purattu
+    feature cv18;
+    # Idiqlat|Purattu
+    feature cv38;
+    # Idiqlat|Purattu
+    feature cv55;
+    feature cv59;
+    # Idiqlat|Purattu
+    feature cv60;
+    # Idiqlat|Purattu
+} aalt;
 
 #**********************************
 #
@@ -1296,10 +1388,9 @@ lookup MarkToBase {
     pos base waw-syriac.fina <anchor 359 735> mark @_above;
     pos base x <anchor 377 618> mark @_above;
     pos base y <anchor 407 618> mark @_above;
-    pos base yudh-syriac <anchor 496 540> mark @_above;
-    pos base yudh-syriac.fina <anchor 496 525> mark @_above;
-    pos base yudh-syriac.init <anchor 390 570> mark @_above;
-    pos base yudh-syriac.medi <anchor 360 600> mark @_above;
+    pos base [yudh-syriac yudh-syriac.fina] <anchor 496 540> mark @_above;
+    pos base yudh-syriac.init <anchor 390 540> mark @_above;
+    pos base yudh-syriac.medi <anchor 360 540> mark @_above;
     pos base z <anchor 334 618> mark @_above;
     pos base [zain-syriac zain-syriac.fina] <anchor 221 705> mark @_above;
     pos base [alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3 alaph-syriac.fina alaph-syriac.med2 e-syriac e-syriac.fina e-syriac.init e-syriac.medi pe-syriac.init taw-syriac taw-syriac.fina] <anchor 50 975> mark @_aboveleft;
@@ -1309,7 +1400,7 @@ lookup MarkToBase {
     pos base [dalath-syriac dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina] <anchor 50 720> mark @_aboveleft;
     pos base [dottedCircle narrownbspace nbspace space] <anchor 50 995> mark @_aboveleft;
     pos base [he-syriac he-syriac.fina kaph-syriac.cv15 mim-syriac mim-syriac.init mim-syriac.medi nun-syriac nun-syriac.init nun-syriac.medi tethGarshuni-syriac.fina] <anchor 50 765> mark @_aboveleft;
-    pos base [heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi yudh-syriac] <anchor 50 540> mark @_aboveleft;
+    pos base [heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi] <anchor 50 540> mark @_aboveleft;
     pos base [kaph-syriac.fina zain-syriac zain-syriac.fina] <anchor 50 705> mark @_aboveleft;
     pos base kashida-ar <anchor 50 405> mark @_aboveleft;
     pos base [lamadh-syriac lamadh-syriac.fina lamadh-syriac.medi] <anchor 50 945> mark @_aboveleft;
@@ -1321,9 +1412,6 @@ lookup MarkToBase {
     pos base [rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina] <anchor 50 1005> mark @_aboveleft;
     pos base [sadhe-syriac sadhe-syriac.fina] <anchor 50 420> mark @_aboveleft;
     pos base [semkath-syriac semkathFinal-syriac] <anchor 50 810> mark @_aboveleft;
-    pos base yudh-syriac.fina <anchor 50 525> mark @_aboveleft;
-    pos base yudh-syriac.init <anchor 50 570> mark @_aboveleft;
-    pos base yudh-syriac.medi <anchor 50 600> mark @_aboveleft;
     pos base [alaph-syriac alaph-syriac.fin3 alaph-syriac.med2 beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi dalathrishDotless-syriac.fina dottedCircle e-syriac e-syriac.fina e-syriac.init e-syriac.medi gamal-syriac gamal-syriac.fina gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi he-syriac he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi kaph-syriac kaph-syriac.init kaph-syriac.medi kashida-ar lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.cv17 mim-syriac.fina mim-syriac.init mim-syriac.medi narrownbspace nbspace nun-syriac nun-syriac.cv18 nun-syriac.init nun-syriac.medi pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi space taw-syriac taw-syriac.fina teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac waw-syriac.fina yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi] <anchor 50 -150> mark @_belowleft;
     pos base [alaph-syriac.fin2 alaph-syriac.fina] <anchor 50 -360> mark @_belowleft;
     pos base [dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina] <anchor 50 -390> mark @_belowleft;

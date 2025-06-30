@@ -10,8 +10,9 @@
 #  Language Systems
 #**********************************
 
-languagesystem DFLT dflt;
-languagesystem syrc dflt; # Syriac default
+languagesystem DFLT dflt ;
+languagesystem syrc dflt ; # Syriac default
+languagesystem syrc SYRN ; # Eastern Syriac
 languagesystem latn dflt ;
 
 # Anchors on diacritics: _aboveleft2 _b.U0331_2_2 _below_unused _center _none _ogonek _stroke
@@ -132,55 +133,82 @@ lookup SeyameChain {
   sub rish-syriac' lookup Seyame zlamadottedangular-syriac dieresiscomb;
 } SeyameChain;
 
-lookup r1_1 {
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 or f.find("Purattu") != -1; {
+
+lookup LamAlaphLig_Alaph {
 # GSUB lookup 18, type 11 (Single)
   lookupflag 0;
-  sub alaph-syriac by alaph-syriac.ccmp;
-} r1_1;
+    sub alaph-syriac by alaph-syriac.ccmp;
+} LamAlaphLig_Alaph;
 
-lookup r1 {
+# Used in East Syriac, West Syriac, Estrangela
+lookup LamAlaphLig {
 # GSUB lookup 3, type 16 (Chaining Context)
   lookupflag 0;
-  sub lamadh-syriac @TypeMark alaph-syriac' lookup r1_1;
-  sub lamadh-syriac @TypeMark @TypeMark alaph-syriac' lookup r1_1;
-  sub lamadh-syriac alaph-syriac' lookup r1_1;
-} r1;
+    sub lamadh-syriac @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
+    sub lamadh-syriac @TypeMark @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
+    sub lamadh-syriac alaph-syriac' lookup LamAlaphLig_Alaph;
+} LamAlaphLig;
+}   #end do - Idiqlat|Purattu
 
-lookup r2_1 {
+lookup AlaphChain {
 # GSUB lookup 19, type 11 (Single)
   lookupflag 0;
-  sub alaph-syriac.ccmp by alaph-syriac;
-} r2_1;
+  ifinfo(familyName, "Idiqlat|Purattu") {
+    sub alaph-syriac.ccmp by alaph-syriac;
+  }
+} AlaphChain;
 
-
-lookup r2 {
+lookup AlaphLigs {
 # GSUB lookup 4, type 16 (Chaining Context)
   lookupflag 0;
-  sub alaph-syriac.ccmp' lookup r2_1 @TypeMark;
-  sub alaph-syriac.ccmp' lookup r2_1 yudh-syriac ;
-  sub alaph-syriac.ccmp' lookup r2_1 waw-syriac ;
-} r2;
+  ifinfo(familyName, "Idiqlat|Purattu") {
+    sub alaph-syriac.ccmp' lookup AlaphChain @TypeMark;
+    sub alaph-syriac.ccmp' lookup AlaphChain yudh-syriac ;
+    sub alaph-syriac.ccmp' lookup AlaphChain waw-syriac ;
+  }
+} AlaphLigs;
 
+do let f = info("familyName");
+   if f.find("Khabur") != -1; {
+
+lookup LamAlaphLig {
+# GSUB lookup 3, 
+  lookupflag IgnoreMarks;
+    sub lamadh-syriac alaph-syriac by lamadh_alaph-syriac;
+    sub lamadh-syriac alaph-syriac.fina by lamadh_alaph-syriac;
+    sub lamadh-syriac.medi alaph-syriac.fina by lamadh_alaph-syriac.fina;
+    sub lamadh-syriac.medi alaph-syriac.med2 by lamadh_alaph-syriac.fina;
+} LamAlaphLig;
+}
 
 # glyph for replacement seems poorly named except 073c and 0742 are similar
-lookup r3 { # 0715 0742
+lookup DalathRukkakha { # 0715 0742
+  lookupflag 0;
+  ifinfo(familyName, "Idiqlat|Purattu") {
     sub dalath-syriac rukkakha-syriac by dalath_hbasaEsasadotted-syriac ;
     sub dalath-syriac.fina rukkakha-syriac by dalath_hbasaEsasadotted-syriac.fina ;
-} r3 ;
+  }
+} DalathRukkakha ;
 
-lookup GRishSeyame { # 072A 0308
+# Used in East Syriac, West Syriac, Estrangela
+lookup RishSeyame { # 072A 0308
     sub rish-syriac dieresiscomb by  rish_dieresiscomb-syriac ;
     sub rish-syriac.fina dieresiscomb by  rish_dieresiscomb-syriac.fina ;
-} GRishSeyame ;
+} RishSeyame ;
 
 # Added this because we need a ligature before doing character variant
-lookup taw_alaph { # 072C 0710
+# Used in East Syriac and Estrangela
+lookup TawAlaph { # 072C 0710
   lookupflag IgnoreMarks ;
+  ifinfo(familyName, "Idiqlat|Purattu") {
     sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
     sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
+  }
     sub taw-syriac alaph-syriac by taw_alaph-syriac;
     sub taw-syriac alaph-syriac.fin2 by taw_alaph-syriac;
-} taw_alaph ;
+} TawAlaph ;
 
 # HB PAUSE
 
@@ -223,6 +251,9 @@ lookup RukkakhaSquare {
 
 # Lookups for user-selectable features
 
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 or f.find("Purattu") != -1; {
+
 # Kaph U+071F cv15
 lookup KaphAlternate { # cv15 Apparently only used in outlines so no final is needed
   lookupflag IgnoreMarks ;
@@ -242,13 +273,31 @@ lookup NunAlternate { # cv18 Apparently only used in outlines so no final is nee
 } NunAlternate ;
 
 # He Yudh U+0717 U+071D cv38 (marks position)
+# Used in East Syriac only
 lookup HeYudhLigature {
   lookupflag IgnoreMarks ;
     sub he-syriac yudh-syriac by he_yudh-syriac ;
     sub he-syriac.fina yudh-syriac by he_yudh-syriac.fina ;
 } HeYudhLigature ;
 
+# Taw Yudh U+072C U+071D cv60=1 (ligature forms but mark is in wrong position)
+# Used in East Syriac only
+lookup TawYudhLigature {
+  lookupflag IgnoreMarks ;
+    sub taw-syriac yudh-syriac by taw_yudh-syriac;
+    sub taw-syriac.fina yudh-syriac by taw_yudh-syriac.fina;
+} TawYudhLigature ;
+
+lookup TawAlaphLigatures {
+  lookupflag IgnoreMarks ;
+    sub taw_alaph-syriac      from [ taw_alaph-syriac.triangle      taw_alaph-syriac.twined];
+    sub taw_alaph-syriac.fina from [ taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined];
+} TawAlaphLigatures ;
+
+} # End of Idiqlat|Purattu cv
+
 # Sadhe Nun U+0728 U+0722 cv55 (marks position)
+# Used in East Syriac, West Syriac, Estrangela
 lookup SadheNunLigature {
   lookupflag IgnoreMarks ;
     sub sadhe-syriac nun-syriac by sadhe_nun-syriac ;
@@ -256,18 +305,8 @@ lookup SadheNunLigature {
 } SadheNunLigature ;
 
 # Taw Alaph U+072C U+0710 cv59=2 (ligature does not form in presense of marks)
-lookup TawAlaphLigatures {
-  lookupflag IgnoreMarks ;
-    sub taw_alaph-syriac      from [ taw_alaph-syriac.triangle      taw_alaph-syriac.twined];
-    sub taw_alaph-syriac.fina from [ taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined];
-} TawAlaphLigatures ;
+# Used in East Syriac and Estrangela
 
-# Taw Yudh U+072C U+071D cv60=1 (ligature forms but mark is in wrong position)
-lookup TawYudhLigature {
-  lookupflag IgnoreMarks ;
-    sub taw-syriac yudh-syriac by taw_yudh-syriac;
-    sub taw-syriac.fina yudh-syriac by taw_yudh-syriac.fina;
-} TawYudhLigature ;
 
 #NB: Lookup names ending in "TT" are used only by TypeTuner
 
@@ -295,9 +334,10 @@ feature ccmp {  # Glyph Composition/Decomposition
     script syrc;
         lookup GPreDecompose;
         lookup SeyameChain;
-        lookup r1;
-        lookup r2;
+        lookup LamAlaphLig;
+        lookup AlaphLigs;
         lookup RukkakhaSquare;
+
 } ccmp ;
 
 # HB PAUSE
@@ -355,8 +395,8 @@ feature med2 {  # Medial Forms
 
 feature rlig {  # Ligatures  -- we use this because liga is done in the same pass as cvXX
     script syrc;
-        lookup GRishSeyame;
-        lookup taw_alaph;
+        lookup RishSeyame;
+        lookup TawAlaph;
 } rlig ;
 
 
@@ -379,7 +419,7 @@ feature rlig {  # Ligatures  -- we use this because liga is done in the same pas
 
 feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cvXX
     script syrc;
-        lookup r3;
+        lookup DalathRukkakha;
 } liga ;
 
 # HB PAUSE
@@ -387,6 +427,9 @@ feature liga {  # Ligatures  -- we use this because liga is done in the same pas
 
 
 #--- Character Variants ---
+
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 or f.find("Purattu") != -1; {
 
 feature cv15 {  # Character Variant 15
     cvParameters {
@@ -405,6 +448,8 @@ feature cv15 {  # Character Variant 15
     } ;
     script syrc;  # Syriac
         lookup KaphAlternate;
+      # Force other languages to include Syriac script lookups:
+      language SYRN ;
 } cv15 ;
 
 feature cv17 {  # Character Variant 17
@@ -424,6 +469,8 @@ feature cv17 {  # Character Variant 17
     } ;
     script syrc;  # Syriac
         lookup MimAlternate;
+      # Force other languages to include Syriac script lookups:
+      language SYRN ;
 } cv17 ;
 
 feature cv18 {  # Character Variant 18
@@ -443,6 +490,8 @@ feature cv18 {  # Character Variant 18
     } ;
     script syrc;  # Syriac
         lookup NunAlternate;
+      # Force other languages to include Syriac script lookups:
+      language SYRN ;
 } cv18 ;
 
 feature cv38 {  # Character Variant 38
@@ -462,7 +511,11 @@ feature cv38 {  # Character Variant 38
     } ;
     script syrc;  # Syriac
         lookup HeYudhLigature;
+      # Force other languages to include Syriac script lookups:
+      language SYRN ;
 } cv38 ;
+
+}  #end do - Idiqlat|Purattu
 
 feature cv55 {  # Character Variant 55
     cvParameters {
@@ -483,6 +536,9 @@ feature cv55 {  # Character Variant 55
         lookup SadheNunLigature;
 } cv55 ;
 
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 or f.find("Purattu") != -1; {
+
 feature cv59 {  # Character Variant 59
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Taw Alaph"    ; };
@@ -501,7 +557,13 @@ feature cv59 {  # Character Variant 59
     } ;
     script syrc;  # Syriac
         lookup TawAlaphLigatures;
+      # Force other languages to include Syriac script lookups:
+      language SYRN ;
 } cv59 ;
+}  #end do - Idiqlat|Purattu
+
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 or f.find("Purattu") != -1; {
 
 feature cv60 {  # Character Variant 60
     cvParameters {
@@ -520,5 +582,22 @@ feature cv60 {  # Character Variant 60
     } ;
     script syrc;  # Syriac
         lookup TawYudhLigature;
+      # Force other languages to include Syriac script lookups:
+      language SYRN ;
 } cv60 ;
+}  #end do - Idiqlat|Purattu
+
+#---  aalt feature (pass 10) ---
+
+feature aalt {
+# automatic
+feature ccmp;
+feature cv15; # Idiqlat|Purattu
+feature cv17; # Idiqlat|Purattu
+feature cv18; # Idiqlat|Purattu
+feature cv38; # Idiqlat|Purattu
+feature cv55;
+feature cv59; # Idiqlat|Purattu
+feature cv60; # Idiqlat|Purattu
+} aalt;
 

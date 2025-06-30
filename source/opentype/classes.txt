@@ -66,3 +66,61 @@ dotbelowleftcomb];
 
 # Not in font: alefbelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar sukun-ar madda-ar hamzaabove-ar hamzabelow-ar 
 @AllCombining = [tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac barrekh-syriac dotaboveleftcomb circumflexbelowcomb rukkakha-syriac.square];
+
+# ====
+# These classes cannot have more than one diacritic from a class on the same base
+# ====
+
+# 0730 0733 0736 073A 073D - Syriac above Greek
+@diac1 = [pthahaabove-syriac zqaphaabove-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac] ;
+
+# 0731 0734 0737 073B 073E - Syriac below Greek
+@diac2 = [pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac hbasabelow-syriac esasabelow-syriac];
+
+# 0740 0749 074A - Syriac other
+@diac3 = [femininedot-syriac music-syriac barrekh-syriac];
+
+# 0732 0735 073F - Syriac dotted class above
+@diac4 = [pthahadotted-syriac zqaphadotted-syriac rwaha-syriac];
+
+# 0738 0739 073C - Syriac dotted class below
+@diac5 = [zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaEsasadotted-syriac];
+
+# 0741 030A - Syriac qushshaya
+@diac6 = [qushshaya-syriac ringcomb];
+
+# 0742 0325 - Syriac rukkakha
+@diac7 = [rukkakha-syriac rukkakha-syriac.square ringbelowcomb];
+
+# 0747 0303 0304 - Syriac line type above
+@diac8 = [obliquelineabove-syriac tildecomb macroncomb];
+
+# 0748 032D 032E 0330 0331 - Syriac line type below
+@diac9 = [obliquelinebelow-syriac circumflexbelowcomb brevebelowcomb tildebelowcomb macronbelowcomb];
+
+# 0308 - Syriac seyame above
+@diac10 = [dieresiscomb];
+
+# 0324 - OpenType is wrong, it says 0304  - Syriac seyame below
+@diac11 = [dieresisbelowcomb];
+
+# 0307 - Syriac dot above
+@diac12 = [dotaccentcomb];
+
+# 0323 - Syriac dot below
+@diac13 = [dotbelowcomb];
+
+# 0743 - Syriac two dots above
+@diac14 = [twodotsverticalabove-syriac];
+
+# 0744 - Syriac two dots below
+@diac15 = [twodotsverticalbelow-syriac];
+
+# 0745 - Syriac three dots above
+@diac16 = [threedotsabove-syriac];
+
+# 0746 - Syriac three dots below
+@diac17 = [threedotsbelow-syriac];
+
+# not listed minusbelowcomb dotaboveleftcomb dotbelowleftcomb
+

@@ -23,7 +23,7 @@
   <key>openTypeNameDescription</key>
   <string>Font family for the East Syriac script</string>
   <key>openTypeNameDesigner</key>
-  <string>Sargon Hasso and Lorna Evans</string>
+  <string>Esho Marcus and Becca Spalinger</string>
   <key>openTypeNameDesignerURL</key>
   <string>https://software.sil.org/</string>
   <key>openTypeNameLicense</key>
@@ -83,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL Global: Idiqlat Light: 2025</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.101</string>
+  <string>Version 1.105</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -177,7 +177,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>101</integer>
+  <integer>105</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>

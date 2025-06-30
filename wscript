@@ -21,7 +21,7 @@ ftmlTest('tools/ftml-smith.xsl')
 # APs to omit:
 omitaps = '--omitaps "L,O,R"'
 
-designspace('source/Idiqlat.designspace',
+designspace('source/IdiqlatTestA.designspace',
     instanceparams='-l ' + genout + '${DS:FILENAME_BASE}_createinstances.log',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
