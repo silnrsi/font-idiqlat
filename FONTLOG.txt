@@ -17,8 +17,8 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-### xx xxx 2025 (WSTech team) Idiqlat Version 1.xxx
-- List of changes
+### 2025 Jun 30 (WSTech team) Idiqlat TestA Version 1.105
+- New test version of font (not for distribution)
 
 Information for Contributors
 ----------------------------
