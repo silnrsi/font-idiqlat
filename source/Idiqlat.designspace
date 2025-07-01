@@ -6,6 +6,7 @@
 <designspace format="3">
     <axes>
         <axis default="400.0" maximum="800.0" minimum="200.0" name="weight" tag="wght">
+            <map input="200.0" output="300.0" /> <!-- ExtraLight -->
             <map input="300.0" output="350.0" /> <!-- Light -->
             <map input="400.0" output="400.0" /> <!-- Regular -->
             <labelname xml:lang="en">Weight</labelname>
@@ -20,7 +21,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Idiqlat" filename="masters/Idiqlat-Light.ufo" name="Idiqlat Light" stylename="Light">
+        <source familyname="Idiqlat" filename="masters/Idiqlat-ExtraLight.ufo" name="Idiqlat ExtraLight" stylename="ExtraLight">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -45,11 +46,28 @@
 
         <!-- Idiqlat Light -->
         <instance       familyname="Idiqlat"
+                          filename="instances/Idiqlat-ExtraLight.ufo"
+                              name="Idiqlat ExtraLight"
+                stylemapfamilyname="Idiqlat ExtraLight"
+                 stylemapstylename="regular"
+                         stylename="ExtraLight"
+                postscriptfontname="Idiqlat-ExtraLight">
+            <location>
+                <dimension name="weight" xvalue="300.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info/>
+            <kerning/>
+        </instance>
+        <!-- Idiqlat Light -->
+ <!--
+        <instance       familyname="Idiqlat"
                           filename="instances/Idiqlat-Light.ufo"
                               name="Idiqlat Light"
                 stylemapfamilyname="Idiqlat Light"
                  stylemapstylename="regular"
-                         stylename="Light"
+                         stylename="Idiqlat"
                 postscriptfontname="Idiqlat-Light">
             <location>
                 <dimension name="weight" xvalue="350.000000" />
@@ -59,7 +77,7 @@
             <info/>
             <kerning/>
         </instance>
-
+ -->
         <!-- Idiqlat Regular -->
         <instance       familyname="Idiqlat"
                           filename="instances/Idiqlat-Regular.ufo"
