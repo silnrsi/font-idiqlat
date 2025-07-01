@@ -7,7 +7,7 @@
   <anchor x="50" y="-390" name="belowleft"/>
   <outline>
     <component base="dalathrishDotless-syriac.fina"/>
-    <component base="_LrgSquareDot"/>
-    <component base="rwaha-syriac" xOffset="467" yOffset="-335"/>
+    <component base="_LrgSquareDot" xOffset="-100"/>
+    <component base="rwaha-syriac" xOffset="367" yOffset="-335"/>
   </outline>
 </glyph>

@@ -6,8 +6,8 @@
   <anchor x="282" y="-390" name="below"/>
   <anchor x="50" y="-390" name="belowleft"/>
   <outline>
-    <component base="_LrgSquareDot"/>
+    <component base="_LrgSquareDot" xOffset="-130"/>
     <component base="dalathrishDotless-syriac"/>
-    <component base="rwaha-syriac" xOffset="467" yOffset="-335"/>
+    <component base="rwaha-syriac" xOffset="337" yOffset="-335"/>
   </outline>
 </glyph>
