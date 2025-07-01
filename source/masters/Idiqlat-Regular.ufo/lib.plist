@@ -124,6 +124,15 @@
     <string>seven</string>
     <string>eight</string>
     <string>nine</string>
+    <string>one.latn</string>
+    <string>two.latn</string>
+    <string>three.latn</string>
+    <string>four.latn</string>
+    <string>five.latn</string>
+    <string>six.latn</string>
+    <string>seven.latn</string>
+    <string>eight.latn</string>
+    <string>nine.latn</string>
     <string>colon</string>
     <string>semicolon</string>
     <string>less</string>
@@ -410,6 +419,10 @@
     <string>pe-syriac.init</string>
     <string>pe-syriac.medi</string>
     <string>pe-syriac.fina</string>
+    <string>pe_brevebelowcomb-syriac</string>
+    <string>pe_brevebelowcomb-syriac.init</string>
+    <string>pe_brevebelowcomb-syriac.medi</string>
+    <string>pe_brevebelowcomb-syriac.fina</string>
     <string>sadhe-syriac</string>
     <string>sadhe-syriac.fina</string>
     <string>qaph-syriac</string>
@@ -974,6 +987,14 @@
     <string>uni0726.init</string>
     <key>pe-syriac.medi</key>
     <string>uni0726.medi</string>
+    <key>pe_brevebelowcomb-syriac</key>
+    <string>uni0726032E</string>
+    <key>pe_brevebelowcomb-syriac.fina</key>
+    <string>uni0726032E.fina</string>
+    <key>pe_brevebelowcomb-syriac.init</key>
+    <string>uni0726032E.init</string>
+    <key>pe_brevebelowcomb-syriac.medi</key>
+    <string>uni0726032E.medi</string>
     <key>popdirectionalformatting</key>
     <string>uni202C</string>
     <key>popdirectionalisolate</key>

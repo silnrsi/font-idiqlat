@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pe_brevebelowcomb-syriac.init" format="2">
+  <advance width="862"/>
+  <anchor x="460" y="975" name="above"/>
+  <anchor x="50" y="975" name="aboveleft"/>
+  <anchor x="431" y="-373" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
+  <outline>
+    <component base="pe-syriac.init"/>
+    <component base="brevebelowcomb" xOffset="144" yOffset="0"/>
+  </outline>
+</glyph>

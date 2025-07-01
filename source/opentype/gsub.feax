@@ -192,6 +192,17 @@ lookup DalathRukkakha { # 0715 0742
   }
 } DalathRukkakha ;
 
+# pe_brevebelowcomb-syriac.init
+lookup PeBreveBelow { # 0715 0742
+  lookupflag 0;
+  ifinfo(familyName, "Idiqlat|Purattu") {
+    sub pe-syriac brevebelowcomb by pe_brevebelowcomb-syriac ;
+    sub pe-syriac.init brevebelowcomb by pe_brevebelowcomb-syriac.init ;
+    sub pe-syriac.medi brevebelowcomb by pe_brevebelowcomb-syriac.medi ;
+    sub pe-syriac.fina brevebelowcomb by pe_brevebelowcomb-syriac.fina ;
+  }
+} PeBreveBelow ;
+
 # Used in East Syriac, West Syriac, Estrangela
 lookup RishSeyame { # 072A 0308
     sub rish-syriac dieresiscomb by  rish_dieresiscomb-syriac ;
@@ -397,6 +408,7 @@ feature rlig {  # Ligatures  -- we use this because liga is done in the same pas
     script syrc;
         lookup RishSeyame;
         lookup TawAlaph;
+        lookup PeBreveBelow;
 } rlig ;
 
 
