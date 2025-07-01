@@ -3,8 +3,9 @@
 <ftml version="1.0">
   <head>
     <fontscale>400</fontscale>
-   <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-   <fontsrc label="ESM-Atour">url(../references/EASTSM-Atourmodified.TTF)</fontsrc>
+    <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
+    <fontsrc label="ESM-Atour">url(../references/EASTSM-Atourmodified.TTF)</fontsrc>
+    <fontsrc label="Noto">url(../references/NotoSansSyriacEastern-Regular.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Idiqlat-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'cv15' 1" name="cv15_1"/>
@@ -194,10 +195,6 @@
       <comment>Right joining</comment>
       <string>\u0715\u0738 - - \u0712\u0715\u0738</string>
     </test>
-    <test label="0715 0738 0303" rtl="True">
-      <comment>Right joining</comment>
-      <string>\u0715\u0738\u0303 - - \u0712\u0715\u0738\u0303</string>
-    </test>
     <test label="0715 0739" rtl="True">
       <comment>Right joining</comment>
       <string>\u0715\u0739 - - \u0712\u0715\u0739</string>
@@ -209,6 +206,22 @@
     <test label="0715 0742" rtl="True">
       <comment>Right joining</comment>
       <string>\u0715\u0742 - - \u0712\u0715\u0742</string>
+    </test>
+    <test label="0715 0742 0732" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0715\u0742\u0732 - - \u0712\u0715\u0742\u0732</string>
+    </test>
+    <test label="0715 0742 0735" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0715\u0742\u0735 - - \u0712\u0715\u0742\u0735</string>
+    </test>
+    <test label="0715 0742 0738" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0715\u0742\u0738 - - \u0712\u0715\u0742\u0738</string>
+    </test>
+    <test label="0715 0742 0739" rtl="True">
+      <comment>Right joining</comment>
+      <string>\u0715\u0742\u0739 - - \u0712\u0715\u0742\u0739</string>
     </test>
     <test label="0715 0747" rtl="True">
       <comment>Right joining</comment>
@@ -289,14 +302,6 @@
     <test label="0718 073C 0308" rtl="True">
       <comment>Right joining</comment>
       <string>\u0718\u073C\u0308 - - \u0712\u0718\u073C\u0308</string>
-    </test>
-    <test label="0718 073C 0735" rtl="True">
-      <comment>Right joining</comment>
-      <string>\u0718\u073C\u0735 - - \u0712\u0718\u073C\u0735</string>
-    </test>
-    <test label="0718 073C 0738" rtl="True">
-      <comment>Right joining</comment>
-      <string>\u0718\u073C\u0738 - - \u0712\u0718\u073C\u0738</string>
     </test>
     <test label="0718 073F" rtl="True">
       <comment>Right joining</comment>
@@ -418,10 +423,11 @@
       <string>\u071C\u0739\u0308 \u071C\u0739\u0308\u071C\u0739\u0308\u071C\u0739\u0308</string>
     </test>
     <test label="071D 0711" rtl="True">
-      <comment>What combinations can occur?</comment>
-      <string>\u071D\u0711 \u071D\u0711\u071D\u0711\u071D\u0711</string>
+      <comment>Initial only</comment>
+      <string>\u071D\u0711 \u071D\u0711\u071D</string>
     </test>
     <test label="071D 0308" rtl="True">
+      <comment>Fix anchor on final</comment>
       <string>\u071D\u0308 \u071D\u0308\u071D\u0308\u071D\u0308</string>
     </test>
     <test label="071D 0308 0735" rtl="True">
@@ -491,7 +497,7 @@
       <string>\u071F\u0330\u0308\u0739 \u071F\u0330\u0308\u0739\u071F\u0330\u0308\u0739\u071F\u0330\u0308\u0739</string>
     </test>
     <test label="071F 0330 0732" rtl="True">
-      <string>\u071F\u0330\u0735 \u071F\u0330\u0735\u071F\u0330\u0735\u071F\u0330\u0735</string>
+      <string>\u071F\u0330\u0732 \u071F\u0330\u0732\u071F\u0330\u0732\u071F\u0330\u0732</string>
     </test>
     <test label="071F 0330 0735" rtl="True">
       <string>\u071F\u0330\u0735 \u071F\u0330\u0735\u071F\u0330\u0735\u071F\u0330\u0735</string>
@@ -506,7 +512,8 @@
       <string>\u071F\u0330\u0739\u0308 \u071F\u0330\u0739\u0308\u071F\u0330\u0739\u0308\u071F\u0330\u0739\u0308</string>
     </test>
     <test label="071F 0732" rtl="True">
-      <string>\u071F\u0732 \u071F\u0732\u071F\u0732\u071F\u0732</string>
+      <comment>Does not occur on final</comment>
+      <string>\u071F\u0732 \u071F\u0732\u071F\u0732\u071F</string>
     </test>
     <test label="071F 0735" rtl="True">
       <string>\u071F\u0735 \u071F\u0735\u071F\u0735\u071F\u0735</string>
@@ -924,7 +931,7 @@
       <string>\u071F\u0330\u0308\u0739 \u071F\u0330\u0308\u0739\u071F\u0330\u0308\u0739\u071F\u0330\u0308\u0739</string>
     </test>
     <test label="071F 0330 0732" stylename="cv15_1" rtl="True">
-      <string>\u071F\u0330\u0735 \u071F\u0330\u0735\u071F\u0330\u0735\u071F\u0330\u0735</string>
+      <string>\u071F\u0330\u0732 \u071F\u0330\u0732\u071F\u0330\u0732\u071F\u0330\u0732</string>
     </test>
     <test label="071F 0330 0735" stylename="cv15_1" rtl="True">
       <string>\u071F\u0330\u0735 \u071F\u0330\u0735\u071F\u0330\u0735\u071F\u0330\u0735</string>
@@ -1070,27 +1077,31 @@
     </test>
     <test label="0720 0710">
       <comment>lamadh-syriac alaph-syriac</comment>
-      <string>\u0720\u0710 \u0720\u0733\u0710 \u0720\u0734\u0710 \u0720\u0733\u0734\u0710</string>
+      <string>\u0720\u0710 \u0720\u0308\u0739\u0710 \u071F\u0720\u0308\u0739\u0710</string>
     </test>
     <test label="0720 0710">
-      <comment>lamadh-syriac alaph-syriac zqaphadotted-syriac</comment>
-      <string>\u0720\u0710\u0735 \u0720\u0733\u0710\u0735 \u0720\u0734\u0710\u0735 \u0720\u0733\u0734\u0710\u0735</string>
+      <comment>lamadh-syriac alaph-syriac</comment>
+      <string>\u0720\u0710\u0735 \u0720\u0735\u0710\u0735 \u0720\u0738\u0710\u0735 \u0720\u0735\u0738\u0710\u0735</string>
     </test>
     <test label="0720 0710">
       <comment>lamadh-syriac alaph-syriac waw-syriac</comment>
-      <string>\u0720\u0710\u0718 \u0720\u0733\u0710\u0718 \u0720\u0734\u0710\u0718 \u0720\u0733\u0734\u0710\u0718</string>
+      <string>\u0720\u0710\u0718 \u0720\u0735\u0710\u0718 \u0720\u0738\u0710\u0718 \u0720\u0735\u0738\u0710\u0718</string>
     </test>
     <test label="0720 0710">
       <comment>lamadh-syriac alaph-syriac yudh-syriac</comment>
-      <string>\u0720\u0710\u071D \u0720\u0733\u0710\u071D \u0720\u0734\u0710\u071D \u0720\u0733\u0734\u0710\u071D</string>
+      <string>\u0720\u0710\u071D \u0720\u0735\u0710\u071D \u0720\u0738\u0710\u071D \u0720\u0735\u0738\u0710\u071D</string>
     </test>
     <test label="0720 0710">
-      <comment>lamadh-syriac alaph-syriac hbasaEsasadotted-syriac</comment>
-      <string>\u0720\u0710\u073c \u0720\u0733\u0710\u073c \u0720\u0734\u0710\u073c \u0720\u0733\u0734\u0710\u073c</string>
+      <comment>lamadh-syriac alaph-syriac</comment>
+      <string>\u0720\u0710\u073c \u0720\u0735\u0710\u073c \u0720\u0738\u0710\u073c \u0720\u0735\u0738\u0710\u073c</string>
     </test>
     <test label="0720 0710">
-      <comment>lamadh-syriac alaph-syriac rwaha-syriac</comment>
-      <string>\u0720\u0710\u073f \u0720\u0733\u0710\u073f \u0720\u0734\u0710\u073f \u0720\u0733\u0734\u0710\u073f</string>
+      <comment>lamadh-syriac alaph-syriac</comment>
+      <string>\u0720\u0710\u073f \u0720\u0735\u0710\u073f \u0720\u0738\u0710\u073f \u0720\u0735\u0738\u0710\u073f</string>
+    </test>
+    <test label="0720 0710 0732">
+      <comment>lamadh-syriac alaph-syriac </comment>
+      <string>\u0720\u0710\u0732 \u0712\u0732\u0720\u0710\u0732</string>
     </test>
     <test label="U+0728 U+0722">
       <comment>sadhe_nun-syriac</comment>
@@ -1159,6 +1170,21 @@
     <test label="U+072C U+071D" stylename="cv60_1">
       <comment>taw_yudh-syriac</comment>
       <string>\u072C\u0732\u072a\u072C\u0739\u071D\u0735</string>
+    </test>
+</testgroup>
+
+  <testgroup label="yudh combinations">
+     <test label="071D" rtl="True">
+      <comment>isolate</comment>
+      <string>\u071D</string>
+    </test>
+     <test label="071D 071F" rtl="True">
+      <comment>init, medi, fina</comment>
+      <string>\u071D\u071F\u071D\u071F\u071D\u071F</string>
+    </test>
+     <test label="071D 0720" rtl="True">
+      <comment>init, medi, fina</comment>
+      <string>\u071D\u0720\u071D\u0720\u071D\u0720</string>
     </test>
 </testgroup>
 
