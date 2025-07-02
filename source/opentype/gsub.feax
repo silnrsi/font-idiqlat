@@ -80,10 +80,10 @@ lookup FontCheck {
 
 # Replace Syriac punctuation glyphs with Latin ones:
 
-# lookup LatinPunctuation {
-#  lookupflag 0 ;
-#    sub @cno_latn by @c_latn ;
-# } LatinPunctuation ;
+lookup LatinPunctuation {
+  lookupflag 0 ;
+    sub @cno_latn by @c_latn ;
+} LatinPunctuation ;
 
 # HB PAUSE
 
@@ -250,6 +250,22 @@ lookup RukkakhaSquare {
   sub @TakeRukkakhaSquare rukkakha-syriac' lookup square1;
 } RukkakhaSquare;
 
+# This is needed because of the isolate form not looking like a final form, and this is viewed as a final even since it's after a right joining character
+lookup cv_fina {
+  lookupflag RightToLeft;
+      sub kaph-syriac   by  kaph-syriac.cv15 ;
+      sub mim-syriac    by  mim-syriac.cv17 ;
+      sub nun-syriac    by  nun-syriac.cv18 ;
+} cv_fina ;
+
+lookup RightJoinFina {
+# GSUB lookup 14, type 16 (Chaining Context)
+  lookupflag IgnoreMarks ;
+  sub @RightJoining mim-syriac' lookup cv_fina;
+  sub @RightJoining nun-syriac' lookup cv_fina;
+  sub @RightJoining kaph-syriac' lookup cv_fina;
+} RightJoinFina;
+
 #---  calt feature  ---
 
 # Language-independent shaping
@@ -340,15 +356,15 @@ lookup SadheNunLigature {
 feature ccmp {  # Glyph Composition/Decomposition
     # Same for latin & syriac:
         lookup FontCheck;
-#    script latn;
-#        lookup LatinPunctuation;
+    script latn;
+        lookup LatinPunctuation;
     script syrc;
         lookup GPreDecompose;
         lookup SeyameChain;
         lookup LamAlaphLig;
         lookup AlaphLigs;
         lookup RukkakhaSquare;
-
+        lookup RightJoinFina;
 } ccmp ;
 
 # HB PAUSE

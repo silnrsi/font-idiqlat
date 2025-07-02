@@ -518,6 +518,16 @@ markClass femininedot-syriac <anchor 68 -186> @_aboveleft;
 # AP: _belowleft
 markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 
+# AP: L
+@L = [eight five four nine seven six three two zero one];
+# baseClass [eight five four nine seven six three two zero] <anchor 468 -75> @L;
+# baseClass one <anchor 450 -75> @L;
+
+# AP: U
+@U = [eight five four nine seven six three two zero one];
+# baseClass [eight five four nine seven six three two zero] <anchor 468 1147> @U;
+# baseClass one <anchor 450 1147> @U;
+
 # AP: above_1
 @above_1 = [he_yudh-syriac he_yudh-syriac.fina lamadh_alaph-syriac lamadh_alaph-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle taw_alaph-syriac.fina.twined taw_alaph-syriac.twined taw_yudh-syriac taw_yudh-syriac.fina];
 # baseClass he_yudh-syriac <anchor 660 765> @above_1;
@@ -738,10 +748,11 @@ lookup FontCheck {
 } FontCheck;
 
 # Replace Syriac punctuation glyphs with Latin ones:
-# lookup LatinPunctuation {
-#  lookupflag 0 ;
-#    sub @cno_latn by @c_latn ;
-# } LatinPunctuation ;
+lookup LatinPunctuation {
+    lookupflag 0;
+    sub @cno_latn by @c_latn;
+} LatinPunctuation;
+
 # HB PAUSE
 #---  fina feature  ---
 lookup ltrFina {
@@ -885,6 +896,22 @@ lookup RukkakhaSquare {
     sub @TakeRukkakhaSquare rukkakha-syriac' lookup square1;
 } RukkakhaSquare;
 
+# This is needed because of the isolate form not looking like a final form, and this is viewed as a final even since it's after a right joining character
+lookup cv_fina {
+    lookupflag RightToLeft;
+    sub kaph-syriac by kaph-syriac.cv15;
+    sub mim-syriac by mim-syriac.cv17;
+    sub nun-syriac by nun-syriac.cv18;
+} cv_fina;
+
+lookup RightJoinFina {
+    # GSUB lookup 14, type 16 (Chaining Context)
+    lookupflag IgnoreMarks;
+    sub @RightJoining mim-syriac' lookup cv_fina;
+    sub @RightJoining nun-syriac' lookup cv_fina;
+    sub @RightJoining kaph-syriac' lookup cv_fina;
+} RightJoinFina;
+
 #---  calt feature  ---
 # Language-independent shaping
 # HB PAUSE
@@ -960,14 +987,15 @@ feature ccmp {
     # Glyph Composition/Decomposition
     # Same for latin & syriac:
     lookup FontCheck;
-    #    script latn;
-    #        lookup LatinPunctuation;
+    script latn;
+    lookup LatinPunctuation;
     script syrc;
     lookup GPreDecompose;
     lookup SeyameChain;
     lookup LamAlaphLig;
     lookup AlaphLigs;
     lookup RukkakhaSquare;
+    lookup RightJoinFina;
 } ccmp;
 
 # HB PAUSE
