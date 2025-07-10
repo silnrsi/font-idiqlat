@@ -29,8 +29,8 @@
 #  Need to revisit Right joining because original VOLT uses a mixture, see RightJoiningXn and RightJoiningXr
 #**********************************
 
-@RightJoiningFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina];
-@RightJoiningIsol = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac];
+@RightJoiningFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina sadhe_nun-syriac.fina];
+@RightJoiningIsol = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac sadhe_nun-syriac];
 @RightJoining = [@RightJoiningIsol @RightJoiningFina];
 
 @AllBase = [@DualJoining @RightJoining];
@@ -49,7 +49,7 @@
 # dalath, kaph, and pe are not in the group (intentionally?)
 @TakeRukkakhaSquare = [beth-syriac beth-syriac.init beth-syriac.medi beth-syriac.fina gamal-syriac gamal-syriac.init gamal-syriac.medi gamal-syriac.fina gamalgarshuni-syriac gamalgarshuni-syriac.init gamalgarshuni-syriac.medi gamalgarshuni-syriac.fina taw-syriac taw-syriac.fina];
 
-@TypeLigature = [lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina];
+# @TypeLigature = [lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina];
 
 # Ligatures
 

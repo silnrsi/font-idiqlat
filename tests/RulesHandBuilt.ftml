@@ -176,6 +176,10 @@
       <comment>taw_yudh-syriac</comment>
       <string>\u072C\u0732\u072a\u072C\u0739\u071D\u0735</string>
     </test>
+    <test label="U+0715 U+0721">
+      <comment>dalath-syriac mim-syriac</comment>
+      <string>\u072C\u0715\u0732\u0721\u0732</string>
+    </test>
 </testgroup>
 
 <testgroup label="Ligature Words with diacritics from aii">

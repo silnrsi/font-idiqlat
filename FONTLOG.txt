@@ -55,6 +55,9 @@ N: Becca Spalinger and Lorna Evans
 W: https://github.com/silnrsi/font-idiqlat
 D: SIL Designers and Engineers
 
-The Idiqlat project is maintained by SIL Global.
+The Idiqlat project is maintained by SIL Global, a global,
+faith-based nonprofit that works with local communities around the world
+to develop language solutions that expand possibilities for a better life.
 
-For more information please visit SIL Global's website: https://software.sil.org/idiqlat/
+For more information or support please visit:
+https://software.sil.org/idiqlat/

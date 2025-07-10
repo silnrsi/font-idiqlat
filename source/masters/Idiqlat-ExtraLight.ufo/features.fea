@@ -572,8 +572,8 @@ markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 #**********************************
 #  Need to revisit Right joining because original VOLT uses a mixture, see RightJoiningXn and RightJoiningXr
 #**********************************
-@RightJoiningFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina];
-@RightJoiningIsol = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac];
+@RightJoiningFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina sadhe_nun-syriac.fina];
+@RightJoiningIsol = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac sadhe_nun-syriac];
 @RightJoining = [@RightJoiningIsol @RightJoiningFina];
 @AllBase = [@DualJoining @RightJoining];
 # Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar sukun-ar madda-ar hamzaabove-ar alefbelow-ar
@@ -586,7 +586,7 @@ markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 # Added gamalgarshuni-syriac kaph and pe be added to this group?
 # dalath, kaph, and pe are not in the group (intentionally?)
 @TakeRukkakhaSquare = [beth-syriac beth-syriac.init beth-syriac.medi beth-syriac.fina gamal-syriac gamal-syriac.init gamal-syriac.medi gamal-syriac.fina gamalgarshuni-syriac gamalgarshuni-syriac.init gamalgarshuni-syriac.medi gamalgarshuni-syriac.fina taw-syriac taw-syriac.fina];
-@TypeLigature = [lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina];
+# @TypeLigature = [lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina];
 # Ligatures
 @LigatureOptional = [sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina he_yudh-syriac he_yudh-syriac.fina taw_yudh-syriac taw_yudh-syriac.fina taw_alaph-syriac.triangle taw_alaph-syriac.fina.triangle taw_alaph-syriac.twined taw_alaph-syriac.fina.twined];
 # Add in U0742Square
@@ -755,7 +755,7 @@ lookup SeyameChain {
     # GSUB lookup 18, type 11 (Single)
     # Used in East Syriac, West Syriac, Estrangela
     # GSUB lookup 3, type 16 (Chaining Context)
-    #end do - Idiqlat|Purattu
+    #end do - Idiqlat|EastSyriacMarcusNew
     lookup LamAlaphLig_Alaph {
         lookupflag 0;
         sub alaph-syriac by alaph-syriac.ccmp;
@@ -886,7 +886,7 @@ lookup RightJoinFina {
     # Used in East Syriac only
     # Taw Yudh U+072C U+071D cv60=1 (ligature forms but mark is in wrong position)
     # Used in East Syriac only
-    # End of Idiqlat|Purattu cv
+    # End of Idiqlat|EastSyriacMarcusNew cv
     # Sadhe Nun U+0728 U+0722 cv55 (marks position)
     # Used in East Syriac, West Syriac, Estrangela
     lookup KaphAlternate {
@@ -927,6 +927,8 @@ lookup SadheNunLigature {
     lookupflag IgnoreMarks;
     sub sadhe-syriac nun-syriac by sadhe_nun-syriac;
     sub sadhe-syriac.fina nun-syriac by sadhe_nun-syriac.fina;
+    sub sadhe-syriac nun-syriac.cv18 by sadhe_nun-syriac;
+    sub sadhe-syriac.fina nun-syriac.cv18 by sadhe_nun-syriac.fina;
 } SadheNunLigature;
 
 # Taw Alaph U+072C U+0710 cv59=2 (ligature does not form in presense of marks)
@@ -1055,7 +1057,7 @@ feature liga {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|Purattu
+    #end do - Idiqlat|EastSyriacMarcusNew
         feature cv15 {
                 cvParameters {
                         FeatUILabelNameID {
@@ -1192,7 +1194,7 @@ feature cv55 {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|Purattu
+    #end do - Idiqlat|EastSyriacMarcusNew
         feature cv59 {
                 cvParameters {
                         FeatUILabelNameID {
@@ -1229,7 +1231,7 @@ feature cv55 {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|Purattu
+    #end do - Idiqlat|EastSyriacMarcusNew
     #---  aalt feature (pass 10) ---
         feature cv60 {
                 cvParameters {
@@ -1261,18 +1263,18 @@ feature aalt {
     # automatic
     feature ccmp;
     feature cv15;
-    # Idiqlat|Purattu
+    # Idiqlat|EastSyriacMarcusNew
     feature cv17;
-    # Idiqlat|Purattu
+    # Idiqlat|EastSyriacMarcusNew
     feature cv18;
-    # Idiqlat|Purattu
+    # Idiqlat|EastSyriacMarcusNew
     feature cv38;
-    # Idiqlat|Purattu
+    # Idiqlat|EastSyriacMarcusNew
     feature cv55;
     feature cv59;
-    # Idiqlat|Purattu
+    # Idiqlat|EastSyriacMarcusNew
     feature cv60;
-    # Idiqlat|Purattu
+    # Idiqlat|EastSyriacMarcusNew
 } aalt;
 
 #**********************************
