@@ -722,6 +722,14 @@
     <string>uni0712.init</string>
     <key>beth-syriac.medi</key>
     <string>uni0712.medi</string>
+    <key>bhethPersian-syriac</key>
+    <string>uni072D</string>
+    <key>bhethPersian-syriac.fina</key>
+    <string>uni072D.fina</string>
+    <key>bhethPersian-syriac.init</key>
+    <string>uni072D.init</string>
+    <key>bhethPersian-syriac.medi</key>
+    <string>uni072D.medi</string>
     <key>blank</key>
     <string>uni2423</string>
     <key>brevebelowcomb</key>
@@ -760,6 +768,14 @@
     <string>uni0716</string>
     <key>dalathrishDotless-syriac.fina</key>
     <string>uni0716.fina</string>
+    <key>dhalathPersian-syriac</key>
+    <string>uni072F</string>
+    <key>dhalathPersian-syriac.fina</key>
+    <string>uni072F.fina</string>
+    <key>dhalathPersian-syriac.init</key>
+    <string>uni072F.init</string>
+    <key>dhalathPersian-syriac.medi</key>
+    <string>uni072F.medi</string>
     <key>dieresisbelowcomb</key>
     <string>uni0324</string>
     <key>dieresiscomb</key>
@@ -800,6 +816,14 @@
     <string>uni073E</string>
     <key>euro</key>
     <string>Euro</string>
+    <key>feSogdian-syriac</key>
+    <string>uni074F</string>
+    <key>feSogdian-syriac.fina</key>
+    <string>uni074F.fina</string>
+    <key>feSogdian-syriac.init</key>
+    <string>uni074F.init</string>
+    <key>feSogdian-syriac.medi</key>
+    <string>uni074F.medi</string>
     <key>femininedot-syriac</key>
     <string>uni0740</string>
     <key>fi</key>
@@ -834,6 +858,14 @@
     <string>uni0714.init</string>
     <key>gamalgarshuni-syriac.medi</key>
     <string>uni0714.medi</string>
+    <key>ghamalPersian-syriac</key>
+    <string>uni072E</string>
+    <key>ghamalPersian-syriac.fina</key>
+    <string>uni072E.fina</string>
+    <key>ghamalPersian-syriac.init</key>
+    <string>uni072E.init</string>
+    <key>ghamalPersian-syriac.medi</key>
+    <string>uni072E.medi</string>
     <key>glottalstopmod</key>
     <string>uni02C0</string>
     <key>glottalstopreversedmod</key>
@@ -904,6 +936,14 @@
     <string>uni0640.quarter</string>
     <key>kashida-ar.threequarter</key>
     <string>uni0640.threequarter</string>
+    <key>khaphSogdian-syriac</key>
+    <string>uni074E</string>
+    <key>khaphSogdian-syriac.fina</key>
+    <string>uni074E.fina</string>
+    <key>khaphSogdian-syriac.init</key>
+    <string>uni074E.init</string>
+    <key>khaphSogdian-syriac.medi</key>
+    <string>uni074E.medi</string>
     <key>lamadh-syriac</key>
     <string>uni0720</string>
     <key>lamadh-syriac.fina</key>
@@ -1194,6 +1234,14 @@
     <string>uni200C</string>
     <key>zerowidthspace</key>
     <string>uni200B</string>
+    <key>zhainSogdian-syriac</key>
+    <string>uni074D</string>
+    <key>zhainSogdian-syriac.fina</key>
+    <string>uni074D.fina</string>
+    <key>zhainSogdian-syriac.init</key>
+    <string>uni074D.init</string>
+    <key>zhainSogdian-syriac.medi</key>
+    <string>uni074D.medi</string>
     <key>zlamadottedangular-syriac</key>
     <string>uni0739</string>
     <key>zlamadottedhorizontal-syriac</key>
