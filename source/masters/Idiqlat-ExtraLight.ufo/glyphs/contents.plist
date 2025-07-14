@@ -304,6 +304,14 @@
   <string>beth-syriac.init.glif</string>
   <key>beth-syriac.medi</key>
   <string>beth-syriac.medi.glif</string>
+  <key>bhethPersian-syriac</key>
+  <string>bhethP_ersian-syriac.glif</string>
+  <key>bhethPersian-syriac.fina</key>
+  <string>bhethP_ersian-syriac.fina.glif</string>
+  <key>bhethPersian-syriac.init</key>
+  <string>bhethP_ersian-syriac.init.glif</string>
+  <key>bhethPersian-syriac.medi</key>
+  <string>bhethP_ersian-syriac.medi.glif</string>
   <key>blank</key>
   <string>blank.glif</string>
   <key>braceleft</key>
@@ -384,6 +392,10 @@
   <string>dalathrishD_otless-syriac.fina.glif</string>
   <key>degree</key>
   <string>degree.glif</string>
+  <key>dhalathPersian-syriac</key>
+  <string>dhalathP_ersian-syriac.glif</string>
+  <key>dhalathPersian-syriac.fina</key>
+  <string>dhalathP_ersian-syriac.fina.glif</string>
   <key>dieresis</key>
   <string>dieresis.glif</string>
   <key>dieresisbelowcomb</key>
@@ -464,6 +476,14 @@
   <string>exclamdown.glif</string>
   <key>f</key>
   <string>f.glif</string>
+  <key>feSogdian-syriac</key>
+  <string>feS_ogdian-syriac.glif</string>
+  <key>feSogdian-syriac.fina</key>
+  <string>feS_ogdian-syriac.fina.glif</string>
+  <key>feSogdian-syriac.init</key>
+  <string>feS_ogdian-syriac.init.glif</string>
+  <key>feSogdian-syriac.medi</key>
+  <string>feS_ogdian-syriac.medi.glif</string>
   <key>femininedot-syriac</key>
   <string>femininedot-syriac.glif</string>
   <key>fi</key>
@@ -518,6 +538,14 @@
   <string>gamalgarshuni-syriac.medi.glif</string>
   <key>germandbls</key>
   <string>germandbls.glif</string>
+  <key>ghamalPersian-syriac</key>
+  <string>ghamalP_ersian-syriac.glif</string>
+  <key>ghamalPersian-syriac.fina</key>
+  <string>ghamalP_ersian-syriac.fina.glif</string>
+  <key>ghamalPersian-syriac.init</key>
+  <string>ghamalP_ersian-syriac.init.glif</string>
+  <key>ghamalPersian-syriac.medi</key>
+  <string>ghamalP_ersian-syriac.medi.glif</string>
   <key>glottalstopmod</key>
   <string>glottalstopmod.glif</string>
   <key>glottalstopreversedmod</key>
@@ -624,6 +652,14 @@
   <string>kashida-ar.quarter.glif</string>
   <key>kashida-ar.threequarter</key>
   <string>kashida-ar.threequarter.glif</string>
+  <key>khaphSogdian-syriac</key>
+  <string>khaphS_ogdian-syriac.glif</string>
+  <key>khaphSogdian-syriac.fina</key>
+  <string>khaphS_ogdian-syriac.fina.glif</string>
+  <key>khaphSogdian-syriac.init</key>
+  <string>khaphS_ogdian-syriac.init.glif</string>
+  <key>khaphSogdian-syriac.medi</key>
+  <string>khaphS_ogdian-syriac.medi.glif</string>
   <key>l</key>
   <string>l.glif</string>
   <key>lamadh-syriac</key>
@@ -1124,6 +1160,10 @@
   <string>zerowidthnonjoiner.glif</string>
   <key>zerowidthspace</key>
   <string>zerowidthspace.glif</string>
+  <key>zhainSogdian-syriac</key>
+  <string>zhainS_ogdian-syriac.glif</string>
+  <key>zhainSogdian-syriac.fina</key>
+  <string>zhainS_ogdian-syriac.fina.glif</string>
   <key>zlamadottedangular-syriac</key>
   <string>zlamadottedangular-syriac.glif</string>
   <key>zlamadottedhorizontal-syriac</key>

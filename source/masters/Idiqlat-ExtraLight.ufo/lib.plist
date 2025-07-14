@@ -657,6 +657,26 @@
     <string>two.dnom</string>
     <string>topleftHalfBracket</string>
     <string>toprightHalfBracket</string>
+    <string>bhethPersian-syriac</string>
+    <string>bhethPersian-syriac.init</string>
+    <string>bhethPersian-syriac.medi</string>
+    <string>bhethPersian-syriac.fina</string>
+    <string>ghamalPersian-syriac</string>
+    <string>ghamalPersian-syriac.init</string>
+    <string>ghamalPersian-syriac.medi</string>
+    <string>ghamalPersian-syriac.fina</string>
+    <string>dhalathPersian-syriac</string>
+    <string>dhalathPersian-syriac.fina</string>
+    <string>zhainSogdian-syriac</string>
+    <string>zhainSogdian-syriac.fina</string>
+    <string>khaphSogdian-syriac</string>
+    <string>khaphSogdian-syriac.init</string>
+    <string>khaphSogdian-syriac.medi</string>
+    <string>khaphSogdian-syriac.fina</string>
+    <string>feSogdian-syriac</string>
+    <string>feSogdian-syriac.init</string>
+    <string>feSogdian-syriac.medi</string>
+    <string>feSogdian-syriac.fina</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
@@ -772,10 +792,6 @@
     <string>uni072F</string>
     <key>dhalathPersian-syriac.fina</key>
     <string>uni072F.fina</string>
-    <key>dhalathPersian-syriac.init</key>
-    <string>uni072F.init</string>
-    <key>dhalathPersian-syriac.medi</key>
-    <string>uni072F.medi</string>
     <key>dieresisbelowcomb</key>
     <string>uni0324</string>
     <key>dieresiscomb</key>
@@ -1258,10 +1274,6 @@
     <string>uni074D</string>
     <key>zhainSogdian-syriac.fina</key>
     <string>uni074D.fina</string>
-    <key>zhainSogdian-syriac.init</key>
-    <string>uni074D.init</string>
-    <key>zhainSogdian-syriac.medi</key>
-    <string>uni074D.medi</string>
     <key>zlamadottedangular-syriac</key>
     <string>uni0739</string>
     <key>zlamadottedhorizontal-syriac</key>

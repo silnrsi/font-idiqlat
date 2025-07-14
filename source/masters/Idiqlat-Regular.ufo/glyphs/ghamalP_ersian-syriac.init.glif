@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ghamalPersian-syriac.init" format="2">
+  <advance width="996"/>
+  <anchor x="706" y="795" name="above"/>
+  <anchor x="50" y="795" name="aboveleft"/>
+  <anchor x="465" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
+  <outline>
+    <component base="gamal-syriac.init"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

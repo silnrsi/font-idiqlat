@@ -16,16 +16,16 @@
 # Next 4 should have 18 glyphs
 
 # was called @DualJoiningXn
-@DualLinkIsol = [beth-syriac gamal-syriac gamalgarshuni-syriac heth-syriac teth-syriac tethGarshuni-syriac yudh-syriac kaph-syriac lamadh-syriac mim-syriac nun-syriac semkath-syriac semkathFinal-syriac e-syriac pe-syriac pe_brevebelowcomb-syriac qaph-syriac shin-syriac];
+@DualLinkIsol = [beth-syriac gamal-syriac gamalgarshuni-syriac heth-syriac teth-syriac tethGarshuni-syriac yudh-syriac kaph-syriac lamadh-syriac mim-syriac nun-syriac semkath-syriac semkathFinal-syriac e-syriac pe-syriac pe_brevebelowcomb-syriac qaph-syriac shin-syriac bhethPersian-syriac ghamalPersian-syriac khaphSogdian-syriac feSogdian-syriac];
 
 # was called @DualJoiningXr
-@DualLinkFina = [beth-syriac.fina gamal-syriac.fina gamalgarshuni-syriac.fina heth-syriac.fina teth-syriac.fina tethGarshuni-syriac.fina yudh-syriac.fina kaph-syriac.fina lamadh-syriac.fina mim-syriac.fina nun-syriac.fina semkath-syriac.fina semkathFinal-syriac.fina e-syriac.fina pe-syriac.fina pe_brevebelowcomb-syriac.fina qaph-syriac.fina shin-syriac.fina];
+@DualLinkFina = [beth-syriac.fina gamal-syriac.fina gamalgarshuni-syriac.fina heth-syriac.fina teth-syriac.fina tethGarshuni-syriac.fina yudh-syriac.fina kaph-syriac.fina lamadh-syriac.fina mim-syriac.fina nun-syriac.fina semkath-syriac.fina semkathFinal-syriac.fina e-syriac.fina pe-syriac.fina pe_brevebelowcomb-syriac.fina qaph-syriac.fina shin-syriac.fina bhethPersian-syriac.fina ghamalPersian-syriac.fina khaphSogdian-syriac.fina feSogdian-syriac.fina];
 
 # was called @DualJoiningXm
-@DualLinkMedi = [beth-syriac.medi gamal-syriac.medi gamalgarshuni-syriac.medi heth-syriac.medi teth-syriac.medi tethGarshuni-syriac.medi yudh-syriac.medi kaph-syriac.medi lamadh-syriac.medi mim-syriac.medi nun-syriac.medi semkath-syriac.medi semkathFinal-syriac.medi e-syriac.medi pe-syriac.medi pe_brevebelowcomb-syriac.medi qaph-syriac.medi shin-syriac.medi];
+@DualLinkMedi = [beth-syriac.medi gamal-syriac.medi gamalgarshuni-syriac.medi heth-syriac.medi teth-syriac.medi tethGarshuni-syriac.medi yudh-syriac.medi kaph-syriac.medi lamadh-syriac.medi mim-syriac.medi nun-syriac.medi semkath-syriac.medi semkathFinal-syriac.medi e-syriac.medi pe-syriac.medi pe_brevebelowcomb-syriac.medi qaph-syriac.medi shin-syriac.medi bhethPersian-syriac.medi ghamalPersian-syriac.medi khaphSogdian-syriac.medi feSogdian-syriac.medi];
 
 # was called @DualJoiningXl
-@DualLinkInit = [beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init pe_brevebelowcomb-syriac.init qaph-syriac.init shin-syriac.init];
+@DualLinkInit = [beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init pe_brevebelowcomb-syriac.init qaph-syriac.init shin-syriac.init bhethPersian-syriac.init ghamalPersian-syriac.init khaphSogdian-syriac.init feSogdian-syriac.init];
 
 @DualJoining = [@DualLinkIsol @DualLinkFina @DualLinkMedi @DualLinkInit];
 
@@ -33,8 +33,8 @@
 #  Need to revisit Right joining because original VOLT uses a mixture, see RightJoiningXn and RightJoiningXr
 #**********************************
 
-@RightJoiningFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina sadhe_nun-syriac.fina];
-@RightJoiningIsol = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac sadhe_nun-syriac];
+@RightJoiningFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina sadhe_nun-syriac.fina dhalathPersian-syriac.fina zhainSogdian-syriac.fina];
+@RightJoiningIsol = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac sadhe_nun-syriac dhalathPersian-syriac zhainSogdian-syriac];
 @RightJoining = [@RightJoiningIsol @RightJoiningFina];
 
 @AllBase = [@DualJoining @RightJoining];

@@ -21,7 +21,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Idiqlat" filename="masters/Idiqlat-ExtraLight.ufo" name="Idiqlat ExtraLight" stylename="ExtraLight">
+        <source familyname="Idiqlat" filename="masters/Idiqlat-ExtraLight.ufo" name="Idiqlat-ExtraLight" stylename="ExtraLight">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
                 <dimension name="width" xvalue="100.000000" />
