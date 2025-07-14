@@ -134,16 +134,16 @@
     <string>seven</string>
     <string>eight</string>
     <string>nine</string>
-    <string>zero.latn</string>
-    <string>one.latn</string>
-    <string>two.latn</string>
-    <string>three.latn</string>
-    <string>four.latn</string>
-    <string>five.latn</string>
-    <string>six.latn</string>
-    <string>seven.latn</string>
-    <string>eight.latn</string>
-    <string>nine.latn</string>
+    <string>zero.cv02</string>
+    <string>one.cv02</string>
+    <string>two.cv02</string>
+    <string>three.cv02</string>
+    <string>four.cv02</string>
+    <string>five.cv02</string>
+    <string>six.cv02</string>
+    <string>seven.cv02</string>
+    <string>eight.cv02</string>
+    <string>nine.cv02</string>
     <string>colon</string>
     <string>semicolon</string>
     <string>less</string>
@@ -812,6 +812,8 @@
     <string>uni0725.medi</string>
     <key>eastSyriacCross</key>
     <string>uni2671</string>
+    <key>eight.cv02</key>
+    <string>eight.latn</string>
     <key>emquad</key>
     <string>uni2001</string>
     <key>emspace</key>
@@ -842,8 +844,12 @@
     <string>uni2007</string>
     <key>firststrongisolate</key>
     <string>uni2068</string>
+    <key>five.cv02</key>
+    <string>five.latn</string>
     <key>fl</key>
     <string>uniFB02</string>
+    <key>four.cv02</key>
+    <string>four.latn</string>
     <key>fourperemspace</key>
     <string>uni2005</string>
     <key>foursuperior</key>
@@ -1002,6 +1008,8 @@
     <string>uni202F</string>
     <key>nbspace</key>
     <string>uni00A0</string>
+    <key>nine.cv02</key>
+    <string>nine.latn</string>
     <key>nonbreakinghyphen</key>
     <string>uni2011</string>
     <key>nun-syriac</key>
@@ -1022,6 +1030,8 @@
     <string>uni0747</string>
     <key>obliquelinebelow-syriac</key>
     <string>uni0748</string>
+    <key>one.cv02</key>
+    <string>one.latn</string>
     <key>onesuperior</key>
     <string>uni00B9</string>
     <key>overline</key>
@@ -1134,6 +1144,8 @@
     <string>uni0724.init</string>
     <key>semkathFinal-syriac.medi</key>
     <string>uni0724.medi</string>
+    <key>seven.cv02</key>
+    <string>seven.latn</string>
     <key>shadda-ar</key>
     <string>uni0651</string>
     <key>shin-syriac</key>
@@ -1148,6 +1160,8 @@
     <string>uniF130</string>
     <key>sidebearingright</key>
     <string>uniF131</string>
+    <key>six.cv02</key>
+    <string>six.latn</string>
     <key>sixperemspace</key>
     <string>uni2006</string>
     <key>softhyphen</key>
@@ -1190,6 +1204,8 @@
     <string>uni071C.medi</string>
     <key>thinspace</key>
     <string>uni2009</string>
+    <key>three.cv02</key>
+    <string>three.latn</string>
     <key>threedotsabove-syriac</key>
     <string>uni0745</string>
     <key>threedotsbelow-syriac</key>
@@ -1204,6 +1220,8 @@
     <string>uni2E22</string>
     <key>toprightHalfBracket</key>
     <string>uni2E23</string>
+    <key>two.cv02</key>
+    <string>two.latn</string>
     <key>twodotsverticalabove-syriac</key>
     <string>uni0743</string>
     <key>twodotsverticalbelow-syriac</key>
@@ -1236,6 +1254,8 @@
     <string>uni0719</string>
     <key>zain-syriac.fina</key>
     <string>uni0719.fina</string>
+    <key>zero.cv02</key>
+    <string>zero.latn</string>
     <key>zeroWidthNoBreakSpace</key>
     <string>uniFEFF</string>
     <key>zerowidthjoiner</key>

@@ -260,6 +260,36 @@ U+0739">
       <comment>taw-syriac zlamadottedangular-syriac</comment>
       <string>\u00072C\u000739 \u00200D\u00072C\u000739  \u00072C\u000742 \u00200D\u00072C\u000742  \u00072C\u000743 \u00200D\u00072C\u000743  \u00072C\u000744 \u00200D\u00072C\u000744 </string>
     </test>
+    <test background="#ffe0e0" label="U+072D
+U+0739">
+      <comment>bhethPersian-syriac zlamadottedangular-syriac</comment>
+      <string>\u00072D\u000739 \u00072D\u000739\u00072D\u000739\u00072D\u000739  \u00072D\u000742 \u00072D\u000742\u00072D\u000742\u00072D\u000742  \u00072D\u000743 \u00072D\u000743\u00072D\u000743\u00072D\u000743  \u00072D\u000744 \u00072D\u000744\u00072D\u000744\u00072D\u000744 </string>
+    </test>
+    <test background="#ffe0e0" label="U+072E
+U+0739">
+      <comment>ghamalPersian-syriac zlamadottedangular-syriac</comment>
+      <string>\u00072E\u000739 \u00072E\u000739\u00072E\u000739\u00072E\u000739  \u00072E\u000742 \u00072E\u000742\u00072E\u000742\u00072E\u000742  \u00072E\u000743 \u00072E\u000743\u00072E\u000743\u00072E\u000743  \u00072E\u000744 \u00072E\u000744\u00072E\u000744\u00072E\u000744 </string>
+    </test>
+    <test background="#ffe0e0" label="U+072F
+U+0739">
+      <comment>dhalathPersian-syriac zlamadottedangular-syriac</comment>
+      <string>\u00072F\u000739 \u00200D\u00072F\u000739  \u00072F\u000742 \u00200D\u00072F\u000742  \u00072F\u000743 \u00200D\u00072F\u000743  \u00072F\u000744 \u00200D\u00072F\u000744 </string>
+    </test>
+    <test background="#ffe0e0" label="U+074D
+U+0739">
+      <comment>zhainSogdian-syriac zlamadottedangular-syriac</comment>
+      <string>\u00074D\u000739 \u00200D\u00074D\u000739  \u00074D\u000742 \u00200D\u00074D\u000742  \u00074D\u000743 \u00200D\u00074D\u000743  \u00074D\u000744 \u00200D\u00074D\u000744 </string>
+    </test>
+    <test background="#ffe0e0" label="U+074E
+U+0739">
+      <comment>khaphSogdian-syriac zlamadottedangular-syriac</comment>
+      <string>\u00074E\u000739 \u00074E\u000739\u00074E\u000739\u00074E\u000739  \u00074E\u000742 \u00074E\u000742\u00074E\u000742\u00074E\u000742  \u00074E\u000743 \u00074E\u000743\u00074E\u000743\u00074E\u000743  \u00074E\u000744 \u00074E\u000744\u00074E\u000744\u00074E\u000744 </string>
+    </test>
+    <test background="#ffe0e0" label="U+074F
+U+0739">
+      <comment>feSogdian-syriac zlamadottedangular-syriac</comment>
+      <string>\u00074F\u000739 \u00074F\u000739\u00074F\u000739\u00074F\u000739  \u00074F\u000742 \u00074F\u000742\u00074F\u000742\u00074F\u000742  \u00074F\u000743 \u00074F\u000743\u00074F\u000743\u00074F\u000743  \u00074F\u000744 \u00074F\u000744\u00074F\u000744\u00074F\u000744 </string>
+    </test>
   </testgroup>
   <testgroup label="All Syriac diacritics on representative bases">
     <test label="U+0712

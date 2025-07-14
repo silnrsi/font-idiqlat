@@ -80,10 +80,10 @@ lookup FontCheck {
 
 # Replace Syriac punctuation glyphs with Latin ones:
 
-lookup LatinPunctuation {
-  lookupflag 0 ;
-    sub @cno_latn by @c_latn ;
-} LatinPunctuation ;
+# lookup LatinPunctuation {
+#  lookupflag 0 ;
+#    sub @cno_latn by @c_latn ;
+# } LatinPunctuation ;
 
 # HB PAUSE
 
@@ -279,6 +279,16 @@ lookup RightJoinFina {
 # Lookups for user-selectable features
 
 do let f = info("familyName");
+if f.find("Idiqlat") != -1 or f.find("East Syriac Marcus New") != -1; {
+
+# digits
+lookup Digits { # cv02
+  lookupflag IgnoreMarks ;
+    sub @Digits by @Digits_cv02 ;
+} Digits ;
+}
+
+do let f = info("familyName");
    if f.find("Idiqlat") != -1 or f.find("East Syriac Marcus New") != -1; {
 
 # Kaph U+071F cv15
@@ -358,8 +368,8 @@ lookup SadheNunLigature {
 feature ccmp {  # Glyph Composition/Decomposition
     # Same for latin & syriac:
         lookup FontCheck;
-    script latn;
-        lookup LatinPunctuation;
+#    script latn;
+#        lookup LatinPunctuation;
     script syrc;
         lookup GPreDecompose;
         lookup SeyameChain;
@@ -457,6 +467,23 @@ feature liga {  # Ligatures  -- we use this because liga is done in the same pas
 
 
 #--- Character Variants ---
+
+feature cv02 {  # Character Variant 2
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Digits"    ; };
+
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "Default";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "1234567890";  # English US
+        };
+
+        ParamUILabelNameID { name 3 1 0x0409 "Digit alternates" ; };
+    } ;
+        lookup Digits;
+} cv02 ;
 
 do let f = info("familyName");
    if f.find("Idiqlat") != -1 or f.find("East Syriac Marcus New") != -1; {
@@ -622,6 +649,7 @@ feature cv60 {  # Character Variant 60
 feature aalt {
 # automatic
 feature ccmp;
+feature cv02; # Idiqlat|East Syriac Marcus New
 feature cv15; # Idiqlat|East Syriac Marcus New
 feature cv17; # Idiqlat|East Syriac Marcus New
 feature cv18; # Idiqlat|East Syriac Marcus New

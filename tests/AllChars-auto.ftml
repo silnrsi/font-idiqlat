@@ -7,6 +7,7 @@
     <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Idiqlat-Regular.ttf)</fontsrc>
     <styles>
+      <style feats="'cv02' 1" name="cv02_1"/>
       <style feats="'cv15' 1" name="cv15_1"/>
       <style feats="'cv17' 1" name="cv17_1"/>
       <style feats="'cv18' 1" name="cv18_1"/>
@@ -42,7 +43,87 @@
     </test>
     <test label="U+002E">
       <comment>period</comment>
-      <string>. / 0 1 2 3 4 5 6 7 8 9 : ;</string>
+      <string>. / 0</string>
+    </test>
+    <test label="U+0030" stylename="cv02_1">
+      <comment>zero</comment>
+      <string>0</string>
+    </test>
+    <test label="U+0031">
+      <comment>one</comment>
+      <string>1</string>
+    </test>
+    <test label="U+0031" stylename="cv02_1">
+      <comment>one</comment>
+      <string>1</string>
+    </test>
+    <test label="U+0032">
+      <comment>two</comment>
+      <string>2</string>
+    </test>
+    <test label="U+0032" stylename="cv02_1">
+      <comment>two</comment>
+      <string>2</string>
+    </test>
+    <test label="U+0033">
+      <comment>three</comment>
+      <string>3</string>
+    </test>
+    <test label="U+0033" stylename="cv02_1">
+      <comment>three</comment>
+      <string>3</string>
+    </test>
+    <test label="U+0034">
+      <comment>four</comment>
+      <string>4</string>
+    </test>
+    <test label="U+0034" stylename="cv02_1">
+      <comment>four</comment>
+      <string>4</string>
+    </test>
+    <test label="U+0035">
+      <comment>five</comment>
+      <string>5</string>
+    </test>
+    <test label="U+0035" stylename="cv02_1">
+      <comment>five</comment>
+      <string>5</string>
+    </test>
+    <test label="U+0036">
+      <comment>six</comment>
+      <string>6</string>
+    </test>
+    <test label="U+0036" stylename="cv02_1">
+      <comment>six</comment>
+      <string>6</string>
+    </test>
+    <test label="U+0037">
+      <comment>seven</comment>
+      <string>7</string>
+    </test>
+    <test label="U+0037" stylename="cv02_1">
+      <comment>seven</comment>
+      <string>7</string>
+    </test>
+    <test label="U+0038">
+      <comment>eight</comment>
+      <string>8</string>
+    </test>
+    <test label="U+0038" stylename="cv02_1">
+      <comment>eight</comment>
+      <string>8</string>
+    </test>
+    <test label="U+0039">
+      <comment>nine</comment>
+      <string>9</string>
+    </test>
+    <test label="U+0039" stylename="cv02_1">
+      <comment>nine</comment>
+      <string>9</string>
+    </test>
+    <test label="U+003A">
+      <comment>colon</comment>
+      <string>: ;</string>
     </test>
     <test label="U+003C">
       <comment>less</comment>
@@ -232,6 +313,10 @@
       <comment>semicolon-ar</comment>
       <string>\u00061B</string>
     </test>
+    <test background="#f0fff0" label="U+061C">
+      <comment>mark-ar</comment>
+      <string>\u00061C</string>
+    </test>
     <test label="U+061F">
       <comment>question-ar</comment>
       <string>\u00061F</string>
@@ -376,9 +461,33 @@
       <comment>taw-syriac</comment>
       <string>\u00072C \u00200D\u00072C </string>
     </test>
+    <test background="#ffe0e0" label="U+072D">
+      <comment>bhethPersian-syriac</comment>
+      <string>\u00072D \u00072D\u00200D \u00200D\u00072D\u00200D \u00200D\u00072D \u00072D\u00072D\u00072D </string>
+    </test>
+    <test background="#ffe0e0" label="U+072E">
+      <comment>ghamalPersian-syriac</comment>
+      <string>\u00072E \u00072E\u00200D \u00200D\u00072E\u00200D \u00200D\u00072E \u00072E\u00072E\u00072E </string>
+    </test>
+    <test background="#ffe0e0" label="U+072F">
+      <comment>dhalathPersian-syriac</comment>
+      <string>\u00072F \u00200D\u00072F </string>
+    </test>
     <test label="U+0730">
       <comment>pthahaabove-syriac</comment>
       <string>\u0025CC\u000730 \u0025CC\u000731 \u0025CC\u000732 \u0025CC\u000733 \u0025CC\u000734 \u0025CC\u000735 \u0025CC\u000736 \u0025CC\u000737 \u0025CC\u000738 \u0025CC\u000739 \u0025CC\u00073A \u0025CC\u00073B \u0025CC\u00073C \u0025CC\u00073D \u0025CC\u00073E \u0025CC\u00073F \u0025CC\u000740 \u0025CC\u000741 \u0025CC\u000742 \u0025CC\u000743 \u0025CC\u000744 \u0025CC\u000745 \u0025CC\u000746 \u0025CC\u000747 \u0025CC\u000748 \u0025CC\u000749 \u0025CC\u00074A</string>
+    </test>
+    <test background="#ffe0e0" label="U+074D">
+      <comment>zhainSogdian-syriac</comment>
+      <string>\u00074D \u00200D\u00074D </string>
+    </test>
+    <test background="#ffe0e0" label="U+074E">
+      <comment>khaphSogdian-syriac</comment>
+      <string>\u00074E \u00074E\u00200D \u00200D\u00074E\u00200D \u00200D\u00074E \u00074E\u00074E\u00074E </string>
+    </test>
+    <test background="#ffe0e0" label="U+074F">
+      <comment>feSogdian-syriac</comment>
+      <string>\u00074F \u00074F\u00200D \u00200D\u00074F\u00200D \u00200D\u00074F \u00074F\u00074F\u00074F </string>
     </test>
     <test background="#f0fff0" label="U+1DF8">
       <comment>dotaboveleftcomb</comment>

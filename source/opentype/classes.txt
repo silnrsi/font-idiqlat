@@ -9,6 +9,10 @@
 #  Classes
 #**********************************
 
+# Next 2 should match
+@Digits = [one two three four five six seven eight nine zero];
+@Digits_cv02 = [one.cv02 two.cv02 three.cv02 four.cv02 five.cv02 six.cv02 seven.cv02 eight.cv02 nine.cv02 zero.cv02];
+
 # Next 4 should have 18 glyphs
 
 # was called @DualJoiningXn

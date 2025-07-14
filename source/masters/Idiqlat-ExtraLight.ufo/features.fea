@@ -1,11 +1,13 @@
 
 # Main Classes
-@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave Eth F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Ohm Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute abbreviation-syriac acircumflex activateformshaping-ar acute adieresis ae agrave alaph-syriac alaph-syriac.ccmp alaph-syriac.fin2 alaph-syriac.fin3 alaph-syriac.fina alaph-syriac.med2 ampersand approxequal approxequal.rtl aring asciicircum asciitilde asterisk at atilde b backslash bar beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi blank braceleft braceright bracketleft bracketright breve brokenbar bullet bulletoperator c caron ccedilla cedilla cent circumflex colon colonHorizontal-syriac colonSkewedleft-syriac colonSkewedleftSupralinear-syriac colonSkewedright-syriac colonSkewedrightSublinear-syriac colonSublinear-syriac colonSupralinear-syriac comma comma-ar contraction-syriac copyright currency d dagger daggerdbl dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina degree dieresis divide divisionslash dollar dotaccent dottedCircle e e-syriac e-syriac.fina e-syriac.init e-syriac.medi eacute eastSyriacCross ecircumflex edieresis egrave eight eight.latn ellipsis emdash emquad emspace endash enquad enspace equal eth euro exclam exclam.001 exclamdown f fi figuredash figurespace firststrongisolate five five.latn fl florin four four.dnom four.latn fourperemspace foursuperior fraction fullstopSublinear-syriac fullstopSupralinear-syriac g gamal-syriac gamal-syriac.fina gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi germandbls glottalstopmod glottalstopreversedmod grave greater greaterequal guillemetleft guillemetright guilsinglleft guilsinglright h hairspace harkleanAsteriscus-syriac harkleanMetobelus-syriac harkleanObelus-syriac he-syriac he-syriac.fina he_yudh-syriac he_yudh-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi horizontalbar hungarumlaut hyphen hyphenationpoint hyphentwo i iacute icircumflex idieresis idotless igrave increment infinity inhibitformshaping-ar integral integral.rtl j k kaph-syriac kaph-syriac.cv15 kaph-syriac.fina kaph-syriac.init kaph-syriac.medi kashida-ar kashida-ar.half kashida-ar.quarter kashida-ar.threequarter l lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi lamadh_alaph-syriac lamadh_alaph-syriac.fina lefttorightembedding lefttorightisolate lefttorightmark lefttorightoverride less lessequal lineseparator logicalnot lozenge m macron mark-ar micro mim-syriac mim-syriac.cv17 mim-syriac.fina mim-syriac.init mim-syriac.medi minus multiply n narrownbspace nbspace nine nine.latn nonbreakinghyphen nonmarkingreturn notequal notequal.rtl ntilde numbersign nun-syriac nun-syriac.cv18 nun-syriac.fina nun-syriac.init nun-syriac.medi o oacute objectReplacementCharacter ocircumflex odieresis oe ogonek ograve one one.latn one.numr onehalf onequarter onesuperior ordfeminine ordmasculine oslash otilde overline p paragraph paragraph-syriac paragraphseparator parenleft parenright partialdiff partialdiff.rtl pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi pe_brevebelowcomb-syriac pe_brevebelowcomb-syriac.fina pe_brevebelowcomb-syriac.init pe_brevebelowcomb-syriac.medi percent period periodcentered perthousand pi plus plusminus popdirectionalformatting popdirectionalisolate product pthahadotted-syriac punctuationspace q qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi question question-ar questiondown quotedbl quotedblbase quotedblleft quotedblright quotedblrightreversed quoteleft quotereversed quoteright quotesinglbase quotesingle r radical radical.rtl registered replacementCharacter reverseSolidusOperator righttoleftembedding righttoleftisolate righttoleftmark righttoleftoverride ring ringhalfleftcentered ringhalfrightcentered rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina s sadhe-syriac sadhe-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina scaron section semicolon semicolon-ar semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac semkathFinal-syriac.fina semkathFinal-syriac.init semkathFinal-syriac.medi seven seven.latn shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi sidebearingleft sidebearingright six six.latn sixperemspace slash softhyphen space sterling summation summation.rtl t taw-syriac taw-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined taw_alaph-syriac.triangle taw_alaph-syriac.twined taw_yudh-syriac taw_yudh-syriac.fina teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi thinspace thorn three three.latn three.numr threeperemspace threequarters threesuperior tilde topleftHalfBracket toprightHalfBracket trademark two two.dnom two.latn twosuperior u uacute ucircumflex udieresis ugrave underscore v w waw-syriac waw-syriac.fina westSyriacCross wordjoiner x y yacute ydieresis yen yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina z zain-syriac zain-syriac.fina zcaron zero zero.latn zeroWidthNoBreakSpace zerowidthjoiner zerowidthnonjoiner zerowidthspace];
+@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave Eth F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Ohm Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute abbreviation-syriac acircumflex activateformshaping-ar acute adieresis ae agrave alaph-syriac alaph-syriac.ccmp alaph-syriac.fin2 alaph-syriac.fin3 alaph-syriac.fina alaph-syriac.med2 ampersand approxequal approxequal.rtl aring asciicircum asciitilde asterisk at atilde b backslash bar beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi blank braceleft braceright bracketleft bracketright breve brokenbar bullet bulletoperator c caron ccedilla cedilla cent circumflex colon colonHorizontal-syriac colonSkewedleft-syriac colonSkewedleftSupralinear-syriac colonSkewedright-syriac colonSkewedrightSublinear-syriac colonSublinear-syriac colonSupralinear-syriac comma comma-ar contraction-syriac copyright currency d dagger daggerdbl dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina degree dieresis divide divisionslash dollar dotaccent dottedCircle e e-syriac e-syriac.fina e-syriac.init e-syriac.medi eacute eastSyriacCross ecircumflex edieresis egrave eight eight.cv02 ellipsis emdash emquad emspace endash enquad enspace equal eth euro exclam exclam.001 exclamdown f fi figuredash figurespace firststrongisolate five five.cv02 fl florin four four.cv02 four.dnom fourperemspace foursuperior fraction fullstopSublinear-syriac fullstopSupralinear-syriac g gamal-syriac gamal-syriac.fina gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi germandbls glottalstopmod glottalstopreversedmod grave greater greaterequal guillemetleft guillemetright guilsinglleft guilsinglright h hairspace harkleanAsteriscus-syriac harkleanMetobelus-syriac harkleanObelus-syriac he-syriac he-syriac.fina he_yudh-syriac he_yudh-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi horizontalbar hungarumlaut hyphen hyphenationpoint hyphentwo i iacute icircumflex idieresis idotless igrave increment infinity inhibitformshaping-ar integral integral.rtl j k kaph-syriac kaph-syriac.cv15 kaph-syriac.fina kaph-syriac.init kaph-syriac.medi kashida-ar kashida-ar.half kashida-ar.quarter kashida-ar.threequarter l lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi lamadh_alaph-syriac lamadh_alaph-syriac.fina lefttorightembedding lefttorightisolate lefttorightmark lefttorightoverride less lessequal lineseparator logicalnot lozenge m macron mark-ar micro mim-syriac mim-syriac.cv17 mim-syriac.fina mim-syriac.init mim-syriac.medi minus multiply n narrownbspace nbspace nine nine.cv02 nonbreakinghyphen nonmarkingreturn notequal notequal.rtl ntilde numbersign nun-syriac nun-syriac.cv18 nun-syriac.fina nun-syriac.init nun-syriac.medi o oacute objectReplacementCharacter ocircumflex odieresis oe ogonek ograve one one.cv02 one.numr onehalf onequarter onesuperior ordfeminine ordmasculine oslash otilde overline p paragraph paragraph-syriac paragraphseparator parenleft parenright partialdiff partialdiff.rtl pe-syriac pe-syriac.fina pe-syriac.init pe-syriac.medi pe_brevebelowcomb-syriac pe_brevebelowcomb-syriac.fina pe_brevebelowcomb-syriac.init pe_brevebelowcomb-syriac.medi percent period periodcentered perthousand pi plus plusminus popdirectionalformatting popdirectionalisolate product pthahadotted-syriac punctuationspace q qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi question question-ar questiondown quotedbl quotedblbase quotedblleft quotedblright quotedblrightreversed quoteleft quotereversed quoteright quotesinglbase quotesingle r radical radical.rtl registered replacementCharacter reverseSolidusOperator righttoleftembedding righttoleftisolate righttoleftmark righttoleftoverride ring ringhalfleftcentered ringhalfrightcentered rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina s sadhe-syriac sadhe-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina scaron section semicolon semicolon-ar semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac semkathFinal-syriac.fina semkathFinal-syriac.init semkathFinal-syriac.medi seven seven.cv02 shin-syriac shin-syriac.fina shin-syriac.init shin-syriac.medi sidebearingleft sidebearingright six six.cv02 sixperemspace slash softhyphen space sterling summation summation.rtl t taw-syriac taw-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined taw_alaph-syriac.triangle taw_alaph-syriac.twined taw_yudh-syriac taw_yudh-syriac.fina teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi thinspace thorn three three.cv02 three.numr threeperemspace threequarters threesuperior tilde topleftHalfBracket toprightHalfBracket trademark two two.cv02 two.dnom twosuperior u uacute ucircumflex udieresis ugrave underscore v w waw-syriac waw-syriac.fina westSyriacCross wordjoiner x y yacute ydieresis yen yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi yudhhe-syriac yudhhe-syriac.fina z zain-syriac zain-syriac.fina zcaron zero zero.cv02 zeroWidthNoBreakSpace zerowidthjoiner zerowidthnonjoiner zerowidthspace];
 @GDEF_marks = [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 alaphSuperscript-syriac barrekh-syriac brevebelowcomb circumflexbelowcomb dieresisbelowcomb dieresiscomb dotaboveleftcomb dotaccentcomb dotbelowcomb dotbelowleftcomb esasaabove-syriac esasabelow-syriac femininedot-syriac graphemejoinercomb hbasaEsasadotted-syriac hbasaabove-syriac hbasabelow-syriac macronbelowcomb macroncomb minusbelowcomb music-syriac obliquelineabove-syriac obliquelinebelow-syriac pthahaabove-syriac pthahabelow-syriac qushshaya-syriac rbasaabove-syriac rbasabelow-syriac ringbelowcomb ringcomb rukkakha-syriac rukkakha-syriac.square rwaha-syriac shadda-ar threedotsabove-syriac threedotsbelow-syriac tildebelowcomb tildecomb twodotsverticalabove-syriac twodotsverticalbelow-syriac zlamadottedangular-syriac zlamadottedhorizontal-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac];
 @c_001 = [exclam.001];
 @cno_001 = [exclam];
 @c_ccmp = [alaph-syriac.ccmp];
 @cno_ccmp = [alaph-syriac];
+@c_cv02 = [eight.cv02 five.cv02 four.cv02 nine.cv02 one.cv02 seven.cv02 six.cv02 three.cv02 two.cv02 zero.cv02];
+@cno_cv02 = [eight five four nine one seven six three two zero];
 @c_cv15 = [kaph-syriac.cv15];
 @cno_cv15 = [kaph-syriac];
 @c_cv17 = [mim-syriac.cv17];
@@ -24,8 +26,6 @@
 @cno_half = [kashida-ar];
 @c_init = [beth-syriac.init e-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init pe-syriac.init pe_brevebelowcomb-syriac.init qaph-syriac.init semkath-syriac.init semkathFinal-syriac.init shin-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init];
 @cno_init = [beth-syriac e-syriac gamal-syriac gamalgarshuni-syriac heth-syriac kaph-syriac lamadh-syriac mim-syriac nun-syriac pe-syriac pe_brevebelowcomb-syriac qaph-syriac semkath-syriac semkathFinal-syriac shin-syriac teth-syriac tethGarshuni-syriac yudh-syriac];
-@c_latn = [eight.latn five.latn four.latn nine.latn one.latn seven.latn six.latn three.latn two.latn zero.latn];
-@cno_latn = [eight five four nine one seven six three two zero];
 @c_med2 = [alaph-syriac.med2];
 @cno_med2 = [alaph-syriac];
 @c_medi = [beth-syriac.medi e-syriac.medi gamal-syriac.medi gamalgarshuni-syriac.medi heth-syriac.medi kaph-syriac.medi lamadh-syriac.medi mim-syriac.medi nun-syriac.medi pe-syriac.medi pe_brevebelowcomb-syriac.medi qaph-syriac.medi semkath-syriac.medi semkathFinal-syriac.medi shin-syriac.medi teth-syriac.medi tethGarshuni-syriac.medi yudh-syriac.medi];
@@ -483,9 +483,9 @@ markClass femininedot-syriac <anchor 68 -186> @_aboveleft;
 markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 
 # AP: U
-@U = [eight five four nine seven six three two zero one];
-# baseClass [eight five four nine seven six three two zero] <anchor 468 1147> @U;
-# baseClass one <anchor 450 1147> @U;
+@U = [eight.cv02 five.cv02 four.cv02 nine.cv02 seven.cv02 six.cv02 three.cv02 two.cv02 zero.cv02 one.cv02];
+# baseClass [eight.cv02 five.cv02 four.cv02 nine.cv02 seven.cv02 six.cv02 three.cv02 two.cv02 zero.cv02] <anchor 468 1147> @U;
+# baseClass one.cv02 <anchor 450 1147> @U;
 
 # AP: above_1
 @above_1 = [he_yudh-syriac he_yudh-syriac.fina lamadh_alaph-syriac lamadh_alaph-syriac.fina sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina taw_alaph-syriac.fina.triangle taw_alaph-syriac.triangle taw_alaph-syriac.fina.twined taw_alaph-syriac.twined taw_yudh-syriac taw_yudh-syriac.fina];
@@ -559,6 +559,9 @@ markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 #**********************************
 #  Classes
 #**********************************
+# Next 2 should match
+@Digits = [one two three four five six seven eight nine zero];
+@Digits_cv02 = [one.cv02 two.cv02 three.cv02 four.cv02 five.cv02 six.cv02 seven.cv02 eight.cv02 nine.cv02 zero.cv02];
 # Next 4 should have 18 glyphs
 # was called @DualJoiningXn
 @DualLinkIsol = [beth-syriac gamal-syriac gamalgarshuni-syriac heth-syriac teth-syriac tethGarshuni-syriac yudh-syriac kaph-syriac lamadh-syriac mim-syriac nun-syriac semkath-syriac semkathFinal-syriac e-syriac pe-syriac pe_brevebelowcomb-syriac qaph-syriac shin-syriac];
@@ -707,11 +710,10 @@ lookup FontCheck {
 } FontCheck;
 
 # Replace Syriac punctuation glyphs with Latin ones:
-lookup LatinPunctuation {
-    lookupflag 0;
-    sub @cno_latn by @c_latn;
-} LatinPunctuation;
-
+# lookup LatinPunctuation {
+#  lookupflag 0 ;
+#    sub @cno_latn by @c_latn ;
+# } LatinPunctuation ;
 # HB PAUSE
 #---  fina feature  ---
 lookup ltrFina {
@@ -755,7 +757,7 @@ lookup SeyameChain {
     # GSUB lookup 18, type 11 (Single)
     # Used in East Syriac, West Syriac, Estrangela
     # GSUB lookup 3, type 16 (Chaining Context)
-    #end do - Idiqlat|EastSyriacMarcusNew
+    #end do - Idiqlat|East Syriac Marcus New
     lookup LamAlaphLig_Alaph {
         lookupflag 0;
         sub alaph-syriac by alaph-syriac.ccmp;
@@ -876,6 +878,14 @@ lookup RightJoinFina {
 # HB PAUSE
 #--- remaining subs features (salt, cvxx, liga) ---
 # Lookups for user-selectable features
+    # digits
+    # cv02
+    lookup Digits {
+        lookupflag IgnoreMarks;
+        sub @Digits by @Digits_cv02;
+    } Digits;
+
+
     # Kaph U+071F cv15
     # cv15 Apparently only used in outlines so no final is needed
     # Mim U+0721 cv17
@@ -886,7 +896,7 @@ lookup RightJoinFina {
     # Used in East Syriac only
     # Taw Yudh U+072C U+071D cv60=1 (ligature forms but mark is in wrong position)
     # Used in East Syriac only
-    # End of Idiqlat|EastSyriacMarcusNew cv
+    # End of Idiqlat|East Syriac Marcus New cv
     # Sadhe Nun U+0728 U+0722 cv55 (marks position)
     # Used in East Syriac, West Syriac, Estrangela
     lookup KaphAlternate {
@@ -948,8 +958,8 @@ feature ccmp {
     # Glyph Composition/Decomposition
     # Same for latin & syriac:
     lookup FontCheck;
-    script latn;
-    lookup LatinPunctuation;
+    #    script latn;
+    #        lookup LatinPunctuation;
     script syrc;
     lookup GPreDecompose;
     lookup SeyameChain;
@@ -1033,6 +1043,32 @@ feature liga {
 # HB PAUSE
 #---  dlig feature (pass 10) ---
 #--- Character Variants ---
+feature cv02 {
+    # Character Variant 2
+        cvParameters {
+                FeatUILabelNameID {
+            name "Digits";
+        };
+
+                FeatUITooltipTextNameID {
+            name "Default";
+            # English US
+        };
+
+                SampleTextNameID {
+            name "1234567890";
+            # English US
+        };
+
+                ParamUILabelNameID {
+            name "Digit alternates";
+        };
+
+    };
+
+    lookup Digits;
+} cv02;
+
     # Character Variant 15
     # English US
     # English US
@@ -1057,7 +1093,7 @@ feature liga {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|EastSyriacMarcusNew
+    #end do - Idiqlat|East Syriac Marcus New
         feature cv15 {
                 cvParameters {
                         FeatUILabelNameID {
@@ -1194,7 +1230,7 @@ feature cv55 {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|EastSyriacMarcusNew
+    #end do - Idiqlat|East Syriac Marcus New
         feature cv59 {
                 cvParameters {
                         FeatUILabelNameID {
@@ -1231,7 +1267,7 @@ feature cv55 {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|EastSyriacMarcusNew
+    #end do - Idiqlat|East Syriac Marcus New
     #---  aalt feature (pass 10) ---
         feature cv60 {
                 cvParameters {
@@ -1262,19 +1298,21 @@ feature cv55 {
 feature aalt {
     # automatic
     feature ccmp;
+    feature cv02;
+    # Idiqlat|East Syriac Marcus New
     feature cv15;
-    # Idiqlat|EastSyriacMarcusNew
+    # Idiqlat|East Syriac Marcus New
     feature cv17;
-    # Idiqlat|EastSyriacMarcusNew
+    # Idiqlat|East Syriac Marcus New
     feature cv18;
-    # Idiqlat|EastSyriacMarcusNew
+    # Idiqlat|East Syriac Marcus New
     feature cv38;
-    # Idiqlat|EastSyriacMarcusNew
+    # Idiqlat|East Syriac Marcus New
     feature cv55;
     feature cv59;
-    # Idiqlat|EastSyriacMarcusNew
+    # Idiqlat|East Syriac Marcus New
     feature cv60;
-    # Idiqlat|EastSyriacMarcusNew
+    # Idiqlat|East Syriac Marcus New
 } aalt;
 
 #**********************************
