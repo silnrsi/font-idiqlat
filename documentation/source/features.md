@@ -13,6 +13,15 @@ This page uses web fonts (WOFF2) to demonstrate font features and should display
 
 ## Character variants
 
+### Digit alternates
+
+<span class='affects'>Affects: U+0030..U+0039 (this feature is provided for those who prefer sans-serif digits with Syriac script)</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard | <span class='idiqlat-R normal'>0123456789</span> | `cv02=0`
+Sans-serif  | <span class='idiqlat-R normal' style='font-feature-settings: "cv02" 1'>0123456789</span> | `cv02=1`
+
 ### Kaph alternate
 
 <span class='affects'>Affects: U+071F (this feature is primarily for outlines and only affects the isolate form)</span>

@@ -9,6 +9,15 @@ This page uses web fonts (WOFF2) to demonstrate font features and should display
 
 ## Character variants
 
+### Digit alternates
+
+<span class='affects'>Affects: U+0030..U+0039 (this feature is provided for those who prefer sans-serif digits with Syriac script)</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard | <span class='idiqlat-R normal'>0123456789</span> | `cv02=0`
+Sans-serif  | <span class='idiqlat-cv02-1-R normal'>0123456789</span> | `cv02=1`
+
 ### Kaph alternate
 
 <span class='affects'>Affects: U+071F (this feature is primarily for outlines and only affects the isolate form)</span>
@@ -74,6 +83,7 @@ Standard | <span dir="rtl" class='idiqlat-R normal'>&#x072C;&#x071D; &#x200D;&#x
 Ligature | <span dir="rtl" class='idiqlat-cv60-1-R normal'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `cv60=1`
 
 [font id='idiqlat' face='Idiqlat-Regular' size='150%' rtl=1]
+[font id='idiqlat-cv02-1' face='Idiqlat-Regular' size='150%' rtl=1 feats='cv02 1']
 [font id='idiqlat-cv15-1' face='Idiqlat-Regular' size='150%' rtl=1 feats='cv15 1']
 [font id='idiqlat-cv17-1' face='Idiqlat-Regular' size='150%' rtl=1 feats='cv17 1']
 [font id='idiqlat-cv18-1' face='Idiqlat-Regular' size='150%' rtl=1 feats='cv18 1']

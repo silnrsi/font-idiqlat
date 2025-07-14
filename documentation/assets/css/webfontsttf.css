@@ -9,7 +9,7 @@ released under the MIT license (https://opensource.org/licenses/MIT).
 }
 @font-face {
     font-family: Idiqlat-L;
-    src: url("../../../results/Idiqlat-Light.ttf") format("truetype");
+    src: url("../../../results/Idiqlat-ExtraLight.ttf") format("truetype");
 }
 
 .idiqlat-R { font-family: Idiqlat-R; direction: rtl; text-align: right;}
