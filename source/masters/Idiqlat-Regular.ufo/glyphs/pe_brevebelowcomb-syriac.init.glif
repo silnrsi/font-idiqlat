@@ -7,6 +7,6 @@
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="pe-syriac.init"/>
-    <component base="brevebelowcomb" xOffset="144" yOffset="0"/>
+    <component base="brevebelowcomb" xOffset="144"/>
   </outline>
 </glyph>

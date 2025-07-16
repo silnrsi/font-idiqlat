@@ -7,9 +7,29 @@
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="gamal-syriac.medi"/>
+    <contour>
+      <point x="371" y="724" type="curve"/>
+      <point x="459" y="588" type="line"/>
+      <point x="677" y="787"/>
+      <point x="723" y="945"/>
+      <point x="723" y="1055" type="curve" smooth="yes"/>
+      <point x="723" y="1143"/>
+      <point x="698" y="1238"/>
+      <point x="602" y="1238" type="curve" smooth="yes"/>
+      <point x="525" y="1238"/>
+      <point x="476" y="1166"/>
+      <point x="476" y="1110" type="curve" smooth="yes"/>
+      <point x="476" y="996"/>
+      <point x="628" y="1052"/>
+      <point x="628" y="966" type="curve" smooth="yes"/>
+      <point x="628" y="906"/>
+      <point x="559" y="823"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>public.markColor</key>
       <string>0.98,0.36,0.67,1</string>
     </dict>

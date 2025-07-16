@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="khaphSogdian-syriac.fina" format="2">
-  <advance width="934"/>
+  <advance width="1029"/>
   <anchor x="323" y="705" name="above"/>
   <anchor x="50" y="705" name="aboveleft"/>
   <anchor x="328" y="-375" name="below"/>
   <anchor x="50" y="-375" name="belowleft"/>
   <outline>
-    <component base="kaph-syriac.fina"/>
+    <component base="kaph-syriac.medi" xOffset="230"/>
+    <component base="_LeftTail" xOffset="-50"/>
   </outline>
   <lib>
     <dict>

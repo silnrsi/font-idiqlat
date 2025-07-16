@@ -8,7 +8,8 @@
   <anchor x="50" y="-390" name="belowleft"/>
   <outline>
     <component base="dalathrishDotless-syriac"/>
-    <component base="_LrgSquareDot" xOffset="-51"/>
+    <component base="_LrgSquareDot" xOffset="-141"/>
+    <component base="_LrgSquareDot" xOffset="109"/>
   </outline>
   <lib>
     <dict>

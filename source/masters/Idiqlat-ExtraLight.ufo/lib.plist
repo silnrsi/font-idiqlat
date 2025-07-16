@@ -28,13 +28,15 @@
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
   <string>3414</string>
+  <key>com.schriftgestaltung.customName</key>
+  <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/beth-syriac/he-syriac/kaph-syriac/alaph-syriac/_LeftTail/mim-syriac/_qaph/qaph-syriac/qaph-syriac.medi/qaph-syriac.fina/shin-syriac/pe-syriac/semkath-syriac 
 /he-syriac/he-syriac.fina/he_yudh-syriac/he_yudh-syriac.fina/yudhhe-syriac/yudhhe-syriac.fina/space/mim-syriac.init/mim-syriac.medi/taw-syriac.fina/mim-syriac.cv17/mim-syriac.fina/mim-syriac/waw-syriac/waw-syriac.fina 
 /shin-syriac/_shin/space/shin-syriac.init/shin-syriac.medi/shin-syriac.fina/yudh-syriac/yudh-syriac.init/yudh-syriac.medi/yudh-syriac.fina/_yudh-med/yudh-syriac.fina/heth-syriac/_heth-init/_heth-med/heth-syriac.init/heth-syriac.medi/heth-syriac.fina 
 /semkath-syriac/semkath-syriac.init/_semkath/semkath-syriac.medi/semkath-syriac.fina/semkathFinal-syriac/semkathFinal-syriac.init/semkathFinal-syriac.medi/semkathFinal-syriac.fina/zain-syriac/zain-syriac.fina 
-/nun-syriac.init/nun-syriac.medi/nun-syriac.fina/nun-syriac/beth-syriac/yudh-syriac/_beth/_LeftTail/beth-syriac.init/beth-syriac.medi/beth-syriac.fina/qaph-syriac/_qaph/qaph-syriac.init/qaph-syriac.medi/qaph-syriac.fina 
+/nun-syriac.init/nun-syriac.medi/nun-syriac.fina/nun-syriac/beth-syriac/yudh-syriac/shin-syriac/_beth/_LeftTail/beth-syriac/beth-syriac.init/beth-syriac.medi/beth-syriac.fina/qaph-syriac/_qaph/qaph-syriac.init/qaph-syriac.medi/qaph-syriac.fina 
 /threedotsabove-syriac/space/_LrgSquareDot/dalath-syriac/dalath-syriac.fina/dalath_hbasaEsasadotted-syriac/dalath_hbasaEsasadotted-syriac.fina/dalathrishDotless-syriac.fina/dalathrishDotless-syriac/rish-syriac/rish-syriac.fina/rish_dieresiscomb-syriac/rish_dieresiscomb-syriac.fina/kaph-syriac/kaph-syriac.init/kaph-syriac.medi/kaph-syriac.fina 
 /pe-syriac/mim-syriac/_shin/_beth/pe-syriac.init/pe-syriac.medi/pe-syriac.fina/space/brevebelowcomb 
 
@@ -59,6 +61,18 @@
 
 </string>
     <string>/comma-ar/semicolon-ar/question-ar/quoteleft/quoteright/quotesinglbase/quotereversed/quotedblleft/quotedblright/quotedblbase/quotedblrightreversed "';:,</string>
+    <string>/waw-syriac/lamadh-syriac/pe-syriac/nun-syriac/alaph-syriac/space/gamal-syriac/rish-syriac/gamal-syriac/space/he-syriac/beth-syriac/rukkakha-syriac/alaph-syriac/space/dalath-syriac/lamadh-syriac/alaph-syriac/space/pe-syriac/waw-syriac/rish-syriac/e-syriac/nun-syriac/alaph-syriac/space/gamal-syriac/waw-syriac/space/mim-syriac/dalath-syriac/rish-syriac/shin-syriac/taw-syriac/alaph-syriac/space/shin-syriac/rish-syriac/beth-syriac/yudh-syriac/taw-syriac/alaph-syriac/space/waw-syriac/rish-syriac/he-syriac/teth-syriac/alaph-syriac/space/shin-syriac/taw-syriac/alaph-syriac/semkath-syriac/nun-syriac/alaph-syriac ./space/waw-syriac/gamal-syriac/rish-syriac/gamal-syriac/space/kaph-syriac/lamadh-syriac/space/alaph-syriac/nun-syriac/shin-syriac/alaph-syriac/space/shin-syriac/qaph-syriac/lamadh-syriac/space/yudh-syriac/waw-syriac/lamadh-syriac/pe-syriac/nun-syriac/alaph-syriac/space/shin-syriac/rish-syriac/beth-syriac/rukkakha-syriac/yudh-syriac/alaph-syriac/space/waw-syriac/yudh-syriac/waw-syriac/lamadh-syriac/pe-syriac/nun-syriac/alaph-syriac/space/taw-syriac/qaph-syriac/nun-syriac/yudh-syriac/qaph-syriac/yudh-syriac/alaph-syriac/space/waw-syriac/e-syriac/lamadh-syriac/yudh-syriac/alaph-syriac/space/gamal-syriac/rish-syriac/gamal-syriac/space/he-syriac/beth-syriac/rukkakha-syriac/alaph-syriac/space/pe-syriac/taw-syriac/yudh-syriac/heth-syriac/alaph-syriac/space/qaph-syriac/alaph-syriac/space/kaph-syriac/lamadh-syriac/space/heth-syriac/dalath-syriac/space/dalath-syriac/lamadh-syriac/alaph-syriac/space/pe-syriac/waw-syriac/rish-syriac/shin-syriac/waw-syriac/nun-syriac/yudh-syriac/alaph-syriac/space/beth-syriac/nun-syriac/yudh-syriac/alaph-syriac/space/e-syriac/lamadh-syriac/space/mim-syriac/sadhe-syriac/yudh-syriac/taw-syriac/alaph-syriac/space/dalath-syriac/alaph-syriac/nun-syriac/shin-syriac/alaph-syriac .
+
+
+
+
+
+2:31
+/yudh-syriac/waw-syriac/lamadh-syriac/pe-syriac/nun-syriac/alaph-syriac/space/two.cv02/gamal-syriac/rish-syriac/gamal-syriac/four.cv02/three.cv02/space/he-syriac/beth-syriac/rukkakha-syriac/alaph-syriac/lamadh-syriac 23542/space/rish-syriac/shin-syriac/yudh-syriac/mim-syriac/alaph-syriac/space/lamadh-syriac/mim-syriac/teth-syriac/waw-syriac/rish-syriac/taw-syriac/alaph-syriac/space/alaph-syriac/nun-syriac/shin-syriac/alaph-syriac/space/waw-syriac/mim-syriac/qaph-syriac/waw-syriac/yudh-syriac/taw-syriac/alaph-syriac/space/mim-syriac/yudh-syriac/qaph-syriac/rish-syriac/taw-syriac/alaph-syriac/space/zain-syriac/dalath-syriac/qaph-syriac/alaph-syriac/space/alaph-syriac/nun-syriac/shin-syriac/yudh-syriac/alaph-syriac/space/waw-syriac/yudh-syriac/alaph-syriac/rish-syriac/waw-syriac/taw-syriac/alaph-syriac/space/shin-syriac/rish-syriac/shin-syriac/alaph-syriac/nun-syriac/yudh-syriac/taw-syriac/alaph-syriac ./space/gamal-syriac/rish-syriac/gamal-syriac/space/mim-syriac/rish-syriac/waw-syriac/heth-syriac/alaph-syriac/space/pe-syriac/rish-syriac/mim-syriac/yudh-syriac/taw-syriac/alaph-syriac/space/waw-syriac/mim-syriac/taw-syriac/qaph-syriac/beth-syriac/lamadh-syriac/nun-syriac/waw-syriac/taw-syriac/alaph-syriac/space/waw-syriac/rish-syriac/heth-syriac/mim-syriac/waw-syriac/taw-syriac/alaph-syriac/space/beth-syriac/yudh-syriac/space/waw-syriac/lamadh-syriac/space/kaph-syriac/lamadh-syriac/yudh-syriac/space/alaph-syriac/taw-syriac/rish-syriac/waw-syriac/taw-syriac/alaph-syriac/space/waw-syriac/gamal-syriac/nun-syriac/semkath-syriac/alaph-syriac/space/waw-syriac/gamal-syriac/tildebelowcomb/mim-syriac/e-syriac/taw-syriac/alaph-syriac/space/taw-syriac/waw-syriac/dalath-syriac/taw-syriac/nun-syriac/yudh-syriac/alaph-syriac/space/waw-syriac/mim-syriac/zain-syriac/yudh-syriac/dalath-syriac/space/e-syriac/beth-syriac/rukkakha-syriac/dalath-syriac/waw-syriac/yudh-syriac/taw-syriac/alaph-syriac/space/dalath-syriac/alaph-syriac/mim-syriac/waw-syriac/taw-syriac/alaph-syriac/space/mim-syriac/heth-syriac/yudh-syriac/dalath-syriac/alaph-syriac/space/lamadh-syriac/heth-syriac/mim-syriac/yudh-syriac/taw-syriac/alaph-syriac/space/dalath-syriac/shin-syriac/lamadh-syriac/mim-syriac/alaph-syriac .
+</string>
+    <string>/zain-syriac</string>
+    <string>/bhethPersian-syriac/bhethPersian-syriac.init/bhethPersian-syriac.medi/bhethPersian-syriac.fina/ghamalPersian-syriac/ghamalPersian-syriac.init/ghamalPersian-syriac.medi/ghamalPersian-syriac.fina/dalathrishDotless-syriac/dhalathPersian-syriac/dhalathPersian-syriac.fina/zhainSogdian-syriac/zain-syriac/semkath-syriac/zhainSogdian-syriac.fina/alaph-syriac/khaphSogdian-syriac/khaphSogdian-syriac.init/khaphSogdian-syriac.medi/khaphSogdian-syriac.fina/kaph-syriac.init/waw-syriac/feSogdian-syriac/space/feSogdian-syriac/feSogdian-syriac.medi/feSogdian-syriac.fina</string>
+    <string>/abbreviation-syriac/alaph-syriac.ccmp/taw_alaph-syriac.triangle/taw_alaph-syriac.twined/glottalstopmod/glottalstopreversedmod/ringhalfrightcentered/ringhalfleftcentered</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -75,7 +89,7 @@
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue3</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
-  <string/>
+  <string>Light</string>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
   <integer>300</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
