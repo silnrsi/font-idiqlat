@@ -252,18 +252,14 @@ lookup RukkakhaSquare {
 
 # This is needed because of the isolate form not looking like a final form, and this is viewed as a final even since it's after a right joining character
 lookup cv_fina {
-  lookupflag RightToLeft;
-      sub kaph-syriac   by  kaph-syriac.cv15 ;
-      sub mim-syriac    by  mim-syriac.cv17 ;
-      sub nun-syriac    by  nun-syriac.cv18 ;
+  lookupflag IgnoreMarks RightToLeft;
+sub [kaph-syriac mim-syriac nun-syriac] by [kaph-syriac.cv15 mim-syriac.cv17 nun-syriac.cv18];
 } cv_fina ;
 
 lookup RightJoinFina {
 # GSUB lookup 14, type 16 (Chaining Context)
-  lookupflag IgnoreMarks ;
-  sub @RightJoining mim-syriac' lookup cv_fina;
-  sub @RightJoining nun-syriac' lookup cv_fina;
-  sub @RightJoining kaph-syriac' lookup cv_fina;
+  lookupflag IgnoreMarks RightToLeft;
+  sub @RightJoining [mim-syriac nun-syriac kaph-syriac]' lookup cv_fina;
 } RightJoinFina;
 
 #---  calt feature  ---
@@ -376,7 +372,6 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup LamAlaphLig;
         lookup AlaphLigs;
         lookup RukkakhaSquare;
-        lookup RightJoinFina;
 } ccmp ;
 
 # HB PAUSE
@@ -447,7 +442,14 @@ feature rlig {  # Ligatures  -- we use this because liga is done in the same pas
 
 #---  calt feature (pass 9)  ---
 
-# These don't seem to be in this font
+feature calt {
+# GSUB feature: Contextual Alternates
+# Lookups: 1
+
+  script syrc; # Syriac
+  lookup RightJoinFina;
+
+} calt;
 
 # HB PAUSE
 
