@@ -8,10 +8,10 @@
   <outline>
     <component base="he_yudh-syriac"/>
     <contour>
-      <point x="1030" y="195" type="line"/>
-      <point x="1033" y="0" type="line"/>
+      <point x="990" y="145" type="line"/>
+      <point x="993" y="0" type="line"/>
       <point x="1133" y="0" type="line"/>
-      <point x="1133" y="195" type="line"/>
+      <point x="1133" y="145" type="line"/>
     </contour>
   </outline>
   <lib>

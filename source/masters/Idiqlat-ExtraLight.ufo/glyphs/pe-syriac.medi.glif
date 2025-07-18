@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pe-syriac.medi" format="2">
-  <advance width="889"/>
+  <advance width="839"/>
   <anchor x="465" y="990" name="above"/>
   <anchor x="50" y="990" name="aboveleft"/>
   <anchor x="510" y="-150" name="below"/>
@@ -8,12 +8,12 @@
   <outline>
     <component base="pe-syriac.init"/>
     <contour>
-      <point x="769" y="195" type="line"/>
-      <point x="769" y="65"/>
-      <point x="803" y="0"/>
-      <point x="888" y="0" type="curve" smooth="yes"/>
-      <point x="909" y="0" type="line"/>
-      <point x="909" y="195" type="line"/>
+      <point x="719" y="145" type="line"/>
+      <point x="719" y="65"/>
+      <point x="753" y="0"/>
+      <point x="838" y="0" type="curve" smooth="yes"/>
+      <point x="859" y="0" type="line"/>
+      <point x="859" y="145" type="line"/>
     </contour>
   </outline>
   <lib>

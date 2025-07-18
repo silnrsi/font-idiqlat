@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yudh-syriac.fina" format="2">
-  <advance width="908"/>
+  <advance width="758"/>
   <anchor x="496" y="540" name="above"/>
   <anchor x="50" y="540" name="aboveleft"/>
   <anchor x="541" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="_LeftTail" xOffset="-50"/>
-    <component base="_yudh-med" xOffset="356"/>
+    <component base="_yudh-med" xOffset="206"/>
     <contour>
-      <point x="553" y="195" type="curve"/>
-      <point x="253" y="195" type="line"/>
-      <point x="253" y="0" type="line"/>
-      <point x="434" y="0" type="line" smooth="yes"/>
-      <point x="519" y="0"/>
-      <point x="553" y="65"/>
+      <point x="463" y="145" type="curve"/>
+      <point x="233" y="145" type="line"/>
+      <point x="233" y="0" type="line"/>
+      <point x="344" y="0" type="line" smooth="yes"/>
+      <point x="429" y="0"/>
+      <point x="463" y="65"/>
     </contour>
   </outline>
   <lib>

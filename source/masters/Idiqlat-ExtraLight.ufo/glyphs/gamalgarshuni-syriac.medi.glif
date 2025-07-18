@@ -8,10 +8,10 @@
   <outline>
     <component base="gamal-syriac.medi"/>
     <contour>
-      <point x="439" y="429" type="line"/>
+      <point x="414" y="429" type="line"/>
       <point x="394" y="511" type="line"/>
-      <point x="143" y="182" type="line"/>
-      <point x="248" y="182" type="line"/>
+      <point x="87" y="110" type="line"/>
+      <point x="167" y="110" type="line"/>
     </contour>
   </outline>
   <lib>

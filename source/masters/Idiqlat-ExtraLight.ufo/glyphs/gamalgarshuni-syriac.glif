@@ -9,10 +9,10 @@
   <outline>
     <component base="gamal-syriac"/>
     <contour>
-      <point x="739" y="429" type="line"/>
+      <point x="714" y="429" type="line"/>
       <point x="694" y="511" type="line"/>
-      <point x="443" y="182" type="line"/>
-      <point x="548" y="182" type="line"/>
+      <point x="387" y="110" type="line"/>
+      <point x="467" y="110" type="line"/>
     </contour>
   </outline>
   <lib>

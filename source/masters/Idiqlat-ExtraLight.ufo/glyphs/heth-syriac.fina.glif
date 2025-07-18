@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heth-syriac.fina" format="2">
-  <advance width="1195"/>
+  <advance width="1065"/>
   <anchor x="691" y="540" name="above"/>
   <anchor x="50" y="540" name="aboveleft"/>
   <anchor x="676" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
-    <component base="_heth-med" xOffset="369"/>
+    <component base="_heth-med" xOffset="309"/>
     <component base="_LeftTail" xOffset="-50"/>
-    <component base="_heth-med.1" xOffset="693"/>
+    <component base="_heth-med.1" xOffset="563"/>
     <contour>
-      <point x="593" y="195" type="curve"/>
-      <point x="247" y="195" type="line"/>
+      <point x="513" y="145" type="curve"/>
+      <point x="247" y="145" type="line"/>
       <point x="247" y="0" type="line"/>
-      <point x="474" y="0" type="line" smooth="yes"/>
-      <point x="559" y="0"/>
-      <point x="593" y="65"/>
+      <point x="394" y="0" type="line" smooth="yes"/>
+      <point x="479" y="0"/>
+      <point x="513" y="65"/>
     </contour>
   </outline>
   <lib>

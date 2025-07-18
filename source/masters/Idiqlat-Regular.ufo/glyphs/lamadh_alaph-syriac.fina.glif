@@ -7,42 +7,6 @@
   <anchor x="450" y="-150" name="below_2"/>
   <outline>
     <component base="alaph-syriac.ccmp"/>
-    <contour>
-      <point x="670" y="875" type="curve" smooth="yes"/>
-      <point x="671" y="852"/>
-      <point x="882" y="530"/>
-      <point x="1136" y="164" type="curve" smooth="yes"/>
-      <point x="1215" y="50"/>
-      <point x="1269" y="0"/>
-      <point x="1409" y="0" type="curve" smooth="yes"/>
-      <point x="1482" y="0" type="line"/>
-      <point x="1482" y="195" type="line"/>
-      <point x="1407" y="195" type="line" smooth="yes"/>
-      <point x="1318" y="195"/>
-      <point x="1254" y="298"/>
-      <point x="994" y="751" type="curve" smooth="yes"/>
-      <point x="875" y="958"/>
-      <point x="853" y="1013"/>
-      <point x="839" y="1123" type="curve" smooth="yes"/>
-      <point x="838" y="1128"/>
-      <point x="837" y="1134"/>
-      <point x="834" y="1134" type="curve" smooth="yes"/>
-      <point x="816" y="1134"/>
-      <point x="666" y="949"/>
-    </contour>
-    <contour>
-      <point x="1209" y="195" type="curve"/>
-      <point x="510" y="195" type="line"/>
-      <point x="510" y="0" type="line"/>
-      <point x="1090" y="0" type="line" smooth="yes"/>
-      <point x="1175" y="0"/>
-      <point x="1209" y="65"/>
-    </contour>
+    <component base="lamadh-syriac.medi" xOffset="516"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CPP</string>
-    </dict>
-  </lib>
 </glyph>

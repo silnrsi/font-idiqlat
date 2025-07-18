@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taw_yudh-syriac.fina" format="2">
-  <advance width="1530"/>
-  <anchor x="875" y="975" name="above_1"/>
-  <anchor x="320" y="570" name="above_2"/>
-  <anchor x="905" y="-150" name="below_1"/>
-  <anchor x="350" y="-150" name="below_2"/>
+  <advance width="1480"/>
+  <anchor x="825" y="975" name="above_1"/>
+  <anchor x="270" y="570" name="above_2"/>
+  <anchor x="855" y="-150" name="below_1"/>
+  <anchor x="300" y="-150" name="below_2"/>
   <outline>
-    <component base="taw-syriac.fina" xOffset="571"/>
+    <component base="taw-syriac.fina" xOffset="521"/>
     <component base="_LeftTail" xOffset="-50"/>
     <contour>
-      <point x="393" y="189" type="curve"/>
-      <point x="419" y="177"/>
-      <point x="594" y="-18"/>
-      <point x="717" y="-18" type="curve"/>
-      <point x="753" y="177" type="line"/>
-      <point x="728" y="177"/>
-      <point x="690" y="204"/>
-      <point x="639" y="236" type="curve" smooth="yes"/>
-      <point x="547" y="294"/>
-      <point x="455" y="417"/>
-      <point x="443" y="417" type="curve" smooth="yes"/>
-      <point x="416" y="417"/>
-      <point x="393" y="234"/>
+      <point x="343" y="145" type="curve"/>
+      <point x="369" y="133"/>
+      <point x="514" y="-18"/>
+      <point x="637" y="-18" type="curve"/>
+      <point x="673" y="127" type="line"/>
+      <point x="648" y="127"/>
+      <point x="611" y="144"/>
+      <point x="559" y="176" type="curve" smooth="yes"/>
+      <point x="407" y="270"/>
+      <point x="405" y="323"/>
+      <point x="393" y="323" type="curve" smooth="yes"/>
+      <point x="366" y="323"/>
+      <point x="343" y="190"/>
     </contour>
   </outline>
   <lib>
