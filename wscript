@@ -22,13 +22,11 @@ ftmlTest('tools/ftml-smith.xsl')
 omitaps = '--omitaps "L,O,R"'
 
 designspace('source/Idiqlat.designspace',
-    instanceparams='-l ' + genout + '${DS:FILENAME_BASE}_createinstances.log',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
         cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']),
     ),
     version=VERSION,  # Needed to ensure dev information on version string
-    ap = genout + '${DS:FILENAME_BASE}.xml',
     opentype = fea("generated/${DS:FILENAME_BASE}.fea", 
         mapfile = genout + "${DS:FILENAME_BASE}.map",
         master="source/opentype/main.feax", to_ufo = 'True'),
