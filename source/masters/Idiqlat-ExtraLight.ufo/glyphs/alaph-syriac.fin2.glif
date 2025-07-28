@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alaph-syriac.fin2" format="2">
-  <advance width="600"/>
-  <anchor x="229" y="975" name="above"/>
-  <anchor x="20" y="975" name="aboveleft"/>
-  <anchor x="292" y="-360" name="below"/>
-  <anchor x="20" y="-360" name="belowleft"/>
+  <advance width="543"/>
+  <anchor x="259" y="975" name="above"/>
+  <anchor x="50" y="975" name="aboveleft"/>
+  <anchor x="322" y="-360" name="below"/>
+  <anchor x="50" y="-360" name="belowleft"/>
   <outline>
-    <component base="alaph-syriac" xOffset="-30"/>
+    <component base="alaph-syriac"/>
     <contour>
       <point x="213" y="43" type="line"/>
       <point x="53" y="119" type="line"/>

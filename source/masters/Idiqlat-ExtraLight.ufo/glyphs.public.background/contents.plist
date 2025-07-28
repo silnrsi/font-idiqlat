@@ -28,8 +28,6 @@
   <string>abbreviation-syriac.glif</string>
   <key>alaph-syriac</key>
   <string>alaph-syriac.glif</string>
-  <key>alaph-syriac.ccmp</key>
-  <string>alaph-syriac.ccmp.glif</string>
   <key>alaph-syriac.fin2</key>
   <string>alaph-syriac.fin2.glif</string>
   <key>alaph-syriac.fin3</key>
@@ -278,8 +276,6 @@
   <string>taw_alaph-syriac.fina.twined.glif</string>
   <key>taw_alaph-syriac.triangle</key>
   <string>taw_alaph-syriac.triangle.glif</string>
-  <key>taw_alaph-syriac.twined</key>
-  <string>taw_alaph-syriac.twined.glif</string>
   <key>taw_yudh-syriac</key>
   <string>taw_yudh-syriac.glif</string>
   <key>taw_yudh-syriac.fina</key>

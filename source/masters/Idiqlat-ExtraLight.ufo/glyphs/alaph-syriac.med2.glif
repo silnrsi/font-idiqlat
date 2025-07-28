@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alaph-syriac.med2" format="2">
-  <advance width="581"/>
+  <advance width="521"/>
   <anchor x="259" y="975" name="above"/>
   <anchor x="50" y="975" name="aboveleft"/>
   <anchor x="259" y="-150" name="below"/>
@@ -8,10 +8,10 @@
   <outline>
     <component base="alaph-syriac"/>
     <contour>
-      <point x="505" y="145" type="line"/>
-      <point x="505" y="0" type="line"/>
-      <point x="601" y="0" type="line"/>
-      <point x="601" y="145" type="line"/>
+      <point x="445" y="145" type="line"/>
+      <point x="445" y="0" type="line"/>
+      <point x="541" y="0" type="line"/>
+      <point x="541" y="145" type="line"/>
     </contour>
   </outline>
   <lib>

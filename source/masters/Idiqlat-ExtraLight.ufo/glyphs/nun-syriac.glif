@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nun-syriac" format="2">
-  <advance width="887"/>
+  <advance width="787"/>
   <unicode hex="0722"/>
   <anchor x="548" y="765" name="above"/>
   <anchor x="50" y="765" name="aboveleft"/>

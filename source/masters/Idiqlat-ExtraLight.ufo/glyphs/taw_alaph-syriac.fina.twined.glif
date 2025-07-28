@@ -8,10 +8,10 @@
   <outline>
     <component base="taw_alaph-syriac.twined"/>
     <contour>
-      <point x="1068" y="195" type="line"/>
+      <point x="1068" y="145" type="line"/>
       <point x="1068" y="0" type="line"/>
       <point x="1184" y="0" type="line"/>
-      <point x="1184" y="195" type="line"/>
+      <point x="1184" y="145" type="line"/>
     </contour>
   </outline>
   <lib>
