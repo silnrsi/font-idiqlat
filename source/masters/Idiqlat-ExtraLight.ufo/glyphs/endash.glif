@@ -7,10 +7,10 @@ endash
 </note>
   <outline>
     <contour>
-      <point x="0" y="273" type="line"/>
-      <point x="701" y="273" type="line"/>
-      <point x="701" y="351" type="line"/>
-      <point x="0" y="351" type="line"/>
+      <point x="0" y="176" type="line"/>
+      <point x="701" y="176" type="line"/>
+      <point x="701" y="311" type="line"/>
+      <point x="0" y="311" type="line"/>
     </contour>
   </outline>
   <lib>

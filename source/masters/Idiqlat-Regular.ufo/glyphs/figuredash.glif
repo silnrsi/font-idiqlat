@@ -6,12 +6,7 @@
 figuredash
 </note>
   <outline>
-    <contour>
-      <point x="70" y="273" type="line"/>
-      <point x="771" y="273" type="line"/>
-      <point x="771" y="364" type="line"/>
-      <point x="70" y="364" type="line"/>
-    </contour>
+    <component base="endash" xOffset="71"/>
   </outline>
   <lib>
     <dict>

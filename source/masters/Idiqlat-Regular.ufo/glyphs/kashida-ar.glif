@@ -8,10 +8,10 @@
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <contour>
-      <point x="0" y="0" type="line"/>
-      <point x="360" y="0" type="line"/>
-      <point x="360" y="195" type="line"/>
-      <point x="0" y="195" type="line"/>
+      <point x="-20" y="0" type="line"/>
+      <point x="380" y="0" type="line"/>
+      <point x="380" y="195" type="line"/>
+      <point x="-20" y="195" type="line"/>
     </contour>
   </outline>
 </glyph>
