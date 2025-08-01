@@ -6,7 +6,7 @@
   <anchor x="465" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
-    <component base="_shin" xOffset="-19"/>
+    <component base="_shin" xOffset="-69"/>
     <contour>
       <point x="172" y="0" type="line"/>
       <point x="172" y="145" type="line"/>

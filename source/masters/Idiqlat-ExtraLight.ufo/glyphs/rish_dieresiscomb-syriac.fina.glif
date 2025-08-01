@@ -10,12 +10,12 @@
     <component base="_LrgSquareDot" xOffset="-166" yOffset="990"/>
     <component base="_LrgSquareDot" xOffset="125" yOffset="990"/>
     <contour>
-      <point x="529" y="195" type="line"/>
+      <point x="529" y="145" type="line"/>
       <point x="529" y="65"/>
       <point x="563" y="0"/>
       <point x="648" y="0" type="curve" smooth="yes"/>
       <point x="669" y="0" type="line"/>
-      <point x="669" y="195" type="line"/>
+      <point x="669" y="145" type="line"/>
     </contour>
   </outline>
   <lib>
