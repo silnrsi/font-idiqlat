@@ -35,7 +35,7 @@
 
 @RightJoiningFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina sadhe_nun-syriac.fina dhalathPersian-syriac.fina zhainSogdian-syriac.fina];
 @RightJoiningIsol = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac sadhe_nun-syriac dhalathPersian-syriac zhainSogdian-syriac];
-@RightJoining = [@RightJoiningIsol @RightJoiningFina];
+@RightJoining = [@RightJoiningIsol @RightJoiningFina alaph-syriac.fin3 alaph-syriac.med2 alaph-syriac.fin2];
 
 @AllBase = [@DualJoining @RightJoining];
 

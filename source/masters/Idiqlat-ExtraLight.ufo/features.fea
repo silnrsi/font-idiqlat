@@ -605,7 +605,7 @@ markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 #**********************************
 @RightJoiningFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina sadhe_nun-syriac.fina dhalathPersian-syriac.fina zhainSogdian-syriac.fina];
 @RightJoiningIsol = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac sadhe_nun-syriac dhalathPersian-syriac zhainSogdian-syriac];
-@RightJoining = [@RightJoiningIsol @RightJoiningFina];
+@RightJoining = [@RightJoiningIsol @RightJoiningFina alaph-syriac.fin3 alaph-syriac.med2 alaph-syriac.fin2];
 @AllBase = [@DualJoining @RightJoining];
 # Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar sukun-ar madda-ar hamzaabove-ar alefbelow-ar
 @MarkAboveCanChain = [tildecomb macroncomb dotaccentcomb dieresiscomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac rwaha-syriac twodotsverticalabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac];
@@ -1364,6 +1364,7 @@ feature aalt {
 #**********************************
 # GPOS (Positioning) lookups
 #**********************************
+# I don't think this is doing anything
 lookup kern_dalath_sadhe_nun {
     # FKern: {Dolath, Sodeh} {Nun}
     # GPOS lookup 1, type 2 (Pair adjustment)
@@ -1372,6 +1373,8 @@ lookup kern_dalath_sadhe_nun {
     pos sadhe-syriac 0 nun-syriac 250;
     pos dalath-syriac.fina 0 nun-syriac 150;
     pos sadhe-syriac.fina 0 nun-syriac 250;
+    #    pos waw-syriac 0 nun-syriac 150;
+    #    pos waw-syriac.fina 0 nun-syriac 150;
 } kern_dalath_sadhe_nun;
 
 lookup kern_nun_1 {

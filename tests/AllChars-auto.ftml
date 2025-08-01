@@ -6,6 +6,7 @@
     <fontscale>200</fontscale>
     <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
     <fontsrc label="ExLt">url(../results/Idiqlat-ExtraLight.ttf)</fontsrc>
+    <fontsrc label="Lt">url(../results/Idiqlat-Light.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Idiqlat-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'cv02' 1" name="cv02_1"/>
@@ -14,7 +15,7 @@
       <style feats="'cv18' 1" name="cv18_1"/>
     </styles>
     <title>AllChars (auto)</title>
-    <widths string="25%"/>
+    <widths string="19%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">

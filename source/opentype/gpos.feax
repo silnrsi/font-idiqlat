@@ -22,6 +22,7 @@
 # GPOS (Positioning) lookups
 #**********************************
 
+# I don't think this is doing anything
 lookup kern_dalath_sadhe_nun { # FKern: {Dolath, Sodeh} {Nun}
     # GPOS lookup 1, type 2 (Pair adjustment)
     lookupflag RightToLeft IgnoreMarks;
@@ -29,6 +30,8 @@ lookup kern_dalath_sadhe_nun { # FKern: {Dolath, Sodeh} {Nun}
     pos sadhe-syriac 0 nun-syriac 250;
     pos dalath-syriac.fina 0 nun-syriac 150;
     pos sadhe-syriac.fina 0 nun-syriac 250;
+#    pos waw-syriac 0 nun-syriac 150;
+#    pos waw-syriac.fina 0 nun-syriac 150;
 } kern_dalath_sadhe_nun;
 
 lookup  kern_nun_1 { # FKern: {Dolath, Sodeh} {Nun}

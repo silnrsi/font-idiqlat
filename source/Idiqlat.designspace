@@ -9,6 +9,10 @@
             <map input="200.0" output="300.0" /> <!-- ExtraLight -->
             <map input="300.0" output="350.0" /> <!-- Light -->
             <map input="400.0" output="400.0" /> <!-- Regular -->
+            <map input="500.0" output="500.0" /> <!-- Medium -->
+            <map input="600.0" output="600.0" /> <!-- SemiBold -->
+            <map input="700.0" output="700.0" /> <!-- Bold -->
+            <map input="800.0" output="800.0" /> <!-- ExtraBold -->
             <labelname xml:lang="en">Weight</labelname>
         </axis>
         <axis default="100.0" maximum="100.0" minimum="100.0" name="width" tag="wdth">
@@ -20,6 +24,7 @@
             <labelname xml:lang="en">Custom</labelname>
         </axis>
     </axes>
+    
     <sources>
         <source familyname="Idiqlat" filename="masters/Idiqlat-ExtraLight.ufo" name="Idiqlat-ExtraLight" stylename="ExtraLight">
             <location>
@@ -44,7 +49,7 @@
         <!-- stylemapfamilyname: use <familyname> for Regular, else use <familyname>+" "+<stylename> -->
         <!-- stylemapstylename: use "regular" for all styles except B: use "bold" -->
 
-        <!-- Idiqlat Light -->
+        <!-- Idiqlat ExtraLight -->
         <instance       familyname="Idiqlat"
                           filename="instances/Idiqlat-ExtraLight.ufo"
                               name="Idiqlat ExtraLight"
@@ -61,13 +66,12 @@
             <kerning/>
         </instance>
         <!-- Idiqlat Light -->
- <!--
         <instance       familyname="Idiqlat"
                           filename="instances/Idiqlat-Light.ufo"
                               name="Idiqlat Light"
                 stylemapfamilyname="Idiqlat Light"
                  stylemapstylename="regular"
-                         stylename="Idiqlat"
+                         stylename="Light"
                 postscriptfontname="Idiqlat-Light">
             <location>
                 <dimension name="weight" xvalue="350.000000" />
@@ -77,7 +81,6 @@
             <info/>
             <kerning/>
         </instance>
- -->
         <!-- Idiqlat Regular -->
         <instance       familyname="Idiqlat"
                           filename="instances/Idiqlat-Regular.ufo"

@@ -182,6 +182,25 @@
     </test>
 </testgroup>
 
+<testgroup label="Kerning pairs / dalath, sadhe, +nun">
+    <test label="U+0710 + U+0721">
+      <comment>alaph-syriac nun-syriac</comment>
+      <string>\u0710\u0743\u0722\u0743 \u0712\u0743\u0710\u0743\u0722\u0743</string>
+    </test>
+    <test label="U+0715, U+0716 + U+0721">
+      <comment>dalath-syriac nun-syriac</comment>
+      <string>\u0715\u0722 \u0712\u0715\u0722 \u0716\u0722 \u0712\u0716\u0722</string>
+    </test>
+    <test label="U+0728 U+0721">
+      <comment>sadhe-syriac nun-syriac</comment>
+      <string>\u0728\u0722 \u0712\u0728\u0722 </string>
+    </test>
+    <test label="U+0718 U+0721">
+      <comment>waw-syriac nun-syriac</comment>
+      <string>\u0718\u0722 \u0712\u0718\u0722 </string>
+    </test>
+</testgroup>
+
 <testgroup label="Ligature Words with diacritics from aii">
     <test label="he_yudh 0717 071D" rtl="True">
       <comment>he_yudh</comment>
