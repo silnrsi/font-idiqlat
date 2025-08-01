@@ -7,9 +7,29 @@
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="beth-syriac.medi"/>
+    <contour>
+      <point x="339" y="644" type="curve"/>
+      <point x="434" y="496" type="line"/>
+      <point x="699" y="711"/>
+      <point x="724" y="745"/>
+      <point x="724" y="792" type="curve" smooth="yes"/>
+      <point x="724" y="843"/>
+      <point x="703" y="899"/>
+      <point x="677" y="944" type="curve" smooth="yes"/>
+      <point x="642" y="1004"/>
+      <point x="590" y="1042"/>
+      <point x="582" y="1036" type="curve" smooth="yes"/>
+      <point x="575" y="1032"/>
+      <point x="598" y="990"/>
+      <point x="598" y="941" type="curve" smooth="yes"/>
+      <point x="598" y="885"/>
+      <point x="570" y="851"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>public.markColor</key>
       <string>0.98,0.36,0.67,1</string>
     </dict>

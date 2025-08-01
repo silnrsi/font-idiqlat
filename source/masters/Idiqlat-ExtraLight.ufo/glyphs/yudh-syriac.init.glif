@@ -8,12 +8,12 @@
   <outline>
     <component base="_heth-init" xOffset="161"/>
     <contour>
-      <point x="347" y="145" type="curve"/>
+      <point x="307" y="145" type="curve"/>
       <point x="-20" y="145" type="line"/>
       <point x="-20" y="0" type="line"/>
-      <point x="228" y="0" type="line" smooth="yes"/>
-      <point x="313" y="0"/>
-      <point x="347" y="65"/>
+      <point x="188" y="0" type="line" smooth="yes"/>
+      <point x="273" y="0"/>
+      <point x="307" y="65"/>
     </contour>
   </outline>
   <lib>

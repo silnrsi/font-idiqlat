@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heth-syriac.fina" format="2">
-  <advance width="1065"/>
+  <advance width="1095"/>
   <anchor x="691" y="540" name="above"/>
   <anchor x="50" y="540" name="aboveleft"/>
   <anchor x="676" y="-150" name="below"/>
@@ -8,14 +8,14 @@
   <outline>
     <component base="_heth-med" xOffset="309"/>
     <component base="_LeftTail" xOffset="-50"/>
-    <component base="_heth-med.1" xOffset="563"/>
+    <component base="_heth-med.1" xOffset="593"/>
     <contour>
-      <point x="513" y="145" type="curve"/>
-      <point x="247" y="145" type="line"/>
-      <point x="247" y="0" type="line"/>
-      <point x="394" y="0" type="line" smooth="yes"/>
-      <point x="479" y="0"/>
-      <point x="513" y="65"/>
+      <point x="463" y="145" type="curve"/>
+      <point x="197" y="145" type="line"/>
+      <point x="197" y="0" type="line"/>
+      <point x="344" y="0" type="line" smooth="yes"/>
+      <point x="429" y="0"/>
+      <point x="463" y="65"/>
     </contour>
   </outline>
   <lib>

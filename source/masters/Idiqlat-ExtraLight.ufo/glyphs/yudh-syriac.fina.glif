@@ -7,14 +7,14 @@
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="_LeftTail" xOffset="-50"/>
-    <component base="_yudh-med" xOffset="206"/>
+    <component base="_yudh-med" xOffset="336"/>
     <contour>
-      <point x="463" y="145" type="curve"/>
+      <point x="433" y="145" type="curve"/>
       <point x="233" y="145" type="line"/>
       <point x="233" y="0" type="line"/>
-      <point x="344" y="0" type="line" smooth="yes"/>
-      <point x="429" y="0"/>
-      <point x="463" y="65"/>
+      <point x="314" y="0" type="line" smooth="yes"/>
+      <point x="399" y="0"/>
+      <point x="433" y="65"/>
     </contour>
   </outline>
   <lib>
