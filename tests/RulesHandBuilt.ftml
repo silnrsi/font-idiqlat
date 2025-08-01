@@ -188,16 +188,40 @@
       <string>\u0710\u0743\u0722\u0743 \u0712\u0743\u0710\u0743\u0722\u0743</string>
     </test>
     <test label="U+0715, U+0716 + U+0721">
-      <comment>dalath-syriac nun-syriac</comment>
+      <comment>dalath-syriac, dotless-dalath nun-syriac</comment>
       <string>\u0715\u0722 \u0712\u0715\u0722 \u0716\u0722 \u0712\u0716\u0722</string>
+    </test>
+    <test label="U+0718 U+0721">
+      <comment>waw-syriac nun-syriac</comment>
+      <string>\u0718\u0722 \u0712\u0718\u0722 </string>
+    </test>
+    <test label="U+0719 U+0721 (no)">
+      <comment>zain-syriac nun-syriac</comment>
+      <string>\u0719\u0722 \u0712\u0719\u0722 </string>
+    </test>
+    <test label="U+071E U+0721 (no)">
+      <comment>yudhe-he-syriac nun-syriac</comment>
+      <string>\u071E\u0722 \u0712\u071E\u0722 </string>
     </test>
     <test label="U+0728 U+0721">
       <comment>sadhe-syriac nun-syriac</comment>
       <string>\u0728\u0722 \u0712\u0728\u0722 </string>
     </test>
-    <test label="U+0718 U+0721">
-      <comment>waw-syriac nun-syriac</comment>
-      <string>\u0718\u0722 \u0712\u0718\u0722 </string>
+    <test label="U+072A U+0721">
+      <comment>rish-syriac nun-syriac</comment>
+      <string>\u072A\u0722 \u0712\u072A\u0722 </string>
+    </test>
+    <test label="U+072C U+0721">
+      <comment>taw-syriac nun-syriac</comment>
+      <string>\u072C\u0722 \u0712\u072C\u0722 </string>
+    </test>
+    <test label="U+072F U+0721">
+      <comment>persian-dalath-syriac nun-syriac</comment>
+      <string>\u072F\u0722 \u0712\u072F\u0722 </string>
+    </test>
+    <test label="U+074D U+0721">
+      <comment>sogdian-zhain-syriac nun-syriac</comment>
+      <string>\u074D\u0722 \u0712\u074D\u0722 </string>
     </test>
 </testgroup>
 

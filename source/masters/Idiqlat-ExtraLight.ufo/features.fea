@@ -1364,17 +1364,21 @@ feature aalt {
 #**********************************
 # GPOS (Positioning) lookups
 #**********************************
-# changed nun-syriac to nun-syriac.cv18 because adding cv18 changed code
+# changed nun-syriac to nun-syriac.cv18 since it's post processed
 lookup kern_dalath_sadhe_nun {
     # FKern: {Dolath, Sodeh} {Nun}
     # GPOS lookup 1, type 2 (Pair adjustment)
     lookupflag RightToLeft IgnoreMarks;
     pos dalath-syriac 0 nun-syriac.cv18 150;
-    pos sadhe-syriac 0 nun-syriac.cv18 250;
     pos dalath-syriac.fina 0 nun-syriac.cv18 150;
+    pos sadhe-syriac 0 nun-syriac.cv18 250;
     pos sadhe-syriac.fina 0 nun-syriac.cv18 250;
+    pos dhalathPersian-syriac 0 nun-syriac.cv18 150;
+    pos dhalathPersian-syriac.fina 0 nun-syriac.cv18 150;
     pos waw-syriac 0 nun-syriac.cv18 -75;
     pos waw-syriac.fina 0 nun-syriac.cv18 -75;
+    pos zhainSogdian-syriac 0 nun-syriac.cv18 -75;
+    pos zhainSogdian-syriac.fina 0 nun-syriac.cv18 -75;
 } kern_dalath_sadhe_nun;
 
 lookup kern_nun_1 {
