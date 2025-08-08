@@ -30,12 +30,14 @@ lookup kern_dalath_sadhe_nun { # FKern: {Dolath, Sodeh} {Nun}
     pos dalath-syriac.fina 0 nun-syriac.cv18 150;
     pos sadhe-syriac 0 nun-syriac.cv18 250;
     pos sadhe-syriac.fina 0 nun-syriac.cv18 250;
-    pos dhalathPersian-syriac 0 nun-syriac.cv18 150;
-    pos dhalathPersian-syriac.fina 0 nun-syriac.cv18 150;
     pos waw-syriac 0 nun-syriac.cv18 -75;
     pos waw-syriac.fina 0 nun-syriac.cv18 -75;
+  ifinfo(familyName, "Idiqlat") {
+    pos dhalathPersian-syriac 0 nun-syriac.cv18 150;
+    pos dhalathPersian-syriac.fina 0 nun-syriac.cv18 150;
     pos zhainSogdian-syriac 0 nun-syriac.cv18 -75;
     pos zhainSogdian-syriac.fina 0 nun-syriac.cv18 -75;
+  }
 } kern_dalath_sadhe_nun;
 
 lookup  kern_nun_1 { # FKern: {Dolath, Sodeh} {Nun}
