@@ -39,12 +39,4 @@
       <point x="249" y="-322"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>=|f+30</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>=f+30</string>
-    </dict>
-  </lib>
 </glyph>
