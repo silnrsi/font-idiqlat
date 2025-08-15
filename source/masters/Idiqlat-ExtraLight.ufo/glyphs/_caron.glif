@@ -3,18 +3,18 @@
   <note>
 uni030C
 </note>
-  <anchor x="420" y="609" name="_above"/>
+  <anchor x="420" y="610" name="_above"/>
   <anchor x="420" y="964" name="above"/>
   <outline>
     <contour>
-      <point x="628" y="926" type="line"/>
+      <point x="630" y="925" type="line"/>
       <point x="562" y="950" type="line"/>
-      <point x="378" y="745" type="line"/>
-      <point x="465" y="745" type="line"/>
+      <point x="378" y="746" type="line"/>
+      <point x="466" y="746" type="line"/>
       <point x="280" y="950" type="line"/>
-      <point x="212" y="926" type="line"/>
-      <point x="359" y="695" type="line"/>
-      <point x="482" y="695" type="line"/>
+      <point x="210" y="925" type="line"/>
+      <point x="357" y="695" type="line"/>
+      <point x="484" y="695" type="line"/>
     </contour>
   </outline>
   <lib>

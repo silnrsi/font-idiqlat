@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oslash" format="2">
-  <advance width="729"/>
+  <advance width="731"/>
   <unicode hex="00F8"/>
   <note>
 oslash
 </note>
-  <anchor x="371" y="609" name="above"/>
+  <anchor x="372" y="610" name="above"/>
   <outline>
     <component base="o"/>
-    <component base="_slashlong" xOffset="-56"/>
+    <component base="_slashlong" xOffset="-54"/>
   </outline>
   <lib>
     <dict>

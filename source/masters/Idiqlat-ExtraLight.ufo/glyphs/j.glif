@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="j" format="2">
-  <advance width="376"/>
+  <advance width="379"/>
   <unicode hex="006A"/>
   <note>
 j
 </note>
   <outline>
     <component base="_jdotless"/>
-    <component base="_dotaccent.i" xOffset="-224"/>
+    <component base="_dotaccent.i" xOffset="-222"/>
   </outline>
   <lib>
     <dict>

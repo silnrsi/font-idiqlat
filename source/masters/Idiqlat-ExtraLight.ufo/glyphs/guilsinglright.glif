@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guilsinglright" format="2">
-  <advance width="546"/>
+  <advance width="549"/>
   <unicode hex="203A"/>
   <note>
 guilsinglright
@@ -8,13 +8,13 @@ guilsinglright
   <outline>
     <contour>
       <point x="91" y="538" type="line"/>
-      <point x="325" y="256" type="line"/>
-      <point x="325" y="363" type="line"/>
+      <point x="324" y="257" type="line"/>
+      <point x="324" y="364" type="line"/>
       <point x="91" y="82" type="line"/>
-      <point x="135" y="30" type="line"/>
-      <point x="437" y="280" type="line"/>
-      <point x="437" y="342" type="line"/>
-      <point x="135" y="591" type="line"/>
+      <point x="136" y="29" type="line"/>
+      <point x="441" y="280" type="line"/>
+      <point x="441" y="343" type="line"/>
+      <point x="136" y="592" type="line"/>
     </contour>
   </outline>
   <lib>

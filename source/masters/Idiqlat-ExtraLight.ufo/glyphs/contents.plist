@@ -188,10 +188,6 @@
   <string>_dieresis.glif</string>
   <key>_dieresis.case</key>
   <string>_dieresis.case.glif</string>
-  <key>_dot1</key>
-  <string>_dot1.glif</string>
-  <key>_dot_punct</key>
-  <string>_dot_punct.glif</string>
   <key>_dotaccent</key>
   <string>_dotaccent.glif</string>
   <key>_dotaccent.i</key>

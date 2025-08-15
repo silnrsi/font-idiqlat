@@ -2,6 +2,9 @@
 <glyph name="dollar" format="2">
   <advance width="726"/>
   <unicode hex="0024"/>
+  <note>
+dollar
+</note>
   <outline>
     <contour>
       <point x="332" y="-12" type="curve" smooth="yes"/>
@@ -48,4 +51,14 @@
       <point x="336" y="987" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>S</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>S</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
 </glyph>

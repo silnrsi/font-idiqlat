@@ -3,22 +3,22 @@
   <note>
 uni0307
 </note>
-  <anchor x="420" y="609" name="_above"/>
-  <anchor x="420" y="935" name="above"/>
+  <anchor x="420" y="610" name="_above"/>
+  <anchor x="420" y="934" name="above"/>
   <outline>
     <contour>
-      <point x="422" y="727" type="curve" smooth="yes"/>
-      <point x="474" y="727"/>
-      <point x="509" y="764"/>
-      <point x="509" y="811" type="curve" smooth="yes"/>
-      <point x="509" y="858"/>
-      <point x="474" y="895"/>
-      <point x="422" y="895" type="curve" smooth="yes"/>
-      <point x="368" y="895"/>
-      <point x="332" y="858"/>
-      <point x="332" y="811" type="curve" smooth="yes"/>
-      <point x="332" y="764"/>
-      <point x="368" y="727"/>
+      <point x="422" y="725" type="curve" smooth="yes"/>
+      <point x="476" y="725"/>
+      <point x="511" y="764"/>
+      <point x="511" y="811" type="curve" smooth="yes"/>
+      <point x="511" y="859"/>
+      <point x="476" y="897"/>
+      <point x="422" y="897" type="curve" smooth="yes"/>
+      <point x="366" y="897"/>
+      <point x="330" y="859"/>
+      <point x="330" y="811" type="curve" smooth="yes"/>
+      <point x="330" y="764"/>
+      <point x="366" y="725"/>
     </contour>
   </outline>
   <lib>

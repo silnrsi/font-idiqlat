@@ -7,14 +7,14 @@ uni0302.cap
   <anchor x="420" y="1217" name="above"/>
   <outline>
     <contour>
-      <point x="670" y="1035" type="line"/>
-      <point x="482" y="1183" type="line"/>
-      <point x="359" y="1183" type="line"/>
-      <point x="170" y="1035" type="line"/>
-      <point x="227" y="998" type="line"/>
-      <point x="465" y="1121" type="line"/>
-      <point x="376" y="1121" type="line"/>
-      <point x="614" y="998" type="line"/>
+      <point x="672" y="1035" type="line"/>
+      <point x="484" y="1183" type="line"/>
+      <point x="357" y="1183" type="line"/>
+      <point x="168" y="1035" type="line"/>
+      <point x="226" y="998" type="line"/>
+      <point x="465" y="1120" type="line"/>
+      <point x="376" y="1120" type="line"/>
+      <point x="615" y="998" type="line"/>
     </contour>
   </outline>
   <lib>

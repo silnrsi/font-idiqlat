@@ -6,25 +6,25 @@ uni2084
 </note>
   <outline>
     <contour>
-      <point x="428" y="69" type="line"/>
-      <point x="428" y="388" type="line"/>
-      <point x="428" y="445"/>
-      <point x="429" y="504"/>
-      <point x="434" y="548" type="curve"/>
-      <point x="355" y="548" type="line"/>
-      <point x="36" y="184" type="line"/>
-      <point x="45" y="139" type="line"/>
-      <point x="511" y="139" type="line"/>
-      <point x="511" y="221" type="line"/>
-      <point x="137" y="221" type="line"/>
-      <point x="133" y="204" type="line"/>
-      <point x="312" y="411" type="line"/>
-      <point x="295" y="415" type="line"/>
-      <point x="295" y="69" type="line"/>
-      <point x="215" y="54" type="line"/>
-      <point x="219" y="0" type="line"/>
-      <point x="491" y="0" type="line"/>
-      <point x="494" y="54" type="line"/>
+      <point x="430" y="70" type="line"/>
+      <point x="430" y="387" type="line"/>
+      <point x="430" y="445"/>
+      <point x="431" y="504"/>
+      <point x="435" y="548" type="curve"/>
+      <point x="354" y="548" type="line"/>
+      <point x="34" y="185" type="line"/>
+      <point x="43" y="139" type="line"/>
+      <point x="513" y="139" type="line"/>
+      <point x="513" y="222" type="line"/>
+      <point x="136" y="222" type="line"/>
+      <point x="133" y="205" type="line"/>
+      <point x="310" y="410" type="line"/>
+      <point x="293" y="413" type="line"/>
+      <point x="293" y="70" type="line"/>
+      <point x="213" y="55" type="line"/>
+      <point x="217" y="0" type="line"/>
+      <point x="493" y="0" type="line"/>
+      <point x="495" y="55" type="line"/>
     </contour>
   </outline>
   <lib>

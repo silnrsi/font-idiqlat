@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onehalf" format="2">
-  <advance width="1284"/>
+  <advance width="1287"/>
   <unicode hex="00BD"/>
   <note>
 onehalf
@@ -8,7 +8,7 @@ onehalf
   <outline>
     <component base="one.numr"/>
     <component base="fraction" xOffset="561"/>
-    <component base="two.dnom" xOffset="722"/>
+    <component base="two.dnom" xOffset="725"/>
   </outline>
   <lib>
     <dict>

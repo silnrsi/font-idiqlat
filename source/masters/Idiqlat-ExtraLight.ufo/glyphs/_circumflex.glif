@@ -3,17 +3,17 @@
   <note>
 uni0302
 </note>
-  <anchor x="420" y="609" name="_above"/>
+  <anchor x="420" y="610" name="_above"/>
   <anchor x="420" y="964" name="above"/>
   <outline>
     <contour>
-      <point x="628" y="699" type="line"/>
-      <point x="482" y="932" type="line"/>
-      <point x="359" y="932" type="line"/>
-      <point x="212" y="699" type="line"/>
+      <point x="630" y="699" type="line"/>
+      <point x="484" y="932" type="line"/>
+      <point x="357" y="932" type="line"/>
+      <point x="210" y="699" type="line"/>
       <point x="280" y="676" type="line"/>
-      <point x="465" y="882" type="line"/>
-      <point x="376" y="882" type="line"/>
+      <point x="465" y="881" type="line"/>
+      <point x="376" y="881" type="line"/>
       <point x="562" y="676" type="line"/>
     </contour>
   </outline>

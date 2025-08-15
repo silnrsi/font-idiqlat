@@ -2,6 +2,9 @@
 <glyph name="slash" format="2">
   <advance width="590"/>
   <unicode hex="002F"/>
+  <note>
+slash
+</note>
   <outline>
     <contour>
       <point x="42" y="-252" type="line"/>
@@ -10,4 +13,10 @@
       <point x="465" y="1022" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
 </glyph>

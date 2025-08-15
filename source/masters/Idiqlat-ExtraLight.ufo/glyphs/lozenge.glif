@@ -5,17 +5,17 @@
   <outline>
     <contour>
       <point x="695" y="348" type="line"/>
-      <point x="432" y="945" type="line"/>
-      <point x="327" y="945" type="line"/>
+      <point x="433" y="945" type="line"/>
+      <point x="325" y="945" type="line"/>
       <point x="63" y="348" type="line"/>
-      <point x="327" y="-249" type="line"/>
-      <point x="432" y="-249" type="line"/>
+      <point x="325" y="-249" type="line"/>
+      <point x="433" y="-249" type="line"/>
     </contour>
     <contour>
-      <point x="579" y="348" type="line"/>
-      <point x="379" y="-118" type="line"/>
-      <point x="178" y="348" type="line"/>
-      <point x="379" y="815" type="line"/>
+      <point x="577" y="348" type="line"/>
+      <point x="379" y="-115" type="line"/>
+      <point x="180" y="348" type="line"/>
+      <point x="379" y="812" type="line"/>
     </contour>
   </outline>
   <lib>

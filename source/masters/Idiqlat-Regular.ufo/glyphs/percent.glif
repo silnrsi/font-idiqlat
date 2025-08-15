@@ -2,6 +2,9 @@
 <glyph name="percent" format="2">
   <advance width="1119"/>
   <unicode hex="0025"/>
+  <note>
+percent
+</note>
   <outline>
     <contour>
       <point x="290" y="-17" type="line"/>
@@ -66,4 +69,12 @@
       <point x="888" y="108"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
 </glyph>

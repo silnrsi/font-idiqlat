@@ -3,20 +3,20 @@
   <note>
 uni030B
 </note>
-  <anchor x="420" y="609" name="_above"/>
+  <anchor x="420" y="610" name="_above"/>
   <anchor x="420" y="964" name="above"/>
   <outline>
     <contour>
-      <point x="538" y="676" type="line"/>
-      <point x="681" y="926" type="line"/>
-      <point x="571" y="950" type="line"/>
-      <point x="481" y="698" type="line"/>
+      <point x="539" y="676" type="line"/>
+      <point x="682" y="926" type="line"/>
+      <point x="569" y="950" type="line"/>
+      <point x="480" y="699" type="line"/>
     </contour>
     <contour>
-      <point x="360" y="676" type="line"/>
+      <point x="361" y="676" type="line"/>
       <point x="504" y="926" type="line"/>
-      <point x="393" y="950" type="line"/>
-      <point x="303" y="698" type="line"/>
+      <point x="392" y="950" type="line"/>
+      <point x="302" y="699" type="line"/>
     </contour>
   </outline>
   <lib>
