@@ -2,9 +2,6 @@
 <glyph name="quotesingle" format="2">
   <advance width="364"/>
   <unicode hex="0027"/>
-  <note>
-quotesingle
-</note>
   <outline>
     <contour>
       <point x="182" y="980" type="curve" smooth="yes"/>
