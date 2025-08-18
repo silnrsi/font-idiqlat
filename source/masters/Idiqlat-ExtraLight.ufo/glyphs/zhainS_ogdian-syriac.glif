@@ -2,10 +2,10 @@
 <glyph name="zhainSogdian-syriac" format="2">
   <advance width="911"/>
   <unicode hex="074D"/>
-  <anchor x="828" y="791" name="above"/>
-  <anchor x="657" y="791" name="aboveleft"/>
-  <anchor x="874" y="-259" name="below"/>
-  <anchor x="657" y="-259" name="belowleft"/>
+  <anchor x="484" y="743" name="above"/>
+  <anchor x="50" y="743" name="aboveleft"/>
+  <anchor x="484" y="-510" name="below"/>
+  <anchor x="50" y="-510" name="belowleft"/>
   <outline>
     <contour>
       <point x="562" y="-137" type="curve" smooth="yes"/>

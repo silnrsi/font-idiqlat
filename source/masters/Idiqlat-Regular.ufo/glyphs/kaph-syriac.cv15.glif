@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaph-syriac.cv15" format="2">
   <advance width="845"/>
-  <anchor x="357" y="765" name="above"/>
-  <anchor x="50" y="765" name="aboveleft"/>
+  <anchor x="357" y="750" name="above"/>
+  <anchor x="50" y="750" name="aboveleft"/>
   <anchor x="402" y="-210" name="below"/>
   <anchor x="50" y="-210" name="belowleft"/>
   <outline>

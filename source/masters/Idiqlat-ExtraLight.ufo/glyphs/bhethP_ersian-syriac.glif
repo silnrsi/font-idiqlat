@@ -2,8 +2,8 @@
 <glyph name="bhethPersian-syriac" format="2">
   <advance width="1028"/>
   <unicode hex="072D"/>
-  <anchor x="678" y="780" name="above"/>
-  <anchor x="50" y="780" name="aboveleft"/>
+  <anchor x="778" y="990" name="above"/>
+  <anchor x="50" y="990" name="aboveleft"/>
   <anchor x="618" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>

@@ -2,8 +2,8 @@
 <glyph name="ghamalPersian-syriac" format="2">
   <advance width="1143"/>
   <unicode hex="072E"/>
-  <anchor x="962" y="795" name="above"/>
-  <anchor x="50" y="795" name="aboveleft"/>
+  <anchor x="1081" y="1238" name="above"/>
+  <anchor x="50" y="1238" name="aboveleft"/>
   <anchor x="685" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>

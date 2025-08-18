@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shin-syriac.init" format="2">
   <advance width="886"/>
-  <anchor x="400" y="780" name="above"/>
+  <anchor x="430" y="780" name="above"/>
   <anchor x="0" y="780" name="aboveleft"/>
   <anchor x="415" y="-150" name="below"/>
   <anchor x="0" y="-150" name="belowleft"/>

@@ -2,8 +2,8 @@
 <glyph name="feSogdian-syriac" format="2">
   <advance width="1138"/>
   <unicode hex="074F"/>
-  <anchor x="573" y="975" name="above"/>
-  <anchor x="50" y="975" name="aboveleft"/>
+  <anchor x="657" y="1132" name="above"/>
+  <anchor x="50" y="1132" name="aboveleft"/>
   <anchor x="663" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>

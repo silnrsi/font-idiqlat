@@ -2,8 +2,8 @@
 <glyph name="yudh-syriac" format="2">
   <advance width="791"/>
   <unicode hex="071D"/>
-  <anchor x="496" y="540" name="above"/>
-  <anchor x="50" y="540" name="aboveleft"/>
+  <anchor x="466" y="460" name="above"/>
+  <anchor x="50" y="460" name="aboveleft"/>
   <anchor x="511" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>

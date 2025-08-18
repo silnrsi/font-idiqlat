@@ -2,7 +2,7 @@
 <glyph name="shin-syriac" format="2">
   <advance width="1111"/>
   <unicode hex="072B"/>
-  <anchor x="615" y="780" name="above"/>
+  <anchor x="645" y="780" name="above"/>
   <anchor x="50" y="780" name="aboveleft"/>
   <anchor x="645" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>

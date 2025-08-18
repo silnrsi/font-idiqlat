@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="music-syriac" format="2">
   <unicode hex="0749"/>
-  <anchor x="330" y="180" name="_above"/>
+  <anchor x="706" y="180" name="_above"/>
   <anchor x="270" y="585" name="above"/>
   <outline>
     <contour>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhainSogdian-syriac.fina" format="2">
   <advance width="948"/>
+  <anchor x="484" y="743" name="above"/>
+  <anchor x="50" y="743" name="aboveleft"/>
+  <anchor x="484" y="-510" name="below"/>
+  <anchor x="50" y="-510" name="belowleft"/>
   <outline>
     <component base="zhainSogdian-syriac"/>
     <contour>

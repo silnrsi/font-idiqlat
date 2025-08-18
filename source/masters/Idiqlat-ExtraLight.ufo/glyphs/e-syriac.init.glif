@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="e-syriac.init" format="2">
   <advance width="1035"/>
-  <anchor x="340" y="975" name="above"/>
+  <anchor x="250" y="975" name="above"/>
   <anchor x="50" y="975" name="aboveleft"/>
   <anchor x="425" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>

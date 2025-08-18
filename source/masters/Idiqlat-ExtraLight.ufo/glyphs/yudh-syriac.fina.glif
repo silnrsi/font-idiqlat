@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yudh-syriac.fina" format="2">
   <advance width="758"/>
-  <anchor x="496" y="540" name="above"/>
-  <anchor x="50" y="540" name="aboveleft"/>
+  <anchor x="446" y="460" name="above"/>
+  <anchor x="50" y="460" name="aboveleft"/>
   <anchor x="541" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>

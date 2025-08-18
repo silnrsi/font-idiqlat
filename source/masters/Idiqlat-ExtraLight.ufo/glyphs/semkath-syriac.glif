@@ -2,8 +2,8 @@
 <glyph name="semkath-syriac" format="2">
   <advance width="1136"/>
   <unicode hex="0723"/>
-  <anchor x="766" y="810" name="above"/>
-  <anchor x="50" y="810" name="aboveleft"/>
+  <anchor x="766" y="780" name="above"/>
+  <anchor x="50" y="780" name="aboveleft"/>
   <anchor x="676" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>

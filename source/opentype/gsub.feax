@@ -79,11 +79,14 @@ lookup FontCheck {
 
 
 # Replace Syriac punctuation glyphs with Latin ones:
+do let f = info("familyName");
+   if f.find("East Syriac Marcus New") != -1 ; {
 
-# lookup LatinPunctuation {
-#  lookupflag 0 ;
-#    sub @cno_latn by @c_latn ;
-# } LatinPunctuation ;
+lookup LatinPunctuation {
+  lookupflag 0 ;
+    sub @Punct by @Punct_latn ;
+} LatinPunctuation ;
+}   #end do - East Syriac Marcus New
 
 # HB PAUSE
 
@@ -274,6 +277,7 @@ lookup RightJoinFina {
 
 # Lookups for user-selectable features
 
+
 do let f = info("familyName");
 if f.find("Idiqlat") != -1 or f.find("East Syriac Marcus New") != -1; {
 
@@ -364,7 +368,7 @@ lookup SadheNunLigature {
 feature ccmp {  # Glyph Composition/Decomposition
     # Same for latin & syriac:
         lookup FontCheck;
-#    script latn;
+    script latn;
 #        lookup LatinPunctuation;
     script syrc;
         lookup GPreDecompose;
@@ -457,6 +461,16 @@ feature calt {
 # all remaining substitution features (dlig,salt, ssxx, liga, aalt):
 #********************
 
+#---  dlig feature (pass 10) ---
+
+feature dlig {  # Discretionary Ligatures  -- we use this because dlig is done in the same pass as cvXX
+    script syrc;
+        lookup SadheNunLigature;
+        lookup TawAlaphLigatures;
+        lookup TawYudhLigature;
+        lookup HeYudhLigature;
+} dlig ;
+
 #---  liga feature (pass 10) ---
 
 feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cvXX
@@ -467,6 +481,20 @@ feature liga {  # Ligatures  -- we use this because liga is done in the same pas
 # HB PAUSE
 #---  dlig feature (pass 10) ---
 
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 or f.find("East Syriac Marcus New") != -1; {
+
+feature ss01 {
+	featureNames {
+		name 3 1 0x409 "Kaph Mim Nun alternates";
+	};
+	lookup ss01_lkp {
+		lookupflag RightToLeft;
+		    sub [kaph-syriac mim-syriac nun-syriac] by [kaph-syriac.cv15 mim-syriac.cv17 nun-syriac.cv18];
+	} ss01_lkp;
+
+} ss01;
+   }
 
 #--- Character Variants ---
 
@@ -651,6 +679,7 @@ feature cv60 {  # Character Variant 60
 feature aalt {
 # automatic
 feature ccmp;
+feature dlig; # Idiqlat|East Syriac Marcus New
 feature cv02; # Idiqlat|East Syriac Marcus New
 feature cv15; # Idiqlat|East Syriac Marcus New
 feature cv17; # Idiqlat|East Syriac Marcus New
@@ -659,5 +688,7 @@ feature cv38; # Idiqlat|East Syriac Marcus New
 feature cv55;
 feature cv59; # Idiqlat|East Syriac Marcus New
 feature cv60; # Idiqlat|East Syriac Marcus New
+feature ss01; # Idiqlat|East Syriac Marcus New
+feature calt;
 } aalt;
 

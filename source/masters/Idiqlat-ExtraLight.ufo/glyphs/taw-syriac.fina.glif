@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taw-syriac.fina" format="2">
   <advance width="909"/>
-  <anchor x="255" y="975" name="above"/>
+  <anchor x="285" y="975" name="above"/>
   <anchor x="0" y="975" name="aboveleft"/>
   <anchor x="315" y="-150" name="below"/>
   <anchor x="0" y="-150" name="belowleft"/>

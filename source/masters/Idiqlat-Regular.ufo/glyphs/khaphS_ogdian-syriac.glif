@@ -2,8 +2,8 @@
 <glyph name="khaphSogdian-syriac" format="2">
   <advance width="1096"/>
   <unicode hex="074E"/>
-  <anchor x="648" y="750" name="above"/>
-  <anchor x="50" y="750" name="aboveleft"/>
+  <anchor x="865" y="965" name="above"/>
+  <anchor x="50" y="965" name="aboveleft"/>
   <anchor x="648" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>

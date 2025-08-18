@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bhethPersian-syriac.fina" format="2">
   <advance width="1049"/>
-  <anchor x="665" y="795" name="above"/>
-  <anchor x="50" y="795" name="aboveleft"/>
+  <anchor x="790" y="990" name="above"/>
+  <anchor x="50" y="990" name="aboveleft"/>
   <anchor x="705" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>

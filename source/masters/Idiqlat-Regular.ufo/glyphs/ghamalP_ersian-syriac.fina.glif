@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ghamalPersian-syriac.fina" format="2">
   <advance width="1137"/>
-  <anchor x="909" y="795" name="above"/>
-  <anchor x="50" y="795" name="aboveleft"/>
+  <anchor x="1040" y="1238" name="above"/>
+  <anchor x="50" y="1238" name="aboveleft"/>
   <anchor x="548" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>

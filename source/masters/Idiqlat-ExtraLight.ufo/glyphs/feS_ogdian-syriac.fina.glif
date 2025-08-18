@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="feSogdian-syriac.fina" format="2">
   <advance width="1058"/>
-  <anchor x="573" y="975" name="above"/>
-  <anchor x="50" y="975" name="aboveleft"/>
+  <anchor x="620" y="1132" name="above"/>
+  <anchor x="50" y="1132" name="aboveleft"/>
   <anchor x="693" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
