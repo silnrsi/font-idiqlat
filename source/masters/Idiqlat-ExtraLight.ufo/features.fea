@@ -141,7 +141,7 @@
 # baseClass n <anchor 403 610> @above;
 # baseClass [nbspace space] <anchor 202 995> @above;
 # baseClass nun-syriac <anchor 548 765> @above;
-# baseClass nun-syriac.cv18 <anchor 228 450> @above;
+# baseClass nun-syriac.cv18 <anchor 191 450> @above;
 # baseClass nun-syriac.fina <anchor 225 465> @above;
 # baseClass nun-syriac.init <anchor 265 765> @above;
 # baseClass nun-syriac.medi <anchor 284 765> @above;
@@ -295,7 +295,7 @@
 # baseClass [mim-syriac.init qaph-syriac.medi semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi] <anchor 540 -150> @below;
 # baseClass [nbspace space] <anchor 202 -150> @below;
 # baseClass nun-syriac <anchor 558 -150> @below;
-# baseClass nun-syriac.cv18 <anchor 213 -150> @below;
+# baseClass nun-syriac.cv18 <anchor 176 -150> @below;
 # baseClass nun-syriac.fina <anchor 240 -615> @below;
 # baseClass nun-syriac.init <anchor 295 -150> @below;
 # baseClass nun-syriac.medi <anchor 390 -150> @below;
@@ -433,7 +433,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass [khaphSogdian-syriac khaphSogdian-syriac.fina khaphSogdian-syriac.init khaphSogdian-syriac.medi] <anchor 50 965> @aboveleft;
 # baseClass [lamadh-syriac lamadh-syriac.fina lamadh-syriac.medi] <anchor 50 945> @aboveleft;
 # baseClass lamadh-syriac.init <anchor 50 930> @aboveleft;
-# baseClass nun-syriac.cv18 <anchor 50 450> @aboveleft;
+# baseClass nun-syriac.cv18 <anchor 13 450> @aboveleft;
 # baseClass nun-syriac.fina <anchor 50 465> @aboveleft;
 # baseClass nun-syriac.init <anchor -30 765> @aboveleft;
 # baseClass [pe-syriac pe-syriac.fina] <anchor 10 990> @aboveleft;
@@ -449,15 +449,16 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass [zhainSogdian-syriac zhainSogdian-syriac.fina] <anchor 50 743> @aboveleft;
 
 # AP: belowleft
-@belowleft = [alaph-syriac dalathrishDotless-syriac alaph-syriac.fin2 alaph-syriac.fina alaph-syriac.fin3 alaph-syriac.med2 beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi bhethPersian-syriac bhethPersian-syriac.fina bhethPersian-syriac.init bhethPersian-syriac.medi dalathrishDotless-syriac.fina dottedCircle e-syriac e-syriac.init e-syriac.medi feSogdian-syriac feSogdian-syriac.fina feSogdian-syriac.init feSogdian-syriac.medi gamal-syriac gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi ghamalPersian-syriac ghamalPersian-syriac.fina ghamalPersian-syriac.init ghamalPersian-syriac.medi he-syriac he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi kaph-syriac kaph-syriac.init kaph-syriac.medi kashida-ar khaphSogdian-syriac khaphSogdian-syriac.fina khaphSogdian-syriac.init khaphSogdian-syriac.medi lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.cv17 mim-syriac.fina mim-syriac.init mim-syriac.medi nbspace nun-syriac nun-syriac.cv18 nun-syriac.medi pe-syriac.init pe-syriac.medi pe_brevebelowcomb-syriac pe_brevebelowcomb-syriac.fina pe_brevebelowcomb-syriac.init pe_brevebelowcomb-syriac.medi qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.medi space taw-syriac teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac waw-syriac.fina yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dhalathPersian-syriac dhalathPersian-syriac.fina e-syriac.fina gamal-syriac.fina kaph-syriac.cv15 semkathFinal-syriac kaph-syriac.fina nun-syriac.fina nun-syriac.init pe-syriac pe-syriac.fina sadhe-syriac sadhe-syriac.fina semkathFinal-syriac.fina shin-syriac.init taw-syriac.fina zain-syriac zain-syriac.fina zhainSogdian-syriac zhainSogdian-syriac.fina];
+@belowleft = [alaph-syriac dalathrishDotless-syriac alaph-syriac.fin2 alaph-syriac.fina alaph-syriac.fin3 alaph-syriac.med2 beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi bhethPersian-syriac bhethPersian-syriac.fina bhethPersian-syriac.init bhethPersian-syriac.medi dalathrishDotless-syriac.fina dottedCircle e-syriac e-syriac.init e-syriac.medi feSogdian-syriac feSogdian-syriac.fina feSogdian-syriac.init feSogdian-syriac.medi gamal-syriac gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi ghamalPersian-syriac ghamalPersian-syriac.fina ghamalPersian-syriac.init ghamalPersian-syriac.medi he-syriac he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi kaph-syriac kaph-syriac.init kaph-syriac.medi kashida-ar khaphSogdian-syriac khaphSogdian-syriac.fina khaphSogdian-syriac.init khaphSogdian-syriac.medi lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.cv17 mim-syriac.fina mim-syriac.init mim-syriac.medi nbspace nun-syriac nun-syriac.medi pe-syriac.init pe-syriac.medi pe_brevebelowcomb-syriac pe_brevebelowcomb-syriac.fina pe_brevebelowcomb-syriac.init pe_brevebelowcomb-syriac.medi qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.medi space taw-syriac teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac waw-syriac.fina yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dhalathPersian-syriac dhalathPersian-syriac.fina e-syriac.fina gamal-syriac.fina kaph-syriac.cv15 semkathFinal-syriac kaph-syriac.fina nun-syriac.cv18 nun-syriac.fina nun-syriac.init pe-syriac pe-syriac.fina sadhe-syriac sadhe-syriac.fina semkathFinal-syriac.fina shin-syriac.init taw-syriac.fina zain-syriac zain-syriac.fina zhainSogdian-syriac zhainSogdian-syriac.fina];
 # baseClass [alaph-syriac dalathrishDotless-syriac] <anchor 20 -150> @belowleft;
 # baseClass [alaph-syriac.fin2 alaph-syriac.fina] <anchor 50 -360> @belowleft;
-# baseClass [alaph-syriac.fin3 alaph-syriac.med2 beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi bhethPersian-syriac bhethPersian-syriac.fina bhethPersian-syriac.init bhethPersian-syriac.medi dalathrishDotless-syriac.fina dottedCircle e-syriac e-syriac.init e-syriac.medi feSogdian-syriac feSogdian-syriac.fina feSogdian-syriac.init feSogdian-syriac.medi gamal-syriac gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi ghamalPersian-syriac ghamalPersian-syriac.fina ghamalPersian-syriac.init ghamalPersian-syriac.medi he-syriac he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi kaph-syriac kaph-syriac.init kaph-syriac.medi kashida-ar khaphSogdian-syriac khaphSogdian-syriac.fina khaphSogdian-syriac.init khaphSogdian-syriac.medi lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.cv17 mim-syriac.fina mim-syriac.init mim-syriac.medi nbspace nun-syriac nun-syriac.cv18 nun-syriac.medi pe-syriac.init pe-syriac.medi pe_brevebelowcomb-syriac pe_brevebelowcomb-syriac.fina pe_brevebelowcomb-syriac.init pe_brevebelowcomb-syriac.medi qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.medi space taw-syriac teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac waw-syriac.fina yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi] <anchor 50 -150> @belowleft;
+# baseClass [alaph-syriac.fin3 alaph-syriac.med2 beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi bhethPersian-syriac bhethPersian-syriac.fina bhethPersian-syriac.init bhethPersian-syriac.medi dalathrishDotless-syriac.fina dottedCircle e-syriac e-syriac.init e-syriac.medi feSogdian-syriac feSogdian-syriac.fina feSogdian-syriac.init feSogdian-syriac.medi gamal-syriac gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi ghamalPersian-syriac ghamalPersian-syriac.fina ghamalPersian-syriac.init ghamalPersian-syriac.medi he-syriac he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi kaph-syriac kaph-syriac.init kaph-syriac.medi kashida-ar khaphSogdian-syriac khaphSogdian-syriac.fina khaphSogdian-syriac.init khaphSogdian-syriac.medi lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.cv17 mim-syriac.fina mim-syriac.init mim-syriac.medi nbspace nun-syriac nun-syriac.medi pe-syriac.init pe-syriac.medi pe_brevebelowcomb-syriac pe_brevebelowcomb-syriac.fina pe_brevebelowcomb-syriac.init pe_brevebelowcomb-syriac.medi qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.medi space taw-syriac teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac waw-syriac.fina yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi] <anchor 50 -150> @belowleft;
 # baseClass [dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dhalathPersian-syriac dhalathPersian-syriac.fina] <anchor 50 -390> @belowleft;
 # baseClass e-syriac.fina <anchor 30 -150> @belowleft;
 # baseClass gamal-syriac.fina <anchor 40 -150> @belowleft;
 # baseClass [kaph-syriac.cv15 semkathFinal-syriac] <anchor 50 -210> @belowleft;
 # baseClass kaph-syriac.fina <anchor 130 -375> @belowleft;
+# baseClass nun-syriac.cv18 <anchor 13 -150> @belowleft;
 # baseClass nun-syriac.fina <anchor 50 -615> @belowleft;
 # baseClass nun-syriac.init <anchor -30 -150> @belowleft;
 # baseClass [pe-syriac pe-syriac.fina] <anchor 10 -150> @belowleft;
@@ -1540,7 +1541,7 @@ lookup MarkToBase {
     pos base n <anchor 403 610> mark @_above;
     pos base [nbspace space] <anchor 202 995> mark @_above;
     pos base nun-syriac <anchor 548 765> mark @_above;
-    pos base nun-syriac.cv18 <anchor 228 450> mark @_above;
+    pos base nun-syriac.cv18 <anchor 191 450> mark @_above;
     pos base nun-syriac.fina <anchor 225 465> mark @_above;
     pos base nun-syriac.init <anchor 265 765> mark @_above;
     pos base nun-syriac.medi <anchor 284 765> mark @_above;
@@ -1611,7 +1612,7 @@ lookup MarkToBase {
     pos base [khaphSogdian-syriac khaphSogdian-syriac.fina khaphSogdian-syriac.init khaphSogdian-syriac.medi] <anchor 50 965> mark @_aboveleft;
     pos base [lamadh-syriac lamadh-syriac.fina lamadh-syriac.medi] <anchor 50 945> mark @_aboveleft;
     pos base lamadh-syriac.init <anchor 50 930> mark @_aboveleft;
-    pos base nun-syriac.cv18 <anchor 50 450> mark @_aboveleft;
+    pos base nun-syriac.cv18 <anchor 13 450> mark @_aboveleft;
     pos base nun-syriac.fina <anchor 50 465> mark @_aboveleft;
     pos base nun-syriac.init <anchor -30 765> mark @_aboveleft;
     pos base [pe-syriac pe-syriac.fina] <anchor 10 990> mark @_aboveleft;
@@ -1627,12 +1628,13 @@ lookup MarkToBase {
     pos base [zhainSogdian-syriac zhainSogdian-syriac.fina] <anchor 50 743> mark @_aboveleft;
     pos base [alaph-syriac dalathrishDotless-syriac] <anchor 20 -150> mark @_belowleft;
     pos base [alaph-syriac.fin2 alaph-syriac.fina] <anchor 50 -360> mark @_belowleft;
-    pos base [alaph-syriac.fin3 alaph-syriac.med2 beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi bhethPersian-syriac bhethPersian-syriac.fina bhethPersian-syriac.init bhethPersian-syriac.medi dalathrishDotless-syriac.fina dottedCircle e-syriac e-syriac.init e-syriac.medi feSogdian-syriac feSogdian-syriac.fina feSogdian-syriac.init feSogdian-syriac.medi gamal-syriac gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi ghamalPersian-syriac ghamalPersian-syriac.fina ghamalPersian-syriac.init ghamalPersian-syriac.medi he-syriac he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi kaph-syriac kaph-syriac.init kaph-syriac.medi kashida-ar khaphSogdian-syriac khaphSogdian-syriac.fina khaphSogdian-syriac.init khaphSogdian-syriac.medi lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.cv17 mim-syriac.fina mim-syriac.init mim-syriac.medi nbspace nun-syriac nun-syriac.cv18 nun-syriac.medi pe-syriac.init pe-syriac.medi pe_brevebelowcomb-syriac pe_brevebelowcomb-syriac.fina pe_brevebelowcomb-syriac.init pe_brevebelowcomb-syriac.medi qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.medi space taw-syriac teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac waw-syriac.fina yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi] <anchor 50 -150> mark @_belowleft;
+    pos base [alaph-syriac.fin3 alaph-syriac.med2 beth-syriac beth-syriac.fina beth-syriac.init beth-syriac.medi bhethPersian-syriac bhethPersian-syriac.fina bhethPersian-syriac.init bhethPersian-syriac.medi dalathrishDotless-syriac.fina dottedCircle e-syriac e-syriac.init e-syriac.medi feSogdian-syriac feSogdian-syriac.fina feSogdian-syriac.init feSogdian-syriac.medi gamal-syriac gamal-syriac.init gamal-syriac.medi gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.init gamalgarshuni-syriac.medi ghamalPersian-syriac ghamalPersian-syriac.fina ghamalPersian-syriac.init ghamalPersian-syriac.medi he-syriac he-syriac.fina heth-syriac heth-syriac.fina heth-syriac.init heth-syriac.medi kaph-syriac kaph-syriac.init kaph-syriac.medi kashida-ar khaphSogdian-syriac khaphSogdian-syriac.fina khaphSogdian-syriac.init khaphSogdian-syriac.medi lamadh-syriac lamadh-syriac.fina lamadh-syriac.init lamadh-syriac.medi mim-syriac mim-syriac.cv17 mim-syriac.fina mim-syriac.init mim-syriac.medi nbspace nun-syriac nun-syriac.medi pe-syriac.init pe-syriac.medi pe_brevebelowcomb-syriac pe_brevebelowcomb-syriac.fina pe_brevebelowcomb-syriac.init pe_brevebelowcomb-syriac.medi qaph-syriac qaph-syriac.fina qaph-syriac.init qaph-syriac.medi rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina semkath-syriac semkath-syriac.fina semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi shin-syriac shin-syriac.fina shin-syriac.medi space taw-syriac teth-syriac teth-syriac.fina teth-syriac.init teth-syriac.medi tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.init tethGarshuni-syriac.medi waw-syriac waw-syriac.fina yudh-syriac yudh-syriac.fina yudh-syriac.init yudh-syriac.medi] <anchor 50 -150> mark @_belowleft;
     pos base [dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina dhalathPersian-syriac dhalathPersian-syriac.fina] <anchor 50 -390> mark @_belowleft;
     pos base e-syriac.fina <anchor 30 -150> mark @_belowleft;
     pos base gamal-syriac.fina <anchor 40 -150> mark @_belowleft;
     pos base [kaph-syriac.cv15 semkathFinal-syriac] <anchor 50 -210> mark @_belowleft;
     pos base kaph-syriac.fina <anchor 130 -375> mark @_belowleft;
+    pos base nun-syriac.cv18 <anchor 13 -150> mark @_belowleft;
     pos base nun-syriac.fina <anchor 50 -615> mark @_belowleft;
     pos base nun-syriac.init <anchor -30 -150> mark @_belowleft;
     pos base [pe-syriac pe-syriac.fina] <anchor 10 -150> mark @_belowleft;
@@ -1722,7 +1724,7 @@ lookup MarkToBase {
     pos base [mim-syriac.init qaph-syriac.medi semkath-syriac.init semkath-syriac.medi semkathFinal-syriac.init semkathFinal-syriac.medi] <anchor 540 -150> mark @_below;
     pos base [nbspace space] <anchor 202 -150> mark @_below;
     pos base nun-syriac <anchor 558 -150> mark @_below;
-    pos base nun-syriac.cv18 <anchor 213 -150> mark @_below;
+    pos base nun-syriac.cv18 <anchor 176 -150> mark @_below;
     pos base nun-syriac.fina <anchor 240 -615> mark @_below;
     pos base nun-syriac.init <anchor 295 -150> mark @_below;
     pos base nun-syriac.medi <anchor 390 -150> mark @_below;
