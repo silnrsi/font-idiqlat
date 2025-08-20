@@ -40,6 +40,19 @@ lookup kern_dalath_sadhe_nun { # FKern: {Dolath, Sodeh} {Nun}
   }
 } kern_dalath_sadhe_nun;
 
+lookup kern_sadhe_gamal { # FKern: {Sadhe} {Gamal}
+    # GPOS lookup 1, type 2 (Pair adjustment)
+    lookupflag RightToLeft IgnoreMarks;
+    pos sadhe-syriac 0 gamal-syriac 150;
+    pos sadhe-syriac.fina 0 gamal-syriac 150;
+    pos sadhe-syriac.fina 0 gamal-syriac.init 150;
+    pos sadhe-syriac.fina 0 gamal-syriac.init 150;
+    pos sadhe-syriac 0 gamalgarshuni-syriac 150;
+    pos sadhe-syriac.fina 0 gamalgarshuni-syriac 150;
+    pos sadhe-syriac.fina 0 gamalgarshuni-syriac.init 150;
+    pos sadhe-syriac.fina 0 gamalgarshuni-syriac.init 150;
+} kern_sadhe_gamal;
+
 lookup  kern_nun_1 { # FKern: {Dolath, Sodeh} {Nun}
     # GPOS lookup 8, type 1 (Single adjustment)
     lookupflag RightToLeft;
@@ -91,6 +104,7 @@ lookup MarkToMarkBelow {
 
 feature kern {  # Kerning
     lookup kern_dalath_sadhe_nun;
+    lookup kern_sadhe_gamal;
     lookup kern_nun2;
 } kern ;
 

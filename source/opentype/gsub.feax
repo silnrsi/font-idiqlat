@@ -130,61 +130,16 @@ lookup Seyame {
 
 lookup SeyameChain {
 # GSUB lookup 2, type 16 (Chaining Context)
-  sub rish-syriac' lookup Seyame dieresiscomb zlamadottedhorizontal-syriac;
-  sub rish-syriac' lookup Seyame dieresiscomb zlamadottedangular-syriac;
-  sub rish-syriac' lookup Seyame zlamadottedhorizontal-syriac dieresiscomb;
-  sub rish-syriac' lookup Seyame zlamadottedangular-syriac dieresiscomb;
+  sub rish-syriac' lookup Seyame dieresiscomb @MarkBelowCanChain;
+  sub rish-syriac' lookup Seyame dieresiscomb @MarkBelowCanChain;
+  sub rish-syriac' lookup Seyame @MarkBelowCanChain dieresiscomb;
+  sub rish-syriac' lookup Seyame @MarkBelowCanChain dieresiscomb;
+# Added the following also
+  sub rish-syriac' lookup Seyame dieresiscomb @MarkAboveCanChain;
+  sub rish-syriac' lookup Seyame dieresiscomb @MarkAboveCanChain;
+  sub rish-syriac' lookup Seyame @MarkAboveCanChain dieresiscomb;
+  sub rish-syriac' lookup Seyame @MarkAboveCanChain dieresiscomb;
 } SeyameChain;
-
-do let f = info("familyName");
-   if f.find("Idiqlat") != -1 or f.find("East Syriac Marcus New") != -1; {
-
-lookup LamAlaphLig_Alaph {
-# GSUB lookup 18, type 11 (Single)
-  lookupflag 0;
-    sub alaph-syriac by alaph-syriac.ccmp;
-} LamAlaphLig_Alaph;
-
-# Used in East Syriac, West Syriac, Estrangela
-lookup LamAlaphLig {
-# GSUB lookup 3, type 16 (Chaining Context)
-  lookupflag 0;
-    sub lamadh-syriac @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
-    sub lamadh-syriac @TypeMark @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
-    sub lamadh-syriac alaph-syriac' lookup LamAlaphLig_Alaph;
-} LamAlaphLig;
-}   #end do - Idiqlat|East Syriac Marcus New
-
-lookup AlaphChain {
-# GSUB lookup 19, type 11 (Single)
-  lookupflag 0;
-  ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
-    sub alaph-syriac.ccmp by alaph-syriac;
-  }
-} AlaphChain;
-
-lookup AlaphLigs {
-# GSUB lookup 4, type 16 (Chaining Context)
-  lookupflag 0;
-  ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
-    sub alaph-syriac.ccmp' lookup AlaphChain @TypeMark;
-    sub alaph-syriac.ccmp' lookup AlaphChain yudh-syriac ;
-    sub alaph-syriac.ccmp' lookup AlaphChain waw-syriac ;
-  }
-} AlaphLigs;
-
-do let f = info("familyName");
-   if f.find("Khabur") != -1; {
-
-lookup LamAlaphLig {
-# GSUB lookup 3, 
-  lookupflag IgnoreMarks;
-    sub lamadh-syriac alaph-syriac by lamadh_alaph-syriac;
-    sub lamadh-syriac alaph-syriac.fina by lamadh_alaph-syriac;
-    sub lamadh-syriac.medi alaph-syriac.fina by lamadh_alaph-syriac.fina;
-    sub lamadh-syriac.medi alaph-syriac.med2 by lamadh_alaph-syriac.fina;
-} LamAlaphLig;
-}
 
 # glyph for replacement seems poorly named except 073c and 0742 are similar
 lookup DalathRukkakha { # 0715 0742
@@ -194,6 +149,14 @@ lookup DalathRukkakha { # 0715 0742
     sub dalath-syriac.fina rukkakha-syriac by dalath_hbasaEsasadotted-syriac.fina ;
   }
 } DalathRukkakha ;
+
+# Shadda+kasra handling - see notes with liga feature
+
+lookup MusicLigatures {
+  lookupflag MarkAttachmentType @MusicLigatureParts ;
+    sub music-syriac music-syriac  by  music2-syriac ;
+    sub music-syriac music-syriac music-syriac by  music3-syriac ;
+} MusicLigatures ;
 
 # pe_brevebelowcomb-syriac.init
 lookup PeBreveBelow { # 0715 0742
@@ -214,7 +177,7 @@ lookup RishSeyame { # 072A 0308
 
 # Added this because we need a ligature before doing character variant
 # Used in East Syriac and Estrangela
-lookup TawAlaph { # 072C 0710
+lookup TawAlaph { # 072C 0710 
   lookupflag IgnoreMarks ;
   ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
     sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
@@ -226,20 +189,80 @@ lookup TawAlaph { # 072C 0710
 
 # HB PAUSE
 
-lookup ltrMediOlaph {
+lookup ltrMediOlaph { # used when preceded by right-joing characters
   lookupflag IgnoreMarks ;
     sub alaph-syriac  by  alaph-syriac.med2 ;
 } ltrMediOlaph ;
 
-lookup ltrFinaSerOlaph {
-  lookupflag IgnoreMarks ;
-    sub alaph-syriac  by  alaph-syriac.fin2 ;
-} ltrFinaSerOlaph ;
+# =======================
+# Rule 1
 
 lookup ltrFinaESyOlaph {
   lookupflag IgnoreMarks ;
     sub alaph-syriac  by  alaph-syriac.fin3 ;
 } ltrFinaESyOlaph ;
+
+# =======================
+# Rule 2
+
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 or f.find("East Syriac Marcus New") != -1; {
+
+lookup LamAlaphLig_Alaph { # corresponds to "Rule 2" and "Rule 6"
+# GSUB lookup 18, type 11 (Single)
+  lookupflag 0;
+    sub alaph-syriac by alaph-syriac.ccmp;
+} LamAlaphLig_Alaph;
+
+# Used in East Syriac, West Syriac, Estrangela
+lookup LamAlaphLig { # corresponds to "Rule 2" and "Rule 6"
+# GSUB lookup 3, type 16 (Chaining Context)
+  lookupflag 0;
+    sub lamadh-syriac @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
+    sub lamadh-syriac @TypeMark @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
+    sub lamadh-syriac alaph-syriac' lookup LamAlaphLig_Alaph;
+} LamAlaphLig;
+}   #end do - Idiqlat|East Syriac Marcus New
+
+do let f = info("familyName");
+   if f.find("Khabur") != -1; {
+
+lookup LamAlaphLig {
+# GSUB lookup 3, 
+  lookupflag IgnoreMarks;
+    sub lamadh-syriac alaph-syriac by lamadh_alaph-syriac;
+    sub lamadh-syriac alaph-syriac.fina by lamadh_alaph-syriac;
+    sub lamadh-syriac.medi alaph-syriac.fina by lamadh_alaph-syriac.fina;
+    sub lamadh-syriac.medi alaph-syriac.med2 by lamadh_alaph-syriac.fina;
+} LamAlaphLig;
+}
+
+lookup AlaphChain {
+# GSUB lookup 19, type 11 (Single)
+  lookupflag 0;
+  ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
+    sub alaph-syriac.ccmp by alaph-syriac;
+  }
+} AlaphChain;
+
+lookup AlaphLigs {
+# GSUB lookup 4, type 16 (Chaining Context)
+  lookupflag 0;
+  ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
+    sub alaph-syriac.ccmp' lookup AlaphChain @TypeMark;
+    sub alaph-syriac.ccmp' lookup AlaphChain yudh-syriac ;
+    sub alaph-syriac.ccmp' lookup AlaphChain waw-syriac ;
+  }
+} AlaphLigs;
+
+# =======================
+# Rule ?
+
+lookup ltrFinaSerOlaph { 
+  lookupflag IgnoreMarks ;
+    sub alaph-syriac  by  alaph-syriac.fin2 ;
+} ltrFinaSerOlaph ;
+
 
 lookup square1 {
 # GSUB lookup 18, type 11 (Single)
@@ -331,6 +354,18 @@ lookup TawAlaphLigatures {
     sub taw_alaph-syriac.fina from [ taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined];
 } TawAlaphLigatures ;
 
+lookup TawAlaphTriangleLigatures {
+  lookupflag IgnoreMarks ;
+    sub taw_alaph-syriac      by taw_alaph-syriac.triangle;
+    sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.triangle;
+} TawAlaphTriangleLigatures ;
+
+lookup TawAlaphTwinedLigatures {
+  lookupflag IgnoreMarks ;
+    sub taw_alaph-syriac  by taw_alaph-syriac.twined;
+    sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.twined;
+} TawAlaphTwinedLigatures ;
+
 } # End of Idiqlat|East Syriac Marcus New cv
 
 # Sadhe Nun U+0728 U+0722 cv55 (marks position)
@@ -357,9 +392,9 @@ lookup SadheNunLigature {
 
 #---  rtlm feature (pass 2) ---
 
-# feature rtlm {  # Right-To-Left Mirrored Forms
-#     lookup Mirror;
-# } rtlm ;
+feature rtlm {  # Right-To-Left Mirrored Forms
+     lookup Mirror;
+} rtlm ;
 
 # HB PAUSE
 
@@ -368,8 +403,10 @@ lookup SadheNunLigature {
 feature ccmp {  # Glyph Composition/Decomposition
     # Same for latin & syriac:
         lookup FontCheck;
+  ifinfo(familyName, "East Syriac Marcus New") {
     script latn;
 #        lookup LatinPunctuation;
+  }
     script syrc;
         lookup GPreDecompose;
         lookup SeyameChain;
@@ -466,7 +503,8 @@ feature calt {
 feature dlig {  # Discretionary Ligatures  -- we use this because dlig is done in the same pass as cvXX
     script syrc;
         lookup SadheNunLigature;
-        lookup TawAlaphLigatures;
+        lookup TawAlaphTriangleLigatures;
+        lookup TawAlaphTwinedLigatures;
         lookup TawYudhLigature;
         lookup HeYudhLigature;
 } dlig ;
@@ -476,6 +514,7 @@ feature dlig {  # Discretionary Ligatures  -- we use this because dlig is done i
 feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cvXX
     script syrc;
         lookup DalathRukkakha;
+        lookup MusicLigatures;
 } liga ;
 
 # HB PAUSE
@@ -494,6 +533,62 @@ feature ss01 {
 	} ss01_lkp;
 
 } ss01;
+
+feature ss16 {
+	featureNames {
+		name 3 1 0x409 "He Yudh ligature";
+	};
+	lookup ss16_lkp {
+		lookupflag RightToLeft;
+		    lookup HeYudhLigature;
+	} ss16_lkp;
+
+} ss16;
+
+feature ss17 {
+	featureNames {
+		name 3 1 0x409 "Sadhe Nun ligature";
+	};
+	lookup ss17_lkp {
+		lookupflag RightToLeft;
+		    lookup SadheNunLigature;
+	} ss17_lkp;
+
+} ss17;
+
+feature ss18 {
+	featureNames {
+		name 3 1 0x409 "Taw Alaph triangle ligature";
+	};
+	lookup ss18_lkp {
+		lookupflag RightToLeft;
+		    lookup TawAlaphTriangleLigatures;
+	} ss18_lkp;
+
+} ss18;
+
+feature ss19 {
+	featureNames {
+		name 3 1 0x409 "Taw Alaph twined ligature";
+	};
+	lookup ss19_lkp {
+		lookupflag RightToLeft;
+		    lookup TawAlaphTwinedLigatures;
+	} ss19_lkp;
+
+} ss19;
+
+feature ss20 {
+	featureNames {
+		name 3 1 0x409 "Taw Yudh ligature";
+	};
+	lookup ss20_lkp {
+		lookupflag RightToLeft;
+		    lookup TawYudhLigature;
+	} ss20_lkp;
+
+} ss20;
+
    }
 
 #--- Character Variants ---
@@ -689,6 +784,11 @@ feature cv55;
 feature cv59; # Idiqlat|East Syriac Marcus New
 feature cv60; # Idiqlat|East Syriac Marcus New
 feature ss01; # Idiqlat|East Syriac Marcus New
+feature ss16; # Idiqlat|East Syriac Marcus New
+feature ss17; # Idiqlat|East Syriac Marcus New
+feature ss18; # Idiqlat|East Syriac Marcus New
+feature ss19; # Idiqlat|East Syriac Marcus New
+feature ss20; # Idiqlat|East Syriac Marcus New
 feature calt;
 } aalt;
 

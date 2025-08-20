@@ -475,6 +475,8 @@
     <string>obliquelineabove-syriac</string>
     <string>obliquelinebelow-syriac</string>
     <string>music-syriac</string>
+    <string>music2-syriac</string>
+    <string>music3-syriac</string>
     <string>barrekh-syriac</string>
     <string>westSyriacCross</string>
     <string>eastSyriacCross</string>
@@ -1003,6 +1005,10 @@
     <key>minusbelowcomb</key>
     <string>uni0320</string>
     <key>music-syriac</key>
+    <string>uni0749</string>
+    <key>music2-syriac</key>
+    <string>uni0749</string>
+    <key>music3-syriac</key>
     <string>uni0749</string>
     <key>narrownbspace</key>
     <string>uni202F</string>

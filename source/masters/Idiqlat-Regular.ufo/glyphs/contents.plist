@@ -716,6 +716,10 @@
   <string>multiply.glif</string>
   <key>music-syriac</key>
   <string>music-syriac.glif</string>
+  <key>music2-syriac</key>
+  <string>music2-syriac.glif</string>
+  <key>music3-syriac</key>
+  <string>music3-syriac.glif</string>
   <key>n</key>
   <string>n.glif</string>
   <key>narrownbspace</key>
