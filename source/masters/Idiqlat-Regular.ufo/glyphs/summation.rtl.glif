@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="summation.rtl" format="2">
-  <advance width="726"/>
+  <advance width="770"/>
   <note>
 summation
 </note>
   <outline>
-    <component base="summation" xScale="-1" xOffset="684"/>
+    <component base="summation" xScale="-1" xOffset="770"/>
   </outline>
   <lib>
     <dict>

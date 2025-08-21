@@ -41,9 +41,10 @@
       <point x="543" y="65"/>
     </contour>
     <contour>
-      <point x="530" y="-149" type="curve" smooth="yes"/>
-      <point x="720" y="315"/>
-      <point x="747" y="364"/>
+      <point x="600" y="166" type="curve"/>
+      <point x="654" y="146" type="line"/>
+      <point x="740" y="338"/>
+      <point x="772" y="364"/>
       <point x="840" y="364" type="curve" smooth="yes"/>
       <point x="891" y="364"/>
       <point x="921" y="332"/>
@@ -60,20 +61,29 @@
       <point x="601" y="488"/>
       <point x="649" y="443"/>
       <point x="649" y="370" type="curve" smooth="yes"/>
-      <point x="649" y="305"/>
-      <point x="617" y="201"/>
+      <point x="649" y="331"/>
+      <point x="637" y="277"/>
+    </contour>
+    <contour>
+      <point x="612" y="49" type="curve"/>
+      <point x="566" y="68" type="line"/>
+      <point x="546" y="12"/>
+      <point x="521" y="-54"/>
       <point x="491" y="-133" type="curve" smooth="yes"/>
       <point x="487" y="-150"/>
       <point x="491" y="-166"/>
       <point x="509" y="-166" type="curve" smooth="yes"/>
       <point x="517" y="-166"/>
       <point x="525" y="-161"/>
+      <point x="530" y="-149" type="curve" smooth="yes"/>
+      <point x="561" y="-72"/>
+      <point x="589" y="-7"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CPPP</string>
+      <string>CPPPP</string>
     </dict>
   </lib>
 </glyph>

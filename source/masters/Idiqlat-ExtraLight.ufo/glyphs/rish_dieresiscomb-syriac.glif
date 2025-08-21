@@ -6,7 +6,7 @@
   <anchor x="310" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
-    <component base="_LrgSquareDot" xOffset="-166" yOffset="990"/>
+    <component base="_LrgSquareDot" xOffset="-146" yOffset="990"/>
     <component base="dalathrishDotless-syriac"/>
     <component base="_LrgSquareDot" xOffset="125" yOffset="990"/>
   </outline>

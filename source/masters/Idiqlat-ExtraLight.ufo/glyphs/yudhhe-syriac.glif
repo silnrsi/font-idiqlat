@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yudhhe-syriac" format="2">
-  <advance width="1285"/>
+  <advance width="1325"/>
   <unicode hex="071E"/>
   <outline>
     <component base="he-syriac"/>
-    <component base="_heth-init" xOffset="801"/>
+    <component base="_heth-init" xOffset="841"/>
     <contour>
       <point x="987" y="145" type="curve"/>
       <point x="770" y="145" type="line"/>

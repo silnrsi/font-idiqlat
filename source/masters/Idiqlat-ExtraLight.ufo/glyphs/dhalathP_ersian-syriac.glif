@@ -9,7 +9,7 @@
   <outline>
     <component base="dalathrishDotless-syriac"/>
     <component base="_LrgSquareDot" xOffset="-141"/>
-    <component base="_LrgSquareDot" xOffset="109"/>
+    <component base="_LrgSquareDot" xOffset="130"/>
   </outline>
   <lib>
     <dict>

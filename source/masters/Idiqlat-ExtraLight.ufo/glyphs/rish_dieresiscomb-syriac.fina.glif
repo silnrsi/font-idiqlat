@@ -7,7 +7,7 @@
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="dalathrishDotless-syriac"/>
-    <component base="_LrgSquareDot" xOffset="-166" yOffset="990"/>
+    <component base="_LrgSquareDot" xOffset="-146" yOffset="990"/>
     <component base="_LrgSquareDot" xOffset="125" yOffset="990"/>
     <contour>
       <point x="529" y="145" type="line"/>
