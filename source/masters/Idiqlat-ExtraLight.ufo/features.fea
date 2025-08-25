@@ -799,6 +799,8 @@ lookup GPreDecompose {
     sub pthahadotted-syriac by hbasaEsasadotted-syriac rwaha-syriac;
 } GPreDecompose;
 
+# HB PAUSE
+# This is the Seyame where the rish looses its dot when a dieresis is above it
 lookup Seyame {
     sub rish-syriac by dalathrishDotless-syriac;
 } Seyame;
@@ -816,6 +818,16 @@ lookup SeyameChain {
     sub rish-syriac' lookup Seyame @MarkAboveCanChain dieresiscomb;
 } SeyameChain;
 
+# Is this actually being used?
+# Used in East Syriac, West Syriac, Estrangela
+lookup RishSeyame {
+    # 072A 0308
+    sub rish-syriac dieresiscomb by rish_dieresiscomb-syriac;
+    sub rish-syriac.fina dieresiscomb by rish_dieresiscomb-syriac.fina;
+} RishSeyame;
+
+# HB PAUSE
+# ligature rule because small dots is next to big dot
 # glyph for replacement seems poorly named except 073c and 0742 are similar
 lookup DalathRukkakha {
     # 0715 0742
@@ -825,14 +837,16 @@ lookup DalathRukkakha {
 
 } DalathRukkakha;
 
-# Shadda+kasra handling - see notes with liga feature
+# HB PAUSE
+# Can have up to 3 music-syriac but they need to be a tight ligature
 lookup MusicLigatures {
     lookupflag MarkAttachmentType @MusicLigatureParts;
     sub music-syriac music-syriac by music2-syriac;
     sub music-syriac music-syriac music-syriac by music3-syriac;
 } MusicLigatures;
 
-# pe_brevebelowcomb-syriac.init
+# HB PAUSE
+# The breve below must almost touch
 lookup PeBreveBelow {
     # 0715 0742
     lookupflag 0;
@@ -843,35 +857,56 @@ lookup PeBreveBelow {
 
 } PeBreveBelow;
 
-# Used in East Syriac, West Syriac, Estrangela
-lookup RishSeyame {
-    # 072A 0308
-    sub rish-syriac dieresiscomb by rish_dieresiscomb-syriac;
-    sub rish-syriac.fina dieresiscomb by rish_dieresiscomb-syriac.fina;
-} RishSeyame;
+# HB PAUSE
+lookup square1 {
+    # GSUB lookup 18, type 11 (Single)
+    lookupflag RightToLeft;
+    sub rukkakha-syriac by rukkakha-syriac.square;
+} square1;
 
+lookup RukkakhaSquare {
+    # GSUB lookup 14, type 16 (Chaining Context)
+    lookupflag RightToLeft;
+    sub @TakeRukkakhaSquare rukkakha-syriac' lookup square1;
+} RukkakhaSquare;
+
+# HB PAUSE
 # Added this because we need a ligature before doing character variant
 # Used in East Syriac and Estrangela
 lookup TawAlaph {
     # 072C 0710 
     lookupflag IgnoreMarks;
-            sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
-        sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
-
-    sub taw-syriac alaph-syriac by taw_alaph-syriac;
+    sub taw-syriac.fina alaph-syriac.fina by taw_alaph-syriac.fina;
+    # ???
+    sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
+    #    sub taw-syriac alaph-syriac by taw_alaph-syriac; # ()
     sub taw-syriac alaph-syriac.fin2 by taw_alaph-syriac;
+    # isolate (4)
 } TawAlaph;
 
 # HB PAUSE
+# alaph-syriac - no tail- isolate (glyph 1)
+# alaph-syriac.med2 - no tail medial (glyph 1) used before another character
+# alaph-syriac.fin3 - no tail final (glyph 1) used word final
+# alaph-syriac.fina - tail final (glyph 2) used word final when connected dual joining character
+# alaph-syriac.fin2 - tail final (glyph 2) used word final when following right joining character
+# alaph-syriac.ccmp - comma shape (glyph 3) only used following lamadh in isolate or final position
+# =======================
+# Rule 1
+lookup ltrFinaSerOlaph {
+    # use when the preceding base character cannot be joined to, and that preceding base character is not a 'Dalath', 'Rish', or dotless 'Dalath-Rish'
+    lookupflag IgnoreMarks;
+    sub alaph-syriac by alaph-syriac.fin2;
+} ltrFinaSerOlaph;
+
 lookup ltrMediOlaph {
-    # used when preceded by right-joing characters
+    # used in the middle of Syriac words when the preceding base character can be joined to it.
     lookupflag IgnoreMarks;
     sub alaph-syriac by alaph-syriac.med2;
 } ltrMediOlaph;
 
-# =======================
-# Rule 1
 lookup ltrFinaESyOlaph {
+    # used when the preceding base character is a 'Dalath', 'Rish', or dotless 'Dalath-Rish'.
     lookupflag IgnoreMarks;
     sub alaph-syriac by alaph-syriac.fin3;
 } ltrFinaESyOlaph;
@@ -907,33 +942,22 @@ lookup AlaphChain {
 
 } AlaphChain;
 
+lookup AlaphChainMed2 {
+    # GSUB lookup 19, type 11 (Single)
+    lookupflag 0;
+            sub alaph-syriac.ccmp by alaph-syriac.med2;
+
+} AlaphChainMed2;
+
 lookup AlaphLigs {
     # GSUB lookup 4, type 16 (Chaining Context)
     lookupflag 0;
             sub alaph-syriac.ccmp' lookup AlaphChain @TypeMark;
         sub alaph-syriac.ccmp' lookup AlaphChain yudh-syriac;
         sub alaph-syriac.ccmp' lookup AlaphChain waw-syriac;
+        sub alaph-syriac.ccmp' lookup AlaphChainMed2 @DualJoining;
 
 } AlaphLigs;
-
-# =======================
-# Rule ?
-lookup ltrFinaSerOlaph {
-    lookupflag IgnoreMarks;
-    sub alaph-syriac by alaph-syriac.fin2;
-} ltrFinaSerOlaph;
-
-lookup square1 {
-    # GSUB lookup 18, type 11 (Single)
-    lookupflag RightToLeft;
-    sub rukkakha-syriac by rukkakha-syriac.square;
-} square1;
-
-lookup RukkakhaSquare {
-    # GSUB lookup 14, type 16 (Chaining Context)
-    lookupflag RightToLeft;
-    sub @TakeRukkakhaSquare rukkakha-syriac' lookup square1;
-} RukkakhaSquare;
 
 # This is needed because of the isolate form not looking like a final form, and this is viewed as a final even since it's after a right joining character
 lookup cv_fina {
@@ -970,6 +994,13 @@ lookup RightJoinFina {
     # Used in East Syriac only
     # Taw Yudh U+072C U+071D cv60=1 (ligature forms but mark is in wrong position)
     # Used in East Syriac only
+    # needed for ss19
+    # GSUB lookup 19, type 11 (Single)
+    # needed for ss19
+    # GSUB lookup 19, type 11 (Single)
+    # needed for cv59
+    # needed for ss19
+    # needed for ss19
     # End of Idiqlat|East Syriac Marcus New cv
     # Sadhe Nun U+0728 U+0722 cv55 (marks position)
     # Used in East Syriac, West Syriac, Estrangela
@@ -1000,6 +1031,20 @@ lookup RightJoinFina {
         sub taw-syriac.fina yudh-syriac by taw_yudh-syriac.fina;
     } TawYudhLigature;
 
+    lookup TawAlaphTriangleChain {
+        lookupflag 0;
+                    sub taw_alaph-syriac by taw_alaph-syriac.triangle;
+            sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.triangle;
+
+    } TawAlaphTriangleChain;
+
+    lookup TawAlaphTwinedChain {
+        lookupflag 0;
+                    sub taw_alaph-syriac by taw_alaph-syriac.twined;
+            sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.twined;
+
+    } TawAlaphTwinedChain;
+
     lookup TawAlaphLigatures {
         lookupflag IgnoreMarks;
         sub taw_alaph-syriac from [taw_alaph-syriac.triangle taw_alaph-syriac.twined];
@@ -1008,14 +1053,14 @@ lookup RightJoinFina {
 
     lookup TawAlaphTriangleLigatures {
         lookupflag IgnoreMarks;
-        sub taw_alaph-syriac by taw_alaph-syriac.triangle;
-        sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.triangle;
+        sub taw_alaph-syriac' lookup TawAlaphTriangleChain;
+        sub taw_alaph-syriac.fina' lookup TawAlaphTriangleChain;
     } TawAlaphTriangleLigatures;
 
     lookup TawAlaphTwinedLigatures {
         lookupflag IgnoreMarks;
-        sub taw_alaph-syriac by taw_alaph-syriac.twined;
-        sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.twined;
+        sub taw_alaph-syriac' lookup TawAlaphTwinedChain;
+        sub taw_alaph-syriac.fina' lookup TawAlaphTwinedChain;
     } TawAlaphTwinedLigatures;
 
 
@@ -1082,21 +1127,21 @@ feature init {
 } init;
 
 # HB PAUSE
-# I don't know what to do with these 3 features
+# These are Syriac OpenType features 
 feature fin2 {
-    # Terminal Forms
+    # use when the preceding base character cannot be joined to, and that preceding base character is not a 'Dalath', 'Rish', or dotless 'Dalath-Rish'
     script syrc;
     lookup ltrFinaSerOlaph;
 } fin2;
 
 feature fin3 {
-    # Terminal Forms
+    # used when the preceding base character is a 'Dalath', 'Rish', or dotless 'Dalath-Rish'.
     script syrc;
     lookup ltrFinaESyOlaph;
 } fin3;
 
 feature med2 {
-    # Medial Forms
+    # used in the middle of Syriac words when the preceding base character can be joined to it.
     script syrc;
     lookup ltrMediOlaph;
 } med2;
@@ -1111,7 +1156,6 @@ feature rlig {
     lookup PeBreveBelow;
 } rlig;
 
-# feature rclt - nothing to do
 # HB PAUSE
 #---  calt feature (pass 9)  ---
 feature calt {
@@ -1131,8 +1175,7 @@ feature dlig {
     # Discretionary Ligatures  -- we use this because dlig is done in the same pass as cvXX
     script syrc;
     lookup SadheNunLigature;
-    lookup TawAlaphTriangleLigatures;
-    lookup TawAlaphTwinedLigatures;
+    lookup TawAlaphLigatures;
     lookup TawYudhLigature;
     lookup HeYudhLigature;
 } dlig;
@@ -1557,6 +1600,11 @@ lookup kern_sadhe_gamal {
     pos sadhe-syriac.fina 0 gamalgarshuni-syriac 150;
     pos sadhe-syriac.fina 0 gamalgarshuni-syriac.init 150;
     pos sadhe-syriac.fina 0 gamalgarshuni-syriac.init 150;
+            pos sadhe-syriac 0 ghamalPersian-syriac 150;
+        pos sadhe-syriac.fina 0 ghamalPersian-syriac 150;
+        pos sadhe-syriac.fina 0 ghamalPersian-syriac.init 150;
+        pos sadhe-syriac.fina 0 ghamalPersian-syriac.init 150;
+
 } kern_sadhe_gamal;
 
 lookup kern_nun_1 {

@@ -51,6 +51,12 @@ lookup kern_sadhe_gamal { # FKern: {Sadhe} {Gamal}
     pos sadhe-syriac.fina 0 gamalgarshuni-syriac 150;
     pos sadhe-syriac.fina 0 gamalgarshuni-syriac.init 150;
     pos sadhe-syriac.fina 0 gamalgarshuni-syriac.init 150;
+  ifinfo(familyName, "Idiqlat") {
+    pos sadhe-syriac 0 ghamalPersian-syriac 150;
+    pos sadhe-syriac.fina 0 ghamalPersian-syriac 150;
+    pos sadhe-syriac.fina 0 ghamalPersian-syriac.init 150;
+    pos sadhe-syriac.fina 0 ghamalPersian-syriac.init 150;
+  }
 } kern_sadhe_gamal;
 
 lookup  kern_nun_1 { # FKern: {Dolath, Sodeh} {Nun}

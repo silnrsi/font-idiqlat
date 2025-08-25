@@ -6,6 +6,8 @@
     <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
     <fontsrc label="Idiqlat">url(../results/Idiqlat-Regular.ttf)</fontsrc>
     <styles>
+      <style feats="'ss18' 1" name="ss18_1"/>
+      <style feats="'ss19' 1" name="ss19_1"/>
       <style feats="'cv38' 1" name="cv38_1"/>
       <style feats="'cv55' 1" name="cv55_1"/>
       <style feats="'cv59' 1" name="cv59_1"/>
@@ -44,6 +46,14 @@
     <test label="U+0710">
       <comment>lamadh-syriac alaph-syriac rwaha-syriac (r2) </comment>
       <string>\u0720\u0710\u073f \u0720\u0733\u0710\u073f \u0720\u0734\u0710\u073f \u0720\u0733\u0734\u0710\u073f</string>
+    </test>
+    <test label="U+0720 U+0710">
+      <comment>lamadh_alaph-syriac</comment>
+      <string>\u0720\u0710 \u0712\u0720\u0710 \u0720\u0710\u071F \u0712\u0720\u0710\u071F</string>
+    </test>
+    <test label="U+0720 U+0710">
+      <comment>lamadh_alaph-syriac</comment>
+      <string>\u0718\u0720\u0735\u0710</string>
     </test>
     <test label="U+0715 U+0742">
       <comment>dalath-syriac rukkakha-syriac (r3) </comment>
@@ -100,14 +110,6 @@
       <comment>he_yudh-syriac (forms)</comment>
       <string>\u0715\u0717\u0307\u071D\u073C\u0735</string>
     </test>
-    <test label="U+0720 U+0710">
-      <comment>lamadh_alaph-syriac</comment>
-      <string>\u0720\u0710 \u0712\u0720\u0710</string>
-    </test>
-    <test label="U+0720 U+0710">
-      <comment>lamadh_alaph-syriac</comment>
-      <string>\u0718\u0720\u0735\u0710</string>
-    </test>
     <test label="U+0728 U+0722">
       <comment>sadhe_nun-syriac</comment>
       <string>\u0728\u0722 \u0712\u0728\u0722</string>
@@ -138,15 +140,23 @@
     </test>
     <test label="U+072C U+0710">
       <comment>taw_alaph-syriac</comment>
-      <string>\u072C\u0710 \u0712\u072C\u0710</string>
+      <string>\u072C\u0710 \u0712\u072C\u0710 \u0712\u072C\u0710\u0715 \u0715\u072C\u0710</string>
     </test>
     <test label="U+072C U+0710" stylename="cv59_1">
       <comment>taw_alaph-syriac</comment>
-      <string>\u072C\u0710 \u0712\u072C\u0710</string>
+      <string>\u072C\u0710 \u0712\u072C\u0710 \u0712\u072C\u0710\u0715 \u0715\u072C\u0710</string>
     </test>
     <test label="U+072C U+0710" stylename="cv59_2">
       <comment>taw_alaph-syriac</comment>
-      <string>\u072C\u0710 \u0712\u072C\u0710</string>
+      <string>\u072C\u0710 \u0712\u072C\u0710 \u0712\u072C\u0710\u0715 \u0715\u072C\u0710</string>
+    </test>
+    <test label="U+072C U+0710" stylename="ss18_1">
+      <comment>taw_alaph-syriac</comment>
+      <string>\u072C\u0710 \u0712\u072C\u0710 \u0712\u072C\u0710\u0715 \u0715\u072C\u0710</string>
+    </test>
+    <test label="U+072C U+0710" stylename="ss19_1">
+      <comment>taw_alaph-syriac</comment>
+      <string>\u072C\u0710 \u0712\u072C\u0710 \u0712\u072C\u0710\u0715 \u0715\u072C\u0710</string>
     </test>
     <test label="U+072C U+0710">
       <comment>taw_alaph-syriac</comment>
@@ -222,6 +232,10 @@
     <test label="U+074D U+0721">
       <comment>sogdian-zhain-syriac nun-syriac</comment>
       <string>\u074D\u0722 \u0712\u074D\u0722 </string>
+    </test>
+    <test label="U+0728 U+0713">
+      <comment>sadhe-syriac gamal-syriac</comment>
+      <string>\u0728\u0743\u0713\u0743 \u0712\u0743\u0728\u0743\u0713\u0743 \u0712\u0743\u0728\u0743\u0713\u0743\u0712 \u0728\u0743\u0714\u0743 \u0712\u0743\u0728\u0743\u0714\u0743 \u0712\u0743\u0728\u0743\u0714\u0743\u0712 \u0728\u0743\u072E\u0743 \u0712\u0743\u0728\u0743\u072E\u0743 \u0712\u0743\u0728\u0743\u072E\u0743\u0712</string>
     </test>
 </testgroup>
 
