@@ -651,7 +651,9 @@ markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 # Next 2 should match
 @Digits = [one two three four five six seven eight nine zero];
 @Digits_cv02 = [one.cv02 two.cv02 three.cv02 four.cv02 five.cv02 six.cv02 seven.cv02 eight.cv02 nine.cv02 zero.cv02];
-# Next 4 should have 18 glyphs
+#**********************************
+#  Dual Joining - Next 4 should have 22 glyphs
+#**********************************
 # was called @DualJoiningXn
 @DualLinkIsol = [beth-syriac gamal-syriac gamalgarshuni-syriac heth-syriac teth-syriac tethGarshuni-syriac yudh-syriac kaph-syriac lamadh-syriac mim-syriac nun-syriac semkath-syriac semkathFinal-syriac e-syriac pe-syriac pe_brevebelowcomb-syriac qaph-syriac shin-syriac bhethPersian-syriac ghamalPersian-syriac khaphSogdian-syriac feSogdian-syriac];
 # was called @DualJoiningXr
@@ -662,35 +664,53 @@ markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 @DualLinkInit = [beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init pe_brevebelowcomb-syriac.init qaph-syriac.init shin-syriac.init bhethPersian-syriac.init ghamalPersian-syriac.init khaphSogdian-syriac.init feSogdian-syriac.init];
 @DualJoining = [@DualLinkIsol @DualLinkFina @DualLinkMedi @DualLinkInit];
 #**********************************
-#  Need to revisit Right joining because original VOLT uses a mixture, see RightJoiningXn and RightJoiningXr
+#  Right joining - Next two should match
 #**********************************
-@RightJoiningFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina sadhe_nun-syriac.fina dhalathPersian-syriac.fina zhainSogdian-syriac.fina];
-@RightJoiningIsol = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac sadhe_nun-syriac dhalathPersian-syriac zhainSogdian-syriac];
-@RightJoining = [@RightJoiningIsol @RightJoiningFina alaph-syriac.fin3 alaph-syriac.med2 alaph-syriac.fin2];
-@AllBase = [@DualJoining @RightJoining];
-# Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar sukun-ar madda-ar hamzaabove-ar alefbelow-ar
-@MarkAboveCanChain = [tildecomb macroncomb dotaccentcomb dieresiscomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac rwaha-syriac twodotsverticalabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac music-syriac music2-syriac music3-syriac barrekh-syriac];
+# was called @RightJoiningXn
+@RightLinkIsol = [dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac dhalathPersian-syriac zhainSogdian-syriac];
+# was called @RightJoiningXr
+@RightLinkFina = [dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina dhalathPersian-syriac.fina zhainSogdian-syriac.fina];
+@AlaphIsol = [alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3];
+@AlaphFina = [alaph-syriac.med2 alaph-syriac.fina];
+@RightJoining = [@RightLinkIsol @RightLinkFina @AlaphIsol @AlaphFina taw_alaph-syriac taw_alaph-syriac.fina];
+#**********************************
+#  These aren't used
+#**********************************
+# was called AllXn  (doublechecked)
+# @AllIsol = [@DualLinkIsol @RightLinkIsol];
+# was called AllXnXl (doublechecked)
+# @AllIsolInit = [@AllIsol @DualLinkInit];
+# is this used?
+# @AllBase = [@DualJoining @RightJoining];
+#**********************************
+#  Marks - removed glyphs no longer in font
+#          fathatan-ar dammatan-ar fatha-ar damma-ar sukun-ar madda-ar hamzaabove-ar alefbelow-ar
+#          kasratan-ar kasra-ar hamzabelow-ar
+#**********************************
+@MarkAboveCanChain = [tildecomb macroncomb dotaccentcomb dieresiscomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac rwaha-syriac twodotsverticalabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac music2-syriac music3-syriac barrekh-syriac];
 @MarkAboveNoChain = [ringcomb qushshaya-syriac];
-# Removed glyphs not in font: kasratan-ar kasra-ar hamzabelow-ar
-# why did I add minusbelowcomb dotbelowleftcomb?
-@MarkBelowCanChain = [dotbelowcomb dieresisbelowcomb circumflexbelowcomb brevebelowcomb tildebelowcomb macronbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac minusbelowcomb dotbelowleftcomb];
+@MarkBelowCanChain = [dotbelowcomb dieresisbelowcomb circumflexbelowcomb brevebelowcomb tildebelowcomb macronbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac];
 @MarkBelowNoChain = [ringbelowcomb rukkakha-syriac rukkakha-syriac.square];
+@AllCombining = [tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac music2-syriac music3-syriac barrekh-syriac dotaboveleftcomb dotbelowleftcomb circumflexbelowcomb rukkakha-syriac.square minusbelowcomb pthahadotted-syriac graphemejoinercomb];
+# was called @TakeSquareDot
 # Added gamalgarshuni-syriac kaph and pe be added to this group?
 # dalath, kaph, and pe are not in the group (intentionally?)
 @TakeRukkakhaSquare = [beth-syriac beth-syriac.init beth-syriac.medi beth-syriac.fina gamal-syriac gamal-syriac.init gamal-syriac.medi gamal-syriac.fina gamalgarshuni-syriac gamalgarshuni-syriac.init gamalgarshuni-syriac.medi gamalgarshuni-syriac.fina taw-syriac taw-syriac.fina];
-# @TypeLigature = [lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina];
+# used in r1 and r2
+@TypeMark = [@MarkAboveCanChain @MarkAboveNoChain @MarkBelowCanChain @MarkBelowNoChain femininedot-syriac rukkakha-syriac.square pthahaabove-syriac pthahabelow-syriac dotaboveleftcomb dotbelowleftcomb];
+#**********************************
+#  Ligatures
+#**********************************
+@TypeLigature = [lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina];
 @MusicLigatureParts = [music-syriac music2-syriac music3-syriac graphemejoinercomb];
-# Ligatures
+# was @TypeLigatureOptionalEast
 @LigatureOptional = [sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina he_yudh-syriac he_yudh-syriac.fina taw_yudh-syriac taw_yudh-syriac.fina taw_alaph-syriac.triangle taw_alaph-syriac.fina.triangle taw_alaph-syriac.twined taw_alaph-syriac.fina.twined];
-# Add in U0742Square
-@TypeMark = [@MarkAboveCanChain @MarkAboveNoChain @MarkBelowCanChain @MarkBelowNoChain femininedot-syriac dotaboveleftcomb dotbelowleftcomb];
 # Not sure this is necessary, but need to check if kashida is being tested.
 @TypeSimple = [@RightJoining @DualJoining kashida-ar.threequarter kashida-ar.quarter kashida-ar.half kashida-ar dottedCircle];
 @kern_below = [dotbelowcomb dieresisbelowcomb brevebelowcomb tildebelowcomb circumflexbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac minusbelowcomb dotbelowleftcomb];
-# Not in font: alefbelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar sukun-ar madda-ar hamzaabove-ar hamzabelow-ar 
-@AllCombining = [tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac music2-syriac music3-syriac barrekh-syriac dotaboveleftcomb dotbelowleftcomb circumflexbelowcomb rukkakha-syriac.square minusbelowcomb pthahadotted-syriac graphemejoinercomb];
 # ====
 # These classes cannot have more than one diacritic from a class on the same base
+# This is from the OpenType spec, but they aren't used in this code
 # ====
 # 0730 0733 0736 073A 073D - Syriac above Greek
 @diac1 = [pthahaabove-syriac zqaphaabove-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac];
@@ -727,19 +747,7 @@ markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 # 0746 - Syriac three dots below
 @diac17 = [threedotsbelow-syriac];
 # not listed minusbelowcomb dotaboveleftcomb dotbelowleftcomb
-#**********************************
-#
-# Copyright (c) 1994-2025 SIL Global  (https://www.sil.org)
-# Released under the MIT License (https://opensource.org/licenses/MIT)
-#
-#**********************************
-#**********************************
-# GDEF
-#**********************************
-table GDEF {
-    GlyphClassDef @AllBase, , @AllCombining, ;
-} GDEF;
-
+# include(../../source/opentype/gdef.feax);
 #**********************************
 #
 # Copyright (c) 1994-2025 SIL Global (https://www.sil.org)
@@ -755,10 +763,6 @@ languagesystem syrc dflt;
 languagesystem syrc SYRN;
 # Eastern Syriac
 languagesystem latn dflt;
-# Anchors on diacritics: _aboveleft2 _b.U0331_2_2 _below_unused _center _none _ogonek _stroke
-# Anchors on bases: above aboveleft below_1 below_2 b.U0331_2
-# b.U0331_2_2_ligComponent_1 b.U0331_2_2_ligComponent_2 b.U0740 below belowleft center dotacc
-# m.U030a_1_2_ligComponent_1 above_2 m.U0656_ligComponent_1 m.U0656_ligComponent_2 ogonek stroke t.U0656 above topleft topright
 @MarksAbove = [@_above @_aboveleft];
 # _diaA
 @MarksBelow = [@_below @_belowleft];
@@ -802,13 +806,14 @@ lookup FontCheck {
 # Replace Syriac punctuation glyphs with Latin ones:
     
 
-#end do - East Syriac Marcus New
+#end do - Ramsina
 # HB PAUSE
 #---  fina feature  ---
 lookup ltrFina {
     lookupflag IgnoreMarks;
     sub @DualLinkIsol by @DualLinkFina;
-    sub @RightJoiningIsol by @RightJoiningFina;
+    sub @RightLinkIsol by @RightLinkFina;
+    sub alaph-syriac by alaph-syriac.fina;
 } ltrFina;
 
 # HB PAUSE
@@ -826,10 +831,10 @@ lookup ltrInit {
 } ltrInit;
 
 # HB PAUSE
-# This one answers my question on how to handle U+073C which is above and below
-lookup GPreDecompose {
+# This one decomposes U+073C into above and below counterparts
+lookup DecomposePthahadotted {
     sub pthahadotted-syriac by hbasaEsasadotted-syriac rwaha-syriac;
-} GPreDecompose;
+} DecomposePthahadotted;
 
 # HB PAUSE
 # This is the Seyame where the rish looses its dot when a dieresis is above it
@@ -840,17 +845,13 @@ lookup Seyame {
 lookup SeyameChain {
     # GSUB lookup 2, type 16 (Chaining Context)
     sub rish-syriac' lookup Seyame dieresiscomb @MarkBelowCanChain;
-    sub rish-syriac' lookup Seyame dieresiscomb @MarkBelowCanChain;
-    sub rish-syriac' lookup Seyame @MarkBelowCanChain dieresiscomb;
     sub rish-syriac' lookup Seyame @MarkBelowCanChain dieresiscomb;
     # Added the following also
     sub rish-syriac' lookup Seyame dieresiscomb @MarkAboveCanChain;
-    sub rish-syriac' lookup Seyame dieresiscomb @MarkAboveCanChain;
-    sub rish-syriac' lookup Seyame @MarkAboveCanChain dieresiscomb;
     sub rish-syriac' lookup Seyame @MarkAboveCanChain dieresiscomb;
 } SeyameChain;
 
-# Is this actually being used?
+# IS THIS NEEDED???
 # Used in East Syriac, West Syriac, Estrangela
 lookup RishSeyame {
     # 072A 0308
@@ -862,7 +863,7 @@ lookup RishSeyame {
 # ligature rule because small dots is next to big dot
 # glyph for replacement seems poorly named except 073c and 0742 are similar
 lookup DalathRukkakha {
-    # 0715 0742
+    # 0715 0742 r3
     lookupflag 0;
             sub dalath-syriac rukkakha-syriac by dalath_hbasaEsasadotted-syriac;
         sub dalath-syriac.fina rukkakha-syriac by dalath_hbasaEsasadotted-syriac.fina;
@@ -896,6 +897,7 @@ lookup square1 {
     sub rukkakha-syriac by rukkakha-syriac.square;
 } square1;
 
+# Add a test!
 lookup RukkakhaSquare {
     # GSUB lookup 14, type 16 (Chaining Context)
     lookupflag RightToLeft;
@@ -925,6 +927,11 @@ lookup TawAlaph {
 # alaph-syriac.ccmp - comma shape (glyph 3) only used following lamadh in isolate or final position
 # =======================
 # Rule 1
+# alaph-syriac is isolate with no tail
+# alaph-syriac.med2 is final with no tail
+# alaph-syriac.fin2 is isolate with tail
+# alaph-syriac.fina is final with tail
+# alaph-syriac.fin3 is final with no tail
 lookup ltrFinaSerOlaph {
     # use when the preceding base character cannot be joined to, and that preceding base character is not a 'Dalath', 'Rish', or dotless 'Dalath-Rish'
     lookupflag IgnoreMarks;
@@ -950,7 +957,7 @@ lookup ltrFinaESyOlaph {
     # Used in East Syriac, West Syriac, Estrangela
     # corresponds to "Rule 2" and "Rule 6"
     # GSUB lookup 3, type 16 (Chaining Context)
-    #end do - Idiqlat|East Syriac Marcus New
+    #end do - Idiqlat|Ramsina
     lookup LamAlaphLig_Alaph {
         lookupflag 0;
         sub alaph-syriac by alaph-syriac.ccmp;
@@ -997,11 +1004,11 @@ lookup cv_fina {
     sub [kaph-syriac mim-syriac nun-syriac] by [kaph-syriac.cv15 mim-syriac.cv17 nun-syriac.cv18];
 } cv_fina;
 
-lookup RightJoinFina {
+lookup RightJoinFinaAlt {
     # GSUB lookup 14, type 16 (Chaining Context)
     lookupflag RightToLeft IgnoreMarks;
     sub @RightJoining [mim-syriac nun-syriac kaph-syriac]' lookup cv_fina;
-} RightJoinFina;
+} RightJoinFinaAlt;
 
 #---  calt feature  ---
 # Language-independent shaping
@@ -1033,7 +1040,7 @@ lookup RightJoinFina {
     # needed for cv59
     # needed for ss19
     # needed for ss19
-    # End of Idiqlat|East Syriac Marcus New cv
+    # End of Idiqlat|Ramsina cv
     # Sadhe Nun U+0728 U+0722 cv55 (marks position)
     # Used in East Syriac, West Syriac, Estrangela
     lookup KaphAlternate {
@@ -1104,9 +1111,8 @@ lookup SadheNunLigature {
     sub sadhe-syriac.fina nun-syriac.cv18 by sadhe_nun-syriac.fina;
 } SadheNunLigature;
 
-# Taw Alaph U+072C U+0710 cv59=2 (ligature does not form in presense of marks)
+# Taw Alaph U+072C U+0710 cv59=2 (ligature does not form in presence of marks)
 # Used in East Syriac and Estrangela
-#NB: Lookup names ending in "TT" are used only by TypeTuner
 #**********************************
 #  GSUB FEATURES
 #**********************************
@@ -1123,9 +1129,9 @@ feature ccmp {
     # Glyph Composition/Decomposition
     # Same for latin & syriac:
     lookup FontCheck;
-    
+    #        lookup LatinPunctuation;
     script syrc;
-    lookup GPreDecompose;
+    lookup DecomposePthahadotted;
     lookup SeyameChain;
     lookup LamAlaphLig;
     lookup AlaphLigs;
@@ -1195,7 +1201,7 @@ feature calt {
     # Lookups: 1
     script syrc;
     # Syriac
-    lookup RightJoinFina;
+    lookup RightJoinFinaAlt;
 } calt;
 
 # HB PAUSE
@@ -1346,7 +1352,7 @@ feature cv02 {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|East Syriac Marcus New
+    #end do - Idiqlat|Ramsina
         feature cv15 {
                 cvParameters {
                         FeatUILabelNameID {
@@ -1483,7 +1489,7 @@ feature cv55 {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|East Syriac Marcus New
+    #end do - Idiqlat|Ramsina
         feature cv59 {
                 cvParameters {
                         FeatUILabelNameID {
@@ -1520,7 +1526,7 @@ feature cv55 {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|East Syriac Marcus New
+    #end do - Idiqlat|Ramsina
     #---  aalt feature (pass 10) ---
         feature cv60 {
                 cvParameters {
@@ -1552,34 +1558,34 @@ feature aalt {
     # automatic
     feature ccmp;
     feature dlig;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature cv02;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature cv15;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature cv17;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature cv18;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature cv38;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature cv55;
     feature cv59;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature cv60;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature ss01;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature ss16;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature ss17;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature ss18;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature ss19;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature ss20;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature calt;
 } aalt;
 

@@ -15,16 +15,9 @@ languagesystem syrc dflt ; # Syriac default
 languagesystem syrc SYRN ; # Eastern Syriac
 languagesystem latn dflt ;
 
-# Anchors on diacritics: _aboveleft2 _b.U0331_2_2 _below_unused _center _none _ogonek _stroke
-# Anchors on bases: above aboveleft below_1 below_2 b.U0331_2
-# b.U0331_2_2_ligComponent_1 b.U0331_2_2_ligComponent_2 b.U0740 below belowleft center dotacc
-# m.U030a_1_2_ligComponent_1 above_2 m.U0656_ligComponent_1 m.U0656_ligComponent_2 ogonek stroke t.U0656 above topleft topright
-
 @MarksAbove = [@_above @_aboveleft] ; # _diaA
 @MarksBelow = [ @_below @_belowleft] ; # _diaB @_b.U0740 @_b.U0325_3
 @MarksAny = [@MarksAbove @MarksBelow] ;
-
-
 
 # Notes:
 #   The lookups and then the features should be arranged and grouped into ordered passes
@@ -75,18 +68,15 @@ lookup FontCheck {
       n' lookup _FontCheck_n;
 } FontCheck ;
 
-
-
-
 # Replace Syriac punctuation glyphs with Latin ones:
 do let f = info("familyName");
-   if f.find("East Syriac Marcus New") != -1 ; {
+   if f.find("Ramsina") != -1 ; {
 
 lookup LatinPunctuation {
   lookupflag 0 ;
     sub @Punct by @Punct_latn ;
 } LatinPunctuation ;
-}   #end do - East Syriac Marcus New
+}   #end do - Ramsina
 
 # HB PAUSE
 
@@ -95,7 +85,8 @@ lookup LatinPunctuation {
 lookup ltrFina {
   lookupflag IgnoreMarks ;
     sub @DualLinkIsol  by  @DualLinkFina ;
-    sub @RightJoiningIsol by  @RightJoiningFina ;
+    sub @RightLinkIsol by  @RightLinkFina ;
+    sub alaph-syriac by alaph-syriac.fina ;
 } ltrFina ;
 
 # HB PAUSE
@@ -116,13 +107,12 @@ lookup ltrInit {
     sub @DualLinkIsol  by  @DualLinkInit ;
 } ltrInit ;
 
-
 # HB PAUSE
 
-# This one answers my question on how to handle U+073C which is above and below
-lookup GPreDecompose {
+# This one decomposes U+073C into above and below counterparts
+lookup DecomposePthahadotted {
     sub pthahadotted-syriac by hbasaEsasadotted-syriac rwaha-syriac;
-} GPreDecompose ;
+} DecomposePthahadotted ;
 
 # HB PAUSE
 
@@ -134,17 +124,13 @@ lookup Seyame {
 lookup SeyameChain {
 # GSUB lookup 2, type 16 (Chaining Context)
   sub rish-syriac' lookup Seyame dieresiscomb @MarkBelowCanChain;
-  sub rish-syriac' lookup Seyame dieresiscomb @MarkBelowCanChain;
-  sub rish-syriac' lookup Seyame @MarkBelowCanChain dieresiscomb;
   sub rish-syriac' lookup Seyame @MarkBelowCanChain dieresiscomb;
 # Added the following also
   sub rish-syriac' lookup Seyame dieresiscomb @MarkAboveCanChain;
-  sub rish-syriac' lookup Seyame dieresiscomb @MarkAboveCanChain;
-  sub rish-syriac' lookup Seyame @MarkAboveCanChain dieresiscomb;
   sub rish-syriac' lookup Seyame @MarkAboveCanChain dieresiscomb;
 } SeyameChain;
 
-# Is this actually being used?
+# IS THIS NEEDED???
 # Used in East Syriac, West Syriac, Estrangela
 lookup RishSeyame { # 072A 0308
     sub rish-syriac dieresiscomb by  rish_dieresiscomb-syriac ;
@@ -155,9 +141,9 @@ lookup RishSeyame { # 072A 0308
 
 # ligature rule because small dots is next to big dot
 # glyph for replacement seems poorly named except 073c and 0742 are similar
-lookup DalathRukkakha { # 0715 0742
+lookup DalathRukkakha { # 0715 0742 r3
   lookupflag 0;
-  ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
+  ifinfo(familyName, "Idiqlat|Ramsina") {
     sub dalath-syriac rukkakha-syriac by dalath_hbasaEsasadotted-syriac ;
     sub dalath-syriac.fina rukkakha-syriac by dalath_hbasaEsasadotted-syriac.fina ;
   }
@@ -177,7 +163,7 @@ lookup MusicLigatures {
 # The breve below must almost touch
 lookup PeBreveBelow { # 0715 0742
   lookupflag 0;
-  ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
+  ifinfo(familyName, "Idiqlat|Ramsina") {
     sub pe-syriac brevebelowcomb by pe_brevebelowcomb-syriac ;
     sub pe-syriac.init brevebelowcomb by pe_brevebelowcomb-syriac.init ;
     sub pe-syriac.medi brevebelowcomb by pe_brevebelowcomb-syriac.medi ;
@@ -193,6 +179,7 @@ lookup square1 {
   sub rukkakha-syriac by rukkakha-syriac.square;
 } square1;
 
+# Add a test!
 lookup RukkakhaSquare {
 # GSUB lookup 14, type 16 (Chaining Context)
   lookupflag RightToLeft;
@@ -223,6 +210,12 @@ lookup TawAlaph { # 072C 0710
 # =======================
 # Rule 1
 
+# alaph-syriac is isolate with no tail
+# alaph-syriac.med2 is final with no tail
+# alaph-syriac.fin2 is isolate with tail
+# alaph-syriac.fina is final with tail
+# alaph-syriac.fin3 is final with no tail
+
 lookup ltrFinaSerOlaph { # use when the preceding base character cannot be joined to, and that preceding base character is not a 'Dalath', 'Rish', or dotless 'Dalath-Rish'
   lookupflag IgnoreMarks ;
     sub alaph-syriac  by  alaph-syriac.fin2 ;
@@ -242,7 +235,7 @@ lookup ltrFinaESyOlaph { # used when the preceding base character is a 'Dalath',
 # Rule 2
 
 do let f = info("familyName");
-   if f.find("Idiqlat") != -1 or f.find("East Syriac Marcus New") != -1; {
+   if f.find("Idiqlat") != -1 or f.find("Ramsina") != -1; {
 
 lookup LamAlaphLig_Alaph { # corresponds to "Rule 2" and "Rule 6"
 # GSUB lookup 18, type 11 (Single)
@@ -258,7 +251,7 @@ lookup LamAlaphLig { # corresponds to "Rule 2" and "Rule 6"
     sub lamadh-syriac @TypeMark @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
     sub lamadh-syriac alaph-syriac' lookup LamAlaphLig_Alaph;
 } LamAlaphLig;
-}   #end do - Idiqlat|East Syriac Marcus New
+}   #end do - Idiqlat|Ramsina
 
 do let f = info("familyName");
    if f.find("Khabur") != -1; {
@@ -276,7 +269,7 @@ lookup LamAlaphLig {
 lookup AlaphChain {
 # GSUB lookup 19, type 11 (Single)
   lookupflag 0;
-  ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
+  ifinfo(familyName, "Idiqlat|Ramsina") {
     sub alaph-syriac.ccmp by alaph-syriac;
   }
 } AlaphChain;
@@ -284,7 +277,7 @@ lookup AlaphChain {
 lookup AlaphChainMed2 {
 # GSUB lookup 19, type 11 (Single)
   lookupflag 0;
-  ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
+  ifinfo(familyName, "Idiqlat|Ramsina") {
     sub alaph-syriac.ccmp by alaph-syriac.med2;
   }
 } AlaphChainMed2;
@@ -292,7 +285,7 @@ lookup AlaphChainMed2 {
 lookup AlaphLigs {
 # GSUB lookup 4, type 16 (Chaining Context)
   lookupflag 0;
-  ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
+  ifinfo(familyName, "Idiqlat|Ramsina") {
     sub alaph-syriac.ccmp' lookup AlaphChain @TypeMark;
     sub alaph-syriac.ccmp' lookup AlaphChain yudh-syriac ;
     sub alaph-syriac.ccmp' lookup AlaphChain waw-syriac ;
@@ -300,20 +293,17 @@ lookup AlaphLigs {
   }
 } AlaphLigs;
 
-
-
-
 # This is needed because of the isolate form not looking like a final form, and this is viewed as a final even since it's after a right joining character
 lookup cv_fina {
   lookupflag IgnoreMarks RightToLeft;
 sub [kaph-syriac mim-syriac nun-syriac] by [kaph-syriac.cv15 mim-syriac.cv17 nun-syriac.cv18];
 } cv_fina ;
 
-lookup RightJoinFina {
+lookup RightJoinFinaAlt {
 # GSUB lookup 14, type 16 (Chaining Context)
   lookupflag IgnoreMarks RightToLeft;
   sub @RightJoining [mim-syriac nun-syriac kaph-syriac]' lookup cv_fina;
-} RightJoinFina;
+} RightJoinFinaAlt;
 
 #---  calt feature  ---
 
@@ -329,7 +319,7 @@ lookup RightJoinFina {
 
 
 do let f = info("familyName");
-if f.find("Idiqlat") != -1 or f.find("East Syriac Marcus New") != -1; {
+if f.find("Idiqlat") != -1 or f.find("Ramsina") != -1; {
 
 # digits
 lookup Digits { # cv02
@@ -339,7 +329,7 @@ lookup Digits { # cv02
 }
 
 do let f = info("familyName");
-   if f.find("Idiqlat") != -1 or f.find("East Syriac Marcus New") != -1; {
+   if f.find("Idiqlat") != -1 or f.find("Ramsina") != -1; {
 
 # Kaph U+071F cv15
 lookup KaphAlternate { # cv15 Apparently only used in outlines so no final is needed
@@ -379,7 +369,7 @@ lookup TawYudhLigature {
 lookup TawAlaphTriangleChain { # needed for ss19
 # GSUB lookup 19, type 11 (Single)
   lookupflag 0;
-  ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
+  ifinfo(familyName, "Idiqlat|Ramsina") {
     sub taw_alaph-syriac by taw_alaph-syriac.triangle;
     sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.triangle;
   }
@@ -388,7 +378,7 @@ lookup TawAlaphTriangleChain { # needed for ss19
 lookup TawAlaphTwinedChain { # needed for ss19
 # GSUB lookup 19, type 11 (Single)
   lookupflag 0;
-  ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
+  ifinfo(familyName, "Idiqlat|Ramsina") {
     sub taw_alaph-syriac by taw_alaph-syriac.twined;
     sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.twined;
   }
@@ -414,7 +404,7 @@ lookup TawAlaphTwinedLigatures { # needed for ss19
     sub taw_alaph-syriac.fina' lookup TawAlaphTwinedChain;
 } TawAlaphTwinedLigatures ;
 
-} # End of Idiqlat|East Syriac Marcus New cv
+} # End of Idiqlat|Ramsina cv
 
 # Sadhe Nun U+0728 U+0722 cv55 (marks position)
 # Used in East Syriac, West Syriac, Estrangela
@@ -426,11 +416,9 @@ lookup SadheNunLigature {
     sub sadhe-syriac.fina nun-syriac.cv18 by sadhe_nun-syriac.fina ;
 } SadheNunLigature ;
 
-# Taw Alaph U+072C U+0710 cv59=2 (ligature does not form in presense of marks)
+# Taw Alaph U+072C U+0710 cv59=2 (ligature does not form in presence of marks)
 # Used in East Syriac and Estrangela
 
-
-#NB: Lookup names ending in "TT" are used only by TypeTuner
 
 #**********************************
 #  GSUB FEATURES
@@ -451,12 +439,9 @@ feature rtlm {  # Right-To-Left Mirrored Forms
 feature ccmp {  # Glyph Composition/Decomposition
     # Same for latin & syriac:
         lookup FontCheck;
-  ifinfo(familyName, "East Syriac Marcus New") {
-    script latn;
 #        lookup LatinPunctuation;
-  }
     script syrc;
-        lookup GPreDecompose;
+        lookup DecomposePthahadotted;
         lookup SeyameChain;
         lookup LamAlaphLig;
         lookup AlaphLigs;
@@ -533,7 +518,7 @@ feature calt {
 # Lookups: 1
 
   script syrc; # Syriac
-  lookup RightJoinFina;
+  lookup RightJoinFinaAlt;
 
 } calt;
 
@@ -565,71 +550,71 @@ feature liga {  # Ligatures  -- we use this because liga is done in the same pas
 #---  dlig feature (pass 10) ---
 
 do let f = info("familyName");
-   if f.find("Idiqlat") != -1 or f.find("East Syriac Marcus New") != -1; {
+   if f.find("Idiqlat") != -1 or f.find("Ramsina") != -1; {
 
 feature ss01 {
-	featureNames {
-		name 3 1 0x409 "Kaph Mim Nun alternates";
-	};
-	lookup ss01_lkp {
-		lookupflag RightToLeft;
-		    sub [kaph-syriac mim-syriac nun-syriac] by [kaph-syriac.cv15 mim-syriac.cv17 nun-syriac.cv18];
-	} ss01_lkp;
+   featureNames {
+      name 3 1 0x409 "Kaph Mim Nun alternates";
+   };
+   lookup ss01_lkp {
+      lookupflag RightToLeft;
+          sub [kaph-syriac mim-syriac nun-syriac] by [kaph-syriac.cv15 mim-syriac.cv17 nun-syriac.cv18];
+   } ss01_lkp;
 
 } ss01;
 
 feature ss16 {
-	featureNames {
-		name 3 1 0x409 "He Yudh ligature";
-	};
-	lookup ss16_lkp {
-		lookupflag RightToLeft;
-		    lookup HeYudhLigature;
-	} ss16_lkp;
+   featureNames {
+      name 3 1 0x409 "He Yudh ligature";
+   };
+   lookup ss16_lkp {
+      lookupflag RightToLeft;
+          lookup HeYudhLigature;
+   } ss16_lkp;
 
 } ss16;
 
 feature ss17 {
-	featureNames {
-		name 3 1 0x409 "Sadhe Nun ligature";
-	};
-	lookup ss17_lkp {
-		lookupflag RightToLeft;
-		    lookup SadheNunLigature;
-	} ss17_lkp;
+   featureNames {
+      name 3 1 0x409 "Sadhe Nun ligature";
+   };
+   lookup ss17_lkp {
+      lookupflag RightToLeft;
+          lookup SadheNunLigature;
+   } ss17_lkp;
 
 } ss17;
 
 feature ss18 {
-	featureNames {
-		name 3 1 0x409 "Taw Alaph triangle ligature";
-	};
-	lookup ss18_lkp {
-		lookupflag RightToLeft;
-		    lookup TawAlaphTriangleLigatures;
-	} ss18_lkp;
+   featureNames {
+      name 3 1 0x409 "Taw Alaph triangle ligature";
+   };
+   lookup ss18_lkp {
+      lookupflag RightToLeft;
+          lookup TawAlaphTriangleLigatures;
+   } ss18_lkp;
 
 } ss18;
 
 feature ss19 {
-	featureNames {
-		name 3 1 0x409 "Taw Alaph twined ligature";
-	};
-	lookup ss19_lkp {
-		lookupflag RightToLeft;
-		    lookup TawAlaphTwinedLigatures;
-	} ss19_lkp;
+   featureNames {
+      name 3 1 0x409 "Taw Alaph twined ligature";
+   };
+   lookup ss19_lkp {
+      lookupflag RightToLeft;
+          lookup TawAlaphTwinedLigatures;
+   } ss19_lkp;
 
 } ss19;
 
 feature ss20 {
-	featureNames {
-		name 3 1 0x409 "Taw Yudh ligature";
-	};
-	lookup ss20_lkp {
-		lookupflag RightToLeft;
-		    lookup TawYudhLigature;
-	} ss20_lkp;
+   featureNames {
+      name 3 1 0x409 "Taw Yudh ligature";
+   };
+   lookup ss20_lkp {
+      lookupflag RightToLeft;
+          lookup TawYudhLigature;
+   } ss20_lkp;
 
 } ss20;
 
@@ -655,7 +640,7 @@ feature cv02 {  # Character Variant 2
 } cv02 ;
 
 do let f = info("familyName");
-   if f.find("Idiqlat") != -1 or f.find("East Syriac Marcus New") != -1; {
+   if f.find("Idiqlat") != -1 or f.find("Ramsina") != -1; {
 
 feature cv15 {  # Character Variant 15
     cvParameters {
@@ -741,7 +726,7 @@ feature cv38 {  # Character Variant 38
       language SYRN ;
 } cv38 ;
 
-}  #end do - Idiqlat|East Syriac Marcus New
+}  #end do - Idiqlat|Ramsina
 
 feature cv55 {  # Character Variant 55
     cvParameters {
@@ -763,7 +748,7 @@ feature cv55 {  # Character Variant 55
 } cv55 ;
 
 do let f = info("familyName");
-   if f.find("Idiqlat") != -1 or f.find("East Syriac Marcus New") != -1; {
+   if f.find("Idiqlat") != -1 or f.find("Ramsina") != -1; {
 
 feature cv59 {  # Character Variant 59
     cvParameters {
@@ -786,10 +771,10 @@ feature cv59 {  # Character Variant 59
       # Force other languages to include Syriac script lookups:
       language SYRN ;
 } cv59 ;
-}  #end do - Idiqlat|East Syriac Marcus New
+}  #end do - Idiqlat|Ramsina
 
 do let f = info("familyName");
-   if f.find("Idiqlat") != -1 or f.find("East Syriac Marcus New") != -1; {
+   if f.find("Idiqlat") != -1 or f.find("Ramsina") != -1; {
 
 feature cv60 {  # Character Variant 60
     cvParameters {
@@ -811,28 +796,28 @@ feature cv60 {  # Character Variant 60
       # Force other languages to include Syriac script lookups:
       language SYRN ;
 } cv60 ;
-}  #end do - Idiqlat|East Syriac Marcus New
+}  #end do - Idiqlat|Ramsina
 
 #---  aalt feature (pass 10) ---
 
 feature aalt {
 # automatic
 feature ccmp;
-feature dlig; # Idiqlat|East Syriac Marcus New
-feature cv02; # Idiqlat|East Syriac Marcus New
-feature cv15; # Idiqlat|East Syriac Marcus New
-feature cv17; # Idiqlat|East Syriac Marcus New
-feature cv18; # Idiqlat|East Syriac Marcus New
-feature cv38; # Idiqlat|East Syriac Marcus New
+feature dlig; # Idiqlat|Ramsina
+feature cv02; # Idiqlat|Ramsina
+feature cv15; # Idiqlat|Ramsina
+feature cv17; # Idiqlat|Ramsina
+feature cv18; # Idiqlat|Ramsina
+feature cv38; # Idiqlat|Ramsina
 feature cv55;
-feature cv59; # Idiqlat|East Syriac Marcus New
-feature cv60; # Idiqlat|East Syriac Marcus New
-feature ss01; # Idiqlat|East Syriac Marcus New
-feature ss16; # Idiqlat|East Syriac Marcus New
-feature ss17; # Idiqlat|East Syriac Marcus New
-feature ss18; # Idiqlat|East Syriac Marcus New
-feature ss19; # Idiqlat|East Syriac Marcus New
-feature ss20; # Idiqlat|East Syriac Marcus New
+feature cv59; # Idiqlat|Ramsina
+feature cv60; # Idiqlat|Ramsina
+feature ss01; # Idiqlat|Ramsina
+feature ss16; # Idiqlat|Ramsina
+feature ss17; # Idiqlat|Ramsina
+feature ss18; # Idiqlat|Ramsina
+feature ss19; # Idiqlat|Ramsina
+feature ss20; # Idiqlat|Ramsina
 feature calt;
 } aalt;
 
