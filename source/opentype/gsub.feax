@@ -390,7 +390,7 @@ lookup TawAlaphLigatures { # needed for cv59
     sub taw_alaph-syriac.fina from [ taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined];
 } TawAlaphLigatures ;
 
-lookup TawAlaphTriangleLigatures { # needed for ss19
+lookup TawAlaphTriangleLigatures { # needed for ss18
   lookupflag IgnoreMarks ;
     sub taw_alaph-syriac' lookup TawAlaphTriangleChain  ;
     sub taw_alaph-syriac.fina' lookup TawAlaphTriangleChain ;

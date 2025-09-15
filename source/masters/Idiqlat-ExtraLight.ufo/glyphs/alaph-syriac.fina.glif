@@ -3,7 +3,7 @@
   <advance width="511"/>
   <anchor x="289" y="975" name="above"/>
   <anchor x="80" y="975" name="aboveleft"/>
-  <anchor x="361" y="-360" name="below"/>
+  <anchor x="291" y="-360" name="below"/>
   <anchor x="80" y="-360" name="belowleft"/>
   <outline>
     <component base="alaph-syriac"/>

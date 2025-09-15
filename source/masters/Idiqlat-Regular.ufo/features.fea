@@ -458,7 +458,7 @@ markClass zqaphadotted-syriac <anchor 210 65> @_above;
 # AP: _below
 markClass [_cedilla _cedilla.case] <anchor 420 0> @_below;
 markClass brevebelowcomb <anchor 287 -95> @_below;
-markClass circumflexbelowcomb <anchor 0 0> @_below;
+markClass circumflexbelowcomb <anchor 0 -40> @_below;
 markClass dieresisbelowcomb <anchor 250 -30> @_below;
 markClass dotbelowcomb <anchor 145 -30> @_below;
 markClass [esasabelow-syriac rbasabelow-syriac] <anchor 195 0> @_below;
@@ -1038,7 +1038,7 @@ lookup RightJoinFinaAlt {
     # needed for ss19
     # GSUB lookup 19, type 11 (Single)
     # needed for cv59
-    # needed for ss19
+    # needed for ss18
     # needed for ss19
     # End of Idiqlat|Ramsina cv
     # Sadhe Nun U+0728 U+0722 cv55 (marks position)

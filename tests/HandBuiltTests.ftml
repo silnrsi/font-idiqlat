@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>300</fontscale>
+    <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
+    <fontsrc label="ExLt">url(../results/Idiqlat-ExtraLight.ttf)</fontsrc>
+    <fontsrc label="Lt">url(../results/Idiqlat-Light.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/Idiqlat-Regular.ttf)</fontsrc>
+    <styles>
+      <style feats="'ss01' 1" name="ss01_1"/>
+      <style feats="'ss18' 1" name="ss18_1"/>
+      <style feats="'ss19' 1" name="ss19_1"/>
+      <style feats="'cv02' 1" name="cv02_1"/>
+      <style feats="'cv15' 1" name="cv15_1"/>
+      <style feats="'cv17' 1" name="cv17_1"/>
+      <style feats="'cv18' 1" name="cv18_1"/>
+      <style feats="'cv38' 1" name="cv38_1"/>
+      <style feats="'cv55' 1" name="cv55_1"/>
+      <style feats="'cv59' 1" name="cv59_1"/>
+      <style feats="'cv59' 2" name="cv59_2"/>
+      <style feats="'cv60' 1" name="cv60_1"/>
+    </styles>
+    <title>Diacritics and Ligatures</title>
+    <widths string="20%"/>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+
+  <testgroup label="GSUB lookups">
+     <test label="Digits">
+      <comment></comment>
+      <string>0123456789</string>
+   </test>
+     <test label="Digits" stylename="cv02_1" >
+      <comment>Digits</comment>
+      <string>0123456789</string>
+   </test>
+  </testgroup>
+
+  <testgroup label="GSUB lookups">
+     <test label="0712 0713 0732" rtl="True">
+      <comment>ltrFina ltrInit ltrMedi DecomposePthahadotted</comment>
+      <string>\u000710\u0732 \u000712\u000710\u0732 \u000712\u0732 \u000712\u0732\u000712\u0732\u000712\u0732 \u000713\u0732 \u000713\u0732\u000713\u0732\u000713\u0732</string>
+   </test>
+    <test label="0715 0742" rtl="True">
+       <comment>DalathRukkakha</comment>
+     <string>\u0715\u0742 - - \u0712\u0715\u0742</string>
+    </test>
+    <test label="0722 0749" rtl="True">
+       <comment>MusicLigatures</comment>
+     <string>\u0722\u0749 - - \u0712\u0722\u0749 \u0722\u0749\u0749 - - \u0712\u0722\u0749\u0749 \u0722\u0749\u0749\u0749 - - \u0712\u0722\u0749\u0749\u0749</string>
+    </test>
+    <test label="0726 032E" rtl="True">
+      <comment>PeBreveBelow</comment>
+      <string>\u0726\u032E \u0726\u032E\u0726\u032E\u0726\u032E</string>
+    </test>
+    <test label="0712 0742" rtl="True">
+      <comment>RukkakhaSquare (square1)</comment>
+      <string>\u0712\u0742 \u0712\u0742\u0712\u0742\u0712\u0742</string>
+    </test>
+    <test label="0713 0742" rtl="True">
+      <comment>RukkakhaSquare (square1)</comment>
+      <string>\u0713\u0742 \u0713\u0742\u0713\u0742\u0713\u0742</string>
+    </test>
+    <test label="0715/0716 0742" rtl="True">
+      <comment>RukkakhaSquare (square1) - NOT</comment>
+      <string>\u0715\u0742 \u0712\u0715\u0742 \u0716\u0742 \u0712\u0716\u0742</string>
+    </test>
+    <test label="071F 0742" rtl="True">
+      <comment>RukkakhaSquare (square1) - NOT</comment>
+      <string>\u071F\u0742 \u071F\u0742\u071F\u0742\u071F\u0742 \u0726\u0742 \u0726\u0742\u0726\u0742\u0726\u0742</string>
+    </test>
+  </testgroup>
+
+    <testgroup label="GSUB Alaph rules">
+    <test label="0712 0739 0710 0712" rtl="True">
+      <comment>ltrMediOlaph (medial, no tail)</comment>
+      <string>\u0712\u0739\u0710\u0712</string>
+    </test>
+    <test label="0717/0718 0739 0710" rtl="True">
+      <comment>ltrFinaSerOlaph (tail)</comment>
+      <string>\u0717\u0739\u0710 \u0718\u0739\u0710</string>
+    </test>
+    <test label="0715 0739 0710" rtl="True">
+      <comment>ltrFinaESyOlaph (final, no tail)</comment>
+      <string>\u0715\u0739\u0710</string>
+    </test>
+     <test label="0712 0735 0710 0713" rtl="True">
+      <comment>Rule 4 (glyph 2) (removed, follow rule 7)</comment>
+      <string>\u0712\u0735\u0710 \u0712\u0735\u0710\u0713</string>
+     </test>
+     <test label="0712 0735 0710 0735 0713" rtl="True">
+      <comment>Rule 5 (glyph 1) (removed, follow rule 7)</comment>
+      <string>\u0712\u0735\u0710\u0735 \u0712\u0735\u0710\u0735\u0713</string>
+     </test>
+    <test label="0715 0739 0710 0721 0735 072A 0735 0710" rtl="True">
+      <comment>Rule 1 (glyph 1)</comment>
+      <string>\u0715\u0739\u0710\u0721\u0735\u072A\u0735\u0710</string>
+    </test>
+    <test label="072A 0739 0710 0721 0735 072A 0735 0710" rtl="True">
+      <comment>Rule 1 (glyph 1)</comment>
+      <string>\u072A\u0739\u0710\u0721\u0735\u072A\u0735\u0710</string>
+    </test>
+    <test label="0717 0739 0710 0721 0735 072A 0735 0710" rtl="True">
+      <comment>Rule 1 and 7 (glyph 1)</comment>
+      <string>\u0717\u0739\u0710\u0721\u0735\u072A\u0735\u0710</string>
+    </test>
+  </testgroup>
+
+    <testgroup label="GSUB Lam Alaph rules">
+
+     <test label="0720 0735 0710" rtl="True">
+      <comment>Rule 2 and 6 (glyph 3) LamAlaphLig (LamAlaphLig_Alaph)</comment>
+      <string>\u0720\u0735\u0710 - - \u0712\u0720\u0735\u0710</string>
+     </test>
+    <test label="0720 0738 072B 0729 0735 0720 0735 0710" rtl="True">
+      <comment>Rule 2 (glyph 3) LamAlaphLig (LamAlaphLig_Alaph)</comment>
+      <string>\u0720\u0738\u072B\u0729\u0735\u0720\u0735\u0710</string>
+    </test>
+    <test label="0720 0710" rtl="True">
+      <comment>LamAlaphLig (LamAlaphLig_Alaph)</comment>
+      <string>\u0720\u0710 \u0720\u0308\u0739\u0710 \u071F\u0720\u0308\u0739\u0710</string>
+    </test>
+     <test label="0720 0735 0710 0735" rtl="True">
+      <comment>Rule 3 (glyph 1) (removed, follow rule 7) AlaphLigs (AlaphChain AlaphChainMed2)</comment>
+      <string>\u0720\u0735\u0710\u0735 - - \u0712\u0720\u0735\u0710\u0735</string>
+     </test>
+    <test label="0720 0710" rtl="True">
+      <comment>lamadh-syriac alaph-syriac</comment>
+      <string>\u0720\u0710\u0735 \u0720\u0735\u0710\u0735 \u0720\u0738\u0710\u0735 \u0720\u0735\u0738\u0710\u0735</string>
+    </test>
+    <test label="0720 0710" rtl="True">
+      <comment>lamadh-syriac alaph-syriac</comment>
+      <string>\u0720\u0710\u073c \u0720\u0735\u0710\u073c \u0720\u0738\u0710\u073c \u0720\u0735\u0738\u0710\u073c</string>
+    </test>
+    <test label="0720 0710" rtl="True">
+      <comment>lamadh-syriac alaph-syriac</comment>
+      <string>\u0720\u0710\u073f \u0720\u0735\u0710\u073f \u0720\u0738\u0710\u073f \u0720\u0735\u0738\u0710\u073f</string>
+    </test>
+    <test label="0720 0710 0732" rtl="True">
+      <comment>lamadh-syriac alaph-syriac </comment>
+      <string>\u0720\u0710\u0732 \u0712\u0732\u0720\u0710\u0732</string>
+    </test>
+     <test label="0721 0732 0720 0732 0710 071F 0742 0735 0710" rtl="True">
+      <comment>Rule 7</comment>
+      <string>\u0721\u0732\u0720\u0732\u0710\u071F\u0742\u0735\u0710</string>
+    </test>
+    <test label="0720 0710" rtl="True">
+      <comment>lamadh-syriac alaph-syriac waw-syriac</comment>
+      <string>\u0720\u0710\u0718 \u0720\u0735\u0710\u0718 \u0720\u0738\u0710\u0718 \u0720\u0735\u0738\u0710\u0718</string>
+    </test>
+    <test label="0720 0710" rtl="True">
+      <comment>lamadh-syriac alaph-syriac yudh-syriac</comment>
+      <string>\u0720\u0710\u071D \u0720\u0735\u0710\u071D \u0720\u0738\u0710\u071D \u0720\u0735\u0738\u0710\u071D</string>
+    </test>
+  </testgroup>
+
+<testgroup label="kaph, mim, nun alternates and finals">
+    <test label="U+071F" rtl="True">
+      <comment>RightJoinFinaAlt (cv_fina)</comment>
+      <string>\u00071F \u00071F\u00071F\u00071F \u0715\u071F \u071A\u0722\u0718\u073F\u071F\u0742</string>
+    </test>
+    <test label="U+071F" stylename="cv15_1" rtl="True">
+      <comment>KaphAlternate</comment>
+      <string>\u00071F \u00071F\u00071F\u00071F \u0715\u071F \u071A\u0722\u0718\u073F\u071F\u0742</string>
+    </test>
+    <test label="U+0721" rtl="True">
+      <comment>RightJoinFinaAlt (cv_fina)</comment>
+      <string>\u000721 \u000721\u000721\u000721 \u0715\u0721 \u0717\u0732\u0721\u0719\u0738\u0721</string>
+    </test>
+    <test label="U+0721" stylename="cv17_1" rtl="True">
+      <comment>MimAlternate</comment>
+      <string>\u000721 \u000721\u000721\u000721 \u0715\u0721 \u0717\u0732\u0721\u0719\u0738\u0721</string>
+    </test>
+    <test label="U+0722" rtl="True">
+      <comment>RightJoinFinaAlt (cv_fina)</comment>
+      <string>\u000722  \u000722\u000722\u000722 \u0715\u0722 \u0712\u071A\u0735\u072A\u0735\u0722</string>
+    </test>
+    <test label="U+0722" stylename="cv18_1" rtl="True">
+      <comment>NunAlternate</comment>
+      <string>\u000722 \u000722\u000722\u000722 \u0715\u0722 \u0712\u071A\u0735\u072A\u0735\u0722</string>
+    </test>
+  </testgroup>
+
+<testgroup label="Ligatures (documented on pages 19 &amp; 20 of Unicode proposal)">
+    <test label="U+0717 U+071D" rtl="True">
+      <comment></comment>
+      <string>\u0717\u071D \u0712\u0717\u071D \u0715\u0717\u0307\u071D\u073C\u0735</string>
+    </test>
+    <test label="U+0717 U+071D" stylename="cv38_1" rtl="True">
+      <comment>HeYudhLigature</comment>
+      <string>\u0717\u071D \u0712\u0717\u071D \u0715\u0717\u0307\u071D\u073C\u0735</string>
+    </test>
+    <test label="U+0728 U+0722" rtl="True">
+      <comment></comment>
+      <string>\u0728\u0722 \u0712\u0728\u0722 \u0721\u0732\u0720\u071d\u0738\u0728\u0738\u0722\u0735</string>
+    </test>
+    <test label="U+0728 U+0722" stylename="cv55_1" rtl="True">
+      <comment>SadheNunLigature</comment>
+      <string>\u0728\u0722 \u0729\u0728\u0722 \u0721\u0732\u0720\u071d\u0738\u0728\u0738\u0722\u0735</string>
+    </test>
+    <test label="U+072A U+0308" rtl="True">
+      <comment>SeyameChain (Seyame) (obligatory)</comment>
+      <string>\u072a \u072a\u0308 \u0712\u072A\u0308 \u072a \u072a\u0738\u0308 \u0712\u072A\u0738\u0308</string>
+    </test>
+    <test label="U+072C U+0710" rtl="True">
+      <comment>TawAlaph</comment>
+      <string>\u072C\u0710 \u0712\u072C\u0710 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738\u0723</string>
+    </test>
+    <test label="U+072C U+0710" stylename="cv59_1" rtl="True">
+      <comment>TawAlaphTriangleChain / TawAlaphLigatures</comment>
+      <string>\u072C\u0710 \u0712\u072C\u0710 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738\u0723</string>
+    </test>
+    <test label="U+072C U+0710" stylename="cv59_2" rtl="True">
+      <comment>TawAlaphTwinedChain / TawAlaphLigatures</comment>
+      <string>\u072C\u0710 \u0712\u072C\u0710 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738\u0723</string>
+    </test>
+    <test label="U+072C U+0710" stylename="ss18_1" rtl="True">
+      <comment>TawAlaphTriangleChain / TawAlaphTriangleLigatures</comment>
+      <string>\u072C\u0710 \u0712\u072C\u0710 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738\u0723</string>
+    </test>
+    <test label="U+072C U+0710" stylename="ss19_1" rtl="True">
+      <comment>TawAlaphTwinedChain / TawAlaphTwinedLigatures</comment>
+      <string>\u072C\u0710 \u0712\u072C\u0710 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738 \u071d\u0735\u0721\u0735\u072C\u0308\u0739\u0710\u0738\u0723</string>
+    </test>
+    <test label="U+072C U+071D" rtl="True">
+      <comment></comment>
+      <string>\u072C\u071D \u0712\u072C\u071D \u072C\u0732\u072a\u072C\u0739\u071D\u0735</string>
+    </test>
+    <test label="U+072C U+071D" stylename="cv60_1" rtl="True">
+      <comment>TawYudhLigature</comment>
+      <string>\u072C\u071D \u0712\u072C\u071D \u072C\u0732\u072a\u072C\u0739\u071D\u0735</string>
+    </test>
+</testgroup>
+
+<testgroup label="Kerning pairs / dalath, sadhe, nun">
+    <test label="U+0710 + U+0721">
+      <comment>alaph-syriac nun-syriac</comment>
+      <string>\u0710\u0743\u0722\u0743 \u0712\u0743\u0710\u0743\u0722\u0743</string>
+    </test>
+    <test label="U+0715, U+0716 + U+0721">
+      <comment>dalath-syriac, dotless-dalath nun-syriac</comment>
+      <string>\u0715\u0722 \u0712\u0715\u0722 \u0716\u0722 \u0712\u0716\u0722</string>
+    </test>
+    <test label="U+0718 U+0721">
+      <comment>waw-syriac nun-syriac</comment>
+      <string>\u0718\u0722 \u0712\u0718\u0722 </string>
+    </test>
+    <test label="U+0719 U+0721 (no)">
+      <comment>zain-syriac nun-syriac</comment>
+      <string>\u0719\u0722 \u0712\u0719\u0722 </string>
+    </test>
+    <test label="U+071E U+0721 (no)">
+      <comment>yudhe-he-syriac nun-syriac</comment>
+      <string>\u071E\u0722 \u0712\u071E\u0722 </string>
+    </test>
+    <test label="U+0728 U+0721">
+      <comment>sadhe-syriac nun-syriac</comment>
+      <string>\u0728\u0722 \u0712\u0728\u0722 </string>
+    </test>
+    <test label="U+072A U+0721">
+      <comment>rish-syriac nun-syriac</comment>
+      <string>\u072A\u0722 \u0712\u072A\u0722 </string>
+    </test>
+    <test label="U+072C U+0721">
+      <comment>taw-syriac nun-syriac</comment>
+      <string>\u072C\u0722 \u0712\u072C\u0722 </string>
+    </test>
+    <test label="U+072F U+0721">
+      <comment>persian-dalath-syriac nun-syriac</comment>
+      <string>\u072F\u0722 \u0712\u072F\u0722 </string>
+    </test>
+    <test label="U+074D U+0721">
+      <comment>sogdian-zhain-syriac nun-syriac</comment>
+      <string>\u074D\u0722 \u0712\u074D\u0722 </string>
+    </test>
+    <test label="U+0728 U+0713">
+      <comment>sadhe-syriac gamal-syriac</comment>
+      <string>\u0728\u0743\u0713\u0743 \u0712\u0743\u0728\u0743\u0713\u0743 \u0712\u0743\u0728\u0743\u0713\u0743\u0712 \u0728\u0743\u0714\u0743 \u0712\u0743\u0728\u0743\u0714\u0743 \u0712\u0743\u0728\u0743\u0714\u0743\u0712 </string>
+    </test>
+</testgroup>
+
+  <testgroup label="GPOS mark">
+     <test label="0712 032D" rtl="True">
+      <comment></comment>
+      <string>\u000712\u032d \u000712\u032d\u000712\u032d\u000712\u032d</string>
+    </test>
+  </testgroup>
+
+
+
+  <testgroup label="Design of yudh">
+    <test label="U+071D" rtl="True">
+      <comment>yudh-syriac</comment>
+      <string>\u00071D \u00071D\u00071D\u00071D </string>
+    </test>
+      <test label="071D 0711 (alaph 1+4)" rtl="True">
+      <comment></comment>
+      <string>\u071d\u0711</string>
+    </test>
+   <test label="U+071D" rtl="True">
+      <comment>yudh-syriac</comment>
+      <string>\u000715\u00071D\u00073c\u000720\u000739\u000717 \u0722\u071d\u0739\u0710 \u0726\u0735\u071d\u073c</string>
+    </test>
+     <test label="071D 071F" rtl="True">
+      <comment>init, medi, fina</comment>
+      <string>\u071D\u071F\u071D\u071F\u071D\u071F</string>
+    </test>
+     <test label="071D 0720" rtl="True">
+      <comment>init, medi, fina</comment>
+      <string>\u071D\u0720\u071D\u0720\u071D\u0720</string>
+    </test>
+  </testgroup>
+
+</ftml>
