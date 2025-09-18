@@ -25,10 +25,13 @@ body {
 }
 
 h1 {
-  font-family: IdiqlatR, sans-serif; text-align: left; font-size: 230%;
+  font-family: IdiqlatR, sans-serif; text-align: left; font-size: 230%; color: #1434A4;
 }
 h2 {
-  font-family: IdiqlatR, sans-serif; text-align: left;font-size: 220%;
+  font-family: IdiqlatR, sans-serif; text-align: left;font-size: 220%; color: #1434A4;
+}
+h3 {
+  font-family: IdiqlatR, sans-serif; text-align: left;font-size: 200%; color: #1434A4;
 }
 .rtl {
   font-family: IdiqlatR, sans-serif; font-size: 200%; direction: rtl; text-align: right;
@@ -38,39 +41,46 @@ h2 {
   font-family: IdiqlatL, sans-serif; font-size: 200%; direction: rtl; text-align: right;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }	
-.cv38 {
+.ss01 {
   font-family: IdiqlatR;
-  font-feature-settings: "cv38" 1;
-  -moz-font-feature-settings: "cv38" 1;
-  -webkit-font-feature-settings: "cv38" 1;
+  font-feature-settings: "ss01" 1;
+  -moz-font-feature-settings: "ss01" 1;
+  -webkit-font-feature-settings: "ss01" 1;
   font-size: 200%; direction: rtl; text-align: right;
 }
-.cv55 {
+.ss16 {
   font-family: IdiqlatR; 
-  font-feature-settings: "cv55" 1;
-  -moz-font-feature-settings: "cv55" 1;
-  -webkit-font-feature-settings: "cv55" 1;
+  font-feature-settings: "ss16" 1;
+  -moz-font-feature-settings: "ss16" 1;
+  -webkit-font-feature-settings: "ss16" 1;
   font-size: 200%; direction: rtl; text-align: right;
 }
-.cv591 {
+.ss17 {
   font-family: IdiqlatR; 
-  font-feature-settings: "cv59" 1;
-  -moz-font-feature-settings: "cv59" 1;
-  -webkit-font-feature-settings: "cv59" 1;
+  font-feature-settings: "ss17" 1;
+  -moz-font-feature-settings: "ss17" 1;
+  -webkit-font-feature-settings: "ss17" 1;
   font-size: 200%; direction: rtl; text-align: right;
 }
-.cv592 {
+.ss18 {
   font-family: IdiqlatR; 
-  font-feature-settings: "cv59" 2;
-  -moz-font-feature-settings: "cv59" 2;
-  -webkit-font-feature-settings: "cv59" 2;
+  font-feature-settings: "ss18" 1;
+  -moz-font-feature-settings: "ss18" 1;
+  -webkit-font-feature-settings: "ss18" 1;
   font-size: 200%; direction: rtl; text-align: right;
 }
-.cv60 {
+.ss19 {
   font-family: IdiqlatR; 
-  font-feature-settings: "cv60" 1;
-  -moz-font-feature-settings: "cv60" 1;
-  -webkit-font-feature-settings: "cv60" 1;
+  font-feature-settings: "ss19" 1;
+  -moz-font-feature-settings: "ss19" 1;
+  -webkit-font-feature-settings: "ss19" 1;
+  font-size: 200%; direction: rtl; text-align: right;
+}
+.ss20 {
+  font-family: IdiqlatR; 
+  font-feature-settings: "ss20" 1;
+  -moz-font-feature-settings: "ss20" 1;
+  -webkit-font-feature-settings: "ss20" 1;
   font-size: 200%; direction: rtl; text-align: right;
 }
 	
