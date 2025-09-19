@@ -212,6 +212,8 @@
   <string>_ogonek.glif</string>
   <key>_qaph</key>
   <string>_qaph.glif</string>
+  <key>_right_connector</key>
+  <string>_right_connector.glif</string>
   <key>_ringabv</key>
   <string>_ringabv.glif</string>
   <key>_ringabv.case</key>

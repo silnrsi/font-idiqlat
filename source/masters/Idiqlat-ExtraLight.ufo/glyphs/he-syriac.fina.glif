@@ -8,10 +8,20 @@
   <outline>
     <component base="he-syriac"/>
     <contour>
-      <point x="774" y="145" type="line"/>
-      <point x="777" y="0" type="line"/>
-      <point x="887" y="0" type="line"/>
-      <point x="887" y="145" type="line"/>
+      <point x="925" y="73" type="curve" smooth="yes"/>
+      <point x="925" y="118"/>
+      <point x="925" y="145"/>
+      <point x="867" y="145" type="curve" smooth="yes"/>
+      <point x="829" y="145" type="line" smooth="yes"/>
+      <point x="771" y="145"/>
+      <point x="771" y="118"/>
+      <point x="771" y="73" type="curve" smooth="yes"/>
+      <point x="771" y="28"/>
+      <point x="771" y="0"/>
+      <point x="829" y="0" type="curve" smooth="yes"/>
+      <point x="867" y="0" type="line" smooth="yes"/>
+      <point x="925" y="0"/>
+      <point x="925" y="28"/>
     </contour>
   </outline>
   <lib>

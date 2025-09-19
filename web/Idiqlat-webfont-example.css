@@ -11,13 +11,16 @@ of the license along with this Font Software. If this is not the case, go to
 /* use Idiqlat - Regular in .woff format */
 @font-face {
   font-family: IdiqlatR;
-  src: url(Idiqlat-Regular.woff2);
+  src: url(IdiqlatTestA-Regular.woff2);
 }
 @font-face {
   font-family: IdiqlatL;
-  src: url(Idiqlat-Light.woff2);
+  src: url(IdiqlatTestA-Light.woff2);
 }
-
+@font-face {
+  font-family: IdiqlatEL;
+  src: url(IdiqlatTestA-ExtraLight.woff2);
+}
 /* set body to use Idiqlat in .woff format */
 body {
   font-family: IdiqlatR, sans-serif; text-align: left;
@@ -41,6 +44,19 @@ h3 {
   font-family: IdiqlatL, sans-serif; font-size: 200%; direction: rtl; text-align: right;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }	
+
+.Reg {
+  font-family: IdiqlatR;
+  font-size: 100%; direction: rtl; text-align: right;
+}
+.ExtL {
+  font-family: IdiqlatEL;
+  font-size: 100%; direction: rtl; text-align: right;
+}
+.Lit {
+  font-family: IdiqlatL;
+  font-size: 100%; direction: rtl; text-align: right;
+}
 .ss01 {
   font-family: IdiqlatR;
   font-feature-settings: "ss01" 1;

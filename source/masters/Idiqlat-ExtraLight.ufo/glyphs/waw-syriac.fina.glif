@@ -7,14 +7,7 @@
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="waw-syriac"/>
-    <contour>
-      <point x="599" y="145" type="line"/>
-      <point x="599" y="65"/>
-      <point x="633" y="0"/>
-      <point x="718" y="0" type="curve" smooth="yes"/>
-      <point x="739" y="0" type="line"/>
-      <point x="739" y="145" type="line"/>
-    </contour>
+    <component base="_right_connector" xOffset="598"/>
   </outline>
   <lib>
     <dict>

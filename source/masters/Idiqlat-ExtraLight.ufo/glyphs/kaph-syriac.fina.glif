@@ -6,6 +6,7 @@
   <anchor x="408" y="-375" name="below"/>
   <anchor x="130" y="-375" name="belowleft"/>
   <outline>
+    <component base="_right_connector" xOffset="698"/>
     <contour>
       <point x="579" y="145" type="line"/>
       <point x="616" y="100" type="line"/>

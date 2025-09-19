@@ -33,9 +33,9 @@ commonParams=( \
 )
 
 echo "Rebuilding ftml files..."
-tools/psfgenftml.py -q -t 'AllChars (auto)'                      source/masters/Idiqlat-Regular.ufo  tests/AllChars-auto.ftml        -l tests/logs/AllChars.log         "${commonParams[@]}" -s 'url(../results/Idiqlat-ExtraLight.ttf)|ExLt' -s 'url(../results/Idiqlat-Light.ttf)|Lt' -s 'url(../results/Idiqlat-Regular.ttf)|Reg' &
-tools/psfgenftml.py -q -t 'Diac Short (auto)'                    source/masters/Idiqlat-Regular.ufo  tests/Diac-short-auto.ftml      -l tests/logs/DiacTest1-short.log  "${commonParams[@]}" -s 'url(../results/Idiqlat-ExtraLight.ttf)|ExLt' -s 'url(../results/Idiqlat-Light.ttf)|Lt' -s 'url(../results/Idiqlat-Regular.ttf)|Reg' &
-tools/psfgenftml.py -q -t 'Diac (auto)'                          source/masters/Idiqlat-Regular.ufo  tests/Diac-auto.ftml            -l tests/logs/DiacTest1.log        "${commonParams[@]}" -s 'url(../results/Idiqlat-ExtraLight.ttf)|ExLt' -s 'url(../results/Idiqlat-Light.ttf)|Lt' -s 'url(../results/Idiqlat-Regular.ttf)|Reg' & 
+tools/psfgenftml.py -q -t 'AllChars (auto)'                      source/masters/Idiqlat-Regular.ufo  tests/AllChars-auto.ftml        -l tests/logs/AllChars.log         "${commonParams[@]}" -s 'url(../results/IdiqlatTestA-ExtraLight.ttf)|ExLt' -s 'url(../results/IdiqlatTestA-Light.ttf)|Lt' -s 'url(../results/IdiqlatTestA-Regular.ttf)|Reg' &
+tools/psfgenftml.py -q -t 'Diac Short (auto)'                    source/masters/Idiqlat-Regular.ufo  tests/Diac-short-auto.ftml      -l tests/logs/DiacTest1-short.log  "${commonParams[@]}" -s 'url(../results/IdiqlatTestA-ExtraLight.ttf)|ExLt' -s 'url(../results/IdiqlatTestA-Light.ttf)|Lt' -s 'url(../results/IdiqlatTestA-Regular.ttf)|Reg' &
+tools/psfgenftml.py -q -t 'Diac (auto)'                          source/masters/Idiqlat-Regular.ufo  tests/Diac-auto.ftml            -l tests/logs/DiacTest1.log        "${commonParams[@]}" -s 'url(../results/IdiqlatTestA-ExtraLight.ttf)|ExLt' -s 'url(../results/IdiqlatTestA-Light.ttf)|Lt' -s 'url(../results/IdiqlatTestA-Regular.ttf)|Reg' & 
 
 
 wait

@@ -7,12 +7,7 @@
   <anchor x="81" y="-360" name="belowleft"/>
   <outline>
     <component base="alaph-syriac"/>
-    <contour>
-      <point x="536" y="195" type="line"/>
-      <point x="536" y="0" type="line"/>
-      <point x="632" y="0" type="line"/>
-      <point x="632" y="195" type="line"/>
-    </contour>
+    <component base="kashida-ar.quarter" xOffset="522"/>
     <contour>
       <point x="325" y="73" type="line"/>
       <point x="82" y="149" type="line"/>
