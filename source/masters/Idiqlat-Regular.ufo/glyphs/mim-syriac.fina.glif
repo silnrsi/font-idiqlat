@@ -7,12 +7,7 @@
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="mim-syriac.cv17"/>
-    <contour>
-      <point x="790" y="195" type="line"/>
-      <point x="793" y="0" type="line"/>
-      <point x="963" y="0" type="line"/>
-      <point x="963" y="195" type="line"/>
-    </contour>
+    <component base="kashida-ar.half" xOffset="763"/>
   </outline>
   <lib>
     <dict>

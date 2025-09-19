@@ -8,14 +8,7 @@
   <outline>
     <component base="_qaph" xOffset="252"/>
     <component base="_LeftTail" xOffset="-50"/>
-    <contour>
-      <point x="906" y="195" type="line"/>
-      <point x="906" y="65"/>
-      <point x="940" y="0"/>
-      <point x="1025" y="0" type="curve" smooth="yes"/>
-      <point x="1046" y="0" type="line"/>
-      <point x="1046" y="195" type="line"/>
-    </contour>
+    <component base="_right_connector" xOffset="1115"/>
   </outline>
   <lib>
     <dict>

@@ -6,8 +6,8 @@
   <anchor x="425" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
+    <component base="kashida-ar.quarter"/>
     <contour>
-      <point x="998" y="195"/>
       <point x="835" y="195" type="curve" smooth="yes"/>
       <point x="741" y="195"/>
       <point x="683" y="224"/>
@@ -34,11 +34,12 @@
       <point x="1018" y="357"/>
       <point x="1009" y="357" type="curve" smooth="yes"/>
       <point x="994" y="357"/>
+      <point x="998" y="195"/>
     </contour>
     <contour>
       <point x="589" y="195" type="curve"/>
-      <point x="-20" y="195" type="line"/>
-      <point x="-20" y="0" type="line"/>
+      <point x="0" y="195" type="line"/>
+      <point x="0" y="0" type="line"/>
       <point x="470" y="0" type="line" smooth="yes"/>
       <point x="555" y="0"/>
       <point x="589" y="65"/>

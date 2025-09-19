@@ -9,11 +9,27 @@
     <component base="_heth-init" xOffset="161"/>
     <contour>
       <point x="307" y="145" type="curve"/>
-      <point x="-20" y="145" type="line"/>
-      <point x="-20" y="0" type="line"/>
+      <point x="0" y="145" type="line"/>
+      <point x="0" y="0" type="line"/>
       <point x="188" y="0" type="line" smooth="yes"/>
       <point x="273" y="0"/>
       <point x="307" y="65"/>
+    </contour>
+    <contour>
+      <point x="96" y="73" type="curve" smooth="yes"/>
+      <point x="96" y="118"/>
+      <point x="96" y="145"/>
+      <point x="38" y="145" type="curve" smooth="yes"/>
+      <point x="0" y="145" type="line" smooth="yes"/>
+      <point x="-58" y="145"/>
+      <point x="-58" y="118"/>
+      <point x="-58" y="73" type="curve" smooth="yes"/>
+      <point x="-58" y="28"/>
+      <point x="-58" y="0"/>
+      <point x="0" y="0" type="curve" smooth="yes"/>
+      <point x="38" y="0" type="line" smooth="yes"/>
+      <point x="96" y="0"/>
+      <point x="96" y="28"/>
     </contour>
   </outline>
   <lib>

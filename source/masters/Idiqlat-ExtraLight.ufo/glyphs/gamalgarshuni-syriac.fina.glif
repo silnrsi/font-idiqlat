@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gamalgarshuni-syriac.fina" format="2">
-  <advance width="1137"/>
+  <advance width="1037"/>
   <anchor x="859" y="795" name="above"/>
   <anchor x="50" y="795" name="aboveleft"/>
   <anchor x="548" y="-150" name="below"/>

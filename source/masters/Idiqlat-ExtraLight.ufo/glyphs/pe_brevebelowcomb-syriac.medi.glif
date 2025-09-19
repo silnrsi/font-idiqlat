@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pe_brevebelowcomb-syriac.medi" format="2">
-  <advance width="889"/>
+  <advance width="839"/>
   <anchor x="465" y="990" name="above"/>
   <anchor x="50" y="990" name="aboveleft"/>
   <anchor x="439" y="-373" name="below"/>

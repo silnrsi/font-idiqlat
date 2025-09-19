@@ -7,12 +7,7 @@
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="shin-syriac"/>
-    <contour>
-      <point x="1111" y="0" type="line"/>
-      <point x="1111" y="145" type="line"/>
-      <point x="951" y="145" type="line"/>
-      <point x="951" y="0" type="line"/>
-    </contour>
+    <component base="kashida-ar.quarter" xOffset="1001"/>
   </outline>
   <lib>
     <dict>

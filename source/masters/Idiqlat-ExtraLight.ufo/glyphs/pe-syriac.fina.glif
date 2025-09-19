@@ -8,14 +8,7 @@
   <outline>
     <component base="pe-syriac.init" xOffset="226"/>
     <component base="_LeftTail" xOffset="-50"/>
-    <contour>
-      <point x="945" y="145" type="line"/>
-      <point x="945" y="65"/>
-      <point x="979" y="0"/>
-      <point x="1064" y="0" type="curve" smooth="yes"/>
-      <point x="1085" y="0" type="line"/>
-      <point x="1085" y="145" type="line"/>
-    </contour>
+    <component base="_right_connector" xOffset="944"/>
   </outline>
   <lib>
     <dict>
