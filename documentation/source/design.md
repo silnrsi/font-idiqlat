@@ -1,6 +1,6 @@
 ---
 title: Idiqlat - Design
-fontversion: 1.101
+fontversion: 1.106
 ---
 
 The Idiqlat font supports the East Syriac style of the Syriac script. The original font on which Idiqlat was based was an [OFL](https://openfontlicense.org/)-licensed typeface called **East Syriac Marcus**, designed as a revival of metal type. However, significant design changes have been made in order to modernize and opitimize the font for web and mobile use. The Latin letters were imported from Crimson Pro.
@@ -18,12 +18,12 @@ Type samples showing some of the inventory of glyphs can be found here:
 
 Examples of some text is shown below. 
 
-![Idiqlat Sample - Three weights](../assets/images/weights.png){.fullsize}
+![Idiqlat Sample - Three weights](../assets/images/three-weights.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/idiqlat/wp-content/uploads/sites/31/2023/04/weights.png -->
 <figcaption>Idiqlat Sample - Three weights</figcaption>
 
 ![Idiqlat Sample - Genesis 11](../assets/images/IdiqlatGen11.png){.fullsize}
-<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/harmattan/wp-content/uploads/sites/31/2020/06/HarmattanArabicGen11.png -->
+<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/idiqlat/wp-content/uploads/sites/31/2020/06/HarmattanArabicGen11.png -->
 <figcaption>Idiqlat Sample - Genesis 11</figcaption>
 
 ## Character Set

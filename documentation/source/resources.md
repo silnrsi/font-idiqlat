@@ -1,6 +1,6 @@
 ---
 title: Idiqlat - Resources
-fontversion: 1.101
+fontversion: 1.106
 ---
 
 ## Requirements

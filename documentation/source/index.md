@@ -1,11 +1,11 @@
 ---
 title: Idiqlat - Documentation
-fontversion: 1.101
+fontversion: 1.106
 ---
 
 Thank you for your interest in the Idiqlat fonts. This font family supports the East Syriac style of the Syriac script.  
 
-This documentation is a set of HTML pages that can be viewed in any modern web browser. PDF versions of these pages are also provided. This content, plus download links and a contact form, are available from the [Idiqlat site](https://software.sil.org/syrc/).
+This documentation is a set of HTML pages that can be viewed in any modern web browser. PDF versions of these pages are also provided. This content, plus download links and a contact form, are available from the [Idiqlat site](https://software.sil.org/idiqlat/).
 
 - [About](about.md) — Information about this project and SIL Global
 - [Resources](resources.md) — Help with installation and use

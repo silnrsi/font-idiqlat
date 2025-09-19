@@ -1,6 +1,6 @@
 ---
 title: Idiqlat - Frequently Asked Questions
-fontversion: 1.101
+fontversion: 1.106
 ---
 
 Many questions can be answered by consulting the following FAQ pages. Here are a few sample questions answered in each FAQ:
@@ -22,6 +22,6 @@ Here are a few of the most frequently asked questions specifically regarding Idi
 
 #### *How is this font different from East Syriac Marcus?*
 
-This font was based on the design of the Syriac characters in East Syriac Marcus. The outlines have been cleaned up or redrawn. The Latin characters were imported from Crimson Pro. The font has support for ligatures and diacritics that the East Syriac style requires. This font was updated to use a more modern build system so that it can be easily updated in the future. The font also includes other weights.
+This font was based on the design of the Syriac characters in East Syriac Marcus. The outlines have been cleaned up and modernized for web use. The Latin characters were imported from Crimson Pro. The font has support for ligatures and diacritics that the East Syriac style requires. This font was updated to use a more modern build system so that it can be easily updated in the future. The font also includes other weights.
 
 

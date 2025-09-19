@@ -18,14 +18,22 @@ getufoinfo('source/masters/' + FAMILY + '-Regular' + '.ufo')
 # Set up the FTML tests
 ftmlTest('tools/ftml-smith.xsl')
 
+opts = preprocess_args({'opt': '--autohint'}, {'opt': '--norename'}, {'opt': '--quick'}, {'opt': '--regOnly'})
+
 # APs to omit:
-omitaps = '--omitaps "L,O,R"'
+omitaps = '--omitaps "L,O,R, center"'
+
+cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx']) ]
+if '--norename' not in opts:
+    cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']))
+if '--autohint' in opts:
+    # Note: in some fonts ttfautohint-generated hints don't maintain stroke thickness at joins; test thoroughly
+    cmds.append(cmd('${TTFAUTOHINT} -n -c  -W ${DEP} ${TGT}'))
+else:
+    cmds.append(cmd('gftools fix-nonhinting --no-backup -q ${DEP} ${TGT}'))
 
 designspace('source/IdiqlatTestA.designspace',
-    target = process('${DS:FILENAME_BASE}.ttf',
-        cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
-        cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']),
-    ),
+    target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     params = '--decomposeComponents --removeOverlaps -c ^_',
     version=VERSION,  # Needed to ensure dev information on version string
     opentype = fea("generated/${DS:FILENAME_BASE}.fea", 

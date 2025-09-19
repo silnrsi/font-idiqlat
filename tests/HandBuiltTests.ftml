@@ -4,9 +4,9 @@
   <head>
     <fontscale>300</fontscale>
     <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-    <fontsrc label="ExLt">url(../results/Idiqlat-ExtraLight.ttf)</fontsrc>
-    <fontsrc label="Lt">url(../results/Idiqlat-Light.ttf)</fontsrc>
-    <fontsrc label="Reg">url(../results/Idiqlat-Regular.ttf)</fontsrc>
+    <fontsrc label="ExLt">url(../results/IdiqlatTestA-ExtraLight.ttf)</fontsrc>
+    <fontsrc label="Lt">url(../results/IdiqlatTestA-Light.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/IdiqlatTestA-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'ss01' 1" name="ss01_1"/>
       <style feats="'ss18' 1" name="ss18_1"/>
@@ -284,7 +284,27 @@
     </test>
 </testgroup>
 
-  <testgroup label="GPOS mark">
+  <testgroup label="GPOS marks">
+     <test label="0722 0735 072C 0735 0710 0732" rtl="True">
+      <comment></comment>
+      <string>\u0722\u0735\u072C\u0735\u0710\u0732</string>
+    </test>
+     <test label="0726 0735 072C 0735 0710 0732" rtl="True">
+      <comment></comment>
+      <string>\u0726\u0735\u072C\u0735\u0710\u0732</string>
+    </test>
+     <test label="0710 0735 072C 0735 0710 0735" rtl="True">
+      <comment></comment>
+      <string>\u0710\u0735\u072C\u0735\u0710\u0735 </string>
+    </test>
+     <test label="0710 0735 072C 0735 0710 0732" rtl="True">
+      <comment></comment>
+      <string>\u0710\u0735\u072C\u0735\u0710\u0732 </string>
+    </test>
+     <test label="0710 0735 072C 0735 0710 0738/0739" rtl="True">
+      <comment></comment>
+      <string>\u0710\u0735\u072C\u0735\u0710\u0738 \u0710\u0735\u072C\u0735\u0710\u0739</string>
+    </test>
      <test label="0712 032D" rtl="True">
       <comment></comment>
       <string>\u000712\u032d \u000712\u032d\u000712\u032d\u000712\u032d</string>
@@ -314,6 +334,45 @@
       <comment>init, medi, fina</comment>
       <string>\u071D\u0720\u071D\u0720\u071D\u0720</string>
     </test>
+  </testgroup>
+
+  <testgroup label="Size of dots">
+    <test label="U+072A U+0738 U+0308" rtl="True">
+      <comment>1. rish+seyame</comment>
+      <string>&#x072A;&#x0738;&#x0308;</string>
+   </test>
+    <test label="U+0715 U+072A" rtl="True">
+      <comment>2. dalath, rish</comment>
+      <string>&#x0715; &#x072a;</string>
+   </test>
+    <test label="U+0715 U+0739 U+0308" rtl="True">
+      <comment>3. dalath+dotted zlama angular+dieresis</comment>
+      <string>&#x0715;&#x0739;&#x0308;</string>
+   </test>
+    <test label="U+0308" rtl="True">
+      <comment>4. dieresis not on dalath</comment>
+      <string>ܫܸܒܸܬ̈ܝܵܬܹܐ ܣܸܩ̈ܠܹܐ  ܒܨܸܨ̈ܠܹܐ ܕܟܸܫܡܝܼܫܹ̈ܐ</string>
+   </test>
+    <test label="U+0324" rtl="True">
+      <comment>5. no examples</comment>
+      <string>&#x0712;&#x0324;</string>
+   </test>
+   <test label="U+0721 U+0307" rtl="True">
+      <comment>6. mim dot above</comment>
+      <string>&#x0721;&#x0307;&#x0722;</string>
+   </test>
+   <test label="U+0721 U+0323" rtl="True">
+      <comment>7. mim dot below</comment>
+      <string>ܡ̣ܢ</string>
+   </test>
+   <test label="U+0712 U+0742 U+0308" rtl="True">
+      <comment>8. beth rukkakha (sq) dieresis above</comment>
+      <string>\u0712\u0742\u0308</string>
+   </test>
+   <test label="U+071F U+0742" rtl="True">
+      <comment>9. kaph rukkakha (not sq)</comment>
+      <string>ܐܲܝܟ݂</string>
+   </test>
   </testgroup>
 
 </ftml>

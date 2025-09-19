@@ -4,9 +4,9 @@
   <head>
     <fontscale>400</fontscale>
     <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-    <fontsrc label="ExLt">url(../results/Idiqlat-ExtraLight.ttf)</fontsrc>
-    <fontsrc label="Lt">url(../results/Idiqlat-Light.ttf)</fontsrc>
-    <fontsrc label="Reg">url(../results/Idiqlat-Regular.ttf)</fontsrc>
+    <fontsrc label="ExLt">url(../results/IdiqlatTestA-ExtraLight.ttf)</fontsrc>
+    <fontsrc label="Lt">url(../results/IdiqlatTestA-Light.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/IdiqlatTestA-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'ss01' 1" name="ss01_1"/>
       <style feats="'ss18' 1" name="ss18_1"/>

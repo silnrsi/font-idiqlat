@@ -1,6 +1,6 @@
 ---
 title: Idiqlat - About
-fontversion: 1.101
+fontversion: 1.106
 ---
 
 ## About this project
@@ -20,7 +20,7 @@ The highest priorities for future additions and enhancements are mainly driven b
 - New additions to [The Unicode Standard](https://unicode.org/)
 - Requests from language communities using the fonts
 
-Please send us your requests using the [form on the font website](https://software.sil.org/syrc/about/contact/). If you are interested in helping us make the fonts better see the [Developer](developer.md) page.
+Please send us your requests using the [form on the font website](https://software.sil.org/idiqlat/about/contact/). If you are interested in helping us make the fonts better see the [Developer](developer.md) page.
 
 ## Announcement list
 
@@ -32,8 +32,6 @@ You can subscribe using either of the two following options.
 
 - If you would rather not use a Google profile, you can subscribe any email address by sending a message to [sil-font-news+subscribe@groups.sil.org](mailto:sil-font-news+subscribe@groups.sil.org) and following the instructions you get in the confirmation message.
 
-Our font announcements are also available through X (formerly Twitter) [\@silfonts](https://x.com/silfonts).
-
 ## Supporting the project
 
 These fonts are provided at no cost; however, they are expensive to produce and maintain. Please consider donating to SIL’s font development efforts to support future development. Go to [SIL’s Give Direct page](https://give.sil.org/give/485238). **Thank you!** 
@@ -42,7 +40,7 @@ These fonts are provided at no cost; however, they are expensive to produce and 
 
 [SIL Global](https://www.sil.org/) is a global, faith-based nonprofit that works with local communities around the world to develop language solutions that expand possibilities for a better life. 
 
-We are involved in approximately 1,350 active language projects in 104 countries. These projects impact more than 1.1 billion people within 1,600 local communities. SIL’s work brings together more than 4,300 staff from 89 countries who work alongside thousands more local partners and community volunteers worldwide. Our services are available without regard to religious belief, political ideology, gender, race or ethnic background.
+As of 2024, we are involved in approximately 1,530 active language projects in 107 countries. These projects impact more than 950+ million people. SIL’s work brings together more than 4,373 staff from 86 countries who work alongside thousands more local partners and community volunteers worldwide. Our services are available without regard to religious belief, political ideology, gender, race or ethnic background.
 
 Our Vision: We long to see people flourishing in community using the languages they value most. 
 
