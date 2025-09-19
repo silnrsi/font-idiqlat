@@ -188,6 +188,9 @@ lookup RukkakhaSquare {
 
 # HB PAUSE
 
+# HB PAUSE
+
+
 # Added this because we need a ligature before doing character variant
 # Used in East Syriac and Estrangela
 lookup TawAlaph { # 072C 0710 
@@ -366,7 +369,7 @@ lookup TawYudhLigature {
 } TawYudhLigature ;
 
 
-lookup TawAlaphTriangleChain { # needed for ss19
+lookup TawAlaphTriangleChain { # needed for ss18
 # GSUB lookup 19, type 11 (Single)
   lookupflag 0;
   ifinfo(familyName, "Idiqlat|Ramsina") {
@@ -439,7 +442,6 @@ feature rtlm {  # Right-To-Left Mirrored Forms
 feature ccmp {  # Glyph Composition/Decomposition
     # Same for latin & syriac:
         lookup FontCheck;
-#        lookup LatinPunctuation;
     script syrc;
         lookup DecomposePthahadotted;
         lookup SeyameChain;
@@ -447,6 +449,10 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup AlaphLigs;
         lookup RukkakhaSquare;
 } ccmp ;
+
+# HB PAUSE
+
+#---  stch feature (pass 2b) ---
 
 # HB PAUSE
 
@@ -799,6 +805,8 @@ feature cv60 {  # Character Variant 60
 }  #end do - Idiqlat|Ramsina
 
 #---  aalt feature (pass 10) ---
+do let f = info("familyName");
+   if f.find("Ramsina") != -1; {
 
 feature aalt {
 # automatic
@@ -820,4 +828,4 @@ feature ss19; # Idiqlat|Ramsina
 feature ss20; # Idiqlat|Ramsina
 feature calt;
 } aalt;
-
+   }

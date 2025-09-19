@@ -13,7 +13,7 @@ psfnormalize -p checkfix=fix source/masters/Idiqlat-ExtraLight.ufo       &
 wait
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters -q source/Idiqlat.designspace 
+psfsyncmasters -q source/IdiqlatTestA.designspace 
 
 echo "Updating woff metadata files..."
 psfmakewoffmetadata -q -n  Idiqlat        -i org.sil.fonts source/masters/*-Regular.ufo  -o "source/Idiqlat-WOFF-metadata.xml"

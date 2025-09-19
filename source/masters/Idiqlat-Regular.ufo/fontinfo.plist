@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Idiqlat</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/08/25 12:05:36</string>
+  <string>2025/09/18 14:25:22</string>
   <key>openTypeHheaAscender</key>
   <integer>1560</integer>
   <key>openTypeHheaDescender</key>
@@ -83,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL Global: Idiqlat Regular: 2025</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.105</string>
+  <string>Version 1.106</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -110,7 +110,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2SuperscriptXSize</key>
   <integer>1434</integer>
   <key>openTypeOS2SuperscriptYOffset</key>
-  <integer>928</integer>
+  <integer>279</integer>
   <key>openTypeOS2SuperscriptYSize</key>
   <integer>1331</integer>
   <key>openTypeOS2Type</key>
@@ -177,7 +177,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>105</integer>
+  <integer>106</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>

@@ -21,15 +21,19 @@ ftmlTest('tools/ftml-smith.xsl')
 # APs to omit:
 omitaps = '--omitaps "L,O,R"'
 
-designspace('source/Idiqlat.designspace',
+designspace('source/IdiqlatTestA.designspace',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
         cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']),
     ),
+    params = '--decomposeComponents --removeOverlaps -c ^_',
     version=VERSION,  # Needed to ensure dev information on version string
     opentype = fea("generated/${DS:FILENAME_BASE}.fea", 
         mapfile = genout + "${DS:FILENAME_BASE}.map",
-        master="source/opentype/main.feax", to_ufo = 'True'),
+        master="source/opentype/main.feax", to_ufo = 'True',
+        make_params = '--ignoreglyphs ' + omitaps,
+        depends = ['source/opentype/gsub.feax', 'source/opentype/gpos.feax'],
+        ),
 #    typetuner = typetuner("source/typetuner/feat_all.xml"),
     script='syrc',
     pdf = fret(params='-oi'),
@@ -37,3 +41,7 @@ designspace('source/Idiqlat.designspace',
         metadata=f'../source/{FAMILY}-WOFF-metadata.xml',
         ),
     )
+
+def configure(ctx):
+    ctx.find_program('ttfautohint')
+ 
