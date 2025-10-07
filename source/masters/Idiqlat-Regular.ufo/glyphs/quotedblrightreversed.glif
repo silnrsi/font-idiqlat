@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblrightreversed" format="2">
-  <advance width="781"/>
+  <advance width="779"/>
   <unicode hex="201F"/>
   <outline>
-    <component base="quotedblleft"/>
+    <component base="quotedblleft" yScale="-1" yOffset="1767"/>
   </outline>
   <lib>
     <dict>
@@ -12,7 +12,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>quoteleft</string>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.392,0.392,0.392,0</string>
     </dict>
   </lib>
 </glyph>
