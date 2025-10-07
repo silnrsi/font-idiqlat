@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hbasaEsasadotted-syriac" format="2">
   <unicode hex="073C"/>
-  <anchor x="80" y="-30" name="_below"/>
+  <anchor x="80" y="-66" name="_below"/>
   <anchor x="80" y="-315" name="below"/>
   <outline>
     <component base="rwaha-syriac" xOffset="-11" yOffset="-248"/>

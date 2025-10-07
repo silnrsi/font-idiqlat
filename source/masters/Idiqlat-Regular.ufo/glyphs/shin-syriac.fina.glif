@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shin-syriac.fina" format="2">
-  <advance width="1091"/>
+  <advance width="1031"/>
   <anchor x="640" y="780" name="above"/>
   <anchor x="50" y="780" name="aboveleft"/>
   <anchor x="735" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="shin-syriac"/>
-    <component base="kashida-ar.quarter" xOffset="1001"/>
+    <component base="kashida-ar.quarter" xOffset="941"/>
   </outline>
   <lib>
     <dict>

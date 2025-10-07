@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rukkakha-syriac" format="2">
   <unicode hex="0742"/>
-  <anchor x="75" y="-15" name="_below"/>
+  <anchor x="75" y="-51" name="_below"/>
   <anchor x="75" y="-330" name="below"/>
   <outline>
     <component base="rwaha-syriac" xOffset="-11" yOffset="-236"/>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yudh-syriac.init" format="2">
-  <advance width="645"/>
-  <anchor x="340" y="460" name="above"/>
+  <advance width="565"/>
+  <anchor x="260" y="460" name="above"/>
   <anchor x="50" y="460" name="aboveleft"/>
-  <anchor x="420" y="-150" name="below"/>
+  <anchor x="340" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
-    <component base="_heth-init" xOffset="161"/>
+    <component base="_heth-init" xOffset="81"/>
     <contour>
-      <point x="307" y="145" type="curve"/>
+      <point x="226" y="145" type="curve"/>
       <point x="0" y="145" type="line"/>
       <point x="0" y="0" type="line"/>
-      <point x="188" y="0" type="line" smooth="yes"/>
-      <point x="273" y="0"/>
-      <point x="307" y="65"/>
+      <point x="107" y="0" type="line" smooth="yes"/>
+      <point x="192" y="0"/>
+      <point x="226" y="65"/>
     </contour>
     <contour>
       <point x="96" y="73" type="curve" smooth="yes"/>
