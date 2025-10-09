@@ -11,6 +11,6 @@
 #**********************************
 
 include(../../source/opentype/classes.txt);
-# include(../../source/opentype/gdef.feax);
+include(../../source/opentype/gdef.feax);
 include(../../source/opentype/gsub.feax);
 include(../../source/opentype/gpos.feax);

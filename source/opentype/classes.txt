@@ -56,8 +56,8 @@
 # was called AllXnXl (doublechecked)
 # @AllIsolInit = [@AllIsol @DualLinkInit];
 
-# is this used?
-# @AllBase = [@DualJoining @RightJoining];
+# used in GDEF
+@AllBase = [@DualJoining @RightJoining];
 
 #**********************************
 #  Marks - removed glyphs no longer in font

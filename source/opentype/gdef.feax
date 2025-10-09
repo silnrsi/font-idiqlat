@@ -11,5 +11,19 @@
 
 table GDEF {
   GlyphClassDef @AllBase, , @AllCombining, ;
+    LigatureCaretByPos he_yudh-syriac 400;
+    LigatureCaretByPos he_yudh-syriac.fina 400;
+    LigatureCaretByPos sadhe_nun-syriac.fina 470;
+    LigatureCaretByPos sadhe_nun-syriac 470;
+    LigatureCaretByPos taw_alaph-syriac 650;
+    LigatureCaretByPos taw_alaph-syriac.fina 650;
+    LigatureCaretByPos taw_alaph-syriac.triangle 460;
+    LigatureCaretByPos taw_alaph-syriac.fina.triangle 460;
+    LigatureCaretByPos taw_alaph-syriac.twined 710;
+    LigatureCaretByPos taw_alaph-syriac.fina.twined 710;
+    LigatureCaretByPos taw_yudh-syriac 650;
+    LigatureCaretByPos taw_yudh-syriac.fina 650;
+    LigatureCaretByPos lamadh_alaph-syriac 600;
+    LigatureCaretByPos lamadh_alaph-syriac.fina 600;
 } GDEF;
 
