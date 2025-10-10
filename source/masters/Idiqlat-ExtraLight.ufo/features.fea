@@ -757,6 +757,8 @@ table GDEF {
 languagesystem DFLT dflt;
 languagesystem syrc dflt;
 # Syriac default
+languagesystem syrc SYR;
+# Eastern Syriac
 languagesystem syrc SYRN;
 # Eastern Syriac
 languagesystem latn dflt;
@@ -804,8 +806,16 @@ lookup FontCheck {
     
 
 #end do - Ramsina
-# HB PAUSE
-#---  fina feature  ---
+# Replace Syriac punctuation glyphs with Latin ones:
+    #    sub @Punct by @Punct_latn ;
+    #end do - Idiqlat
+    # HB PAUSE
+    #---  fina feature  ---
+    lookup LatinPunctuation {
+        lookupflag 0;
+    } LatinPunctuation;
+
+
 lookup ltrFina {
     lookupflag IgnoreMarks;
     sub @DualLinkIsol by @DualLinkFina;
@@ -1127,6 +1137,8 @@ feature ccmp {
     # Glyph Composition/Decomposition
     # Same for latin & syriac:
     lookup FontCheck;
+    script latn;
+    lookup LatinPunctuation;
     script syrc;
     lookup DecomposePthahadotted;
     lookup SeyameChain;
@@ -1245,11 +1257,7 @@ feature liga {
             name "He Yudh ligature";
         };
 
-        lookup ss16_lkp {
-            lookupflag RightToLeft;
-            lookup HeYudhLigature;
-        } ss16_lkp;
-
+        lookup HeYudhLigature;
     } ss16;
 
         feature ss17 {
@@ -1257,11 +1265,7 @@ feature liga {
             name "Sadhe Nun ligature";
         };
 
-        lookup ss17_lkp {
-            lookupflag RightToLeft;
-            lookup SadheNunLigature;
-        } ss17_lkp;
-
+        lookup SadheNunLigature;
     } ss17;
 
         feature ss18 {
@@ -1269,11 +1273,7 @@ feature liga {
             name "Taw Alaph triangle ligature";
         };
 
-        lookup ss18_lkp {
-            lookupflag RightToLeft;
-            lookup TawAlaphTriangleLigatures;
-        } ss18_lkp;
-
+        lookup TawAlaphTriangleLigatures;
     } ss18;
 
         feature ss19 {
@@ -1281,11 +1281,7 @@ feature liga {
             name "Taw Alaph twined ligature";
         };
 
-        lookup ss19_lkp {
-            lookupflag RightToLeft;
-            lookup TawAlaphTwinedLigatures;
-        } ss19_lkp;
-
+        lookup TawAlaphTwinedLigatures;
     } ss19;
 
         feature ss20 {
@@ -1293,11 +1289,7 @@ feature liga {
             name "Taw Yudh ligature";
         };
 
-        lookup ss20_lkp {
-            lookupflag RightToLeft;
-            lookup TawYudhLigature;
-        } ss20_lkp;
-
+        lookup TawYudhLigature;
     } ss20;
 
 
@@ -1330,27 +1322,24 @@ feature cv02 {
     # Character Variant 15
     # English US
     # English US
+    # English US
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-    # Syriac
-    # Force other languages to include Syriac script lookups:
+    # English US
     # Character Variant 17
     # English US
     # English US
-    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-    # Syriac
-    # Force other languages to include Syriac script lookups:
+    # English US
+    # English US
     # Character Variant 18
     # English US
     # English US
-    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-    # Syriac
-    # Force other languages to include Syriac script lookups:
+    # English US
+    # English US
     # Character Variant 38
     # English US
     # English US
-    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-    # Syriac
-    # Force other languages to include Syriac script lookups:
+    # English US
+    # English US
     #end do - Idiqlat|Ramsina
         feature cv15 {
                 cvParameters {
@@ -1372,9 +1361,7 @@ feature cv02 {
 
         };
 
-        script syrc;
         lookup KaphAlternate;
-        language SYRN;
     } cv15;
 
         feature cv17 {
@@ -1397,9 +1384,7 @@ feature cv02 {
 
         };
 
-        script syrc;
         lookup MimAlternate;
-        language SYRN;
     } cv17;
 
         feature cv18 {
@@ -1422,9 +1407,7 @@ feature cv02 {
 
         };
 
-        script syrc;
         lookup NunAlternate;
-        language SYRN;
     } cv18;
 
         feature cv38 {
@@ -1447,9 +1430,7 @@ feature cv02 {
 
         };
 
-        script syrc;
         lookup HeYudhLigature;
-        language SYRN;
     } cv38;
 
 
@@ -1458,6 +1439,7 @@ feature cv55 {
         cvParameters {
                 FeatUILabelNameID {
             name "Sadhe Nun";
+            # English US
         };
 
                 FeatUITooltipTextNameID {
@@ -1470,24 +1452,22 @@ feature cv55 {
             # English US
         };
 
-        ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
                 ParamUILabelNameID {
             name "Ligature";
+            # English US
         };
 
     };
 
-    script syrc;
-    # Syriac
     lookup SadheNunLigature;
 } cv55;
 
     # Character Variant 59
     # English US
     # English US
-    ### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
-    # Syriac
-    # Force other languages to include Syriac script lookups:
+    # English US
+    # English US
+    # English US
     #end do - Idiqlat|Ramsina
         feature cv59 {
                 cvParameters {
@@ -1513,18 +1493,15 @@ feature cv55 {
 
         };
 
-        script syrc;
         lookup TawAlaphLigatures;
-        language SYRN;
     } cv59;
 
 
     # Character Variant 60
     # English US
     # English US
-    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-    # Syriac
-    # Force other languages to include Syriac script lookups:
+    # English US
+    # English US
     #end do - Idiqlat|Ramsina
     #---  aalt feature (pass 10) ---
         feature cv60 {
@@ -1547,29 +1524,45 @@ feature cv55 {
 
         };
 
-        script syrc;
         lookup TawYudhLigature;
-        language SYRN;
     } cv60;
 
 
-    
+feature aalt {
+    feature ccmp;
+    feature dlig;
+    # Idiqlat|Ramsina
+    feature cv02;
+    # Idiqlat|Ramsina
+    feature cv15;
+    # Idiqlat|Ramsina
+    feature cv17;
+    # Idiqlat|Ramsina
+    feature cv18;
+    # Idiqlat|Ramsina
+    feature cv38;
+    # Idiqlat|Ramsina
+    feature cv55;
+    # Idiqlat|Ramsina
+    feature cv59;
+    # Idiqlat|Ramsina
+    feature cv60;
+    # Idiqlat|Ramsina
+    feature ss01;
+    # Idiqlat|Ramsina
+    feature ss16;
+    # Idiqlat|Ramsina
+    feature ss17;
+    # Idiqlat|Ramsina
+    feature ss18;
+    # Idiqlat|Ramsina
+    feature ss19;
+    # Idiqlat|Ramsina
+    feature ss20;
+    # Idiqlat|Ramsina
+    feature calt;
+} aalt;
 
-# automatic
-# Idiqlat|Ramsina
-# Idiqlat|Ramsina
-# Idiqlat|Ramsina
-# Idiqlat|Ramsina
-# Idiqlat|Ramsina
-# Idiqlat|Ramsina
-# Idiqlat|Ramsina
-# Idiqlat|Ramsina
-# Idiqlat|Ramsina
-# Idiqlat|Ramsina
-# Idiqlat|Ramsina
-# Idiqlat|Ramsina
-# Idiqlat|Ramsina
-# Idiqlat|Ramsina
 #**********************************
 #
 # Copyright (c) 1994-2025 SIL Global  (https://www.sil.org)
