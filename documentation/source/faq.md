@@ -24,6 +24,8 @@ Here are a few of the most frequently asked questions specifically regarding Idi
 
 This font was initially based on the design of the Syriac characters in East Syriac Marcus. However, significant design changes have been made in order to modernize and opitimize the font for web and mobile use. The Latin characters were imported from Crimson Pro. The font has support for ligatures and diacritics that the East Syriac style requires. This font was updated to use a more modern build system so that it can be easily updated in the future. The font also includes other weights.
 
+In addition, the design of two characters, U+0738 and U+0739, have been switched to follow the Unicode Standard design. U+0740 has been reverted to the single dot, and U+0324 was added to support the double dot below.
+
 #### *Why does the Bold weight look so fuzzy?*
 
 Because Idiqlat is already quite heavy, it does not come with a Bold weight. If you tried to turn on Bold using the application’s UI controls such as a “B” button you will get what is called “fake” Bold. This will not look good. It would be better to choose a lighter weight, to use underlining, or to choose another font in order to show emphasis.

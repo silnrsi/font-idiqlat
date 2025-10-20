@@ -489,7 +489,7 @@ markClass zqaphadotted-syriac <anchor 210 65> @_above;
 
 # AP: _below
 markClass brevebelowcomb <anchor 287 -95> @_below;
-markClass circumflexbelowcomb <anchor 0 -40> @_below;
+markClass circumflexbelowcomb <anchor 0 -94> @_below;
 markClass dieresisbelowcomb <anchor 250 -30> @_below;
 markClass dotbelowcomb <anchor 145 -30> @_below;
 markClass [esasabelow-syriac rbasabelow-syriac] <anchor 195 0> @_below;
@@ -629,12 +629,16 @@ markClass pthahadotted-syriac <anchor 430 508> @_center;
 #  Right joining - Next two should match
 #**********************************
 # was called @RightJoiningXn
+# does not include alaph-syriac as it is handled differently
 @RightLinkIsol = [dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac dhalathPersian-syriac zhainSogdian-syriac];
 # was called @RightJoiningXr
+# does not include alaph-syriac.fina as it is handled differently
 @RightLinkFina = [dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina dhalathPersian-syriac.fina zhainSogdian-syriac.fina];
 @AlaphIsol = [alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3];
 @AlaphFina = [alaph-syriac.med2 alaph-syriac.fina];
 @RightJoining = [@RightLinkIsol @RightLinkFina @AlaphIsol @AlaphFina taw_alaph-syriac taw_alaph-syriac.fina];
+# used in GDEF
+@AllBase = [@DualJoining @RightJoining];
 #**********************************
 #  These aren't used
 #**********************************
@@ -642,8 +646,6 @@ markClass pthahadotted-syriac <anchor 430 508> @_center;
 # @AllIsol = [@DualLinkIsol @RightLinkIsol];
 # was called AllXnXl (doublechecked)
 # @AllIsolInit = [@AllIsol @DualLinkInit];
-# used in GDEF
-@AllBase = [@DualJoining @RightJoining];
 #**********************************
 #  Marks - removed glyphs no longer in font
 #          fathatan-ar dammatan-ar fatha-ar damma-ar sukun-ar madda-ar hamzaabove-ar alefbelow-ar
@@ -653,7 +655,7 @@ markClass pthahadotted-syriac <anchor 430 508> @_center;
 @MarkAboveNoChain = [ringcomb qushshaya-syriac];
 @MarkBelowCanChain = [dotbelowcomb dieresisbelowcomb circumflexbelowcomb brevebelowcomb tildebelowcomb macronbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac];
 @MarkBelowNoChain = [ringbelowcomb rukkakha-syriac rukkakha-syriac.square];
-@AllCombining = [tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac music2-syriac music3-syriac barrekh-syriac dotaboveleftcomb dotbelowleftcomb circumflexbelowcomb rukkakha-syriac.square minusbelowcomb pthahadotted-syriac graphemejoinercomb];
+@AllCombining = [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac music2-syriac music3-syriac barrekh-syriac dotaboveleftcomb dotbelowleftcomb circumflexbelowcomb rukkakha-syriac.square minusbelowcomb pthahadotted-syriac graphemejoinercomb];
 # was called @TakeSquareDot
 # Added gamalgarshuni-syriac kaph and pe be added to this group?
 # dalath, kaph, and pe are not in the group (intentionally?)
@@ -918,19 +920,14 @@ lookup TawAlaph {
 } TawAlaph;
 
 # HB PAUSE
-# alaph-syriac - no tail- isolate (glyph 1)
-# alaph-syriac.med2 - no tail medial (glyph 1) used before another character
-# alaph-syriac.fin3 - no tail final (glyph 1) used word final
-# alaph-syriac.fina - tail final (glyph 2) used word final when connected dual joining character
-# alaph-syriac.fin2 - tail final (glyph 2) used word final when following right joining character
-# alaph-syriac.ccmp - comma shape (glyph 3) only used following lamadh in isolate or final position
 # =======================
 # Rule 1
-# alaph-syriac is isolate with no tail
-# alaph-syriac.med2 is final with no tail
-# alaph-syriac.fin2 is isolate with tail
-# alaph-syriac.fina is final with tail
-# alaph-syriac.fin3 is final with no tail
+# This just helps remember what the forms of alaph are:
+#      alaph-syriac is isolate with no tail
+#      alaph-syriac.med2 is final with no tail
+#      alaph-syriac.fin2 is isolate with tail
+#      alaph-syriac.fina is final with tail
+#      alaph-syriac.fin3 is final with no tail
 lookup ltrFinaSerOlaph {
     # use when the preceding base character cannot be joined to, and that preceding base character is not a 'Dalath', 'Rish', or dotless 'Dalath-Rish'
     lookupflag IgnoreMarks;
@@ -972,7 +969,9 @@ lookup ltrFinaESyOlaph {
 
     
 
+# Estrangela
 # GSUB lookup 3, 
+#end do - Khabur
 lookup AlaphChain {
     # GSUB lookup 19, type 11 (Single)
     lookupflag 0;

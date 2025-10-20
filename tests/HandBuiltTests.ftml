@@ -375,4 +375,15 @@
    </test>
   </testgroup>
 
+  <testgroup label="Quotation marks">
+    <test rtl="True">
+      <comment>tall</comment>
+      <string>”ܠܵܐ  ܐܸܠܵܘܟ݂ܘܿܢ.“</string>
+   </test>
+    <test rtl="True">
+      <comment>short</comment>
+      <string>”ܗܵܘܹܐ ܒܲܗܪܵܐ،“</string>
+   </test>
+  </testgroup>
+
 </ftml>

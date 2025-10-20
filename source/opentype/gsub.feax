@@ -214,21 +214,14 @@ lookup TawAlaph { # 072C 0710
 
 # HB PAUSE
 
-# alaph-syriac - no tail- isolate (glyph 1)
-# alaph-syriac.med2 - no tail medial (glyph 1) used before another character
-# alaph-syriac.fin3 - no tail final (glyph 1) used word final
-# alaph-syriac.fina - tail final (glyph 2) used word final when connected dual joining character
-# alaph-syriac.fin2 - tail final (glyph 2) used word final when following right joining character
-# alaph-syriac.ccmp - comma shape (glyph 3) only used following lamadh in isolate or final position
-
 # =======================
 # Rule 1
-
-# alaph-syriac is isolate with no tail
-# alaph-syriac.med2 is final with no tail
-# alaph-syriac.fin2 is isolate with tail
-# alaph-syriac.fina is final with tail
-# alaph-syriac.fin3 is final with no tail
+# This just helps remember what the forms of alaph are:
+#      alaph-syriac is isolate with no tail
+#      alaph-syriac.med2 is final with no tail
+#      alaph-syriac.fin2 is isolate with tail
+#      alaph-syriac.fina is final with tail
+#      alaph-syriac.fin3 is final with no tail
 
 lookup ltrFinaSerOlaph { # use when the preceding base character cannot be joined to, and that preceding base character is not a 'Dalath', 'Rish', or dotless 'Dalath-Rish'
   lookupflag IgnoreMarks ;
@@ -270,7 +263,7 @@ lookup LamAlaphLig { # corresponds to "Rule 2" and "Rule 6"
 do let f = info("familyName");
    if f.find("Khabur") != -1; {
 
-lookup LamAlaphLig {
+lookup LamAlaphLig { # Estrangela
 # GSUB lookup 3, 
   lookupflag IgnoreMarks;
     sub lamadh-syriac alaph-syriac by lamadh_alaph-syriac;
@@ -278,7 +271,7 @@ lookup LamAlaphLig {
     sub lamadh-syriac.medi alaph-syriac.fina by lamadh_alaph-syriac.fina;
     sub lamadh-syriac.medi alaph-syriac.med2 by lamadh_alaph-syriac.fina;
 } LamAlaphLig;
-}
+} #end do - Khabur
 
 lookup AlaphChain {
 # GSUB lookup 19, type 11 (Single)
@@ -410,7 +403,6 @@ lookup TawAlaphTriangleLigatures { # needed for ss18
     sub taw_alaph-syriac.fina' lookup TawAlaphTriangleChain ;
 
 } TawAlaphTriangleLigatures ;
-
 
 lookup TawAlaphTwinedLigatures { # needed for ss19
   lookupflag IgnoreMarks ;

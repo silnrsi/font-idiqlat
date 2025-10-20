@@ -35,9 +35,11 @@
 #  Right joining - Next two should match
 #**********************************
 # was called @RightJoiningXn
+# does not include alaph-syriac as it is handled differently
 @RightLinkIsol = [dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac dhalathPersian-syriac zhainSogdian-syriac];
 
 # was called @RightJoiningXr
+# does not include alaph-syriac.fina as it is handled differently
 @RightLinkFina = [dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina dhalathPersian-syriac.fina zhainSogdian-syriac.fina];
 
 @AlaphIsol = [alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3];
@@ -45,6 +47,9 @@
 
 
 @RightJoining = [@RightLinkIsol @RightLinkFina @AlaphIsol @AlaphFina taw_alaph-syriac taw_alaph-syriac.fina];
+
+# used in GDEF
+@AllBase = [@DualJoining @RightJoining];
 
 #**********************************
 #  These aren't used
@@ -56,8 +61,6 @@
 # was called AllXnXl (doublechecked)
 # @AllIsolInit = [@AllIsol @DualLinkInit];
 
-# used in GDEF
-@AllBase = [@DualJoining @RightJoining];
 
 #**********************************
 #  Marks - removed glyphs no longer in font
@@ -73,7 +76,7 @@
 
 @MarkBelowNoChain = [ringbelowcomb rukkakha-syriac rukkakha-syriac.square];
 
-@AllCombining = [tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac music2-syriac music3-syriac barrekh-syriac dotaboveleftcomb dotbelowleftcomb circumflexbelowcomb rukkakha-syriac.square minusbelowcomb pthahadotted-syriac graphemejoinercomb];
+@AllCombining = [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac music2-syriac music3-syriac barrekh-syriac dotaboveleftcomb dotbelowleftcomb circumflexbelowcomb rukkakha-syriac.square minusbelowcomb pthahadotted-syriac graphemejoinercomb];
 
 # was called @TakeSquareDot
 # Added gamalgarshuni-syriac kaph and pe be added to this group?
