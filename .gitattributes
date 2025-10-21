@@ -42,12 +42,13 @@
 *.xml text eol=lf
 
 # Declare text files that will stay in LF (i.e. not expected to be used on Windows)
+makedocs text eol=lf
 preflight text eol=lf
 preflightg text eol=lf
 preflightff text eol=lf
 preglyphs text eol=lf
 wscript text eol=lf
-makedocs text eol=lf
+copycommon* text eol=lf
 
 *.sh text eol=lf
 *.sfd text eol=lf
@@ -71,3 +72,4 @@ makedocs text eol=lf
 *.DOC diff=astextplain
 *.docx diff=astextplain
 *.DOCX diff=astextplain
+

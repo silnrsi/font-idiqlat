@@ -10,7 +10,9 @@ results/**
 buildlinux2/**
 bin/**
 source/temp/*
+source/masters/temp/*
 source/backups/*
+.tmp/*
 
 # temporary fontdocs files
 documentation/source/pdftemp/
@@ -103,6 +105,7 @@ $RECYCLE.BIN/
 # Other
 .sass-cache/
 .jekyll-metadata
+tmp/
 
 # Byte-compiled / optimized files
 *.py[co]
