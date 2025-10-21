@@ -292,11 +292,6 @@ U+0739">
       <comment>feSogdian-syriac zlamadottedangular-syriac</comment>
       <string>\u00074F\u000739 \u00074F\u000739\u00074F\u000739\u00074F\u000739  \u00074F\u000742 \u00074F\u000742\u00074F\u000742\u00074F\u000742  \u00074F\u000743 \u00074F\u000743\u00074F\u000743\u00074F\u000743  \u00074F\u000744 \u00074F\u000744\u00074F\u000744\u00074F\u000744 </string>
     </test>
-    <test background="#f0fff0" label="U+202F
-U+0739">
-      <comment>narrownbspace zlamadottedangular-syriac</comment>
-      <string>\u00F130\u00202F\u000739\u00F131 \u00F130\u00202F\u000742\u00F131 \u00F130\u00202F\u000743\u00F131 \u00F130\u00202F\u000744\u00F131</string>
-    </test>
   </testgroup>
   <testgroup label="All Syriac diacritics on representative bases">
     <test label="U+0712

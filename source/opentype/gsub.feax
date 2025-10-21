@@ -12,12 +12,12 @@
 
 languagesystem DFLT dflt ;
 languagesystem syrc dflt ; # Syriac default
-languagesystem syrc SYR ; # Eastern Syriac
-languagesystem syrc SYRN ; # Eastern Syriac
+# languagesystem syrc SYR ; # Eastern Syriac
+# languagesystem syrc SYRN ; # Eastern Syriac
 languagesystem latn dflt ;
 
-@MarksAbove = [@_above @_aboveleft] ; # _diaA
-@MarksBelow = [ @_below @_belowleft] ; # _diaB @_b.U0740 @_b.U0325_3
+@MarksAbove = [@_above @_aboveleft] ; 
+@MarksBelow = [ @_below @_belowleft] ; 
 @MarksAny = [@MarksAbove @MarksBelow] ;
 
 # Notes:
