@@ -31,7 +31,14 @@
   </description>
   <license url="https://openfontlicense.org" id="org.openfontlicense.1.1">
     <text lang="en">
-      Original fonts copyright (c) 1997-2025, Sparksoft Systems, with Reserved Font Names "Marcus" and "Nohadra". Additions and modifications copyright (c) 2025, SIL Global (https://www.sil.org/), with Reserved Font Names "Idiqlat" and "SIL".
+      Original fonts copyright (c) 1997-2025, Sparksoft Systems,
+      with Reserved Font Names "Marcus" and "Nohadra".
+      
+      Additions and modifications copyright (c) 2025, SIL Global
+      (https://www.sil.org/), with Reserved Font Names "Idiqlat" and "SIL".
+      
+      Latin glyphs copyright (c) 2018 The Crimson Pro Project Authors 
+      (https://github.com/Fonthausen/CrimsonPro)
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://openfontlicense.org/
       
@@ -78,10 +85,17 @@
   </license>
   <copyright>
     <text lang="en">
-      Original fonts copyright (c) 1997-2025, Sparksoft Systems, with Reserved Font Names "Marcus" and "Nohadra". Additions and modifications copyright (c) 2025, SIL Global (https://www.sil.org/), with Reserved Font Names "Idiqlat" and "SIL".
+      Original fonts copyright (c) 1997-2025, Sparksoft Systems,
+      with Reserved Font Names "Marcus" and "Nohadra".
+      
+      Additions and modifications copyright (c) 2025, SIL Global
+      (https://www.sil.org/), with Reserved Font Names "Idiqlat" and "SIL".
+      
+      Latin glyphs copyright (c) 2018 The Crimson Pro Project Authors 
+      (https://github.com/Fonthausen/CrimsonPro)
     </text>
   </copyright>
   <trademark>
-    <text lang="en">Marcus and Nohadro are trademarks of Sparksoft Systems.</text>
+    <text lang="en">Marcus and Nohadro are trademarks of Sparksoft Systems. Idiqlat is a trademark of SIL Global.</text>
   </trademark>
 </metadata>

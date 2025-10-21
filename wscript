@@ -35,6 +35,7 @@ else:
 designspace('source/IdiqlatTestA.designspace',
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
 #    params = '--decomposeComponents --removeOverlaps -c ^_',
+    params = '-c ^_',
     version=VERSION,  # Needed to ensure dev information on version string
     opentype = fea("generated/${DS:FILENAME_BASE}.fea", 
         mapfile = genout + "${DS:FILENAME_BASE}.map",
