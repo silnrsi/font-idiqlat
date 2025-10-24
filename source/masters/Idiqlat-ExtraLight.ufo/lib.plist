@@ -1031,8 +1031,6 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
     <string>uni2011</string>
     <key>nun-syriac</key>
     <string>uni0722</string>
-    <key>nun-syriac.alt</key>
-    <string>uni0722.alt</string>
     <key>nun-syriac.cv18</key>
     <string>uni0722.cv18</string>
     <key>nun-syriac.fina</key>

@@ -7,21 +7,13 @@
   <key>capHeight</key>
   <integer>964</integer>
   <key>copyright</key>
-  <string>Original fonts copyright (c) 1997-2025, Sparksoft Systems,
-with Reserved Font Names "Marcus" and "Nohadra".
-
-Latin glyphs copyright (c) 2018 The Crimson Pro Project Authors 
-(https://github.com/Fonthausen/CrimsonPro)
-
-Additions and modifications copyright (c) 2025, SIL Global
-(https://www.sil.org/), with Reserved Font Names "Idiqlat" and "SIL".
-</string>
+  <string>Copyright (c) 2025, SIL Global (https://www.sil.org/), with Reserved Font Names "Idiqlat" and "SIL". Original fonts copyright (c) 1997-2025, Sparksoft Systems, with Reserved Font Names "Marcus" and "Nohadra". Latin glyphs copyright (c) 2018 The Crimson Pro Project Authors (https://github.com/Fonthausen/CrimsonPro).</string>
   <key>descender</key>
   <integer>-898</integer>
   <key>familyName</key>
   <string>Idiqlat</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/10/21 14:24:11</string>
+  <string>2025/10/24 14:39:25</string>
   <key>openTypeHheaAscender</key>
   <integer>1560</integer>
   <key>openTypeHheaDescender</key>
@@ -35,14 +27,11 @@ Additions and modifications copyright (c) 2025, SIL Global
   <key>openTypeNameDesignerURL</key>
   <string>https://software.sil.org/</string>
   <key>openTypeNameLicense</key>
-  <string>Original fonts copyright (c) 1997-2025, Sparksoft Systems,
-with Reserved Font Names "Marcus" and "Nohadra".
+  <string>Copyright (c) 2025, SIL Global (https://www.sil.org/), with Reserved Font Names "Idiqlat" and "SIL".
 
-Latin glyphs copyright (c) 2018 The Crimson Pro Project Authors 
-(https://github.com/Fonthausen/CrimsonPro)
+Original fonts copyright (c) 1997-2025, Sparksoft Systems, with Reserved Font Names "Marcus" and "Nohadra".
 
-Additions and modifications copyright (c) 2025, SIL Global
-(https://www.sil.org/), with Reserved Font Names "Idiqlat" and "SIL".
+Latin glyphs copyright (c) 2018 The Crimson Pro Project Authors (https://github.com/Fonthausen/CrimsonPro).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://openfontlicense.org/
 

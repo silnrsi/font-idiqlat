@@ -19,11 +19,11 @@ Type samples showing some of the inventory of glyphs can be found here:
 Examples of some text is shown below. 
 
 ![Idiqlat Sample - Three weights](../assets/images/three-weights.png){.fullsize}
-<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/idiqlat/wp-content/uploads/sites/31/2023/04/weights.png -->
+<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/idiqlat/wp-content/uploads/sites/76/2025/10/three-weights.png -->
 <figcaption>Idiqlat Sample - Three weights</figcaption>
 
 ![Idiqlat Sample - Genesis 11](../assets/images/IdiqlatGen11.png){.fullsize}
-<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/idiqlat/wp-content/uploads/sites/31/2020/06/HarmattanArabicGen11.png -->
+<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/idiqlat/wp-content/uploads/sites/76/2025/10/IdiqlatGen11.png -->
 <figcaption>Idiqlat Sample - Genesis 11</figcaption>
 
 ## Character Set
