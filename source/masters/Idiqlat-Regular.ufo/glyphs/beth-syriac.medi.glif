@@ -9,10 +9,4 @@
     <component base="beth-syriac.init"/>
     <component base="_right_connector" xOffset="1020"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CP</string>
-    </dict>
-  </lib>
 </glyph>

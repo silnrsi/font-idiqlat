@@ -10,10 +10,4 @@
     <component base="_LeftTail" xOffset="-50"/>
     <component base="_right_connector" xOffset="1244"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCP</string>
-    </dict>
-  </lib>
 </glyph>

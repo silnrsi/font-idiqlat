@@ -10,10 +10,4 @@
     <component base="_LrgSquareDot" xOffset="-146" yOffset="990"/>
     <component base="_LrgSquareDot" xOffset="125" yOffset="990"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCCP</string>
-    </dict>
-  </lib>
 </glyph>
