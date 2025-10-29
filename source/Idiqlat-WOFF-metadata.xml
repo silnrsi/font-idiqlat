@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Idiqlat.1.106" />
+  <uniqueid id="org.sil.fonts.Idiqlat.1.110" />
   <vendor name="SIL Global" url="https://www.sil.org/" />
   <credits>
     <credit
@@ -16,12 +16,12 @@
     <credit
       name="Esho Marcus"
       url="https://github.com/SparksoftSystems/Syriac-Fonts"
-      role="Type design"
+      role="East Syriac Marcus Type design"
     />
     <credit
       name="Sargon Hasson"
       url="https://github.com/SparksoftSystems/Syriac-Fonts"
-      role="Opentype design"
+      role="East Syriac Marcus Opentype design"
     />
   </credits>
   <description url="https://software.sil.org/idiqlat/">

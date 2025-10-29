@@ -44,11 +44,11 @@ be sure to add your name (N), email (E), web-address (W) and description
 
 N: Sargon Hasso
 W: https://github.com/SparksoftSystems/Syriac-Fonts
-D: OpenType developer
+D: East Syriac Marcus OpenType developer
 
 N: Esho Marcus
 W: https://github.com/SparksoftSystems/Syriac-Fonts
-D: Type Designer
+D: East Syriac Marcus Type Designer
 
 N: Becca Spalinger and Lorna Evans
 W: https://github.com/silnrsi/font-idiqlat

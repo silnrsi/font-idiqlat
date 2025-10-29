@@ -1,6 +1,6 @@
 ---
 title: Idiqlat - Announcement
-fontversion: 1.106
+fontversion: 1.110
 ---
 
 We are very pleased to announce the release of Idiqlat, a new font for the East Syriac style of the Syriac script. The font name, Idiqlat, means “Tigris River” in ancient Akkadian/Assyrian. The emphasis is on the first syllable: EE-dee-klat.

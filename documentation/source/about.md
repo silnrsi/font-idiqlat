@@ -1,6 +1,6 @@
 ---
 title: Idiqlat - About
-fontversion: 1.106
+fontversion: 1.110
 ---
 
 ## About this project

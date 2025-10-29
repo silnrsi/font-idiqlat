@@ -1,6 +1,6 @@
 ---
 title: Idiqlat - Character Set Support
-fontversion: 1.106
+fontversion: 1.110
 ---
 
 This font supports supports most of the characters in the Syriac block. 
