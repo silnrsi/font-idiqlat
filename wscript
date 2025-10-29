@@ -32,6 +32,7 @@ if '--autohint' in opts:
 else:
     cmds.append(cmd('gftools fix-nonhinting --no-backup -q ${DEP} ${TGT}'))
 
+# designspace('source/Idiqlat.designspace',
 designspace('source/IdiqlatTestA.designspace',
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
 #    params = '--decomposeComponents --removeOverlaps -c ^_',
@@ -49,6 +50,7 @@ designspace('source/IdiqlatTestA.designspace',
     woff = woff('web/${DS:FILENAME_BASE}.woff',
         metadata=f'../source/{FAMILY}-WOFF-metadata.xml',
         ),
+    shortcircuit = False,
     )
 
 def configure(ctx):

@@ -14,6 +14,7 @@ wait
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters -q source/IdiqlatTestA.designspace 
+# psfsyncmasters -q source/Idiqlat.designspace 
 
 echo "Updating woff metadata files..."
 psfmakewoffmetadata -q -n  Idiqlat        -i org.sil.fonts source/masters/*-Regular.ufo  -o "source/Idiqlat-WOFF-metadata.xml"

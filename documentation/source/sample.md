@@ -69,7 +69,7 @@ Regular: <span dir="rtl" class='idiqlat-R normal'>&#x060C; &#x061B; &#x061F; &#x
 
 
 <!-- PRODUCT SITE ONLY
-[font id='idiqlat' face='Idiqlat-Regular'size='150%' rtl=1]
+[font id='idiqlat' face='Idiqlat-Regular' size='150%' rtl=1]
 [font id='idiqlatL' face='Idiqlat-Regular' size='150%' ltr=1]
 -->
 
