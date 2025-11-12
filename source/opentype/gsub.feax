@@ -345,7 +345,7 @@ lookup NunAlternate { # cv18 Apparently only used in outlines so no final is nee
 
 # He Yudh U+0717 U+071D cv38 (marks position)
 # Used in East Syriac only
-lookup HeYudhLigature { # cv38 ss16
+lookup HeYudhLigature { # cv38 ss03
   lookupflag IgnoreMarks;
     sub he-syriac yudh-syriac by he_yudh-syriac ;
     sub he-syriac.fina yudh-syriac by he_yudh-syriac.fina ;
@@ -353,7 +353,7 @@ lookup HeYudhLigature { # cv38 ss16
 
 # Sadhe Nun U+0728 U+0722 cv55 (marks position)
 # Used in East Syriac, West Syriac, Estrangela
-lookup SadheNunLigature { # cv55 ss17
+lookup SadheNunLigature { # cv55 ss04
   lookupflag IgnoreMarks;
     sub sadhe-syriac nun-syriac by sadhe_nun-syriac ;
     sub sadhe-syriac.fina nun-syriac by sadhe_nun-syriac.fina ;
@@ -369,7 +369,7 @@ lookup TawAlaphLigatures { # needed for cv59
 
 # Taw Yudh U+072C U+071D cv60=1 (ligature forms but mark is in wrong position)
 # Used in East Syriac only
-lookup TawYudhLigature { # cv60 ss20
+lookup TawYudhLigature { # cv60 ss05
   lookupflag IgnoreMarks;
 #    sub [taw-syriac taw-syriac.fina] yudh-syriac by [taw_yudh-syriac taw_yudh-syriac.fina];
     sub taw-syriac yudh-syriac by taw_yudh-syriac;
@@ -378,21 +378,20 @@ lookup TawYudhLigature { # cv60 ss20
 
 #---  ssxx and cvxx lookups  ---
 
-lookup ss01_lkp {
-  lookupflag IgnoreMarks;
-    sub [kaph-syriac mim-syriac nun-syriac] by [kaph-syriac.cv15 mim-syriac.cv17 nun-syriac.cv18];
-} ss01_lkp;
-
-lookup TawAlaphTriangleLigatures { # needed for ss18
+lookup TawAlaphTriangleLigatures { # needed for ss01
   lookupflag IgnoreMarks;
     sub [taw_alaph-syriac taw_alaph-syriac.fina] by [taw_alaph-syriac.triangle taw_alaph-syriac.fina.triangle];
 } TawAlaphTriangleLigatures ;
 
-lookup TawAlaphTwinedLigatures { # needed for ss19
+lookup TawAlaphTwinedLigatures { # needed for ss02
   lookupflag IgnoreMarks;
     sub [taw_alaph-syriac taw_alaph-syriac.fina] by [taw_alaph-syriac.twined taw_alaph-syriac.fina.twined];
 } TawAlaphTwinedLigatures ;
 
+lookup ss16_lkp {
+  lookupflag IgnoreMarks;
+    sub [kaph-syriac mim-syriac nun-syriac] by [kaph-syriac.cv15 mim-syriac.cv17 nun-syriac.cv18];
+} ss16_lkp;
 
 #---  ssxx and cvxx lookups  ---
 
@@ -756,56 +755,6 @@ feature cv60 {  # Character Variant 60
 
 feature ss01 {
    featureNames {
-      name 3 1 0x409 "Kaph Mim Nun alternates";
-   };
-    script DFLT;  
-        language dflt;  
-            lookup ss01_lkp;
-    script latn;  
-        language dflt;  
-            lookup ss01_lkp;
-        script syrc;  # Syriac
-        language dflt;
-            lookup ss01_lkp;
-      # Force other languages to include Syriac script lookups
-      language SYRN ;  # syc, syr
-      language SYR ;  # aii, amw, cld, syc, syr, tru
-} ss01;
-
-feature ss16 {
-    featureNames { name 3 1 0x409 "He Yudh ligature" ; };
-    script DFLT;  
-      language dflt;  
-          lookup HeYudhLigature;
-    script latn;  
-      language dflt;  
-          lookup HeYudhLigature;
-    script syrc;  # Syriac
-      language dflt;
-          lookup HeYudhLigature;
-      language SYRN ;  # syc, syr
-      language SYR ;  # aii, amw, cld, syc, syr, tru
-} ss16;
-
-feature ss17 {
-   featureNames {
-      name 3 1 0x409 "Sadhe Nun ligature";
-   };
-    script DFLT;  
-      language dflt;  
-          lookup SadheNunLigature;
-    script latn;  
-      language dflt;  
-          lookup SadheNunLigature;
-    script syrc;  # Syriac
-      language dflt;
-          lookup SadheNunLigature;
-      language SYRN ;  # syc, syr
-      language SYR ;  # aii, amw, cld, syc, syr, tru
-} ss17;
-
-feature ss18 {
-   featureNames {
       name 3 1 0x409 "Taw Alaph triangle ligature";
    };
     script DFLT;  
@@ -819,9 +768,9 @@ feature ss18 {
           lookup TawAlaphTriangleLigatures;
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
-} ss18;
+} ss01;
 
-feature ss19 {
+feature ss02 {
    featureNames {
       name 3 1 0x409 "Taw Alaph twined ligature";
    };
@@ -836,9 +785,41 @@ feature ss19 {
           lookup TawAlaphTwinedLigatures;
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
-} ss19;
+} ss02;
 
-feature ss20 {
+feature ss03 {
+    featureNames { name 3 1 0x409 "He Yudh ligature" ; };
+    script DFLT;  
+      language dflt;  
+          lookup HeYudhLigature;
+    script latn;  
+      language dflt;  
+          lookup HeYudhLigature;
+    script syrc;  # Syriac
+      language dflt;
+          lookup HeYudhLigature;
+      language SYRN ;  # syc, syr
+      language SYR ;  # aii, amw, cld, syc, syr, tru
+} ss03;
+
+feature ss04 {
+   featureNames {
+      name 3 1 0x409 "Sadhe Nun ligature";
+   };
+    script DFLT;  
+      language dflt;  
+          lookup SadheNunLigature;
+    script latn;  
+      language dflt;  
+          lookup SadheNunLigature;
+    script syrc;  # Syriac
+      language dflt;
+          lookup SadheNunLigature;
+      language SYRN ;  # syc, syr
+      language SYR ;  # aii, amw, cld, syc, syr, tru
+} ss04;
+
+feature ss05 {
    featureNames {
       name 3 1 0x409 "Taw Yudh ligature";
    };
@@ -853,8 +834,25 @@ feature ss20 {
           lookup TawYudhLigature;
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
-} ss20;
+} ss05;
 
+feature ss16 {
+   featureNames {
+      name 3 1 0x409 "Kaph Mim Nun alternates";
+   };
+    script DFLT;  
+        language dflt;  
+            lookup ss16_lkp;
+    script latn;  
+        language dflt;  
+            lookup ss16_lkp;
+        script syrc;  # Syriac
+        language dflt;
+            lookup ss16_lkp;
+      # Force other languages to include Syriac script lookups
+      language SYRN ;  # syc, syr
+      language SYR ;  # aii, amw, cld, syc, syr, tru
+} ss16;
 
 #---  liga feature (pass 10) ---
 
@@ -863,11 +861,11 @@ feature ss20 {
 feature aalt {
 	feature ccmp;
   feature ss01;
+  feature ss02;
+  feature ss03;
+  feature ss04;
+  feature ss05;
   feature ss16;
-  feature ss17;
-  feature ss18;
-  feature ss19;
-  feature ss20;
   feature cv02;
   feature calt;
 } aalt;

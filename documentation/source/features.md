@@ -15,41 +15,14 @@ This page uses web fonts (WOFF2) to demonstrate font features and should display
 
 _Some of the Stylistic sets are also implemented as character variants._
 
-### Kaph Mim Nun alternates
-
-<span class='affects'>Affects: U+071F U+0721 U+0722  (this feature is primarily for outlines and only affects the isolate form)</span>
-
-Feature | Sample                      | Feature setting
-------- | --------------------------- | -------
-Standard | <span class='idiqlat-R normal'>&#x071F; &#x0721; &#x0722;</span> | `ss01=0`
-Alternate  | <span class='idiqlat-R normal' style='font-feature-settings: "ss01" 1'>&#x071F; &#x0721; &#x0722;</span> | `ss01=1`
-
-### He Yudh ligature
-
-<span class='affects'>Affects: U+0717 U+071D</span>
-
-Feature | Sample                      | Feature setting
-------- | --------------------------- | -------
-Standard | <span class='idiqlat-R normal'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `ss16=0`
-Ligature | <span class='idiqlat-R normal' style='font-feature-settings: "ss16" 1'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `ss16=1`
-
-### Sadhe Nun ligature
-
-<span class='affects'>Affects: U+0728 U+0722</span>
-
-Feature | Sample                      | Feature setting
-------- | --------------------------- | -------
-Standard | <span class='idiqlat-R normal'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `ss17=0`
-Ligature | <span class='idiqlat-R normal' style='font-feature-settings: "ss17" 1'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `ss17=1`
-
 ### Taw Alaph triangle ligature
 
 <span class='affects'>Affects: U+072C U+0710</span>
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard    | <span class='idiqlat-R normal'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss18=0`
-Triangle    | <span class='idiqlat-R normal' style='font-feature-settings: "ss18" 1'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss18=1`
+Standard    | <span class='idiqlat-R normal'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss01=0`
+Triangle    | <span class='idiqlat-R normal' style='font-feature-settings: "ss01" 1'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss01=1`
 
 ### Taw Alaph intertwined ligature
 
@@ -57,8 +30,26 @@ Triangle    | <span class='idiqlat-R normal' style='font-feature-settings: "ss18
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard    | <span class='idiqlat-R normal'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss19=0`
-Intertwined | <span class='idiqlat-R normal' style='font-feature-settings: "ss19" 1'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss19=1`
+Standard    | <span class='idiqlat-R normal'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss02=0`
+Intertwined | <span class='idiqlat-R normal' style='font-feature-settings: "ss02" 1'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss02=1`
+
+### He Yudh ligature
+
+<span class='affects'>Affects: U+0717 U+071D</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard | <span class='idiqlat-R normal'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `ss03=0`
+Ligature | <span class='idiqlat-R normal' style='font-feature-settings: "ss03" 1'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `ss03=1`
+
+### Sadhe Nun ligature
+
+<span class='affects'>Affects: U+0728 U+0722</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard | <span class='idiqlat-R normal'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `ss04=0`
+Ligature | <span class='idiqlat-R normal' style='font-feature-settings: "ss04" 1'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `ss04=1`
 
 ### Taw Yudh ligature
 
@@ -66,8 +57,17 @@ Intertwined | <span class='idiqlat-R normal' style='font-feature-settings: "ss19
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span dir="rtl" class='idiqlat-R normal'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `ss20=0`
-Ligature | <span dir="rtl" class='idiqlat-R normal' style='font-feature-settings: "ss20" 1'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `ss20=1`
+Standard | <span dir="rtl" class='idiqlat-R normal'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `ss05=0`
+Ligature | <span dir="rtl" class='idiqlat-R normal' style='font-feature-settings: "ss05" 1'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `ss05=1`
+
+### Kaph Mim Nun alternates
+
+<span class='affects'>Affects: U+071F U+0721 U+0722  (this feature is primarily for outlines and only affects the isolate form)</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard | <span class='idiqlat-R normal'>&#x071F; &#x0721; &#x0722;</span> | `ss16=0`
+Alternate  | <span class='idiqlat-R normal' style='font-feature-settings: "ss16" 1'>&#x071F; &#x0721; &#x0722;</span> | `ss16=1`
 
 ## Character variants
 
