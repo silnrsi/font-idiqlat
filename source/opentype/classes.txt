@@ -52,6 +52,13 @@
 @AllBase = [@DualJoining @RightJoining];
 
 #**********************************
+#  stch
+#**********************************
+
+@stch = [kashida-ar kashida-ar.threequarter kashida-ar.half kashida-ar.quarter alaph-syriac alaph-syriac.fina alaph-syriac.med2 alaph-syriac.fin2 alaph-syriac.fin3 beth-syriac beth-syriac.fina beth-syriac.medi beth-syriac.init gamal-syriac gamal-syriac.fina gamal-syriac.medi gamal-syriac.init gamalgarshuni-syriac gamalgarshuni-syriac.fina gamalgarshuni-syriac.medi gamalgarshuni-syriac.init dalath-syriac dalath-syriac.fina dalath_hbasaEsasadotted-syriac dalath_hbasaEsasadotted-syriac.fina he-syriac he-syriac.fina waw-syriac waw-syriac.fina zain-syriac zain-syriac.fina heth-syriac heth-syriac.fina heth-syriac.medi heth-syriac.init teth-syriac teth-syriac.fina teth-syriac.medi teth-syriac.init tethGarshuni-syriac tethGarshuni-syriac.fina tethGarshuni-syriac.medi tethGarshuni-syriac.init yudh-syriac yudh-syriac.fina yudh-syriac.medi yudh-syriac.init yudhhe-syriac yudhhe-syriac.fina kaph-syriac kaph-syriac.fina kaph-syriac.medi kaph-syriac.init lamadh-syriac lamadh-syriac.fina lamadh-syriac.medi lamadh-syriac.init mim-syriac mim-syriac.fina mim-syriac.medi mim-syriac.init nun-syriac nun-syriac.fina nun-syriac.medi nun-syriac.init semkath-syriac semkath-syriac.fina semkath-syriac.medi semkath-syriac.init semkathFinal-syriac semkathFinal-syriac.fina semkathFinal-syriac.medi semkathFinal-syriac.init e-syriac e-syriac.fina e-syriac.medi e-syriac.init pe-syriac pe-syriac.fina pe-syriac.medi pe-syriac.init sadhe-syriac sadhe-syriac.fina qaph-syriac qaph-syriac.fina qaph-syriac.medi qaph-syriac.init rish-syriac rish-syriac.fina shin-syriac shin-syriac.fina shin-syriac.medi shin-syriac.init taw-syriac taw-syriac.fina bhethPersian-syriac bhethPersian-syriac.fina bhethPersian-syriac.medi bhethPersian-syriac.init ghamalPersian-syriac ghamalPersian-syriac.fina ghamalPersian-syriac.medi ghamalPersian-syriac.init dhalathPersian-syriac dhalathPersian-syriac.fina zhainSogdian-syriac zhainSogdian-syriac.fina feSogdian-syriac feSogdian-syriac.fina feSogdian-syriac.medi feSogdian-syriac.init dottedCircle];
+@stch2 = [dalath-syriac dalath-syriac.fina dalathrishDotless-syriac dalathrishDotless-syriac.fina zain-syriac zain-syriac.fina yudh-syriac yudh-syriac.fina rish-syriac rish-syriac.fina dhalathPersian-syriac dhalathPersian-syriac.fina zhainSogdian-syriac zhainSogdian-syriac.fina];
+
+#**********************************
 #  These aren't used
 #**********************************
 

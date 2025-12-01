@@ -385,5 +385,18 @@
       <string>”ܗܵܘܹܐ ܒܲܗܪܵܐ،“</string>
    </test>
   </testgroup>
-
+  <testgroup label="abbreviation">
+    <test rtl="True">
+      <comment></comment>
+      <string>ܬ܏ܫܒܘ for ܬܫܒܘܚܬܐ.</string>
+   </test>
+    <test rtl="True">
+      <comment></comment>
+      <string>܏ܦܟܕ</string>
+   </test>
+    <test rtl="True">
+      <comment></comment>
+      <string>܏ܠܓ ܏ܟܒ</string>
+   </test>
+  </testgroup>
 </ftml>

@@ -252,6 +252,27 @@ lookup TawAlaph { # 072C 0710
 
 #---  end rlig lookups  ---
 
+#---  stch lookups  ---
+
+lookup stch_2 {
+# GSUB lookup 13, type 12 (Multiple)
+  lookupflag IgnoreMarks RightToLeft;
+  sub abbreviation-syriac by abbreviation-syriac.1.stch abbreviation-syriac.2.stch abbreviation-syriac.3.stch abbreviation-syriac.2.stch abbreviation-syriac.5.stch;
+} stch_2;
+
+lookup stch_4 {
+# GSUB lookup 14, type 12 (Multiple)
+  lookupflag RightToLeft;
+  sub abbreviation-syriac by abbreviation-syriac.1.stch abbreviation-syriac.4.stch abbreviation-syriac.3.stch abbreviation-syriac.4.stch abbreviation-syriac.5.stch;
+} stch_4;
+
+lookup stch_6 {
+# GSUB lookup 15, type 12 (Multiple)
+  lookupflag IgnoreMarks RightToLeft;
+  sub abbreviation-syriac by abbreviation-syriac.1.stch abbreviation-syriac.4.stch abbreviation-syriac.5.stch;
+} stch_6;
+
+#---  end stch lookups  ---
 
 # HB PAUSE
 
@@ -516,6 +537,36 @@ feature rlig {  # Ligatures  -- these are done before ssxx and cvXX
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } rlig ;
 
+#---  stch feature (pass 8 or 9) ---
+
+feature stch {
+# GSUB feature: Stretching Glyph Decomposition
+# Lookups: 3
+
+  script syrc; # Syriac
+
+  lookup stch_1 {
+  # GSUB lookup 10, type 16 (Chaining Context)
+    lookupflag IgnoreMarks RightToLeft;
+    sub abbreviation-syriac' lookup stch_2 @stch @stch @stch;
+  } stch_1;
+
+  lookup stch_3 {
+  # GSUB lookup 11, type 16 (Chaining Context)
+    lookupflag RightToLeft;
+    ignore sub abbreviation-syriac' @stch2 @stch2;
+    sub abbreviation-syriac' lookup stch_4 @stch @stch;
+  } stch_3;
+
+  lookup stch_5 {
+  # GSUB lookup 12, type 16 (Chaining Context)
+    lookupflag IgnoreMarks RightToLeft;
+    sub abbreviation-syriac' lookup stch_6 @stch;
+  } stch_5;
+      # Force other languages to include Syriac script lookups
+      language SYRN ;  # syc, syr
+      language SYR ;  # aii, amw, cld, syc, syr, tru
+} stch;
 
 # HB PAUSE
 

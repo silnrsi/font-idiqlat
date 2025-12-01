@@ -240,6 +240,16 @@
   <string>aacute.glif</string>
   <key>abbreviation-syriac</key>
   <string>abbreviation-syriac.glif</string>
+  <key>abbreviation-syriac.1.stch</key>
+  <string>abbreviation-syriac.1.stch.glif</string>
+  <key>abbreviation-syriac.2.stch</key>
+  <string>abbreviation-syriac.2.stch.glif</string>
+  <key>abbreviation-syriac.3.stch</key>
+  <string>abbreviation-syriac.3.stch.glif</string>
+  <key>abbreviation-syriac.4.stch</key>
+  <string>abbreviation-syriac.4.stch.glif</string>
+  <key>abbreviation-syriac.5.stch</key>
+  <string>abbreviation-syriac.5.stch.glif</string>
   <key>acircumflex</key>
   <string>acircumflex.glif</string>
   <key>activateformshaping-ar</key>

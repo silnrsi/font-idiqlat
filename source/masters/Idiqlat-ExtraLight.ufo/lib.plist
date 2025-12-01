@@ -341,6 +341,11 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
     <string>harkleanMetobelus-syriac</string>
     <string>harkleanAsteriscus-syriac</string>
     <string>abbreviation-syriac</string>
+    <string>abbreviation-syriac.1.stch</string>
+    <string>abbreviation-syriac.2.stch</string>
+    <string>abbreviation-syriac.3.stch</string>
+    <string>abbreviation-syriac.4.stch</string>
+    <string>abbreviation-syriac.5.stch</string>
     <string>alaph-syriac</string>
     <string>alaph-syriac.med2</string>
     <string>alaph-syriac.fina</string>
@@ -723,6 +728,16 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
     <string>uniFE08</string>
     <key>abbreviation-syriac</key>
     <string>uni070F</string>
+    <key>abbreviation-syriac.1.stch</key>
+    <string>uni070F.1.stch</string>
+    <key>abbreviation-syriac.2.stch</key>
+    <string>uni070F.2.stch</string>
+    <key>abbreviation-syriac.3.stch</key>
+    <string>uni070F.3.stch</string>
+    <key>abbreviation-syriac.4.stch</key>
+    <string>uni070F.4.stch</string>
+    <key>abbreviation-syriac.5.stch</key>
+    <string>uni070F.5.stch</string>
     <key>activateformshaping-ar</key>
     <string>uni206D</string>
     <key>alaph-syriac</key>
