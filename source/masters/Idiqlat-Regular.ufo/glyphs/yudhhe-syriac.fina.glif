@@ -85,4 +85,10 @@
       <point x="1541" y="53"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCPPPPPP</string>
+    </dict>
+  </lib>
 </glyph>
