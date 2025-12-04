@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aacute" format="2">
-  <advance width="707"/>
+  <advance width="1145"/>
   <unicode hex="00E1"/>
   <note>
 aacute
 </note>
   <outline>
     <component base="a"/>
-    <component base="_acute" xOffset="-72"/>
+    <component base="_acute" xOffset="-117"/>
   </outline>
   <lib>
     <dict>

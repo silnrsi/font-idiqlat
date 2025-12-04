@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ograve" format="2">
-  <advance width="997"/>
+  <advance width="1615"/>
   <unicode hex="00D2"/>
   <note>
 Ograve
 </note>
   <outline>
     <component base="O"/>
-    <component base="_grave.case" xOffset="77" yOffset="-102"/>
+    <component base="_grave.case" xOffset="125" yOffset="-165"/>
   </outline>
   <lib>
     <dict>

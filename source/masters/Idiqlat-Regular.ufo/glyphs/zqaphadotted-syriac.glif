@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zqaphadotted-syriac" format="2">
   <unicode hex="0735"/>
-  <anchor x="210" y="65" name="_above"/>
-  <anchor x="270" y="510" name="above"/>
+  <anchor x="340" y="105" name="_above"/>
+  <anchor x="437" y="826" name="above"/>
   <outline>
-    <component base="rwaha-syriac" xScale="0.83867" xyScale="-0.54464" yxScale="0.54464" yScale="0.83867" xOffset="179" yOffset="110"/>
-    <component base="rwaha-syriac" xScale="0.83867" xyScale="-0.54464" yxScale="0.54464" yScale="0.83867" xOffset="21" yOffset="256"/>
+    <component base="rwaha-syriac" xScale="0.83867" xyScale="-0.54464" yxScale="0.54464" yScale="0.83867" xOffset="290" yOffset="178"/>
+    <component base="rwaha-syriac" xScale="0.83867" xyScale="-0.54464" yxScale="0.54464" yScale="0.83867" xOffset="34" yOffset="415"/>
   </outline>
 </glyph>

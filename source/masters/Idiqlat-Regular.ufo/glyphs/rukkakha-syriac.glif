@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rukkakha-syriac" format="2">
   <unicode hex="0742"/>
-  <anchor x="75" y="-51" name="_below"/>
-  <anchor x="75" y="-330" name="below"/>
+  <anchor x="121" y="-83" name="_below"/>
+  <anchor x="121" y="-534" name="below"/>
   <outline>
-    <component base="rwaha-syriac" xOffset="-11" yOffset="-236"/>
+    <component base="rwaha-syriac" xOffset="-18" yOffset="-382"/>
   </outline>
 </glyph>

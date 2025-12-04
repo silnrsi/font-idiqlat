@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zlamadottedangular-syriac" format="2">
   <unicode hex="0739"/>
-  <anchor x="465" y="-140" name="_below"/>
-  <anchor x="465" y="-465" name="below"/>
+  <anchor x="753" y="-227" name="_below"/>
+  <anchor x="753" y="-753" name="below"/>
   <outline>
-    <component base="rwaha-syriac" xScale="0.9563" xyScale="-0.29237" yxScale="0.29237" yScale="0.9563" xOffset="453" yOffset="-318"/>
-    <component base="rwaha-syriac" xScale="0.9563" xyScale="-0.29237" yxScale="0.29237" yScale="0.9563" xOffset="256" yOffset="-393"/>
+    <component base="rwaha-syriac" xScale="0.9563" xyScale="-0.29237" yxScale="0.29237" yScale="0.9563" xOffset="734" yOffset="-515"/>
+    <component base="rwaha-syriac" xScale="0.9563" xyScale="-0.29237" yxScale="0.29237" yScale="0.9563" xOffset="415" yOffset="-637"/>
   </outline>
 </glyph>

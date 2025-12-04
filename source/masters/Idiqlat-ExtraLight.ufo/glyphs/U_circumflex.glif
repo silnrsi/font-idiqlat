@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ucircumflex" format="2">
-  <advance width="957"/>
+  <advance width="1550"/>
   <unicode hex="00DB"/>
   <note>
 Ucircumflex
 </note>
   <outline>
     <component base="U"/>
-    <component base="_circumflex.case" xOffset="87" yOffset="-102"/>
+    <component base="_circumflex.case" xOffset="141" yOffset="-165"/>
   </outline>
   <lib>
     <dict>

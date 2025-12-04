@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="divisionslash" format="2">
-  <advance width="430"/>
+  <advance width="696"/>
   <unicode hex="2215"/>
   <outline>
-    <component base="fraction" xOffset="106"/>
+    <component base="fraction" xOffset="172"/>
   </outline>
   <lib>
     <dict>

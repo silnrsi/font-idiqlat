@@ -2,56 +2,56 @@
 <glyph name="pthahadotted-syriac" format="2">
   <outline>
     <contour>
-      <point x="416" y="961" type="curve" smooth="yes"/>
-      <point x="435" y="961"/>
-      <point x="450" y="975"/>
-      <point x="462" y="1003" type="curve" smooth="yes"/>
-      <point x="471" y="1025"/>
-      <point x="476" y="1047"/>
-      <point x="476" y="1069" type="curve" smooth="yes"/>
-      <point x="476" y="1087"/>
-      <point x="471" y="1108"/>
-      <point x="462" y="1131" type="curve" smooth="yes"/>
-      <point x="451" y="1160"/>
-      <point x="439" y="1175"/>
-      <point x="424" y="1175" type="curve" smooth="yes"/>
-      <point x="405" y="1175"/>
-      <point x="389" y="1160"/>
-      <point x="377" y="1131" type="curve" smooth="yes"/>
-      <point x="368" y="1108"/>
-      <point x="363" y="1085"/>
-      <point x="363" y="1063" type="curve" smooth="yes"/>
-      <point x="363" y="1044"/>
-      <point x="367" y="1023"/>
-      <point x="376" y="1001" type="curve" smooth="yes"/>
-      <point x="387" y="974"/>
-      <point x="400" y="961"/>
+      <point x="674" y="1556" type="curve" smooth="yes"/>
+      <point x="705" y="1556"/>
+      <point x="729" y="1579"/>
+      <point x="748" y="1624" type="curve" smooth="yes"/>
+      <point x="763" y="1660"/>
+      <point x="771" y="1696"/>
+      <point x="771" y="1731" type="curve" smooth="yes"/>
+      <point x="771" y="1761"/>
+      <point x="763" y="1795"/>
+      <point x="748" y="1832" type="curve" smooth="yes"/>
+      <point x="730" y="1879"/>
+      <point x="711" y="1903"/>
+      <point x="687" y="1903" type="curve" smooth="yes"/>
+      <point x="656" y="1903"/>
+      <point x="630" y="1879"/>
+      <point x="611" y="1832" type="curve" smooth="yes"/>
+      <point x="596" y="1795"/>
+      <point x="588" y="1757"/>
+      <point x="588" y="1722" type="curve" smooth="yes"/>
+      <point x="588" y="1691"/>
+      <point x="594" y="1657"/>
+      <point x="609" y="1621" type="curve" smooth="yes"/>
+      <point x="627" y="1578"/>
+      <point x="648" y="1556"/>
     </contour>
     <contour>
-      <point x="432" y="-350" type="curve" smooth="yes"/>
-      <point x="451" y="-350"/>
-      <point x="466" y="-336"/>
-      <point x="477" y="-308" type="curve" smooth="yes"/>
-      <point x="486" y="-286"/>
-      <point x="491" y="-264"/>
-      <point x="491" y="-242" type="curve" smooth="yes"/>
-      <point x="491" y="-224"/>
-      <point x="487" y="-203"/>
-      <point x="478" y="-179" type="curve" smooth="yes"/>
-      <point x="467" y="-150"/>
-      <point x="454" y="-136"/>
-      <point x="439" y="-136" type="curve" smooth="yes"/>
-      <point x="420" y="-136"/>
-      <point x="404" y="-151"/>
-      <point x="392" y="-180" type="curve" smooth="yes"/>
-      <point x="383" y="-203"/>
-      <point x="378" y="-225"/>
-      <point x="378" y="-248" type="curve" smooth="yes"/>
-      <point x="378" y="-267"/>
-      <point x="382" y="-288"/>
-      <point x="391" y="-309" type="curve" smooth="yes"/>
-      <point x="402" y="-336"/>
-      <point x="416" y="-350"/>
+      <point x="700" y="-567" type="curve" smooth="yes"/>
+      <point x="730" y="-567"/>
+      <point x="755" y="-544"/>
+      <point x="773" y="-499" type="curve" smooth="yes"/>
+      <point x="787" y="-463"/>
+      <point x="795" y="-428"/>
+      <point x="795" y="-392" type="curve" smooth="yes"/>
+      <point x="795" y="-363"/>
+      <point x="789" y="-329"/>
+      <point x="774" y="-290" type="curve" smooth="yes"/>
+      <point x="756" y="-243"/>
+      <point x="735" y="-220"/>
+      <point x="711" y="-220" type="curve" smooth="yes"/>
+      <point x="680" y="-220"/>
+      <point x="654" y="-245"/>
+      <point x="635" y="-292" type="curve" smooth="yes"/>
+      <point x="620" y="-329"/>
+      <point x="612" y="-364"/>
+      <point x="612" y="-402" type="curve" smooth="yes"/>
+      <point x="612" y="-432"/>
+      <point x="619" y="-466"/>
+      <point x="633" y="-500" type="curve" smooth="yes"/>
+      <point x="651" y="-544"/>
+      <point x="674" y="-567"/>
     </contour>
   </outline>
 </glyph>

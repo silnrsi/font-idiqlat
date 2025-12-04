@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaph-syriac" format="2">
-  <advance width="1096"/>
+  <advance width="1775"/>
   <unicode hex="071F"/>
-  <anchor x="648" y="750" name="above"/>
-  <anchor x="50" y="750" name="aboveleft"/>
-  <anchor x="648" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <anchor x="1050" y="1215" name="above"/>
+  <anchor x="81" y="1215" name="aboveleft"/>
+  <anchor x="1050" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="kaph-syriac.init" xOffset="221"/>
-    <component base="_LeftTail" xOffset="-50"/>
+    <component base="kaph-syriac.init" xOffset="358"/>
+    <component base="_LeftTail" xOffset="-81"/>
   </outline>
 </glyph>

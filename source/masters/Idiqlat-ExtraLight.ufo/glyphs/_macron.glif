@@ -3,14 +3,14 @@
   <note>
 uni0304
 </note>
-  <anchor x="420" y="610" name="_above"/>
-  <anchor x="420" y="964" name="above"/>
+  <anchor x="680" y="988" name="_above"/>
+  <anchor x="680" y="1561" name="above"/>
   <outline>
     <contour>
-      <point x="211" y="855" type="line"/>
-      <point x="211" y="768" type="line"/>
-      <point x="630" y="768" type="line"/>
-      <point x="630" y="855" type="line"/>
+      <point x="342" y="1385" type="line"/>
+      <point x="342" y="1244" type="line"/>
+      <point x="1020" y="1244" type="line"/>
+      <point x="1020" y="1385" type="line"/>
     </contour>
   </outline>
   <lib>

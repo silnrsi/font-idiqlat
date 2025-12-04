@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresiscomb" format="2">
   <unicode hex="0308"/>
-  <anchor x="253" y="0" name="_above"/>
-  <anchor x="253" y="305" name="above"/>
+  <anchor x="410" y="0" name="_above"/>
+  <anchor x="410" y="494" name="above"/>
   <outline>
-    <component base="dotaccentcomb" xOffset="-3"/>
-    <component base="dotaccentcomb" xOffset="288"/>
+    <component base="dotaccentcomb" xOffset="-5"/>
+    <component base="dotaccentcomb" xOffset="466"/>
   </outline>
 </glyph>

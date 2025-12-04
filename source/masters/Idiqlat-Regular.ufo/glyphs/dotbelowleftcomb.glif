@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotbelowleftcomb" format="2">
   <unicode hex="1DFA"/>
-  <anchor x="220" y="240" name="_belowleft"/>
+  <anchor x="356" y="389" name="_belowleft"/>
   <outline>
-    <component base="rwaha-syriac" xOffset="-2"/>
+    <component base="rwaha-syriac" xOffset="-3"/>
   </outline>
 </glyph>

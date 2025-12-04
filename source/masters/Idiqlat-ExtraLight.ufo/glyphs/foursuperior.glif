@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="foursuperior" format="2">
-  <advance width="561"/>
+  <advance width="909"/>
   <unicode hex="2074"/>
   <outline>
     <contour>
-      <point x="431" y="350" type="line"/>
-      <point x="431" y="667" type="line"/>
-      <point x="431" y="725"/>
-      <point x="432" y="784"/>
-      <point x="437" y="828" type="curve"/>
-      <point x="356" y="828" type="line"/>
-      <point x="36" y="465" type="line"/>
-      <point x="45" y="419" type="line"/>
-      <point x="514" y="419" type="line"/>
-      <point x="514" y="502" type="line"/>
-      <point x="138" y="502" type="line"/>
-      <point x="135" y="485" type="line"/>
-      <point x="311" y="690" type="line"/>
-      <point x="295" y="693" type="line"/>
-      <point x="295" y="350" type="line"/>
-      <point x="215" y="335" type="line"/>
-      <point x="219" y="280" type="line"/>
-      <point x="495" y="280" type="line"/>
-      <point x="497" y="335" type="line"/>
+      <point x="698" y="567" type="line"/>
+      <point x="698" y="1080" type="line"/>
+      <point x="698" y="1174"/>
+      <point x="700" y="1270"/>
+      <point x="708" y="1341" type="curve"/>
+      <point x="577" y="1341" type="line"/>
+      <point x="58" y="753" type="line"/>
+      <point x="73" y="679" type="line"/>
+      <point x="832" y="679" type="line"/>
+      <point x="832" y="813" type="line"/>
+      <point x="224" y="813" type="line"/>
+      <point x="219" y="786" type="line"/>
+      <point x="504" y="1118" type="line"/>
+      <point x="478" y="1122" type="line"/>
+      <point x="478" y="567" type="line"/>
+      <point x="348" y="543" type="line"/>
+      <point x="355" y="453" type="line"/>
+      <point x="802" y="453" type="line"/>
+      <point x="805" y="543" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="threedotsabove-syriac" format="2">
   <unicode hex="0745"/>
-  <anchor x="180" y="0" name="_above"/>
-  <anchor x="165" y="375" name="above"/>
+  <anchor x="292" y="0" name="_above"/>
+  <anchor x="267" y="607" name="above"/>
   <outline>
-    <component base="_smDotsquare" xOffset="177" yOffset="2"/>
-    <component base="_smDotsquare" xOffset="66" yOffset="161"/>
-    <component base="_smDotsquare" xOffset="-45" yOffset="2"/>
+    <component base="_smDotsquare" xOffset="287" yOffset="3"/>
+    <component base="_smDotsquare" xOffset="107" yOffset="261"/>
+    <component base="_smDotsquare" xOffset="-73" yOffset="3"/>
   </outline>
 </glyph>

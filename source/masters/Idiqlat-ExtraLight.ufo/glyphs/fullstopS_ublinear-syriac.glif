@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fullstopSublinear-syriac" format="2">
-  <advance width="430"/>
+  <advance width="696"/>
   <unicode hex="0702"/>
   <outline>
-    <component base="fullstopSupralinear-syriac" yOffset="-819"/>
+    <component base="fullstopSupralinear-syriac" yOffset="-1326"/>
   </outline>
 </glyph>

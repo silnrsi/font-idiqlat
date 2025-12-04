@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sidebearingright" format="2">
-  <advance width="297"/>
+  <advance width="481"/>
   <unicode hex="F131"/>
   <outline>
     <contour>
-      <point x="258" y="-34" type="line"/>
-      <point x="258" y="0" type="line"/>
+      <point x="418" y="-55" type="line"/>
+      <point x="418" y="0" type="line"/>
       <point x="0" y="0" type="line"/>
-      <point x="0" y="-258" type="line"/>
-      <point x="34" y="-258" type="line"/>
-      <point x="34" y="-34" type="line"/>
+      <point x="0" y="-418" type="line"/>
+      <point x="55" y="-418" type="line"/>
+      <point x="55" y="-55" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dhalathPersian-syriac.fina" format="2">
-  <advance width="652"/>
-  <anchor x="282" y="720" name="above"/>
-  <anchor x="50" y="750" name="aboveleft"/>
-  <anchor x="310" y="-390" name="below"/>
-  <anchor x="50" y="-390" name="belowleft"/>
+  <advance width="1056"/>
+  <anchor x="457" y="1166" name="above"/>
+  <anchor x="81" y="1215" name="aboveleft"/>
+  <anchor x="502" y="-632" name="below"/>
+  <anchor x="81" y="-632" name="belowleft"/>
   <outline>
     <component base="dalathrishDotless-syriac.fina"/>
-    <component base="_LrgSquareDot" xOffset="-141"/>
-    <component base="_LrgSquareDot" xOffset="130"/>
+    <component base="_LrgSquareDot" xOffset="-228"/>
+    <component base="_LrgSquareDot" xOffset="211"/>
   </outline>
   <lib>
     <dict>

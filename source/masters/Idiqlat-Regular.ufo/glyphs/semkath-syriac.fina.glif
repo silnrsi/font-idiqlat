@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semkath-syriac.fina" format="2">
-  <advance width="1206"/>
-  <anchor x="818" y="780" name="above"/>
-  <anchor x="50" y="780" name="aboveleft"/>
-  <anchor x="758" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="1953"/>
+  <anchor x="1325" y="1263" name="above"/>
+  <anchor x="81" y="1263" name="aboveleft"/>
+  <anchor x="1228" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="semkath-syriac"/>
     <contour>
-      <point x="986" y="195" type="line"/>
-      <point x="986" y="65"/>
-      <point x="1020" y="0"/>
-      <point x="1105" y="0" type="curve" smooth="yes"/>
-      <point x="1226" y="0" type="line"/>
-      <point x="1226" y="195" type="line"/>
+      <point x="1597" y="316" type="line"/>
+      <point x="1597" y="105"/>
+      <point x="1652" y="0"/>
+      <point x="1790" y="0" type="curve" smooth="yes"/>
+      <point x="1986" y="0" type="line"/>
+      <point x="1986" y="316" type="line"/>
     </contour>
   </outline>
   <lib>

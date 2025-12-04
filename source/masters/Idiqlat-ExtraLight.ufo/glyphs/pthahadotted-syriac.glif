@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pthahadotted-syriac" format="2">
   <unicode hex="0732"/>
-  <anchor x="430" y="508" name="_center"/>
+  <anchor x="696" y="823" name="_center"/>
   <outline>
-    <component base="rwaha-syriac" xOffset="341" yOffset="-356"/>
-    <component base="rwaha-syriac" xOffset="341" yOffset="956"/>
+    <component base="rwaha-syriac" xOffset="552" yOffset="-577"/>
+    <component base="rwaha-syriac" xOffset="552" yOffset="1548"/>
   </outline>
 </glyph>

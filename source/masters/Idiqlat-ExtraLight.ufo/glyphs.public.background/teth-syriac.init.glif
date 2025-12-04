@@ -2,28 +2,28 @@
 <glyph name="teth-syriac.init" format="2">
   <outline>
     <contour>
-      <point x="896" y="-324" type="curve"/>
-      <point x="916" y="-309" type="line"/>
-      <point x="592" y="296"/>
-      <point x="425" y="689"/>
-      <point x="385" y="783" type="curve" smooth="yes"/>
-      <point x="346" y="872"/>
-      <point x="345" y="951"/>
-      <point x="345" y="971" type="curve" smooth="yes"/>
-      <point x="345" y="978"/>
-      <point x="344" y="982"/>
-      <point x="341" y="982" type="curve" smooth="yes"/>
-      <point x="323" y="982"/>
-      <point x="198" y="831"/>
-      <point x="198" y="783" type="curve" smooth="yes"/>
-      <point x="198" y="739"/>
-      <point x="428" y="355"/>
-      <point x="578" y="107" type="curve"/>
-      <point x="596" y="83"/>
-      <point x="644" y="58"/>
-      <point x="662" y="34" type="curve"/>
-      <point x="770" y="-113"/>
-      <point x="817" y="-217"/>
+      <point x="1451" y="-525" type="curve"/>
+      <point x="1484" y="-500" type="line"/>
+      <point x="959" y="479"/>
+      <point x="688" y="1116"/>
+      <point x="624" y="1268" type="curve" smooth="yes"/>
+      <point x="560" y="1412"/>
+      <point x="559" y="1540"/>
+      <point x="559" y="1573" type="curve" smooth="yes"/>
+      <point x="559" y="1584"/>
+      <point x="557" y="1590"/>
+      <point x="552" y="1590" type="curve" smooth="yes"/>
+      <point x="523" y="1590"/>
+      <point x="321" y="1346"/>
+      <point x="321" y="1268" type="curve" smooth="yes"/>
+      <point x="321" y="1197"/>
+      <point x="693" y="575"/>
+      <point x="936" y="173" type="curve"/>
+      <point x="965" y="134"/>
+      <point x="1043" y="94"/>
+      <point x="1072" y="55" type="curve"/>
+      <point x="1247" y="-183"/>
+      <point x="1323" y="-351"/>
     </contour>
   </outline>
 </glyph>

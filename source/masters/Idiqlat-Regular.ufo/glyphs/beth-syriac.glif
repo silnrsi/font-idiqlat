@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="beth-syriac" format="2">
-  <advance width="1008"/>
+  <advance width="1633"/>
   <unicode hex="0712"/>
-  <anchor x="678" y="780" name="above"/>
-  <anchor x="50" y="780" name="aboveleft"/>
-  <anchor x="618" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <anchor x="1098" y="1263" name="above"/>
+  <anchor x="81" y="1263" name="aboveleft"/>
+  <anchor x="1001" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_beth" xOffset="181"/>
-    <component base="_LeftTail" xOffset="-50"/>
+    <component base="_beth" xOffset="293"/>
+    <component base="_LeftTail" xOffset="-81"/>
   </outline>
 </glyph>

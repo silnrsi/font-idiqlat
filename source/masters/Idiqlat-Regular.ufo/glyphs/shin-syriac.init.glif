@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shin-syriac.init" format="2">
-  <advance width="936"/>
-  <anchor x="450" y="780" name="above"/>
-  <anchor x="50" y="780" name="aboveleft"/>
-  <anchor x="465" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="1516"/>
+  <anchor x="729" y="1263" name="above"/>
+  <anchor x="81" y="1263" name="aboveleft"/>
+  <anchor x="753" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_shin" xOffset="-19"/>
+    <component base="_shin" xOffset="-31"/>
     <component base="kashida-ar.quarter"/>
   </outline>
 </glyph>

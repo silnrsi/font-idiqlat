@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="approxequal.rtl" format="2">
-  <advance width="757"/>
+  <advance width="1226"/>
   <outline>
-    <component base="approxequal" xScale="-1" xOffset="757"/>
+    <component base="approxequal" xScale="-1" xOffset="1226"/>
   </outline>
   <lib>
     <dict>

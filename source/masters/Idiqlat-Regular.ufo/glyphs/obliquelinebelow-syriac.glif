@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="obliquelinebelow-syriac" format="2">
   <unicode hex="0748"/>
-  <anchor x="-15" y="-60" name="_below"/>
-  <anchor x="0" y="-480" name="below"/>
+  <anchor x="-24" y="-97" name="_below"/>
+  <anchor x="0" y="-777" name="below"/>
   <outline>
     <contour>
-      <point x="252" y="-437" type="line"/>
-      <point x="310" y="-372" type="line"/>
-      <point x="-288" y="0" type="line"/>
-      <point x="-346" y="-62" type="line"/>
+      <point x="408" y="-708" type="line"/>
+      <point x="502" y="-603" type="line"/>
+      <point x="-466" y="0" type="line"/>
+      <point x="-560" y="-100" type="line"/>
     </contour>
   </outline>
 </glyph>

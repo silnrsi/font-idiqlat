@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qaph-syriac.medi" format="2">
-  <advance width="869"/>
-  <anchor x="480" y="780" name="above"/>
-  <anchor x="50" y="780" name="aboveleft"/>
-  <anchor x="540" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="1407"/>
+  <anchor x="777" y="1263" name="above"/>
+  <anchor x="81" y="1263" name="aboveleft"/>
+  <anchor x="875" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_qaph" xOffset="100"/>
+    <component base="_qaph" xOffset="162"/>
     <component base="kashida-ar.quarter"/>
-    <component base="_right_connector" xOffset="958"/>
+    <component base="_right_connector" xOffset="1552"/>
     <contour>
-      <point x="265" y="195" type="curve"/>
-      <point x="0" y="195" type="line"/>
+      <point x="429" y="316" type="curve"/>
+      <point x="0" y="316" type="line"/>
       <point x="0" y="0" type="line"/>
-      <point x="147" y="0" type="line" smooth="yes"/>
-      <point x="230" y="0"/>
-      <point x="271" y="65"/>
+      <point x="238" y="0" type="line" smooth="yes"/>
+      <point x="373" y="0"/>
+      <point x="439" y="105"/>
     </contour>
   </outline>
   <lib>

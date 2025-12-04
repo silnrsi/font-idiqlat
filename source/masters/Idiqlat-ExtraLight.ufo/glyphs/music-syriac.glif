@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="music-syriac" format="2">
   <unicode hex="0749"/>
-  <anchor x="706" y="180" name="_above"/>
-  <anchor x="320" y="585" name="above"/>
+  <anchor x="1143" y="292" name="_above"/>
+  <anchor x="518" y="947" name="above"/>
   <outline>
     <contour>
-      <point x="219" y="183" type="line"/>
-      <point x="584" y="438" type="line"/>
-      <point x="584" y="520" type="line"/>
-      <point x="219" y="263" type="line"/>
+      <point x="355" y="296" type="line"/>
+      <point x="946" y="709" type="line"/>
+      <point x="946" y="842" type="line"/>
+      <point x="355" y="426" type="line"/>
     </contour>
   </outline>
   <lib>

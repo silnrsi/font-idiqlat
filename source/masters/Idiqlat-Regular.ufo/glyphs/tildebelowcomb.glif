@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildebelowcomb" format="2">
   <unicode hex="0330"/>
-  <anchor x="255" y="165" name="_below"/>
-  <anchor x="255" y="-105" name="below"/>
+  <anchor x="413" y="267" name="_below"/>
+  <anchor x="413" y="-170" name="below"/>
   <outline>
     <component base="tildecomb"/>
   </outline>

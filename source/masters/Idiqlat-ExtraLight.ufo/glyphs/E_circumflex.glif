@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ecircumflex" format="2">
-  <advance width="799"/>
+  <advance width="1294"/>
   <unicode hex="00CA"/>
   <note>
 Ecircumflex
 </note>
   <outline>
     <component base="E"/>
-    <component base="_circumflex.case" xOffset="-19" yOffset="-102"/>
+    <component base="_circumflex.case" xOffset="-31" yOffset="-165"/>
   </outline>
   <lib>
     <dict>

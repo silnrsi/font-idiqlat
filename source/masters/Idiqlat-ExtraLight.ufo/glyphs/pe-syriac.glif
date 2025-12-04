@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pe-syriac" format="2">
-  <advance width="1038"/>
+  <advance width="1681"/>
   <unicode hex="0726"/>
-  <anchor x="681" y="990" name="above"/>
-  <anchor x="10" y="990" name="aboveleft"/>
-  <anchor x="666" y="-150" name="below"/>
-  <anchor x="10" y="-150" name="belowleft"/>
+  <anchor x="1103" y="1603" name="above"/>
+  <anchor x="16" y="1603" name="aboveleft"/>
+  <anchor x="1079" y="-243" name="below"/>
+  <anchor x="16" y="-243" name="belowleft"/>
   <outline>
-    <component base="_LeftTail" xOffset="-50"/>
-    <component base="pe-syriac.init" xOffset="226"/>
+    <component base="_LeftTail" xOffset="-81"/>
+    <component base="pe-syriac.init" xOffset="366"/>
   </outline>
 </glyph>

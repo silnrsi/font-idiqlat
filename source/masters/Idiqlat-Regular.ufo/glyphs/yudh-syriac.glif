@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yudh-syriac" format="2">
-  <advance width="881"/>
+  <advance width="1427"/>
   <unicode hex="071D"/>
-  <anchor x="496" y="540" name="above"/>
-  <anchor x="50" y="540" name="aboveleft"/>
-  <anchor x="511" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <anchor x="803" y="875" name="above"/>
+  <anchor x="81" y="875" name="aboveleft"/>
+  <anchor x="828" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_heth-init" xOffset="347"/>
-    <component base="_LeftTail" xOffset="-50"/>
+    <component base="_heth-init" xOffset="562"/>
+    <component base="_LeftTail" xOffset="-81"/>
     <contour>
-      <point x="583" y="195" type="curve"/>
-      <point x="283" y="195" type="line"/>
-      <point x="283" y="0" type="line"/>
-      <point x="464" y="0" type="line" smooth="yes"/>
-      <point x="549" y="0"/>
-      <point x="583" y="65"/>
+      <point x="944" y="316" type="curve"/>
+      <point x="458" y="316" type="line"/>
+      <point x="458" y="0" type="line"/>
+      <point x="752" y="0" type="line" smooth="yes"/>
+      <point x="889" y="0"/>
+      <point x="944" y="105"/>
     </contour>
   </outline>
   <lib>

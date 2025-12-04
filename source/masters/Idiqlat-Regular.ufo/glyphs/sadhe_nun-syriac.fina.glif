@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sadhe_nun-syriac.fina" format="2">
-  <advance width="1081"/>
-  <anchor x="730" y="420" name="above_1"/>
-  <anchor x="130" y="330" name="above_2"/>
-  <anchor x="790" y="-645" name="below_1"/>
-  <anchor x="265" y="-240" name="below_2"/>
+  <advance width="1751"/>
+  <anchor x="1182" y="680" name="above_1"/>
+  <anchor x="211" y="534" name="above_2"/>
+  <anchor x="1280" y="-1045" name="below_1"/>
+  <anchor x="429" y="-389" name="below_2"/>
   <outline>
     <component base="sadhe_nun-syriac"/>
     <contour>
-      <point x="971" y="236" type="curve"/>
-      <point x="877" y="70" type="line"/>
-      <point x="934" y="18"/>
-      <point x="977" y="0"/>
-      <point x="1013" y="0" type="curve" smooth="yes"/>
-      <point x="1101" y="0" type="line"/>
-      <point x="1101" y="195" type="line"/>
-      <point x="1081" y="195" type="line" smooth="yes"/>
-      <point x="1034" y="195"/>
-      <point x="1014" y="200"/>
+      <point x="1573" y="382" type="curve"/>
+      <point x="1420" y="113" type="line"/>
+      <point x="1513" y="29"/>
+      <point x="1582" y="0"/>
+      <point x="1641" y="0" type="curve" smooth="yes"/>
+      <point x="1783" y="0" type="line"/>
+      <point x="1783" y="316" type="line"/>
+      <point x="1751" y="316" type="line" smooth="yes"/>
+      <point x="1675" y="316"/>
+      <point x="1642" y="324"/>
     </contour>
   </outline>
   <lib>

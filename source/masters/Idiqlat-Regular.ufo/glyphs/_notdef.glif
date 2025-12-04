@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name=".notdef" format="2">
-  <advance width="993"/>
+  <advance width="1608"/>
   <outline>
-    <component base="kaph-syriac" xScale="0.7" yScale="0.7" xOffset="142" yOffset="335"/>
+    <component base="kaph-syriac" xScale="0.7" yScale="0.7" xOffset="230" yOffset="543"/>
     <contour>
-      <point x="918" y="871" type="line"/>
-      <point x="918" y="-199" type="line"/>
-      <point x="74" y="-199" type="line"/>
-      <point x="74" y="871" type="line"/>
+      <point x="1487" y="1411" type="line"/>
+      <point x="1487" y="-322" type="line"/>
+      <point x="120" y="-322" type="line"/>
+      <point x="120" y="1411" type="line"/>
     </contour>
     <contour>
-      <point x="940" y="893" type="line"/>
-      <point x="52" y="893" type="line"/>
-      <point x="52" y="-221" type="line"/>
-      <point x="940" y="-221" type="line"/>
+      <point x="1522" y="1446" type="line"/>
+      <point x="84" y="1446" type="line"/>
+      <point x="84" y="-358" type="line"/>
+      <point x="1522" y="-358" type="line"/>
     </contour>
   </outline>
   <lib>

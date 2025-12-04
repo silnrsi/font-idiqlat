@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semkath-syriac.init" format="2">
-  <advance width="1022"/>
-  <anchor x="615" y="780" name="above"/>
-  <anchor x="50" y="780" name="aboveleft"/>
-  <anchor x="540" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="1655"/>
+  <anchor x="996" y="1263" name="above"/>
+  <anchor x="81" y="1263" name="aboveleft"/>
+  <anchor x="875" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_semkath" xOffset="142"/>
+    <component base="_semkath" xOffset="230"/>
     <component base="kashida-ar.half"/>
   </outline>
 </glyph>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Odieresis" format="2">
-  <advance width="997"/>
+  <advance width="1615"/>
   <unicode hex="00D6"/>
   <note>
 Odieresis
 </note>
   <outline>
     <component base="O"/>
-    <component base="_dieresis.case" xOffset="77" yOffset="-102"/>
+    <component base="_dieresis.case" xOffset="125" yOffset="-165"/>
   </outline>
   <lib>
     <dict>

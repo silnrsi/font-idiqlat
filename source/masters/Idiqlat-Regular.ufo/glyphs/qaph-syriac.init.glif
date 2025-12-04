@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qaph-syriac.init" format="2">
-  <advance width="875"/>
-  <anchor x="465" y="780" name="above"/>
-  <anchor x="50" y="780" name="aboveleft"/>
-  <anchor x="510" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="1417"/>
+  <anchor x="753" y="1263" name="above"/>
+  <anchor x="81" y="1263" name="aboveleft"/>
+  <anchor x="826" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_qaph" xOffset="100"/>
+    <component base="_qaph" xOffset="162"/>
     <component base="kashida-ar.quarter"/>
     <contour>
-      <point x="265" y="195" type="curve"/>
-      <point x="0" y="195" type="line"/>
+      <point x="429" y="316" type="curve"/>
+      <point x="0" y="316" type="line"/>
       <point x="0" y="0" type="line"/>
-      <point x="147" y="0" type="line" smooth="yes"/>
-      <point x="230" y="0"/>
-      <point x="271" y="65"/>
+      <point x="238" y="0" type="line" smooth="yes"/>
+      <point x="373" y="0"/>
+      <point x="439" y="105"/>
     </contour>
   </outline>
   <lib>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhainSogdian-syriac.fina" format="2">
-  <advance width="959"/>
-  <anchor x="484" y="743" name="above"/>
-  <anchor x="50" y="743" name="aboveleft"/>
-  <anchor x="484" y="-510" name="below"/>
-  <anchor x="50" y="-510" name="belowleft"/>
+  <advance width="1553"/>
+  <anchor x="784" y="1203" name="above"/>
+  <anchor x="81" y="1203" name="aboveleft"/>
+  <anchor x="784" y="-826" name="below"/>
+  <anchor x="81" y="-826" name="belowleft"/>
   <outline>
     <component base="zhainSogdian-syriac"/>
     <contour>
-      <point x="769" y="195" type="line"/>
-      <point x="769" y="65"/>
-      <point x="803" y="0"/>
-      <point x="888" y="0" type="curve" smooth="yes"/>
-      <point x="979" y="0" type="line"/>
-      <point x="979" y="195" type="line"/>
+      <point x="1245" y="316" type="line"/>
+      <point x="1245" y="105"/>
+      <point x="1301" y="0"/>
+      <point x="1438" y="0" type="curve" smooth="yes"/>
+      <point x="1586" y="0" type="line"/>
+      <point x="1586" y="316" type="line"/>
     </contour>
   </outline>
   <lib>

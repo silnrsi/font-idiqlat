@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="beth-syriac.medi" format="2">
-  <advance width="931"/>
-  <anchor x="555" y="750" name="above"/>
-  <anchor x="50" y="750" name="aboveleft"/>
-  <anchor x="510" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="1508"/>
+  <anchor x="899" y="1215" name="above"/>
+  <anchor x="81" y="1215" name="aboveleft"/>
+  <anchor x="826" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="beth-syriac.init"/>
-    <component base="_right_connector" xOffset="1020"/>
+    <component base="_right_connector" xOffset="1652"/>
   </outline>
 </glyph>

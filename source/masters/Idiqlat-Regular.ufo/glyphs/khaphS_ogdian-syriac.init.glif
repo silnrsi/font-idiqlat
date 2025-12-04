@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="khaphSogdian-syriac.init" format="2">
-  <advance width="875"/>
-  <anchor x="654" y="965" name="above"/>
-  <anchor x="50" y="965" name="aboveleft"/>
-  <anchor x="425" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="1417"/>
+  <anchor x="1059" y="1563" name="above"/>
+  <anchor x="81" y="1563" name="aboveleft"/>
+  <anchor x="688" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="kaph-syriac.init"/>
     <contour>
-      <point x="295" y="529" type="curve"/>
-      <point x="376" y="479" type="line"/>
-      <point x="452" y="582"/>
-      <point x="553" y="754"/>
-      <point x="553" y="861" type="curve" smooth="yes"/>
-      <point x="553" y="958"/>
-      <point x="485" y="988"/>
-      <point x="439" y="988" type="curve" smooth="yes"/>
-      <point x="366" y="988"/>
-      <point x="311" y="920"/>
-      <point x="311" y="867" type="curve" smooth="yes"/>
-      <point x="311" y="763"/>
-      <point x="439" y="799"/>
-      <point x="439" y="727" type="curve" smooth="yes"/>
-      <point x="439" y="665"/>
-      <point x="329" y="586"/>
+      <point x="478" y="857" type="curve"/>
+      <point x="609" y="776" type="line"/>
+      <point x="732" y="943"/>
+      <point x="896" y="1221"/>
+      <point x="896" y="1395" type="curve" smooth="yes"/>
+      <point x="896" y="1552"/>
+      <point x="786" y="1600"/>
+      <point x="711" y="1600" type="curve" smooth="yes"/>
+      <point x="593" y="1600"/>
+      <point x="504" y="1490"/>
+      <point x="504" y="1404" type="curve" smooth="yes"/>
+      <point x="504" y="1236"/>
+      <point x="711" y="1294"/>
+      <point x="711" y="1177" type="curve" smooth="yes"/>
+      <point x="711" y="1077"/>
+      <point x="533" y="949"/>
     </contour>
   </outline>
   <lib>

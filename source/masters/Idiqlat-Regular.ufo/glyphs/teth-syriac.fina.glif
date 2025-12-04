@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="teth-syriac.fina" format="2">
-  <advance width="1451"/>
-  <anchor x="887" y="750" name="above"/>
-  <anchor x="50" y="750" name="aboveleft"/>
-  <anchor x="632" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="2350"/>
+  <anchor x="1437" y="1215" name="above"/>
+  <anchor x="81" y="1215" name="aboveleft"/>
+  <anchor x="1024" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="teth-syriac.medi" xOffset="244"/>
-    <component base="_LeftTail" xOffset="-50"/>
+    <component base="teth-syriac.medi" xOffset="395"/>
+    <component base="_LeftTail" xOffset="-81"/>
   </outline>
 </glyph>

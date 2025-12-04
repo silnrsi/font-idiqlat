@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shin-syriac.medi" format="2">
-  <advance width="786"/>
-  <anchor x="450" y="780" name="above"/>
-  <anchor x="50" y="780" name="aboveleft"/>
-  <anchor x="465" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="1273"/>
+  <anchor x="729" y="1263" name="above"/>
+  <anchor x="81" y="1263" name="aboveleft"/>
+  <anchor x="753" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_shin" xOffset="-69"/>
+    <component base="_shin" xOffset="-112"/>
     <component base="kashida-ar.quarter"/>
-    <component base="kashida-ar.quarter" xOffset="696"/>
+    <component base="kashida-ar.quarter" xOffset="1127"/>
   </outline>
 </glyph>

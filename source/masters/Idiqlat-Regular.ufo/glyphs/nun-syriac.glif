@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nun-syriac" format="2">
-  <advance width="887"/>
+  <advance width="1437"/>
   <unicode hex="0722"/>
-  <anchor x="548" y="765" name="above"/>
-  <anchor x="50" y="765" name="aboveleft"/>
-  <anchor x="558" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <anchor x="888" y="1239" name="above"/>
+  <anchor x="81" y="1239" name="aboveleft"/>
+  <anchor x="904" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="nun-syriac.init" xOffset="222"/>
-    <component base="_LeftTail" xOffset="-50"/>
+    <component base="nun-syriac.init" xOffset="360"/>
+    <component base="_LeftTail" xOffset="-81"/>
   </outline>
 </glyph>

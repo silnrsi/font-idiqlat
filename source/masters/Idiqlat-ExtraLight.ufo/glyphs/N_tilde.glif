@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ntilde" format="2">
-  <advance width="962"/>
+  <advance width="1558"/>
   <unicode hex="00D1"/>
   <note>
 Ntilde
 </note>
   <outline>
     <component base="N"/>
-    <component base="_tilde.case" xOffset="60" yOffset="-102"/>
+    <component base="_tilde.case" xOffset="97" yOffset="-165"/>
   </outline>
   <lib>
     <dict>

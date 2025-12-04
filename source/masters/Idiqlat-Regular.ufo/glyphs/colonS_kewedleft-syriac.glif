@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colonSkewedleft-syriac" format="2">
-  <advance width="486"/>
+  <advance width="787"/>
   <unicode hex="0706"/>
   <outline>
-    <component base="fullstopSupralinear-syriac" xOffset="-58" yOffset="-345"/>
-    <component base="fullstopSupralinear-syriac" xOffset="97" yOffset="-632"/>
+    <component base="fullstopSupralinear-syriac" xOffset="-94" yOffset="-559"/>
+    <component base="fullstopSupralinear-syriac" xOffset="157" yOffset="-1024"/>
   </outline>
 </glyph>

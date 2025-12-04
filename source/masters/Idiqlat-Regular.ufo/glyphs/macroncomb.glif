@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macroncomb" format="2">
   <unicode hex="0304"/>
-  <anchor x="255" y="0" name="_above"/>
-  <anchor x="255" y="225" name="above"/>
+  <anchor x="413" y="0" name="_above"/>
+  <anchor x="413" y="364" name="above"/>
   <outline>
     <contour>
-      <point x="47" y="0" type="curve" smooth="yes"/>
-      <point x="480" y="0" type="line" smooth="yes"/>
-      <point x="511" y="0"/>
-      <point x="527" y="12"/>
-      <point x="527" y="37" type="curve" smooth="yes"/>
-      <point x="527" y="62"/>
-      <point x="511" y="75"/>
-      <point x="478" y="75" type="curve" smooth="yes"/>
-      <point x="50" y="75" type="line" smooth="yes"/>
-      <point x="17" y="75"/>
-      <point x="1" y="62"/>
-      <point x="1" y="37" type="curve" smooth="yes"/>
-      <point x="1" y="12"/>
-      <point x="16" y="0"/>
+      <point x="76" y="0" type="curve" smooth="yes"/>
+      <point x="777" y="0" type="line" smooth="yes"/>
+      <point x="828" y="0"/>
+      <point x="854" y="19"/>
+      <point x="854" y="60" type="curve" smooth="yes"/>
+      <point x="854" y="100"/>
+      <point x="828" y="121"/>
+      <point x="774" y="121" type="curve" smooth="yes"/>
+      <point x="81" y="121" type="line" smooth="yes"/>
+      <point x="28" y="121"/>
+      <point x="2" y="100"/>
+      <point x="2" y="60" type="curve" smooth="yes"/>
+      <point x="2" y="19"/>
+      <point x="26" y="0"/>
     </contour>
   </outline>
 </glyph>

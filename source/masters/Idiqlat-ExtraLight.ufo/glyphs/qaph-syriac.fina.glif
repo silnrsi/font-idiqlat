@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qaph-syriac.fina" format="2">
-  <advance width="1026"/>
-  <anchor x="655" y="780" name="above"/>
-  <anchor x="50" y="780" name="aboveleft"/>
-  <anchor x="685" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="1662"/>
+  <anchor x="1061" y="1263" name="above"/>
+  <anchor x="81" y="1263" name="aboveleft"/>
+  <anchor x="1109" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_qaph" xOffset="252"/>
-    <component base="_LeftTail" xOffset="-50"/>
-    <component base="_right_connector" xOffset="905"/>
+    <component base="_qaph" xOffset="408"/>
+    <component base="_LeftTail" xOffset="-81"/>
+    <component base="_right_connector" xOffset="1466"/>
   </outline>
 </glyph>

@@ -2,10 +2,10 @@
 <glyph name="qushshaya-syriac" format="2">
   <outline>
     <contour>
-      <point x="23" y="5" type="line"/>
-      <point x="188" y="5" type="line"/>
-      <point x="188" y="170" type="line"/>
-      <point x="23" y="170" type="line"/>
+      <point x="37" y="8" type="line"/>
+      <point x="304" y="8" type="line"/>
+      <point x="304" y="275" type="line"/>
+      <point x="37" y="275" type="line"/>
     </contour>
   </outline>
 </glyph>

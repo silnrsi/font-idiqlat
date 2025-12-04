@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gamal-syriac.fina" format="2">
-  <advance width="1137"/>
-  <anchor x="909" y="795" name="above"/>
-  <anchor x="50" y="795" name="aboveleft"/>
-  <anchor x="548" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="1842"/>
+  <anchor x="1472" y="1288" name="above"/>
+  <anchor x="81" y="1288" name="aboveleft"/>
+  <anchor x="888" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="gamal-syriac.medi" xOffset="230"/>
-    <component base="_LeftTail" xOffset="-50"/>
+    <component base="gamal-syriac.medi" xOffset="373"/>
+    <component base="_LeftTail" xOffset="-81"/>
   </outline>
 </glyph>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yacute" format="2">
-  <advance width="831"/>
+  <advance width="1346"/>
   <unicode hex="00DD"/>
   <note>
 Yacute
 </note>
   <outline>
     <component base="Y"/>
-    <component base="_acute.case" xOffset="-6" yOffset="-102"/>
+    <component base="_acute.case" xOffset="-10" yOffset="-165"/>
   </outline>
   <lib>
     <dict>

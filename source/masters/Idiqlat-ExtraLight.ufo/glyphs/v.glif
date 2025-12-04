@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="v" format="2">
-  <advance width="681"/>
+  <advance width="1103"/>
   <unicode hex="0076"/>
   <note>
 v
 </note>
-  <anchor x="341" y="610" name="above"/>
-  <anchor x="341" y="0" name="below"/>
+  <anchor x="552" y="988" name="above"/>
+  <anchor x="552" y="0" name="below"/>
   <outline>
     <contour>
-      <point x="311" y="-5" type="line"/>
-      <point x="364" y="-5" type="line"/>
-      <point x="625" y="529" type="line"/>
-      <point x="691" y="553" type="line"/>
-      <point x="688" y="610" type="line"/>
-      <point x="443" y="610" type="line"/>
-      <point x="440" y="553" type="line"/>
-      <point x="527" y="529" type="line"/>
-      <point x="365" y="146" type="line"/>
-      <point x="404" y="145" type="line"/>
-      <point x="229" y="529" type="line"/>
-      <point x="316" y="553" type="line"/>
-      <point x="312" y="610" type="line"/>
-      <point x="-3" y="610" type="line"/>
-      <point x="-7" y="553" type="line"/>
-      <point x="58" y="529" type="line"/>
+      <point x="504" y="-8" type="line"/>
+      <point x="590" y="-8" type="line"/>
+      <point x="1012" y="857" type="line"/>
+      <point x="1119" y="896" type="line"/>
+      <point x="1114" y="988" type="line"/>
+      <point x="717" y="988" type="line"/>
+      <point x="713" y="896" type="line"/>
+      <point x="854" y="857" type="line"/>
+      <point x="591" y="236" type="line"/>
+      <point x="654" y="235" type="line"/>
+      <point x="371" y="857" type="line"/>
+      <point x="512" y="896" type="line"/>
+      <point x="505" y="988" type="line"/>
+      <point x="-5" y="988" type="line"/>
+      <point x="-11" y="896" type="line"/>
+      <point x="94" y="857" type="line"/>
     </contour>
   </outline>
   <lib>

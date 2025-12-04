@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tethGarshuni-syriac.fina" format="2">
-  <advance width="1451"/>
-  <anchor x="960" y="765" name="above"/>
-  <anchor x="50" y="765" name="aboveleft"/>
-  <anchor x="632" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="2350"/>
+  <anchor x="1555" y="1239" name="above"/>
+  <anchor x="81" y="1239" name="aboveleft"/>
+  <anchor x="1024" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="teth-syriac.fina"/>
     <contour>
-      <point x="1154" y="-147" type="curve" smooth="yes"/>
-      <point x="1190" y="-147"/>
-      <point x="1209" y="-129"/>
-      <point x="1209" y="-93" type="curve" smooth="yes"/>
-      <point x="1209" y="-57"/>
-      <point x="1190" y="-39"/>
-      <point x="1154" y="-39" type="curve" smooth="yes"/>
-      <point x="1118" y="-39"/>
-      <point x="1100" y="-57"/>
-      <point x="1100" y="-93" type="curve" smooth="yes"/>
-      <point x="1100" y="-129"/>
-      <point x="1118" y="-147"/>
+      <point x="1869" y="-238" type="curve" smooth="yes"/>
+      <point x="1927" y="-238"/>
+      <point x="1958" y="-209"/>
+      <point x="1958" y="-151" type="curve" smooth="yes"/>
+      <point x="1958" y="-92"/>
+      <point x="1927" y="-63"/>
+      <point x="1869" y="-63" type="curve" smooth="yes"/>
+      <point x="1811" y="-63"/>
+      <point x="1782" y="-92"/>
+      <point x="1782" y="-151" type="curve" smooth="yes"/>
+      <point x="1782" y="-209"/>
+      <point x="1811" y="-238"/>
     </contour>
   </outline>
   <lib>

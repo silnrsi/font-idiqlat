@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heth-syriac.init" format="2">
-  <advance width="859"/>
-  <anchor x="405" y="540" name="above"/>
-  <anchor x="50" y="540" name="aboveleft"/>
-  <anchor x="420" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="1391"/>
+  <anchor x="656" y="875" name="above"/>
+  <anchor x="81" y="875" name="aboveleft"/>
+  <anchor x="680" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_heth-init" xOffset="375"/>
-    <component base="_heth-med" xOffset="62"/>
+    <component base="_heth-init" xOffset="607"/>
+    <component base="_heth-med" xOffset="100"/>
     <contour>
-      <point x="226" y="145" type="curve"/>
-      <point x="0" y="145" type="line"/>
+      <point x="366" y="235" type="curve"/>
+      <point x="0" y="235" type="line"/>
       <point x="0" y="0" type="line"/>
-      <point x="107" y="0" type="line" smooth="yes"/>
-      <point x="192" y="0"/>
-      <point x="226" y="65"/>
+      <point x="173" y="0" type="line" smooth="yes"/>
+      <point x="311" y="0"/>
+      <point x="366" y="105"/>
     </contour>
     <contour>
-      <point x="96" y="73" type="curve" smooth="yes"/>
-      <point x="96" y="118"/>
-      <point x="96" y="145"/>
-      <point x="38" y="145" type="curve" smooth="yes"/>
-      <point x="0" y="145" type="line" smooth="yes"/>
-      <point x="-58" y="145"/>
-      <point x="-58" y="118"/>
-      <point x="-58" y="73" type="curve" smooth="yes"/>
-      <point x="-58" y="28"/>
-      <point x="-58" y="0"/>
+      <point x="155" y="118" type="curve" smooth="yes"/>
+      <point x="155" y="191"/>
+      <point x="155" y="235"/>
+      <point x="62" y="235" type="curve" smooth="yes"/>
+      <point x="0" y="235" type="line" smooth="yes"/>
+      <point x="-94" y="235"/>
+      <point x="-94" y="191"/>
+      <point x="-94" y="118" type="curve" smooth="yes"/>
+      <point x="-94" y="45"/>
+      <point x="-94" y="0"/>
       <point x="0" y="0" type="curve" smooth="yes"/>
-      <point x="38" y="0" type="line" smooth="yes"/>
-      <point x="96" y="0"/>
-      <point x="96" y="28"/>
+      <point x="62" y="0" type="line" smooth="yes"/>
+      <point x="155" y="0"/>
+      <point x="155" y="45"/>
     </contour>
   </outline>
   <lib>

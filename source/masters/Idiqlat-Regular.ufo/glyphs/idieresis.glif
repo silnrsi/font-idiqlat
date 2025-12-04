@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idieresis" format="2">
-  <advance width="421"/>
+  <advance width="682"/>
   <unicode hex="00EF"/>
   <note>
 idieresis
 </note>
   <outline>
     <component base="idotless"/>
-    <component base="_dieresis" xOffset="-208"/>
+    <component base="_dieresis" xOffset="-337"/>
   </outline>
   <lib>
     <dict>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semkath-syriac" format="2">
-  <advance width="1136"/>
+  <advance width="1840"/>
   <unicode hex="0723"/>
-  <anchor x="766" y="780" name="above"/>
-  <anchor x="50" y="780" name="aboveleft"/>
-  <anchor x="676" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <anchor x="1241" y="1263" name="above"/>
+  <anchor x="81" y="1263" name="aboveleft"/>
+  <anchor x="1095" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_semkath" xOffset="256"/>
-    <component base="_LeftTail" xOffset="-50"/>
+    <component base="_semkath" xOffset="415"/>
+    <component base="_LeftTail" xOffset="-81"/>
   </outline>
 </glyph>

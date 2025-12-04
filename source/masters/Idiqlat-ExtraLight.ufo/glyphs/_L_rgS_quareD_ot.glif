@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_LrgSquareDot" format="2">
-  <advance width="603"/>
+  <advance width="977"/>
   <outline>
     <contour>
-      <point x="236" y="-256" type="line"/>
-      <point x="390" y="-256" type="line"/>
-      <point x="390" y="-101" type="line"/>
-      <point x="236" y="-101" type="line"/>
+      <point x="382" y="-415" type="line"/>
+      <point x="632" y="-415" type="line"/>
+      <point x="632" y="-164" type="line"/>
+      <point x="382" y="-164" type="line"/>
     </contour>
   </outline>
 </glyph>

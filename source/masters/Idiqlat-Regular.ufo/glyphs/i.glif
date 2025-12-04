@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="i" format="2">
-  <advance width="421"/>
+  <advance width="682"/>
   <unicode hex="0069"/>
   <note>
 i
 </note>
   <outline>
     <component base="idotless"/>
-    <component base="_dotaccent.i" xOffset="-208"/>
+    <component base="_dotaccent.i" xOffset="-337"/>
   </outline>
   <lib>
     <dict>

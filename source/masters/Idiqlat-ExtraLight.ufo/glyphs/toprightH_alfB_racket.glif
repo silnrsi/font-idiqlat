@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="toprightHalfBracket" format="2">
-  <advance width="800"/>
+  <advance width="1296"/>
   <unicode hex="2E23"/>
   <outline>
-    <component base="topleftHalfBracket" xScale="-1" xOffset="800"/>
+    <component base="topleftHalfBracket" xScale="-1" xOffset="1296"/>
   </outline>
 </glyph>

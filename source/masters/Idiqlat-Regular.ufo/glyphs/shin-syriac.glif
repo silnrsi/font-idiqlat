@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shin-syriac" format="2">
-  <advance width="1111"/>
+  <advance width="1799"/>
   <unicode hex="072B"/>
-  <anchor x="615" y="780" name="above"/>
-  <anchor x="50" y="780" name="aboveleft"/>
-  <anchor x="645" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <anchor x="996" y="1263" name="above"/>
+  <anchor x="81" y="1263" name="aboveleft"/>
+  <anchor x="1045" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_LeftTail" xOffset="-50"/>
-    <component base="_shin" xOffset="156"/>
+    <component base="_LeftTail" xOffset="-81"/>
+    <component base="_shin" xOffset="253"/>
   </outline>
 </glyph>

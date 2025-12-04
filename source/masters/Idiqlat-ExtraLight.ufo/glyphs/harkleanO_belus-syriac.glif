@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="harkleanObelus-syriac" format="2">
-  <advance width="1013"/>
+  <advance width="1641"/>
   <unicode hex="070B"/>
   <outline>
     <contour>
-      <point x="122" y="664" type="line"/>
-      <point x="893" y="664" type="line"/>
-      <point x="893" y="725" type="line"/>
-      <point x="122" y="725" type="line"/>
+      <point x="198" y="1075" type="line"/>
+      <point x="1446" y="1075" type="line"/>
+      <point x="1446" y="1174" type="line"/>
+      <point x="198" y="1174" type="line"/>
     </contour>
     <contour>
-      <point x="467" y="537" type="line"/>
-      <point x="542" y="537" type="line"/>
-      <point x="542" y="612" type="line"/>
-      <point x="467" y="612" type="line"/>
+      <point x="756" y="870" type="line"/>
+      <point x="878" y="870" type="line"/>
+      <point x="878" y="991" type="line"/>
+      <point x="756" y="991" type="line"/>
     </contour>
   </outline>
 </glyph>

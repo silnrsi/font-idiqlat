@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dhalathPersian-syriac" format="2">
-  <advance width="623"/>
+  <advance width="1009"/>
   <unicode hex="072F"/>
-  <anchor x="282" y="720" name="above"/>
-  <anchor x="50" y="720" name="aboveleft"/>
-  <anchor x="282" y="-390" name="below"/>
-  <anchor x="50" y="-390" name="belowleft"/>
+  <anchor x="457" y="1166" name="above"/>
+  <anchor x="81" y="1166" name="aboveleft"/>
+  <anchor x="457" y="-632" name="below"/>
+  <anchor x="81" y="-632" name="belowleft"/>
   <outline>
     <component base="dalathrishDotless-syriac"/>
-    <component base="_LrgSquareDot" xOffset="-141"/>
-    <component base="_LrgSquareDot" xOffset="130"/>
+    <component base="_LrgSquareDot" xOffset="-228"/>
+    <component base="_LrgSquareDot" xOffset="211"/>
   </outline>
   <lib>
     <dict>

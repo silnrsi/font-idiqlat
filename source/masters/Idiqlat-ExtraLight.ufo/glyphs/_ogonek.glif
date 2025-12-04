@@ -3,29 +3,29 @@
   <note>
 uni0328
 </note>
-  <anchor x="434" y="0" name="_ogonek"/>
+  <anchor x="703" y="0" name="_ogonek"/>
   <outline>
     <contour>
-      <point x="361" y="-312" type="curve" smooth="yes"/>
-      <point x="424" y="-312"/>
-      <point x="476" y="-285"/>
-      <point x="515" y="-242" type="curve"/>
-      <point x="480" y="-197" type="line"/>
-      <point x="449" y="-227"/>
-      <point x="419" y="-245"/>
-      <point x="385" y="-245" type="curve" smooth="yes"/>
-      <point x="338" y="-245"/>
-      <point x="306" y="-214"/>
-      <point x="306" y="-165" type="curve" smooth="yes"/>
-      <point x="306" y="-108"/>
-      <point x="350" y="-52"/>
-      <point x="434" y="0" type="curve"/>
-      <point x="421" y="29" type="line"/>
-      <point x="279" y="-20"/>
-      <point x="192" y="-96"/>
-      <point x="192" y="-178" type="curve" smooth="yes"/>
-      <point x="192" y="-255"/>
-      <point x="262" y="-312"/>
+      <point x="585" y="-505" type="curve" smooth="yes"/>
+      <point x="687" y="-505"/>
+      <point x="771" y="-462"/>
+      <point x="834" y="-392" type="curve"/>
+      <point x="777" y="-319" type="line"/>
+      <point x="727" y="-368"/>
+      <point x="679" y="-397"/>
+      <point x="624" y="-397" type="curve" smooth="yes"/>
+      <point x="547" y="-397"/>
+      <point x="496" y="-347"/>
+      <point x="496" y="-267" type="curve" smooth="yes"/>
+      <point x="496" y="-175"/>
+      <point x="567" y="-84"/>
+      <point x="703" y="0" type="curve"/>
+      <point x="682" y="47" type="line"/>
+      <point x="452" y="-32"/>
+      <point x="311" y="-155"/>
+      <point x="311" y="-288" type="curve" smooth="yes"/>
+      <point x="311" y="-413"/>
+      <point x="424" y="-505"/>
     </contour>
   </outline>
   <lib>

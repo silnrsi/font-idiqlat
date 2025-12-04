@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="music2-syriac" format="2">
-  <anchor x="706" y="180" name="_above"/>
-  <anchor x="370" y="645" name="above"/>
+  <anchor x="1143" y="292" name="_above"/>
+  <anchor x="599" y="1045" name="above"/>
   <outline>
-    <component base="music-syriac" xOffset="4" yOffset="160"/>
-    <component base="music-syriac" xOffset="4"/>
+    <component base="music-syriac" xOffset="6" yOffset="259"/>
+    <component base="music-syriac" xOffset="6"/>
   </outline>
   <lib>
     <dict>

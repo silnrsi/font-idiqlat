@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colonSkewedrightSublinear-syriac" format="2">
-  <advance width="486"/>
+  <advance width="787"/>
   <unicode hex="0709"/>
   <outline>
-    <component base="dotaccentcomb" xOffset="-16" yOffset="-2"/>
-    <component base="dotaccentcomb" xOffset="157" yOffset="-281"/>
+    <component base="dotaccentcomb" xOffset="-26" yOffset="-3"/>
+    <component base="dotaccentcomb" xOffset="254" yOffset="-455"/>
   </outline>
 </glyph>

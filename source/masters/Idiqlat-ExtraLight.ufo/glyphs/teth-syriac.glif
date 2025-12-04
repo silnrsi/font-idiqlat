@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="teth-syriac" format="2">
-  <advance width="1503"/>
+  <advance width="2434"/>
   <unicode hex="071B"/>
-  <anchor x="901" y="750" name="above"/>
-  <anchor x="50" y="750" name="aboveleft"/>
-  <anchor x="616" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <anchor x="1459" y="1215" name="above"/>
+  <anchor x="81" y="1215" name="aboveleft"/>
+  <anchor x="998" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="teth-syriac.init" xOffset="272"/>
-    <component base="_LeftTail" xOffset="-50"/>
+    <component base="teth-syriac.init" xOffset="441"/>
+    <component base="_LeftTail" xOffset="-81"/>
   </outline>
 </glyph>

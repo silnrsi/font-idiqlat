@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="figuredash" format="2">
-  <advance width="842"/>
+  <advance width="1364"/>
   <unicode hex="2012"/>
   <note>
 figuredash
 </note>
   <outline>
-    <component base="endash" xOffset="71"/>
+    <component base="endash" xOffset="115"/>
   </outline>
   <lib>
     <dict>

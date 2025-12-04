@@ -2,30 +2,30 @@
 <glyph name="hbasaEsasadotted-syriac" format="2">
   <outline>
     <contour>
-      <point x="74" y="-243" type="curve" smooth="yes"/>
-      <point x="93" y="-243"/>
-      <point x="108" y="-229"/>
-      <point x="119" y="-201" type="curve" smooth="yes"/>
-      <point x="128" y="-179"/>
-      <point x="133" y="-157"/>
-      <point x="133" y="-135" type="curve" smooth="yes"/>
-      <point x="133" y="-117"/>
-      <point x="129" y="-96"/>
-      <point x="120" y="-72" type="curve" smooth="yes"/>
-      <point x="109" y="-43"/>
-      <point x="96" y="-29"/>
-      <point x="81" y="-29" type="curve" smooth="yes"/>
-      <point x="62" y="-29"/>
-      <point x="46" y="-44"/>
-      <point x="34" y="-73" type="curve" smooth="yes"/>
-      <point x="25" y="-96"/>
-      <point x="20" y="-118"/>
-      <point x="20" y="-141" type="curve" smooth="yes"/>
-      <point x="20" y="-160"/>
-      <point x="24" y="-181"/>
-      <point x="33" y="-202" type="curve" smooth="yes"/>
-      <point x="44" y="-229"/>
-      <point x="58" y="-243"/>
+      <point x="120" y="-394" type="curve" smooth="yes"/>
+      <point x="151" y="-394"/>
+      <point x="175" y="-371"/>
+      <point x="193" y="-326" type="curve" smooth="yes"/>
+      <point x="207" y="-290"/>
+      <point x="215" y="-254"/>
+      <point x="215" y="-219" type="curve" smooth="yes"/>
+      <point x="215" y="-189"/>
+      <point x="209" y="-155"/>
+      <point x="194" y="-117" type="curve" smooth="yes"/>
+      <point x="177" y="-70"/>
+      <point x="155" y="-47"/>
+      <point x="131" y="-47" type="curve" smooth="yes"/>
+      <point x="100" y="-47"/>
+      <point x="75" y="-71"/>
+      <point x="55" y="-118" type="curve" smooth="yes"/>
+      <point x="40" y="-155"/>
+      <point x="32" y="-191"/>
+      <point x="32" y="-228" type="curve" smooth="yes"/>
+      <point x="32" y="-259"/>
+      <point x="39" y="-293"/>
+      <point x="53" y="-327" type="curve" smooth="yes"/>
+      <point x="71" y="-371"/>
+      <point x="94" y="-394"/>
     </contour>
   </outline>
 </glyph>

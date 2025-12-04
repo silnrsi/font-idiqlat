@@ -2,10 +2,10 @@
 <glyph name="rukkakha-syriac.square" format="2">
   <outline>
     <contour>
-      <point x="13" y="-183" type="line"/>
-      <point x="184" y="-183" type="line"/>
-      <point x="184" y="-14" type="line"/>
-      <point x="13" y="-14" type="line"/>
+      <point x="21" y="-296" type="line"/>
+      <point x="298" y="-296" type="line"/>
+      <point x="298" y="-23" type="line"/>
+      <point x="21" y="-23" type="line"/>
     </contour>
   </outline>
 </glyph>

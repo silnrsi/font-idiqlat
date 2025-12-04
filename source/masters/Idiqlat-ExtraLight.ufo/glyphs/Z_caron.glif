@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zcaron" format="2">
-  <advance width="761"/>
+  <advance width="1233"/>
   <unicode hex="017D"/>
   <note>
 Zcaron
 </note>
   <outline>
     <component base="Z"/>
-    <component base="_caron.case" xOffset="-42" yOffset="-102"/>
+    <component base="_caron.case" xOffset="-68" yOffset="-165"/>
   </outline>
   <lib>
     <dict>

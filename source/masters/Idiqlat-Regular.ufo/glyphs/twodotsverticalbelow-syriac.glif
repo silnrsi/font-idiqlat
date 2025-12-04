@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="twodotsverticalbelow-syriac" format="2">
   <unicode hex="0744"/>
-  <anchor x="65" y="0" name="_below"/>
-  <anchor x="65" y="-385" name="below"/>
+  <anchor x="105" y="0" name="_below"/>
+  <anchor x="105" y="-624" name="below"/>
   <outline>
-    <component base="twodotsverticalabove-syriac" xOffset="7" yOffset="-268"/>
+    <component base="twodotsverticalabove-syriac" xOffset="11" yOffset="-434"/>
   </outline>
 </glyph>

@@ -2,22 +2,22 @@
 <glyph name="comma" format="2">
   <outline>
     <contour>
-      <point x="87" y="-299" type="line"/>
-      <point x="277" y="-223"/>
-      <point x="368" y="-89"/>
-      <point x="368" y="64" type="curve" smooth="yes"/>
-      <point x="368" y="201"/>
-      <point x="289" y="250"/>
-      <point x="219" y="250" type="curve" smooth="yes"/>
-      <point x="143" y="250"/>
-      <point x="87" y="198"/>
-      <point x="87" y="132" type="curve" smooth="yes"/>
-      <point x="87" y="18"/>
-      <point x="211" y="27"/>
-      <point x="211" y="-74" type="curve" smooth="yes"/>
-      <point x="211" y="-138"/>
-      <point x="173" y="-192"/>
-      <point x="61" y="-239" type="curve"/>
+      <point x="141" y="-484" type="line"/>
+      <point x="449" y="-361"/>
+      <point x="596" y="-144"/>
+      <point x="596" y="104" type="curve" smooth="yes"/>
+      <point x="596" y="326"/>
+      <point x="468" y="405"/>
+      <point x="355" y="405" type="curve" smooth="yes"/>
+      <point x="232" y="405"/>
+      <point x="141" y="321"/>
+      <point x="141" y="214" type="curve" smooth="yes"/>
+      <point x="141" y="29"/>
+      <point x="342" y="44"/>
+      <point x="342" y="-120" type="curve" smooth="yes"/>
+      <point x="342" y="-224"/>
+      <point x="280" y="-311"/>
+      <point x="99" y="-387" type="curve"/>
     </contour>
   </outline>
 </glyph>

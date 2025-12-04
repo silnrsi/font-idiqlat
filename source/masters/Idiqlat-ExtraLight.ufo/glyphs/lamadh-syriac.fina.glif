@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamadh-syriac.fina" format="2">
-  <advance width="1058"/>
-  <anchor x="858" y="945" name="above"/>
-  <anchor x="50" y="945" name="aboveleft"/>
-  <anchor x="693" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="1714"/>
+  <anchor x="1390" y="1531" name="above"/>
+  <anchor x="81" y="1531" name="aboveleft"/>
+  <anchor x="1122" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="lamadh-syriac.medi" xOffset="222"/>
-    <component base="_LeftTail" xOffset="-50"/>
+    <component base="lamadh-syriac.medi" xOffset="360"/>
+    <component base="_LeftTail" xOffset="-81"/>
   </outline>
 </glyph>

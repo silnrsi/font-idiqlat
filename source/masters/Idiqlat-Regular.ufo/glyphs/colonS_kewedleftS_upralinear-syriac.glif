@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colonSkewedleftSupralinear-syriac" format="2">
-  <advance width="486"/>
+  <advance width="787"/>
   <unicode hex="0708"/>
   <outline>
-    <component base="colonSkewedleft-syriac" yOffset="634"/>
+    <component base="colonSkewedleft-syriac" yOffset="1027"/>
   </outline>
 </glyph>

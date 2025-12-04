@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fl" format="2">
-  <advance width="826"/>
+  <advance width="1338"/>
   <unicode hex="FB02"/>
   <note>
 f_l
 </note>
   <outline>
     <component base="f"/>
-    <component base="l" xOffset="429"/>
+    <component base="l" xOffset="695"/>
   </outline>
   <lib>
     <dict>

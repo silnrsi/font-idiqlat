@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Oslash" format="2">
-  <advance width="977"/>
+  <advance width="1582"/>
   <unicode hex="00D8"/>
   <note>
 Oslash
 </note>
   <outline>
     <component base="O"/>
-    <component base="_slashlong.case" xOffset="67"/>
+    <component base="_slashlong.case" xOffset="109"/>
   </outline>
   <lib>
     <dict>

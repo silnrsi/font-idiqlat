@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abbreviation-syriac.1.stch" format="2">
-  <advance width="323"/>
+  <advance width="523"/>
   <outline>
-    <component base="period" xOffset="-41" yOffset="1120"/>
+    <component base="period" xOffset="-66" yOffset="1814"/>
     <contour>
-      <point x="-20" y="1178" type="line"/>
-      <point x="120" y="1178" type="line"/>
-      <point x="120" y="1260" type="line"/>
-      <point x="-20" y="1260" type="line"/>
+      <point x="-32" y="1908" type="line"/>
+      <point x="194" y="1908" type="line"/>
+      <point x="194" y="2041" type="line"/>
+      <point x="-32" y="2041" type="line"/>
     </contour>
   </outline>
   <lib>

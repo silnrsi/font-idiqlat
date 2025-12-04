@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reverseSolidusOperator" format="2">
-  <advance width="430"/>
+  <advance width="696"/>
   <unicode hex="29F5"/>
   <outline>
-    <component base="fraction" xScale="-1" xOffset="324"/>
+    <component base="fraction" xScale="-1" xOffset="525"/>
   </outline>
   <lib>
     <dict>

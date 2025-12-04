@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaph-syriac.medi" format="2">
-  <advance width="819"/>
-  <anchor x="425" y="750" name="above"/>
-  <anchor x="50" y="750" name="aboveleft"/>
-  <anchor x="425" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="1326"/>
+  <anchor x="688" y="1215" name="above"/>
+  <anchor x="81" y="1215" name="aboveleft"/>
+  <anchor x="688" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="kaph-syriac.init"/>
-    <component base="_right_connector" xOffset="698"/>
+    <component base="_right_connector" xOffset="1131"/>
   </outline>
 </glyph>

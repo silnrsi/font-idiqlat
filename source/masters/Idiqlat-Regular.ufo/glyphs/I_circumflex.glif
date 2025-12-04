@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Icircumflex" format="2">
-  <advance width="565"/>
+  <advance width="915"/>
   <unicode hex="00CE"/>
   <note>
 Icircumflex
 </note>
   <outline>
     <component base="I"/>
-    <component base="_circumflex.case" xOffset="-175" yOffset="-102"/>
+    <component base="_circumflex.case" xOffset="-283" yOffset="-165"/>
   </outline>
   <lib>
     <dict>
