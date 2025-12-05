@@ -1,27 +1,25 @@
 #!/bin/sh
 
-echo "-----Normalizing Regular UFO..."
-echo "-----Updating production names in Regular..."
-psfsetpsnames -q -p checkfix=none -i source/glyph_data.csv source/masters/Idiqlat-Regular.ufo
-
-echo "-----Updating glyph orders in Regular..."
-psfsetglyphorder -q --header sort_final -i source/glyph_data.csv source/masters/Idiqlat-Regular.ufo -p backup=False -x
-
 echo "-----Normalizing other UFOs..."
-psfnormalize -p checkfix=fix source/masters/Idiqlat-Regular.ufo       &
-psfnormalize -p checkfix=fix source/masters/Idiqlat-ExtraLight.ufo       &
+psfnormalize -p scrlevel=w -p checkfix=check source/masters/Idiqlat-Regular.ufo       &
+psfnormalize -p scrlevel=w -p checkfix=check source/masters/Idiqlat-ExtraLight.ufo       &
 wait
 
-echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters -q source/IdiqlatTestA.designspace 
-# psfsyncmasters -q source/Idiqlat.designspace 
+echo "-----Updating glyph orders in Regular..."
+psfsetglyphorder -q -p checkfix=none --header sort_final,sort_final --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/masters/*-Regular.ufo 
 
-echo "Updating woff metadata files..."
-psfmakewoffmetadata -q -n  Idiqlat        -i org.sil.fonts source/masters/*-Regular.ufo  -o "source/Idiqlat-WOFF-metadata.xml"
+echo "-----Updating production names in Regular..."
+psfsetpsnames -q -p checkfix=none -i source/glyph_data.csv source/masters/*-Regular.ufo
+
+echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
+psfsyncmasters -p scrlevel=w source/IdiqlatTestA.designspace 
 
 echo "Building internal fea..."
 makefea -o source/masters/Idiqlat-Regular.ufo/features.fea --ignoreglyphs -l source/logs/Idiqlat-Regular-makefea.log -i source/opentype/main.feax --omitaps "R, O, L" source/masters/Idiqlat-Regular.ufo &
 makefea -o source/masters/Idiqlat-ExtraLight.ufo/features.fea  --ignoreglyphs -l source/logs/Idiqlat-Regular-makefea.log -i source/opentype/main.feax --omitaps "R, O, L" source/masters/Idiqlat-ExtraLight.ufo    &
+
+echo "Updating woff metadata files..."
+psfmakewoffmetadata -q -n  Idiqlat    -i org.sil.fonts -o source/Idiqlat-WOFF-metadata.xml source/masters/*-Regular.ufo  
 
 wait
 
