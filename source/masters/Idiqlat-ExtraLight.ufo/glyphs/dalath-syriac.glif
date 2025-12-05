@@ -8,6 +8,6 @@
   <anchor x="81" y="-632" name="belowleft"/>
   <outline>
     <component base="dalathrishDotless-syriac"/>
-    <component base="_LrgSquareDot" xOffset="-83"/>
+    <component base="_LrgSquareDot"/>
   </outline>
 </glyph>

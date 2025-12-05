@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shin-syriac.medi" format="2">
   <advance width="1273"/>
-  <anchor x="729" y="1263" name="above"/>
+  <anchor x="696" y="1263" name="above"/>
   <anchor x="81" y="1263" name="aboveleft"/>
-  <anchor x="753" y="-243" name="below"/>
+  <anchor x="672" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="_shin" xOffset="-112"/>

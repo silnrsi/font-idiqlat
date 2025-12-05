@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rish_dieresiscomb-syriac" format="2">
   <advance width="1009"/>
-  <anchor x="462" y="1628" name="above"/>
+  <anchor x="457" y="1628" name="above"/>
   <anchor x="81" y="1628" name="aboveleft"/>
-  <anchor x="502" y="-243" name="below"/>
+  <anchor x="505" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="_LrgSquareDot" xOffset="-236" yOffset="1603"/>

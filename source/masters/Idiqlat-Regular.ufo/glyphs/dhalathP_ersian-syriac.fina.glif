@@ -2,8 +2,8 @@
 <glyph name="dhalathPersian-syriac.fina" format="2">
   <advance width="1056"/>
   <anchor x="457" y="1166" name="above"/>
-  <anchor x="81" y="1215" name="aboveleft"/>
-  <anchor x="502" y="-632" name="below"/>
+  <anchor x="81" y="1166" name="aboveleft"/>
+  <anchor x="505" y="-632" name="below"/>
   <anchor x="81" y="-632" name="belowleft"/>
   <outline>
     <component base="dalathrishDotless-syriac.fina"/>

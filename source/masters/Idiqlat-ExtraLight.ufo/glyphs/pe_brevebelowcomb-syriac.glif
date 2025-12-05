@@ -3,10 +3,10 @@
   <advance width="1681"/>
   <anchor x="1168" y="1603" name="above"/>
   <anchor x="81" y="1603" name="aboveleft"/>
-  <anchor x="1174" y="-604" name="below"/>
+  <anchor x="994" y="-604" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="pe-syriac"/>
-    <component base="brevebelowcomb" xOffset="709"/>
+    <component base="brevebelowcomb" xOffset="529" yOffset="-10"/>
   </outline>
 </glyph>

@@ -2,9 +2,9 @@
 <glyph name="rish-syriac" format="2">
   <advance width="1009"/>
   <unicode hex="072A"/>
-  <anchor x="453" y="1628" name="above"/>
+  <anchor x="457" y="1628" name="above"/>
   <anchor x="81" y="1628" name="aboveleft"/>
-  <anchor x="502" y="-243" name="below"/>
+  <anchor x="505" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="_LrgSquareDot" xOffset="-37" yOffset="1603"/>

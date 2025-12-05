@@ -2,9 +2,9 @@
 <glyph name="shin-syriac" format="2">
   <advance width="1799"/>
   <unicode hex="072B"/>
-  <anchor x="996" y="1263" name="above"/>
+  <anchor x="1037" y="1263" name="above"/>
   <anchor x="81" y="1263" name="aboveleft"/>
-  <anchor x="1045" y="-243" name="below"/>
+  <anchor x="1025" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="_LeftTail" xOffset="-81"/>

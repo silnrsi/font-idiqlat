@@ -3,7 +3,7 @@
   <advance width="876"/>
   <anchor x="358" y="1142" name="above"/>
   <anchor x="81" y="1142" name="aboveleft"/>
-  <anchor x="577" y="-534" name="below"/>
+  <anchor x="290" y="-534" name="below"/>
   <anchor x="81" y="-534" name="belowleft"/>
   <outline>
     <component base="zain-syriac"/>

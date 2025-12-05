@@ -3,7 +3,7 @@
   <advance width="1056"/>
   <anchor x="457" y="1166" name="above"/>
   <anchor x="81" y="1166" name="aboveleft"/>
-  <anchor x="457" y="-243" name="below"/>
+  <anchor x="505" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="dalathrishDotless-syriac"/>

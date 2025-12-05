@@ -3,7 +3,7 @@
   <advance width="1602"/>
   <anchor x="656" y="875" name="above"/>
   <anchor x="81" y="875" name="aboveleft"/>
-  <anchor x="680" y="-243" name="below"/>
+  <anchor x="870" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="_heth-init" xOffset="737"/>

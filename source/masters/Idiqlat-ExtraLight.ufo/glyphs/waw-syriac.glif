@@ -2,8 +2,8 @@
 <glyph name="waw-syriac" format="2">
   <advance width="1177"/>
   <unicode hex="0718"/>
-  <anchor x="614" y="1215" name="above"/>
-  <anchor x="113" y="1215" name="aboveleft"/>
+  <anchor x="614" y="1170" name="above"/>
+  <anchor x="113" y="1170" name="aboveleft"/>
   <anchor x="614" y="-243" name="below"/>
   <anchor x="113" y="-243" name="belowleft"/>
   <outline>
