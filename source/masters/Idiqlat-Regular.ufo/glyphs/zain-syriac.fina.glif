@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zain-syriac.fina" format="2">
   <advance width="876"/>
-  <anchor x="358" y="1142" name="above"/>
+  <anchor x="407" y="1142" name="above"/>
   <anchor x="81" y="1142" name="aboveleft"/>
   <anchor x="290" y="-534" name="below"/>
   <anchor x="81" y="-534" name="belowleft"/>
