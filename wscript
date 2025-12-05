@@ -5,12 +5,12 @@
 
 # set the default output folders
 DOCDIR = ["documentation", "web"]
-genout = "generated/"
 
 # set the font name and description
 APPNAME = 'Idiqlat'
+
+# set the font family name
 FAMILY = APPNAME
-DESC_SHORT = "Font for the East Syriac script"
 
 # Get version and authorship information from Regular UFO (canonical metadata); must be first function call:
 getufoinfo('source/masters/' + FAMILY + '-Regular' + '.ufo')
@@ -18,10 +18,13 @@ getufoinfo('source/masters/' + FAMILY + '-Regular' + '.ufo')
 # Set up the FTML tests
 ftmlTest('tools/ftml-smith.xsl')
 
-opts = preprocess_args({'opt': '--autohint'}, {'opt': '--norename'}, {'opt': '--quick'}, {'opt': '--regOnly'})
-
 # APs to omit:
 omitaps = '--omitaps "L,O,R, center"'
+
+# location for misc build results
+generated = 'generated/'
+
+opts = preprocess_args({'opt': '--autohint'}, {'opt': '--norename'}, {'opt': '--quick'}, {'opt': '--regOnly'})
 
 cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx']) ]
 if '--norename' not in opts:
@@ -39,7 +42,7 @@ designspace('source/IdiqlatTestA.designspace',
     params = '-c ^_',
     version=VERSION,  # Needed to ensure dev information on version string
     opentype = fea("generated/${DS:FILENAME_BASE}.fea", 
-        mapfile = genout + "${DS:FILENAME_BASE}.map",
+        mapfile = generated + "${DS:FILENAME_BASE}.map",
         master="source/opentype/main.feax", to_ufo = 'True',
         make_params = '--ignoreglyphs ' + omitaps,
         depends = ['source/opentype/gsub.feax', 'source/opentype/gpos.feax'],
