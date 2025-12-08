@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sadhe_nun-syriac" format="2">
   <advance width="1832"/>
-  <anchor x="1111" y="680" name="above_1"/>
-  <anchor x="309" y="437" name="above_2"/>
-  <anchor x="1257" y="-1093" name="below_1"/>
-  <anchor x="479" y="-1093" name="below_2"/>
+  <anchor x="1143" y="680" name="above_1"/>
+  <anchor x="81" y="680" name="above_2"/>
+  <anchor x="1079" y="-996" name="below_1"/>
+  <anchor x="81" y="-996" name="below_2"/>
   <outline>
     <contour>
       <point x="944" y="-295" type="curve" smooth="yes"/>

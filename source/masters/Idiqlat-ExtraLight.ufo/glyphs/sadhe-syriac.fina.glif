@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sadhe-syriac.fina" format="2">
   <advance width="1163"/>
-  <anchor x="492" y="680" name="above"/>
-  <anchor x="32" y="680" name="aboveleft"/>
-  <anchor x="687" y="-947" name="below"/>
-  <anchor x="32" y="-947" name="belowleft"/>
+  <anchor x="541" y="680" name="above"/>
+  <anchor x="81" y="680" name="aboveleft"/>
+  <anchor x="735" y="-947" name="below"/>
+  <anchor x="81" y="-947" name="belowleft"/>
   <outline>
     <component base="sadhe-syriac"/>
     <contour>

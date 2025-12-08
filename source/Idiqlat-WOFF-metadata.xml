@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Idiqlat.1.120" />
+  <uniqueid id="org.sil.fonts.Idiqlat.1.130" />
   <vendor name="SIL Global" url="https://www.sil.org/" />
   <credits>
     <credit
@@ -82,6 +82,6 @@
     </text>
   </copyright>
   <trademark>
-    <text lang="en">Marcus and Nohadro are trademarks of Sparksoft Systems. Idiqlat is a trademark of SIL Global.</text>
+    <text lang="en">Marcus and Nohadra are trademarks of Sparksoft Systems. Idiqlat is a trademark of SIL Global.</text>
   </trademark>
 </metadata>
