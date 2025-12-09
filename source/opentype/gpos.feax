@@ -26,23 +26,32 @@
 lookup kern_dalath_sadhe_nun { # FKern: {Dolath, Sodeh} {Nun}
     # GPOS lookup 1, type 2 (Pair adjustment)
     lookupflag RightToLeft IgnoreMarks;
+  ifinfo(familyName, "Ramsina") {
     pos dalath-syriac 0 nun-syriac.cv18 150;
     pos dalath-syriac.fina 0 nun-syriac.cv18 150;
     pos sadhe-syriac 0 nun-syriac.cv18 250;
     pos sadhe-syriac.fina 0 nun-syriac.cv18 250;
     pos waw-syriac 0 nun-syriac.cv18 -75;
     pos waw-syriac.fina 0 nun-syriac.cv18 -75;
+  }
   ifinfo(familyName, "Idiqlat") {
-    pos dhalathPersian-syriac 0 nun-syriac.cv18 150;
-    pos dhalathPersian-syriac.fina 0 nun-syriac.cv18 150;
-    pos zhainSogdian-syriac 0 nun-syriac.cv18 -75;
-    pos zhainSogdian-syriac.fina 0 nun-syriac.cv18 -75;
+    pos dalath-syriac 0 nun-syriac.cv18 243;
+    pos dalath-syriac.fina 0 nun-syriac.cv18 243;
+    pos sadhe-syriac 0 nun-syriac.cv18 405;
+    pos sadhe-syriac.fina 0 nun-syriac.cv18 405;
+    pos waw-syriac 0 nun-syriac.cv18 -121;
+    pos waw-syriac.fina 0 nun-syriac.cv18 -121;
+    pos dhalathPersian-syriac 0 nun-syriac.cv18 243;
+    pos dhalathPersian-syriac.fina 0 nun-syriac.cv18 243;
+    pos zhainSogdian-syriac 0 nun-syriac.cv18 -121;
+    pos zhainSogdian-syriac.fina 0 nun-syriac.cv18 -121;
   }
 } kern_dalath_sadhe_nun;
 
 lookup kern_sadhe_gamal { # FKern: {Sadhe} {Gamal}
     # GPOS lookup 1, type 2 (Pair adjustment)
     lookupflag RightToLeft IgnoreMarks;
+  ifinfo(familyName, "Ramsina") {
     pos sadhe-syriac 0 gamal-syriac 150;
     pos sadhe-syriac.fina 0 gamal-syriac 150;
     pos sadhe-syriac.fina 0 gamal-syriac.init 150;
@@ -51,18 +60,32 @@ lookup kern_sadhe_gamal { # FKern: {Sadhe} {Gamal}
     pos sadhe-syriac.fina 0 gamalgarshuni-syriac 150;
     pos sadhe-syriac.fina 0 gamalgarshuni-syriac.init 150;
     pos sadhe-syriac.fina 0 gamalgarshuni-syriac.init 150;
+  }
   ifinfo(familyName, "Idiqlat") {
-    pos sadhe-syriac 0 ghamalPersian-syriac 150;
-    pos sadhe-syriac.fina 0 ghamalPersian-syriac 150;
-    pos sadhe-syriac.fina 0 ghamalPersian-syriac.init 150;
-    pos sadhe-syriac.fina 0 ghamalPersian-syriac.init 150;
+    pos sadhe-syriac 0 gamal-syriac 243;
+    pos sadhe-syriac.fina 0 gamal-syriac 243;
+    pos sadhe-syriac.fina 0 gamal-syriac.init 243;
+    pos sadhe-syriac.fina 0 gamal-syriac.init 243;
+    pos sadhe-syriac 0 gamalgarshuni-syriac 243;
+    pos sadhe-syriac.fina 0 gamalgarshuni-syriac 243;
+    pos sadhe-syriac.fina 0 gamalgarshuni-syriac.init 243;
+    pos sadhe-syriac.fina 0 gamalgarshuni-syriac.init 243;
+    pos sadhe-syriac 0 ghamalPersian-syriac 243;
+    pos sadhe-syriac.fina 0 ghamalPersian-syriac 243;
+    pos sadhe-syriac.fina 0 ghamalPersian-syriac.init 243;
+    pos sadhe-syriac.fina 0 ghamalPersian-syriac.init 243;
   }
 } kern_sadhe_gamal;
 
 lookup  kern_nun_1 { # FKern: {Dolath, Sodeh} {Nun}
     # GPOS lookup 8, type 1 (Single adjustment)
     lookupflag RightToLeft;
+  ifinfo(familyName, "Ramsina") {
     pos nun-syriac.cv18 250;
+  }
+  ifinfo(familyName, "Idiqlat") {
+    pos nun-syriac.cv18 405;
+  }
 }  kern_nun_1;
 
 lookup kern_nun2 { # FKrern: Nun in VOLT
