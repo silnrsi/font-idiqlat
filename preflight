@@ -8,6 +8,10 @@ wait
 echo "-----Updating glyph orders in Regular..."
 psfsetglyphorder -q -p checkfix=none --header sort_final,sort_final --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/masters/*-Regular.ufo 
 
+# commented out and only to be used as a manual one-off process in case there is a build problem because of discrepancies with the orders
+# psfremovegliflibkeys source/masters/Idiqlat-Regular.ufo com.schriftgestaltung.Glyphs.shapeOrder
+# psfremovegliflibkeys source/masters/Idiqlat-ExtraLight.ufo com.schriftgestaltung.Glyphs.shapeOrder
+
 echo "-----Updating production names in Regular..."
 psfsetpsnames -q -p checkfix=none -i source/glyph_data.csv source/masters/*-Regular.ufo
 

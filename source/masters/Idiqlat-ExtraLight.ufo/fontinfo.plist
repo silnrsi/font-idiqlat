@@ -9,7 +9,7 @@
   <key>copyright</key>
   <string>Copyright (c) 2025, SIL Global (https://www.sil.org/), with Reserved Font Names "Idiqlat" and "SIL". Original fonts copyright (c) 1997-2025, Sparksoft Systems, with Reserved Font Names "Marcus" and "Nohadra". Latin glyphs copyright (c) 2018 The Crimson Pro Project Authors (https://github.com/Fonthausen/CrimsonPro).</string>
   <key>descender</key>
-  <integer>-1452</integer>
+  <integer>-1109</integer>
   <key>familyName</key>
   <string>Idiqlat</string>
   <key>openTypeHeadCreated</key>
@@ -17,7 +17,7 @@
   <key>openTypeHheaAscender</key>
   <integer>2233</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-1452</integer>
+  <integer>-1109</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -119,7 +119,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2TypoAscender</key>
   <integer>2233</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-1452</integer>
+  <integer>-1109</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -156,7 +156,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WinAscent</key>
   <integer>2310</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>1452</integer>
+  <integer>1326</integer>
   <key>postscriptFontName</key>
   <string>Idiqlat-ExtraLight</string>
   <key>postscriptFullName</key>
