@@ -35,8 +35,8 @@ if '--autohint' in opts:
 else:
     cmds.append(cmd('gftools fix-nonhinting --no-backup -q ${DEP} ${TGT}'))
 
-# designspace('source/Idiqlat.designspace',
-designspace('source/IdiqlatTestA.designspace',
+designspace('source/Idiqlat.designspace',
+# designspace('source/IdiqlatTestA.designspace',
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
 #    params = '--decomposeComponents --removeOverlaps -c ^_',
     params = '-c ^_',

@@ -17,8 +17,8 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-### 2025 Jun 30 (WSTech team) Idiqlat TestA Version 1.105
-- New test version of font (not for distribution)
+### 2025 Dec 17 (WSTech team) Idiqlat Version 2.000 (production release)
+- Initial version of font (based on East Syriac Marcus)
 
 Information for Contributors
 ----------------------------

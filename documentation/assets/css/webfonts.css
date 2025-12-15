@@ -5,11 +5,11 @@ released under the MIT license (https://opensource.org/licenses/MIT).
 */
 @font-face {
     font-family: Idiqlat-R;
-    src: url("../../../web/IdiqlatTestA-Regular.woff2") format("woff2");
+    src: url("../../../web/Idiqlat-Regular.woff2") format("woff2");
 }
 @font-face {
     font-family: Idiqlat-L;
-    src: url("../../../web/IdiqlatTestA-ExtraLight.woff2") format("woff2");
+    src: url("../../../web/Idiqlat-ExtraLight.woff2") format("woff2");
 }
 
 .idiqlat-R { font-family: Idiqlat-R; direction: rtl; text-align: right;}

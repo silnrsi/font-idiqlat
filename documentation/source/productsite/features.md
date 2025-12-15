@@ -1,7 +1,7 @@
 
 Idiqlat is an OpenType-enabled font family that supports the East Syriac style of the Syriac script. It includes a number of optional features that may be useful or required for particular uses or languages. This document lists all the available features.
 
-These OpenType features are primarily specified using four-letter tags (e.g. 'ss18' or 'cv38'). For more information on how to access OpenType features in specific environments and applications, see [Using Font Features](https://software.sil.org/fonts/features).
+These OpenType features are primarily specified using four-letter tags (e.g. 'ss01' or 'cv38'). For more information on how to access OpenType features in specific environments and applications, see [Using Font Features](https://software.sil.org/fonts/features).
 
 This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Idiqlat as a web font see [Idiqlat Webfont Example](../web/Idiqlat-webfont-example.html). For detailed information see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts).
 

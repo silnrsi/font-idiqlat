@@ -1,6 +1,6 @@
 ---
 title: Idiqlat - Developer information
-fontversion: 1.110
+fontversion: 2.000
 ---
 
 ## Welcome font developers!

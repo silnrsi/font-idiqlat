@@ -1,6 +1,6 @@
 ---
 title: Idiqlat - Type Sample
-fontversion: 1.110
+fontversion: 2.000
 ---
 
 This document demonstrates all of the characters in the font. It is organized by Unicode block. Alternate glyphs that are available through features are demonstrated in the [Features](features.md) document. At the end is a sample demonstrating Syriac shaping.
@@ -71,7 +71,7 @@ Regular: <span dir="rtl" class='idiqlat-R normal'>&#x060C; &#x061B; &#x061F; &#x
 
 #### Regular:
 
-<p dir="rtl"><span class='idiqlat-R normal'>&#x0712;&#x070F;&#x071D;&#x0718;</span></p>
+<p dir="rtl"><span class='idiqlat-R normal'>&#x0712;&#x070F;&#x071D;&#x0718; &#x072C;&#x070f;&#x072B;&#x0712;&#x0718;</span></p>
 
 
 <!-- PRODUCT SITE ONLY

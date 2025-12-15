@@ -16,7 +16,7 @@ echo "-----Updating production names in Regular..."
 psfsetpsnames -q -p checkfix=none -i source/glyph_data.csv source/masters/*-Regular.ufo
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters -p scrlevel=w source/IdiqlatTestA.designspace 
+psfsyncmasters -p scrlevel=w source/Idiqlat.designspace 
 
 echo "Building internal fea..."
 makefea -o source/masters/Idiqlat-Regular.ufo/features.fea --ignoreglyphs -l source/logs/Idiqlat-Regular-makefea.log -i source/opentype/main.feax --omitaps "R, O, L" source/masters/Idiqlat-Regular.ufo &

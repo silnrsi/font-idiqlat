@@ -1,6 +1,6 @@
 ---
 title: Idiqlat - Support
-fontversion: 1.110
+fontversion: 2.000
 ---
 
 ## Support options
