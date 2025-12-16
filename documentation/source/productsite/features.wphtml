@@ -165,9 +165,9 @@ This page uses web fonts (WOFF2) to demonstrate font features and should display
 </tbody>
 </table>
 
-<h3>Kaph Mim Nun alternates</h3>
-
 <span class="affects">Affects: U+071F U+0721 U+0722 (this feature is primarily for outlines and only affects the isolate form)</span>
+
+Since isolate forms for <em>kaph</em>, <em>mim</em>, and <em>nun</em> do not exist in modern typefaces, a variety of different designs have been created for the isolate forms. The default forms in this font are the most prevalent, but the original forms from East Syriac Marcus are still available through this Stylistic Set.
 
 <table>
 <colgroup>

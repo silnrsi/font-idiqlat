@@ -60,9 +60,9 @@ Feature | Sample                      | Feature setting
 Standard | <span dir="rtl" class='idiqlat-R normal'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `ss05=0`
 Ligature | <span dir="rtl" class='idiqlat-R normal' style='font-feature-settings: "ss05" 1'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `ss05=1`
 
-### Kaph Mim Nun alternates
-
 <span class='affects'>Affects: U+071F U+0721 U+0722  (this feature is primarily for outlines and only affects the isolate form)</span>
+
+Since isolate forms for _kaph_, _mim_, and _nun_ do not exist in modern typefaces, a variety of different designs have been created for the isolate forms. The default forms in this font are the most prevalent, but the original forms from East Syriac Marcus are still available through this Stylistic Set.
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
