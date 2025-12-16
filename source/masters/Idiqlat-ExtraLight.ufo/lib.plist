@@ -68,6 +68,7 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
 /taw-syriac/taw-syriac.fina/he_yudh-syriac/he_yudh-syriac.fina/sadhe_nun-syriac/sadhe_nun-syriac.fina/taw_alaph-syriac/taw_alaph-syriac.fina 
 </string>
     <string>/semkathFinal-syriac/space/space/space/rbasabelow-syriac/space/space/rbasaabove-syriac/space/space/threedotsbelow-syriac/space/threedotsabove-syriac/_smDotsquare/space .?/question-ar/quoteleft/quotereversed/quotedblleft/summation/summation.rtl 7/reverseSolidusOperator/figurespace 0/notequal/glottalstopmod/glottalstopreversedmod/ringhalfrightcentered/ringhalfleftcentered/toprightHalfBracket/kaph-syriac/lamadh-syriac/topleftHalfBracket/punctuationspace ./space</string>
+    <string>/nun-syriac.init/space/nun-syriac/space/nun-syriac.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -86,7 +87,7 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
   <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
   <string>Light</string>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-  <integer>300</integer>
+  <integer>200</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
   <integer>100</integer>
   <key>com.schriftgestaltung.fontMasterOrder</key>
@@ -691,7 +692,7 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
   <key>com.schriftgestaltung.weight</key>
   <string>Light</string>
   <key>com.schriftgestaltung.weightValue</key>
-  <integer>300</integer>
+  <integer>200</integer>
   <key>com.schriftgestaltung.width</key>
   <string>Regular</string>
   <key>com.schriftgestaltung.widthValue</key>
