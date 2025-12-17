@@ -16,7 +16,8 @@ source/backups/*
 
 # temporary fontdocs files
 documentation/source/pdftemp/
-# documentation/source/productsite/
+documentation/source/productsite/
+variable_ttf/
 web/*.woff*
 
 # general backup files

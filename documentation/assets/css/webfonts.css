@@ -13,5 +13,7 @@ released under the MIT license (https://opensource.org/licenses/MIT).
 }
 
 .idiqlat-R { font-family: Idiqlat-R; direction: rtl; text-align: right;}
+.idiqlatL-R { font-family: Idiqlat-R; direction: ltr; text-align: left;}
 .idiqlat-L { font-family: Idiqlat-L; direction: rtl; text-align: right;}
+.idiqlatL-L { font-family: Idiqlat-L; direction: ltr; text-align: left;}
 
