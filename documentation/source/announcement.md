@@ -17,5 +17,5 @@ The font supports the complete range of Unicode characters required for the East
 
 This font was initially designed by Esho Marcus and named East Syriac Marcus. The font is used according to the terms of the [SIL Open Font License](https://openfontlicense.org/).
 
-Both desktop and web fonts are provided in a single, all-platforms package on the [Download page](https://github.com/silnrsi/font-idiqlat/releases).
+Both desktop and web fonts are provided in a single, all-platforms package on the [Download page](https://software.sil.org/idiqlat/download).
 
