@@ -13,11 +13,11 @@ Install the fonts by decompressing the .zip archive and installing the fonts usi
 
 ## Keyboarding and character set support
 
-This font package does not include keyboards or other software for entering text. To type the symbols in this font, use the keyboarding systems provided in your OS or use a separate utility. [Keyman](https://keyman.com/) is a cross-platform keyboarding system, and various Syriac keyboards are available. One keyboard is specifically designed for Eat Syriac:
+This font package does not include keyboards or other software for entering text. To type the symbols in this font, use the keyboarding systems provided in your OS or use a separate utility. [Keyman](https://keyman.com/) is a cross-platform keyboarding system, and various Syriac keyboards are available. One keyboard is specifically designed for East Syriac:
 
 - [East Syriac (Qwerty)](https://keyman.com/keyboards/east_syriac_qwerty)
 
-Various other means may be available for different operating-system platforms to create additional input methods. Some suggestions are listed here: [Keyboards and Tools](https://writingsystems.info/topics/input/keyboards-and-tools/).
+Various other means may be available for different operating system platforms to create additional input methods. Some suggestions are listed here: [Keyboards and Tools](https://writingsystems.info/topics/input/keyboards-and-tools/#keyboard-tools).
 
 See [Character set support](charset.md) for details of the Unicode characters supported by this font.
 
