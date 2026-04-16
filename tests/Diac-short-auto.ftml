@@ -4,7 +4,7 @@
   <head>
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 17.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
-    <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
+    <fontsrc label="2.0">url(../references/v2.000/Idiqlat-Regular.ttf)</fontsrc>
     <fontsrc label="ExLt">url(../results/Idiqlat-ExtraLight.ttf)</fontsrc>
     <fontsrc label="Lt">url(../results/Idiqlat-Light.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Idiqlat-Regular.ttf)</fontsrc>
@@ -262,32 +262,32 @@ U+0739">
       <comment>taw-syriac zlamadottedangular-syriac</comment>
       <string>\u00072C\u000739 \u00200D\u00072C\u000739  \u00072C\u000742 \u00200D\u00072C\u000742  \u00072C\u000743 \u00200D\u00072C\u000743  \u00072C\u000744 \u00200D\u00072C\u000744 </string>
     </test>
-    <test background="#f0fff0" label="U+072D
+    <test label="U+072D
 U+0739">
       <comment>bhethPersian-syriac zlamadottedangular-syriac</comment>
       <string>\u00072D\u000739 \u00072D\u000739\u00072D\u000739\u00072D\u000739  \u00072D\u000742 \u00072D\u000742\u00072D\u000742\u00072D\u000742  \u00072D\u000743 \u00072D\u000743\u00072D\u000743\u00072D\u000743  \u00072D\u000744 \u00072D\u000744\u00072D\u000744\u00072D\u000744 </string>
     </test>
-    <test background="#f0fff0" label="U+072E
+    <test label="U+072E
 U+0739">
       <comment>ghamalPersian-syriac zlamadottedangular-syriac</comment>
       <string>\u00072E\u000739 \u00072E\u000739\u00072E\u000739\u00072E\u000739  \u00072E\u000742 \u00072E\u000742\u00072E\u000742\u00072E\u000742  \u00072E\u000743 \u00072E\u000743\u00072E\u000743\u00072E\u000743  \u00072E\u000744 \u00072E\u000744\u00072E\u000744\u00072E\u000744 </string>
     </test>
-    <test background="#f0fff0" label="U+072F
+    <test label="U+072F
 U+0739">
       <comment>dhalathPersian-syriac zlamadottedangular-syriac</comment>
       <string>\u00072F\u000739 \u00200D\u00072F\u000739  \u00072F\u000742 \u00200D\u00072F\u000742  \u00072F\u000743 \u00200D\u00072F\u000743  \u00072F\u000744 \u00200D\u00072F\u000744 </string>
     </test>
-    <test background="#f0fff0" label="U+074D
+    <test label="U+074D
 U+0739">
       <comment>zhainSogdian-syriac zlamadottedangular-syriac</comment>
       <string>\u00074D\u000739 \u00200D\u00074D\u000739  \u00074D\u000742 \u00200D\u00074D\u000742  \u00074D\u000743 \u00200D\u00074D\u000743  \u00074D\u000744 \u00200D\u00074D\u000744 </string>
     </test>
-    <test background="#f0fff0" label="U+074E
+    <test label="U+074E
 U+0739">
       <comment>khaphSogdian-syriac zlamadottedangular-syriac</comment>
       <string>\u00074E\u000739 \u00074E\u000739\u00074E\u000739\u00074E\u000739  \u00074E\u000742 \u00074E\u000742\u00074E\u000742\u00074E\u000742  \u00074E\u000743 \u00074E\u000743\u00074E\u000743\u00074E\u000743  \u00074E\u000744 \u00074E\u000744\u00074E\u000744\u00074E\u000744 </string>
     </test>
-    <test background="#f0fff0" label="U+074F
+    <test label="U+074F
 U+0739">
       <comment>feSogdian-syriac zlamadottedangular-syriac</comment>
       <string>\u00074F\u000739 \u00074F\u000739\u00074F\u000739\u00074F\u000739  \u00074F\u000742 \u00074F\u000742\u00074F\u000742\u00074F\u000742  \u00074F\u000743 \u00074F\u000743\u00074F\u000743\u00074F\u000743  \u00074F\u000744 \u00074F\u000744\u00074F\u000744\u00074F\u000744 </string>
@@ -319,7 +319,7 @@ U+030A">
       <comment>beth-syriac ringcomb</comment>
       <string>\u000712\u00030A \u000712\u00030A\u000712\u00030A\u000712\u00030A  \u000715\u00030A \u00200D\u000715\u00030A </string>
     </test>
-    <test background="#f0fff0" label="U+0712
+    <test label="U+0712
 U+0320">
       <comment>beth-syriac minusbelowcomb</comment>
       <string>\u000712\u000320 \u000712\u000320\u000712\u000320\u000712\u000320  \u000715\u000320 \u00200D\u000715\u000320 </string>
@@ -359,7 +359,7 @@ U+0331">
       <comment>beth-syriac macronbelowcomb</comment>
       <string>\u000712\u000331 \u000712\u000331\u000712\u000331\u000712\u000331  \u000715\u000331 \u00200D\u000715\u000331 </string>
     </test>
-    <test background="#f0fff0" label="U+0712
+    <test label="U+0712
 U+034F">
       <comment>beth-syriac graphemejoinercomb</comment>
       <string>\u000712\u00034F \u000712\u00034F\u000712\u00034F\u000712\u00034F  \u000715\u00034F \u00200D\u000715\u00034F </string>
@@ -509,12 +509,12 @@ U+074A">
       <comment>beth-syriac barrekh-syriac</comment>
       <string>\u000712\u00074A \u000712\u00074A\u000712\u00074A\u000712\u00074A  \u000715\u00074A \u00200D\u000715\u00074A </string>
     </test>
-    <test background="#f0fff0" label="U+0712
+    <test label="U+0712
 U+1DF8">
       <comment>beth-syriac dotaboveleftcomb</comment>
       <string>\u000712\u001DF8 \u000712\u001DF8\u000712\u001DF8\u000712\u001DF8  \u000715\u001DF8 \u00200D\u000715\u001DF8 </string>
     </test>
-    <test background="#f0fff0" label="U+0712
+    <test label="U+0712
 U+1DFA">
       <comment>beth-syriac dotbelowleftcomb</comment>
       <string>\u000712\u001DFA \u000712\u001DFA\u000712\u001DFA\u000712\u001DFA  \u000715\u001DFA \u00200D\u000715\u001DFA </string>

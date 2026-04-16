@@ -1000,14 +1000,9 @@ lookup ltrMed2 {
     sub alaph-syriac by alaph-syriac.med2;
 } ltrMed2;
 
-#---  calt lookups  ---
+#---  rclt lookups  ---
 # This is needed because of the isolate form not looking like a final form,
 #   and this is viewed as a final even since it's after a right joining character
-lookup dfltCALT {
-    # (need at least a dummy lookup for TT)
-    lookupflag 0;
-} dfltCALT;
-
 # This is used for the final forms after a right-joining character
 lookup cv_fina {
     lookupflag RightToLeft IgnoreMarks;
@@ -1020,7 +1015,7 @@ lookup RightJoinFinaAlt {
     sub @RightJoining [mim-syriac nun-syriac kaph-syriac]' lookup cv_fina;
 } RightJoinFinaAlt;
 
-#---  end calt lookups  ---
+#---  end rclt lookups  ---
 # Language-independent shaping
 # HB PAUSE
 #--- remaining subs features (salt, cvxx, liga) ---
@@ -1245,6 +1240,17 @@ feature rlig {
     # aii, amw, cld, syc, syr, tru
 } rlig;
 
+feature rclt {
+    # Required Contextual Alternates
+    script syrc;
+    lookup RightJoinFinaAlt;
+    # Force other languages to include Syriac script lookups
+    language SYRN;
+    # syc, syr
+    language SYR;
+    # aii, amw, cld, syc, syr, tru
+} rclt;
+
 #---  stch feature (pass 8 or 9) ---
 feature stch {
     # GSUB feature: Stretching Glyph Decomposition
@@ -1279,23 +1285,7 @@ feature stch {
 
 # HB PAUSE
 #---  calt feature (pass 9)  ---
-# CHANGED! dfltCALT?
-feature calt {
-    # GSUB feature: Contextual Alternates
-    # Lookups: 1
-    script syrc;
-    # Syriac
-    lookup RightJoinFinaAlt;
-    # Force other languages to include Syriac script lookups
-    language SYRN;
-    # syc, syr
-    language SYR;
-    # aii, amw, cld, syc, syr, tru
-    script latn;
-    lookup dfltCALT;
-    # for bare diacritics (on white space) in Latin text
-} calt;
-
+# moved to rclt because Adobe Premiere was disabling calt
 # HB PAUSE
 #********************
 # all remaining substitution features (dlig,salt, ssxx, cvxx, liga, aalt):
@@ -1743,7 +1733,6 @@ feature aalt {
     feature ss05;
     feature ss16;
     feature cv02;
-    feature calt;
 } aalt;
 
 #**********************************
