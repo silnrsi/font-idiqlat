@@ -3,14 +3,13 @@
 <ftml version="1.0">
   <head>
     <fontscale>300</fontscale>
-     <fontsrc label="2.0">url(../references/v2.000/Idiqlat-Regular.ttf)</fontsrc>
+    <fontsrc label="2.1">url(../references/v2.100/Idiqlat-Regular.ttf)</fontsrc>
     <fontsrc label="ExLt">url(../results/Idiqlat-ExtraLight.ttf)</fontsrc>
     <fontsrc label="Lt">url(../results/Idiqlat-Light.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Idiqlat-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'ss01' 1" name="ss01_1"/>
-      <style feats="'ss18' 1" name="ss18_1"/>
-      <style feats="'ss19' 1" name="ss19_1"/>
+      <style feats="'ss16' 1" name="ss16_1"/>
       <style feats="'cv02' 1" name="cv02_1"/>
       <style feats="'cv15' 1" name="cv15_1"/>
       <style feats="'cv17' 1" name="cv17_1"/>

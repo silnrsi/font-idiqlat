@@ -15,8 +15,8 @@ then
 	exit 2
 fi
 
-prevfont="references/v2.000/Idiqlat-Regular.ttf"
-prevver="2.0"
+prevfont="references/v2.100/Idiqlat-Regular.ttf"
+prevver="2.1"
 
 commonParams=( \
 	--prevfont "$prevfont"  \
