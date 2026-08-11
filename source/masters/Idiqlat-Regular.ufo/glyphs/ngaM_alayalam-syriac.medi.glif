@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ngaMalayalam-syriac.medi" format="2">
+  <advance width="1440"/>
+  <anchor x="1108" y="1563" name="above"/>
+  <anchor x="81" y="1563" name="aboveleft"/>
+  <anchor x="688" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
+  <outline>
+    <component base="khaphSogdian-syriac.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

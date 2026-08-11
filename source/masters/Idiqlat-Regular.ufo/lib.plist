@@ -684,6 +684,38 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
     <string>feSogdian-syriac.init</string>
     <string>feSogdian-syriac.medi</string>
     <string>feSogdian-syriac.fina</string>
+    <string>ngaMalayalam-syriac</string>
+    <string>ngaMalayalam-syriac.init</string>
+    <string>ngaMalayalam-syriac.medi</string>
+    <string>ngaMalayalam-syriac.fina</string>
+    <string>jaMalayalam-syriac</string>
+    <string>nyaMalayalam-syriac</string>
+    <string>nyaMalayalam-syriac.init</string>
+    <string>nyaMalayalam-syriac.medi</string>
+    <string>nyaMalayalam-syriac.fina</string>
+    <string>ttaMalayalam-syriac</string>
+    <string>ttaMalayalam-syriac.init</string>
+    <string>ttaMalayalam-syriac.medi</string>
+    <string>ttaMalayalam-syriac.fina</string>
+    <string>nnaMalayalam-syriac</string>
+    <string>nnaMalayalam-syriac.init</string>
+    <string>nnaMalayalam-syriac.medi</string>
+    <string>nnaMalayalam-syriac.fina</string>
+    <string>nnnaMalayalam-syriac</string>
+    <string>nnnaMalayalam-syriac.init</string>
+    <string>nnnaMalayalam-syriac.medi</string>
+    <string>nnnaMalayalam-syriac.fina</string>
+    <string>bhaMalayalam-syriac</string>
+    <string>raMalayalam-syriac</string>
+    <string>raMalayalam-syriac.fina</string>
+    <string>llaMalayalam-syriac</string>
+    <string>llaMalayalam-syriac.init</string>
+    <string>llaMalayalam-syriac.medi</string>
+    <string>llaMalayalam-syriac.fina</string>
+    <string>lllaMalayalam-syriac</string>
+    <string>ssaMalayalam-syriac</string>
+    <string>ssaMalayalam-syriac.fina</string>
+    <string>lllaMalayalam-syriac.fina</string>
   </array>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
@@ -1289,6 +1321,38 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
     <string>feSogdian-syriac.init</string>
     <string>feSogdian-syriac.medi</string>
     <string>feSogdian-syriac.fina</string>
+    <string>ngaMalayalam-syriac</string>
+    <string>ngaMalayalam-syriac.init</string>
+    <string>ngaMalayalam-syriac.medi</string>
+    <string>ngaMalayalam-syriac.fina</string>
+    <string>jaMalayalam-syriac</string>
+    <string>nyaMalayalam-syriac</string>
+    <string>nyaMalayalam-syriac.init</string>
+    <string>nyaMalayalam-syriac.medi</string>
+    <string>nyaMalayalam-syriac.fina</string>
+    <string>ttaMalayalam-syriac</string>
+    <string>ttaMalayalam-syriac.init</string>
+    <string>ttaMalayalam-syriac.medi</string>
+    <string>ttaMalayalam-syriac.fina</string>
+    <string>nnaMalayalam-syriac</string>
+    <string>nnaMalayalam-syriac.init</string>
+    <string>nnaMalayalam-syriac.medi</string>
+    <string>nnaMalayalam-syriac.fina</string>
+    <string>nnnaMalayalam-syriac</string>
+    <string>nnnaMalayalam-syriac.init</string>
+    <string>nnnaMalayalam-syriac.medi</string>
+    <string>nnnaMalayalam-syriac.fina</string>
+    <string>bhaMalayalam-syriac</string>
+    <string>raMalayalam-syriac</string>
+    <string>raMalayalam-syriac.fina</string>
+    <string>llaMalayalam-syriac</string>
+    <string>llaMalayalam-syriac.init</string>
+    <string>llaMalayalam-syriac.medi</string>
+    <string>llaMalayalam-syriac.fina</string>
+    <string>lllaMalayalam-syriac</string>
+    <string>ssaMalayalam-syriac</string>
+    <string>ssaMalayalam-syriac.fina</string>
+    <string>lllaMalayalam-syriac.fina</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
@@ -1364,6 +1428,8 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
     <string>uni0712.init</string>
     <key>beth-syriac.medi</key>
     <string>uni0712.medi</string>
+    <key>bhaMalayalam-syriac</key>
+    <string>uni0866</string>
     <key>bhethPersian-syriac</key>
     <string>uni072D</string>
     <key>bhethPersian-syriac.fina</key>
@@ -1562,6 +1628,8 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
     <string>Delta</string>
     <key>inhibitformshaping-ar</key>
     <string>uni206C</string>
+    <key>jaMalayalam-syriac</key>
+    <string>uni0861</string>
     <key>kaph-syriac</key>
     <string>uni071F</string>
     <key>kaph-syriac.cv15</key>
@@ -1610,6 +1678,18 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
     <string>uni202D</string>
     <key>lineseparator</key>
     <string>uni2028</string>
+    <key>llaMalayalam-syriac</key>
+    <string>uni0868</string>
+    <key>llaMalayalam-syriac.fina</key>
+    <string>uni0868.fina</string>
+    <key>llaMalayalam-syriac.init</key>
+    <string>uni0868.init</string>
+    <key>llaMalayalam-syriac.medi</key>
+    <string>uni0868.medi</string>
+    <key>lllaMalayalam-syriac</key>
+    <string>uni0869</string>
+    <key>lllaMalayalam-syriac.fina</key>
+    <string>uni0869.fina</string>
     <key>macronbelowcomb</key>
     <string>uni0331</string>
     <key>macroncomb</key>
@@ -1640,8 +1720,32 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
     <string>uni202F</string>
     <key>nbspace</key>
     <string>uni00A0</string>
+    <key>ngaMalayalam-syriac</key>
+    <string>uni0860</string>
+    <key>ngaMalayalam-syriac.fina</key>
+    <string>uni0860.fina</string>
+    <key>ngaMalayalam-syriac.init</key>
+    <string>uni0860.init</string>
+    <key>ngaMalayalam-syriac.medi</key>
+    <string>uni0860.medi</string>
     <key>nine.cv02</key>
     <string>nine.latn</string>
+    <key>nnaMalayalam-syriac</key>
+    <string>uni0864</string>
+    <key>nnaMalayalam-syriac.fina</key>
+    <string>uni0864.fina</string>
+    <key>nnaMalayalam-syriac.init</key>
+    <string>uni0864.init</string>
+    <key>nnaMalayalam-syriac.medi</key>
+    <string>uni0864.medi</string>
+    <key>nnnaMalayalam-syriac</key>
+    <string>uni0865</string>
+    <key>nnnaMalayalam-syriac.fina</key>
+    <string>uni0865.fina</string>
+    <key>nnnaMalayalam-syriac.init</key>
+    <string>uni0865.init</string>
+    <key>nnnaMalayalam-syriac.medi</key>
+    <string>uni0865.medi</string>
     <key>nonbreakinghyphen</key>
     <string>uni2011</string>
     <key>nun-syriac</key>
@@ -1654,6 +1758,14 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
     <string>uni0722.init</string>
     <key>nun-syriac.medi</key>
     <string>uni0722.medi</string>
+    <key>nyaMalayalam-syriac</key>
+    <string>uni0862</string>
+    <key>nyaMalayalam-syriac.fina</key>
+    <string>uni0862.fina</string>
+    <key>nyaMalayalam-syriac.init</key>
+    <string>uni0862.init</string>
+    <key>nyaMalayalam-syriac.medi</key>
+    <string>uni0862.medi</string>
     <key>objectReplacementCharacter</key>
     <string>uniFFFC</string>
     <key>obliquelineabove-syriac</key>
@@ -1710,6 +1822,10 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
     <string>uni061F</string>
     <key>qushshaya-syriac</key>
     <string>uni0741</string>
+    <key>raMalayalam-syriac</key>
+    <string>uni0867</string>
+    <key>raMalayalam-syriac.fina</key>
+    <string>uni0867.fina</string>
     <key>rbasaabove-syriac</key>
     <string>uni0736</string>
     <key>rbasabelow-syriac</key>
@@ -1796,6 +1912,10 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
     <string>uni2006</string>
     <key>softhyphen</key>
     <string>uni00AD</string>
+    <key>ssaMalayalam-syriac</key>
+    <string>uni086A</string>
+    <key>ssaMalayalam-syriac.fina</key>
+    <string>uni086A.fina</string>
     <key>taw-syriac</key>
     <string>uni072C</string>
     <key>taw-syriac.fina</key>
@@ -1850,6 +1970,14 @@ tt/music-syriac/space/music2-syriac/space/kaph-syriac/space/space
     <string>uni2E22</string>
     <key>toprightHalfBracket</key>
     <string>uni2E23</string>
+    <key>ttaMalayalam-syriac</key>
+    <string>uni0863</string>
+    <key>ttaMalayalam-syriac.fina</key>
+    <string>uni0863.fina</string>
+    <key>ttaMalayalam-syriac.init</key>
+    <string>uni0863.init</string>
+    <key>ttaMalayalam-syriac.medi</key>
+    <string>uni0863.medi</string>
     <key>two.cv02</key>
     <string>two.latn</string>
     <key>twodotsverticalabove-syriac</key>

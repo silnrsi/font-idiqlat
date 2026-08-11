@@ -310,6 +310,8 @@
   <string>beth-syriac.init.glif</string>
   <key>beth-syriac.medi</key>
   <string>beth-syriac.medi.glif</string>
+  <key>bhaMalayalam-syriac</key>
+  <string>bhaM_alayalam-syriac.glif</string>
   <key>bhethPersian-syriac</key>
   <string>bhethP_ersian-syriac.glif</string>
   <key>bhethPersian-syriac.fina</key>
@@ -636,6 +638,8 @@
   <string>integral.rtl.glif</string>
   <key>j</key>
   <string>j.glif</string>
+  <key>jaMalayalam-syriac</key>
+  <string>jaM_alayalam-syriac.glif</string>
   <key>k</key>
   <string>k.glif</string>
   <key>kaph-syriac</key>
@@ -692,6 +696,18 @@
   <string>lessequal.glif</string>
   <key>lineseparator</key>
   <string>lineseparator.glif</string>
+  <key>llaMalayalam-syriac</key>
+  <string>llaM_alayalam-syriac.glif</string>
+  <key>llaMalayalam-syriac.fina</key>
+  <string>llaM_alayalam-syriac.fina.glif</string>
+  <key>llaMalayalam-syriac.init</key>
+  <string>llaM_alayalam-syriac.init.glif</string>
+  <key>llaMalayalam-syriac.medi</key>
+  <string>llaM_alayalam-syriac.medi.glif</string>
+  <key>lllaMalayalam-syriac</key>
+  <string>lllaM_alayalam-syriac.glif</string>
+  <key>lllaMalayalam-syriac.fina</key>
+  <string>lllaM_alayalam-syriac.fina.glif</string>
   <key>logicalnot</key>
   <string>logicalnot.glif</string>
   <key>lozenge</key>
@@ -736,10 +752,34 @@
   <string>narrownbspace.glif</string>
   <key>nbspace</key>
   <string>nbspace.glif</string>
+  <key>ngaMalayalam-syriac</key>
+  <string>ngaM_alayalam-syriac.glif</string>
+  <key>ngaMalayalam-syriac.fina</key>
+  <string>ngaM_alayalam-syriac.fina.glif</string>
+  <key>ngaMalayalam-syriac.init</key>
+  <string>ngaM_alayalam-syriac.init.glif</string>
+  <key>ngaMalayalam-syriac.medi</key>
+  <string>ngaM_alayalam-syriac.medi.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
   <key>nine.cv02</key>
   <string>nine.cv02.glif</string>
+  <key>nnaMalayalam-syriac</key>
+  <string>nnaM_alayalam-syriac.glif</string>
+  <key>nnaMalayalam-syriac.fina</key>
+  <string>nnaM_alayalam-syriac.fina.glif</string>
+  <key>nnaMalayalam-syriac.init</key>
+  <string>nnaM_alayalam-syriac.init.glif</string>
+  <key>nnaMalayalam-syriac.medi</key>
+  <string>nnaM_alayalam-syriac.medi.glif</string>
+  <key>nnnaMalayalam-syriac</key>
+  <string>nnnaM_alayalam-syriac.glif</string>
+  <key>nnnaMalayalam-syriac.fina</key>
+  <string>nnnaM_alayalam-syriac.fina.glif</string>
+  <key>nnnaMalayalam-syriac.init</key>
+  <string>nnnaM_alayalam-syriac.init.glif</string>
+  <key>nnnaMalayalam-syriac.medi</key>
+  <string>nnnaM_alayalam-syriac.medi.glif</string>
   <key>nonbreakinghyphen</key>
   <string>nonbreakinghyphen.glif</string>
   <key>notequal</key>
@@ -760,6 +800,14 @@
   <string>nun-syriac.init.glif</string>
   <key>nun-syriac.medi</key>
   <string>nun-syriac.medi.glif</string>
+  <key>nyaMalayalam-syriac</key>
+  <string>nyaM_alayalam-syriac.glif</string>
+  <key>nyaMalayalam-syriac.fina</key>
+  <string>nyaM_alayalam-syriac.fina.glif</string>
+  <key>nyaMalayalam-syriac.init</key>
+  <string>nyaM_alayalam-syriac.init.glif</string>
+  <key>nyaMalayalam-syriac.medi</key>
+  <string>nyaM_alayalam-syriac.medi.glif</string>
   <key>o</key>
   <string>o.glif</string>
   <key>oacute</key>
@@ -902,6 +950,10 @@
   <string>qushshaya-syriac.glif</string>
   <key>r</key>
   <string>r.glif</string>
+  <key>raMalayalam-syriac</key>
+  <string>raM_alayalam-syriac.glif</string>
+  <key>raMalayalam-syriac.fina</key>
+  <string>raM_alayalam-syriac.fina.glif</string>
   <key>radical</key>
   <string>radical.glif</string>
   <key>radical.rtl</key>
@@ -1012,6 +1064,10 @@
   <string>softhyphen.glif</string>
   <key>space</key>
   <string>space.glif</string>
+  <key>ssaMalayalam-syriac</key>
+  <string>ssaM_alayalam-syriac.glif</string>
+  <key>ssaMalayalam-syriac.fina</key>
+  <string>ssaM_alayalam-syriac.fina.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
   <key>summation</key>
@@ -1088,6 +1144,14 @@
   <string>toprightH_alfB_racket.glif</string>
   <key>trademark</key>
   <string>trademark.glif</string>
+  <key>ttaMalayalam-syriac</key>
+  <string>ttaM_alayalam-syriac.glif</string>
+  <key>ttaMalayalam-syriac.fina</key>
+  <string>ttaM_alayalam-syriac.fina.glif</string>
+  <key>ttaMalayalam-syriac.init</key>
+  <string>ttaM_alayalam-syriac.init.glif</string>
+  <key>ttaMalayalam-syriac.medi</key>
+  <string>ttaM_alayalam-syriac.medi.glif</string>
   <key>two</key>
   <string>two.glif</string>
   <key>two.cv02</key>
