@@ -6,9 +6,8 @@
   <anchor x="1054" y="-243" name="below"/>
   <anchor x="16" y="-243" name="belowleft"/>
   <outline>
-    <component base="pe-syriac.init" xOffset="366"/>
-    <component base="_LeftTail" xOffset="-81"/>
-    <component base="_right_connector" xOffset="1529"/>
+    <component base="nyaMalayalam-syriac"/>
+    <component base="kashida-ar.half" xOffset="1422"/>
   </outline>
   <lib>
     <dict>
