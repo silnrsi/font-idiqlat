@@ -2,8 +2,8 @@
 <glyph name="nnnaMalayalam-syriac" format="2">
   <advance width="1806"/>
   <unicode hex="0865"/>
-  <anchor x="1373" y="1563" name="above"/>
-  <anchor x="98" y="1563" name="aboveleft"/>
+  <anchor x="1003" y="2479" name="above"/>
+  <anchor x="81" y="2313" name="aboveleft"/>
   <anchor x="1067" y="-243" name="below"/>
   <anchor x="98" y="-243" name="belowleft"/>
   <outline>

@@ -915,6 +915,18 @@ lookup MusicLigatures {
 } MusicLigatures;
 
 # HB PAUSE
+# Malayalam ligature
+lookup NnaTtaMalayalamLigature {
+    lookupflag 0;
+    sub nnaMalayalam-syriac ttaMalayalam-syriac by nnaMalayalam_ttaMalayalam-syriac;
+    sub nnaMalayalam-syriac.init ttaMalayalam-syriac.medi by nnaMalayalam_ttaMalayalam-syriac.init;
+    sub nnaMalayalam-syriac.init ttaMalayalam-syriac.fina by nnaMalayalam_ttaMalayalam-syriac;
+    sub nnaMalayalam-syriac.init ttaMalayalam-syriac.medi by nnaMalayalam_ttaMalayalam-syriac.init;
+    sub nnaMalayalam-syriac.medi ttaMalayalam-syriac.medi by nnaMalayalam_ttaMalayalam-syriac.medi;
+    sub nnaMalayalam-syriac.medi ttaMalayalam-syriac.fina by nnaMalayalam_ttaMalayalam-syriac.fina;
+} NnaTtaMalayalamLigature;
+
+# HB PAUSE
 # The breve below must almost touch
 lookup PeBreveBelow {
     # 0715 0742
@@ -1222,6 +1234,8 @@ feature rlig {
     lookup DalathRukkakha;
     # was r3
     lookup MusicLigatures;
+    # not in ESM
+    lookup NnaTtaMalayalamLigature;
     # not in ESM
     # Force other languages to include Syriac script lookups
     language SYRN;

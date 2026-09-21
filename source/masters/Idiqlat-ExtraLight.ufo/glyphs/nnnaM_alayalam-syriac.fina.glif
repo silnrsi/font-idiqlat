@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnnaMalayalam-syriac.fina" format="2">
   <advance width="2369"/>
-  <anchor x="1979" y="1563" name="above"/>
-  <anchor x="751" y="1563" name="aboveleft"/>
+  <anchor x="1003" y="2479" name="above"/>
+  <anchor x="81" y="2313" name="aboveleft"/>
   <anchor x="1201" y="-243" name="below"/>
   <anchor x="751" y="-243" name="belowleft"/>
   <outline>

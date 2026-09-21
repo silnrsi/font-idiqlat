@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nyaMalayalam-syriac.medi" format="2">
   <advance width="2059"/>
-  <anchor x="753" y="1603" name="above"/>
-  <anchor x="81" y="1603" name="aboveleft"/>
+  <anchor x="1463" y="2346" name="above"/>
+  <anchor x="81" y="2142" name="aboveleft"/>
   <anchor x="826" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
