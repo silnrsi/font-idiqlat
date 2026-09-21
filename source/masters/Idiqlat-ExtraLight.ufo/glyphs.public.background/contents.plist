@@ -162,6 +162,10 @@
   <string>mim-syriac.fina.glif</string>
   <key>mim-syriac.init</key>
   <string>mim-syriac.init.glif</string>
+  <key>ngaMalayalam-syriac</key>
+  <string>ngaM_alayalam-syriac.glif</string>
+  <key>nnnaMalayalam-syriac</key>
+  <string>nnnaM_alayalam-syriac.glif</string>
   <key>nun-syriac</key>
   <string>nun-syriac.glif</string>
   <key>nun-syriac.fina</key>
