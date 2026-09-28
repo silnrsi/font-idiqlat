@@ -206,6 +206,10 @@
   <string>_jdotless.glif</string>
   <key>_macron</key>
   <string>_macron.glif</string>
+  <key>_ngaMalayalam</key>
+  <string>_ngaM_alayalam.glif</string>
+  <key>_nnaMalayalam</key>
+  <string>_nnaM_alayalam.glif</string>
   <key>_ogonek</key>
   <string>_ogonek.glif</string>
   <key>_qaph</key>

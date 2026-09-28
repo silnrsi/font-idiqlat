@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ssaMalayalam-syriac.fina" format="2">
-  <advance width="1608"/>
+  <advance width="1484"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="ssaMalayalam-syriac"/>
+    <component base="kashida-ar.quarter" xOffset="1338"/>
   </outline>
   <lib>
     <dict>
