@@ -2,6 +2,10 @@
 <glyph name="raMalayalam-syriac" format="2">
   <advance width="1133"/>
   <unicode hex="0867"/>
+  <anchor x="663" y="690" name="above"/>
+  <anchor x="81" y="690" name="aboveleft"/>
+  <anchor x="735" y="-843" name="below"/>
+  <anchor x="81" y="-1240" name="belowleft"/>
   <outline>
     <contour>
       <point x="-931" y="-1594" type="curve"/>

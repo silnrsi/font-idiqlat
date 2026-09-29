@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="llaMalayalam-syriac.init" format="2">
   <advance width="2185"/>
+  <anchor x="1568" y="2479" name="above"/>
+  <anchor x="81" y="2479" name="aboveleft"/>
+  <anchor x="1067" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="llaMalayalam-syriac"/>
     <component base="kashida-ar.quarter"/>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnaMalayalam_ttaMalayalam-syriac" format="2">
   <advance width="3047"/>
-  <anchor x="1291" y="947" name="above"/>
-  <anchor x="1267" y="850" name="aboveleft"/>
-  <anchor x="1315" y="-267" name="below"/>
-  <anchor x="1267" y="-243" name="belowleft"/>
+  <anchor x="2121" y="2476" name="above_1"/>
+  <anchor x="668" y="634" name="above_2"/>
+  <anchor x="2178" y="-243" name="below_1"/>
+  <anchor x="1288" y="-843" name="below_2"/>
   <outline>
     <contour>
       <point x="1237" y="520" type="curve" smooth="yes"/>

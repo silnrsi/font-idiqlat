@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnaMalayalam-syriac.medi" format="2">
   <advance width="1989"/>
-  <anchor x="753" y="1603" name="above"/>
-  <anchor x="81" y="1603" name="aboveleft"/>
-  <anchor x="826" y="-243" name="below"/>
+  <anchor x="1063" y="2468" name="above"/>
+  <anchor x="81" y="2468" name="aboveleft"/>
+  <anchor x="1156" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="_right_connector" xOffset="1795"/>

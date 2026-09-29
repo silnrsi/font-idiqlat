@@ -231,6 +231,9 @@ lookup MusicLigatures {
 # HB PAUSE
 
 # Malayalam ligature
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 ; {
+
 lookup NnaTtaMalayalamLigature {
   lookupflag 0; ;
     sub nnaMalayalam-syriac ttaMalayalam-syriac by nnaMalayalam_ttaMalayalam-syriac ;
@@ -240,6 +243,7 @@ lookup NnaTtaMalayalamLigature {
     sub nnaMalayalam-syriac.medi ttaMalayalam-syriac.medi by nnaMalayalam_ttaMalayalam-syriac.medi ;
     sub nnaMalayalam-syriac.medi ttaMalayalam-syriac.fina by nnaMalayalam_ttaMalayalam-syriac.fina ;
 } NnaTtaMalayalamLigature ;
+}   #end do - Idiqlat
 
 # HB PAUSE
 

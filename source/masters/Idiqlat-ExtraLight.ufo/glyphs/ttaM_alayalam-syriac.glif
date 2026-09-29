@@ -2,6 +2,10 @@
 <glyph name="ttaMalayalam-syriac" format="2">
   <advance width="1779"/>
   <unicode hex="0863"/>
+  <anchor x="783" y="650" name="above"/>
+  <anchor x="81" y="650" name="aboveleft"/>
+  <anchor x="1285" y="-843" name="below"/>
+  <anchor x="81" y="-843" name="belowleft"/>
   <outline>
     <component base="_heth-init" xOffset="991"/>
     <contour>

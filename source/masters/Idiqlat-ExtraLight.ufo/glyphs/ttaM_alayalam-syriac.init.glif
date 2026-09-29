@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ttaMalayalam-syriac.init" format="2">
   <advance width="1896"/>
-  <anchor x="1286" y="947" name="above"/>
-  <anchor x="1261" y="850" name="aboveleft"/>
-  <anchor x="1310" y="-267" name="below"/>
-  <anchor x="1261" y="-243" name="belowleft"/>
+  <anchor x="783" y="650" name="above"/>
+  <anchor x="81" y="650" name="aboveleft"/>
+  <anchor x="1410" y="-843" name="below"/>
+  <anchor x="81" y="-843" name="belowleft"/>
   <outline>
     <component base="kashida-ar.quarter"/>
     <component base="ttaMalayalam-syriac" xOffset="115"/>

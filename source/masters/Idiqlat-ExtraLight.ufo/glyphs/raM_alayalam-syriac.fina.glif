@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="raMalayalam-syriac.fina" format="2">
   <advance width="1118"/>
+  <anchor x="663" y="690" name="above"/>
+  <anchor x="81" y="690" name="aboveleft"/>
+  <anchor x="735" y="-843" name="below"/>
+  <anchor x="81" y="-1240" name="belowleft"/>
   <outline>
     <component base="_right_connector" xOffset="924"/>
     <component base="raMalayalam-syriac"/>

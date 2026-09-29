@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ttaMalayalam-syriac.fina" format="2">
   <advance width="1854"/>
+  <anchor x="783" y="650" name="above"/>
+  <anchor x="81" y="650" name="aboveleft"/>
+  <anchor x="1401" y="-843" name="below"/>
+  <anchor x="81" y="-843" name="belowleft"/>
   <outline>
     <component base="kashida-ar.quarter" xOffset="1708"/>
     <contour>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 17.0 or later; else light green: a character is new in this version of the font</comment>
+    <fontscale>200</fontscale>
+    <fontsrc label="ExLt">url(../results/Idiqlat-ExtraLight.ttf)</fontsrc>
+    <fontsrc label="ESA">url(../references/East Syriac Adiabene-DXH2O_New_May29.ttf)</fontsrc>
+    <styles>
+      <style feats="'cv02' 1" name="cv02_1"/>
+      <style feats="'cv15' 1" name="cv15_1"/>
+      <style feats="'cv17' 1" name="cv17_1"/>
+      <style feats="'cv18' 1" name="cv18_1"/>
+    </styles>
+    <title>Malayalam Characters</title>
+    <widths string="33%"/>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="New glyphs">
+    <test label="U+0726">
+      <comment>pe-syriac</comment>
+      <string>\u000726 \u000726\u00200D \u00200D\u000726\u00200D \u00200D\u000726 \u000726\u000726\u000726 </string>
+    </test>
+    <test label="U+0727">
+      <comment>reversedpe-syriac</comment>
+      <string>\u000727 \u000727\u00200D \u00200D\u000727\u00200D \u00200D\u000727 \u000727\u000727\u000727 </string>
+    </test>
+  </testgroup>
+
+  <testgroup label="New Malaylam characters">
+    <test label="U+0860">
+      <comment>ngaMalayalam-syriac</comment>
+      <string>\u000860 \u000860\u00200D \u00200D\u000860\u00200D \u00200D\u000860 \u000860\u000860\u000860</string>
+    </test>
+    <test label="U+0861">
+      <comment>jaMalayalam-syriac</comment>
+      <string>\u000861</string>
+    </test>
+    <test label="U+0862">
+      <comment>nyaMalayalam-syriac</comment>
+      <string>\u000862 \u000862\u00200D \u00200D\u000862\u00200D \u00200D\u000862 \u000862\u000862\u000862</string>
+    </test>
+    <test label="U+0863">
+      <comment>ttaMalayalam-syriac</comment>
+      <string>\u000863 \u000863\u00200D \u00200D\u000863\u00200D \u00200D\u000863 \u000863\u000863\u000863 </string>
+    </test>
+    <test label="U+0864">
+      <comment>nnaMalayalam-syriac</comment>
+      <string>\u000864 \u000864\u00200D \u00200D\u000864\u00200D \u00200D\u000864 \u000864\u000864\u000864</string>
+    </test>
+    <test label="U+0865">
+      <comment>nnnaMalayalam-syriac</comment>
+      <string>\u000865 \u000865\u00200D \u00200D\u000865\u00200D \u00200D\u000865 \u000865\u000865\u000865</string>
+    </test>
+    <test label="U+0866">
+      <comment>bhaMalayalam-syriac</comment>
+      <string>\u000866</string>
+    </test>
+    <test label="U+0867">
+      <comment>raMalayalam-syriac</comment>
+      <string>\u000867 \u00200D\u000867</string>
+    </test>
+    <test label="U+0868">
+      <comment>llaMalayalam-syriac</comment>
+      <string>\u000868 \u000868\u00200D \u00200D\u000868\u00200D \u00200D\u000868 \u000868\u000868\u000868</string>
+    </test>
+    <test label="U+0869">
+      <comment>lllaMalayalam-syriac</comment>
+      <string>\u000869 \u00200D\u000869</string>
+    </test>
+    <test label="U+086A">
+      <comment>ssaMalayalam-syriac</comment>
+      <string>\u00086A \u00200D\u00086A</string>
+    </test>
+    <test label="U+0864 U+0863">
+      <comment>nnaMalayalam_ttaMalayalam-syriac</comment>
+      <string>\u000864\u0863 \u00200D\u000864\u0863</string>
+    </test>
+  </testgroup>
+
+  <testgroup label="Malayalam words">
+      <test label="U+0860">
+      <comment>ngaMalayalam-syriac</comment>
+      <string>\u000721\u000735\u0071f\u00732\u000864\u0732\u00721\u000739\u000710</string>
+    </test>
+    <test label="U+0861">
+      <comment>jaMalayalam-syriac</comment>
+      <string>\u000861\u071d\u0732\u0712\u0742\u0718\u073c\u0721</string>
+    </test>
+    <test label="U+0862">
+      <comment>nyaMalayalam-syriac</comment>
+      <string>\u000862\u000732\u00860\u0331\u000732\u00868\u00718\u0073c\u000863\u000738\u000710</string>
+    </test>
+    <test label="U+0863">
+      <comment>ttaMalayalam-syriac</comment>
+      <string>\u000863 \u000863\u00200D \u00200D\u000863\u00200D \u00200D\u000863 \u000863\u000863\u000863 </string>
+    </test>
+    <test label="U+0864">
+      <comment>nnaMalayalam-syriac</comment>
+      <string>\u000721\u000735\u0071f\u00732\u000864\u00732\u00721\u000739\u000710</string>
+    </test>
+    <test label="U+0865">
+      <comment>nnnaMalayalam-syriac</comment>
+      <string>\u000865\u000735\u00721\u00732\u000721</string>
+    </test>
+    <test label="U+0866">
+      <comment>bhaMalayalam-syriac</comment>
+      <string>\u000866\u0718\u073c\u0721\u071d\u073c\u071d\u073c\u0720\u0718\u073c</string>
+    </test>
+    <test label="U+0867">
+      <comment>raMalayalam-syriac</comment>
+      <string>\u000710\u0071d\u0073c\u0863\u0732\u071d\u0735\u071f\u0732\u0867</string>
+    </test>
+    <test label="U+0868">
+      <comment>llaMalayalam-syriac</comment>
+      <string>\u000862\u000732\u00860\u000331\u000732\u00868</string>
+    </test>
+    <test label="U+0869">
+      <comment>lllaMalayalam-syriac</comment>
+      <string>\u000712\u000742\u00071d\u073c\u0869\u0735\u0722</string>
+    </test>
+    <test label="U+086A">
+      <comment>ssaMalayalam-syriac</comment>
+      <string>\u000723\u00732\u00071f\u0732\u0720\u0732\u0723\u072a\u086a</string>
+    </test>
+    <test label="U+0864 U+0863">
+      <comment>nnaMalayalam_ttaMalayalam-syriac</comment>
+      <string>\u000710\u0738\u00865\u00072c\u0718\u073c\u071f\u0718\u073f\u0864\u0863\u0738\u0865\u0331\u0735\u0720</string>
+    </test>
+  </testgroup>
+
+  <testgroup label="Representative diacritics on all bases that take diacritics">
+    <test label="U+0860 U+0739">
+      <comment>ngaMalayalam-syriac zlamadottedangular-syriac</comment>
+      <string>\u000860\u000739 \u000860\u000739\u000860\u000739\u000860\u000739  \u000860\u000742 \u000860\u000742\u000860\u000742\u000860\u000742  \u000860\u000743 \u000860\u000743\u000860\u000743\u000860\u000743  \u000860\u000744 \u000860\u000744\u000860\u000744\u000860\u000744 </string>
+    </test>
+    <test label="U+0862 U+0739">
+      <comment>nyaMalayalam-syriac zlamadottedangular-syriac</comment>
+      <string>\u000862\u000739 \u000862\u000739\u000862\u000739\u000862\u000739  \u000862\u000742 \u000862\u000742\u000862\u000742\u000862\u000742  \u000862\u000743 \u000862\u000743\u000862\u000743\u000862\u000743  \u000862\u000744 \u000862\u000744\u000862\u000744\u000862\u000744 </string>
+    </test>
+    <test label="U+0863 U+0739">
+      <comment>ttaMalayalam-syriac zlamadottedangular-syriac</comment>
+      <string>\u000863\u000739 \u000863\u000739\u000863\u000739\u000863\u000739  \u000863\u000742 \u000863\u000742\u000863\u000742\u000863\u000742  \u000863\u000743 \u000863\u000743\u000863\u000743\u000863\u000743  \u000863\u000744 \u000863\u000744\u000863\u000744\u000863\u000744 </string>
+    </test>
+    <test label="U+0864 U+0739">
+      <comment>nnaMalayalam-syriac zlamadottedangular-syriac</comment>
+      <string>\u000864\u000739 \u000864\u000739\u000864\u000739\u000864\u000739  \u000864\u000742 \u000864\u000742\u000864\u000742\u000864\u000742  \u000864\u000743 \u000864\u000743\u000864\u000743\u000864\u000743  \u000864\u000744 \u000864\u000744\u000864\u000744\u000864\u000744 </string>
+    </test>
+    <test label="U+0865 U+0739">
+      <comment>nnnaMalayalam-syriac zlamadottedangular-syriac</comment>
+      <string>\u000865\u000739 \u000865\u000739\u000865\u000739\u000865\u000739  \u000865\u000742 \u000865\u000742\u000865\u000742\u000865\u000742  \u000865\u000743 \u000865\u000743\u000865\u000743\u000865\u000743  \u000865\u000744 \u000865\u000744\u000865\u000744\u000865\u000744 </string>
+    </test>
+    <test label="U+0867 U+0739">
+      <comment>raMalayalam-syriac zlamadottedangular-syriac</comment>
+      <string>\u000867\u000739 \u00200D\u000867\u000739  \u000867\u000742 \u00200D\u000867\u000742  \u000867\u000743 \u00200D\u000867\u000743  \u000867\u000744 \u00200D\u000867\u000744 </string>
+    </test>
+    <test label="U+0868 U+0739">
+      <comment>llaMalayalam-syriac zlamadottedangular-syriac</comment>
+      <string>\u000868\u000739 \u000868\u000739\u000868\u000739\u000868\u000739  \u000868\u000742 \u000868\u000742\u000868\u000742\u000868\u000742  \u000868\u000743 \u000868\u000743\u000868\u000743\u000868\u000743  \u000868\u000744 \u000868\u000744\u000868\u000744\u000868\u000744 </string>
+    </test>
+    <test label="U+0869 U+0739">
+      <comment>lllaMalayalam-syriac zlamadottedangular-syriac</comment>
+      <string>\u000869\u000739 \u00200D\u000869\u000739  \u000869\u000742 \u00200D\u000869\u000742  \u000869\u000743 \u00200D\u000869\u000743  \u000869\u000744 \u00200D\u000869\u000744 </string>
+    </test>
+    <test label="U+086A U+0739">
+      <comment>ssaMalayalam-syriac zlamadottedangular-syriac</comment>
+      <string>\u00086a\u000739 \u00200D\u00086a\u000739  \u00086a\u000742 \u00200D\u00086a\u000742  \u00086a\u000743 \u00200D\u00086a\u000743  \u00086a\u000744 \u00200D\u00086a\u000744 </string>
+    </test>
+   <test label="U+0864 U+0863 U+0739">
+      <comment>nnaMalayalam_ttaMalayalam-syriac zlamadottedangular-syriac</comment>
+      <string>\u000864\u000739\u0863\u000739 \u000864\u000739\u0863\u000739\u000864\u000739\u0863\u000739\u000864\u000739\u0863\u000739  \u000864\u000742\u0863\u000742 \u000864\u000742\u0863\u000742\u000864\u000742\u0863\u000742\u000864\u000742\u0863\u000742  \u000864\u000743\u0863\u000743 \u000864\u000743\u0863\u000743\u000864\u000743\u0863\u000743\u000864\u000743\u0863\u000743  \u000864\u000744\u0863\u000744 \u000864\u000744\u0863\u000744\u000864\u000744\u0863\u000744\u000864\u000744\u0863\u000744 </string>
+    </test>
+  </testgroup>
+
+
+</ftml>

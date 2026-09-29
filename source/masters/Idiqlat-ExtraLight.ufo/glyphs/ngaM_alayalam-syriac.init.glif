@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ngaMalayalam-syriac.init" format="2">
   <advance width="1849"/>
-  <anchor x="1143" y="1563" name="above"/>
-  <anchor x="281" y="1563" name="aboveleft"/>
+  <anchor x="1006" y="2476" name="above"/>
+  <anchor x="81" y="2476" name="aboveleft"/>
   <anchor x="775" y="-243" name="below"/>
-  <anchor x="281" y="-243" name="belowleft"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="kashida-ar.quarter"/>
     <component base="_ngaMalayalam" xOffset="20"/>

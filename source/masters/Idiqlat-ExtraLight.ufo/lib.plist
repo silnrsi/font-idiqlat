@@ -722,9 +722,9 @@
     <string>llaMalayalam-syriac.medi</string>
     <string>llaMalayalam-syriac.fina</string>
     <string>lllaMalayalam-syriac</string>
+    <string>lllaMalayalam-syriac.fina</string>
     <string>ssaMalayalam-syriac</string>
     <string>ssaMalayalam-syriac.fina</string>
-    <string>lllaMalayalam-syriac.fina</string>
   </array>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
@@ -1367,9 +1367,9 @@
     <string>llaMalayalam-syriac.medi</string>
     <string>llaMalayalam-syriac.fina</string>
     <string>lllaMalayalam-syriac</string>
+    <string>lllaMalayalam-syriac.fina</string>
     <string>ssaMalayalam-syriac</string>
     <string>ssaMalayalam-syriac.fina</string>
-    <string>lllaMalayalam-syriac.fina</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
