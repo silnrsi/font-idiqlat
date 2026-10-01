@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="raMalayalam-syriac" format="2">
-  <advance width="1608"/>
+  <advance width="1133"/>
   <unicode hex="0867"/>
+  <anchor x="663" y="690" name="above"/>
+  <anchor x="81" y="690" name="aboveleft"/>
+  <anchor x="735" y="-843" name="below"/>
+  <anchor x="81" y="-1240" name="belowleft"/>
   <outline>
-    <component base=".notdef"/>
+    <contour>
+      <point x="-931" y="-1594" type="curve"/>
+      <point x="-901" y="-1643" type="line"/>
+      <point x="640" y="-902"/>
+      <point x="1013" y="-148"/>
+      <point x="1013" y="126" type="curve" smooth="yes"/>
+      <point x="1013" y="429"/>
+      <point x="721" y="520"/>
+      <point x="658" y="520" type="curve" smooth="yes"/>
+      <point x="618" y="520"/>
+      <point x="561" y="248"/>
+      <point x="561" y="146" type="curve"/>
+      <point x="617" y="146"/>
+      <point x="746" y="128"/>
+      <point x="746" y="41" type="curve" smooth="yes"/>
+      <point x="746" y="-115"/>
+      <point x="322" y="-869"/>
+    </contour>
   </outline>
   <lib>
     <dict>

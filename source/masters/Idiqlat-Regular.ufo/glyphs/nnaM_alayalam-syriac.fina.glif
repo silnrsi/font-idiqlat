@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnaMalayalam-syriac.fina" format="2">
-  <advance width="1871"/>
-  <anchor x="1168" y="1603" name="above"/>
-  <anchor x="81" y="1603" name="aboveleft"/>
-  <anchor x="1119" y="-243" name="below"/>
+  <advance width="2570"/>
+  <anchor x="1623" y="2468" name="above"/>
+  <anchor x="81" y="2468" name="aboveleft"/>
+  <anchor x="1585" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="pe-syriac.init" xOffset="431"/>
-    <component base="_LeftTail" xOffset="-81"/>
-    <component base="_right_connector" xOffset="2015"/>
+    <component base="_LeftTail" xOffset="-84"/>
+    <component base="_right_connector" xOffset="2376"/>
+    <component base="_nnaMalayalam" xOffset="625"/>
+    <contour>
+      <point x="1889" y="235" type="line"/>
+      <point x="1889" y="0" type="line"/>
+      <point x="2558" y="0" type="line"/>
+      <point x="2558" y="235" type="line"/>
+    </contour>
+    <contour>
+      <point x="391" y="235" type="line"/>
+      <point x="391" y="0" type="line"/>
+      <point x="1009" y="0" type="line"/>
+      <point x="1009" y="235" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCCPP</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

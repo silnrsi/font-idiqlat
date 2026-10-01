@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="raMalayalam-syriac.fina" format="2">
-  <advance width="1608"/>
+  <advance width="1118"/>
+  <anchor x="663" y="690" name="above"/>
+  <anchor x="81" y="690" name="aboveleft"/>
+  <anchor x="735" y="-843" name="below"/>
+  <anchor x="81" y="-1240" name="belowleft"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="_right_connector" xOffset="924"/>
+    <component base="raMalayalam-syriac"/>
+    <contour>
+      <point x="986" y="235" type="line"/>
+      <point x="846" y="0" type="line"/>
+      <point x="1103" y="0" type="line"/>
+      <point x="1103" y="235" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCP</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

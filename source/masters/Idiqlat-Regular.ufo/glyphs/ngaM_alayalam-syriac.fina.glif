@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ngaMalayalam-syriac.fina" format="2">
-  <advance width="1812"/>
-  <anchor x="1443" y="1563" name="above"/>
-  <anchor x="81" y="1563" name="aboveleft"/>
-  <anchor x="904" y="-243" name="below"/>
+  <advance width="2341"/>
+  <anchor x="1536" y="2476" name="above"/>
+  <anchor x="81" y="2476" name="aboveleft"/>
+  <anchor x="1151" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="khaphSogdian-syriac.fina"/>
+    <component base="_right_connector" xOffset="2147"/>
+    <component base="_LeftTail" xOffset="-81"/>
+    <component base="_ngaMalayalam" xOffset="540"/>
+    <contour>
+      <point x="431" y="235" type="line"/>
+      <point x="431" y="0" type="line"/>
+      <point x="699" y="0" type="line"/>
+      <point x="699" y="235" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCCP</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

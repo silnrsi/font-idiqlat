@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnaMalayalam_ttaMalayalam-syriac.medi" format="2">
-  <advance width="1608"/>
+  <advance width="3157"/>
+  <anchor x="2121" y="2476" name="above_1"/>
+  <anchor x="668" y="634" name="above_2"/>
+  <anchor x="2383" y="-243" name="below_1"/>
+  <anchor x="1288" y="-843" name="below_2"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="nnaMalayalam_ttaMalayalam-syriac" xOffset="114"/>
+    <component base="kashida-ar.quarter"/>
+    <component base="_right_connector" xOffset="2963"/>
+    <contour>
+      <point x="366" y="235" type="curve"/>
+      <point x="0" y="235" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="173" y="0" type="line" smooth="yes"/>
+      <point x="311" y="0"/>
+      <point x="366" y="105"/>
+    </contour>
+    <contour>
+      <point x="2450" y="235" type="line"/>
+      <point x="2450" y="0" type="line"/>
+      <point x="3129" y="0" type="line"/>
+      <point x="3129" y="235" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCCPP</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>
