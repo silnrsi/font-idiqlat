@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reversedpe-syriac" format="2">
-  <advance width="1200"/>
+  <advance width="1796"/>
   <unicode hex="0727"/>
-  <outline/>
+  <outline>
+    <component base="_LeftTail" xOffset="-81"/>
+    <component base="_reversedpe" xOffset="220"/>
+  </outline>
 </glyph>

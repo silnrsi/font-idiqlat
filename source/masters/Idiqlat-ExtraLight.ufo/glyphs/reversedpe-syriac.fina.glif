@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reversedpe-syriac.fina" format="2">
-  <advance width="1200"/>
-  <outline/>
+  <advance width="1759"/>
+  <outline>
+    <component base="_reversedpe" xOffset="279"/>
+    <component base="kashida-ar.quarter" xOffset="1613"/>
+    <component base="_LeftTail" xOffset="-82"/>
+  </outline>
 </glyph>

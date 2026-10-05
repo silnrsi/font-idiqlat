@@ -210,10 +210,16 @@
   <string>_ngaM_alayalam.glif</string>
   <key>_nnaMalayalam</key>
   <string>_nnaM_alayalam.glif</string>
+  <key>_nnnaMalayalam</key>
+  <string>_nnnaM_alayalam.glif</string>
+  <key>_nyaMalayalam</key>
+  <string>_nyaM_alayalam.glif</string>
   <key>_ogonek</key>
   <string>_ogonek.glif</string>
   <key>_qaph</key>
   <string>_qaph.glif</string>
+  <key>_reversedpe</key>
+  <string>_reversedpe.glif</string>
   <key>_right_connector</key>
   <string>_right_connector.glif</string>
   <key>_ringabv</key>
