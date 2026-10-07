@@ -2,10 +2,10 @@
 <glyph name="nyaMalayalam-syriac" format="2">
   <advance width="2767"/>
   <unicode hex="0862"/>
-  <anchor x="1103" y="1603" name="above"/>
-  <anchor x="16" y="1603" name="aboveleft"/>
-  <anchor x="1079" y="-243" name="below"/>
-  <anchor x="16" y="-243" name="belowleft"/>
+  <anchor x="1473" y="2309" name="above"/>
+  <anchor x="81" y="2309" name="aboveleft"/>
+  <anchor x="819" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="_LeftTail" xOffset="-81"/>
     <component base="_nyaMalayalam" xOffset="170"/>

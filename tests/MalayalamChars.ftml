@@ -2,7 +2,7 @@
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
-    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 17.0 or later; else light green: a character is new in this version of the font</comment>
+    <comment>New characters designed for the Malayalam character set.</comment>
     <fontscale>200</fontscale>
     <fontsrc label="ExLt">url(../results/Idiqlat-ExtraLight.ttf)</fontsrc>
     <fontsrc label="ESA">url(../references/East Syriac Adiabene-DXH2O_New_May29.ttf)</fontsrc>
@@ -13,7 +13,7 @@
       <style feats="'cv18' 1" name="cv18_1"/>
     </styles>
     <title>Malayalam Characters</title>
-    <widths string="33%"/>
+    <widths string="40%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
@@ -78,14 +78,14 @@
     </test>
     <test label="U+0864 U+0863">
       <comment>nnaMalayalam_ttaMalayalam-syriac</comment>
-      <string>\u000864\u0863 \u00200D\u000864\u0863</string>
+      <string>\u000864\u0863 \u000864\u0863\u00200D \u00200D\u000864\u0863\u00200D \u00200D\u000864\u0863 \u000864\u0863\u000864\u0863\u000864\u0863</string>
     </test>
   </testgroup>
 
   <testgroup label="Malayalam words">
       <test label="U+0860">
       <comment>ngaMalayalam-syriac</comment>
-      <string>\u000721\u000735\u0071f\u00732\u000864\u0732\u00721\u000739\u000710</string>
+      <string>\u0860\u0331\u0732\u071d\u0718\u00073c \u000862\u00732\u00860\u000331\u0732\u00868</string>
     </test>
     <test label="U+0861">
       <comment>jaMalayalam-syriac</comment>
@@ -93,19 +93,19 @@
     </test>
     <test label="U+0862">
       <comment>nyaMalayalam-syriac</comment>
-      <string>\u000862\u000732\u00860\u0331\u000732\u00868\u00718\u0073c\u000863\u000738\u000710</string>
+      <string>\u000862\u000732\u00860\u0331\u000732\u00868\u00718\u0073c\u000863\u000738\u000710 \u0726\u072a\u0732\u0726\u0732\u0862\u072b\u0741\u0732\u0721</string>
     </test>
     <test label="U+0863">
       <comment>ttaMalayalam-syriac</comment>
-      <string>\u000863 \u000863\u00200D \u00200D\u000863\u00200D \u00200D\u000863 \u000863\u000863\u000863 </string>
+      <string>\u000863\u0738\u0710 \u00071f\u00732\u000863\u00732\u0071f\u000331\u000735\u000867\u000718\u073f </string>
     </test>
     <test label="U+0864">
       <comment>nnaMalayalam-syriac</comment>
-      <string>\u000721\u000735\u0071f\u00732\u000864\u00732\u00721\u000739\u000710</string>
+      <string>\u0864\u0732\u0721\u0739\u0710 \u000721\u000735\u0071f\u00732\u000864\u0732\u00721\u000739\u000710</string>
     </test>
     <test label="U+0865">
       <comment>nnnaMalayalam-syriac</comment>
-      <string>\u000865\u000735\u00721\u00732\u000721</string>
+      <string>\u000865\u000735\u00721\u00732\u000721 \u0710\u071d\u073c\u0865\u0331\u0718\u073c \u071d\u073c\u0720\u0865\u071d\u073c\u0865\u0331</string>
     </test>
     <test label="U+0866">
       <comment>bhaMalayalam-syriac</comment>
@@ -117,7 +117,7 @@
     </test>
     <test label="U+0868">
       <comment>llaMalayalam-syriac</comment>
-      <string>\u000862\u000732\u00860\u000331\u000732\u00868</string>
+      <string>\u000862\u000732\u00860\u000331\u000732\u00868 \u0710\u0738\u0869\u0718\u073c\u0865\u0331\u0732\u0868\u0331\u071d\u073c</string>
     </test>
     <test label="U+0869">
       <comment>lllaMalayalam-syriac</comment>
@@ -176,5 +176,58 @@
     </test>
   </testgroup>
 
-
+  <testgroup label="Running text">
+    <test label="para1"  dir="rtl">
+      <comment>p1</comment>
+      <string dir="rtl">ܣܲܪܒ݂ܲܫܲܟܬܲܢܘܼܡ ܦܝܼܬܵܒ݂ܘܼܡܵܝܲܐ ܐܹܟܲܕܲܝܒ݂ܲܬ̱ܝܼܠ ࡢܲࡠ̱ܲࡨ ܒ݂ܝܼܫܒ݂ܲܣܝܼܟ̱ܘܼࡥ̱ܘܼ.</string>
+    </test>
+    <test label="para2" dir="rtl">
+      <comment>p2</comment>
+      <string dir="rtl">ܕܪܫܝܲܒ݂ܘܼܡ ܐܲܕܪܫܝܲܒ݂ܘܼܡܵܝܲܐ ܣܲܟܲܠܲܬ̱ܝܼܢܪ̱ܸܝܘܼܡ ܣܪܲࡪࡣܵܒ݂ܝܼܠ ࡢܲࡠ̱ܲࡨ ܒ݂ܝܼܫܒ݂ܲܣܝܼܟ̱ܘܼࡥ̱ܘܼ.</string>
+    </test>
+    <test label="para3" dir="rtl">
+      <comment>p3</comment>
+      <string  dir="rtl">ܕܲܝܒ݂ܲܬ̱ܝܼܢܪ̱ܸܐ ܐܹܟܲܦܘܼܬܪܲܢܘܼܡ ܣܲܟܲܠܲܣܪࡪࡣܝܼܟܲࡨܟ̱ܘܼܡ ܡܘܼܡܦܘܼࡨ̱ܲܐ ܐܵܕܝܲࡡܵܬܲܢܘܼܡ ܝܘܼܓܲࡠ̱ܲࡨܟ̱ܸܠ̱ܵܡ ܡܘܼܡܦܘܼ ܦܝܼܬܵܒ݂ܝܼܠࡥܝܼࡥ̱ܘܼ ࡡܲܢܝܼܫ̱݁ܲܒ݂ܲܢܘܼܡ ܐܸࡥ̱ܵܠ ܣܪࡪࡣ̱ܝܼܟ̱ܲܦ̱ܸࡣܵܬ̱ܲܒ݂ܲܢܘܼܡ ܐܹܟܲܟܲܪܬ̱ܵܒ݂ܘܼܡܵܝܲܐ ܝܼܫܘܿܥ ܡܫܝܼܚܵܝܼܠ ࡢܲࡠ̱ܲࡨ ܒ݂ܝܼܫܒ݂ܲܣܝܼܟ̱ܘܼࡥ̱ܘܼ.</string>
+    </test>
+    <test label="para4" dir="rtl">
+      <comment>p4</comment>
+      <string>ܐܲܒ݂ܝܼࡣܲࡥ̱ܘܼ ܣܲܬܝܲܕܲܝܒ݂ܲܬ̱ܝܼܠࡥܝܼࡥ̱ܘܼࡨ̱ܲܐ ܣܲܬܝܲܕܲܝܒ݂ܲܒ݂ܘܼܡ ܦܝܼܬܵܒ݂ܝܼܢܘܿࡣܘܼܟܘܼࡣܸܐ ܐܹܟܲܣܲܬ̱ܲܝܘܼܡܵܟܘܼࡥ̱ܘܼ.</string>
+    </test>
+    <test label="para5" dir="rtl">
+      <comment>p5</comment>
+      <string dir="rtl">ܐܲܒ݂ܝܼࡣܲࡥ̱ܘܼ ܒ݂ܲࡩܝܼ ܦܪܲܦܲࡢܫ݁ܲܡ ܣܲܡܒ݂ܝܼܕ̃ܵܢܲܡ ܫܸ݁ܝ̱ܲܦ̱ܸࡣܘܼܟܲܝܘܼܡ ܐܸܠ̱ܵܡ ܣܪࡪࡣܝܼܟ̱ܲܦ̱ܸࡣܘܼܟܲܝܘܼܡ ܫܸ݁ܝܬܘܼ.</string>
+    </test>
+    <test label="para6">
+      <comment>p6</comment>
+      <string>ܡܲܢܘܼࡪܝܲࡧܵܝܲܐ ࡥܲܡܘܼܟ̱ܘܼܒ݂ܹࡤࡣܝܼܝܘܼܡ ࡥܲܡ̱ܘܼࡣܸܐ ࡧܲܟࡪܲܝܟ̱ܘܼܒ݂ܹࡤࡣܝܼܝܘܼܡ ܐܲܒ݂ܝܼࡣܲࡥ̱ܘܼ ܣܒ݂ܲܪܓܲܬ̱ܝܼܠࡥܝܼࡥ̱ܝܼܪܲࡠ̱ܝܼ ܦܲࡧܝܼܫܘܼܕܕ̃ܵܬܡܵܒ݂ܝܼܢܵܠ، ܟܲܢܝܲܟܵܡܲܪܝܲܬ̱ܝܼܠࡥܝܼࡥ̱ ܫܲࡧܝܼࡧܲܡ ܣܒ݂ܝܼܟܲࡧܝܼܫ̱݁ܘܼ ܡܲܢܘܼࡪܝܲܢܵܝܼܦ̱ܝܼܪܲࡥ̱ܘܼ.</string>
+    </test>
+    <test label="para7">
+      <comment>p7</comment>
+      <string>ܦܲܢܛܝܼܘܿܣ ܦܝܼܠܵܛܘܿܣܝܼܢܪ̱ܸܐ ܟܵܠܲܬ̱ ܦܝܼܖܲܟܲࡨ ܣܲܗܝܼܟ̱ܘܼܟܲܝܘܼܡ ܨܠܝܼܒܵܝܼܠ ܬܲܪܲܝܟ̱ܲܦ̱ܸࡣ̱ܘܼ ܡܲࡧܝܼܟ̱ܘܼܟܲܝܘܼܡ ܣܲܡܣܟܲࡧܝܼܟ̱ܲܦ̱ܸࡣܘܼܟܲܝܘܼܡ ܐܸࡩܘܼܬܲܦ̱ܸࡣ̱ܝܼࡧܝܼܟ̱ܘܼࡥ̱ܲܬܘܼܦܘܿܠܸܐ ܡܘܼࡥ̱ܵܡܕܝܼܒ݂ܲܣܲܡ ܐܘܼܝܼܪܬ̱ܸࡩܘܼࡥ̱ܹܠܟ̱ܘܼܟܲܝܘܼܡ ܫܸ݁ܝܬܘܼ.</string>
+    </test>
+    <test label="para8">
+      <comment>p8</comment>
+      <string>ܐܲܒ݂ܝܼࡣܲࡥ̱ܘܼ ܣܒ݂ܲܪܓܲܬ̱ܝܼܠܹܟ̱‍ ܐܸࡩܘܼࡥ̱ܲࡨ̱ܝܼ ܦܝܼܬܵܒ݂ܝܼܢܪ̱ܸܐ ܒ݂ܲܠܲܬ̱ܘܼࡦܵܓܲܬ̱ܝܼࡧܝܼܟ̱ܘܼࡥ̱ܘܼ.</string>
+    </test>
+    <test label="para9">
+      <comment>p9</comment>
+      <string>ܡܲࡧܝܼܫ̱݁ܲܒ݂ܲࡧܸܝܘܼܡ ࡡܝܼܒ݂ܝܼܟ̱ܘܼࡥ̱ܲܒ݂ܲࡧܸܝܘܼܡ ܒ݂ܝܼܕ̃ܝܼܟ̱ܵܢ ܐܲܒ݂ܝܼࡣܲࡥ̱ܘܼ ܒ݂ܝܼࡤࡣܘܼܡ ܒ݂ܲࡧܵܢܝܼࡧܝܼܟ̱ܘܼࡥ̱ܘܼ.</string>
+    </test>
+    <test label="para10">
+      <comment>p10</comment>
+      <string>ܦܝܼܬܵܒ݂ܝܼܠࡥܝܼࡥ̱ܘܼܡ ܦܘܼܪܲܦ̱ܸࡣܘܼࡥ̱ܲܐ ܣܲܬܝܵܬܡܵܒ݂ܘܼܡ ࡡܝܼܒ݂ܲܕܵܬܵܒ݂ܘܼܡܵܝܲܐ ܐܹܟܲܦܲࡧܝܼܫܘܼܕܕ̃ܵܬܡܵܒ݂ܝܼܠܘܼܡ ࡢܲࡠ̱ܲࡨ ܒ݂ܝܼܫܒ݂ܲܣܝܼܟ̱ܘܼࡥ̱ܘܼ.</string>
+    </test>
+    <test label="para11">
+      <comment>p11</comment>
+      <string>ܐܹܟܲܒ݂ܘܼܡ ܦܲࡧܝܼܫܘܼܕ̃ܲܒ݂ܘܼܡ ܫܠܲܝܚܝܼܟܲܒ݂ܘܼܡ ܣܵܪܒ݂ܲܬܪܝܼܟܲܒ݂ܘܼܡܵܝܲܐ ܣܲࡦܲܝܼܠܘܼܡ ࡢܲࡠ̱ܲࡨ ܒ݂ܝܼܫܒ݂ܲܣܝܼܟ̱ܘܼࡥ̱ܘܼ.</string>
+    </test>
+    <test label="para12">
+      <comment>p12</comment>
+      <string>ܦܵܦܲܡܘܿܫ݁ܲܢܲܬ̱ܝܼܢܘܼࡨ̱ܲܐ ܐܹܟܲܐ ܡܲܥܡܘܿܕܝܼܬ݂ܵܝܘܼܡ ܫܲࡧܝܼࡧܲܬ̱ܝܼܢܪ̱ܸܐ ܐܘܼܝܼܪܦ̱ܘܼܡ ࡥܝܼܬܝܵܝܘܼܣ̱ܘܼܡ ࡢܲࡠ̱ܲࡨ ܐܹܪ̱ܘܼܦܲܪܲܝܘܼܟܲܝܘܼܡ ܫܸ݁ܝ̱ܘܼࡥ̱ܘܼ.</string>
+    </test>
+    <test label="para13">
+      <comment>p13</comment>
+      <string>ܐܵܡܹܝܢ.</string>
+    </test>
+  </testgroup>
 </ftml>
