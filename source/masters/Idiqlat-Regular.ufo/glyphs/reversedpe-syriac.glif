@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reversedpe-syriac" format="2">
-  <advance width="1200"/>
+  <advance width="2025"/>
   <unicode hex="0727"/>
-  <anchor x="993" y="1603" name="above"/>
-  <anchor x="81" y="1603" name="aboveleft"/>
-  <anchor x="1079" y="-243" name="below"/>
-  <anchor x="81" y="-243" name="belowleft"/>
+  <anchor x="1082" y="1603" name="above"/>
+  <anchor x="170" y="1603" name="aboveleft"/>
+  <anchor x="1168" y="-243" name="below"/>
+  <anchor x="170" y="-243" name="belowleft"/>
   <outline>
-    <component base="_LeftTail" xOffset="-81"/>
-    <component base="_reversedpe" xOffset="220"/>
+    <component base="_LeftTail" xOffset="-82"/>
+    <component base="_reversedpe" xOffset="309"/>
   </outline>
 </glyph>
