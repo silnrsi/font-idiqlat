@@ -7,8 +7,9 @@
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="kashida-ar.quarter"/>
-    <component base="_right_connector" xOffset="1527"/>
     <component base="_ngaMalayalam"/>
+    <component base="_right_connector" xOffset="1827"/>
+    <component base="kashida-ar.quarter" xOffset="1808"/>
   </outline>
   <lib>
     <dict>

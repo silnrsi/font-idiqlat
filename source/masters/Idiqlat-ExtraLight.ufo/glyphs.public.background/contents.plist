@@ -14,6 +14,12 @@
   <string>_heth-med.glif</string>
   <key>_heth-med.1</key>
   <string>_heth-med.1.glif</string>
+  <key>_ngaMalayalam</key>
+  <string>_ngaM_alayalam.glif</string>
+  <key>_nnaMalayalam</key>
+  <string>_nnaM_alayalam.glif</string>
+  <key>_nyaMalayalam</key>
+  <string>_nyaM_alayalam.glif</string>
   <key>_qaph</key>
   <string>_qaph.glif</string>
   <key>_semkath</key>

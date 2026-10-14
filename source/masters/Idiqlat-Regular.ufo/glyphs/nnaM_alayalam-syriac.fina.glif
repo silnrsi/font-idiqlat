@@ -7,8 +7,8 @@
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="_LeftTail" xOffset="-84"/>
-    <component base="_right_connector" xOffset="2376"/>
     <component base="_nnaMalayalam" xOffset="625"/>
+    <component base="kashida-ar.quarter" xOffset="2424"/>
     <contour>
       <point x="1889" y="235" type="line"/>
       <point x="1889" y="0" type="line"/>

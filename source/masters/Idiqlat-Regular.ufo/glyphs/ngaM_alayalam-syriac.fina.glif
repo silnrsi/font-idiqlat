@@ -6,9 +6,10 @@
   <anchor x="1151" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_right_connector" xOffset="2147"/>
     <component base="_LeftTail" xOffset="-81"/>
     <component base="_ngaMalayalam" xOffset="540"/>
+    <component base="_right_connector" xOffset="2412"/>
+    <component base="kashida-ar.quarter" xOffset="2278"/>
     <contour>
       <point x="431" y="235" type="line"/>
       <point x="431" y="0" type="line"/>
@@ -19,7 +20,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCCP</string>
+      <string>CCCCP</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

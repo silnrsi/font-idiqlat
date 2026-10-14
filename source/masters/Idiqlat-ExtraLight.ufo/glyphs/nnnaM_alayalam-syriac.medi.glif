@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnnaMalayalam-syriac.medi" format="2">
-  <advance width="1721"/>
+  <advance width="1794"/>
   <anchor x="1003" y="2479" name="above"/>
   <anchor x="81" y="2479" name="aboveleft"/>
   <anchor x="988" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="kashida-ar.quarter"/>
-    <component base="_right_connector" xOffset="1527"/>
     <component base="_nnnaMalayalam" xOffset="-92"/>
+    <component base="_right_connector" xOffset="1437"/>
+    <component base="kashida-ar.quarter" xOffset="1648"/>
     <contour>
       <point x="131" y="235" type="line"/>
       <point x="131" y="0" type="line"/>
@@ -19,7 +20,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCCP</string>
+      <string>CCCCP</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

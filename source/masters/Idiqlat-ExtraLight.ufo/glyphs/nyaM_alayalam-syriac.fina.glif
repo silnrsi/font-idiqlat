@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nyaMalayalam-syriac.fina" format="2">
-  <advance width="2559"/>
-  <anchor x="1773" y="2309" name="above"/>
-  <anchor x="81" y="2309" name="aboveleft"/>
-  <anchor x="1554" y="-243" name="below"/>
-  <anchor x="81" y="-243" name="belowleft"/>
+  <advance width="2903"/>
+  <anchor x="1980" y="2309" name="above"/>
+  <anchor x="288" y="2309" name="aboveleft"/>
+  <anchor x="1761" y="-243" name="below"/>
+  <anchor x="288" y="-243" name="belowleft"/>
   <outline>
-    <component base="_LeftTail" xOffset="121"/>
-    <component base="_right_connector" xOffset="2361"/>
-    <component base="_nyaMalayalam" xOffset="470"/>
+    <component base="_LeftTail" xOffset="-72"/>
+    <component base="_nyaMalayalam" xOffset="677"/>
+    <component base="kashida-ar.quarter" xOffset="2757"/>
     <contour>
-      <point x="1738" y="235" type="line"/>
-      <point x="1738" y="0" type="line"/>
-      <point x="2557" y="0" type="line"/>
-      <point x="2557" y="235" type="line"/>
+      <point x="1945" y="235" type="line"/>
+      <point x="1945" y="0" type="line"/>
+      <point x="2804" y="0" type="line"/>
+      <point x="2804" y="235" type="line"/>
+    </contour>
+    <contour>
+      <point x="431" y="235" type="line"/>
+      <point x="431" y="0" type="line"/>
+      <point x="1129" y="0" type="line"/>
+      <point x="1129" y="235" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCCP</string>
+      <string>CCCPP</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

@@ -14,6 +14,8 @@
   <string>_heth-med.glif</string>
   <key>_heth-med.1</key>
   <string>_heth-med.1.glif</string>
+  <key>_ngaMalayalam</key>
+  <string>_ngaM_alayalam.glif</string>
   <key>_qaph</key>
   <string>_qaph.glif</string>
   <key>_semkath</key>
@@ -164,6 +166,8 @@
   <string>lamadh_alaph-syriac.glif</string>
   <key>lamadh_alaph-syriac.fina</key>
   <string>lamadh_alaph-syriac.fina.glif</string>
+  <key>llaMalayalam-syriac</key>
+  <string>llaM_alayalam-syriac.glif</string>
   <key>mim-syriac</key>
   <string>mim-syriac.glif</string>
   <key>mim-syriac.fina</key>

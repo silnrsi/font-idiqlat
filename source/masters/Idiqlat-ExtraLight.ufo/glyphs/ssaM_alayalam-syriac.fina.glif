@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ssaMalayalam-syriac.fina" format="2">
-  <advance width="1484"/>
+  <advance width="1914"/>
   <anchor x="1011" y="1855" name="above"/>
   <anchor x="81" y="1855" name="aboveleft"/>
   <anchor x="898" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="ssaMalayalam-syriac"/>
-    <component base="kashida-ar.quarter" xOffset="1338"/>
+    <component base="kashida-ar.quarter" xOffset="1768"/>
+    <contour>
+      <point x="1531" y="235" type="line"/>
+      <point x="1531" y="0" type="line"/>
+      <point x="1829" y="0" type="line"/>
+      <point x="1829" y="235" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCP</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>
