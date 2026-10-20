@@ -20,6 +20,7 @@
       <string>RenderingUnknown</string>
     </test>
   </testgroup>
+
   <testgroup label="New glyphs">
     <test label="U+0726">
       <comment>pe-syriac</comment>
@@ -30,8 +31,8 @@
       <string>\u000727 \u000727\u00200D \u00200D\u000727\u00200D \u00200D\u000727 \u000727\u000727\u000727 </string>
     </test>
   </testgroup>
-
-  <testgroup label="New Malaylam characters">
+  
+  <testgroup label="New Malayalam characters">
     <test label="U+0860">
       <comment>ngaMalayalam-syriac</comment>
       <string>\u000860 \u000860\u00200D \u00200D\u000860\u00200D \u00200D\u000860 \u000860\u000860\u000860</string>
@@ -173,6 +174,57 @@
    <test label="U+0864 U+0863 U+0739">
       <comment>nnaMalayalam_ttaMalayalam-syriac zlamadottedangular-syriac</comment>
       <string>\u000864\u000739\u0863\u000739 \u000864\u000739\u0863\u000739\u000864\u000739\u0863\u000739\u000864\u000739\u0863\u000739  \u000864\u000742\u0863\u000742 \u000864\u000742\u0863\u000742\u000864\u000742\u0863\u000742\u000864\u000742\u0863\u000742  \u000864\u000743\u0863\u000743 \u000864\u000743\u0863\u000743\u000864\u000743\u0863\u000743\u000864\u000743\u0863\u000743  \u000864\u000744\u0863\u000744 \u000864\u000744\u0863\u000744\u000864\u000744\u0863\u000744\u000864\u000744\u0863\u000744 </string>
+    </test>
+  </testgroup>
+
+  <testgroup label="Emy's words">
+    <test label="1"  dir="rtl">
+      <comment>1</comment>
+      <string dir="rtl">ܫܵܒܬܘܿࡩܲܡ</string>
+    </test>
+    <test label="2" dir="rtl">
+      <comment>2</comment>
+      <string dir="rtl">ܬܲࡧܹࡤܡ</string>
+    </test>
+    <test label="3" dir="rtl">
+      <comment>3</comment>
+      <string dir="rtl">ܟܘܿࡨ̱ࡤܡ</string>
+    </test>
+    <test label="4" dir="rtl">
+      <comment>4</comment>
+      <string dir="rtl">ࡥܝܪܹࡢ̱</string>
+    </test>
+    <test label="5" dir="rtl">
+      <comment>5</comment>
+      <string dir="rtl">ܟܘܿࡤࡣ ܐܸࡠܟ̱ܝܼܠܘܼܡ</string>
+    </test>
+    <test label="6" dir="rtl">
+      <comment>6</comment>
+      <string dir="rtl">ܡܲܢܟܘܼࡤࡠ̱ܹࡨ</string>
+    </test>
+    <test label="7" dir="rtl">
+      <comment>7</comment>
+      <string dir="rtl">ܐܸࡠܟ̱ܝܼܠ</string>
+    </test>
+    <test label="8" dir="rtl">
+      <comment>8</comment>
+      <string dir="rtl">ܫܘܼࡧܝܼࡠ̱ࡤܡ</string>
+    </test>
+    <test label="9" dir="rtl">
+      <comment>9</comment>
+      <string dir="rtl">ܫࡪܡ</string>
+    </test>
+    <test label="10" dir="rtl">
+      <comment>10</comment>
+      <string dir="rtl">ܐܸࡪܘܼܬܝܼ</string>
+    </test>
+    <test label="11" dir="rtl">
+      <comment>11</comment>
+      <string dir="rtl">ࡦܘܼࡡܵܬܲܡ</string>
+    </test>
+    <test label="12" dir="rtl">
+      <comment>12</comment>
+      <string dir="rtl">ࡦܟ̱ܬܲܢܘܼܡ</string>
     </test>
   </testgroup>
 
