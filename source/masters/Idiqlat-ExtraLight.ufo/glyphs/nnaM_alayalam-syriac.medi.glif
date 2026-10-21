@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnaMalayalam-syriac.medi" format="2">
-  <advance width="1826"/>
+  <advance width="1566"/>
   <anchor x="1063" y="2468" name="above"/>
   <anchor x="81" y="2468" name="aboveleft"/>
   <anchor x="1156" y="-243" name="below"/>
@@ -8,12 +8,12 @@
   <outline>
     <component base="kashida-ar.quarter"/>
     <component base="_nnaMalayalam" xOffset="-77"/>
-    <component base="kashida-ar.quarter" xOffset="1680"/>
+    <component base="kashida-ar.quarter" xOffset="1420"/>
     <contour>
-      <point x="1048" y="235" type="line"/>
-      <point x="1048" y="0" type="line"/>
-      <point x="1727" y="0" type="line"/>
-      <point x="1727" y="235" type="line"/>
+      <point x="788" y="235" type="line"/>
+      <point x="788" y="0" type="line"/>
+      <point x="1467" y="0" type="line"/>
+      <point x="1467" y="235" type="line"/>
     </contour>
   </outline>
   <lib>

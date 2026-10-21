@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ngaMalayalam-syriac" format="2">
-  <advance width="1998"/>
+  <advance width="1946"/>
   <unicode hex="0860"/>
   <anchor x="1209" y="2476" name="above"/>
   <anchor x="81" y="2476" name="aboveleft"/>
@@ -8,7 +8,7 @@
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="_LeftTail" xOffset="-82"/>
-    <component base="_ngaMalayalam" xOffset="169"/>
+    <component base="_ngaMalayalam" xOffset="409"/>
   </outline>
   <lib>
     <dict>

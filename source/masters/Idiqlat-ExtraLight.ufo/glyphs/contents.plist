@@ -322,6 +322,8 @@
   <string>beth-syriac.medi.glif</string>
   <key>bhaMalayalam-syriac</key>
   <string>bhaM_alayalam-syriac.glif</string>
+  <key>bhaMalayalam-syriac.init</key>
+  <string>bhaM_alayalam-syriac.init.glif</string>
   <key>bhethPersian-syriac</key>
   <string>bhethP_ersian-syriac.glif</string>
   <key>bhethPersian-syriac.fina</key>

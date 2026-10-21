@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_ngaMalayalam" format="2">
   <advance width="1823"/>
-  <anchor x="1315" y="1563" name="above"/>
-  <anchor x="87" y="1563" name="aboveleft"/>
-  <anchor x="537" y="-243" name="below"/>
-  <anchor x="87" y="-243" name="belowleft"/>
   <outline>
     <contour>
       <point x="590" y="1987" type="curve"/>
