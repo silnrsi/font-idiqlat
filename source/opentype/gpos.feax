@@ -94,6 +94,67 @@ lookup kern_nun2 { # FKrern: Nun in VOLT
     pos [alaph-syriac alaph-syriac.med2 alaph-syriac.fina alaph-syriac.fin2 alaph-syriac.fin3] @kern_below nun-syriac' lookup kern_nun_1;
 } kern_nun2;
 
+lookup kern_ra { # FKern: {Dolath, Sodeh} {Nun}
+    # GPOS lookup 8, type 1 (Single adjustment)
+    lookupflag RightToLeft;
+  ifinfo(familyName, "Idiqlat") {
+    pos raMalayalam-syriac 0 gamal-syriac 405;                    # 0713
+    pos raMalayalam-syriac 0 gamal-syriac.init 405;
+    pos raMalayalam-syriac 0 gamalgarshuni-syriac 405;            # 0714
+    pos raMalayalam-syriac 0 gamalgarshuni-syriac.init 405;
+    pos raMalayalam-syriac 0 ghamalPersian-syriac 405;            # 072E
+    pos raMalayalam-syriac 0 ghamalPersian-syriac.init 405;
+    pos raMalayalam-syriac 0 ngaMalayalam-syriac -43;             # 0860
+    pos raMalayalam-syriac 0 ngaMalayalam-syriac.init -43;
+    pos raMalayalam-syriac 0 jaMalayalam-syriac 143;              # 0861
+    pos raMalayalam-syriac 0 nyaMalayalam-syriac -575;            # 0862 make negative number greater to tighten up
+    pos raMalayalam-syriac 0 nyaMalayalam-syriac.init -575;
+    pos raMalayalam-syriac 0 ttaMalayalam-syriac 143;             # 0863 make positive number greater to loosen up
+    pos raMalayalam-syriac 0 ttaMalayalam-syriac.init 143;
+    pos raMalayalam-syriac 0 nnaMalayalam-syriac -343;            # 0864
+    pos raMalayalam-syriac 0 nnaMalayalam-syriac.init -343;
+    pos raMalayalam-syriac 0 nnnaMalayalam-syriac -143;           # 0865
+    pos raMalayalam-syriac 0 nnnaMalayalam-syriac.init -143;
+    pos raMalayalam-syriac 0 nun-syriac.cv18 550;                 # 0722
+    pos raMalayalam-syriac 0 sadhe-syriac 405;                    # 0728
+    pos raMalayalam-syriac 0 sadhe_nun-syriac 405;                # 0728
+    pos raMalayalam-syriac 0 dalath-syriac 143;                   # 0715
+    pos raMalayalam-syriac 0 rish_dieresiscomb-syriac 143;        # unencoded
+    pos raMalayalam-syriac 0 dalath_hbasaEsasadotted-syriac 143;  # unencoded
+    pos raMalayalam-syriac 0 dalathrishDotless-syriac 143;        # 0716
+    pos raMalayalam-syriac 0 rish-syriac 143;                     # 072A
+    pos raMalayalam-syriac 0 dhalathPersian-syriac 143;           # 072F
+# final forms
+    pos raMalayalam-syriac.fina 0 gamal-syriac 405;                    # 0713
+    pos raMalayalam-syriac.fina 0 gamal-syriac.init 405;
+    pos raMalayalam-syriac.fina 0 gamalgarshuni-syriac 405;            # 0714
+    pos raMalayalam-syriac.fina 0 gamalgarshuni-syriac.init 405;
+    pos raMalayalam-syriac.fina 0 ghamalPersian-syriac 405;            # 072E
+    pos raMalayalam-syriac.fina 0 ghamalPersian-syriac.init 405;
+    pos raMalayalam-syriac.fina 0 ngaMalayalam-syriac -43;             # 0860
+    pos raMalayalam-syriac.fina 0 ngaMalayalam-syriac.init -43;
+    pos raMalayalam-syriac.fina 0 jaMalayalam-syriac 143;              # 0861
+    pos raMalayalam-syriac.fina 0 nyaMalayalam-syriac -575;            # 0862 make negative number greater to tighten up
+    pos raMalayalam-syriac.fina 0 nyaMalayalam-syriac.init -575;
+    pos raMalayalam-syriac.fina 0 ttaMalayalam-syriac 143;             # 0863 make positive number greater to loosen up
+    pos raMalayalam-syriac.fina 0 ttaMalayalam-syriac.init 143;
+    pos raMalayalam-syriac.fina 0 nnaMalayalam-syriac -343;            # 0864
+    pos raMalayalam-syriac.fina 0 nnaMalayalam-syriac.init -343;
+    pos raMalayalam-syriac.fina 0 nnnaMalayalam-syriac -143;           # 0865
+    pos raMalayalam-syriac.fina 0 nnnaMalayalam-syriac.init -143;
+    pos raMalayalam-syriac.fina 0 nun-syriac.cv18 550;                 # 0722
+    pos raMalayalam-syriac.fina 0 sadhe-syriac 405;                    # 0728
+    pos raMalayalam-syriac.fina 0 sadhe_nun-syriac 405;                # 0728
+    pos raMalayalam-syriac.fina 0 dalath-syriac 143;                   # 0715
+    pos raMalayalam-syriac.fina 0 rish_dieresiscomb-syriac 143;        # unencoded
+    pos raMalayalam-syriac.fina 0 dalath_hbasaEsasadotted-syriac 143;  # unencoded
+    pos raMalayalam-syriac.fina 0 dalathrishDotless-syriac 143;        # 0716
+    pos raMalayalam-syriac.fina 0 rish-syriac 143;                     # 072A
+    pos raMalayalam-syriac.fina 0 dhalathPersian-syriac 143;           # 072F
+
+  }
+}  kern_ra;
+
 lookup MarkToBase {
 	lookupflag 0;
 	pos base @above      mark @_above; 
@@ -135,6 +196,7 @@ feature kern {  # Kerning
     lookup kern_dalath_sadhe_nun;
     lookup kern_sadhe_gamal;
     lookup kern_nun2;
+    lookup kern_ra;
 } kern ;
 
 #********************

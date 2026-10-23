@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnaMalayalam_ttaMalayalam-syriac.fina" format="2">
   <advance width="3163"/>
-  <anchor x="2121" y="2476" name="above_1"/>
-  <anchor x="668" y="634" name="above_2"/>
-  <anchor x="2392" y="-243" name="below_1"/>
+  <anchor x="2521" y="2476" name="above_1"/>
+  <anchor x="718" y="634" name="above_2"/>
+  <anchor x="2200" y="-243" name="below_1"/>
   <anchor x="1288" y="-843" name="below_2"/>
   <outline>
     <component base="nnaMalayalam_ttaMalayalam-syriac" xOffset="116"/>

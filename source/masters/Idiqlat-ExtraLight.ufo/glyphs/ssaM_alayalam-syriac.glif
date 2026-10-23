@@ -2,10 +2,10 @@
 <glyph name="ssaMalayalam-syriac" format="2">
   <advance width="1858"/>
   <unicode hex="086A"/>
-  <anchor x="1091" y="1855" name="above"/>
-  <anchor x="161" y="1855" name="aboveleft"/>
-  <anchor x="978" y="-243" name="below"/>
-  <anchor x="161" y="-243" name="belowleft"/>
+  <anchor x="1111" y="2525" name="above"/>
+  <anchor x="81" y="2525" name="aboveleft"/>
+  <anchor x="1048" y="-243" name="below"/>
+  <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <contour>
       <point x="254" y="0" type="curve"/>

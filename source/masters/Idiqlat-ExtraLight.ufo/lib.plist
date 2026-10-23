@@ -710,6 +710,9 @@
     <string>nnnaMalayalam-syriac.medi</string>
     <string>nnnaMalayalam-syriac.fina</string>
     <string>bhaMalayalam-syriac</string>
+    <string>bhaMalayalam-syriac.init</string>
+    <string>bhaMalayalam-syriac.medi</string>
+    <string>bhaMalayalam-syriac.fina</string>
     <string>raMalayalam-syriac</string>
     <string>raMalayalam-syriac.fina</string>
     <string>llaMalayalam-syriac</string>
@@ -1355,6 +1358,9 @@
     <string>nnnaMalayalam-syriac.medi</string>
     <string>nnnaMalayalam-syriac.fina</string>
     <string>bhaMalayalam-syriac</string>
+    <string>bhaMalayalam-syriac.init</string>
+    <string>bhaMalayalam-syriac.medi</string>
+    <string>bhaMalayalam-syriac.fina</string>
     <string>raMalayalam-syriac</string>
     <string>raMalayalam-syriac.fina</string>
     <string>llaMalayalam-syriac</string>
@@ -1442,6 +1448,12 @@
     <string>uni0712.medi</string>
     <key>bhaMalayalam-syriac</key>
     <string>uni0866</string>
+    <key>bhaMalayalam-syriac.fina</key>
+    <string>uni0866.fina</string>
+    <key>bhaMalayalam-syriac.init</key>
+    <string>uni0866.init</string>
+    <key>bhaMalayalam-syriac.medi</key>
+    <string>uni0866.medi</string>
     <key>bhethPersian-syriac</key>
     <string>uni072D</string>
     <key>bhethPersian-syriac.fina</key>

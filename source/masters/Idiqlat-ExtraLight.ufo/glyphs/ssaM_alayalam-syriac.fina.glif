@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ssaMalayalam-syriac.fina" format="2">
   <advance width="1914"/>
-  <anchor x="1011" y="1855" name="above"/>
-  <anchor x="81" y="1855" name="aboveleft"/>
-  <anchor x="898" y="-243" name="below"/>
+  <anchor x="1111" y="2525" name="above"/>
+  <anchor x="81" y="2525" name="aboveleft"/>
+  <anchor x="1048" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="ssaMalayalam-syriac"/>

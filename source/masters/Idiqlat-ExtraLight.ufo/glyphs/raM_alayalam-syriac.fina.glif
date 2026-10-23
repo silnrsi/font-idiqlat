@@ -3,7 +3,7 @@
   <advance width="805"/>
   <anchor x="663" y="690" name="above"/>
   <anchor x="81" y="690" name="aboveleft"/>
-  <anchor x="735" y="-843" name="below"/>
+  <anchor x="395" y="-843" name="below"/>
   <anchor x="81" y="-1240" name="belowleft"/>
   <outline>
     <component base="_right_connector" xOffset="611"/>

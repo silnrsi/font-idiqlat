@@ -667,13 +667,13 @@ markClass pthahadotted-syriac <anchor 696 823> @_center;
 #  Dual Joining - Next 4 should have 29 glyphs
 #**********************************
 # was called @DualJoiningXn
-@DualLinkIsol = [beth-syriac gamal-syriac gamalgarshuni-syriac heth-syriac teth-syriac tethGarshuni-syriac yudh-syriac kaph-syriac lamadh-syriac mim-syriac nun-syriac semkath-syriac semkathFinal-syriac e-syriac pe-syriac pe_brevebelowcomb-syriac reversedpe-syriac qaph-syriac shin-syriac bhethPersian-syriac ghamalPersian-syriac khaphSogdian-syriac feSogdian-syriac ngaMalayalam-syriac nyaMalayalam-syriac ttaMalayalam-syriac nnaMalayalam-syriac nnnaMalayalam-syriac llaMalayalam-syriac];
+@DualLinkIsol = [beth-syriac gamal-syriac gamalgarshuni-syriac heth-syriac teth-syriac tethGarshuni-syriac yudh-syriac kaph-syriac lamadh-syriac mim-syriac nun-syriac semkath-syriac semkathFinal-syriac e-syriac pe-syriac pe_brevebelowcomb-syriac reversedpe-syriac qaph-syriac shin-syriac bhethPersian-syriac ghamalPersian-syriac khaphSogdian-syriac feSogdian-syriac ngaMalayalam-syriac nyaMalayalam-syriac ttaMalayalam-syriac nnaMalayalam-syriac nnnaMalayalam-syriac llaMalayalam-syriac bhaMalayalam-syriac];
 # was called @DualJoiningXr
-@DualLinkFina = [beth-syriac.fina gamal-syriac.fina gamalgarshuni-syriac.fina heth-syriac.fina teth-syriac.fina tethGarshuni-syriac.fina yudh-syriac.fina kaph-syriac.fina lamadh-syriac.fina mim-syriac.fina nun-syriac.fina semkath-syriac.fina semkathFinal-syriac.fina e-syriac.fina pe-syriac.fina pe_brevebelowcomb-syriac.fina reversedpe-syriac.fina qaph-syriac.fina shin-syriac.fina bhethPersian-syriac.fina ghamalPersian-syriac.fina khaphSogdian-syriac.fina feSogdian-syriac.fina ngaMalayalam-syriac.fina nyaMalayalam-syriac.fina ttaMalayalam-syriac.fina nnaMalayalam-syriac.fina nnnaMalayalam-syriac.fina llaMalayalam-syriac.fina];
+@DualLinkFina = [beth-syriac.fina gamal-syriac.fina gamalgarshuni-syriac.fina heth-syriac.fina teth-syriac.fina tethGarshuni-syriac.fina yudh-syriac.fina kaph-syriac.fina lamadh-syriac.fina mim-syriac.fina nun-syriac.fina semkath-syriac.fina semkathFinal-syriac.fina e-syriac.fina pe-syriac.fina pe_brevebelowcomb-syriac.fina reversedpe-syriac.fina qaph-syriac.fina shin-syriac.fina bhethPersian-syriac.fina ghamalPersian-syriac.fina khaphSogdian-syriac.fina feSogdian-syriac.fina ngaMalayalam-syriac.fina nyaMalayalam-syriac.fina ttaMalayalam-syriac.fina nnaMalayalam-syriac.fina nnnaMalayalam-syriac.fina llaMalayalam-syriac.fina bhaMalayalam-syriac.fina];
 # was called @DualJoiningXm
-@DualLinkMedi = [beth-syriac.medi gamal-syriac.medi gamalgarshuni-syriac.medi heth-syriac.medi teth-syriac.medi tethGarshuni-syriac.medi yudh-syriac.medi kaph-syriac.medi lamadh-syriac.medi mim-syriac.medi nun-syriac.medi semkath-syriac.medi semkathFinal-syriac.medi e-syriac.medi pe-syriac.medi pe_brevebelowcomb-syriac.medi reversedpe-syriac.medi qaph-syriac.medi shin-syriac.medi bhethPersian-syriac.medi ghamalPersian-syriac.medi khaphSogdian-syriac.medi feSogdian-syriac.medi ngaMalayalam-syriac.medi nyaMalayalam-syriac.medi ttaMalayalam-syriac.medi nnaMalayalam-syriac.medi nnnaMalayalam-syriac.medi llaMalayalam-syriac.medi];
+@DualLinkMedi = [beth-syriac.medi gamal-syriac.medi gamalgarshuni-syriac.medi heth-syriac.medi teth-syriac.medi tethGarshuni-syriac.medi yudh-syriac.medi kaph-syriac.medi lamadh-syriac.medi mim-syriac.medi nun-syriac.medi semkath-syriac.medi semkathFinal-syriac.medi e-syriac.medi pe-syriac.medi pe_brevebelowcomb-syriac.medi reversedpe-syriac.medi qaph-syriac.medi shin-syriac.medi bhethPersian-syriac.medi ghamalPersian-syriac.medi khaphSogdian-syriac.medi feSogdian-syriac.medi ngaMalayalam-syriac.medi nyaMalayalam-syriac.medi ttaMalayalam-syriac.medi nnaMalayalam-syriac.medi nnnaMalayalam-syriac.medi llaMalayalam-syriac.medi bhaMalayalam-syriac.medi];
 # was called @DualJoiningXl
-@DualLinkInit = [beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init pe_brevebelowcomb-syriac.init reversedpe-syriac.init qaph-syriac.init shin-syriac.init bhethPersian-syriac.init ghamalPersian-syriac.init khaphSogdian-syriac.init feSogdian-syriac.init ngaMalayalam-syriac.init nyaMalayalam-syriac.init ttaMalayalam-syriac.init nnaMalayalam-syriac.init nnnaMalayalam-syriac.init llaMalayalam-syriac.init];
+@DualLinkInit = [beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init pe_brevebelowcomb-syriac.init reversedpe-syriac.init qaph-syriac.init shin-syriac.init bhethPersian-syriac.init ghamalPersian-syriac.init khaphSogdian-syriac.init feSogdian-syriac.init ngaMalayalam-syriac.init nyaMalayalam-syriac.init ttaMalayalam-syriac.init nnaMalayalam-syriac.init nnnaMalayalam-syriac.init llaMalayalam-syriac.init bhaMalayalam-syriac.init];
 @DualJoining = [@DualLinkIsol @DualLinkFina @DualLinkMedi @DualLinkInit];
 #**********************************
 #  Right joining - Next two should match
@@ -956,6 +956,11 @@ lookup ltrMedi {
 
 # HB PAUSE
 #---  init  lookup  ---
+lookup ltrBhaInit {
+    lookupflag IgnoreMarks;
+    sub bhaMalayalam-syriac' @DualLinkIsol by bhaMalayalam-syriac.init;
+} ltrBhaInit;
+
 lookup ltrInit {
     lookupflag IgnoreMarks;
     sub @DualLinkIsol by @DualLinkInit;
@@ -1213,6 +1218,7 @@ feature ccmp {
     # was r2
     lookup RukkakhaSquare;
     # was SquareDot
+    #        lookup ltrBhaInit ;
     # Force other languages to include Syriac script lookups
     language SYRN;
     # syc, syr
@@ -1888,6 +1894,102 @@ lookup kern_nun2 {
     pos [alaph-syriac alaph-syriac.med2 alaph-syriac.fina alaph-syriac.fin2 alaph-syriac.fin3] @kern_below nun-syriac' lookup kern_nun_1;
 } kern_nun2;
 
+lookup kern_ra {
+    # FKern: {Dolath, Sodeh} {Nun}
+    # GPOS lookup 8, type 1 (Single adjustment)
+    lookupflag RightToLeft;
+            pos raMalayalam-syriac 0 gamal-syriac 405;
+        # 0713
+        pos raMalayalam-syriac 0 gamal-syriac.init 405;
+        pos raMalayalam-syriac 0 gamalgarshuni-syriac 405;
+        # 0714
+        pos raMalayalam-syriac 0 gamalgarshuni-syriac.init 405;
+        pos raMalayalam-syriac 0 ghamalPersian-syriac 405;
+        # 072E
+        pos raMalayalam-syriac 0 ghamalPersian-syriac.init 405;
+        pos raMalayalam-syriac 0 ngaMalayalam-syriac -43;
+        # 0860
+        pos raMalayalam-syriac 0 ngaMalayalam-syriac.init -43;
+        pos raMalayalam-syriac 0 jaMalayalam-syriac 143;
+        # 0861
+        pos raMalayalam-syriac 0 nyaMalayalam-syriac -575;
+        # 0862 make negative number greater to tighten up
+        pos raMalayalam-syriac 0 nyaMalayalam-syriac.init -575;
+        pos raMalayalam-syriac 0 ttaMalayalam-syriac 143;
+        # 0863 make positive number greater to loosen up
+        pos raMalayalam-syriac 0 ttaMalayalam-syriac.init 143;
+        pos raMalayalam-syriac 0 nnaMalayalam-syriac -343;
+        # 0864
+        pos raMalayalam-syriac 0 nnaMalayalam-syriac.init -343;
+        pos raMalayalam-syriac 0 nnnaMalayalam-syriac -143;
+        # 0865
+        pos raMalayalam-syriac 0 nnnaMalayalam-syriac.init -143;
+        pos raMalayalam-syriac 0 nun-syriac.cv18 550;
+        # 0722
+        pos raMalayalam-syriac 0 sadhe-syriac 405;
+        # 0728
+        pos raMalayalam-syriac 0 sadhe_nun-syriac 405;
+        # 0728
+        pos raMalayalam-syriac 0 dalath-syriac 143;
+        # 0715
+        pos raMalayalam-syriac 0 rish_dieresiscomb-syriac 143;
+        # unencoded
+        pos raMalayalam-syriac 0 dalath_hbasaEsasadotted-syriac 143;
+        # unencoded
+        pos raMalayalam-syriac 0 dalathrishDotless-syriac 143;
+        # 0716
+        pos raMalayalam-syriac 0 rish-syriac 143;
+        # 072A
+        pos raMalayalam-syriac 0 dhalathPersian-syriac 143;
+        # 072F
+        # final forms
+        pos raMalayalam-syriac.fina 0 gamal-syriac 405;
+        # 0713
+        pos raMalayalam-syriac.fina 0 gamal-syriac.init 405;
+        pos raMalayalam-syriac.fina 0 gamalgarshuni-syriac 405;
+        # 0714
+        pos raMalayalam-syriac.fina 0 gamalgarshuni-syriac.init 405;
+        pos raMalayalam-syriac.fina 0 ghamalPersian-syriac 405;
+        # 072E
+        pos raMalayalam-syriac.fina 0 ghamalPersian-syriac.init 405;
+        pos raMalayalam-syriac.fina 0 ngaMalayalam-syriac -43;
+        # 0860
+        pos raMalayalam-syriac.fina 0 ngaMalayalam-syriac.init -43;
+        pos raMalayalam-syriac.fina 0 jaMalayalam-syriac 143;
+        # 0861
+        pos raMalayalam-syriac.fina 0 nyaMalayalam-syriac -575;
+        # 0862 make negative number greater to tighten up
+        pos raMalayalam-syriac.fina 0 nyaMalayalam-syriac.init -575;
+        pos raMalayalam-syriac.fina 0 ttaMalayalam-syriac 143;
+        # 0863 make positive number greater to loosen up
+        pos raMalayalam-syriac.fina 0 ttaMalayalam-syriac.init 143;
+        pos raMalayalam-syriac.fina 0 nnaMalayalam-syriac -343;
+        # 0864
+        pos raMalayalam-syriac.fina 0 nnaMalayalam-syriac.init -343;
+        pos raMalayalam-syriac.fina 0 nnnaMalayalam-syriac -143;
+        # 0865
+        pos raMalayalam-syriac.fina 0 nnnaMalayalam-syriac.init -143;
+        pos raMalayalam-syriac.fina 0 nun-syriac.cv18 550;
+        # 0722
+        pos raMalayalam-syriac.fina 0 sadhe-syriac 405;
+        # 0728
+        pos raMalayalam-syriac.fina 0 sadhe_nun-syriac 405;
+        # 0728
+        pos raMalayalam-syriac.fina 0 dalath-syriac 143;
+        # 0715
+        pos raMalayalam-syriac.fina 0 rish_dieresiscomb-syriac 143;
+        # unencoded
+        pos raMalayalam-syriac.fina 0 dalath_hbasaEsasadotted-syriac 143;
+        # unencoded
+        pos raMalayalam-syriac.fina 0 dalathrishDotless-syriac 143;
+        # 0716
+        pos raMalayalam-syriac.fina 0 rish-syriac 143;
+        # 072A
+        pos raMalayalam-syriac.fina 0 dhalathPersian-syriac 143;
+        # 072F
+
+} kern_ra;
+
 lookup MarkToBase {
     lookupflag 0;
     pos base A <anchor 667 1335> mark @_above;
@@ -2350,6 +2452,7 @@ feature kern {
     lookup kern_dalath_sadhe_nun;
     lookup kern_sadhe_gamal;
     lookup kern_nun2;
+    lookup kern_ra;
 } kern;
 
 #********************
