@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bhaMalayalam-syriac.fina" format="2">
+  <advance width="1255"/>
+  <anchor x="737" y="1900" name="above"/>
+  <anchor x="151" y="1900" name="aboveleft"/>
+  <anchor x="682" y="-243" name="below"/>
+  <anchor x="151" y="-243" name="belowleft"/>
+  <outline>
+    <component base="_right_connector" xOffset="1377"/>
+    <component base="kashida-ar.quarter" xOffset="1288"/>
+    <component base="bhaMalayalam-syriac" xOffset="80"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

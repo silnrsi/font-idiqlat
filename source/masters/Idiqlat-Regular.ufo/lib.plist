@@ -30,16 +30,6 @@
   <string>3532</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/beth-syriac/he-syriac/kaph-syriac/alaph-syriac/mim-syriac/qaph-syriac/shin-syriac/pe-syriac/semkath-syriac 
-/he-syriac/qaph-syriac/yudhhe-syriac/space/mim-syriac/waw-syriac 
-/shin-syriac/space/yudh-syriac/heth-syriac 
-/heth-syriac/space/space/space/yudh-syriac/space 
-/semkath-syriac/semkathFinal-syriac/zain-syriac 
-/nun-syriac/beth-syriac/yudh-syriac/shin-syriac/beth-syriac/qaph-syriac 
-/threedotsabove-syriac/space/dalath-syriac/dalathrishDotless-syriac/rish-syriac/kaph-syriac 
-/pe-syriac/space/mim-syriac/space/brevebelowcomb 
-
-</string>
     <string>/shin-syriac/beth-syriac/taw-syriac/waw-syriac/lllaMalayalam-syriac/mim-syriac.cv17 
 /taw-syriac/raMalayalam-syriac/nnaMalayalam-syriac.init/mim-syriac.fina 
 /kaph-syriac/waw-syriac/llaMalayalam-syriac/nnaMalayalam-syriac.init/mim-syriac.fina 
@@ -65,13 +55,12 @@
 /nyaMalayalam-syriac/nyaMalayalam-syriac.init/space/nyaMalayalam-syriac.medi/nyaMalayalam-syriac.fina/ssaMalayalam-syriac/ssaMalayalam-syriac.fina/space/ssaMalayalam-syriac/ngaMalayalam-syriac.medi/nnnaMalayalam-syriac.medi 
 /ttaMalayalam-syriac/ttaMalayalam-syriac.init/ttaMalayalam-syriac.medi/ttaMalayalam-syriac.fina/nnaMalayalam-syriac/nnaMalayalam-syriac.init/nnaMalayalam-syriac.medi/nnaMalayalam-syriac.fina 
 /nnaMalayalam_ttaMalayalam-syriac/nnaMalayalam_ttaMalayalam-syriac.init/nnaMalayalam_ttaMalayalam-syriac.medi/nnaMalayalam_ttaMalayalam-syriac.fina/nnaMalayalam-syriac.init/ttaMalayalam-syriac.medi/nnnaMalayalam-syriac/nnnaMalayalam-syriac.init/nnnaMalayalam-syriac.medi/nnnaMalayalam-syriac.fina 
-/dalath-syriac/lamadh-syriac/alaph-syriac/space/pe-syriac/waw-syriac/rish-syriac/shin-syriac/waw-syriac/nun-syriac/yudh-syriac/alaph-syriac/bhaMalayalam-syriac/bhaMalayalam-syriac.init/shin-syriac/rish-syriac/beth-syriac/rukkakha-syriac/yudh-syriac/alaph-syriac/gamal-syriac/space/raMalayalam-syriac/beth-syriac.init/raMalayalam-syriac.fina/llaMalayalam-syriac/llaMalayalam-syriac.init/llaMalayalam-syriac.medi/llaMalayalam-syriac.fina 
+/dalath-syriac/lamadh-syriac/alaph-syriac/space/pe-syriac/waw-syriac/rish-syriac/shin-syriac/waw-syriac/nun-syriac/yudh-syriac/alaph-syriac/bhaMalayalam-syriac/bhaMalayalam-syriac.init/bhaMalayalam-syriac.medi/bhaMalayalam-syriac.fina/shin-syriac/rish-syriac/beth-syriac/rukkakha-syriac/yudh-syriac/alaph-syriac/gamal-syriac/space/raMalayalam-syriac/beth-syriac.init/raMalayalam-syriac.fina/nnnaMalayalam-syriac/llaMalayalam-syriac/llaMalayalam-syriac.init/llaMalayalam-syriac.medi/llaMalayalam-syriac.fina/_reversedpe/reversedpe-syriac/reversedpe-syriac.init/reversedpe-syriac.medi/reversedpe-syriac.fina 
 /mim-syriac/waw-syriac/yudh-syriac/alaph-syriac/alaph-syriac/lllaMalayalam-syriac/nun-syriac.init/nun-syriac/llaMalayalam-syriac/ssaMalayalam-syriac/nun-syriac.init/ssaMalayalam-syriac.fina/lllaMalayalam-syriac.fina 
 /alaph-syriac/ngaMalayalam-syriac.init/kaph-syriac.medi/yudh-syriac.medi/lamadh-syriac.fina/space/shin-syriac/waw-syriac/raMalayalam-syriac/yudh-syriac.init/ngaMalayalam-syriac.medi/nnaMalayalam-syriac.medi/mim-syriac.fina/space/shin-syriac.init/ssaMalayalam-syriac.fina/mim-syriac.cv17 
 /raMalayalam-syriac/ttaMalayalam-syriac/space/raMalayalam-syriac/gamalgarshuni-syriac/space/raMalayalam-syriac/tethGarshuni-syriac/space/raMalayalam-syriac/sadhe-syriac 
 
 /shin-syriac.init/beth-syriac.medi/taw-syriac.fina/waw-syriac/lllaMalayalam-syriac/mim-syriac.cv17/space/taw-syriac/raMalayalam-syriac/nnaMalayalam-syriac.init/mim-syriac.fina/space/bhaMalayalam-syriac/kaph-syriac/macronbelowcomb/taw-syriac/pthahadotted-syriac/nun-syriac/waw-syriac/hbasaEsasadotted-syriac/mim-syriac</string>
-    <string>/lamadh-syriac.medi</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

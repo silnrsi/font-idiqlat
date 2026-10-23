@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="raMalayalam-syriac.fina" format="2">
-  <advance width="1118"/>
+  <advance width="805"/>
   <anchor x="663" y="690" name="above"/>
   <anchor x="81" y="690" name="aboveleft"/>
   <anchor x="735" y="-843" name="below"/>
   <anchor x="81" y="-1240" name="belowleft"/>
   <outline>
-    <component base="_right_connector" xOffset="924"/>
+    <component base="_right_connector" xOffset="611"/>
     <component base="raMalayalam-syriac"/>
     <contour>
-      <point x="986" y="235" type="line"/>
-      <point x="846" y="0" type="line"/>
-      <point x="1103" y="0" type="line"/>
-      <point x="1103" y="235" type="line"/>
+      <point x="656" y="235" type="line"/>
+      <point x="516" y="0" type="line"/>
+      <point x="773" y="0" type="line"/>
+      <point x="773" y="235" type="line"/>
     </contour>
   </outline>
   <lib>
