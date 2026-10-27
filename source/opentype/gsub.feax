@@ -89,6 +89,15 @@ lookup LatinPunctuation {
 } LatinPunctuation ;
 }   #end do - Idiqlat
 
+# lookup bhaForms { # 086A
+#  lookupflag 0;
+#    sub bhaMalayalam-syriac @RightLinkIsol by bhaMalayalam-syriac.init @RightLinkFina ;
+#    sub bhaMalayalam-syriac @DualJoiningIsol by bhaMalayalam-syriac.init @DualJoiningFina ;
+#    sub bhaMalayalam-syriac @DualJoiningInit by bhaMalayalam-syriac.init @DualJoiningMedi ;
+#    sub @DualJoiningFina bhaMalayalam-syriac  by @DualJoiningMedi bhaMalayalam-syriac.fina  ;
+#    sub @RightLinkIsol bhaMalayalam-syriac  by @RightLinkInit bhaMalayalam-syriac.fina  ;
+# } bhaForms ;
+
 # HB PAUSE
 
 # This one decomposes U+073C into above and below counterparts (was called GPreDecompose)
@@ -218,6 +227,7 @@ lookup DalathRukkakha { # 0715 0742
     sub dalath-syriac rukkakha-syriac by dalath_hbasaEsasadotted-syriac ;
     sub dalath-syriac.fina rukkakha-syriac by dalath_hbasaEsasadotted-syriac.fina ;
 } DalathRukkakha ;
+
 
 # HB PAUSE
 

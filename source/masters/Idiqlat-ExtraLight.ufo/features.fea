@@ -680,23 +680,23 @@ markClass pthahadotted-syriac <anchor 696 823> @_center;
 #  Dual Joining - Next 4 should have 29 glyphs
 #**********************************
 # was called @DualJoiningXn
-@DualLinkIsol = [beth-syriac gamal-syriac gamalgarshuni-syriac heth-syriac teth-syriac tethGarshuni-syriac yudh-syriac kaph-syriac lamadh-syriac mim-syriac nun-syriac semkath-syriac semkathFinal-syriac e-syriac pe-syriac pe_brevebelowcomb-syriac reversedpe-syriac qaph-syriac shin-syriac bhethPersian-syriac ghamalPersian-syriac khaphSogdian-syriac feSogdian-syriac ngaMalayalam-syriac nyaMalayalam-syriac ttaMalayalam-syriac nnaMalayalam-syriac nnnaMalayalam-syriac llaMalayalam-syriac bhaMalayalam-syriac];
+@DualLinkIsol = [beth-syriac gamal-syriac gamalgarshuni-syriac heth-syriac teth-syriac tethGarshuni-syriac yudh-syriac kaph-syriac lamadh-syriac mim-syriac nun-syriac semkath-syriac semkathFinal-syriac e-syriac pe-syriac pe_brevebelowcomb-syriac reversedpe-syriac qaph-syriac shin-syriac bhethPersian-syriac ghamalPersian-syriac khaphSogdian-syriac feSogdian-syriac ngaMalayalam-syriac nyaMalayalam-syriac ttaMalayalam-syriac nnaMalayalam-syriac nnnaMalayalam-syriac llaMalayalam-syriac];
 # was called @DualJoiningXr
-@DualLinkFina = [beth-syriac.fina gamal-syriac.fina gamalgarshuni-syriac.fina heth-syriac.fina teth-syriac.fina tethGarshuni-syriac.fina yudh-syriac.fina kaph-syriac.fina lamadh-syriac.fina mim-syriac.fina nun-syriac.fina semkath-syriac.fina semkathFinal-syriac.fina e-syriac.fina pe-syriac.fina pe_brevebelowcomb-syriac.fina reversedpe-syriac.fina qaph-syriac.fina shin-syriac.fina bhethPersian-syriac.fina ghamalPersian-syriac.fina khaphSogdian-syriac.fina feSogdian-syriac.fina ngaMalayalam-syriac.fina nyaMalayalam-syriac.fina ttaMalayalam-syriac.fina nnaMalayalam-syriac.fina nnnaMalayalam-syriac.fina llaMalayalam-syriac.fina bhaMalayalam-syriac.fina];
+@DualLinkFina = [beth-syriac.fina gamal-syriac.fina gamalgarshuni-syriac.fina heth-syriac.fina teth-syriac.fina tethGarshuni-syriac.fina yudh-syriac.fina kaph-syriac.fina lamadh-syriac.fina mim-syriac.fina nun-syriac.fina semkath-syriac.fina semkathFinal-syriac.fina e-syriac.fina pe-syriac.fina pe_brevebelowcomb-syriac.fina reversedpe-syriac.fina qaph-syriac.fina shin-syriac.fina bhethPersian-syriac.fina ghamalPersian-syriac.fina khaphSogdian-syriac.fina feSogdian-syriac.fina ngaMalayalam-syriac.fina nyaMalayalam-syriac.fina ttaMalayalam-syriac.fina nnaMalayalam-syriac.fina nnnaMalayalam-syriac.fina llaMalayalam-syriac.fina];
 # was called @DualJoiningXm
-@DualLinkMedi = [beth-syriac.medi gamal-syriac.medi gamalgarshuni-syriac.medi heth-syriac.medi teth-syriac.medi tethGarshuni-syriac.medi yudh-syriac.medi kaph-syriac.medi lamadh-syriac.medi mim-syriac.medi nun-syriac.medi semkath-syriac.medi semkathFinal-syriac.medi e-syriac.medi pe-syriac.medi pe_brevebelowcomb-syriac.medi reversedpe-syriac.medi qaph-syriac.medi shin-syriac.medi bhethPersian-syriac.medi ghamalPersian-syriac.medi khaphSogdian-syriac.medi feSogdian-syriac.medi ngaMalayalam-syriac.medi nyaMalayalam-syriac.medi ttaMalayalam-syriac.medi nnaMalayalam-syriac.medi nnnaMalayalam-syriac.medi llaMalayalam-syriac.medi bhaMalayalam-syriac.medi];
+@DualLinkMedi = [beth-syriac.medi gamal-syriac.medi gamalgarshuni-syriac.medi heth-syriac.medi teth-syriac.medi tethGarshuni-syriac.medi yudh-syriac.medi kaph-syriac.medi lamadh-syriac.medi mim-syriac.medi nun-syriac.medi semkath-syriac.medi semkathFinal-syriac.medi e-syriac.medi pe-syriac.medi pe_brevebelowcomb-syriac.medi reversedpe-syriac.medi qaph-syriac.medi shin-syriac.medi bhethPersian-syriac.medi ghamalPersian-syriac.medi khaphSogdian-syriac.medi feSogdian-syriac.medi ngaMalayalam-syriac.medi nyaMalayalam-syriac.medi ttaMalayalam-syriac.medi nnaMalayalam-syriac.medi nnnaMalayalam-syriac.medi llaMalayalam-syriac.medi];
 # was called @DualJoiningXl
-@DualLinkInit = [beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init pe_brevebelowcomb-syriac.init reversedpe-syriac.init qaph-syriac.init shin-syriac.init bhethPersian-syriac.init ghamalPersian-syriac.init khaphSogdian-syriac.init feSogdian-syriac.init ngaMalayalam-syriac.init nyaMalayalam-syriac.init ttaMalayalam-syriac.init nnaMalayalam-syriac.init nnnaMalayalam-syriac.init llaMalayalam-syriac.init bhaMalayalam-syriac.init];
+@DualLinkInit = [beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init pe_brevebelowcomb-syriac.init reversedpe-syriac.init qaph-syriac.init shin-syriac.init bhethPersian-syriac.init ghamalPersian-syriac.init khaphSogdian-syriac.init feSogdian-syriac.init ngaMalayalam-syriac.init nyaMalayalam-syriac.init ttaMalayalam-syriac.init nnaMalayalam-syriac.init nnnaMalayalam-syriac.init llaMalayalam-syriac.init];
 @DualJoining = [@DualLinkIsol @DualLinkFina @DualLinkMedi @DualLinkInit];
 #**********************************
 #  Right joining - Next two should match
 #**********************************
 # was called @RightJoiningXn
 # does not include alaph-syriac as it is handled differently
-@RightLinkIsol = [dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac dhalathPersian-syriac zhainSogdian-syriac raMalayalam-syriac lllaMalayalam-syriac ssaMalayalam-syriac];
+@RightLinkIsol = [dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac dhalathPersian-syriac zhainSogdian-syriac raMalayalam-syriac lllaMalayalam-syriac ssaMalayalam-syriac bhaMalayalam-syriac];
 # was called @RightJoiningXr
 # does not include alaph-syriac.fina as it is handled differently
-@RightLinkFina = [dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina dhalathPersian-syriac.fina zhainSogdian-syriac.fina raMalayalam-syriac.fina lllaMalayalam-syriac.fina ssaMalayalam-syriac.fina];
+@RightLinkFina = [dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina dhalathPersian-syriac.fina zhainSogdian-syriac.fina raMalayalam-syriac.fina lllaMalayalam-syriac.fina ssaMalayalam-syriac.fina bhaMalayalam-syriac.fina];
 @AlaphIsol = [alaph-syriac alaph-syriac.fin2 alaph-syriac.fin3];
 @AlaphFina = [alaph-syriac.med2 alaph-syriac.fina];
 @RightJoining = [@RightLinkIsol @RightLinkFina @AlaphIsol @AlaphFina taw_alaph-syriac taw_alaph-syriac.fina];
@@ -736,7 +736,7 @@ markClass pthahadotted-syriac <anchor 696 823> @_center;
 @TypeLigature = [lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina];
 @MusicLigatureParts = [music-syriac music2-syriac music3-syriac graphemejoinercomb];
 # was @TypeLigatureOptionalEast
-@LigatureOptional = [sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina he_yudh-syriac he_yudh-syriac.fina taw_yudh-syriac taw_yudh-syriac.fina taw_alaph-syriac.triangle taw_alaph-syriac.fina.triangle taw_alaph-syriac.twined taw_alaph-syriac.fina.twined];
+@LigatureOptional = [sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina he_yudh-syriac he_yudh-syriac.fina taw_yudh-syriac taw_yudh-syriac.fina taw_alaph-syriac.triangle taw_alaph-syriac.fina.triangle taw_alaph-syriac.twined taw_alaph-syriac.fina.twined nnaMalayalam_ttaMalayalam-syriac nnaMalayalam_ttaMalayalam-syriac.init nnaMalayalam_ttaMalayalam-syriac.medi nnaMalayalam_ttaMalayalam-syriac.fina];
 # Not sure this is necessary, but need to check if kashida is being tested.
 @TypeSimple = [@RightJoining @DualJoining kashida-ar.threequarter kashida-ar.quarter kashida-ar.half kashida-ar dottedCircle];
 @kern_below = [dotbelowcomb dieresisbelowcomb brevebelowcomb tildebelowcomb circumflexbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac minusbelowcomb dotbelowleftcomb];
@@ -868,6 +868,14 @@ lookup FontCheck {
 # Replace Syriac punctuation glyphs with Latin ones:
     #    sub @Punct by @Punct_latn ;
     #end do - Idiqlat
+    # lookup bhaForms { # 086A
+    #  lookupflag 0;
+    #    sub bhaMalayalam-syriac @RightLinkIsol by bhaMalayalam-syriac.init @RightLinkFina ;
+    #    sub bhaMalayalam-syriac @DualJoiningIsol by bhaMalayalam-syriac.init @DualJoiningFina ;
+    #    sub bhaMalayalam-syriac @DualJoiningInit by bhaMalayalam-syriac.init @DualJoiningMedi ;
+    #    sub @DualJoiningFina bhaMalayalam-syriac  by @DualJoiningMedi bhaMalayalam-syriac.fina  ;
+    #    sub @RightLinkIsol bhaMalayalam-syriac  by @RightLinkInit bhaMalayalam-syriac.fina  ;
+    # } bhaForms ;
     # HB PAUSE
     # This one decomposes U+073C into above and below counterparts (was called GPreDecompose)
     lookup LatinPunctuation {
@@ -969,11 +977,6 @@ lookup ltrMedi {
 
 # HB PAUSE
 #---  init  lookup  ---
-lookup ltrBhaInit {
-    lookupflag IgnoreMarks;
-    sub bhaMalayalam-syriac' @DualLinkIsol by bhaMalayalam-syriac.init;
-} ltrBhaInit;
-
 lookup ltrInit {
     lookupflag IgnoreMarks;
     sub @DualLinkIsol by @DualLinkInit;
@@ -1231,7 +1234,6 @@ feature ccmp {
     # was r2
     lookup RukkakhaSquare;
     # was SquareDot
-    #        lookup ltrBhaInit ;
     # Force other languages to include Syriac script lookups
     language SYRN;
     # syc, syr
@@ -2413,6 +2415,14 @@ lookup MarkToLig {
         ligComponent <anchor 726 1603> mark @_above <anchor 847 -243> mark @_below;
     pos ligature taw_alaph-syriac.fina.twined <anchor 1430 1336> mark @_above <anchor 1527 -243> mark @_below
         ligComponent <anchor 726 1603> mark @_above <anchor 847 -243> mark @_below;
+    pos ligature nnaMalayalam_ttaMalayalam-syriac <anchor 2482 2476> mark @_above <anchor 2100 -243> mark @_below
+        ligComponent <anchor 668 634> mark @_above <anchor 1288 -843> mark @_below;
+    pos ligature nnaMalayalam_ttaMalayalam-syriac.init <anchor 2521 2476> mark @_above <anchor 2100 -243> mark @_below
+        ligComponent <anchor 728 634> mark @_above <anchor 1418 -843> mark @_below;
+    pos ligature nnaMalayalam_ttaMalayalam-syriac.medi <anchor 2521 2476> mark @_above <anchor 2200 -243> mark @_below
+        ligComponent <anchor 668 634> mark @_above <anchor 1418 -843> mark @_below;
+    pos ligature nnaMalayalam_ttaMalayalam-syriac.fina <anchor 2521 2476> mark @_above <anchor 2200 -243> mark @_below
+        ligComponent <anchor 718 634> mark @_above <anchor 1288 -843> mark @_below;
 } MarkToLig;
 
 #********************
