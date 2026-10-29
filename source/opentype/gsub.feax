@@ -230,12 +230,17 @@ lookup bhaForms { # 0866
     sub bhaMalayalam-syriac @RightLinkIsol'  by @RightLinkFina ; 
  } bhaForms ;
 
-lookup bhaFormsTwo { # 0866
+lookup bhaFormsTwo { # 0866 bha bha bha only produces the initial bha, the others are isolate forms, but it seems unlikely to happen.
 #  lookupflag 0;
+    sub @DualLinkInit bhaMalayalam-syriac' [@DualLinkMedi @DualLinkFina @RightLinkFina] by bhaMalayalam-syriac.medi ; 
     sub bhaMalayalam-syriac' @DualLinkFina by bhaMalayalam-syriac.init ; 
     sub bhaMalayalam-syriac' @DualLinkMedi by bhaMalayalam-syriac.init ; 
-    sub @DualLinkInit bhaMalayalam-syriac' by bhaMalayalam-syriac.medi ; 
     sub bhaMalayalam-syriac' @RightLinkFina  by bhaMalayalam-syriac.init ; 
+    sub @DualLinkInit bhaMalayalam-syriac' by bhaMalayalam-syriac.fina ; 
+# ZWJ
+    sub zerowidthjoiner bhaMalayalam-syriac' zerowidthjoiner by bhaMalayalam-syriac.medi ; 
+    sub zerowidthjoiner bhaMalayalam-syriac' by bhaMalayalam-syriac.fina ; 
+    sub bhaMalayalam-syriac' zerowidthjoiner by bhaMalayalam-syriac.init ; 
  } bhaFormsTwo ;
 
 }   #end do - Idiqlat

@@ -89,8 +89,12 @@
       <string>\u000865 \u000865\u00200D \u00200D\u000865\u00200D \u00200D\u000865 \u000865\u000865\u000865</string>
     </test>
     <test label="U+0866">
-      <comment>bhaMalayalam-syriac (NO joining)</comment>
-      <string>\u000712\u000866 \u000866\u000712 \u000712\u000866\u000712 \u000866\u000715 \u000715\u000866 \u000866 \u000866 \u000866\u00200D \u00200D\u000866\u00200D \u00200D\u000866 \u000866\u000866\u000866</string>
+      <comment>bhaMalayalam-syriac (NON joining)</comment>
+      <string>\u000866 \u000866\u00200D \u00200D\u000866\u00200D \u00200D\u000866 \u000866\u000866\u000866</string>
+    </test>
+    <test label="U+0866">
+      <comment>bhaMalayalam-syriac (NON joining)</comment>
+      <string>\u0866 \u000866\u000712 \u000712\u000866\u000712 \u000712\u000866 \u000712\u000866\u0715 \u000866\u000715 \u000715\u000866 </string>
     </test>
     <test label="U+0867">
       <comment>raMalayalam-syriac</comment>
