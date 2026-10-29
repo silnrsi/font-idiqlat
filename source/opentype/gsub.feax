@@ -89,15 +89,6 @@ lookup LatinPunctuation {
 } LatinPunctuation ;
 }   #end do - Idiqlat
 
-# lookup bhaForms { # 086A
-#  lookupflag 0;
-#    sub bhaMalayalam-syriac @RightLinkIsol by bhaMalayalam-syriac.init @RightLinkFina ;
-#    sub bhaMalayalam-syriac @DualJoiningIsol by bhaMalayalam-syriac.init @DualJoiningFina ;
-#    sub bhaMalayalam-syriac @DualJoiningInit by bhaMalayalam-syriac.init @DualJoiningMedi ;
-#    sub @DualJoiningFina bhaMalayalam-syriac  by @DualJoiningMedi bhaMalayalam-syriac.fina  ;
-#    sub @RightLinkIsol bhaMalayalam-syriac  by @RightLinkInit bhaMalayalam-syriac.fina  ;
-# } bhaForms ;
-
 # HB PAUSE
 
 # This one decomposes U+073C into above and below counterparts (was called GPreDecompose)
@@ -228,6 +219,26 @@ lookup DalathRukkakha { # 0715 0742
     sub dalath-syriac.fina rukkakha-syriac by dalath_hbasaEsasadotted-syriac.fina ;
 } DalathRukkakha ;
 
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 ; {
+
+lookup bhaForms { # 0866
+#  lookupflag 0;
+    sub [@DualLinkFina @DualLinkIsol]' bhaMalayalam-syriac by [@DualLinkMedi @DualLinkInit] ; 
+    sub bhaMalayalam-syriac @DualLinkIsol' by @DualLinkFina ; 
+    sub bhaMalayalam-syriac @DualLinkInit' by @DualLinkMedi ; 
+    sub bhaMalayalam-syriac @RightLinkIsol'  by @RightLinkFina ; 
+ } bhaForms ;
+
+lookup bhaFormsTwo { # 0866
+#  lookupflag 0;
+    sub bhaMalayalam-syriac' @DualLinkFina by bhaMalayalam-syriac.init ; 
+    sub bhaMalayalam-syriac' @DualLinkMedi by bhaMalayalam-syriac.init ; 
+    sub @DualLinkInit bhaMalayalam-syriac' by bhaMalayalam-syriac.medi ; 
+    sub bhaMalayalam-syriac' @RightLinkFina  by bhaMalayalam-syriac.init ; 
+ } bhaFormsTwo ;
+
+}   #end do - Idiqlat
 
 # HB PAUSE
 
@@ -556,6 +567,8 @@ feature rlig {  # Ligatures  -- these are done before ssxx and cvXX
         lookup DalathRukkakha;   # was r3
         lookup MusicLigatures;   # not in ESM
         lookup NnaTtaMalayalamLigature; # not in ESM
+        lookup bhaForms;         # not in Ramsina
+        lookup bhaFormsTwo;      # not in Ramsina
       # Force other languages to include Syriac script lookups
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
@@ -926,6 +939,7 @@ feature ss16 {
 } ss16;
 
 #---  liga feature (pass 10) ---
+        
 
 # not used
 

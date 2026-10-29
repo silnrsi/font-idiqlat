@@ -90,7 +90,7 @@
     </test>
     <test label="U+0866">
       <comment>bhaMalayalam-syriac (NO joining)</comment>
-      <string>\u000866 \u000866\u00200D \u00200D\u000866\u00200D \u00200D\u000866 \u000866\u000866\u000866</string>
+      <string>\u000712\u000866 \u000866\u000712 \u000712\u000866\u000712 \u000866\u000715 \u000715\u000866 \u000866 \u000866 \u000866\u00200D \u00200D\u000866\u00200D \u00200D\u000866 \u000866\u000866\u000866</string>
     </test>
     <test label="U+0867">
       <comment>raMalayalam-syriac</comment>
@@ -264,6 +264,34 @@
       <comment>12</comment>
       <string dir="rtl">ࡦܟ̱ܬܲܢܘܼܡ</string>
     </test>
+    <test label="Dipthong" dir="rtl">
+      <comment>13</comment>
+      <string dir="rtl">ࡠܟ̱ܐܸ</string>
+    </test>
+    <test label="14" dir="rtl">
+      <comment>14</comment>
+      <string dir="rtl">‍ࡢܫ̱</string>
+    </test>
+    <test label="15" dir="rtl">
+      <comment>15</comment>
+      <string dir="rtl">ࡤࡣ̱ </string>
+    </test>
+    <test label="16" dir="rtl">
+      <comment>16</comment>
+      <string dir="rtl">ܢܪ̱</string>
+    </test>
+    <test label="17" dir="rtl">
+      <comment>17</comment>
+      <string dir="rtl">ܟࡩ̱</string>
+    </test>
+    <test label="18" dir="rtl">
+      <comment>18</comment>
+      <string dir="rtl">ܢܝ̱ܐܸ</string>
+    </test>
+    <test label="19" dir="rtl">
+      <comment>19</comment>
+      <string dir="rtl">ܟࡪ̱</string>
+    </test>
   </testgroup>
 
   <testgroup label="Kerning ra">
@@ -288,7 +316,7 @@
 
   <testgroup label="Running text">
    <comment>Text from the Hendo site. It does not matter if they are misspelled, we just want to review running text and if it looks good.</comment>
-    <test label="para1"  dir="rtl">
+    <test label="para1">
       <comment>p1</comment>
       <string dir="rtl">ܣܲܪܒ݂ܲܫܲܟܬܲܢܘܼܡ ܦܝܼܬܵܒ݂ܘܼܡܵܝܲܐ ܐܹܟܲܕܲܝܒ݂ܲܬ̱ܝܼܠ ࡢܲࡠ̱ܲࡨ ܒ݂ܝܼܫܒ݂ܲܣܝܼܟ̱ܘܼࡥ̱ܘܼ.</string>
     </test>
