@@ -222,26 +222,40 @@ lookup DalathRukkakha { # 0715 0742
 do let f = info("familyName");
    if f.find("Idiqlat") != -1 ; {
 
-lookup bhaForms { # 0866
-#  lookupflag 0;
-    sub [@DualLinkFina @DualLinkIsol]' bhaMalayalam-syriac by [@DualLinkMedi @DualLinkInit] ; 
-    sub bhaMalayalam-syriac @DualLinkIsol' by @DualLinkFina ; 
-    sub bhaMalayalam-syriac @DualLinkInit' by @DualLinkMedi ; 
-    sub bhaMalayalam-syriac @RightLinkIsol'  by @RightLinkFina ; 
- } bhaForms ;
+@DualLinkAny = [@DualLinkIsol @DualLinkInit @DualLinkMedi @DualLinkFina] ;
+@RightLinkAny = [@RightLinkIsol @RightLinkFina] ;
 
-lookup bhaFormsTwo { # 0866 bha bha bha only produces the initial bha, the others are isolate forms, but it seems unlikely to happen.
-#  lookupflag 0;
-    sub @DualLinkInit bhaMalayalam-syriac' [@DualLinkMedi @DualLinkFina @RightLinkFina] by bhaMalayalam-syriac.medi ; 
-    sub bhaMalayalam-syriac' @DualLinkFina by bhaMalayalam-syriac.init ; 
-    sub bhaMalayalam-syriac' @DualLinkMedi by bhaMalayalam-syriac.init ; 
-    sub bhaMalayalam-syriac' @RightLinkFina  by bhaMalayalam-syriac.init ; 
-    sub @DualLinkInit bhaMalayalam-syriac' by bhaMalayalam-syriac.fina ; 
-# ZWJ
-    sub zerowidthjoiner bhaMalayalam-syriac' zerowidthjoiner by bhaMalayalam-syriac.medi ; 
-    sub zerowidthjoiner bhaMalayalam-syriac' by bhaMalayalam-syriac.fina ; 
-    sub bhaMalayalam-syriac' zerowidthjoiner by bhaMalayalam-syriac.init ; 
- } bhaFormsTwo ;
+lookup connectBoth {
+    sub @DualLinkIsol by @DualLinkMedi ;
+    sub @DualLinkFina by @DualLinkMedi ;
+    sub @DualLinkInit by @DualLinkMedi ;
+} connectBoth;
+
+lookup connectLeft {
+    sub @DualLinkIsol  by @DualLinkFina ;
+    sub @DualLinkInit  by @DualLinkMedi ;
+    sub @RightLinkIsol by @RightLinkFina ;
+} connectLeft;
+
+lookup connectRight {
+    sub @DualLinkIsol by @DualLinkInit ;
+    sub @DualLinkFina by @DualLinkMedi ;
+} connectRight;
+
+lookup bhaForms {
+    sub [@DualLinkInit @DualLinkMedi zerowidthjoiner]
+            [@DualLinkIsol @DualLinkInit @DualLinkFina]'  lookup connectBoth  
+                [@DualLinkAny @RightLinkAny zerowidthjoiner];
+    
+    sub [@DualLinkInit @DualLinkMedi zerowidthjoiner]
+            [@DualLinkIsol @DualLinkInit @RightLinkIsol]' lookup connectLeft;
+
+    sub  
+            [@DualLinkIsol @DualLinkFina]'                lookup connectRight 
+                [@DualLinkAny @RightLinkAny zerowidthjoiner];
+    
+} bhaForms;
+
 
 }   #end do - Idiqlat
 
@@ -573,7 +587,6 @@ feature rlig {  # Ligatures  -- these are done before ssxx and cvXX
         lookup MusicLigatures;   # not in ESM
         lookup NnaTtaMalayalamLigature; # not in ESM
         lookup bhaForms;         # not in Ramsina
-        lookup bhaFormsTwo;      # not in Ramsina
       # Force other languages to include Syriac script lookups
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
