@@ -868,14 +868,6 @@ lookup FontCheck {
 # Replace Syriac punctuation glyphs with Latin ones:
     #    sub @Punct by @Punct_latn ;
     #end do - Idiqlat
-    # lookup bhaForms { # 086A
-    #  lookupflag 0;
-    #    sub bhaMalayalam-syriac @RightLinkIsol by bhaMalayalam-syriac.init @RightLinkFina ;
-    #    sub bhaMalayalam-syriac @DualJoiningIsol by bhaMalayalam-syriac.init @DualJoiningFina ;
-    #    sub bhaMalayalam-syriac @DualJoiningInit by bhaMalayalam-syriac.init @DualJoiningMedi ;
-    #    sub @DualJoiningFina bhaMalayalam-syriac  by @DualJoiningMedi bhaMalayalam-syriac.fina  ;
-    #    sub @RightLinkIsol bhaMalayalam-syriac  by @RightLinkInit bhaMalayalam-syriac.fina  ;
-    # } bhaForms ;
     # HB PAUSE
     # This one decomposes U+073C into above and below counterparts (was called GPreDecompose)
     lookup LatinPunctuation {
@@ -1000,8 +992,33 @@ lookup DalathRukkakha {
     sub dalath-syriac.fina rukkakha-syriac by dalath_hbasaEsasadotted-syriac.fina;
 } DalathRukkakha;
 
-# HB PAUSE
-# Can have up to 3 music-syriac but they need to be a tight ligature
+    # 0866
+    #  lookupflag 0;
+    # 0866 bha bha bha only produces the initial bha, the others are isolate forms, but it seems unlikely to happen.
+    #  lookupflag 0;
+    # ZWJ
+    #end do - Idiqlat
+    # HB PAUSE
+    # Can have up to 3 music-syriac but they need to be a tight ligature
+    lookup bhaForms {
+        sub [@DualLinkFina @DualLinkIsol]' bhaMalayalam-syriac by [@DualLinkMedi @DualLinkInit];
+        sub bhaMalayalam-syriac @DualLinkIsol' by @DualLinkFina;
+        sub bhaMalayalam-syriac @DualLinkInit' by @DualLinkMedi;
+        sub bhaMalayalam-syriac @RightLinkIsol' by @RightLinkFina;
+    } bhaForms;
+
+    lookup bhaFormsTwo {
+        sub @DualLinkInit bhaMalayalam-syriac' [@DualLinkMedi @DualLinkFina @RightLinkFina] by bhaMalayalam-syriac.medi;
+        sub bhaMalayalam-syriac' @DualLinkFina by bhaMalayalam-syriac.init;
+        sub bhaMalayalam-syriac' @DualLinkMedi by bhaMalayalam-syriac.init;
+        sub bhaMalayalam-syriac' @RightLinkFina by bhaMalayalam-syriac.init;
+        sub @DualLinkInit bhaMalayalam-syriac' by bhaMalayalam-syriac.fina;
+        sub zerowidthjoiner bhaMalayalam-syriac' zerowidthjoiner by bhaMalayalam-syriac.medi;
+        sub zerowidthjoiner bhaMalayalam-syriac' by bhaMalayalam-syriac.fina;
+        sub bhaMalayalam-syriac' zerowidthjoiner by bhaMalayalam-syriac.init;
+    } bhaFormsTwo;
+
+
 lookup MusicLigatures {
     lookupflag MarkAttachmentType @MusicLigatureParts;
     sub music-syriac music-syriac by music2-syriac;
@@ -1333,6 +1350,10 @@ feature rlig {
     # not in ESM
     lookup NnaTtaMalayalamLigature;
     # not in ESM
+    lookup bhaForms;
+    # not in Ramsina
+    lookup bhaFormsTwo;
+    # not in Ramsina
     # Force other languages to include Syriac script lookups
     language SYRN;
     # syc, syr
