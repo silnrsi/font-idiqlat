@@ -10,16 +10,16 @@
     <component base="_nnaMalayalam" xOffset="647"/>
     <component base="kashida-ar.quarter" xOffset="2144"/>
     <contour>
-      <point x="1589" y="235" type="line"/>
-      <point x="1589" y="0" type="line"/>
-      <point x="2208" y="0" type="line"/>
-      <point x="2208" y="235" type="line"/>
-    </contour>
-    <contour>
       <point x="391" y="235" type="line"/>
       <point x="391" y="0" type="line"/>
       <point x="1009" y="0" type="line"/>
       <point x="1009" y="235" type="line"/>
+    </contour>
+    <contour>
+      <point x="1589" y="235" type="line"/>
+      <point x="1589" y="0" type="line"/>
+      <point x="2208" y="0" type="line"/>
+      <point x="2208" y="235" type="line"/>
     </contour>
   </outline>
   <lib>

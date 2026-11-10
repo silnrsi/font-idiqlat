@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnaMalayalam-syriac.fina" format="2">
-  <advance width="2570"/>
-  <anchor x="1623" y="2468" name="above"/>
-  <anchor x="81" y="2468" name="aboveleft"/>
-  <anchor x="1585" y="-243" name="below"/>
-  <anchor x="81" y="-243" name="belowleft"/>
+  <advance width="2402"/>
+  <anchor x="1685" y="2468" name="above"/>
+  <anchor x="143" y="2468" name="aboveleft"/>
+  <anchor x="1647" y="-243" name="below"/>
+  <anchor x="143" y="-243" name="belowleft"/>
   <outline>
-    <component base="_LeftTail" xOffset="-84"/>
-    <component base="_nnaMalayalam" xOffset="625"/>
-    <component base="kashida-ar.quarter" xOffset="2424"/>
+    <component base="_LeftTail" xOffset="-82"/>
+    <component base="_nnaMalayalam" xOffset="687"/>
+    <component base="kashida-ar.quarter" xOffset="2256"/>
     <contour>
-      <point x="1889" y="235" type="line"/>
-      <point x="1889" y="0" type="line"/>
-      <point x="2558" y="0" type="line"/>
-      <point x="2558" y="235" type="line"/>
+      <point x="453" y="316" type="line"/>
+      <point x="453" y="0" type="line"/>
+      <point x="1071" y="0" type="line"/>
+      <point x="1071" y="316" type="line"/>
     </contour>
     <contour>
-      <point x="391" y="235" type="line"/>
-      <point x="391" y="0" type="line"/>
-      <point x="1009" y="0" type="line"/>
-      <point x="1009" y="235" type="line"/>
+      <point x="1671" y="316" type="line"/>
+      <point x="1671" y="0" type="line"/>
+      <point x="2340" y="0" type="line"/>
+      <point x="2340" y="316" type="line"/>
     </contour>
   </outline>
   <lib>

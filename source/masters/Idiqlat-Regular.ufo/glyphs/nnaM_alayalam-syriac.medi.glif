@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnaMalayalam-syriac.medi" format="2">
-  <advance width="1989"/>
+  <advance width="1649"/>
   <anchor x="1063" y="2468" name="above"/>
   <anchor x="81" y="2468" name="aboveleft"/>
   <anchor x="1156" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="kashida-ar.quarter"/>
-    <component base="_nnaMalayalam" xOffset="45"/>
-    <component base="kashida-ar.quarter" xOffset="1854"/>
+    <component base="_nnaMalayalam" xOffset="-62"/>
+    <component base="kashida-ar.quarter" xOffset="1503"/>
     <contour>
-      <point x="1308" y="235" type="line"/>
-      <point x="1308" y="0" type="line"/>
-      <point x="1987" y="0" type="line"/>
-      <point x="1987" y="235" type="line"/>
+      <point x="948" y="316" type="line"/>
+      <point x="948" y="0" type="line"/>
+      <point x="1547" y="0" type="line"/>
+      <point x="1547" y="316" type="line"/>
     </contour>
   </outline>
   <lib>
