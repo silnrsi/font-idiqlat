@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="llaMalayalam-syriac.init" format="2">
-  <advance width="2185"/>
+  <advance width="2226"/>
   <anchor x="1568" y="2479" name="above"/>
   <anchor x="81" y="2479" name="aboveleft"/>
   <anchor x="1067" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="llaMalayalam-syriac"/>
-    <component base="kashida-ar.quarter"/>
+    <component base="_right_connector" xScale="-1" xOffset="297"/>
+    <component base="kashida-ar.quarter" xScale="0.77624" xOffset="-21"/>
   </outline>
   <lib>
     <dict>
