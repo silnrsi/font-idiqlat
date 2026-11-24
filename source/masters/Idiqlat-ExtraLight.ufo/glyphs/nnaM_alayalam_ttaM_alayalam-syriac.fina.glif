@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnaMalayalam_ttaMalayalam-syriac.fina" format="2">
-  <advance width="3163"/>
-  <anchor x="2521" y="2476" name="above_1"/>
-  <anchor x="718" y="634" name="above_2"/>
-  <anchor x="2200" y="-243" name="below_1"/>
-  <anchor x="1288" y="-843" name="below_2"/>
+  <advance width="3047"/>
+  <anchor x="2405" y="2476" name="above_1"/>
+  <anchor x="602" y="634" name="above_2"/>
+  <anchor x="2084" y="-243" name="below_1"/>
+  <anchor x="1172" y="-843" name="below_2"/>
   <outline>
-    <component base="nnaMalayalam_ttaMalayalam-syriac" xOffset="116"/>
-    <component base="_right_connector" xOffset="2969"/>
+    <component base="nnaMalayalam_ttaMalayalam-syriac"/>
+    <component base="_right_connector" xOffset="2853"/>
     <contour>
-      <point x="2482" y="235" type="line"/>
-      <point x="2482" y="0" type="line"/>
-      <point x="3161" y="0" type="line"/>
-      <point x="3161" y="235" type="line"/>
+      <point x="2366" y="235" type="line"/>
+      <point x="2366" y="0" type="line"/>
+      <point x="3045" y="0" type="line"/>
+      <point x="3045" y="235" type="line"/>
     </contour>
   </outline>
   <lib>

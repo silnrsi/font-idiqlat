@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yudh-syriac.init" format="2">
-  <advance width="915"/>
+  <advance width="935"/>
   <anchor x="421" y="745" name="above"/>
   <anchor x="81" y="745" name="aboveleft"/>
   <anchor x="551" y="-243" name="below"/>

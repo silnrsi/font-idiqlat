@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nyaMalayalam-syriac.medi" format="2">
-  <advance width="2059"/>
+  <advance width="2379"/>
   <anchor x="1313" y="2309" name="above"/>
   <anchor x="81" y="2309" name="aboveleft"/>
   <anchor x="1246" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_right_connector" xOffset="2233"/>
+    <component base="_right_connector" xOffset="2517"/>
     <component base="kashida-ar.quarter"/>
-    <component base="_nyaMalayalam" xOffset="-30"/>
+    <component base="_nyaMalayalam" xOffset="-120"/>
     <contour>
-      <point x="1238" y="235" type="line"/>
-      <point x="1238" y="0" type="line"/>
-      <point x="2057" y="0" type="line"/>
-      <point x="2057" y="235" type="line"/>
+      <point x="1338" y="316" type="line"/>
+      <point x="1338" y="0" type="line"/>
+      <point x="2377" y="0" type="line"/>
+      <point x="2377" y="316" type="line"/>
     </contour>
     <contour>
-      <point x="95" y="235" type="line"/>
+      <point x="95" y="316" type="line"/>
       <point x="95" y="0" type="line"/>
       <point x="434" y="0" type="line"/>
-      <point x="434" y="235" type="line"/>
+      <point x="434" y="316" type="line"/>
     </contour>
   </outline>
   <lib>

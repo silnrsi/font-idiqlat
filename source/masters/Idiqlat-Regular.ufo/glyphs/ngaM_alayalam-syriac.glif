@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ngaMalayalam-syriac" format="2">
-  <advance width="2102"/>
+  <advance width="2082"/>
   <unicode hex="0860"/>
   <anchor x="1289" y="2476" name="above"/>
   <anchor x="161" y="2476" name="aboveleft"/>

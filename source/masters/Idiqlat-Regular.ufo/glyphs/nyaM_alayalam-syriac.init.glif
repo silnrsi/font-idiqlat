@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nyaMalayalam-syriac.init" format="2">
-  <advance width="2568"/>
-  <anchor x="1225" y="2309" name="above"/>
-  <anchor x="81" y="2309" name="aboveleft"/>
-  <anchor x="674" y="-243" name="below"/>
-  <anchor x="81" y="-243" name="belowleft"/>
+  <advance width="2207"/>
+  <anchor x="1015" y="2309" name="above"/>
+  <anchor x="-129" y="2309" name="aboveleft"/>
+  <anchor x="464" y="-243" name="below"/>
+  <anchor x="-129" y="-243" name="belowleft"/>
   <outline>
     <component base="kashida-ar.quarter"/>
-    <component base="_nyaMalayalam" xOffset="-30"/>
+    <component base="_nyaMalayalam" xOffset="-240"/>
   </outline>
   <lib>
     <dict>

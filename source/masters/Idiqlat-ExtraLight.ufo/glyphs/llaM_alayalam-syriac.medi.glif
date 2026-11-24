@@ -6,8 +6,8 @@
   <anchor x="1067" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_right_connector" xOffset="2044"/>
     <component base="llaMalayalam-syriac"/>
+    <component base="_right_connector" xOffset="2044"/>
     <component base="_right_connector" xScale="-1" xOffset="297"/>
     <component base="kashida-ar.quarter" xScale="0.77624" xOffset="-21"/>
     <contour>

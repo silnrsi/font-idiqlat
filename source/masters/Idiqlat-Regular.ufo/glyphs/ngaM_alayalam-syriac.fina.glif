@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ngaMalayalam-syriac.fina" format="2">
-  <advance width="2424"/>
+  <advance width="2399"/>
   <anchor x="1626" y="2476" name="above"/>
   <anchor x="171" y="2476" name="aboveleft"/>
   <anchor x="1241" y="-243" name="below"/>
@@ -9,7 +9,7 @@
     <component base="_LeftTail" xOffset="-81"/>
     <component base="_ngaMalayalam" xOffset="790"/>
     <component base="_right_connector" xOffset="2396"/>
-    <component base="kashida-ar.quarter" xOffset="2278"/>
+    <component base="kashida-ar.quarter" xOffset="2253"/>
     <contour>
       <point x="521" y="316" type="line"/>
       <point x="521" y="0" type="line"/>

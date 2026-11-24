@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reversedpe-syriac" format="2">
-  <advance width="1796"/>
+  <advance width="1726"/>
   <unicode hex="0727"/>
   <anchor x="993" y="1603" name="above"/>
   <anchor x="81" y="1603" name="aboveleft"/>

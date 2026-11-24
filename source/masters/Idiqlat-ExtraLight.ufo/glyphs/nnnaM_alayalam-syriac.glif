@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnnaMalayalam-syriac" format="2">
-  <advance width="1880"/>
+  <advance width="1731"/>
   <unicode hex="0865"/>
-  <anchor x="1112" y="2479" name="above"/>
-  <anchor x="155" y="2479" name="aboveleft"/>
-  <anchor x="1141" y="-243" name="below"/>
-  <anchor x="155" y="-243" name="belowleft"/>
+  <anchor x="1020" y="2479" name="above"/>
+  <anchor x="63" y="2479" name="aboveleft"/>
+  <anchor x="1049" y="-243" name="below"/>
+  <anchor x="63" y="-243" name="belowleft"/>
   <outline>
-    <component base="_LeftTail" xOffset="10"/>
-    <component base="_nnnaMalayalam"/>
+    <component base="_LeftTail" xOffset="-82"/>
+    <component base="_nnnaMalayalam" xOffset="-92"/>
   </outline>
   <lib>
     <dict>
