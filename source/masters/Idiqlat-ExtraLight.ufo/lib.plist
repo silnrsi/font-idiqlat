@@ -491,6 +491,7 @@
     <string>dotaccentcomb</string>
     <string>dieresiscomb</string>
     <string>ringcomb</string>
+    <string>invbrevecomb</string>
     <string>minusbelowcomb</string>
     <string>dotbelowcomb</string>
     <string>dotaboveleftcomb</string>
@@ -1139,6 +1140,7 @@
     <string>dotaccentcomb</string>
     <string>dieresiscomb</string>
     <string>ringcomb</string>
+    <string>invbrevecomb</string>
     <string>minusbelowcomb</string>
     <string>dotbelowcomb</string>
     <string>dotaboveleftcomb</string>
@@ -1652,6 +1654,8 @@
     <string>Delta</string>
     <key>inhibitformshaping-ar</key>
     <string>uni206C</string>
+    <key>invbrevecomb</key>
+    <string>uni0311</string>
     <key>jaMalayalam-syriac</key>
     <string>uni0861</string>
     <key>kaph-syriac</key>

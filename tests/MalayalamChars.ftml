@@ -34,7 +34,15 @@
       <string>\u000727 \u000727\u00200D \u00200D\u000727\u00200D \u00200D\u000727 \u000727\u000727\u000727 </string>
     </test>
   </testgroup>
-  
+
+   <testgroup label="Combining mark">
+    <comment>U+0311 inverted breve above</comment>
+    <test label="U+0311">
+      <comment>pe-syriac</comment>
+      <string>\u000722\u0311 \u000722\u000311\u000716 </string>
+    </test>
+  </testgroup>
+
     <testgroup label="Alternates glyphs">
     <comment>Does Garshuni use the isolate kaph, mim, and nun which are the default or do you need the alternate?</comment>
     <test label="U+071F" dir="rtl">
