@@ -239,6 +239,10 @@
       <comment>ringcomb</comment>
       <string>\u0025CC\u00030A</string>
     </test>
+    <test background="#f0fff0" label="U+0311">
+      <comment>invbrevecomb</comment>
+      <string>\u0025CC\u000311</string>
+    </test>
     <test label="U+0320">
       <comment>minusbelowcomb</comment>
       <string>\u0025CC\u000320</string>
@@ -395,6 +399,10 @@
       <comment>pe-syriac</comment>
       <string>\u000726 \u000726\u00200D \u00200D\u000726\u00200D \u00200D\u000726 \u000726\u000726\u000726 </string>
     </test>
+    <test background="#f0fff0" label="U+0727">
+      <comment>reversedpe-syriac</comment>
+      <string>\u000727 \u000727\u00200D \u00200D\u000727\u00200D \u00200D\u000727 \u000727\u000727\u000727 </string>
+    </test>
     <test label="U+0728">
       <comment>sadhe-syriac</comment>
       <string>\u000728 \u00200D\u000728 </string>
@@ -442,6 +450,50 @@
     <test label="U+074F">
       <comment>feSogdian-syriac</comment>
       <string>\u00074F \u00074F\u00200D \u00200D\u00074F\u00200D \u00200D\u00074F \u00074F\u00074F\u00074F </string>
+    </test>
+    <test background="#f0fff0" label="U+0860">
+      <comment>ngaMalayalam-syriac</comment>
+      <string>\u000860 \u000860\u00200D \u00200D\u000860\u00200D \u00200D\u000860 \u000860\u000860\u000860 </string>
+    </test>
+    <test background="#f0fff0" label="U+0861">
+      <comment>jaMalayalam-syriac</comment>
+      <string>\u000861</string>
+    </test>
+    <test background="#f0fff0" label="U+0862">
+      <comment>nyaMalayalam-syriac</comment>
+      <string>\u000862 \u000862\u00200D \u00200D\u000862\u00200D \u00200D\u000862 \u000862\u000862\u000862 </string>
+    </test>
+    <test background="#f0fff0" label="U+0863">
+      <comment>ttaMalayalam-syriac</comment>
+      <string>\u000863 \u000863\u00200D \u00200D\u000863\u00200D \u00200D\u000863 \u000863\u000863\u000863 </string>
+    </test>
+    <test background="#f0fff0" label="U+0864">
+      <comment>nnaMalayalam-syriac</comment>
+      <string>\u000864 \u000864\u00200D \u00200D\u000864\u00200D \u00200D\u000864 \u000864\u000864\u000864 </string>
+    </test>
+    <test background="#f0fff0" label="U+0865">
+      <comment>nnnaMalayalam-syriac</comment>
+      <string>\u000865 \u000865\u00200D \u00200D\u000865\u00200D \u00200D\u000865 \u000865\u000865\u000865 </string>
+    </test>
+    <test background="#f0fff0" label="U+0866">
+      <comment>bhaMalayalam-syriac</comment>
+      <string>\u000866</string>
+    </test>
+    <test background="#f0fff0" label="U+0867">
+      <comment>raMalayalam-syriac</comment>
+      <string>\u000867 \u00200D\u000867 </string>
+    </test>
+    <test background="#f0fff0" label="U+0868">
+      <comment>llaMalayalam-syriac</comment>
+      <string>\u000868 \u000868\u00200D \u00200D\u000868\u00200D \u00200D\u000868 \u000868\u000868\u000868 </string>
+    </test>
+    <test background="#f0fff0" label="U+0869">
+      <comment>lllaMalayalam-syriac</comment>
+      <string>\u000869 \u00200D\u000869 </string>
+    </test>
+    <test background="#f0fff0" label="U+086A">
+      <comment>ssaMalayalam-syriac</comment>
+      <string>\u00086A \u00200D\u00086A </string>
     </test>
     <test label="U+1DF8">
       <comment>dotaboveleftcomb</comment>

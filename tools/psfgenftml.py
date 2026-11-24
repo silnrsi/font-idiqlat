@@ -8,7 +8,7 @@ __author__ = 'Bob Hallissy'
 import re
 from silfont.core import execute
 import silfont.ftml_builder as FB
-from palaso.unicode.ucd import get_ucd, loadxml
+from ucdinfo import get_ucd, loadxml
 from collections import OrderedDict
 from itertools import permutations
 
