@@ -1,6 +1,6 @@
 ---
 title: Idiqlat - Type Sample
-fontversion: 2.100
+fontversion: 2.200
 ---
 
 This document demonstrates all of the characters in the font. It is organized by Unicode block. Alternate glyphs that are available through features are demonstrated in the [Features](features.md) document. At the end is a sample demonstrating Syriac shaping.
@@ -29,7 +29,7 @@ Regular: <span class='idiqlatL-R normal'>ˆ ˇ ˉ ː ˘ ˙ ˚ ˛ ˜ ˝</span>
 
 ### Combining Diacritical Marks, Combining Diacritical Marks Supplement:
 
-Regular: <span class='idiqlatL-R normal'>&#x25CC;&#x0303; &#x25CC;&#x0304; &#x25CC;&#x0307; &#x25CC;&#x0308; &#x25CC;&#x030A; &#x25CC;&#x0320; &#x25CC;&#x0323; &#x25CC;&#x0324; &#x25CC;&#x0325; &#x25CC;&#x032D; &#x25CC;&#x032E; &#x25CC;&#x0330; &#x25CC;&#x0331; &#x25CC;&#x1DF8; &#x25CC;&#x1DFA;</span>
+Regular: <span class='idiqlatL-R normal'>&#x25CC;&#x0303; &#x25CC;&#x0304; &#x25CC;&#x0307; &#x25CC;&#x0308; &#x25CC;&#x030A; &#x25CC;&#x0311; &#x25CC;&#x0320; &#x25CC;&#x0323; &#x25CC;&#x0324; &#x25CC;&#x0325; &#x25CC;&#x032D; &#x25CC;&#x032E; &#x25CC;&#x0330; &#x25CC;&#x0331; &#x25CC;&#x1DF8; &#x25CC;&#x1DFA;</span>
 
 ### Greek and Coptic:
 
@@ -61,11 +61,17 @@ Regular: <span class='idiqlat-R normal'>&#x060C; &#x061B; &#x061F; &#x0640; &#x2
 
 <p dir="rtl"><span class='idiqlat-R normal'>&#x0700; &#x0701; &#x0702; &#x0703; &#x0704; &#x0705; &#x0706; &#x0707; &#x0708; &#x0709; &#x070A; &#x070B; &#x070C; &#x070D; &#x070F; &#x0710; &#x25cc;&#x0711; &#x0712; &#x0713; &#x0714; &#x0715; &#x0716; &#x0717; &#x0718; &#x0719; &#x071A; &#x071B; &#x071C; &#x071D; &#x071E; &#x071F; &#x0720; &#x0722; &#x0723; &#x0724; &#x0725; &#x0726; &#x0728; &#x072A; &#x072B; &#x072C; &#x072D; &#x072E; &#x072F; &#x25cc;&#x0730; &#x25cc;&#x0731; &#x25cc;&#x0732; &#x25cc;&#x0733; &#x25cc;&#x0734; &#x25cc;&#x0735; &#x25cc;&#x0736; &#x25cc;&#x0737; &#x25cc;&#x0738; &#x25cc;&#x0739; &#x25cc;&#x073A; &#x25cc;&#x073B; &#x25cc;&#x073C; &#x25cc;&#x073D; &#x25cc;&#x073E; &#x25cc;&#x073F; &#x25cc;&#x0740; &#x25cc;&#x0741; &#x25cc;&#x0742; &#x25cc;&#x0743; &#x25cc;&#x0744; &#x25cc;&#x0745; &#x25cc;&#x0746; &#x25cc;&#x0747; &#x25cc;&#x0748; &#x25cc;&#x0749; &#x25cc;&#x074A; &#x074D; &#x074E; &#x074F;</span></p>
 
+### Syriac Supplement:
+
+#### Regular:
+
+<p dir="rtl"><span class='idiqlat-R normal'>&#x0860; &#x0861; &#x0862; &#x0863; &#x0864; &#x0865; &#x0866; &#x0867; &#x0868; &#x0869; &#x086A;</span></p>
+
 ## Syriac Shaping (some basic shapes):
 
 #### Regular:
 
-<p dir="rtl"><span class='idiqlat-R normal'>&#x0710; &#x200D;&#x0710; &#x0712; &#x0712;&#x0712;&#x0712; &#x0713; &#x0713;&#x0713;&#x0713; &#x0715; &#x200D;&#x0715; &#x0717; &#x200D;&#x0717; &#x0718; &#x200D;&#x0718; &#x0719; &#x200D;&#x0719; &#x071a; &#x071a;&#x071a;&#x071a; &#x071b; &#x071b;&#x071b;&#x071b; &#x071d; &#x071d;&#x071d;&#x071d; &#x071f; &#x071f;&#x071f;&#x071f; &#x0720; &#x0720;&#x0720;&#x0720; &#x0721; &#x0721;&#x0721;&#x0721; &#x0722; &#x0722;&#x0722;&#x0722; &#x0723; &#x0723;&#x0723;&#x0723; &#x0725; &#x0725;&#x0725;&#x0725; &#x0726; &#x0726;&#x0726;&#x0726; &#x0728; &#x200D;&#x0728; &#x0729; &#x0729;&#x0729;&#x0729; &#x072a; &#x200D;&#x072a; &#x072b; &#x072b;&#x072b;&#x072b; &#x072c; &#x200D;&#x072c; </span></p>
+<p dir="rtl"><span class='idiqlat-R normal'>&#x0710; &#x200D;&#x0710; &#x0712; &#x0712;&#x0712;&#x0712; &#x0713; &#x0713;&#x0713;&#x0713; &#x0715; &#x200D;&#x0715; &#x0717; &#x200D;&#x0717; &#x0718; &#x200D;&#x0718; &#x0719; &#x200D;&#x0719; &#x071a; &#x071a;&#x071a;&#x071a; &#x071b; &#x071b;&#x071b;&#x071b; &#x071d; &#x071d;&#x071d;&#x071d; &#x071f; &#x071f;&#x071f;&#x071f; &#x0720; &#x0720;&#x0720;&#x0720; &#x0721; &#x0721;&#x0721;&#x0721; &#x0722; &#x0722;&#x0722;&#x0722; &#x0723; &#x0723;&#x0723;&#x0723; &#x0725; &#x0725;&#x0725;&#x0725; &#x0726; &#x0726;&#x0726;&#x0726; &#x0728; &#x200D;&#x0728; &#x0729; &#x0729;&#x0729;&#x0729; &#x072a; &#x200D;&#x072a; &#x072b; &#x072b;&#x072b;&#x072b; &#x072c; &#x200D;&#x072c; &#x0860; &#x0860;&#x0860;&#x0860; &#x0862; &#x0862;&#x0862;&#x0862; &#x0863; &#x0863;&#x0863;&#x0863;  &#x0864; &#x0864;&#x0864;&#x0864; &#x0865; &#x0865;&#x0865;&#x0865; &#x0866; &#x0866;&#x0866;&#x0866; &#x0867; &#x200D;&#x0867; &#x0868; &#x0868;&#x0868;&#x0868; &#x0869; &#x200D;&#x0869; &#x086a; &#x200D;&#x086a; </span></p>
 
 ## Syriac abbreviation mark:
 

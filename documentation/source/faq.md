@@ -1,6 +1,6 @@
 ---
 title: Idiqlat - Frequently Asked Questions
-fontversion: 2.100
+fontversion: 2.200
 ---
 
 Many questions can be answered by consulting the following FAQ pages. Here are a few sample questions answered in each FAQ:
@@ -38,10 +38,6 @@ This font was initially based on the design of the Syriac characters in East Syr
 
 Because Idiqlat is already quite heavy, it does not come with a Bold weight. If you tried to turn on Bold using the application’s UI controls such as a “B” button you will get what is called “fake” Bold. This will not look good. It would be better to choose a lighter weight, to use underlining, or to choose another font in order to show emphasis.
 
-### *I notice that this font is missing 0727 SYRIAC LETTER REVERSED PE and the characters from the Syriac Supplement block (0860..086F). Will you add them?*
+### *I notice that 0866 SYRIAC LETTER MALAYALAM BHA is dual-joining in your font. Whas that intentional?*
 
-This font supports the East Syriac style of writing. 
-
-SYRIAC LETTER REVERSED PE is only used in Christian Palestinian Aramaic which uses a significantly different style of writing Syriac. Thus, we chose not to include that character since there are no samples of usage in the East Syriac style.
-
-It does not appear that Garshuni Malayalam (the characters from the Syriac Supplement block) uses the East Syriac style of writing. If it became evident that those characters were written in the East Syriac style, we would consider adding them.
+Yes, it seems that Garushuni Malayalam does require the _bha_ to be dual-joining. A request has been submitted to Unicode for changing the joining behavior of bha.

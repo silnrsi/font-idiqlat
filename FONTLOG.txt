@@ -43,6 +43,10 @@ ChangeLog
   - 0869 SYRIAC LETTER MALAYALAM LLLA
   - 086A SYRIAC LETTER MALAYALAM SSA
 
+#### Changed
+
+- Sidebearings on some characters were made consistent
+
 ### 2026 Apr 17 (WSTech team) Idiqlat Version 2.100 (production release)
 - Moved the lookup in Contextual Alternates (calt) to Required Contextual Alternates (rclt)
 

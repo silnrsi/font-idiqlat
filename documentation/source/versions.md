@@ -1,6 +1,6 @@
 ---
 title: Idiqlat - Versions and Changes
-fontversion: 2.100
+fontversion: 2.200
 ---
 
 ## Announcement list

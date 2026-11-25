@@ -1,6 +1,6 @@
 ---
 title: Idiqlat - Documentation
-fontversion: 2.100
+fontversion: 2.200
 ---
 
 Thank you for your interest in the Idiqlat fonts. This font family supports the East Syriac style of the Syriac script.  
