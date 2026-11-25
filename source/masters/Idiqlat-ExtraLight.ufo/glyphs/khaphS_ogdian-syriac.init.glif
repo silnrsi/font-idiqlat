@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="khaphSogdian-syriac.init" format="2">
-  <advance width="1417"/>
+  <advance width="1304"/>
   <anchor x="943" y="1563" name="above"/>
   <anchor x="81" y="1563" name="aboveleft"/>
   <anchor x="575" y="-243" name="below"/>

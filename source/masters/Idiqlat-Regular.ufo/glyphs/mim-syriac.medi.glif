@@ -7,6 +7,6 @@
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="mim-syriac.init"/>
-    <component base="_right_connector" xOffset="1808"/>
+    <component base="_right_connector" xOffset="1801"/>
   </outline>
 </glyph>

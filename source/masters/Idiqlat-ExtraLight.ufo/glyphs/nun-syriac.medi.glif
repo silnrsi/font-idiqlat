@@ -7,6 +7,7 @@
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="kashida-ar.quarter"/>
+    <component base="kashida-ar.quarter" xOffset="789"/>
     <contour>
       <point x="643" y="802" type="curve"/>
       <point x="460" y="802" type="line"/>
@@ -50,7 +51,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>PPC</string>
+      <string>PPCC</string>
     </dict>
   </lib>
 </glyph>

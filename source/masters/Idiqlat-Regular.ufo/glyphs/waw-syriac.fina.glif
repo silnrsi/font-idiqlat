@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="waw-syriac.fina" format="2">
-  <advance width="1165"/>
+  <advance width="1175"/>
   <anchor x="630" y="1170" name="above"/>
   <anchor x="81" y="1170" name="aboveleft"/>
   <anchor x="630" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="waw-syriac"/>
-    <component base="_right_connector" xOffset="1309"/>
+    <component base="_right_connector" xOffset="1313"/>
   </outline>
 </glyph>

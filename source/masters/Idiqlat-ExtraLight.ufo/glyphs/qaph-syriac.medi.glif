@@ -8,7 +8,7 @@
   <outline>
     <component base="_qaph" xOffset="162"/>
     <component base="kashida-ar.quarter"/>
-    <component base="_right_connector" xOffset="1211"/>
+    <component base="_right_connector" xOffset="1213"/>
     <contour>
       <point x="429" y="235" type="curve"/>
       <point x="0" y="235" type="line"/>

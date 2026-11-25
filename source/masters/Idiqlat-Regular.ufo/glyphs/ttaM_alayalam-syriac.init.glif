@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ttaMalayalam-syriac.init" format="2">
-  <advance width="2025"/>
+  <advance width="2021"/>
   <anchor x="783" y="650" name="above"/>
   <anchor x="81" y="650" name="aboveleft"/>
   <anchor x="1410" y="-843" name="below"/>

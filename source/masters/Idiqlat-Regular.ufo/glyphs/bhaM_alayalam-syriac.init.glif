@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bhaMalayalam-syriac.init" format="2">
-  <advance width="1398"/>
+  <advance width="1399"/>
   <anchor x="737" y="1900" name="above"/>
   <anchor x="151" y="1900" name="aboveleft"/>
   <anchor x="682" y="-243" name="below"/>

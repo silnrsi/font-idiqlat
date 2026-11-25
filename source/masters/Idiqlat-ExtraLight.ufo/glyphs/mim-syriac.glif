@@ -7,7 +7,7 @@
   <anchor x="1297" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="mim-syriac.init" xOffset="356"/>
+    <component base="mim-syriac.init" xOffset="357"/>
     <component base="_LeftTail" xOffset="-81"/>
   </outline>
 </glyph>

@@ -7,6 +7,6 @@
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="beth-syriac.init"/>
-    <component base="_right_connector" xOffset="1652"/>
+    <component base="_right_connector" xOffset="1646"/>
   </outline>
 </glyph>

@@ -11,10 +11,10 @@
     <component base="_right_connector" xOffset="2458"/>
     <component base="kashida-ar.quarter" xScale="0.82216" xOffset="2321"/>
     <contour>
+      <point x="430" y="316" type="line"/>
       <point x="430" y="0" type="line"/>
       <point x="1098" y="0" type="line"/>
       <point x="1098" y="316" type="line"/>
-      <point x="430" y="316" type="line"/>
     </contour>
   </outline>
   <lib>

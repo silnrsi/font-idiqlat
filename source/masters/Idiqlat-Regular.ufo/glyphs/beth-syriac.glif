@@ -7,7 +7,7 @@
   <anchor x="1001" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="_beth" xOffset="293"/>
+    <component base="_beth" xOffset="294"/>
     <component base="_LeftTail" xOffset="-81"/>
   </outline>
 </glyph>

@@ -7,6 +7,7 @@
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="semkath-syriac.init"/>
+    <component base="kashida-ar.quarter" xOffset="1558"/>
     <contour>
       <point x="1348" y="235" type="line"/>
       <point x="1348" y="105"/>
@@ -19,7 +20,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>PC</string>
+      <string>PCC</string>
     </dict>
   </lib>
 </glyph>

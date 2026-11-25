@@ -8,6 +8,6 @@
   <outline>
     <component base="_qaph" xOffset="408"/>
     <component base="_LeftTail" xOffset="-81"/>
-    <component base="_right_connector" xOffset="1466"/>
+    <component base="_right_connector" xOffset="1468"/>
   </outline>
 </glyph>

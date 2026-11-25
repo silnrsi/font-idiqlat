@@ -8,6 +8,6 @@
   <outline>
     <component base="pe-syriac.init" xOffset="431"/>
     <component base="_LeftTail" xOffset="-81"/>
-    <component base="_right_connector" xOffset="2015"/>
+    <component base="_right_connector" xOffset="2009"/>
   </outline>
 </glyph>

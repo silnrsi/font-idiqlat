@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sadhe-syriac.fina" format="2">
-  <advance width="1121"/>
+  <advance width="1224"/>
   <anchor x="541" y="680" name="above"/>
   <anchor x="81" y="680" name="aboveleft"/>
   <anchor x="735" y="-947" name="below"/>
   <anchor x="81" y="-947" name="belowleft"/>
   <outline>
     <component base="sadhe-syriac"/>
+    <component base="kashida-ar.quarter" xScale="0.76414" xOffset="1135"/>
     <contour>
-      <point x="943" y="382" type="curve"/>
-      <point x="790" y="113" type="line"/>
-      <point x="883" y="29"/>
-      <point x="952" y="0"/>
-      <point x="1011" y="0" type="curve" smooth="yes"/>
-      <point x="1153" y="0" type="line"/>
-      <point x="1153" y="316" type="line"/>
-      <point x="1121" y="316" type="line" smooth="yes"/>
-      <point x="1045" y="316"/>
-      <point x="1012" y="324"/>
+      <point x="1068" y="382" type="curve"/>
+      <point x="915" y="113" type="line"/>
+      <point x="1008" y="29"/>
+      <point x="1077" y="0"/>
+      <point x="1136" y="0" type="curve" smooth="yes"/>
+      <point x="1228" y="0" type="line"/>
+      <point x="1228" y="316" type="line"/>
+      <point x="1196" y="316" type="line" smooth="yes"/>
+      <point x="1170" y="316"/>
+      <point x="1137" y="324"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>PC</string>
+      <string>PCC</string>
     </dict>
   </lib>
 </glyph>

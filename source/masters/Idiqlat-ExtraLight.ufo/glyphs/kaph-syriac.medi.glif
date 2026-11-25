@@ -7,6 +7,6 @@
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="kaph-syriac.init"/>
-    <component base="_right_connector" xOffset="1131"/>
+    <component base="_right_connector" xOffset="1132"/>
   </outline>
 </glyph>

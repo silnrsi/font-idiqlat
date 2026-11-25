@@ -6,7 +6,7 @@
   <anchor x="389" y="-996" name="below"/>
   <anchor x="81" y="-996" name="belowleft"/>
   <outline>
-    <component base="kashida-ar.quarter" xOffset="598"/>
+    <component base="kashida-ar.quarter" xOffset="597"/>
     <contour>
       <point x="640" y="-855" type="curve" smooth="yes"/>
       <point x="653" y="-855"/>

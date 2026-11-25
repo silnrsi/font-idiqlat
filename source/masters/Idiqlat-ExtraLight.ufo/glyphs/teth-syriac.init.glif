@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="teth-syriac.init" format="2">
-  <advance width="1994"/>
+  <advance width="1987"/>
   <anchor x="1109" y="1215" name="above"/>
   <anchor x="81" y="1215" name="aboveleft"/>
   <anchor x="575" y="-243" name="below"/>

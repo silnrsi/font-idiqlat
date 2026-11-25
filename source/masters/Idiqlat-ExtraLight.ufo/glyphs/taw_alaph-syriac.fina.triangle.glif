@@ -7,6 +7,7 @@
   <anchor x="364" y="-340" name="below_2"/>
   <outline>
     <component base="taw_alaph-syriac.triangle"/>
+    <component base="kashida-ar.quarter" xScale="0.76414" xOffset="1294"/>
     <contour>
       <point x="1249" y="235" type="line"/>
       <point x="1045" y="164" type="line"/>
@@ -20,7 +21,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>PC</string>
+      <string>PCC</string>
     </dict>
   </lib>
 </glyph>

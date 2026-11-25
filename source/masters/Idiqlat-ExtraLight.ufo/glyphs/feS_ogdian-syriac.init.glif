@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="feSogdian-syriac.init" format="2">
-  <advance width="1441"/>
+  <advance width="1435"/>
   <anchor x="641" y="1833" name="above"/>
   <anchor x="81" y="1833" name="aboveleft"/>
   <anchor x="688" y="-243" name="below"/>

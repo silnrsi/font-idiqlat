@@ -7,6 +7,6 @@
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
     <component base="shin-syriac"/>
-    <component base="kashida-ar.quarter" xOffset="1492"/>
+    <component base="kashida-ar.quarter" xOffset="1491"/>
   </outline>
 </glyph>

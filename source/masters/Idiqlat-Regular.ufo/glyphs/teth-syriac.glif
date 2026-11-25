@@ -7,7 +7,7 @@
   <anchor x="998" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="teth-syriac.init" xOffset="441"/>
+    <component base="teth-syriac.init" xOffset="440"/>
     <component base="_LeftTail" xOffset="-81"/>
   </outline>
 </glyph>

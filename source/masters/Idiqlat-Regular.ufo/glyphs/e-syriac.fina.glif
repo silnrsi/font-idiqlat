@@ -6,7 +6,7 @@
   <anchor x="1122" y="-243" name="below"/>
   <anchor x="81" y="-243" name="belowleft"/>
   <outline>
-    <component base="e-syriac.medi" xOffset="394"/>
+    <component base="e-syriac.medi" xOffset="393"/>
     <component base="_LeftTail" xOffset="-81"/>
   </outline>
 </glyph>
