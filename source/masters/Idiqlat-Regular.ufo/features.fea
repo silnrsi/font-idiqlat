@@ -189,7 +189,7 @@
 # baseClass reversedpe-syriac.init <anchor 785 1579> @above;
 # baseClass [rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina] <anchor 457 1628> @above;
 # baseClass s <anchor 479 1001> @above;
-# baseClass sadhe-syriac <anchor 492 680> @above;
+# baseClass sadhe-syriac <anchor 542 680> @above;
 # baseClass sadhe-syriac.fina <anchor 541 680> @above;
 # baseClass semkath-syriac <anchor 1241 1263> @above;
 # baseClass semkath-syriac.fina <anchor 1325 1263> @above;
@@ -2219,7 +2219,7 @@ lookup MarkToBase {
     pos base reversedpe-syriac.init <anchor 785 1579> mark @_above;
     pos base [rish-syriac rish-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina] <anchor 457 1628> mark @_above;
     pos base s <anchor 479 1001> mark @_above;
-    pos base sadhe-syriac <anchor 492 680> mark @_above;
+    pos base sadhe-syriac <anchor 542 680> mark @_above;
     pos base sadhe-syriac.fina <anchor 541 680> mark @_above;
     pos base semkath-syriac <anchor 1241 1263> mark @_above;
     pos base semkath-syriac.fina <anchor 1325 1263> mark @_above;

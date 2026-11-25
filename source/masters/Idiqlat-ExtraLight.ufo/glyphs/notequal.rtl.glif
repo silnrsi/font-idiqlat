@@ -2,7 +2,24 @@
 <glyph name="notequal.rtl" format="2">
   <advance width="1226"/>
   <outline>
-    <component base="notequal" xScale="-1" xOffset="1226"/>
+    <contour>
+      <point x="766" y="21" type="line"/>
+      <point x="918" y="87" type="line"/>
+      <point x="486" y="1134" type="line"/>
+      <point x="334" y="1066" type="line"/>
+    </contour>
+    <contour>
+      <point x="120" y="288" type="line"/>
+      <point x="1106" y="288" type="line"/>
+      <point x="1106" y="460" type="line"/>
+      <point x="120" y="460" type="line"/>
+    </contour>
+    <contour>
+      <point x="120" y="692" type="line"/>
+      <point x="1106" y="692" type="line"/>
+      <point x="1106" y="867" type="line"/>
+      <point x="120" y="867" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
